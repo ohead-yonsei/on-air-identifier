@@ -1,0 +1,234 @@
+[
+ {
+  "frame": "R03_t054",
+  "strip": [
+   5,
+   9,
+   4,
+   11,
+   2
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    8,
+    "guess"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R03_t085",
+  "strip": [
+   5,
+   9,
+   11,
+   4,
+   2
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R04_t055",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    11,
+    "guess"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R04_t058",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    4,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R05_t043",
+  "strip": [
+   1,
+   2,
+   7,
+   3,
+   8
+  ],
+  "system_front3": [
+   [
+    2,
+    "guess"
+   ],
+   [
+    8,
+    "sure"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R06_t048",
+  "strip": [
+   7,
+   6,
+   2,
+   4,
+   1
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R07_t030",
+  "strip": [
+   6,
+   7,
+   2,
+   3,
+   10
+  ],
+  "system_front3": [
+   [
+    6,
+    "sure"
+   ],
+   [
+    3,
+    "sure"
+   ],
+   [
+    1,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R07_t045",
+  "strip": [
+   6,
+   7,
+   2,
+   10,
+   3
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    6,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R07_t056",
+  "strip": [
+   6,
+   7,
+   10,
+   2,
+   11
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    4,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R10_t086",
+  "strip": [
+   3,
+   10,
+   6,
+   7,
+   11
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    10,
+    "guess"
+   ],
+   [
+    7,
+    "guess"
+   ]
+  ]
+ }
+]

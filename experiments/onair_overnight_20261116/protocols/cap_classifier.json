@@ -1,0 +1,56 @@
+{
+  "SYSTEM": "You classify the visible colour and pattern of one cropped jockey helmet. Do not identify race position or read a racecard.",
+  "PROMPT": "This image is a tight crop of one jockey helmet. Classify the helmet surface, ignoring skin, jacket, horse and background around its edge. Choose one colour/pattern class: white, yellow, red, black, blue, green, brown_maroon, pink, purple, sky_blue, sky_blue_white_stripes, or unknown. A solid light cap and a cap with alternating blue and white stripes are different classes. Return unknown if you cannot distinguish the class. Return only JSON with color_class.\nHELMET: [img]",
+  "SCHEMA": {
+    "type": "object",
+    "properties": {
+      "color_class": {
+        "type": "string",
+        "enum": [
+          "unknown",
+          "white",
+          "yellow",
+          "red",
+          "black",
+          "blue",
+          "green",
+          "brown_maroon",
+          "pink",
+          "purple",
+          "sky_blue",
+          "sky_blue_white_stripes"
+        ]
+      }
+    },
+    "required": [
+      "color_class"
+    ],
+    "additionalProperties": false
+  },
+  "CLASSES": [
+    "unknown",
+    "white",
+    "yellow",
+    "red",
+    "black",
+    "blue",
+    "green",
+    "brown_maroon",
+    "pink",
+    "purple",
+    "sky_blue",
+    "sky_blue_white_stripes"
+  ],
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 16384,
+    "num_predict": 96,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "source": "exact archived onair_cap_silks_20261116/direct_cap protocol; no changes"
+}

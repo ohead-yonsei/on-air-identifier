@@ -1,0 +1,737 @@
+{
+  "references": [
+    {
+      "frame": "t031",
+      "pts": 31.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h9",
+      "cap_person_detection": "p11",
+      "paired_person": "p11",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 12
+        },
+        "affine": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 12
+        },
+        "affine_dummy08": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 12
+        },
+        "affine_dummy12": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 12
+        }
+      }
+    },
+    {
+      "frame": "t031",
+      "pts": 31.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h9",
+      "cap_person_detection": "p10",
+      "paired_person": "p11",
+      "association_agrees_draft": false,
+      "tracks": {
+        "no_warp": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 11
+        },
+        "affine": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 11
+        },
+        "affine_dummy08": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 11
+        },
+        "affine_dummy12": {
+          "shot": 1,
+          "horse_track": 22,
+          "person_track": 11
+        }
+      }
+    },
+    {
+      "frame": "t031",
+      "pts": 31.0,
+      "number_draft": 11,
+      "nose_horse_detection": "h3",
+      "cap_person_detection": "p4",
+      "paired_person": "p4",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 1,
+          "horse_track": 16,
+          "person_track": 5
+        },
+        "affine": {
+          "shot": 1,
+          "horse_track": 16,
+          "person_track": 5
+        },
+        "affine_dummy08": {
+          "shot": 1,
+          "horse_track": 16,
+          "person_track": 5
+        },
+        "affine_dummy12": {
+          "shot": 1,
+          "horse_track": 16,
+          "person_track": 5
+        }
+      }
+    },
+    {
+      "frame": "t034",
+      "pts": 34.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h0",
+      "cap_person_detection": "p0",
+      "paired_person": "p0",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 61,
+          "person_track": 50
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 219,
+          "person_track": 213
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 353,
+          "person_track": 347
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 179,
+          "person_track": 175
+        }
+      }
+    },
+    {
+      "frame": "t034",
+      "pts": 34.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h2",
+      "cap_person_detection": "p3",
+      "paired_person": "p1",
+      "association_agrees_draft": false,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 62,
+          "person_track": 74
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 203,
+          "person_track": 199
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 355,
+          "person_track": 329
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 168,
+          "person_track": 164
+        }
+      }
+    },
+    {
+      "frame": "t034",
+      "pts": 34.0,
+      "number_draft": 5,
+      "nose_horse_detection": "h6",
+      "cap_person_detection": "p5",
+      "paired_person": "p4",
+      "association_agrees_draft": false,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 86,
+          "person_track": 54
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 181,
+          "person_track": 174
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 314,
+          "person_track": 295
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 150,
+          "person_track": 144
+        }
+      }
+    },
+    {
+      "frame": "t037",
+      "pts": 37.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h3",
+      "cap_person_detection": "p3",
+      "paired_person": "p3",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 104,
+          "person_track": 114
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 316,
+          "person_track": 364
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 667,
+          "person_track": 687
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 254,
+          "person_track": 278
+        }
+      }
+    },
+    {
+      "frame": "t037",
+      "pts": 37.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h2",
+      "cap_person_detection": "p2",
+      "paired_person": "p2",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 117,
+          "person_track": 75
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 371,
+          "person_track": 379
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 647,
+          "person_track": 686
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 297,
+          "person_track": 301
+        }
+      }
+    },
+    {
+      "frame": "t037",
+      "pts": 37.0,
+      "number_draft": 5,
+      "nose_horse_detection": "h7",
+      "cap_person_detection": "p6",
+      "paired_person": "p6",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 65,
+          "person_track": 107
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 354,
+          "person_track": 358
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 614,
+          "person_track": 629
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 284,
+          "person_track": 287
+        }
+      }
+    },
+    {
+      "frame": "t040",
+      "pts": 40.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h8",
+      "cap_person_detection": "p11",
+      "paired_person": "p11",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 104,
+          "person_track": 114
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 316,
+          "person_track": 364
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 667,
+          "person_track": 822
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 254,
+          "person_track": 278
+        }
+      }
+    },
+    {
+      "frame": "t040",
+      "pts": 40.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h7",
+      "cap_person_detection": "p10",
+      "paired_person": "p10",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 117,
+          "person_track": 75
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 371,
+          "person_track": 434
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 666,
+          "person_track": 821
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 297,
+          "person_track": 348
+        }
+      }
+    },
+    {
+      "frame": "t042",
+      "pts": 42.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h9",
+      "cap_person_detection": "p11",
+      "paired_person": "p11",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 104,
+          "person_track": 114
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 316,
+          "person_track": 501
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 1003,
+          "person_track": 1000
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 254,
+          "person_track": 278
+        }
+      }
+    },
+    {
+      "frame": "t042",
+      "pts": 42.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h8",
+      "cap_person_detection": "p9",
+      "paired_person": "p9",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 117,
+          "person_track": 168
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 503,
+          "person_track": 472
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 959,
+          "person_track": 999
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 396,
+          "person_track": 385
+        }
+      }
+    },
+    {
+      "frame": "t042",
+      "pts": 42.0,
+      "number_draft": 5,
+      "nose_horse_detection": "h7",
+      "cap_person_detection": "p8",
+      "paired_person": "p8",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 2,
+          "horse_track": 157,
+          "person_track": 107
+        },
+        "affine": {
+          "shot": 2,
+          "horse_track": 502,
+          "person_track": 494
+        },
+        "affine_dummy08": {
+          "shot": 2,
+          "horse_track": 897,
+          "person_track": 980
+        },
+        "affine_dummy12": {
+          "shot": 2,
+          "horse_track": 395,
+          "person_track": 392
+        }
+      }
+    },
+    {
+      "frame": "t048",
+      "pts": 48.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h2",
+      "cap_person_detection": "p3",
+      "paired_person": "p3",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 3,
+          "horse_track": 200,
+          "person_track": 260
+        },
+        "affine": {
+          "shot": 3,
+          "horse_track": 725,
+          "person_track": 730
+        },
+        "affine_dummy08": {
+          "shot": 3,
+          "horse_track": 1401,
+          "person_track": 1444
+        },
+        "affine_dummy12": {
+          "shot": 3,
+          "horse_track": 573,
+          "person_track": 578
+        }
+      }
+    },
+    {
+      "frame": "t048",
+      "pts": 48.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h0",
+      "cap_person_detection": "p2",
+      "paired_person": "p0",
+      "association_agrees_draft": false,
+      "tracks": {
+        "no_warp": {
+          "shot": 3,
+          "horse_track": 257,
+          "person_track": 235
+        },
+        "affine": {
+          "shot": 3,
+          "horse_track": 743,
+          "person_track": 736
+        },
+        "affine_dummy08": {
+          "shot": 3,
+          "horse_track": 1435,
+          "person_track": 1443
+        },
+        "affine_dummy12": {
+          "shot": 3,
+          "horse_track": 588,
+          "person_track": 581
+        }
+      }
+    },
+    {
+      "frame": "t048",
+      "pts": 48.0,
+      "number_draft": 5,
+      "nose_horse_detection": "h3",
+      "cap_person_detection": "p5",
+      "paired_person": "p5",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 3,
+          "horse_track": 206,
+          "person_track": 245
+        },
+        "affine": {
+          "shot": 3,
+          "horse_track": 695,
+          "person_track": 727
+        },
+        "affine_dummy08": {
+          "shot": 3,
+          "horse_track": 1355,
+          "person_track": 1427
+        },
+        "affine_dummy12": {
+          "shot": 3,
+          "horse_track": 545,
+          "person_track": 575
+        }
+      }
+    },
+    {
+      "frame": "t052",
+      "pts": 52.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h3",
+      "cap_person_detection": "p5",
+      "paired_person": "p5",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 4,
+          "horse_track": 337,
+          "person_track": 348
+        },
+        "affine": {
+          "shot": 4,
+          "horse_track": 813,
+          "person_track": 825
+        },
+        "affine_dummy08": {
+          "shot": 4,
+          "horse_track": 1589,
+          "person_track": 1606
+        },
+        "affine_dummy12": {
+          "shot": 4,
+          "horse_track": 641,
+          "person_track": 652
+        }
+      }
+    },
+    {
+      "frame": "t052",
+      "pts": 52.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h1",
+      "cap_person_detection": "p2",
+      "paired_person": "p3",
+      "association_agrees_draft": false,
+      "tracks": {
+        "no_warp": {
+          "shot": 4,
+          "horse_track": 336,
+          "person_track": 325
+        },
+        "affine": {
+          "shot": 4,
+          "horse_track": 812,
+          "person_track": 801
+        },
+        "affine_dummy08": {
+          "shot": 4,
+          "horse_track": 1588,
+          "person_track": 1577
+        },
+        "affine_dummy12": {
+          "shot": 4,
+          "horse_track": 640,
+          "person_track": 629
+        }
+      }
+    },
+    {
+      "frame": "t058",
+      "pts": 58.0,
+      "number_draft": 9,
+      "nose_horse_detection": "h10",
+      "cap_person_detection": "p11",
+      "paired_person": "p11",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 4,
+          "horse_track": 357,
+          "person_track": 356
+        },
+        "affine": {
+          "shot": 4,
+          "horse_track": 813,
+          "person_track": 892
+        },
+        "affine_dummy08": {
+          "shot": 4,
+          "horse_track": 1589,
+          "person_track": 1814
+        },
+        "affine_dummy12": {
+          "shot": 4,
+          "horse_track": 641,
+          "person_track": 658
+        }
+      }
+    },
+    {
+      "frame": "t058",
+      "pts": 58.0,
+      "number_draft": 1,
+      "nose_horse_detection": "h8",
+      "cap_person_detection": "p9",
+      "paired_person": "p9",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 4,
+          "horse_track": 336,
+          "person_track": 387
+        },
+        "affine": {
+          "shot": 4,
+          "horse_track": 812,
+          "person_track": 883
+        },
+        "affine_dummy08": {
+          "shot": 4,
+          "horse_track": 1748,
+          "person_track": 1797
+        },
+        "affine_dummy12": {
+          "shot": 4,
+          "horse_track": 640,
+          "person_track": 694
+        }
+      }
+    },
+    {
+      "frame": "t058",
+      "pts": 58.0,
+      "number_draft": 5,
+      "nose_horse_detection": "h9",
+      "cap_person_detection": "p10",
+      "paired_person": "p10",
+      "association_agrees_draft": true,
+      "tracks": {
+        "no_warp": {
+          "shot": 4,
+          "horse_track": 337,
+          "person_track": 348
+        },
+        "affine": {
+          "shot": 4,
+          "horse_track": 814,
+          "person_track": 877
+        },
+        "affine_dummy08": {
+          "shot": 4,
+          "horse_track": 1644,
+          "person_track": 1813
+        },
+        "affine_dummy12": {
+          "shot": 4,
+          "horse_track": 642,
+          "person_track": 689
+        }
+      }
+    }
+  ],
+  "summary": {
+    "no_warp": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 6,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 412,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 9,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 904,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine_dummy08": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 10,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 1814,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine_dummy12": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 8,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 710,
+      "not_MOT_ID_switch_ground_truth": true
+    }
+  },
+  "association_draft_matches": 17,
+  "reference_count": 22,
+  "reference_policy": "Assistant draft 22 nose/cap points, not human MOT identities. Smallest containing box is an evaluation proxy, not true instance segmentation.",
+  "frames": 271,
+  "cuts": [
+    31.0,
+    32.8,
+    43.1,
+    51.7
+  ],
+  "view_proxy_counts": {
+    "front_or_rear_like": 260,
+    "oblique_like": 11
+  },
+  "horse_person_pairs": 2608,
+  "unassigned_horses": 229,
+  "unassigned_people": 659
+}

@@ -1,0 +1,8 @@
+{
+  "original_and_server_copy_sha256_match": true,
+  "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+  "credential_shaped_log_values_found": 0,
+  "generations": 16,
+  "additional_generations": 0,
+  "note": "Source files contain example credential variable names but no user credentials were read."
+}

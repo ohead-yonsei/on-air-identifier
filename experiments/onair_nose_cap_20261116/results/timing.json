@@ -1,0 +1,62 @@
+[
+  {
+    "frame": "t35",
+    "method": "point_nearest",
+    "queries": 5,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.007899,
+    "p95_ms": 0.00804515,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  },
+  {
+    "frame": "t35",
+    "method": "line_nearest",
+    "queries": 5,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.008267,
+    "p95_ms": 0.00838505,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  },
+  {
+    "frame": "t35",
+    "method": "point_one_to_one",
+    "queries": 5,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.009632,
+    "p95_ms": 0.00975605,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  },
+  {
+    "frame": "t385",
+    "method": "point_nearest",
+    "queries": 6,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.008451,
+    "p95_ms": 0.008564,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  },
+  {
+    "frame": "t385",
+    "method": "line_nearest",
+    "queries": 6,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.008951500000000001,
+    "p95_ms": 0.0090721,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  },
+  {
+    "frame": "t385",
+    "method": "point_one_to_one",
+    "queries": 6,
+    "candidate_caps": 11,
+    "repeats": 1000,
+    "median_ms": 0.010649,
+    "p95_ms": 0.010804,
+    "scope": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition"
+  }
+]

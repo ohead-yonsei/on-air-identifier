@@ -1,0 +1,87 @@
+﻿scene,condition,claim_index,claim,status,kind,evidence,human_review,evidence_file
+S1_early,F,1,The field is leaving the start,supported_live,dynamic,S1 input frames 1–16 show the gates and the opening run.,,frames/S1_early/contact.jpg
+S1_early,F,2,The pack is tightly bunched,unverified,dynamic,Tightness is not operationally defined; two panels and overlap complicate depth.,,frames/S1_early/contact.jpg
+S1_early,F,3,No single leader has emerged,unverified,dynamic,ORDER unclear is abstention; the separate assertion that no leader exists is not established.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,1,No.1 is rank 1,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,2,No.11 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,3,No.3 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,4,No.11 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,5,No.3 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S1_early/contact.jpg
+S1_early,F-shuffle,6,The field is on the straight,supported_live,dynamic,S1 opening sequence shows a straight departure from the stalls.,,frames/S1_early/contact.jpg
+S1_early,F-no-video,1,The finish is too close to call,unverified,dynamic,No images supplied; a future finish outcome cannot be established from the card.,,frames/S1_early/contact.jpg
+S1_early,F-no-video,2,The leaders are jostling for position,unverified,dynamic,No dynamic evidence supplied.,,frames/S1_early/contact.jpg
+S1_early,F-no-video,3,There is no clear gap between the top contenders,unverified,dynamic,No dynamic evidence supplied; ambiguous scene has no certified gap label.,,frames/S1_early/contact.jpg
+S1_early,F-no-video,4,The field is sprinting toward the line now,unverified,dynamic,Generic finish narrative; card and total race distance do not establish current location.,,frames/S1_early/contact.jpg
+S1_early,B,1,The field is leaving the start,supported_live,dynamic,S1 input frames 1–16 show the gates and the opening run.,,frames/S1_early/contact.jpg
+S1_early,B,2,The pack is tightly bunched,unverified,dynamic,Tightness is not operationally defined; two panels and overlap complicate depth.,,frames/S1_early/contact.jpg
+S1_early,B,3,No single leader has emerged,unverified,dynamic,ORDER unclear is abstention; the separate assertion that no leader exists is not established.,,frames/S1_early/contact.jpg
+S2_bend,F,1,No.1 is rank 1,contradicted_dynamic,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S2_bend/contact.jpg
+S2_bend,F,2,No.6 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,F,3,No.7 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,F,4,No.6 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,F,5,No.7 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,F,6,A finish is happening now,unverified,dynamic,The sequence is a bend; the phrase thrilling finish is not evidence of current finish status.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,1,No.1 is rank 1,contradicted_dynamic,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,2,No.11 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,3,No.6 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,4,No.11 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,5,No.6 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,F-shuffle,6,A finish is happening now,unverified,dynamic,The sequence is a bend; the phrase thrilling finish is not evidence of current finish status.,,frames/S2_bend/contact.jpg
+S2_bend,F-no-video,1,The finish is too close to call,unverified,dynamic,No images supplied; a future finish outcome cannot be established from the card.,,frames/S2_bend/contact.jpg
+S2_bend,F-no-video,2,The leaders are jostling for position,unverified,dynamic,No dynamic evidence supplied.,,frames/S2_bend/contact.jpg
+S2_bend,F-no-video,3,There is no clear gap between the top contenders,contradicted_dynamic,dynamic,S2/S4 masked frames show an isolated purple-cap leader.,,frames/S2_bend/contact.jpg
+S2_bend,F-no-video,4,The field is sprinting toward the line now,unverified,dynamic,Generic finish narrative; card and total race distance do not establish current location.,,frames/S2_bend/contact.jpg
+S2_bend,B,1,No.6 is rank 1,contradicted_dynamic,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S2_bend/contact.jpg
+S2_bend,B,2,No.1 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,B,3,No.7 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S2_bend/contact.jpg
+S2_bend,B,4,No.1 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,B,5,No.7 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S2_bend/contact.jpg
+S2_bend,B,6,The field rounds a bend,supported_live,dynamic,Curved rail and turning trajectories in S2 frames.,,frames/S2_bend/contact.jpg
+S2_bend,B,7,This is the final bend,unverified,dynamic,Final-bend designation not independently time-aligned; no checkpoint rank is used.,,frames/S2_bend/contact.jpg
+S3_wide,F,1,No.10 is rank 1,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F,2,No.11 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F,3,No.5 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F,4,No.5 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S3_wide/contact.jpg
+S3_wide,F,5,The field rounds a bend,supported_live,dynamic,Visible curved rail and turn-to-side camera sequence.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,1,No.9 is rank 1,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,2,No.10 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,3,No.2 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,4,No.10 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,5,No.2 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,6,The field rounds a bend,supported_live,dynamic,Visible curved rail and turn-to-side camera sequence.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,7,No.9 has a purple cap,verified_background,background,Supplied racecard No.9.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,8,No.10 has a sky blue cap,verified_background,background,Supplied racecard No.10.,,frames/S3_wide/contact.jpg
+S3_wide,F-shuffle,9,No.2 has a yellow cap,verified_background,background,Supplied racecard No.2.,,frames/S3_wide/contact.jpg
+S3_wide,F-no-video,1,The finish is too close to call,unverified,dynamic,No images supplied; a future finish outcome cannot be established from the card.,,frames/S3_wide/contact.jpg
+S3_wide,F-no-video,2,The leaders are jostling for position,unverified,dynamic,No dynamic evidence supplied.,,frames/S3_wide/contact.jpg
+S3_wide,F-no-video,3,There is no clear gap between the top contenders,unverified,dynamic,No dynamic evidence supplied; ambiguous scene has no certified gap label.,,frames/S3_wide/contact.jpg
+S3_wide,F-no-video,4,The field is sprinting toward the line now,unverified,dynamic,Generic finish narrative; card and total race distance do not establish current location.,,frames/S3_wide/contact.jpg
+S3_wide,B,1,No.10 is rank 1,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,B,2,No.11 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,B,3,No.5 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S3_wide/contact.jpg
+S3_wide,B,4,No.5 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S3_wide/contact.jpg
+S3_wide,B,5,The field rounds a bend,supported_live,dynamic,Visible curved rail and turn-to-side camera sequence.,,frames/S3_wide/contact.jpg
+S3_wide,B,6,The field heads down the straight now,unverified,dynamic,Latest side view alone does not certify the exact course section.,,frames/S3_wide/contact.jpg
+S4_straight,F,1,No.1 is rank 1,contradicted_dynamic,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S4_straight/contact.jpg
+S4_straight,F,2,No.2 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,F,3,No.6 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,F,4,No.2 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,F,5,No.6 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,F,6,The field is rounding a bend now,unverified,dynamic,The interval contains a bend-to-straight transition; exact current section not certified.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,1,No.9 is rank 1,supported_live,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,2,No.6 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,3,No.2 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,4,No.6 Purple Sinhwa leads (body),contradicted_dynamic,dynamic,Body contradicts visible purple-cap No.9 and its own ORDER first number9.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,5,No.5 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,6,No.2 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,F-shuffle,7,The field is rounding a bend now,unverified,dynamic,Bend-to-straight transition; exact current section not certified.,,frames/S4_straight/contact.jpg
+S4_straight,F-no-video,1,The finish is too close to call,unverified,dynamic,No images supplied; a future finish outcome cannot be established from the card.,,frames/S4_straight/contact.jpg
+S4_straight,F-no-video,2,The leaders are jostling for position,unverified,dynamic,No dynamic evidence supplied.,,frames/S4_straight/contact.jpg
+S4_straight,F-no-video,3,There is no clear gap between the top contenders,contradicted_dynamic,dynamic,S2/S4 masked frames show an isolated purple-cap leader.,,frames/S4_straight/contact.jpg
+S4_straight,F-no-video,4,The field is sprinting toward the line now,unverified,dynamic,Generic finish narrative; card and total race distance do not establish current location.,,frames/S4_straight/contact.jpg
+S4_straight,B,1,No.10 is rank 1,contradicted_dynamic,dynamic,Masked sequence shows a sustained purple-cap No.9 lead.,,frames/S4_straight/contact.jpg
+S4_straight,B,2,No.2 is rank 2,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,B,3,No.6 is rank 3,unverified,dynamic,No independent timestamp-aligned rank label; do not substitute checkpoint ranks.,,frames/S4_straight/contact.jpg
+S4_straight,B,4,No.2 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,B,5,No.6 is close behind the stated leader,unverified,dynamic,Exact proximity/adjacency not certified in the limited visual reference.,,frames/S4_straight/contact.jpg
+S4_straight,B,6,The field is rounding a bend now,unverified,dynamic,The interval contains a bend-to-straight transition; exact current section not certified.,,frames/S4_straight/contact.jpg

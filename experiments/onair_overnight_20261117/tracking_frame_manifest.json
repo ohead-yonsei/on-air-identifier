@@ -1,0 +1,6777 @@
+[
+  {
+    "id": "track_0310",
+    "file": "tracking/frames/track_0310.png",
+    "target_pts": 31.0,
+    "actual_pts": 31.0,
+    "decoded_index": 929,
+    "sha256": "8c36befe303c0ae98aae62d5b7098eba6d9ad72926ddce2fff6debee9562a88e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0311",
+    "file": "tracking/frames/track_0311.png",
+    "target_pts": 31.1,
+    "actual_pts": 31.1,
+    "decoded_index": 932,
+    "sha256": "d6bd6026feddf992d5a705d032f0222171260bb437b53464090d509329d7c916",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0312",
+    "file": "tracking/frames/track_0312.png",
+    "target_pts": 31.2,
+    "actual_pts": 31.2,
+    "decoded_index": 935,
+    "sha256": "a348ff682a280455d0bb15be2577246ec1aad7b6872ec2628f90bd1287c5ab43",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0313",
+    "file": "tracking/frames/track_0313.png",
+    "target_pts": 31.3,
+    "actual_pts": 31.3,
+    "decoded_index": 938,
+    "sha256": "08f4c498f1f9d5af83906ef432d3fe682e6befe45f4870074504b3bcbe4f5d43",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0314",
+    "file": "tracking/frames/track_0314.png",
+    "target_pts": 31.4,
+    "actual_pts": 31.4,
+    "decoded_index": 941,
+    "sha256": "4648f287af38c8ad990d1a1f356928423385c7d2159aa76db4cefa8a076d9815",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0315",
+    "file": "tracking/frames/track_0315.png",
+    "target_pts": 31.5,
+    "actual_pts": 31.5,
+    "decoded_index": 944,
+    "sha256": "10218e57f0ab89b3ba4bfc934171848168a89dc2affee1b30fe44430c6ecf9c9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0316",
+    "file": "tracking/frames/track_0316.png",
+    "target_pts": 31.6,
+    "actual_pts": 31.6,
+    "decoded_index": 947,
+    "sha256": "4a9348b64bb61f86adf110e0892034518ec51c497351fd6bb82337d96f46a707",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0317",
+    "file": "tracking/frames/track_0317.png",
+    "target_pts": 31.7,
+    "actual_pts": 31.7,
+    "decoded_index": 950,
+    "sha256": "6e53ae7b39176bf119fc0cf3de5f6c23b80b5c95652a89e04a53b472401f4a6a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0318",
+    "file": "tracking/frames/track_0318.png",
+    "target_pts": 31.8,
+    "actual_pts": 31.8,
+    "decoded_index": 953,
+    "sha256": "1e7e6a6e36666938ea76ae52e1d4d4d2a3106365016e66ee59d1f342b964765b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0319",
+    "file": "tracking/frames/track_0319.png",
+    "target_pts": 31.9,
+    "actual_pts": 31.9,
+    "decoded_index": 956,
+    "sha256": "28b0f08700d46931af94162655f56eccc93d8e8cd1d84431a81756e3ddae608e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0320",
+    "file": "tracking/frames/track_0320.png",
+    "target_pts": 32.0,
+    "actual_pts": 32.0,
+    "decoded_index": 959,
+    "sha256": "64f7a37026589c19d558dcdb52d67b5ff66c270e3593b5fc5e696a46afa3ecef",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0321",
+    "file": "tracking/frames/track_0321.png",
+    "target_pts": 32.1,
+    "actual_pts": 32.1,
+    "decoded_index": 962,
+    "sha256": "58d287148fab562defd05b7f9b0c533e62cd621f07513d7777661d308aa2403d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0322",
+    "file": "tracking/frames/track_0322.png",
+    "target_pts": 32.2,
+    "actual_pts": 32.2,
+    "decoded_index": 965,
+    "sha256": "4d0be8ab05bcbc09ad5ad1302b6c628cac2675040d214301c9cbeca14cbe9945",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0323",
+    "file": "tracking/frames/track_0323.png",
+    "target_pts": 32.3,
+    "actual_pts": 32.3,
+    "decoded_index": 968,
+    "sha256": "ef6a2155795df2bdb9333623b415c7f44a4dfa088b579290bc5961a7848a1b90",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0324",
+    "file": "tracking/frames/track_0324.png",
+    "target_pts": 32.4,
+    "actual_pts": 32.4,
+    "decoded_index": 971,
+    "sha256": "3167a6c7a2f0def2a37b33bbc460b206d7f7eecad1897c9d39550ec60952943b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0325",
+    "file": "tracking/frames/track_0325.png",
+    "target_pts": 32.5,
+    "actual_pts": 32.5,
+    "decoded_index": 974,
+    "sha256": "6893f385712d8f39ada1fa6418e634ea5669884bb9dd868df1dba088771d69ba",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0326",
+    "file": "tracking/frames/track_0326.png",
+    "target_pts": 32.6,
+    "actual_pts": 32.6,
+    "decoded_index": 977,
+    "sha256": "858443d7c173c982449ac43bead03f79562fc8802392a7b0441e18cd1a2355b3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0327",
+    "file": "tracking/frames/track_0327.png",
+    "target_pts": 32.7,
+    "actual_pts": 32.7,
+    "decoded_index": 980,
+    "sha256": "e151ab2ffb8c104f976ff967f7c70f02e12ed1150c093a892d16b5a948ef4570",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0328",
+    "file": "tracking/frames/track_0328.png",
+    "target_pts": 32.8,
+    "actual_pts": 32.8,
+    "decoded_index": 983,
+    "sha256": "aed319a4b1b21af6c98924842ff89f2195a5a218846de16b23a9167ffe0d493c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0329",
+    "file": "tracking/frames/track_0329.png",
+    "target_pts": 32.9,
+    "actual_pts": 32.9,
+    "decoded_index": 986,
+    "sha256": "0bbc753862334d40caa69dd4a59b95f082bc5cb54f95dc6e634a07f1690c296e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0330",
+    "file": "tracking/frames/track_0330.png",
+    "target_pts": 33.0,
+    "actual_pts": 33.0,
+    "decoded_index": 989,
+    "sha256": "1336643797f5adb1624fc9725142a7aad6b9bf1c0cf9c65d9e44b0b7def3cc2a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0331",
+    "file": "tracking/frames/track_0331.png",
+    "target_pts": 33.1,
+    "actual_pts": 33.1,
+    "decoded_index": 992,
+    "sha256": "75e5095e2ed76ca5d11e6b124c203e553d8333ff9aefcff742f82cddb66e15b6",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0332",
+    "file": "tracking/frames/track_0332.png",
+    "target_pts": 33.2,
+    "actual_pts": 33.2,
+    "decoded_index": 995,
+    "sha256": "d7c36f88b36768948b50b2b1e63e52c139dd932c031b5e3fc590941cb91a66c6",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0333",
+    "file": "tracking/frames/track_0333.png",
+    "target_pts": 33.3,
+    "actual_pts": 33.3,
+    "decoded_index": 998,
+    "sha256": "2f417c5b7ff9d6456f18278c886ea85f6c49e63dce76f658d57b906c66ca1660",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0334",
+    "file": "tracking/frames/track_0334.png",
+    "target_pts": 33.4,
+    "actual_pts": 33.4,
+    "decoded_index": 1001,
+    "sha256": "f594e638ab2fbcf8c598b3e608b988fe6a8254727ffdc3d2729e51e07687f50b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0335",
+    "file": "tracking/frames/track_0335.png",
+    "target_pts": 33.5,
+    "actual_pts": 33.5,
+    "decoded_index": 1004,
+    "sha256": "0129a6c2ab4dd3d061fc43b6eddede99abb3a0ff445d0d9e96e83c685895879e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0336",
+    "file": "tracking/frames/track_0336.png",
+    "target_pts": 33.6,
+    "actual_pts": 33.6,
+    "decoded_index": 1007,
+    "sha256": "308e02590e2801d0afed8e6d8541057f87c9eeec2baf532fa79f4aa3fee8c41d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0337",
+    "file": "tracking/frames/track_0337.png",
+    "target_pts": 33.7,
+    "actual_pts": 33.7,
+    "decoded_index": 1010,
+    "sha256": "215c4161279a9d04b089e7cce7815dda07db128de461f5476732022f80027429",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0338",
+    "file": "tracking/frames/track_0338.png",
+    "target_pts": 33.8,
+    "actual_pts": 33.8,
+    "decoded_index": 1013,
+    "sha256": "9c3ce4b4cd09b4166ae6f7d97cd7f7ecb2796f2162e78ff25b3d75fbfbbceb46",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0339",
+    "file": "tracking/frames/track_0339.png",
+    "target_pts": 33.9,
+    "actual_pts": 33.9,
+    "decoded_index": 1016,
+    "sha256": "32c5a40664030737e0748ab73af7b40bee8ec5cc144c1a2b6e8e7c29a8b10128",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0340",
+    "file": "tracking/frames/track_0340.png",
+    "target_pts": 34.0,
+    "actual_pts": 34.0,
+    "decoded_index": 1019,
+    "sha256": "64239b18121df1ff3fe0dbbe24b06b53f88ab1a429552bdda9206a9814452f16",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0341",
+    "file": "tracking/frames/track_0341.png",
+    "target_pts": 34.1,
+    "actual_pts": 34.1,
+    "decoded_index": 1022,
+    "sha256": "8c9abb9b78cd5f8826d6197534f73382d9713a6572a12784e5de9be598803a40",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0342",
+    "file": "tracking/frames/track_0342.png",
+    "target_pts": 34.2,
+    "actual_pts": 34.2,
+    "decoded_index": 1025,
+    "sha256": "07f3aa999776db57d51d2c3bb8731d3314cd8a94bccdad1e52cc51dff9e8435a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0343",
+    "file": "tracking/frames/track_0343.png",
+    "target_pts": 34.3,
+    "actual_pts": 34.3,
+    "decoded_index": 1028,
+    "sha256": "5c10c025abdcac4eb4a343af1d7e3f003ffee899c3605967cc847b3a9a162f38",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0344",
+    "file": "tracking/frames/track_0344.png",
+    "target_pts": 34.4,
+    "actual_pts": 34.4,
+    "decoded_index": 1031,
+    "sha256": "be6fb5672111efb510cf7304945fd601e161d3ca4372949cff07505e1cda391c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0345",
+    "file": "tracking/frames/track_0345.png",
+    "target_pts": 34.5,
+    "actual_pts": 34.5,
+    "decoded_index": 1034,
+    "sha256": "7362f9f8a4dcee5f062ea412893d6a3dc9ca36e04173e729fdb36b76f54a525e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0346",
+    "file": "tracking/frames/track_0346.png",
+    "target_pts": 34.6,
+    "actual_pts": 34.6,
+    "decoded_index": 1037,
+    "sha256": "2ec2a3ac542d7be5c9f1579ef570df16310d520f0840981c4ddd79b138a61dc7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0347",
+    "file": "tracking/frames/track_0347.png",
+    "target_pts": 34.7,
+    "actual_pts": 34.7,
+    "decoded_index": 1040,
+    "sha256": "858e3381a09bdbf49d48de122473c5d193898efd826472bfcc41d59a946150c9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0348",
+    "file": "tracking/frames/track_0348.png",
+    "target_pts": 34.8,
+    "actual_pts": 34.8,
+    "decoded_index": 1043,
+    "sha256": "36cc579c3c9cd3c03167b4ff3b74022cf51e6195333af404b91ffc3ffa8e6254",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0349",
+    "file": "tracking/frames/track_0349.png",
+    "target_pts": 34.9,
+    "actual_pts": 34.9,
+    "decoded_index": 1046,
+    "sha256": "bc884297b64d0a05fb55da2bc4555fbc7512619b1b5cee2737c78a2222354e7f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0350",
+    "file": "tracking/frames/track_0350.png",
+    "target_pts": 35.0,
+    "actual_pts": 35.0,
+    "decoded_index": 1049,
+    "sha256": "227f7f79195b524b8772f9af876d778d27056e54d1bc8350aac5297dc47f3306",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0351",
+    "file": "tracking/frames/track_0351.png",
+    "target_pts": 35.1,
+    "actual_pts": 35.1,
+    "decoded_index": 1052,
+    "sha256": "c37e532659e9da6655d6dd8aa0f970cb637fee4590e3b36725b41e5670ae1627",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0352",
+    "file": "tracking/frames/track_0352.png",
+    "target_pts": 35.2,
+    "actual_pts": 35.2,
+    "decoded_index": 1055,
+    "sha256": "5dd34b37a0bf8b8c82c1ed314d4165ad31a01e9fc1c49efd6706ddb4691a1e29",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0353",
+    "file": "tracking/frames/track_0353.png",
+    "target_pts": 35.3,
+    "actual_pts": 35.3,
+    "decoded_index": 1058,
+    "sha256": "f2dbc9a273a05f608528b4b637526f077ac9d4bacc3c7ca78c074e5629357c7e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0354",
+    "file": "tracking/frames/track_0354.png",
+    "target_pts": 35.4,
+    "actual_pts": 35.4,
+    "decoded_index": 1061,
+    "sha256": "0698a0ad4bea34f4e46e58788aee022a4b34188fe8501e119ddbd01e66e64acd",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0355",
+    "file": "tracking/frames/track_0355.png",
+    "target_pts": 35.5,
+    "actual_pts": 35.5,
+    "decoded_index": 1064,
+    "sha256": "1ab138f161582dfd444b7f51f56e2faaf1c6afdcf37a65c61d1fda77920f7c4d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0356",
+    "file": "tracking/frames/track_0356.png",
+    "target_pts": 35.6,
+    "actual_pts": 35.6,
+    "decoded_index": 1067,
+    "sha256": "b37c84d179c04ff572a3feebd9ea0b15e83d61b4eaf9898568bd3c346efca3ea",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0357",
+    "file": "tracking/frames/track_0357.png",
+    "target_pts": 35.7,
+    "actual_pts": 35.7,
+    "decoded_index": 1070,
+    "sha256": "bf2fbb561a8e956d26e06b5a28519da6bda42951a01f8ff43677389136fbab87",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0358",
+    "file": "tracking/frames/track_0358.png",
+    "target_pts": 35.8,
+    "actual_pts": 35.8,
+    "decoded_index": 1073,
+    "sha256": "77d9d40fdbe8e39f8af58b0697c64843e5d1779f612efa575931accc7a06074e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0359",
+    "file": "tracking/frames/track_0359.png",
+    "target_pts": 35.9,
+    "actual_pts": 35.9,
+    "decoded_index": 1076,
+    "sha256": "03791be1f869449d4d89cbaeae6a9e641deb4eccae45858b980eea0bad08c26b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0360",
+    "file": "tracking/frames/track_0360.png",
+    "target_pts": 36.0,
+    "actual_pts": 36.0,
+    "decoded_index": 1079,
+    "sha256": "ee75fd0116217c29a4d953783b09d4c680fa6685d5c6a0929fa91713d819d394",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0361",
+    "file": "tracking/frames/track_0361.png",
+    "target_pts": 36.1,
+    "actual_pts": 36.1,
+    "decoded_index": 1082,
+    "sha256": "831658918d4d8ca83033dfb0f27baf1a8970c9197b87b3f9cc355e51f648ffcf",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0362",
+    "file": "tracking/frames/track_0362.png",
+    "target_pts": 36.2,
+    "actual_pts": 36.2,
+    "decoded_index": 1085,
+    "sha256": "cd6bab35fabfe69b2296e2c9a6da38cdd066f85ed3c0e6192657e3c1c6134761",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0363",
+    "file": "tracking/frames/track_0363.png",
+    "target_pts": 36.3,
+    "actual_pts": 36.3,
+    "decoded_index": 1088,
+    "sha256": "76d97549a2570e582816c2d4b2d19f1a6292c5d76e216521f2cfc43f1b9f2144",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0364",
+    "file": "tracking/frames/track_0364.png",
+    "target_pts": 36.4,
+    "actual_pts": 36.4,
+    "decoded_index": 1091,
+    "sha256": "9bfc0d918e2732286c9279fdaba354d8464e03de54c595072d375739432bb4b4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0365",
+    "file": "tracking/frames/track_0365.png",
+    "target_pts": 36.5,
+    "actual_pts": 36.5,
+    "decoded_index": 1094,
+    "sha256": "c0c959cd3194d0c2617074e76a7142983d82533bb271ade52e88cc45b0a86045",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0366",
+    "file": "tracking/frames/track_0366.png",
+    "target_pts": 36.6,
+    "actual_pts": 36.6,
+    "decoded_index": 1097,
+    "sha256": "c6ff1b6e5e6c35395ec303f220aad1f2b783c4d04e19114d791d54c4dc348946",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0367",
+    "file": "tracking/frames/track_0367.png",
+    "target_pts": 36.7,
+    "actual_pts": 36.7,
+    "decoded_index": 1100,
+    "sha256": "169891e665c4fa4b0c9aeb4c4845886c6c92ae0c4555bfd60d64e00c39a14d08",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0368",
+    "file": "tracking/frames/track_0368.png",
+    "target_pts": 36.8,
+    "actual_pts": 36.8,
+    "decoded_index": 1103,
+    "sha256": "cf9fde8104330ea8fe269d4df334728f4ae267e2e967317399c079ee980e4da1",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0369",
+    "file": "tracking/frames/track_0369.png",
+    "target_pts": 36.9,
+    "actual_pts": 36.9,
+    "decoded_index": 1106,
+    "sha256": "561e34bb9e8ec80faedf68952bf06dc36831b358af35b10c124ea2fa103b89a0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0370",
+    "file": "tracking/frames/track_0370.png",
+    "target_pts": 37.0,
+    "actual_pts": 37.0,
+    "decoded_index": 1109,
+    "sha256": "01b5747ccc499fb0fbb28912ed955e8a0311d40a94463d31b1e46c84212ec6b8",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0371",
+    "file": "tracking/frames/track_0371.png",
+    "target_pts": 37.1,
+    "actual_pts": 37.1,
+    "decoded_index": 1112,
+    "sha256": "9211c7098d4add03e309478dfe13540617ac98fc977831d85f7f9aa9bdbc2178",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0372",
+    "file": "tracking/frames/track_0372.png",
+    "target_pts": 37.2,
+    "actual_pts": 37.2,
+    "decoded_index": 1115,
+    "sha256": "781d661382e90495d6a7fb052c769a204e897cdf06e97fc0ca8bde735f674f3f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0373",
+    "file": "tracking/frames/track_0373.png",
+    "target_pts": 37.3,
+    "actual_pts": 37.3,
+    "decoded_index": 1118,
+    "sha256": "500cde7884ae7ec77b2f9c4a2e6cb12728910e31aa141049d49d3c99c9b9a440",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0374",
+    "file": "tracking/frames/track_0374.png",
+    "target_pts": 37.4,
+    "actual_pts": 37.4,
+    "decoded_index": 1121,
+    "sha256": "5b03256f793fb89cf3427aca7015f2c6db853f4e045feaec2faab0066bd59c11",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0375",
+    "file": "tracking/frames/track_0375.png",
+    "target_pts": 37.5,
+    "actual_pts": 37.5,
+    "decoded_index": 1124,
+    "sha256": "126d907af80859f3468c9694a5246d3196b939fc60bba9e493b123548350195f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0376",
+    "file": "tracking/frames/track_0376.png",
+    "target_pts": 37.6,
+    "actual_pts": 37.6,
+    "decoded_index": 1127,
+    "sha256": "4e0e1fb513a86b61a981ed31773d2e7f42e74f039a035bf5e02070eeccffa1de",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0377",
+    "file": "tracking/frames/track_0377.png",
+    "target_pts": 37.7,
+    "actual_pts": 37.7,
+    "decoded_index": 1130,
+    "sha256": "b8b5980458fa71a829c4823681b1ec616389f82236611277c61ccb8237b42423",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0378",
+    "file": "tracking/frames/track_0378.png",
+    "target_pts": 37.8,
+    "actual_pts": 37.8,
+    "decoded_index": 1133,
+    "sha256": "c32d39a765e818fe1237e73639c84446de80ae850007873827b6ba91dbb1671a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0379",
+    "file": "tracking/frames/track_0379.png",
+    "target_pts": 37.9,
+    "actual_pts": 37.9,
+    "decoded_index": 1136,
+    "sha256": "86f798636226538da82ab37b5af377b57bbd08ae00652db7c8303e4332900971",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0380",
+    "file": "tracking/frames/track_0380.png",
+    "target_pts": 38.0,
+    "actual_pts": 38.0,
+    "decoded_index": 1139,
+    "sha256": "631421ea3ef2810501e965a21b643387c1b3797cd6bddd751f5df9b7cee28598",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0381",
+    "file": "tracking/frames/track_0381.png",
+    "target_pts": 38.1,
+    "actual_pts": 38.1,
+    "decoded_index": 1142,
+    "sha256": "9edd45ea450a7f01573e98a5991eb918607ea14abdef50b570ecb72d0f562f30",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0382",
+    "file": "tracking/frames/track_0382.png",
+    "target_pts": 38.2,
+    "actual_pts": 38.2,
+    "decoded_index": 1145,
+    "sha256": "a7dc11b0f48e3f4a6739fb4f8c7288a359a4c99af4882ad827e82a54a2f0e2ff",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0383",
+    "file": "tracking/frames/track_0383.png",
+    "target_pts": 38.3,
+    "actual_pts": 38.3,
+    "decoded_index": 1148,
+    "sha256": "0c408a2c9af65786fd20325ff1dd7e21328f868c90508902ad49629c45081dc4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0384",
+    "file": "tracking/frames/track_0384.png",
+    "target_pts": 38.4,
+    "actual_pts": 38.4,
+    "decoded_index": 1151,
+    "sha256": "de77242bb8ef3bafacc6053f18cb3689bdb9a232dc97a6aea8c1bc5fe1cd91c4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0385",
+    "file": "tracking/frames/track_0385.png",
+    "target_pts": 38.5,
+    "actual_pts": 38.5,
+    "decoded_index": 1154,
+    "sha256": "821179cb8e5dead02efb40bc01ca8eba786a4184aa7d7235fabbf947510ee940",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0386",
+    "file": "tracking/frames/track_0386.png",
+    "target_pts": 38.6,
+    "actual_pts": 38.6,
+    "decoded_index": 1157,
+    "sha256": "1d79b8dea078c640145e544f39e5e787f565ffa2eb120d3a96f2a029c25ba694",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0387",
+    "file": "tracking/frames/track_0387.png",
+    "target_pts": 38.7,
+    "actual_pts": 38.7,
+    "decoded_index": 1160,
+    "sha256": "aebbad0a3e52c6815297d6da5fad76a02ed585d2ece662d342bdf353e84c8a8f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0388",
+    "file": "tracking/frames/track_0388.png",
+    "target_pts": 38.8,
+    "actual_pts": 38.8,
+    "decoded_index": 1163,
+    "sha256": "a75099cb56a4c31a4012f27d37fdb509c35502f689101b55df1ab47d5901267d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0389",
+    "file": "tracking/frames/track_0389.png",
+    "target_pts": 38.9,
+    "actual_pts": 38.9,
+    "decoded_index": 1166,
+    "sha256": "e803fd65c002f7a7fecc7413a59e80a83dfa42445ad169fd7d56dd90700ba8ec",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0390",
+    "file": "tracking/frames/track_0390.png",
+    "target_pts": 39.0,
+    "actual_pts": 39.0,
+    "decoded_index": 1169,
+    "sha256": "a2c649d24148216c97ecfd3ac64c9101279b84e9bb0b24913c8212305b12d475",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0391",
+    "file": "tracking/frames/track_0391.png",
+    "target_pts": 39.1,
+    "actual_pts": 39.1,
+    "decoded_index": 1172,
+    "sha256": "dd2ad23ae27f0fedbb420cc512473eef516a172e7144839bccf4a0d0231996ce",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0392",
+    "file": "tracking/frames/track_0392.png",
+    "target_pts": 39.2,
+    "actual_pts": 39.2,
+    "decoded_index": 1175,
+    "sha256": "4e2608e61ab200bd98292d84591b1668d467e7b0c4ec1ad20e228326ceaba5ae",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0393",
+    "file": "tracking/frames/track_0393.png",
+    "target_pts": 39.3,
+    "actual_pts": 39.3,
+    "decoded_index": 1178,
+    "sha256": "0daa7117846ab56a3985ab83a76fe6ad4510718089181f915d4a16bdcc2fdd0c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0394",
+    "file": "tracking/frames/track_0394.png",
+    "target_pts": 39.4,
+    "actual_pts": 39.4,
+    "decoded_index": 1181,
+    "sha256": "c5fd7f5d74f691020316476513ebb03dfa7ccf1ee29748e32e0a55b6b19a8e01",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0395",
+    "file": "tracking/frames/track_0395.png",
+    "target_pts": 39.5,
+    "actual_pts": 39.5,
+    "decoded_index": 1184,
+    "sha256": "e570e92041f361765d9c3d3f78bda46b2f1f089fe5def8c2bf2d2aaa8504d2cf",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0396",
+    "file": "tracking/frames/track_0396.png",
+    "target_pts": 39.6,
+    "actual_pts": 39.6,
+    "decoded_index": 1187,
+    "sha256": "690e295eddef7655161f050d77d7d87724f59391969fc6b778e87ddde0b960d9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0397",
+    "file": "tracking/frames/track_0397.png",
+    "target_pts": 39.7,
+    "actual_pts": 39.7,
+    "decoded_index": 1190,
+    "sha256": "286bae04c9ea314d63e8b6917aeb089c1140bdd0cd386dd5b6abc8ddeb7efe33",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0398",
+    "file": "tracking/frames/track_0398.png",
+    "target_pts": 39.8,
+    "actual_pts": 39.8,
+    "decoded_index": 1193,
+    "sha256": "c082ab86c39dbfb0c25ec3979c8736ba5ff6907a455bbf9b002636d122805875",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0399",
+    "file": "tracking/frames/track_0399.png",
+    "target_pts": 39.9,
+    "actual_pts": 39.9,
+    "decoded_index": 1196,
+    "sha256": "40a308cffb3eb1e5702f61825d9748827a06c99ee2bdf6e25dc1df5c9e54a5dc",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0400",
+    "file": "tracking/frames/track_0400.png",
+    "target_pts": 40.0,
+    "actual_pts": 40.0,
+    "decoded_index": 1199,
+    "sha256": "766ff3e0a606e4cbd79b5d0d3d30105a354b9606ed689c299a8b1b66eae2b818",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0401",
+    "file": "tracking/frames/track_0401.png",
+    "target_pts": 40.1,
+    "actual_pts": 40.1,
+    "decoded_index": 1202,
+    "sha256": "448d23c491a19e89e969c4f181a4b1ed4e69fe8d0aad37c5cd81ca06f9cbe5d0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0402",
+    "file": "tracking/frames/track_0402.png",
+    "target_pts": 40.2,
+    "actual_pts": 40.2,
+    "decoded_index": 1205,
+    "sha256": "17bb44aff89be6f47ce31065179af6c455b6f327cea248d7bd9bac500d99c34f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0403",
+    "file": "tracking/frames/track_0403.png",
+    "target_pts": 40.3,
+    "actual_pts": 40.3,
+    "decoded_index": 1208,
+    "sha256": "c4a0d9362b8524c226f1a5f3118a694e4e818108ce1f68f0be702a3b6a6b1731",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0404",
+    "file": "tracking/frames/track_0404.png",
+    "target_pts": 40.4,
+    "actual_pts": 40.4,
+    "decoded_index": 1211,
+    "sha256": "659f2194b4f66b8f90964c5180f3f8bfcc7a16bfb955841b9a68ed1cfa528bca",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0405",
+    "file": "tracking/frames/track_0405.png",
+    "target_pts": 40.5,
+    "actual_pts": 40.5,
+    "decoded_index": 1214,
+    "sha256": "5ad4ab3758a37e24e592d73ac4dc222de4e1cddb041120c354bca770fc5714e9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0406",
+    "file": "tracking/frames/track_0406.png",
+    "target_pts": 40.6,
+    "actual_pts": 40.6,
+    "decoded_index": 1217,
+    "sha256": "499152ab1d1bf538d82ec7970b5d99428fe4c343b14f9f28daa8397dee3d5ce5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0407",
+    "file": "tracking/frames/track_0407.png",
+    "target_pts": 40.7,
+    "actual_pts": 40.7,
+    "decoded_index": 1220,
+    "sha256": "96ea172ec21ebc775c1908446c022f628e588d4cff5d084ae307d55e68529af7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0408",
+    "file": "tracking/frames/track_0408.png",
+    "target_pts": 40.8,
+    "actual_pts": 40.8,
+    "decoded_index": 1223,
+    "sha256": "0fdd06f98cb7cb96f494295ad4d7f757084c7d0981422a1e9fb59d910475815a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0409",
+    "file": "tracking/frames/track_0409.png",
+    "target_pts": 40.9,
+    "actual_pts": 40.9,
+    "decoded_index": 1226,
+    "sha256": "ace2526d7a16d58b9482866a426dc0624b1c6bc34ec88897d7f13dfb19c66f5e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0410",
+    "file": "tracking/frames/track_0410.png",
+    "target_pts": 41.0,
+    "actual_pts": 41.0,
+    "decoded_index": 1229,
+    "sha256": "1e89799dcf516e613838088f7512e769920a47fc8d22ef73732f3dba21549ad5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0411",
+    "file": "tracking/frames/track_0411.png",
+    "target_pts": 41.1,
+    "actual_pts": 41.1,
+    "decoded_index": 1232,
+    "sha256": "2570221df16ef1a4ec9e6b3bb0497483becf60b2ba2895acd78d04ae2250fb73",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0412",
+    "file": "tracking/frames/track_0412.png",
+    "target_pts": 41.2,
+    "actual_pts": 41.2,
+    "decoded_index": 1235,
+    "sha256": "47f15ca6dc780801b23567461552b3bc63e8102d2ab5c4a06d2ca6960bfa7a30",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0413",
+    "file": "tracking/frames/track_0413.png",
+    "target_pts": 41.3,
+    "actual_pts": 41.3,
+    "decoded_index": 1238,
+    "sha256": "6592b0aa8a0d7f1633b7b9738fefac8fc17029be0f6948b7b135a42fcc3c7d57",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0414",
+    "file": "tracking/frames/track_0414.png",
+    "target_pts": 41.4,
+    "actual_pts": 41.4,
+    "decoded_index": 1241,
+    "sha256": "6da00ef1e40ab9bea94fb8ea930684ccf85cc059f38f2b4bc93a66035de7a8c0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0415",
+    "file": "tracking/frames/track_0415.png",
+    "target_pts": 41.5,
+    "actual_pts": 41.5,
+    "decoded_index": 1244,
+    "sha256": "eaeb6455d0e621db770b53c3e94195db7139a0d000617a183a424512be9a5087",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0416",
+    "file": "tracking/frames/track_0416.png",
+    "target_pts": 41.6,
+    "actual_pts": 41.6,
+    "decoded_index": 1247,
+    "sha256": "6d3454bd1c0eaf83c1fe4d8d30ac239242a71d960e6c0f423825d104b9fd01c3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0417",
+    "file": "tracking/frames/track_0417.png",
+    "target_pts": 41.7,
+    "actual_pts": 41.7,
+    "decoded_index": 1250,
+    "sha256": "25c45cdbde211059780d0b2b61ecd85ba3a796c4d72187808503952e37b95578",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0418",
+    "file": "tracking/frames/track_0418.png",
+    "target_pts": 41.8,
+    "actual_pts": 41.8,
+    "decoded_index": 1253,
+    "sha256": "35edb86c0002dcd027da8de6097c43ab36a51cae6a78e9f6e6e17573e46ecdbe",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0419",
+    "file": "tracking/frames/track_0419.png",
+    "target_pts": 41.9,
+    "actual_pts": 41.9,
+    "decoded_index": 1256,
+    "sha256": "5fe1b8b108c5fbab3473fb866d293bfb99e8af08d55605f88e7175f6ccad9a4e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0420",
+    "file": "tracking/frames/track_0420.png",
+    "target_pts": 42.0,
+    "actual_pts": 42.0,
+    "decoded_index": 1259,
+    "sha256": "aa69ffbe1bcad16b57f7269fe35ea44fd2b598b7263d3fcfe81e1c54f6bb76e1",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0421",
+    "file": "tracking/frames/track_0421.png",
+    "target_pts": 42.1,
+    "actual_pts": 42.1,
+    "decoded_index": 1262,
+    "sha256": "2bd540a1580f56cbc39c1d15c907e3d309f22400b6889f5c081767afe7f0d128",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0422",
+    "file": "tracking/frames/track_0422.png",
+    "target_pts": 42.2,
+    "actual_pts": 42.2,
+    "decoded_index": 1265,
+    "sha256": "48a27212e199f444812d95557365abcfce161105ea7d643bd0eca1a004653f19",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0423",
+    "file": "tracking/frames/track_0423.png",
+    "target_pts": 42.3,
+    "actual_pts": 42.3,
+    "decoded_index": 1268,
+    "sha256": "7a8209bd35b7050e94caa01b3910e7901b17f9c9292da9730ffb42ae54de54ba",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0424",
+    "file": "tracking/frames/track_0424.png",
+    "target_pts": 42.4,
+    "actual_pts": 42.4,
+    "decoded_index": 1271,
+    "sha256": "d33b2e0ea38fd9f3a1bb10ee543b79a4316765cdd5269070c4960682a33c1dd5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0425",
+    "file": "tracking/frames/track_0425.png",
+    "target_pts": 42.5,
+    "actual_pts": 42.5,
+    "decoded_index": 1274,
+    "sha256": "fb1bf4b0d6027bff40a61bd94ca0bef50ac3d6f33932e0c3a4ec17047f2aea3c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0426",
+    "file": "tracking/frames/track_0426.png",
+    "target_pts": 42.6,
+    "actual_pts": 42.6,
+    "decoded_index": 1277,
+    "sha256": "a044a5644ad801548d2dd92abe83601c4ef61523ae6def4a6f5400f501f42102",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0427",
+    "file": "tracking/frames/track_0427.png",
+    "target_pts": 42.7,
+    "actual_pts": 42.7,
+    "decoded_index": 1280,
+    "sha256": "b5c3bd8294033662fb6cbe2238f5846a0f66db5d9512cccb5c6b727c3283ac39",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0428",
+    "file": "tracking/frames/track_0428.png",
+    "target_pts": 42.8,
+    "actual_pts": 42.8,
+    "decoded_index": 1283,
+    "sha256": "4a06f5e5812c10f9714c83fee057787dadd731c35f0810b985aa316394023849",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0429",
+    "file": "tracking/frames/track_0429.png",
+    "target_pts": 42.9,
+    "actual_pts": 42.9,
+    "decoded_index": 1286,
+    "sha256": "e00c6add4fb6c4aea0bbf946542654c9994e4db7143deb8627c2056dc1b14f6f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0430",
+    "file": "tracking/frames/track_0430.png",
+    "target_pts": 43.0,
+    "actual_pts": 43.0,
+    "decoded_index": 1289,
+    "sha256": "1a25dc96a2a2785eb537d460c7ccf970ca2738b47031df21401563babc1c3c04",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0431",
+    "file": "tracking/frames/track_0431.png",
+    "target_pts": 43.1,
+    "actual_pts": 43.1,
+    "decoded_index": 1292,
+    "sha256": "15b4dad109ebf1d16fa623980d1606afa394dd46c85c57ae142ebcfcc83049f7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0432",
+    "file": "tracking/frames/track_0432.png",
+    "target_pts": 43.2,
+    "actual_pts": 43.2,
+    "decoded_index": 1295,
+    "sha256": "ec4fb370df8af7bff831cf7a67302bb3fc8df5ef31a0d166a6143531689c14db",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0433",
+    "file": "tracking/frames/track_0433.png",
+    "target_pts": 43.3,
+    "actual_pts": 43.3,
+    "decoded_index": 1298,
+    "sha256": "d468645866e65a9d35060a31e4f20ecf2c43eca0ae00d19c7122d59f31acaa27",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0434",
+    "file": "tracking/frames/track_0434.png",
+    "target_pts": 43.4,
+    "actual_pts": 43.4,
+    "decoded_index": 1301,
+    "sha256": "6fb661a59fbaf204b29e36b0c1e31cfd1bf0d060d7037b9cabdd7b30eaffe1e9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0435",
+    "file": "tracking/frames/track_0435.png",
+    "target_pts": 43.5,
+    "actual_pts": 43.5,
+    "decoded_index": 1304,
+    "sha256": "b2129ea7861bc45b127e9e830fd60fabf90d5f6f9726d6eefa179d1a945f7eb7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0436",
+    "file": "tracking/frames/track_0436.png",
+    "target_pts": 43.6,
+    "actual_pts": 43.6,
+    "decoded_index": 1307,
+    "sha256": "74a66d8405bfbdd60e31a9b4f0880332396637ca2953c8a113dcc50fffe2fb0a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0437",
+    "file": "tracking/frames/track_0437.png",
+    "target_pts": 43.7,
+    "actual_pts": 43.7,
+    "decoded_index": 1310,
+    "sha256": "c6c3f0734ba10594344e3829150c392ac6617947183bb68cf740a8a7af086457",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0438",
+    "file": "tracking/frames/track_0438.png",
+    "target_pts": 43.8,
+    "actual_pts": 43.8,
+    "decoded_index": 1313,
+    "sha256": "226d7c3703362fe6ef2031483c211f0c140f8d785c35b7a485c43425416e7ce8",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0439",
+    "file": "tracking/frames/track_0439.png",
+    "target_pts": 43.9,
+    "actual_pts": 43.9,
+    "decoded_index": 1316,
+    "sha256": "1d818d50aeeb366786b6ef9bc69511ca61ce5aa76d5629cc774c5c4be715cf3f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0440",
+    "file": "tracking/frames/track_0440.png",
+    "target_pts": 44.0,
+    "actual_pts": 44.0,
+    "decoded_index": 1319,
+    "sha256": "64dc77c5b78a2fda7c91a2eec51b87e8ba9eccbdf274ff5776af6ab214c15543",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0441",
+    "file": "tracking/frames/track_0441.png",
+    "target_pts": 44.1,
+    "actual_pts": 44.1,
+    "decoded_index": 1322,
+    "sha256": "99dd926326204c4a9fc067e05a88bce45fead65415b9894ab472c51827ec2cd3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0442",
+    "file": "tracking/frames/track_0442.png",
+    "target_pts": 44.2,
+    "actual_pts": 44.2,
+    "decoded_index": 1325,
+    "sha256": "d19c6dabbdedc135cccc6454e3c8a7959d1aed79a919240712432b1be3fe0e9e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0443",
+    "file": "tracking/frames/track_0443.png",
+    "target_pts": 44.3,
+    "actual_pts": 44.3,
+    "decoded_index": 1328,
+    "sha256": "070cff6089c1a9b8cff81108ae0e23c7a35e15dbcfe021ec1c0ce8fe5a822de9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0444",
+    "file": "tracking/frames/track_0444.png",
+    "target_pts": 44.4,
+    "actual_pts": 44.4,
+    "decoded_index": 1331,
+    "sha256": "98d13c5c438aac4ebaff277bb5ea9fdcb62f79874e7ebc09cd1ff14100e87b86",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0445",
+    "file": "tracking/frames/track_0445.png",
+    "target_pts": 44.5,
+    "actual_pts": 44.5,
+    "decoded_index": 1334,
+    "sha256": "e68144a41a4f625fef37da560c6a14aaa2fc8b5a0aeb6ffae52daa8ce96c6d99",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0446",
+    "file": "tracking/frames/track_0446.png",
+    "target_pts": 44.6,
+    "actual_pts": 44.6,
+    "decoded_index": 1337,
+    "sha256": "3b3aa0f5b0ce6b642cdcff3c56a8625e8f2fb24465ae17e4b96b9ede2851f690",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0447",
+    "file": "tracking/frames/track_0447.png",
+    "target_pts": 44.7,
+    "actual_pts": 44.7,
+    "decoded_index": 1340,
+    "sha256": "704cc6ea249634db31061325950f84efa0eeabeb0943766ee775ce81270da5bc",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0448",
+    "file": "tracking/frames/track_0448.png",
+    "target_pts": 44.8,
+    "actual_pts": 44.8,
+    "decoded_index": 1343,
+    "sha256": "4f8e9934f083a41beb4edb71a559f2fbcea65b4c2aaf2122563c505a1707714c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0449",
+    "file": "tracking/frames/track_0449.png",
+    "target_pts": 44.9,
+    "actual_pts": 44.9,
+    "decoded_index": 1346,
+    "sha256": "df61dba93934dece46b6734765f963e9b8e7304ebee4b0e3e04a61fa38fa2e35",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0450",
+    "file": "tracking/frames/track_0450.png",
+    "target_pts": 45.0,
+    "actual_pts": 45.0,
+    "decoded_index": 1349,
+    "sha256": "4f1f24d1f077adb179ee9bb932af3f969ed8be8177a8c632698b3250e5738f20",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0451",
+    "file": "tracking/frames/track_0451.png",
+    "target_pts": 45.1,
+    "actual_pts": 45.1,
+    "decoded_index": 1352,
+    "sha256": "f2959feb0284b5ecdbf28558ea19c6284407c7dd72b12b7b4f90f58972cd74c3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0452",
+    "file": "tracking/frames/track_0452.png",
+    "target_pts": 45.2,
+    "actual_pts": 45.2,
+    "decoded_index": 1355,
+    "sha256": "af60fa837ff1de1f7f416b7569a9e833968d65fe8c6ee71ccc08665ac5983332",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0453",
+    "file": "tracking/frames/track_0453.png",
+    "target_pts": 45.3,
+    "actual_pts": 45.3,
+    "decoded_index": 1358,
+    "sha256": "933c5586531ef44ee99472d384c1ba6584b19fcae088c670788ae036521635c2",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0454",
+    "file": "tracking/frames/track_0454.png",
+    "target_pts": 45.4,
+    "actual_pts": 45.4,
+    "decoded_index": 1361,
+    "sha256": "65631ae7811449ffa39d4ef6e98a4635f056c6eb8de90e77cd32d3afefea0bd5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0455",
+    "file": "tracking/frames/track_0455.png",
+    "target_pts": 45.5,
+    "actual_pts": 45.5,
+    "decoded_index": 1364,
+    "sha256": "7bd8ca4f44e2d7d31d8beea6bf9a53edeabe78e569360ef648d85f387957da63",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0456",
+    "file": "tracking/frames/track_0456.png",
+    "target_pts": 45.6,
+    "actual_pts": 45.6,
+    "decoded_index": 1367,
+    "sha256": "3ac587f3d70f339c2fdaec484be84a9a11bb9fdcf78284c67aa22d143df0179f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0457",
+    "file": "tracking/frames/track_0457.png",
+    "target_pts": 45.7,
+    "actual_pts": 45.7,
+    "decoded_index": 1370,
+    "sha256": "535119895a6921e2c6e565a6dd72b1232be7e57c2d6bd688562b2be2a98221b2",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0458",
+    "file": "tracking/frames/track_0458.png",
+    "target_pts": 45.8,
+    "actual_pts": 45.8,
+    "decoded_index": 1373,
+    "sha256": "0469597c901e8c670afbc970435a90e79be53a128bf2ba4b26bc3d730ed9b465",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0459",
+    "file": "tracking/frames/track_0459.png",
+    "target_pts": 45.9,
+    "actual_pts": 45.9,
+    "decoded_index": 1376,
+    "sha256": "6949813cd46c4cafac8c4a6a4221a6df6b4918ef181c81926064592f1ae2878e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0460",
+    "file": "tracking/frames/track_0460.png",
+    "target_pts": 46.0,
+    "actual_pts": 46.0,
+    "decoded_index": 1379,
+    "sha256": "c664f4351487f829a621d40c6a468552f4df2126dd37e0c2dcf0e626546a3d49",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0461",
+    "file": "tracking/frames/track_0461.png",
+    "target_pts": 46.1,
+    "actual_pts": 46.1,
+    "decoded_index": 1382,
+    "sha256": "8835a26c9d71108ab2e5662f3ef3205a210f500cef21a9139a6a9723bbaebae7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0462",
+    "file": "tracking/frames/track_0462.png",
+    "target_pts": 46.2,
+    "actual_pts": 46.2,
+    "decoded_index": 1385,
+    "sha256": "bd9af9f9df12a52ca23cc3681ce61172dd2afe9d498c29835e51fe8ac8e39581",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0463",
+    "file": "tracking/frames/track_0463.png",
+    "target_pts": 46.3,
+    "actual_pts": 46.3,
+    "decoded_index": 1388,
+    "sha256": "4f9fe2b828202a24006e1d97dbef85672614996d46c64f683f4067ae6ce76e54",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0464",
+    "file": "tracking/frames/track_0464.png",
+    "target_pts": 46.4,
+    "actual_pts": 46.4,
+    "decoded_index": 1391,
+    "sha256": "6de0638c9a891621bee5e38506e3b6147f6f9a8d42d99134fd7c8e3108a55e10",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0465",
+    "file": "tracking/frames/track_0465.png",
+    "target_pts": 46.5,
+    "actual_pts": 46.5,
+    "decoded_index": 1394,
+    "sha256": "041ac03b50f18cf68c47d611d30d50b2c3765918f3bbbd1c5421ea17d490889f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0466",
+    "file": "tracking/frames/track_0466.png",
+    "target_pts": 46.6,
+    "actual_pts": 46.6,
+    "decoded_index": 1397,
+    "sha256": "da631dc5978e485f059ea155920466b101a0c3e0d2c4468823ed165aef85464b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0467",
+    "file": "tracking/frames/track_0467.png",
+    "target_pts": 46.7,
+    "actual_pts": 46.7,
+    "decoded_index": 1400,
+    "sha256": "b47db38893942b60ad610fa5f568b783622147e923980507c284bacd671534f1",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0468",
+    "file": "tracking/frames/track_0468.png",
+    "target_pts": 46.8,
+    "actual_pts": 46.8,
+    "decoded_index": 1403,
+    "sha256": "bbcb863e8ef3b9fb81749fff3fe9c6fc24f98f71742001a0023906a31836cee9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0469",
+    "file": "tracking/frames/track_0469.png",
+    "target_pts": 46.9,
+    "actual_pts": 46.9,
+    "decoded_index": 1406,
+    "sha256": "139e5f270785c92aa1cd56746eb76b749a3f8c2039391718c5ca5d6e59d2cb17",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0470",
+    "file": "tracking/frames/track_0470.png",
+    "target_pts": 47.0,
+    "actual_pts": 47.0,
+    "decoded_index": 1409,
+    "sha256": "6e23e7bd8da6433a69cf546647df1ec36f9a7d7725342658ad1337bb82d53df4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0471",
+    "file": "tracking/frames/track_0471.png",
+    "target_pts": 47.1,
+    "actual_pts": 47.1,
+    "decoded_index": 1412,
+    "sha256": "ea4f4a882cd7f086bf0e5a66833bd199672fb3a551206590437d6ef23a98591d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0472",
+    "file": "tracking/frames/track_0472.png",
+    "target_pts": 47.2,
+    "actual_pts": 47.2,
+    "decoded_index": 1415,
+    "sha256": "427ce35ded5fcd26dd548b13657db51a48827273a23918105f2491bea4aa29fe",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0473",
+    "file": "tracking/frames/track_0473.png",
+    "target_pts": 47.3,
+    "actual_pts": 47.3,
+    "decoded_index": 1418,
+    "sha256": "00e87730b7d648943bedacd0009c1b37f25b8159236eb4c3d6087eb2e96ad915",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0474",
+    "file": "tracking/frames/track_0474.png",
+    "target_pts": 47.4,
+    "actual_pts": 47.4,
+    "decoded_index": 1421,
+    "sha256": "fd6f0053d5842779a57c3bc5f4f106626de1d20c46ea9b89e6ced73037f73603",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0475",
+    "file": "tracking/frames/track_0475.png",
+    "target_pts": 47.5,
+    "actual_pts": 47.5,
+    "decoded_index": 1424,
+    "sha256": "48e6d2436434f9df337bc2802f03900251007b29b7b57709acb4f53471114a5f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0476",
+    "file": "tracking/frames/track_0476.png",
+    "target_pts": 47.6,
+    "actual_pts": 47.6,
+    "decoded_index": 1427,
+    "sha256": "beb577ec161ba96c530a7b63eebc642195c2dafa36bead48ba6d4c4152cf77e9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0477",
+    "file": "tracking/frames/track_0477.png",
+    "target_pts": 47.7,
+    "actual_pts": 47.7,
+    "decoded_index": 1430,
+    "sha256": "c2782fa2194d9e12be974ee69d3f3d27e0819311fef68731d6ad1edb40f88c2e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0478",
+    "file": "tracking/frames/track_0478.png",
+    "target_pts": 47.8,
+    "actual_pts": 47.8,
+    "decoded_index": 1433,
+    "sha256": "c00dc16ee5f111cb3ee56882f3ac87a4594132792b35341ce621ac46406b43c8",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0479",
+    "file": "tracking/frames/track_0479.png",
+    "target_pts": 47.9,
+    "actual_pts": 47.9,
+    "decoded_index": 1436,
+    "sha256": "a54ed677f46f4f272620c7665b665898f808e6c68ba934d2a0862e8dd0c2fcbd",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0480",
+    "file": "tracking/frames/track_0480.png",
+    "target_pts": 48.0,
+    "actual_pts": 48.0,
+    "decoded_index": 1439,
+    "sha256": "ac0e21135941f524576f13b8927e830ee1ba4fce2d0fe5118a9a75977dfe96dc",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0481",
+    "file": "tracking/frames/track_0481.png",
+    "target_pts": 48.1,
+    "actual_pts": 48.1,
+    "decoded_index": 1442,
+    "sha256": "f9fe938c0890b1fc7ec64b53a80da9dad1e11d897b7b76a798a7992dd2e30a99",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0482",
+    "file": "tracking/frames/track_0482.png",
+    "target_pts": 48.2,
+    "actual_pts": 48.2,
+    "decoded_index": 1445,
+    "sha256": "ba391e692f0c2c5057a53c58dd5da461a54f73b26ad9a11a94a54049d185d181",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0483",
+    "file": "tracking/frames/track_0483.png",
+    "target_pts": 48.3,
+    "actual_pts": 48.3,
+    "decoded_index": 1448,
+    "sha256": "031ca2e61c76848b1d721a782a819e88316665556c6c6d2f97a18d301686dfa9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0484",
+    "file": "tracking/frames/track_0484.png",
+    "target_pts": 48.4,
+    "actual_pts": 48.4,
+    "decoded_index": 1451,
+    "sha256": "1491ad9c9f7854d8fb2eab1faa5614b8732d727267b56433d4350e1d5e32d65a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0485",
+    "file": "tracking/frames/track_0485.png",
+    "target_pts": 48.5,
+    "actual_pts": 48.5,
+    "decoded_index": 1454,
+    "sha256": "e8cdf5458a146e67d7dc5803cd0018748120407f64283d87b9c5ca48a7b44107",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0486",
+    "file": "tracking/frames/track_0486.png",
+    "target_pts": 48.6,
+    "actual_pts": 48.6,
+    "decoded_index": 1457,
+    "sha256": "57ca05199222262cd7ecaff3796252bba67436f16300ddfaff354d9af2b9becd",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0487",
+    "file": "tracking/frames/track_0487.png",
+    "target_pts": 48.7,
+    "actual_pts": 48.7,
+    "decoded_index": 1460,
+    "sha256": "8bd4e66de703206074455238ba1af0084b1aa785bcf3935412bca0e6f23e9111",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0488",
+    "file": "tracking/frames/track_0488.png",
+    "target_pts": 48.8,
+    "actual_pts": 48.8,
+    "decoded_index": 1463,
+    "sha256": "fe5290c4999b632ee5cdd1de03f1684250f66931987753655d486515024d2ea7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0489",
+    "file": "tracking/frames/track_0489.png",
+    "target_pts": 48.9,
+    "actual_pts": 48.9,
+    "decoded_index": 1466,
+    "sha256": "b016cbb74d5f49be95cea9e623ff4b787c475823eddbafa16616112ee5b1031e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0490",
+    "file": "tracking/frames/track_0490.png",
+    "target_pts": 49.0,
+    "actual_pts": 49.0,
+    "decoded_index": 1469,
+    "sha256": "cb19ddcb4f98a0c169ee7e85ba9698f107e7c8c5216b909902904056bb66a69d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0491",
+    "file": "tracking/frames/track_0491.png",
+    "target_pts": 49.1,
+    "actual_pts": 49.1,
+    "decoded_index": 1472,
+    "sha256": "abad39aaad91b0230720104bbd3adb57a99155318f279e6ca922300dfbdeb066",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0492",
+    "file": "tracking/frames/track_0492.png",
+    "target_pts": 49.2,
+    "actual_pts": 49.2,
+    "decoded_index": 1475,
+    "sha256": "a7df13ad6acd26873891ae6b7d237f39face4d9ed296e18a7d36917856a043ad",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0493",
+    "file": "tracking/frames/track_0493.png",
+    "target_pts": 49.3,
+    "actual_pts": 49.3,
+    "decoded_index": 1478,
+    "sha256": "464d2c790d1a51220b99eddb0d86d769a8f2621409d8d0eb39a4ca4e37f7de9c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0494",
+    "file": "tracking/frames/track_0494.png",
+    "target_pts": 49.4,
+    "actual_pts": 49.4,
+    "decoded_index": 1481,
+    "sha256": "2d40bccab99b4525f3851943ed291e321d1b7c9fcca72b82ed49b43579c88792",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0495",
+    "file": "tracking/frames/track_0495.png",
+    "target_pts": 49.5,
+    "actual_pts": 49.5,
+    "decoded_index": 1484,
+    "sha256": "3b5a2492d4ba6819b3b8a91d5538133bd09223e4b4a54185ad3ecd4574003aac",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0496",
+    "file": "tracking/frames/track_0496.png",
+    "target_pts": 49.6,
+    "actual_pts": 49.6,
+    "decoded_index": 1487,
+    "sha256": "4b028b0d870cee79e6f1bc1e71ce9b7f5a1134b56c6402783ddbbf2d2a1ca2d0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0497",
+    "file": "tracking/frames/track_0497.png",
+    "target_pts": 49.7,
+    "actual_pts": 49.7,
+    "decoded_index": 1490,
+    "sha256": "93ca03657b60acb1cc8759b4b0f98a186024e8e726b783928f2af1e671fe73cc",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0498",
+    "file": "tracking/frames/track_0498.png",
+    "target_pts": 49.8,
+    "actual_pts": 49.8,
+    "decoded_index": 1493,
+    "sha256": "d14d7be137edf41b6eadda5dd12eb3a8adffa64aa1846e5d67574556bd463f72",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0499",
+    "file": "tracking/frames/track_0499.png",
+    "target_pts": 49.9,
+    "actual_pts": 49.9,
+    "decoded_index": 1496,
+    "sha256": "e9641a595f45fd591f032da6cedf0b16756e05f4d6886b48d883ae494f419616",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0500",
+    "file": "tracking/frames/track_0500.png",
+    "target_pts": 50.0,
+    "actual_pts": 50.0,
+    "decoded_index": 1499,
+    "sha256": "e805631f7efceeeef3cb7601e0e12f8c4d0013bf83c2f723a9317e1ee1da8cee",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0501",
+    "file": "tracking/frames/track_0501.png",
+    "target_pts": 50.1,
+    "actual_pts": 50.1,
+    "decoded_index": 1502,
+    "sha256": "6c0dd1f12cbf12a76fbb858b9387dbf3b26639f595b04cc52cef126828655ed0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0502",
+    "file": "tracking/frames/track_0502.png",
+    "target_pts": 50.2,
+    "actual_pts": 50.2,
+    "decoded_index": 1505,
+    "sha256": "6bdc81f058b0fa2ce0d9edb9d359ae181914122771f86b7dfaa76fbf964bbed5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0503",
+    "file": "tracking/frames/track_0503.png",
+    "target_pts": 50.3,
+    "actual_pts": 50.3,
+    "decoded_index": 1508,
+    "sha256": "e5088e7b9d817d7acaf5c4923e7f448de90867e9b6715b1d8f897634d551b6ed",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0504",
+    "file": "tracking/frames/track_0504.png",
+    "target_pts": 50.4,
+    "actual_pts": 50.4,
+    "decoded_index": 1511,
+    "sha256": "281e47d60018d20afb9526731602f2cbfe90e46082599cb15694328dcd6e4823",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0505",
+    "file": "tracking/frames/track_0505.png",
+    "target_pts": 50.5,
+    "actual_pts": 50.5,
+    "decoded_index": 1514,
+    "sha256": "6648dff08d3562d68aa2c66bedde747d35f246a5c993070c2bbeeadb1317d4ea",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0506",
+    "file": "tracking/frames/track_0506.png",
+    "target_pts": 50.6,
+    "actual_pts": 50.6,
+    "decoded_index": 1517,
+    "sha256": "1394c993054d69b2f5f8207b513de04e40552a8c6dcad8d259e29de42fe27e7f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0507",
+    "file": "tracking/frames/track_0507.png",
+    "target_pts": 50.7,
+    "actual_pts": 50.7,
+    "decoded_index": 1520,
+    "sha256": "fa1276e14ff41f6bf40be5dc30756846c8f3745d8832fc4122cf68e8c5eb092c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0508",
+    "file": "tracking/frames/track_0508.png",
+    "target_pts": 50.8,
+    "actual_pts": 50.8,
+    "decoded_index": 1523,
+    "sha256": "335a09534a2f3f1d245f204e0f3d2618b7b344c8b5e695e4e0c28724b9900167",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0509",
+    "file": "tracking/frames/track_0509.png",
+    "target_pts": 50.9,
+    "actual_pts": 50.9,
+    "decoded_index": 1526,
+    "sha256": "06830131da407f9645042801817022127126223a23ca93d330ee9cb7d9be5376",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0510",
+    "file": "tracking/frames/track_0510.png",
+    "target_pts": 51.0,
+    "actual_pts": 51.0,
+    "decoded_index": 1529,
+    "sha256": "a0dc6f7cdad5b2e69d7694db5beae1661f92d3231225fc19a5fac57667f4614c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0511",
+    "file": "tracking/frames/track_0511.png",
+    "target_pts": 51.1,
+    "actual_pts": 51.1,
+    "decoded_index": 1532,
+    "sha256": "14763c22f0b866ba01ddddf880a9974753e89dbc5451ad3f23704570cab85a37",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0512",
+    "file": "tracking/frames/track_0512.png",
+    "target_pts": 51.2,
+    "actual_pts": 51.2,
+    "decoded_index": 1535,
+    "sha256": "104e396844ef1f89fef437729b0c8d3bb2dffdf1fe1d744c84fa04c91418f52e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0513",
+    "file": "tracking/frames/track_0513.png",
+    "target_pts": 51.3,
+    "actual_pts": 51.3,
+    "decoded_index": 1538,
+    "sha256": "d538daeb3a32a07253c9040662890a9cc7fbe075a0cd60f4dca0fdc7835b0ffc",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0514",
+    "file": "tracking/frames/track_0514.png",
+    "target_pts": 51.4,
+    "actual_pts": 51.4,
+    "decoded_index": 1541,
+    "sha256": "9bab2f2b7777aa59925153af6e7bbd7c3fab70d3c0f29b07ac786ad09c7030e9",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0515",
+    "file": "tracking/frames/track_0515.png",
+    "target_pts": 51.5,
+    "actual_pts": 51.5,
+    "decoded_index": 1544,
+    "sha256": "fac8b6e83fccb1bdd638cdf482d18279deed88f6de0957da0278284b315aab95",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0516",
+    "file": "tracking/frames/track_0516.png",
+    "target_pts": 51.6,
+    "actual_pts": 51.6,
+    "decoded_index": 1547,
+    "sha256": "da8f1660119f4d6767402209c9aa08e41837bf23d372a2dccefae2ccbf5da33f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0517",
+    "file": "tracking/frames/track_0517.png",
+    "target_pts": 51.7,
+    "actual_pts": 51.7,
+    "decoded_index": 1550,
+    "sha256": "e5331a9d8f8acf656714ad74fd41ed49adbf65d2869398fb6f81dcc31d7f488b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0518",
+    "file": "tracking/frames/track_0518.png",
+    "target_pts": 51.8,
+    "actual_pts": 51.8,
+    "decoded_index": 1553,
+    "sha256": "f3e09598b4e6a4708f7e1414bc4952c4779c31d52b838c8ad6b50d70a6514000",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0519",
+    "file": "tracking/frames/track_0519.png",
+    "target_pts": 51.9,
+    "actual_pts": 51.9,
+    "decoded_index": 1556,
+    "sha256": "1306d8f3fd63ce04f79e9c5b67a4af5cc14a391cbddcbf5e9abb83e3a6dc09b3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0520",
+    "file": "tracking/frames/track_0520.png",
+    "target_pts": 52.0,
+    "actual_pts": 52.0,
+    "decoded_index": 1559,
+    "sha256": "766796ece676a83a47d8e18f58cd355513d629d752a89aac7de615d6191f0634",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0521",
+    "file": "tracking/frames/track_0521.png",
+    "target_pts": 52.1,
+    "actual_pts": 52.1,
+    "decoded_index": 1562,
+    "sha256": "1ae80c0c8801d3336b4f472ca27dec56ad36e26a76611299322a5683001eef99",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0522",
+    "file": "tracking/frames/track_0522.png",
+    "target_pts": 52.2,
+    "actual_pts": 52.2,
+    "decoded_index": 1565,
+    "sha256": "c9605a4b7c63e5d0160b34c60c487ef0f8267007d7063ecdd164e3518c83a675",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0523",
+    "file": "tracking/frames/track_0523.png",
+    "target_pts": 52.3,
+    "actual_pts": 52.3,
+    "decoded_index": 1568,
+    "sha256": "823eeacf14b0b20e0e86b711299d4bfb5582be9efa2e08c6ef9b13bf6e7fc147",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0524",
+    "file": "tracking/frames/track_0524.png",
+    "target_pts": 52.4,
+    "actual_pts": 52.4,
+    "decoded_index": 1571,
+    "sha256": "a639647ad10ec6868df6d4abdf0eef801bf58016ebe2f787ce6e1d95f0474f2c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0525",
+    "file": "tracking/frames/track_0525.png",
+    "target_pts": 52.5,
+    "actual_pts": 52.5,
+    "decoded_index": 1574,
+    "sha256": "17305a1b9815bb10adabc898ae8e0c198d1115ee5477a5f7529da13629ec8d9f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0526",
+    "file": "tracking/frames/track_0526.png",
+    "target_pts": 52.6,
+    "actual_pts": 52.6,
+    "decoded_index": 1577,
+    "sha256": "bb467b355313dd40e30fc5fad3dc31efeb695e97bfb9387f28f3e9da62e63854",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0527",
+    "file": "tracking/frames/track_0527.png",
+    "target_pts": 52.7,
+    "actual_pts": 52.7,
+    "decoded_index": 1580,
+    "sha256": "ef9287854853d72442bba56fb948a642b77d7fceae5d116191c40a649208d69a",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0528",
+    "file": "tracking/frames/track_0528.png",
+    "target_pts": 52.8,
+    "actual_pts": 52.8,
+    "decoded_index": 1583,
+    "sha256": "58ad8683e115d5c14b5b7800680a07262ba5dffb5517c82631148692b9a568be",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0529",
+    "file": "tracking/frames/track_0529.png",
+    "target_pts": 52.9,
+    "actual_pts": 52.9,
+    "decoded_index": 1586,
+    "sha256": "9e26ca6664a4df9b669088d259d5941b4b4c112fd2e28fd869064c6504e207e6",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0530",
+    "file": "tracking/frames/track_0530.png",
+    "target_pts": 53.0,
+    "actual_pts": 53.0,
+    "decoded_index": 1589,
+    "sha256": "21fbe13c91810c821e6e868a3308e272fa24deb842dad6a47f26b742aead88f2",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0531",
+    "file": "tracking/frames/track_0531.png",
+    "target_pts": 53.1,
+    "actual_pts": 53.1,
+    "decoded_index": 1592,
+    "sha256": "56b4d679d4c21d80c18e5903e7eaa6fabcc89a6073d749e4bf295f0447527a99",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0532",
+    "file": "tracking/frames/track_0532.png",
+    "target_pts": 53.2,
+    "actual_pts": 53.2,
+    "decoded_index": 1595,
+    "sha256": "413067f342f54fb64b5e6097100240e04eb9805b67394b40825534303668b2aa",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0533",
+    "file": "tracking/frames/track_0533.png",
+    "target_pts": 53.3,
+    "actual_pts": 53.3,
+    "decoded_index": 1598,
+    "sha256": "be1b21f9b943c7569f92db1ca562e808a711bd2ae1e792da3b7d52f4d7e08201",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0534",
+    "file": "tracking/frames/track_0534.png",
+    "target_pts": 53.4,
+    "actual_pts": 53.4,
+    "decoded_index": 1601,
+    "sha256": "b14c9243b3b83111d4376a95c7bcbf32a9b3a22ce724c6564f3d015e99545714",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0535",
+    "file": "tracking/frames/track_0535.png",
+    "target_pts": 53.5,
+    "actual_pts": 53.5,
+    "decoded_index": 1604,
+    "sha256": "b28edd8808514f5c8b25e8dc06fc0d62471c1a60c9557de8bed597ce514a2af2",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0536",
+    "file": "tracking/frames/track_0536.png",
+    "target_pts": 53.6,
+    "actual_pts": 53.6,
+    "decoded_index": 1607,
+    "sha256": "184d56efe0cc395bd1c056772605db2d324b534fd7757de378f97e77135d7283",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0537",
+    "file": "tracking/frames/track_0537.png",
+    "target_pts": 53.7,
+    "actual_pts": 53.7,
+    "decoded_index": 1610,
+    "sha256": "6af033ccb6f8264ab79c9c5077d4c343d9d482e3cc9f7152299bb43f3372c250",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0538",
+    "file": "tracking/frames/track_0538.png",
+    "target_pts": 53.8,
+    "actual_pts": 53.8,
+    "decoded_index": 1613,
+    "sha256": "a93774f0b5dcb0c0cb7323b5bf2feca751af4b92ad1f45a685c6e128aebe66f3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0539",
+    "file": "tracking/frames/track_0539.png",
+    "target_pts": 53.9,
+    "actual_pts": 53.9,
+    "decoded_index": 1616,
+    "sha256": "3c66fa1b65712ae69a0276231af1f35baaba02f96693d9ac57166a40cc6acd6c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0540",
+    "file": "tracking/frames/track_0540.png",
+    "target_pts": 54.0,
+    "actual_pts": 54.0,
+    "decoded_index": 1619,
+    "sha256": "94ddebb294e6d1201360ec6cf728b100c0c69d4adbe28cb67a4f160bd861da84",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0541",
+    "file": "tracking/frames/track_0541.png",
+    "target_pts": 54.1,
+    "actual_pts": 54.1,
+    "decoded_index": 1622,
+    "sha256": "2fc9851b74b166c67ed4ad1e4994b7600d1d2cfc8aea251c103cf614100a2bac",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0542",
+    "file": "tracking/frames/track_0542.png",
+    "target_pts": 54.2,
+    "actual_pts": 54.2,
+    "decoded_index": 1625,
+    "sha256": "f66e65acac36d5437e3d1c4eda58789644a7e06d74d2ac345bbc353fa1da6da0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0543",
+    "file": "tracking/frames/track_0543.png",
+    "target_pts": 54.3,
+    "actual_pts": 54.3,
+    "decoded_index": 1628,
+    "sha256": "96ef793bfe40de9504596623f4d6b4f2cbb66e422c535d1e7936b5bf3f4fe535",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0544",
+    "file": "tracking/frames/track_0544.png",
+    "target_pts": 54.4,
+    "actual_pts": 54.4,
+    "decoded_index": 1631,
+    "sha256": "5b25a952e579c6b7e676f448e74d0c2219dd4fb646926f39c2be91aa78162c6b",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0545",
+    "file": "tracking/frames/track_0545.png",
+    "target_pts": 54.5,
+    "actual_pts": 54.5,
+    "decoded_index": 1634,
+    "sha256": "e3cf844b2eded96e3a2c3ca580f881be857747339814ec3c5a753850fe456576",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0546",
+    "file": "tracking/frames/track_0546.png",
+    "target_pts": 54.6,
+    "actual_pts": 54.6,
+    "decoded_index": 1637,
+    "sha256": "020df8f91869f6c3845c69a35bee5a3b2397635d974ac3c44672c114625db5b1",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0547",
+    "file": "tracking/frames/track_0547.png",
+    "target_pts": 54.7,
+    "actual_pts": 54.7,
+    "decoded_index": 1640,
+    "sha256": "c568515fa692e4dc92dcd3876510e0622a7e45a6b1b66ea83dc4fc8bc5ad33d3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0548",
+    "file": "tracking/frames/track_0548.png",
+    "target_pts": 54.8,
+    "actual_pts": 54.8,
+    "decoded_index": 1643,
+    "sha256": "16a527d9c39194a7a586b0091f2ab9d8f0e9d759a03b90a717d472c8f46d05f4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0549",
+    "file": "tracking/frames/track_0549.png",
+    "target_pts": 54.9,
+    "actual_pts": 54.9,
+    "decoded_index": 1646,
+    "sha256": "491ebe23ed2588c81cb83bab0f2fa49876ec4ee0439638cc1869b55394e11e23",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0550",
+    "file": "tracking/frames/track_0550.png",
+    "target_pts": 55.0,
+    "actual_pts": 55.0,
+    "decoded_index": 1649,
+    "sha256": "a826c0ada4cd56eeae53da0b9e204f8d8668366fe1c8a2d4ef2af809c824dee0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0551",
+    "file": "tracking/frames/track_0551.png",
+    "target_pts": 55.1,
+    "actual_pts": 55.1,
+    "decoded_index": 1652,
+    "sha256": "4b6ed32439c1dc48f9e504186e8164fdfaff3b37bbf6bf5fd102201484d9a24f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0552",
+    "file": "tracking/frames/track_0552.png",
+    "target_pts": 55.2,
+    "actual_pts": 55.2,
+    "decoded_index": 1655,
+    "sha256": "5470cf43bb738a7b7550acf89d93d8b3aefb233a73e9071ced2d29528b160bd5",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0553",
+    "file": "tracking/frames/track_0553.png",
+    "target_pts": 55.3,
+    "actual_pts": 55.3,
+    "decoded_index": 1658,
+    "sha256": "ab96a59ef2bafd852dea37fd323a4a0e9db2a8929cf8dfb296b2b8b60414033f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0554",
+    "file": "tracking/frames/track_0554.png",
+    "target_pts": 55.4,
+    "actual_pts": 55.4,
+    "decoded_index": 1661,
+    "sha256": "bdec64a09281a93efdcd952e27a31a860dbd9bfa188b3b81fe4316725bd2630c",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0555",
+    "file": "tracking/frames/track_0555.png",
+    "target_pts": 55.5,
+    "actual_pts": 55.5,
+    "decoded_index": 1664,
+    "sha256": "1fa5aa62789ad4b58483c667904c061113c6a22534dbbe6a02f009f4610737bf",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0556",
+    "file": "tracking/frames/track_0556.png",
+    "target_pts": 55.6,
+    "actual_pts": 55.6,
+    "decoded_index": 1667,
+    "sha256": "6e8ced0e785aa8f7955d9e3e67e12e58dffdd1ee92203b62a121fe657a1d504e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0557",
+    "file": "tracking/frames/track_0557.png",
+    "target_pts": 55.7,
+    "actual_pts": 55.7,
+    "decoded_index": 1670,
+    "sha256": "32d9032b8a036debc1d9a198c6af24b0bb58236bff6a39777401b3fd6d8c8ad1",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0558",
+    "file": "tracking/frames/track_0558.png",
+    "target_pts": 55.8,
+    "actual_pts": 55.8,
+    "decoded_index": 1673,
+    "sha256": "72287e2832c19b0ad90bec412b8115e75de805ea915b028812918f57b9d994e0",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0559",
+    "file": "tracking/frames/track_0559.png",
+    "target_pts": 55.9,
+    "actual_pts": 55.9,
+    "decoded_index": 1676,
+    "sha256": "8c904f9b9f085507bd63d216900f21cbd63c9040f836f9791e7bdd7b951189a7",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0560",
+    "file": "tracking/frames/track_0560.png",
+    "target_pts": 56.0,
+    "actual_pts": 56.0,
+    "decoded_index": 1679,
+    "sha256": "7326ba4a14e897d72f9a87a35657c39a53b9436cb022c10a21558f5acb97ebff",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0561",
+    "file": "tracking/frames/track_0561.png",
+    "target_pts": 56.1,
+    "actual_pts": 56.1,
+    "decoded_index": 1682,
+    "sha256": "7abb27dc468b935bf96b188a683034ce66130d045494a76ee4a82aac169ff5ad",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0562",
+    "file": "tracking/frames/track_0562.png",
+    "target_pts": 56.2,
+    "actual_pts": 56.2,
+    "decoded_index": 1685,
+    "sha256": "182f8f4e92df215f70611b9c5f682b630164cee379813c91bf01a42232d5502d",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0563",
+    "file": "tracking/frames/track_0563.png",
+    "target_pts": 56.3,
+    "actual_pts": 56.3,
+    "decoded_index": 1688,
+    "sha256": "f871317547c559f12994f0025a1cfc0217aba1a3ceb626ddbf9696a3e92d7f81",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0564",
+    "file": "tracking/frames/track_0564.png",
+    "target_pts": 56.4,
+    "actual_pts": 56.4,
+    "decoded_index": 1691,
+    "sha256": "7629600c42028aa53d75c81d81ab2055ab96ee2b9c5ad83a41fcc18c91056e78",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0565",
+    "file": "tracking/frames/track_0565.png",
+    "target_pts": 56.5,
+    "actual_pts": 56.5,
+    "decoded_index": 1694,
+    "sha256": "9ce5331ebd1bc7bd4ac169aaf1266b1123a29cf053cd6d92ff71293d641a3bd4",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0566",
+    "file": "tracking/frames/track_0566.png",
+    "target_pts": 56.6,
+    "actual_pts": 56.6,
+    "decoded_index": 1697,
+    "sha256": "f0f220faed3cc480d452032772235207a302f8f2ced70485688d58b3050be679",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0567",
+    "file": "tracking/frames/track_0567.png",
+    "target_pts": 56.7,
+    "actual_pts": 56.7,
+    "decoded_index": 1700,
+    "sha256": "2ff03b508c868540239d404733f0765fd924da437eab40ae6cacc6ac59bf3622",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0568",
+    "file": "tracking/frames/track_0568.png",
+    "target_pts": 56.8,
+    "actual_pts": 56.8,
+    "decoded_index": 1703,
+    "sha256": "32511914df0a877e7afe56acc0b19f12039b5c02a83385512c60b0e3fd8a96d8",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0569",
+    "file": "tracking/frames/track_0569.png",
+    "target_pts": 56.9,
+    "actual_pts": 56.9,
+    "decoded_index": 1706,
+    "sha256": "0e79df2f69134e1b8020407b0745e6915e1672d0802b7e377368131103cd2178",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0570",
+    "file": "tracking/frames/track_0570.png",
+    "target_pts": 57.0,
+    "actual_pts": 57.0,
+    "decoded_index": 1709,
+    "sha256": "75dc944260b9e19e074f96304abc97b3e71f204d72241ba5de68e8920d2a922f",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0571",
+    "file": "tracking/frames/track_0571.png",
+    "target_pts": 57.1,
+    "actual_pts": 57.1,
+    "decoded_index": 1712,
+    "sha256": "e77272e314e9c5700ade7e992c6331e7c7a3386bb1a3bc3dc02ebe88c8cc785e",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0572",
+    "file": "tracking/frames/track_0572.png",
+    "target_pts": 57.2,
+    "actual_pts": 57.2,
+    "decoded_index": 1715,
+    "sha256": "181710169505f6c533a7505c2fd357929ba0a038871bf691d9579e8d182986e3",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0573",
+    "file": "tracking/frames/track_0573.png",
+    "target_pts": 57.3,
+    "actual_pts": 57.3,
+    "decoded_index": 1718,
+    "sha256": "33faacf3ca67be29d9b64b8d4f99813783f73e44707d5fbc01cf45cc02bac116",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0574",
+    "file": "tracking/frames/track_0574.png",
+    "target_pts": 57.4,
+    "actual_pts": 57.4,
+    "decoded_index": 1721,
+    "sha256": "a2d82bd62b9057d4dbbcfaae9f1dcb0d58b2ab0bae1be2433c75c225967777a8",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0575",
+    "file": "tracking/frames/track_0575.png",
+    "target_pts": 57.5,
+    "actual_pts": 57.5,
+    "decoded_index": 1724,
+    "sha256": "b0d2033480d9896286c5971747ad52a8552249d1fca7397e6be8fd8e99433347",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0576",
+    "file": "tracking/frames/track_0576.png",
+    "target_pts": 57.6,
+    "actual_pts": 57.6,
+    "decoded_index": 1727,
+    "sha256": "a8b10614cf0a678a777ccf493ba9c9fe5b9a114a6eddcba61106712ce800caca",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0577",
+    "file": "tracking/frames/track_0577.png",
+    "target_pts": 57.7,
+    "actual_pts": 57.7,
+    "decoded_index": 1730,
+    "sha256": "165b0bced7103a64f2bf73839a2fc09bb913e7f38c196a82081816216410dc90",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0578",
+    "file": "tracking/frames/track_0578.png",
+    "target_pts": 57.8,
+    "actual_pts": 57.8,
+    "decoded_index": 1733,
+    "sha256": "a26058f7dc90d757d44d0b2dd3381c7c52bbe6fd5d0c0cb4fb5bddab23f8fd96",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0579",
+    "file": "tracking/frames/track_0579.png",
+    "target_pts": 57.9,
+    "actual_pts": 57.9,
+    "decoded_index": 1736,
+    "sha256": "03ac9f2afcbecd21298f47aa6c0abb2443ed4fe44a327db19f48de9a79060348",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  },
+  {
+    "id": "track_0580",
+    "file": "tracking/frames/track_0580.png",
+    "target_pts": 58.0,
+    "actual_pts": 58.0,
+    "decoded_index": 1739,
+    "sha256": "8c52dd6c2accd0cdbb99ac4972f2363b56e74b34b950637f1ebeebbf08879835",
+    "width": 1280,
+    "height": 720,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "masks": [
+      [
+        0,
+        0,
+        240,
+        110
+      ],
+      [
+        0,
+        610,
+        1280,
+        720
+      ]
+    ]
+  }
+]

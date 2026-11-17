@@ -1,0 +1,14 @@
+{
+ "_note": "Race distance and the video time of the start, checked by eye on the info graphic and the race clock (code/cl0_facts_sheet.py). In a real system these come from the racecard and the start signal. Differences from the model's own reading in run 1: R05 start (the clock still showed 0:00.0 at the first time point) and R08 distance (the graphic showed the trophy name instead of the distance; the video title says 1200M).",
+ "R01": {"distance": 1000, "start_video_time": 13.2},
+ "R02": {"distance": 1200, "start_video_time": 10.7},
+ "R03": {"distance": 1200, "start_video_time": 9.2},
+ "R04": {"distance": 1300, "start_video_time": 9.0},
+ "R05": {"distance": 1300, "start_video_time": 40.0},
+ "R06": {"distance": 1400, "start_video_time": 14.0},
+ "R07": {"distance": 1700, "start_video_time": 14.0},
+ "R08": {"distance": 1200, "start_video_time": 11.0},
+ "R09": {"distance": 1800, "start_video_time": 18.1},
+ "R10": {"distance": 1600, "start_video_time": 6.7},
+ "R11": {"distance": 1200, "start_video_time": 19.9}
+}

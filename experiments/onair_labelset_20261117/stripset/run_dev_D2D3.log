@@ -1,0 +1,11 @@
+D2 excl_R01 frames 5
+D2 excl_R03 frames 24
+D2 excl_R05 frames 11
+D2 excl_R07 frames 14
+D2 excl_R09 frames 21
+D3 excl_R01 frames 5
+D3 excl_R03 frames 24
+D3 excl_R05 frames 11
+D3 excl_R07 frames 14
+D3 excl_R09 frames 21
+done dev ['D2', 'D3'] frames 75

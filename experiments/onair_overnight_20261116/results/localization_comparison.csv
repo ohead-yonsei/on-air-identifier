@@ -1,0 +1,25 @@
+frame,condition,leader_claimed,cap_color,cap_center_covered_by_predicted_box,cap_color_matches_reference_purple,nose_distance_to_reference_px,http_ms,reference_status
+t031,9B_full_frame,True,blue,False,False,56.709166807492444,1961.539026349783,assistant provisional
+t034,9B_full_frame,True,green,False,False,726.1902186066679,1900.3790225833654,assistant provisional
+t037,9B_full_frame,True,white,False,False,240.31316235279328,1827.0145505666733,assistant provisional
+t040,9B_full_frame,False,unknown,False,False,,1440.5619325116277,assistant provisional
+t042,9B_full_frame,True,blue,True,False,22.645087767549064,1918.9090924337506,assistant provisional
+t048,9B_full_frame,True,blue,False,False,118.41970781926463,1951.7512172460556,assistant provisional
+t052,9B_full_frame,True,red,False,False,610.2945190643613,1964.67503067106,assistant provisional
+t058,9B_full_frame,True,green,False,False,409.7500213544839,1952.5038534775376,assistant provisional
+t031,9B_with_manual_view,False,unknown,False,False,,1665.7903157174587,assistant provisional
+t034,9B_with_manual_view,False,unknown,False,False,,1619.9796050786972,assistant provisional
+t037,9B_with_manual_view,False,unknown,False,False,,1661.0401384532452,assistant provisional
+t040,9B_with_manual_view,False,unknown,False,False,,1569.9129486456513,assistant provisional
+t042,9B_with_manual_view,False,unknown,False,False,,1538.7669885531068,assistant provisional
+t048,9B_with_manual_view,False,unknown,False,False,,1569.8028998449445,assistant provisional
+t052,9B_with_manual_view,False,unknown,False,False,,1537.1170584112406,assistant provisional
+t058,9B_with_manual_view,False,unknown,False,False,,1557.0646403357387,assistant provisional
+t031,27B_full_frame,False,unknown,False,False,,2770.0520353391767,assistant provisional
+t034,27B_full_frame,True,unknown,False,False,924.1659296901179,3309.1489216312766,assistant provisional
+t037,27B_full_frame,False,unknown,False,False,,2750.0950107350945,assistant provisional
+t040,27B_full_frame,False,unknown,False,False,,2757.2195027023554,assistant provisional
+t042,27B_full_frame,True,purple,True,True,10.889995408630831,3304.030193015933,assistant provisional
+t048,27B_full_frame,False,unknown,False,False,,2828.0425257980824,assistant provisional
+t052,27B_full_frame,False,unknown,False,False,,2715.3375977650285,assistant provisional
+t058,27B_full_frame,False,unknown,False,False,,2831.818231381476,assistant provisional

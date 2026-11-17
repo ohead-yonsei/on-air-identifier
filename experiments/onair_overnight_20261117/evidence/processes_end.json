@@ -1,0 +1,61 @@
+{
+  "time_utc": "2026-11-16T17:38:50.107693+00:00",
+  "jobs": [
+    {
+      "record": "C_dev_pid.json",
+      "pid": 2060236,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "C_eval_pid.json",
+      "pid": 2060746,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "C_pose_dev_pid.json",
+      "pid": 2059632,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "E_pid.json",
+      "pid": 2061461,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "extract_detect_pid.json",
+      "pid": 2057777,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "extras_pid.json",
+      "pid": 2062719,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "human_mask_control_pid.json",
+      "pid": 2063530,
+      "state": "absent",
+      "active": false
+    },
+    {
+      "record": "survey_pid.json",
+      "pid": 2056531,
+      "state": "absent",
+      "active": false
+    }
+  ],
+  "gpu": {
+    "time_utc": "2026-11-16T17:38:50.155285+00:00",
+    "research_lock_exists": true,
+    "research_lock_held": false,
+    "compute_processes": "",
+    "disk_free": 149379743744
+  },
+  "nvidia_smi": "Tue Nov 17 02:38:50 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.84                 Driver Version: 595.84         CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3090        Off |   00000000:B3:00.0  On |                  N/A |\n| 30%   37C    P8             24W /  350W |     325MiB /  24576MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2016724      G   /usr/lib/xorg/Xorg                      168MiB |\n|    0   N/A  N/A         2016946      G   /usr/bin/gnome-shell                     13MiB |\n|    0   N/A  N/A         2018063      G   .../9171/usr/lib/firefox/firefox         13MiB |\n|    0   N/A  N/A         2018992      G   /usr/bin/nautilus                        15MiB |\n|    0   N/A  N/A         2019103      G   /usr/bin/gnome-control-center            16MiB |\n+-----------------------------------------------------------------------------------------+\n"
+}

@@ -1,0 +1,2539 @@
+{
+ "batch": "2B",
+ "status": "assistant visual draft; not human-reviewed",
+ "riders": [
+  {
+   "id": "R01_t044_p00",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 180.9,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R01_t044_p00.jpg",
+   "person_box": [
+    441.0,
+    432.0,
+    607.3,
+    612.9
+   ]
+  },
+  {
+   "id": "R01_t044_p01",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 197.8,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R01_t044_p01.jpg",
+   "person_box": [
+    651.6,
+    399.0,
+    767.3,
+    596.8
+   ]
+  },
+  {
+   "id": "R01_t044_p02",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 252.6,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R01_t044_p02.jpg",
+   "person_box": [
+    805.1,
+    48.8,
+    941.8,
+    301.4
+   ]
+  },
+  {
+   "id": "R01_t044_p03",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 424.1,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R01_t044_p03.jpg",
+   "person_box": [
+    854.4,
+    283.7,
+    1033.6,
+    707.9
+   ]
+  },
+  {
+   "id": "R01_t044_p04",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 237.9,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R01_t044_p04.jpg",
+   "person_box": [
+    1121.7,
+    470.0,
+    1264.7,
+    707.9
+   ]
+  },
+  {
+   "id": "R01_t044_p05",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 203.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "모자가 잘 안 보임",
+   "crop": "crops/R01_t044_p05.jpg",
+   "person_box": [
+    1351.2,
+    383.9,
+    1451.9,
+    587.4
+   ]
+  },
+  {
+   "id": "R01_t044_p06",
+   "race": "R01",
+   "frame": "R01_t044",
+   "pts": 44.0,
+   "height_px": 182.5,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R01_t044_p06.jpg",
+   "person_box": [
+    1513.6,
+    491.3,
+    1653.4,
+    673.9
+   ]
+  },
+  {
+   "id": "R01_t060_p00",
+   "race": "R01",
+   "frame": "R01_t060",
+   "pts": 60.0,
+   "height_px": 74.2,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R01_t060_p00.jpg",
+   "person_box": [
+    648.6,
+    422.2,
+    700.8,
+    496.4
+   ]
+  },
+  {
+   "id": "R01_t060_p01",
+   "race": "R01",
+   "frame": "R01_t060",
+   "pts": 60.0,
+   "height_px": 75.4,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "흰색(1번)인지 줄무늬(11번)인지 애매함",
+   "crop": "crops/R01_t060_p01.jpg",
+   "person_box": [
+    876.6,
+    428.1,
+    925.8,
+    503.5
+   ]
+  },
+  {
+   "id": "R01_t060_p02",
+   "race": "R01",
+   "frame": "R01_t060",
+   "pts": 60.0,
+   "height_px": 70.7,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R01_t060_p02.jpg",
+   "person_box": [
+    1212.6,
+    454.2,
+    1254.2,
+    524.9
+   ]
+  },
+  {
+   "id": "R02_t044_p00",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 125.9,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R02_t044_p00.jpg",
+   "person_box": [
+    203.4,
+    468.8,
+    269.1,
+    594.7
+   ]
+  },
+  {
+   "id": "R02_t044_p01",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 124.7,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R02_t044_p01.jpg",
+   "person_box": [
+    516.3,
+    424.4,
+    587.2,
+    549.2
+   ]
+  },
+  {
+   "id": "R02_t044_p02",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 116.5,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R02_t044_p02.jpg",
+   "person_box": [
+    607.8,
+    381.8,
+    677.5,
+    498.3
+   ]
+  },
+  {
+   "id": "R02_t044_p03",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 107.6,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R02_t044_p03.jpg",
+   "person_box": [
+    707.4,
+    384.2,
+    781.3,
+    491.8
+   ]
+  },
+  {
+   "id": "R02_t044_p04",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 159.0,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R02_t044_p04.jpg",
+   "person_box": [
+    982.1,
+    300.9,
+    1121.2,
+    459.9
+   ]
+  },
+  {
+   "id": "R02_t044_p05",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 138.3,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R02_t044_p05.jpg",
+   "person_box": [
+    1274.2,
+    270.2,
+    1348.8,
+    408.6
+   ]
+  },
+  {
+   "id": "R02_t044_p06",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 124.4,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R02_t044_p06.jpg",
+   "person_box": [
+    1444.1,
+    280.0,
+    1511.0,
+    404.5
+   ]
+  },
+  {
+   "id": "R02_t044_p07",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 112.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R02_t044_p07.jpg",
+   "person_box": [
+    1516.7,
+    262.7,
+    1602.7,
+    375.5
+   ]
+  },
+  {
+   "id": "R02_t044_p08",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 115.3,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R02_t044_p08.jpg",
+   "person_box": [
+    1694.5,
+    241.2,
+    1761.2,
+    356.5
+   ]
+  },
+  {
+   "id": "R02_t044_p09",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "height_px": 123.5,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R02_t044_p09.jpg",
+   "person_box": [
+    1771.3,
+    235.8,
+    1868.6,
+    359.3
+   ]
+  },
+  {
+   "id": "R02_t061_p00",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 72.1,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R02_t061_p00.jpg",
+   "person_box": [
+    169.4,
+    344.2,
+    228.2,
+    416.2
+   ]
+  },
+  {
+   "id": "R02_t061_p01",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 181.1,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R02_t061_p01.jpg",
+   "person_box": [
+    600.8,
+    359.0,
+    696.8,
+    540.1
+   ]
+  },
+  {
+   "id": "R02_t061_p02",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 74.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R02_t061_p02.jpg",
+   "person_box": [
+    710.4,
+    390.5,
+    754.5,
+    465.2
+   ]
+  },
+  {
+   "id": "R02_t061_p03",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 134.5,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R02_t061_p03.jpg",
+   "person_box": [
+    898.3,
+    371.6,
+    972.2,
+    506.2
+   ]
+  },
+  {
+   "id": "R02_t061_p04",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 71.0,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R02_t061_p04.jpg",
+   "person_box": [
+    1224.4,
+    494.7,
+    1284.1,
+    565.7
+   ]
+  },
+  {
+   "id": "R02_t061_p05",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 102.2,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R02_t061_p05.jpg",
+   "person_box": [
+    1305.5,
+    479.8,
+    1364.6,
+    582.1
+   ]
+  },
+  {
+   "id": "R02_t061_p06",
+   "race": "R02",
+   "frame": "R02_t061",
+   "pts": 61.0,
+   "height_px": 85.0,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R02_t061_p06.jpg",
+   "person_box": [
+    1586.4,
+    633.8,
+    1660.2,
+    718.8
+   ]
+  },
+  {
+   "id": "R03_t057_p00",
+   "race": "R03",
+   "frame": "R03_t057",
+   "pts": 57.0,
+   "height_px": 259.1,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R03_t057_p00.jpg",
+   "person_box": [
+    529.8,
+    316.2,
+    682.3,
+    575.3
+   ]
+  },
+  {
+   "id": "R03_t057_p01",
+   "race": "R03",
+   "frame": "R03_t057",
+   "pts": 57.0,
+   "height_px": 266.5,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R03_t057_p01.jpg",
+   "person_box": [
+    756.3,
+    356.1,
+    901.1,
+    622.6
+   ]
+  },
+  {
+   "id": "R03_t057_p02",
+   "race": "R03",
+   "frame": "R03_t057",
+   "pts": 57.0,
+   "height_px": 196.1,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R03_t057_p02.jpg",
+   "person_box": [
+    952.9,
+    297.0,
+    1074.2,
+    493.1
+   ]
+  },
+  {
+   "id": "R03_t057_p03",
+   "race": "R03",
+   "frame": "R03_t057",
+   "pts": 57.0,
+   "height_px": 205.6,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R03_t057_p03.jpg",
+   "person_box": [
+    1032.8,
+    434.8,
+    1141.2,
+    640.4
+   ]
+  },
+  {
+   "id": "R03_t057_p04",
+   "race": "R03",
+   "frame": "R03_t057",
+   "pts": 57.0,
+   "height_px": 193.5,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R03_t057_p04.jpg",
+   "person_box": [
+    1086.1,
+    365.2,
+    1203.7,
+    558.7
+   ]
+  },
+  {
+   "id": "R03_t094_p00",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 131.9,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R03_t094_p00.jpg",
+   "person_box": [
+    43.5,
+    274.0,
+    133.3,
+    405.9
+   ]
+  },
+  {
+   "id": "R03_t094_p01",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 142.5,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R03_t094_p01.jpg",
+   "person_box": [
+    243.5,
+    272.3,
+    341.5,
+    414.7
+   ]
+  },
+  {
+   "id": "R03_t094_p02",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 187.8,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R03_t094_p02.jpg",
+   "person_box": [
+    429.4,
+    272.1,
+    559.1,
+    459.9
+   ]
+  },
+  {
+   "id": "R03_t094_p03",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 167.1,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R03_t094_p03.jpg",
+   "person_box": [
+    529.7,
+    360.3,
+    637.2,
+    527.4
+   ]
+  },
+  {
+   "id": "R03_t094_p04",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 167.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R03_t094_p04.jpg",
+   "person_box": [
+    635.6,
+    398.7,
+    727.0,
+    566.4
+   ]
+  },
+  {
+   "id": "R03_t094_p05",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 101.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "짙은 회색 모자, 번호를 모르겠음",
+   "crop": "crops/R03_t094_p05.jpg",
+   "person_box": [
+    863.3,
+    378.7,
+    973.3,
+    480.1
+   ]
+  },
+  {
+   "id": "R03_t094_p06",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 123.3,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R03_t094_p06.jpg",
+   "person_box": [
+    981.2,
+    448.6,
+    1104.4,
+    572.0
+   ]
+  },
+  {
+   "id": "R03_t094_p07",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 163.9,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R03_t094_p07.jpg",
+   "person_box": [
+    1214.3,
+    415.7,
+    1325.0,
+    579.7
+   ]
+  },
+  {
+   "id": "R03_t094_p08",
+   "race": "R03",
+   "frame": "R03_t094",
+   "pts": 94.0,
+   "height_px": 141.5,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R03_t094_p08.jpg",
+   "person_box": [
+    1594.7,
+    506.6,
+    1689.3,
+    648.1
+   ]
+  },
+  {
+   "id": "R04_t058_p00",
+   "race": "R04",
+   "frame": "R04_t058",
+   "pts": 58.0,
+   "height_px": 81.3,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R04_t058_p00.jpg",
+   "person_box": [
+    915.2,
+    474.4,
+    978.3,
+    555.7
+   ]
+  },
+  {
+   "id": "R04_t058_p01",
+   "race": "R04",
+   "frame": "R04_t058",
+   "pts": 58.0,
+   "height_px": 78.7,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R04_t058_p01.jpg",
+   "person_box": [
+    1210.5,
+    461.3,
+    1292.7,
+    540.0
+   ]
+  },
+  {
+   "id": "R04_t090_p00",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 254.9,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R04_t090_p00.jpg",
+   "person_box": [
+    389.2,
+    414.0,
+    532.1,
+    668.9
+   ]
+  },
+  {
+   "id": "R04_t090_p01",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 245.7,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R04_t090_p01.jpg",
+   "person_box": [
+    644.3,
+    450.5,
+    771.2,
+    696.1
+   ]
+  },
+  {
+   "id": "R04_t090_p02",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 227.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R04_t090_p02.jpg",
+   "person_box": [
+    836.0,
+    464.5,
+    971.5,
+    692.3
+   ]
+  },
+  {
+   "id": "R04_t090_p03",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 171.3,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R04_t090_p03.jpg",
+   "person_box": [
+    1137.8,
+    318.5,
+    1264.3,
+    489.8
+   ]
+  },
+  {
+   "id": "R04_t090_p04",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 272.5,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R04_t090_p04.jpg",
+   "person_box": [
+    1235.7,
+    183.8,
+    1385.4,
+    456.3
+   ]
+  },
+  {
+   "id": "R04_t090_p05",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 202.2,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R04_t090_p05.jpg",
+   "person_box": [
+    1390.8,
+    216.0,
+    1552.3,
+    418.2
+   ]
+  },
+  {
+   "id": "R04_t090_p06",
+   "race": "R04",
+   "frame": "R04_t090",
+   "pts": 90.0,
+   "height_px": 228.4,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R04_t090_p06.jpg",
+   "person_box": [
+    1500.8,
+    286.4,
+    1638.2,
+    514.8
+   ]
+  },
+  {
+   "id": "R05_t047_p00",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 197.5,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R05_t047_p00.jpg",
+   "person_box": [
+    604.0,
+    480.9,
+    698.0,
+    678.4
+   ]
+  },
+  {
+   "id": "R05_t047_p01",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 126.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p02과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R05_t047_p01.jpg",
+   "person_box": [
+    658.6,
+    368.8,
+    745.3,
+    495.3
+   ]
+  },
+  {
+   "id": "R05_t047_p02",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 161.1,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R05_t047_p02.jpg",
+   "person_box": [
+    691.4,
+    336.5,
+    771.2,
+    497.6
+   ]
+  },
+  {
+   "id": "R05_t047_p03",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 222.1,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R05_t047_p03.jpg",
+   "person_box": [
+    729.0,
+    550.6,
+    854.3,
+    772.7
+   ]
+  },
+  {
+   "id": "R05_t047_p04",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 184.6,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R05_t047_p04.jpg",
+   "person_box": [
+    914.2,
+    659.4,
+    1043.4,
+    844.1
+   ]
+  },
+  {
+   "id": "R05_t047_p05",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 170.8,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R05_t047_p05.jpg",
+   "person_box": [
+    1001.7,
+    458.0,
+    1106.9,
+    628.8
+   ]
+  },
+  {
+   "id": "R05_t047_p06",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 241.7,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R05_t047_p06.jpg",
+   "person_box": [
+    1036.7,
+    211.7,
+    1145.8,
+    453.4
+   ]
+  },
+  {
+   "id": "R05_t047_p07",
+   "race": "R05",
+   "frame": "R05_t047",
+   "pts": 47.0,
+   "height_px": 218.9,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R05_t047_p07.jpg",
+   "person_box": [
+    1181.3,
+    155.1,
+    1292.3,
+    374.0
+   ]
+  },
+  {
+   "id": "R05_t068_p00",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 96.2,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R05_t068_p00.jpg",
+   "person_box": [
+    196.4,
+    400.4,
+    271.5,
+    496.7
+   ]
+  },
+  {
+   "id": "R05_t068_p01",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 107.1,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R05_t068_p01.jpg",
+   "person_box": [
+    549.6,
+    357.5,
+    623.5,
+    464.5
+   ]
+  },
+  {
+   "id": "R05_t068_p02",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 96.2,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R05_t068_p02.jpg",
+   "person_box": [
+    828.3,
+    376.1,
+    916.9,
+    472.3
+   ]
+  },
+  {
+   "id": "R05_t068_p03",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 126.6,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R05_t068_p03.jpg",
+   "person_box": [
+    843.7,
+    502.7,
+    928.0,
+    629.4
+   ]
+  },
+  {
+   "id": "R05_t068_p04",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 129.3,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p05과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R05_t068_p04.jpg",
+   "person_box": [
+    1043.6,
+    466.3,
+    1109.9,
+    595.6
+   ]
+  },
+  {
+   "id": "R05_t068_p05",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 163.9,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R05_t068_p05.jpg",
+   "person_box": [
+    1071.2,
+    434.4,
+    1149.4,
+    598.2
+   ]
+  },
+  {
+   "id": "R05_t068_p06",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 158.3,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R05_t068_p06.jpg",
+   "person_box": [
+    1235.1,
+    385.2,
+    1344.8,
+    543.5
+   ]
+  },
+  {
+   "id": "R05_t068_p07",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 85.8,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R05_t068_p07.jpg",
+   "person_box": [
+    1305.8,
+    466.5,
+    1367.4,
+    552.3
+   ]
+  },
+  {
+   "id": "R05_t068_p08",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 129.6,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R05_t068_p08.jpg",
+   "person_box": [
+    1455.2,
+    561.6,
+    1534.1,
+    691.2
+   ]
+  },
+  {
+   "id": "R05_t068_p09",
+   "race": "R05",
+   "frame": "R05_t068",
+   "pts": 68.0,
+   "height_px": 114.8,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R05_t068_p09.jpg",
+   "person_box": [
+    1505.6,
+    453.0,
+    1599.9,
+    567.8
+   ]
+  },
+  {
+   "id": "R06_t048_p00",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 152.6,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "모자가 잘 안 보임",
+   "crop": "crops/R06_t048_p00.jpg",
+   "person_box": [
+    374.3,
+    612.1,
+    476.3,
+    764.7
+   ]
+  },
+  {
+   "id": "R06_t048_p01",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 93.0,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R06_t048_p01.jpg",
+   "person_box": [
+    400.9,
+    520.6,
+    476.4,
+    613.6
+   ]
+  },
+  {
+   "id": "R06_t048_p02",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 164.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R06_t048_p02.jpg",
+   "person_box": [
+    499.2,
+    593.0,
+    582.5,
+    757.7
+   ]
+  },
+  {
+   "id": "R06_t048_p03",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 146.1,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R06_t048_p03.jpg",
+   "person_box": [
+    673.4,
+    432.0,
+    760.7,
+    578.1
+   ]
+  },
+  {
+   "id": "R06_t048_p04",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 102.7,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R06_t048_p04.jpg",
+   "person_box": [
+    793.8,
+    471.4,
+    876.9,
+    574.1
+   ]
+  },
+  {
+   "id": "R06_t048_p05",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 141.0,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R06_t048_p05.jpg",
+   "person_box": [
+    839.9,
+    388.0,
+    927.0,
+    529.0
+   ]
+  },
+  {
+   "id": "R06_t048_p06",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 126.6,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R06_t048_p06.jpg",
+   "person_box": [
+    1253.8,
+    286.6,
+    1334.9,
+    413.2
+   ]
+  },
+  {
+   "id": "R06_t048_p07",
+   "race": "R06",
+   "frame": "R06_t048",
+   "pts": 48.0,
+   "height_px": 123.1,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R06_t048_p07.jpg",
+   "person_box": [
+    1639.2,
+    203.6,
+    1715.4,
+    326.7
+   ]
+  },
+  {
+   "id": "R06_t070_p00",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 119.5,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R06_t070_p00.jpg",
+   "person_box": [
+    297.2,
+    371.7,
+    371.3,
+    491.2
+   ]
+  },
+  {
+   "id": "R06_t070_p01",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 174.4,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R06_t070_p01.jpg",
+   "person_box": [
+    454.9,
+    321.1,
+    561.5,
+    495.5
+   ]
+  },
+  {
+   "id": "R06_t070_p02",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 137.7,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R06_t070_p02.jpg",
+   "person_box": [
+    460.0,
+    481.3,
+    567.4,
+    619.1
+   ]
+  },
+  {
+   "id": "R06_t070_p03",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 160.8,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R06_t070_p03.jpg",
+   "person_box": [
+    597.0,
+    471.2,
+    710.7,
+    632.1
+   ]
+  },
+  {
+   "id": "R06_t070_p04",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 175.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R06_t070_p04.jpg",
+   "person_box": [
+    840.2,
+    427.7,
+    945.1,
+    603.2
+   ]
+  },
+  {
+   "id": "R06_t070_p05",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 125.5,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R06_t070_p05.jpg",
+   "person_box": [
+    1174.1,
+    452.8,
+    1266.3,
+    578.3
+   ]
+  },
+  {
+   "id": "R06_t070_p06",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 125.2,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "모자가 잘 안 보임",
+   "crop": "crops/R06_t070_p06.jpg",
+   "person_box": [
+    1246.9,
+    560.0,
+    1339.5,
+    685.2
+   ]
+  },
+  {
+   "id": "R06_t070_p07",
+   "race": "R06",
+   "frame": "R06_t070",
+   "pts": 70.0,
+   "height_px": 125.7,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R06_t070_p07.jpg",
+   "person_box": [
+    1602.4,
+    549.1,
+    1694.6,
+    674.8
+   ]
+  },
+  {
+   "id": "R07_t042_p00",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 71.6,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R07_t042_p00.jpg",
+   "person_box": [
+    513.1,
+    192.2,
+    574.1,
+    263.8
+   ]
+  },
+  {
+   "id": "R07_t042_p01",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 73.6,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R07_t042_p01.jpg",
+   "person_box": [
+    839.1,
+    398.6,
+    883.9,
+    472.1
+   ]
+  },
+  {
+   "id": "R07_t042_p02",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 96.3,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R07_t042_p02.jpg",
+   "person_box": [
+    883.6,
+    358.7,
+    937.6,
+    454.9
+   ]
+  },
+  {
+   "id": "R07_t042_p03",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 71.0,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p02과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R07_t042_p03.jpg",
+   "person_box": [
+    913.8,
+    358.8,
+    954.6,
+    429.8
+   ]
+  },
+  {
+   "id": "R07_t042_p04",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 78.7,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R07_t042_p04.jpg",
+   "person_box": [
+    914.3,
+    458.9,
+    1009.5,
+    537.6
+   ]
+  },
+  {
+   "id": "R07_t042_p05",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 104.9,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R07_t042_p05.jpg",
+   "person_box": [
+    1233.1,
+    528.6,
+    1310.3,
+    633.5
+   ]
+  },
+  {
+   "id": "R07_t042_p06",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 90.4,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R07_t042_p06.jpg",
+   "person_box": [
+    1368.3,
+    509.7,
+    1436.4,
+    600.1
+   ]
+  },
+  {
+   "id": "R07_t042_p07",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 114.5,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R07_t042_p07.jpg",
+   "person_box": [
+    1429.7,
+    568.3,
+    1502.1,
+    682.8
+   ]
+  },
+  {
+   "id": "R07_t042_p08",
+   "race": "R07",
+   "frame": "R07_t042",
+   "pts": 42.0,
+   "height_px": 92.4,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R07_t042_p08.jpg",
+   "person_box": [
+    1570.4,
+    572.8,
+    1636.6,
+    665.1
+   ]
+  },
+  {
+   "id": "R07_t071_p00",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 91.7,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R07_t071_p00.jpg",
+   "person_box": [
+    175.2,
+    454.1,
+    242.0,
+    545.8
+   ]
+  },
+  {
+   "id": "R07_t071_p01",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 106.9,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R07_t071_p01.jpg",
+   "person_box": [
+    318.4,
+    442.3,
+    374.8,
+    549.2
+   ]
+  },
+  {
+   "id": "R07_t071_p02",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 104.8,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R07_t071_p02.jpg",
+   "person_box": [
+    466.3,
+    375.4,
+    528.3,
+    480.2
+   ]
+  },
+  {
+   "id": "R07_t071_p03",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 77.8,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "어두운 모자, 번호를 모르겠음",
+   "crop": "crops/R07_t071_p03.jpg",
+   "person_box": [
+    516.7,
+    280.1,
+    569.5,
+    357.9
+   ]
+  },
+  {
+   "id": "R07_t071_p04",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 81.7,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R07_t071_p04.jpg",
+   "person_box": [
+    530.5,
+    417.1,
+    592.7,
+    498.8
+   ]
+  },
+  {
+   "id": "R07_t071_p05",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 85.8,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R07_t071_p05.jpg",
+   "person_box": [
+    586.9,
+    309.6,
+    639.0,
+    395.4
+   ]
+  },
+  {
+   "id": "R07_t071_p06",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 80.2,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R07_t071_p06.jpg",
+   "person_box": [
+    739.1,
+    458.3,
+    800.1,
+    538.5
+   ]
+  },
+  {
+   "id": "R07_t071_p07",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 99.9,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R07_t071_p07.jpg",
+   "person_box": [
+    1024.3,
+    526.0,
+    1098.5,
+    625.9
+   ]
+  },
+  {
+   "id": "R07_t071_p08",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 94.1,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R07_t071_p08.jpg",
+   "person_box": [
+    1296.9,
+    573.1,
+    1355.1,
+    667.3
+   ]
+  },
+  {
+   "id": "R07_t071_p09",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 102.9,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R07_t071_p09.jpg",
+   "person_box": [
+    1531.1,
+    587.1,
+    1589.5,
+    690.1
+   ]
+  },
+  {
+   "id": "R07_t071_p10",
+   "race": "R07",
+   "frame": "R07_t071",
+   "pts": 71.0,
+   "height_px": 97.5,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R07_t071_p10.jpg",
+   "person_box": [
+    1711.5,
+    577.5,
+    1789.7,
+    675.0
+   ]
+  },
+  {
+   "id": "R08_t052_p00",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 90.1,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R08_t052_p00.jpg",
+   "person_box": [
+    573.5,
+    313.2,
+    631.3,
+    403.3
+   ]
+  },
+  {
+   "id": "R08_t052_p01",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 111.1,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "모자가 잘 안 보임",
+   "crop": "crops/R08_t052_p01.jpg",
+   "person_box": [
+    910.0,
+    250.4,
+    983.0,
+    361.5
+   ]
+  },
+  {
+   "id": "R08_t052_p02",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 122.5,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R08_t052_p02.jpg",
+   "person_box": [
+    915.4,
+    521.7,
+    994.7,
+    644.2
+   ]
+  },
+  {
+   "id": "R08_t052_p03",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 80.1,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "연한 초록, 12번 이상일 수 있음",
+   "crop": "crops/R08_t052_p03.jpg",
+   "person_box": [
+    990.7,
+    404.6,
+    1045.3,
+    484.7
+   ]
+  },
+  {
+   "id": "R08_t052_p04",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 163.3,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "파랑에 줄무늬, 12번 이상일 수 있음",
+   "crop": "crops/R08_t052_p04.jpg",
+   "person_box": [
+    993.4,
+    589.2,
+    1067.2,
+    752.6
+   ]
+  },
+  {
+   "id": "R08_t052_p05",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 144.4,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R08_t052_p05.jpg",
+   "person_box": [
+    1042.5,
+    529.5,
+    1108.1,
+    674.0
+   ]
+  },
+  {
+   "id": "R08_t052_p06",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 127.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "모자가 잘 안 보임",
+   "crop": "crops/R08_t052_p06.jpg",
+   "person_box": [
+    1063.4,
+    608.9,
+    1149.1,
+    736.3
+   ]
+  },
+  {
+   "id": "R08_t052_p07",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 101.8,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R08_t052_p07.jpg",
+   "person_box": [
+    1105.2,
+    450.0,
+    1162.2,
+    551.8
+   ]
+  },
+  {
+   "id": "R08_t052_p08",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 120.5,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R08_t052_p08.jpg",
+   "person_box": [
+    1143.4,
+    604.1,
+    1233.7,
+    724.6
+   ]
+  },
+  {
+   "id": "R08_t052_p09",
+   "race": "R08",
+   "frame": "R08_t052",
+   "pts": 52.0,
+   "height_px": 83.0,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R08_t052_p09.jpg",
+   "person_box": [
+    1286.4,
+    634.7,
+    1364.1,
+    717.7
+   ]
+  },
+  {
+   "id": "R08_t085_p00",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 79.4,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "두 색 모자, 12번 이상일 수 있음",
+   "crop": "crops/R08_t085_p00.jpg",
+   "person_box": [
+    111.4,
+    363.9,
+    168.3,
+    443.3
+   ]
+  },
+  {
+   "id": "R08_t085_p01",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 138.5,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R08_t085_p01.jpg",
+   "person_box": [
+    357.4,
+    349.7,
+    427.2,
+    488.2
+   ]
+  },
+  {
+   "id": "R08_t085_p02",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 119.8,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R08_t085_p02.jpg",
+   "person_box": [
+    484.0,
+    392.6,
+    556.1,
+    512.4
+   ]
+  },
+  {
+   "id": "R08_t085_p03",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 90.0,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R08_t085_p03.jpg",
+   "person_box": [
+    484.1,
+    366.6,
+    559.6,
+    456.6
+   ]
+  },
+  {
+   "id": "R08_t085_p04",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 87.9,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R08_t085_p04.jpg",
+   "person_box": [
+    792.1,
+    404.5,
+    846.2,
+    492.4
+   ]
+  },
+  {
+   "id": "R08_t085_p05",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 86.7,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R08_t085_p05.jpg",
+   "person_box": [
+    876.9,
+    386.2,
+    927.9,
+    472.9
+   ]
+  },
+  {
+   "id": "R08_t085_p06",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 125.1,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R08_t085_p06.jpg",
+   "person_box": [
+    1019.0,
+    514.6,
+    1095.0,
+    639.8
+   ]
+  },
+  {
+   "id": "R08_t085_p07",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 72.4,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "연한 초록, 12번 이상일 수 있음",
+   "crop": "crops/R08_t085_p07.jpg",
+   "person_box": [
+    1131.8,
+    498.9,
+    1188.6,
+    571.3
+   ]
+  },
+  {
+   "id": "R08_t085_p08",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 91.3,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p07과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R08_t085_p08.jpg",
+   "person_box": [
+    1222.6,
+    460.3,
+    1274.0,
+    551.6
+   ]
+  },
+  {
+   "id": "R08_t085_p09",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 79.9,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R08_t085_p09.jpg",
+   "person_box": [
+    1560.6,
+    642.1,
+    1593.3,
+    722.1
+   ]
+  },
+  {
+   "id": "R08_t085_p10",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 82.9,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p09과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R08_t085_p10.jpg",
+   "person_box": [
+    1581.6,
+    641.2,
+    1619.3,
+    724.1
+   ]
+  },
+  {
+   "id": "R08_t085_p11",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 70.5,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R08_t085_p11.jpg",
+   "person_box": [
+    1619.2,
+    634.4,
+    1655.8,
+    704.9
+   ]
+  },
+  {
+   "id": "R08_t085_p12",
+   "race": "R08",
+   "frame": "R08_t085",
+   "pts": 85.0,
+   "height_px": 89.9,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "p11과 같은 기수를 두 번 잡은 것일 수 있음",
+   "crop": "crops/R08_t085_p12.jpg",
+   "person_box": [
+    1631.5,
+    628.2,
+    1676.1,
+    718.1
+   ]
+  },
+  {
+   "id": "R09_t051_p00",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 159.5,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R09_t051_p00.jpg",
+   "person_box": [
+    186.8,
+    237.2,
+    324.0,
+    396.8
+   ]
+  },
+  {
+   "id": "R09_t051_p01",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 185.8,
+   "draft_number": 6,
+   "draft_colour": "green",
+   "note": "",
+   "crop": "crops/R09_t051_p01.jpg",
+   "person_box": [
+    491.0,
+    252.8,
+    594.4,
+    438.7
+   ]
+  },
+  {
+   "id": "R09_t051_p02",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 224.0,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R09_t051_p02.jpg",
+   "person_box": [
+    702.9,
+    335.0,
+    813.4,
+    559.0
+   ]
+  },
+  {
+   "id": "R09_t051_p03",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 200.5,
+   "draft_number": 4,
+   "draft_colour": "black",
+   "note": "",
+   "crop": "crops/R09_t051_p03.jpg",
+   "person_box": [
+    937.1,
+    209.0,
+    1042.9,
+    409.5
+   ]
+  },
+  {
+   "id": "R09_t051_p04",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 193.2,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R09_t051_p04.jpg",
+   "person_box": [
+    1026.3,
+    457.9,
+    1174.2,
+    651.1
+   ]
+  },
+  {
+   "id": "R09_t051_p05",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 218.0,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R09_t051_p05.jpg",
+   "person_box": [
+    1114.9,
+    239.7,
+    1243.5,
+    457.7
+   ]
+  },
+  {
+   "id": "R09_t051_p06",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 205.9,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R09_t051_p06.jpg",
+   "person_box": [
+    1220.1,
+    373.9,
+    1355.3,
+    579.8
+   ]
+  },
+  {
+   "id": "R09_t051_p07",
+   "race": "R09",
+   "frame": "R09_t051",
+   "pts": 51.0,
+   "height_px": 217.3,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R09_t051_p07.jpg",
+   "person_box": [
+    1389.7,
+    481.9,
+    1524.8,
+    699.2
+   ]
+  },
+  {
+   "id": "R09_t087_p00",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 218.3,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R09_t087_p00.jpg",
+   "person_box": [
+    662.9,
+    13.1,
+    779.1,
+    231.4
+   ]
+  },
+  {
+   "id": "R09_t087_p01",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 205.1,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R09_t087_p01.jpg",
+   "person_box": [
+    669.1,
+    305.0,
+    788.3,
+    510.2
+   ]
+  },
+  {
+   "id": "R09_t087_p02",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 169.8,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R09_t087_p02.jpg",
+   "person_box": [
+    811.8,
+    208.3,
+    896.0,
+    378.1
+   ]
+  },
+  {
+   "id": "R09_t087_p03",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 204.3,
+   "draft_number": 3,
+   "draft_colour": "red",
+   "note": "",
+   "crop": "crops/R09_t087_p03.jpg",
+   "person_box": [
+    867.2,
+    81.0,
+    982.7,
+    285.2
+   ]
+  },
+  {
+   "id": "R09_t087_p04",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 136.8,
+   "draft_number": 8,
+   "draft_colour": "pink",
+   "note": "",
+   "crop": "crops/R09_t087_p04.jpg",
+   "person_box": [
+    1002.9,
+    385.4,
+    1114.8,
+    522.2
+   ]
+  },
+  {
+   "id": "R09_t087_p05",
+   "race": "R09",
+   "frame": "R09_t087",
+   "pts": 87.0,
+   "height_px": 227.3,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R09_t087_p05.jpg",
+   "person_box": [
+    1264.6,
+    467.6,
+    1377.7,
+    694.9
+   ]
+  },
+  {
+   "id": "R10_t086_p00",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 183.9,
+   "draft_number": 7,
+   "draft_colour": "brown",
+   "note": "",
+   "crop": "crops/R10_t086_p00.jpg",
+   "person_box": [
+    465.4,
+    415.1,
+    565.7,
+    599.0
+   ]
+  },
+  {
+   "id": "R10_t086_p01",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 210.5,
+   "draft_number": 10,
+   "draft_colour": "sky blue",
+   "note": "",
+   "crop": "crops/R10_t086_p01.jpg",
+   "person_box": [
+    548.2,
+    439.9,
+    684.9,
+    650.4
+   ]
+  },
+  {
+   "id": "R10_t086_p02",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 141.4,
+   "draft_number": 11,
+   "draft_colour": "sky blue / white stripes",
+   "note": "",
+   "crop": "crops/R10_t086_p02.jpg",
+   "person_box": [
+    745.0,
+    347.9,
+    836.1,
+    489.3
+   ]
+  },
+  {
+   "id": "R10_t086_p03",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 232.1,
+   "draft_number": null,
+   "draft_colour": null,
+   "note": "상자 하나에 기수 두 명",
+   "crop": "crops/R10_t086_p03.jpg",
+   "person_box": [
+    801.7,
+    483.9,
+    924.4,
+    716.0
+   ]
+  },
+  {
+   "id": "R10_t086_p04",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 224.5,
+   "draft_number": 1,
+   "draft_colour": "white",
+   "note": "",
+   "crop": "crops/R10_t086_p04.jpg",
+   "person_box": [
+    884.5,
+    276.6,
+    1024.1,
+    501.1
+   ]
+  },
+  {
+   "id": "R10_t086_p05",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 171.5,
+   "draft_number": 9,
+   "draft_colour": "purple",
+   "note": "",
+   "crop": "crops/R10_t086_p05.jpg",
+   "person_box": [
+    1029.4,
+    385.2,
+    1129.8,
+    556.6
+   ]
+  },
+  {
+   "id": "R10_t086_p06",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 126.4,
+   "draft_number": 5,
+   "draft_colour": "blue",
+   "note": "",
+   "crop": "crops/R10_t086_p06.jpg",
+   "person_box": [
+    1237.9,
+    265.1,
+    1320.3,
+    391.5
+   ]
+  },
+  {
+   "id": "R10_t086_p07",
+   "race": "R10",
+   "frame": "R10_t086",
+   "pts": 86.0,
+   "height_px": 203.8,
+   "draft_number": 2,
+   "draft_colour": "yellow",
+   "note": "",
+   "crop": "crops/R10_t086_p07.jpg",
+   "person_box": [
+    1642.6,
+    178.7,
+    1743.6,
+    382.5
+   ]
+  }
+ ]
+}

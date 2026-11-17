@@ -1,0 +1,290 @@
+{
+ "day": "otherday2",
+ "races": [
+  "R01",
+  "R02",
+  "R03",
+  "R04",
+  "R06",
+  "R07",
+  "R08",
+  "R09"
+ ],
+ "results": {
+  "S0": {
+   "classifier": "cnn_probs_two",
+   "sure_rule": "C2",
+   "threshold": 0.8,
+   "frames": 32,
+   "statements": 14,
+   "right": 12,
+   "A": 0.8571428571428571,
+   "B": 0.25,
+   "boxes_per_frame": 1.1875,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 8,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 8,
+     "statements": 3,
+     "right": 2,
+     "good": 2
+    },
+    "4.5": {
+     "frames": 8,
+     "statements": 4,
+     "right": 3,
+     "good": 2
+    },
+    "6.0": {
+     "frames": 8,
+     "statements": 7,
+     "right": 7,
+     "good": 4
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 1,
+     "right": 0,
+     "good": 0
+    },
+    "R04": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 6,
+     "right": 6,
+     "good": 3
+    },
+    "R08": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 5,
+     "right": 4,
+     "good": 3
+    }
+   }
+  },
+  "S1": {
+   "classifier": "cnn_probs_two",
+   "sure_rule": "CONF",
+   "threshold": 0.8,
+   "frames": 32,
+   "statements": 10,
+   "right": 10,
+   "A": 1.0,
+   "B": 0.1875,
+   "boxes_per_frame": 1.1875,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 8,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 8,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "4.5": {
+     "frames": 8,
+     "statements": 3,
+     "right": 3,
+     "good": 2
+    },
+    "6.0": {
+     "frames": 8,
+     "statements": 6,
+     "right": 6,
+     "good": 3
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R04": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 5,
+     "right": 5,
+     "good": 2
+    },
+    "R08": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 4,
+     "right": 4,
+     "good": 3
+    }
+   }
+  },
+  "S2": {
+   "classifier": "cnn_probs_weak",
+   "sure_rule": "CONF",
+   "threshold": 0.8,
+   "frames": 32,
+   "statements": 12,
+   "right": 10,
+   "A": 0.8333333333333334,
+   "B": 0.21875,
+   "boxes_per_frame": 1.1875,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 8,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 8,
+     "statements": 2,
+     "right": 0,
+     "good": 0
+    },
+    "4.5": {
+     "frames": 8,
+     "statements": 3,
+     "right": 3,
+     "good": 2
+    },
+    "6.0": {
+     "frames": 8,
+     "statements": 7,
+     "right": 7,
+     "good": 5
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 1,
+     "right": 0,
+     "good": 0
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R04": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 6,
+     "right": 5,
+     "good": 2
+    },
+    "R08": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 2,
+     "right": 2,
+     "good": 2
+    }
+   }
+  }
+ },
+ "flags": {
+  "S0": {
+   "A_at_least_90": false,
+   "B_at_least_80": false
+  },
+  "S1": {
+   "A_at_least_90": true,
+   "B_at_least_80": false
+  },
+  "S2": {
+   "A_at_least_90": false,
+   "B_at_least_80": false
+  }
+ }
+}

@@ -1,0 +1,1679 @@
+[
+  {
+    "race": "R01",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R01_t010.jpg",
+    "sha256": "7e3cf2d4bbc9600c5f92aaaeab209c239ca1e02d5736b2bed31ad8553b1934f6",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R01_t020.jpg",
+    "sha256": "9b064310d4d3a38b06eb4b417351000edb3f3c2f5402fa11d533fdbc64864b01",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R01_t030.jpg",
+    "sha256": "cfbc3d2c8600def61397603d4dd1ced5518c9946de161e0721b09f3c31af081e",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R01_t040.jpg",
+    "sha256": "c885b7b996d09096c0ddad81aa1bd164ecae0f2a8d45161b18c26d6b17580eaa",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R01_t050.jpg",
+    "sha256": "8776683e2fd1470e0bf17162173f5df560556f17af57a9a1863ac0624bad0eda",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R01_t060.jpg",
+    "sha256": "a278e3d800a4fa82cb83228a8e1c7a1538784e9b3b90b703a1df31f72ecae3ee",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R01_t070.jpg",
+    "sha256": "d371a447257c9e305af627e111817a42f238a5030caa12b42d774905faeed0ca",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R01_t080.jpg",
+    "sha256": "fc0802f2680fe1cffcb9dc06b639f9f4901d47b9a0879c73b332a4682b246d40",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R01",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R01_t090.jpg",
+    "sha256": "24cea32087921f337d3793e96ce77615a97ad64cd1797a48b4ea178e4c5bec8e",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R02_t010.jpg",
+    "sha256": "0da64f7438aeee302ffaa927d940a7588316f06c568c2afba7e3edce122c0e58",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R02_t020.jpg",
+    "sha256": "155ecdf0309536eb446e8fcd80991c2b110e277885205d3bb616272e652fca2b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R02_t030.jpg",
+    "sha256": "eb0ee7e33382f7af435f1dabd3f8122e27b21f477c200cf25b43a2fc85e77e4a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R02_t040.jpg",
+    "sha256": "ae619475a07e31bcc651b67c8077033c665cc507ec15bf07f86c688bd52edbd2",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R02_t050.jpg",
+    "sha256": "6ceb724551ed3b335021f765f4e066a749821c29c95f9374a021c16ef6c88e4a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R02_t060.jpg",
+    "sha256": "21014bf156fa6f4c5e0547d8032e940ca85a2fbe2cedc253c075fea0e87bb716",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R02_t070.jpg",
+    "sha256": "90e983c14c203d669cba3213c2ad73946aa84e29d08d4cb8aac191347fab3b78",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R02_t080.jpg",
+    "sha256": "60f91f6cef311de78e7f91de997dc945f30e63055bf0983fc0d5dad5f4a5c04a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R02_t090.jpg",
+    "sha256": "c2f08dd47ff14682d7b7ad798d1547a80db378c93243b59efd9eb7638a061a18",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R02",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R02_t100.jpg",
+    "sha256": "1b02d5c010e5c0347fe00800364b357d6f40f48082bf56a9315c100eac47bdaa",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R03_t010.jpg",
+    "sha256": "c3aba0ca6604e2cad6def980e5b6a7e8d95c18de0d275e1b7cd071cf053a2f05",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R03_t020.jpg",
+    "sha256": "8637204ee5f6ccb4741281fea371d91a60bdc9f8521beb17c0ace8c74ae71846",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R03_t030.jpg",
+    "sha256": "465531a46b127aeaa01cbd0586db1e9392bacc9b1488178c1ca9b49292be5842",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R03_t040.jpg",
+    "sha256": "53d9f9660a5817ccb9030a47640d581ba86a11f2b59f075ea2c55fc6e272da73",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R03_t050.jpg",
+    "sha256": "a0c263684ba83f3da5e1909411e859d10c935b89cacac745855b8cf670ef9d27",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R03_t060.jpg",
+    "sha256": "a1bf624c318ebc92f8529bc40a898416f4ad53f3e2a28e59e102583465d3ea2b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R03_t070.jpg",
+    "sha256": "27c8eb2664f76c931f05c8d17e48884538199f908e2a4e352647b29c4a790675",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R03_t080.jpg",
+    "sha256": "16d021c68659bc1b0bf3c6792bfff8ef9e1964f21abeb3caa09bcee59ebb354d",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R03_t090.jpg",
+    "sha256": "bbd98093c2820c23acce18bb510cf927e1603c55c9de222cfa8d084b5607f4ba",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R03_t100.jpg",
+    "sha256": "216e86e8eef39ba794eefbccd493a311d3218192da76e1ec0618b80883b95853",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R03_t110.jpg",
+    "sha256": "de2aa246d722d2bf191c8d8043236b12484896d75302a70077a3b0367b88ccf4",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R03_t120.jpg",
+    "sha256": "afeb26a6b7a2e65b74c070428be23f74082a109f0616ff7efb5eaccc5c765d74",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 130,
+    "actual_pts": 130.0,
+    "decoded_index": 7800,
+    "file": "survey/R03_t130.jpg",
+    "sha256": "3f0920f24284ec7dae3c8b1aaa1b9d77e23fdf6d4bd213effd41e60b84e52f4c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 140,
+    "actual_pts": 140.0,
+    "decoded_index": 8400,
+    "file": "survey/R03_t140.jpg",
+    "sha256": "cf306a329adc5d00b2a3115de40034d89df2cacdaf01258947b148da23edd9f0",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R03",
+    "target": 150,
+    "actual_pts": 150.0,
+    "decoded_index": 9000,
+    "file": "survey/R03_t150.jpg",
+    "sha256": "cd55d583e5ff4fa9a6c5c8a3ecc9bc0dd9e84f9c633bde91255899453bd2f55d",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R04_t010.jpg",
+    "sha256": "0a74395c9057aa765ef5460ab63bfc9088d27e3c6c2b1f70a2872a279f3608df",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R04_t020.jpg",
+    "sha256": "ea4e68334418bbe085a2d154cb5d8f650d2c6d1d754c1f43243908736641d81f",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R04_t030.jpg",
+    "sha256": "a021560c7331dae1efd543fd5dd91d509c15b33b3dac692f6dcb3315adfdfd4b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R04_t040.jpg",
+    "sha256": "cb573b3fbc9b56a88a55bb4678fb0e6333ebf3720b5f5a56b4ac06c388274426",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R04_t050.jpg",
+    "sha256": "8e0c4a8a442dfbcbd596498f630f8e30b07e4618a0b814c475faf349ca2fb3e3",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R04_t060.jpg",
+    "sha256": "baf25f0dca73a705e7feee7b8549e430e8e16ec9dc8d1d11d394ebccd2e0cb09",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R04_t070.jpg",
+    "sha256": "f74b24f28a8ed936483fbb8a9250ed31e7a5646445c1134cbbd0c1906eb4acdc",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R04_t080.jpg",
+    "sha256": "5ef1d1cd0de1f0f9e944252ddb37fdff68fe52c3b8373c0c0bc4d83625f9016a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R04_t090.jpg",
+    "sha256": "aff28c5f0c0d781c045819dcbc58b379166820fdfd4717136b84b51a6d30787c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R04_t100.jpg",
+    "sha256": "9ca5d009f02970c016cd036fda814f2f47a9bd14278b2ec84006b79cd4e71b8a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R04_t110.jpg",
+    "sha256": "550a3ed16cb83772a3cd30cbc436901959b20c15ac1e313a016845caca59bdae",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R04_t120.jpg",
+    "sha256": "130c629add30f379ac055eabe1a5007a512faa3fbeec08a52d14d692625c8292",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 130,
+    "actual_pts": 130.0,
+    "decoded_index": 7800,
+    "file": "survey/R04_t130.jpg",
+    "sha256": "ad1f1853506d2dc3b262248e2b6ddb02560465fa6088fe269cc9b3f653825003",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 140,
+    "actual_pts": 140.0,
+    "decoded_index": 8400,
+    "file": "survey/R04_t140.jpg",
+    "sha256": "f7632667eaceb6ee49d05f208181ea4485324f9a7f02e83732d8db2af3ec0498",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R04",
+    "target": 150,
+    "actual_pts": 150.0,
+    "decoded_index": 9000,
+    "file": "survey/R04_t150.jpg",
+    "sha256": "abd9201dddeeedcbd49d1991f120dd2285e0d6ec4da99dc87032143c36b98f7b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R05_t010.jpg",
+    "sha256": "94250a8e597f6d61949c052f0df2c37140456999f372071279214913769479e8",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R05_t020.jpg",
+    "sha256": "a99a146c139b4fc0f88b873bcda6f48217b3b6ee658af3efbe4ddb04ffbae05a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R05_t030.jpg",
+    "sha256": "1e5a7101eeb02d88c4f8df36950a225c1887db40b60c9160bee715d7ec53f552",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R05_t040.jpg",
+    "sha256": "8c7efb321ae54bdf538a2f68f5d466dd94523ea77183d1b01bc48c63812576eb",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R05_t050.jpg",
+    "sha256": "1b5bcf9ff714a6df40202f47dde27393aa270847a38d5a314747e4c6a4fafad4",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R05_t060.jpg",
+    "sha256": "235c5861bdb507f89b11a63f60db6e766e1a8442cf922b9993700f804bc253ff",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R05_t070.jpg",
+    "sha256": "3fa212285b0357063f446c54dc7ffad1a2e9ecfa7d89c0b19f537151172a4c08",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R05_t080.jpg",
+    "sha256": "808c4f82cc17239af57fd566f9d8cc4c02d8ea20a133048661fc52e11f027908",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R05_t090.jpg",
+    "sha256": "3dd038ea78726298da2436428107b75fa5a1a1e0e546d4bf7fa225f5b05e6915",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R05_t100.jpg",
+    "sha256": "5a23745a3ae14f72ed4467c377e6d9fe3f173fc31ee767271496028ec98a4866",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R05_t110.jpg",
+    "sha256": "5c532ded12f4fb88919fad3dc3b8a9d5c21a4d1ffe9ad6fd07bdbc596ea9bfb0",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R05",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R05_t120.jpg",
+    "sha256": "f5e25f2ea18899c0749fef7b8410eac4cd4d5fbdc5bf99ce0d56763793ad2a6f",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R06_t010.jpg",
+    "sha256": "de03feb93ade587abd18f10b68d7b1a97be3b1b45052b194be8a8e83c81b4d0c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R06_t020.jpg",
+    "sha256": "c4c645f3f58aeb84d28834be30bb72d9ec046fa1abbb22e689606d553f25d25b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R06_t030.jpg",
+    "sha256": "81b795cc44cb68695dac14764e5a0f70e1e61a09756a542c49e1601558fbfde9",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R06_t040.jpg",
+    "sha256": "2da8eff1cb8afa50119267baa7193cd2607596044010e8bb8fee877eeb01dc3b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R06_t050.jpg",
+    "sha256": "6a00bf71fd811dcea80e50796d811f0196ba734447dd2c01f7b602ee35d1d961",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R06_t060.jpg",
+    "sha256": "54328d5819ff3b99c8ddfaf586710b249ebaadbc491ec146aad527b78a9ed9ca",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R06_t070.jpg",
+    "sha256": "991fd4de274c6f6a50af76ca88371e7030776ac1a4ac0bd41640794e413e8884",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R06_t080.jpg",
+    "sha256": "60996db9b5b5c4262e57c7d23f4386ad12beb8fa6a3a61368512cc19644f6b4d",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R06_t090.jpg",
+    "sha256": "15d36718449f350fd2cb09459e2e1c7724f94ddc2347cd93b04e0a7e97974bc7",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R06_t100.jpg",
+    "sha256": "40e3cc780c9b39022be7f0ea0dbac0cc81b2e0c275d28ae7818448d34cc31a7b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R06_t110.jpg",
+    "sha256": "32f94d5f1b3ac88e90b0afdf407d580c57068ad6e5844bb33b04b332042af0d7",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R06",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R06_t120.jpg",
+    "sha256": "d3bfa72fb105f1e3b4cde70c9a75ec8c6dea588eae311739483eec15c73c8b5a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R07_t010.jpg",
+    "sha256": "40fabc116f1cf19f6cf0351108c8fc1a15ff660c8a708a442cca085fef0aeaa1",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R07_t020.jpg",
+    "sha256": "ebaece712ee4c3c2d614a93d26df8527dec6e10f96802714be12059b0d6b403b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R07_t030.jpg",
+    "sha256": "f14dd5f40fb96cd1a4c7936915444c0f8168d940016401df7b65656cbc5649d8",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R07_t040.jpg",
+    "sha256": "371f0cf9b5dfb1f729103fb912fd904230a8df1c55067b85fc1b47857c6a9e45",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R07_t050.jpg",
+    "sha256": "65a07b749233357805861d77f30e029cfad8a904451187b2207f632ad5c6c065",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R07_t060.jpg",
+    "sha256": "a11e67e3664a0156780223b2e3dce44d35dea21922926d58e6c850d434415cde",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R07_t070.jpg",
+    "sha256": "8c6828fb34cb20304e8f6c8fdf396a9eb8d28c76d7650ddae75aae118e489878",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R07_t080.jpg",
+    "sha256": "88bbb3ff06ab53416f1b56301d16b7a36cc8bf975bfe41ef3694da38e1d828bc",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R07_t090.jpg",
+    "sha256": "dfbaad4c75e1d9003543c851871292232afbc072da55622d8133180be075c17d",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R07_t100.jpg",
+    "sha256": "e19a54d7773335933db6f8b545fb6aa9c6712a6377b5dc128dadb2c6c7c12261",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R07_t110.jpg",
+    "sha256": "cd8681909f0bc6c72f2bf4bcaa0ea5d992f6ac23cff97f12d55119863330041c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R07",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R07_t120.jpg",
+    "sha256": "f8326b10d40562c9843a7c3dcc286253886d417474247c20db52cdcb548f4971",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R08_t010.jpg",
+    "sha256": "aba0a71ba2e45e47abc5f45f59950b25dd303582f7a885b8d795cbaf04a51ee2",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R08_t020.jpg",
+    "sha256": "6236e81d974c8536a94fe864dabfc278e9dc3f243ed812908c245701a56513c9",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R08_t030.jpg",
+    "sha256": "e292740aaf663be877fbff785e00decd2cfbe7685bf580b3be6b6b9bb54b275c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R08_t040.jpg",
+    "sha256": "0737ed613fe69c932fe26a642c1c76ecbfa9da3c590a7bbe12ecf3d9c7bba909",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R08_t050.jpg",
+    "sha256": "430297a0d25db9ac1e450e3cd9b5321b83e5d5703a54239dc01405db86d03ab3",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R08_t060.jpg",
+    "sha256": "2b442b69bd9b691a462e3f1b58c82ee9d87e46d2de2f25ba5c44550efb93652d",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R08_t070.jpg",
+    "sha256": "cb52447956d9953b4bac2732b01e3ee2d1234bddc8f411eb9424fb73434cfc31",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R08_t080.jpg",
+    "sha256": "8d9e9f3235acfbcd19f24e24277ecb7ad287c8f74c8230601706f5d862f1f811",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R08_t090.jpg",
+    "sha256": "eb2439905acbec2e14e643e35aba36dd50881c0faec43a0cabd77f7ca9a2f42e",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R08_t100.jpg",
+    "sha256": "f790afa01c463d1f898229358ae825d7b31832ff1c0fa364914a37de0e650f4a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R08_t110.jpg",
+    "sha256": "0af07d85eec5ea41463a72cad2950a2672650edcdf07df4a0e9af346d6e71b4f",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R08_t120.jpg",
+    "sha256": "3421370ba5af0ea25d98cbd6c6aa525de5f3b51d3da57ebc0b9974d94aff1da9",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R08",
+    "target": 130,
+    "actual_pts": 130.0,
+    "decoded_index": 7800,
+    "file": "survey/R08_t130.jpg",
+    "sha256": "d68496aab25e22d2b79aff04aa6cb47bd34cdb2e2b86c8e104d41d64c9e7335b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R09_t010.jpg",
+    "sha256": "514f497bffa8516d4501eb9dd50e43f83e93276e7ef30d41c35e6c11f4243fbe",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R09_t020.jpg",
+    "sha256": "de873e4c00c82bec17b727046911ecaeafc2c248348a663b80de9207b5af4510",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R09_t030.jpg",
+    "sha256": "76fa3f3b67b524df47c5e37a0eb8b960c502628e112229ddb6f1d4c00fcfb6f0",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R09_t040.jpg",
+    "sha256": "8efa590332e8d20d111709dd987c840daf8ee065b48417009f22921d69e3d37b",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R09_t050.jpg",
+    "sha256": "1df54e5dae8eb0221945f3d07f8d7e392163c32da86541885d12417c6c343b4a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R09_t060.jpg",
+    "sha256": "774076e887f2973b5299b454a13e40190e399e3f189ef2937df361a467fca1ea",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R09_t070.jpg",
+    "sha256": "9ef50b860cc7765887a9816957b621a62c365bd794050caadd14c997ae7d46a0",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R09_t080.jpg",
+    "sha256": "65348b3d440b59f5ab50432ab9d22755a157dcf4dac96e1e80b266eab4122f0a",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R09_t090.jpg",
+    "sha256": "e81dcadbd458e3d5c8ad26dc783cf80f4db4cb65025602ccf8f89d29d940abe8",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R09_t100.jpg",
+    "sha256": "7340792bda78bf49f4aa0984d0d84ae1f26a7bde35b3afdbe744cb632857f8e3",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R09_t110.jpg",
+    "sha256": "3dd0138367dc175a991e7f291615471d684d86ad92b3b7689101c6349b5117fc",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R09_t120.jpg",
+    "sha256": "0ad519ef55d97389ddb57d674dcbf337b21030b37701f1277837dc05dee10c3c",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 130,
+    "actual_pts": 130.0,
+    "decoded_index": 7800,
+    "file": "survey/R09_t130.jpg",
+    "sha256": "e87e87ab3ce58999a2df9b4ad7b211a7f34a362b00f3aed41523ad13162d16ce",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 140,
+    "actual_pts": 140.0,
+    "decoded_index": 8400,
+    "file": "survey/R09_t140.jpg",
+    "sha256": "41e025a779a993e0dc9951e3e06ebf864702909ff34cbbf2fcfe60d27ac6c9bb",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 150,
+    "actual_pts": 150.0,
+    "decoded_index": 9000,
+    "file": "survey/R09_t150.jpg",
+    "sha256": "d00de5afd2cdf5f9f8dbe0fe7a3a4f6d81c2f36aba8c384028ec451e600658eb",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R09",
+    "target": 160,
+    "actual_pts": 160.0,
+    "decoded_index": 9600,
+    "file": "survey/R09_t160.jpg",
+    "sha256": "d7ab2091ff1e68ff8f9c5e79e94420b6c7f4e3fe9f89b6edf2650b5159b53e0e",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 10,
+    "actual_pts": 10.0,
+    "decoded_index": 600,
+    "file": "survey/R10_t010.jpg",
+    "sha256": "a75edc345d48e9e490d578ff2b970b4a232f20cd2b0955f574900e313cd2f4de",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 20,
+    "actual_pts": 20.0,
+    "decoded_index": 1200,
+    "file": "survey/R10_t020.jpg",
+    "sha256": "d9e6865a401cbfa452d503de06d14e31056989f77d9f86850dfabc37b9f410b5",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 30,
+    "actual_pts": 30.0,
+    "decoded_index": 1800,
+    "file": "survey/R10_t030.jpg",
+    "sha256": "35e3cb805ad95d553ca30cb9b2ab0c8ee034d7b34b53d951c56ef740d5fa1fc0",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 40,
+    "actual_pts": 40.0,
+    "decoded_index": 2400,
+    "file": "survey/R10_t040.jpg",
+    "sha256": "70b11e9649f1747a23869db3fb3167f8eb42b65d6d1a049ed57f1763035cb928",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 50,
+    "actual_pts": 50.0,
+    "decoded_index": 3000,
+    "file": "survey/R10_t050.jpg",
+    "sha256": "dcf2acdddd0d2559233e3b06bb53e1274d3a8e3057deafb458a432d76c577439",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 60,
+    "actual_pts": 60.0,
+    "decoded_index": 3600,
+    "file": "survey/R10_t060.jpg",
+    "sha256": "94a3df51b5fd3c58dac346d5291cc7608eb2b4ed5e73b6a34446d311a9cec0d1",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 70,
+    "actual_pts": 70.0,
+    "decoded_index": 4200,
+    "file": "survey/R10_t070.jpg",
+    "sha256": "8153f3ccb9ef8f60cde2a9dc696301350391bf6e2ed1e93715482cafee6e4b90",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 80,
+    "actual_pts": 80.0,
+    "decoded_index": 4800,
+    "file": "survey/R10_t080.jpg",
+    "sha256": "fbe23376e5112681018ad6734ab59e8d674189cd1bb6c180dd137462f956c752",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 90,
+    "actual_pts": 90.0,
+    "decoded_index": 5400,
+    "file": "survey/R10_t090.jpg",
+    "sha256": "93b176adf854b90b1c73fd47e45cb65fa2352410be94efdddc39a5c8cb2b0264",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 100,
+    "actual_pts": 100.0,
+    "decoded_index": 6000,
+    "file": "survey/R10_t100.jpg",
+    "sha256": "693bf1949d42fac7925cfa72647d49e13cbc2be69fc4e4655a5d6b1bf0fcab41",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 110,
+    "actual_pts": 110.0,
+    "decoded_index": 6600,
+    "file": "survey/R10_t110.jpg",
+    "sha256": "6cc9114ce5912ef4fbcc8ee66de0dca1b0828a03ca6267883cbb3ff396e4e8e6",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 120,
+    "actual_pts": 120.0,
+    "decoded_index": 7200,
+    "file": "survey/R10_t120.jpg",
+    "sha256": "0ce8a24693a9bc5748d10b62f30cfe7e1c45bfc800912e06e8cdc5e41b591bcc",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 130,
+    "actual_pts": 130.0,
+    "decoded_index": 7800,
+    "file": "survey/R10_t130.jpg",
+    "sha256": "6e90f8d57f9b05061b5bf688a92a04c0d38a1afba0a2b082b2a13486cba36074",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 140,
+    "actual_pts": 140.0,
+    "decoded_index": 8400,
+    "file": "survey/R10_t140.jpg",
+    "sha256": "cb4dd1276882065e3f442ae6d3bfbcfee29ae5a62ac50f8a801052b4ae294f40",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  },
+  {
+    "race": "R10",
+    "target": 150,
+    "actual_pts": 150.0,
+    "decoded_index": 9000,
+    "file": "survey/R10_t150.jpg",
+    "sha256": "5954af78f2f8220cbce1e539c2505d3f993efe9ce5888de175d46f3bd1dfceef",
+    "size": [
+      1920,
+      1080
+    ],
+    "survey_only": true
+  }
+]

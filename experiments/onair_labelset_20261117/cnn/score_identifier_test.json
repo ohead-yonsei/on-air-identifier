@@ -1,0 +1,38 @@
+{
+ "split": "test",
+ "frames": 74,
+ "baseline": {
+  "variant": "BASE",
+  "W": 3,
+  "K": 2,
+  "m": 2,
+  "statements": 69,
+  "A": 0.8985507246376812,
+  "A_top5": 0.927536231884058,
+  "B": 0.6351351351351351
+ },
+ "confirm": {
+  "config": [
+   "C2",
+   3,
+   2,
+   2
+  ],
+  "result": {
+   "variant": "C2",
+   "W": 3,
+   "K": 2,
+   "m": 2,
+   "statements": 94,
+   "A": 0.925531914893617,
+   "A_top5": 0.9574468085106383,
+   "B": 0.7297297297297297
+  },
+  "improved_frames": 8,
+  "worsened_frames": 1,
+  "sign_test_p": 0.0390625,
+  "better": true,
+  "meets_goal_A_90": true,
+  "meets_goal_B_80": false
+ }
+}

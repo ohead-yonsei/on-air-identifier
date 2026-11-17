@@ -1,0 +1,1538 @@
+[
+  {
+    "item_id": "R01_t030_s1_U_w768",
+    "sample_id": "R01_t030_s1",
+    "race": "R01",
+    "frame": "R01_t030",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      82,
+      188,
+      93,
+      197
+    ],
+    "native_cap_size": [
+      11,
+      9
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R01_t030_s1_U_w768.png",
+    "image_sha256": "1ae536f2611e523947dc218686c21ef9907d84e740cc603992012c9317a4688c",
+    "hsv": {
+      "number": 6,
+      "top_candidate": 6,
+      "state": "high_evidence",
+      "score": 0.6000000001371428,
+      "margin": 0.08571428610122445,
+      "known_fraction": 0.5384615384414201,
+      "histogram": [
+        0.0,
+        0.34285714269061224,
+        0.17142857137387754,
+        0.05714285728653061,
+        0.0,
+        0.02857142855755102,
+        0.40000000009142855,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.04285714283632653,
+        0.32571428580465306,
+        0.5142857140359184,
+        0.0,
+        0.6000000001371428,
+        0.23142857131616323,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 91.77237097173929
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 4906.379953958094
+    }
+  },
+  {
+    "item_id": "R01_t030_s1_U_w1280",
+    "sample_id": "R01_t030_s1",
+    "race": "R01",
+    "frame": "R01_t030",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      138,
+      313,
+      154,
+      328
+    ],
+    "native_cap_size": [
+      16,
+      15
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R01_t030_s1_U_w1280.png",
+    "image_sha256": "43e26405e177e100b78ceb86611f077ae70c83534807bcec1d0c7157b88bb472",
+    "hsv": {
+      "number": 0,
+      "top_candidate": 4,
+      "state": "unknown",
+      "score": 0.5533980580590068,
+      "margin": 0.029126213290791236,
+      "known_fraction": 0.6167664670118327,
+      "histogram": [
+        0.0,
+        0.3689320387060045,
+        0.09708737861655198,
+        0.09708737875247431,
+        0.0,
+        0.07766990288547458,
+        0.34951456317881036,
+        0.0,
+        0.0,
+        0.0,
+        0.009708737860684323,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.11650485432821187,
+        0.26213592242779715,
+        0.5533980580590068,
+        0.0,
+        0.5242718447682155,
+        0.24902912612655304,
+        0.014563106791026483,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.44193584471940994
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 220.75722366571426
+    }
+  },
+  {
+    "item_id": "R01_t030_s2_U_w768",
+    "sample_id": "R01_t030_s2",
+    "race": "R01",
+    "frame": "R01_t030",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      267,
+      179,
+      279,
+      188
+    ],
+    "native_cap_size": [
+      12,
+      9
+    ],
+    "reference_number": 9,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R01_t030_s2_U_w768.png",
+    "image_sha256": "13d181ff9b5e341d7fde39c74be3e4d0b99eddacecd39f516c53bd07b98e7bb0",
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "high_evidence",
+      "score": 0.9836065572964259,
+      "margin": 0.4672131147158026,
+      "known_fraction": 0.6630434781999055,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.196721302606821e-11,
+        0.0,
+        0.34426229505374883,
+        0.655737704864284,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5163934425806233,
+        1.229508195391023e-10,
+        0.0,
+        0.0,
+        0.9836065572964259,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.363839790225029
+    },
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": 224.88718293607235
+    }
+  },
+  {
+    "item_id": "R01_t030_s2_U_w1280",
+    "sample_id": "R01_t030_s2",
+    "race": "R01",
+    "frame": "R01_t030",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      446,
+      299,
+      465,
+      312
+    ],
+    "native_cap_size": [
+      19,
+      13
+    ],
+    "reference_number": 9,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R01_t030_s2_U_w1280.png",
+    "image_sha256": "4017b65ff06ac5b08ef3e6af50c28c81875d907e34d8ebd6f7a9d7ff37e5944b",
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.6458333333505504,
+      "known_fraction": 0.6635944699865999,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.8611111060136866e-11,
+        0.0,
+        0.2361111110996331,
+        0.7638888888517559,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3541666666494496,
+        7.29166665902053e-11,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.35543739795684814
+    },
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": 223.80114067345858
+    }
+  },
+  {
+    "item_id": "R02_t020_s1_U_w768",
+    "sample_id": "R02_t020_s1",
+    "race": "R02",
+    "frame": "R02_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      386,
+      154,
+      400,
+      170
+    ],
+    "native_cap_size": [
+      14,
+      16
+    ],
+    "reference_number": 4,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R02_t020_s1_U_w768.png",
+    "image_sha256": "f50bbe775caeecd79da42c96a31e7f0b0ad5d5057130f13ef2d591bd3e15893a",
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.7617187500000002,
+      "margin": 0.1312500000000003,
+      "known_fraction": 0.5898617511330457,
+      "histogram": [
+        0.0,
+        0.40624999999999994,
+        0.0,
+        0.03906249999999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5078125000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.04687499999999993
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.04687499999999993,
+        0.6304687499999999,
+        0.7617187500000002,
+        0.0,
+        0.3445312499999999,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.3670109435915947
+    },
+    "vlm": {
+      "number": 4,
+      "failure": false,
+      "http_elapsed_ms": 222.55174908787012
+    }
+  },
+  {
+    "item_id": "R02_t020_s1_U_w1280",
+    "sample_id": "R02_t020_s1",
+    "race": "R02",
+    "frame": "R02_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      643,
+      258,
+      667,
+      282
+    ],
+    "native_cap_size": [
+      24,
+      24
+    ],
+    "reference_number": 4,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R02_t020_s1_U_w1280.png",
+    "image_sha256": "79a89d8785e1751b07c4f5434990bfe588a655c1cf0dec12b9b28e5f887dda72",
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.7737752161383274,
+      "margin": 0.19668587896253364,
+      "known_fraction": 0.6185383244041396,
+      "histogram": [
+        0.0,
+        0.3631123919308366,
+        0.0,
+        0.048991354466858775,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5158501440922183,
+        0.0,
+        0.0,
+        0.0,
+        0.07204610951008643
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.05878962536023054,
+        0.5770893371757938,
+        0.7737752161383274,
+        0.0,
+        0.35317002881844434,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.46644918620586395
+    },
+    "vlm": {
+      "number": 4,
+      "failure": false,
+      "http_elapsed_ms": 314.588351175189
+    }
+  },
+  {
+    "item_id": "R02_t020_s2_U_w768",
+    "sample_id": "R02_t020_s2",
+    "race": "R02",
+    "frame": "R02_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      470,
+      80,
+      484,
+      91
+    ],
+    "native_cap_size": [
+      14,
+      11
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R02_t020_s2_U_w768.png",
+    "image_sha256": "f0c24c7fa9f26e9da8b8465fc52fd80dbc60111fa1fce1a47521d5296cf4ffc3",
+    "hsv": {
+      "number": 4,
+      "top_candidate": 4,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.3423076923076923,
+      "known_fraction": 0.307086614107942,
+      "histogram": [
+        0.0,
+        0.9743589743589743,
+        0.0,
+        0.025641025641025626,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.030769230769230754,
+        1.0,
+        0.0,
+        0.0,
+        0.6576923076923077,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.34260377287864685
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 218.2051269337535
+    }
+  },
+  {
+    "item_id": "R02_t020_s2_U_w1280",
+    "sample_id": "R02_t020_s2",
+    "race": "R02",
+    "frame": "R02_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      783,
+      133,
+      807,
+      151
+    ],
+    "native_cap_size": [
+      24,
+      18
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R02_t020_s2_U_w1280.png",
+    "image_sha256": "f0caab2128d8c9fdcc4951c0cd23c9b282bc53e87fbc08bd1abf475bbaca7154",
+    "hsv": {
+      "number": 4,
+      "top_candidate": 4,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.3370535714285714,
+      "known_fraction": 0.33333333323809655,
+      "histogram": [
+        0.0,
+        0.9821428571428571,
+        0.0,
+        0.01785714285714281,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.021428571428571373,
+        1.0,
+        0.0,
+        0.0,
+        0.6629464285714286,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.403672456741333
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 260.9221488237381
+    }
+  },
+  {
+    "item_id": "R04_t020_s1_U_w768",
+    "sample_id": "R04_t020_s1",
+    "race": "R04",
+    "frame": "R04_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      322,
+      68,
+      348,
+      95
+    ],
+    "native_cap_size": [
+      26,
+      27
+    ],
+    "reference_number": 3,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R04_t020_s1_U_w768.png",
+    "image_sha256": "cc4faa7696fc2574b8e466f7ff0a3dd7134992d43779b9a50afc44886c6fd34f",
+    "hsv": {
+      "number": 3,
+      "top_candidate": 3,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.9329896907125621,
+      "known_fraction": 0.9864406778347773,
+      "histogram": [
+        0.0,
+        0.015463917524896457,
+        0.7852233676994618,
+        0.12027491408252823,
+        0.0,
+        0.0,
+        0.04467353952495861,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03436426116815478
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        1.0,
+        0.038659793813014334,
+        0.0,
+        0.06701030928743791,
+        0.06198453608153728,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.4373891279101372
+    },
+    "vlm": {
+      "number": 3,
+      "failure": false,
+      "http_elapsed_ms": 214.3395161256194
+    }
+  },
+  {
+    "item_id": "R04_t020_s1_U_w1280",
+    "sample_id": "R04_t020_s1",
+    "race": "R04",
+    "frame": "R04_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      537,
+      113,
+      580,
+      158
+    ],
+    "native_cap_size": [
+      43,
+      45
+    ],
+    "reference_number": 3,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R04_t020_s1_U_w1280.png",
+    "image_sha256": "33281782f18811ed1f2427642e9c98a257bdd357540fa6ab747297bb5731af97",
+    "hsv": {
+      "number": 3,
+      "top_candidate": 3,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.934169278992808,
+      "known_fraction": 0.9815384614029063,
+      "histogram": [
+        0.0,
+        0.015673981190397226,
+        0.7905956112887697,
+        0.12037617554225047,
+        0.0,
+        0.0,
+        0.043887147338127985,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.029467084640454652
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        1.0,
+        0.03677115987380043,
+        0.0,
+        0.06583072100719198,
+        0.05478056426420011,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.703396275639534
+    },
+    "vlm": {
+      "number": 3,
+      "failure": false,
+      "http_elapsed_ms": 212.76060212403536
+    }
+  },
+  {
+    "item_id": "R04_t020_s2_U_w768",
+    "sample_id": "R04_t020_s2",
+    "race": "R04",
+    "frame": "R04_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      441,
+      97,
+      468,
+      126
+    ],
+    "native_cap_size": [
+      27,
+      29
+    ],
+    "reference_number": 6,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R04_t020_s2_U_w768.png",
+    "image_sha256": "94533d8d191080df23de652abbe7f74d48f429431d426147cf8086cfc632fad9",
+    "hsv": {
+      "number": 6,
+      "top_candidate": 6,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.8160173160244827,
+      "known_fraction": 0.9190981432365328,
+      "histogram": [
+        0.0,
+        0.010101010100616615,
+        0.02020202020411923,
+        0.0014430014443882321,
+        0.0,
+        0.12265512265034487,
+        0.8023088022775421,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.043290043322988955
+      ],
+      "all_scores": [
+        0.0,
+        0.1839826839755173,
+        0.032034632039444726,
+        0.03463203464626995,
+        0.0,
+        1.0,
+        0.07175324680239965,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.45001320540905
+    },
+    "vlm": {
+      "number": 6,
+      "failure": false,
+      "http_elapsed_ms": 223.14254380762577
+    }
+  },
+  {
+    "item_id": "R04_t020_s2_U_w1280",
+    "sample_id": "R04_t020_s2",
+    "race": "R04",
+    "frame": "R04_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      735,
+      162,
+      779,
+      210
+    ],
+    "native_cap_size": [
+      44,
+      48
+    ],
+    "reference_number": 6,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R04_t020_s2_U_w1280.png",
+    "image_sha256": "2015f801d50f380bdac1f036848004d0e3d380ff9e255427cfaa217c931e09f9",
+    "hsv": {
+      "number": 6,
+      "top_candidate": 6,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.8399146211369926,
+      "known_fraction": 0.9204322200378419,
+      "histogram": [
+        0.0,
+        0.009605122731780468,
+        0.019743863396305995,
+        0.0005336179306105952,
+        0.0,
+        0.10672358590867165,
+        0.8180362859899621,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.045357524042669094
+      ],
+      "all_scores": [
+        0.0,
+        0.16008537886300747,
+        0.030256136611191708,
+        0.034818569916871794,
+        0.0,
+        1.0,
+        0.07451974390795546,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.6918031722307205
+    },
+    "vlm": {
+      "number": 6,
+      "failure": false,
+      "http_elapsed_ms": 223.78379944711924
+    }
+  },
+  {
+    "item_id": "R08_t070_s1_U_w768",
+    "sample_id": "R08_t070_s1",
+    "race": "R08",
+    "frame": "R08_t070",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      608,
+      98,
+      622,
+      108
+    ],
+    "native_cap_size": [
+      14,
+      10
+    ],
+    "reference_number": 4,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R08_t070_s1_U_w768.png",
+    "image_sha256": "744c00be55a053402c127cee54f25dff74fd2aad0d4f355554963d742842ae04",
+    "hsv": {
+      "number": 4,
+      "top_candidate": 4,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.40646551724137925,
+      "known_fraction": 0.5178571427276787,
+      "histogram": [
+        0.0,
+        0.8793103448275863,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.017241379310344807,
+        0.10344827586206884,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.02586206896551721,
+        0.0,
+        0.5935344827586208,
+        0.0,
+        0.15517241379310326,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.32133981585502625
+    },
+    "vlm": {
+      "number": 4,
+      "failure": false,
+      "http_elapsed_ms": 253.4390240907669
+    }
+  },
+  {
+    "item_id": "R08_t070_s1_U_w1280",
+    "sample_id": "R08_t070_s1",
+    "race": "R08",
+    "frame": "R08_t070",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      1014,
+      163,
+      1036,
+      179
+    ],
+    "native_cap_size": [
+      22,
+      16
+    ],
+    "reference_number": 4,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R08_t070_s1_U_w1280.png",
+    "image_sha256": "9719a2f52dcb6ddbc021f25ad5dd11bc15a8611e56759b89388605c86f518ebf",
+    "hsv": {
+      "number": 4,
+      "top_candidate": 4,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.393877551020408,
+      "known_fraction": 0.521276595615286,
+      "histogram": [
+        0.0,
+        0.8979591836734695,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0680272108843536,
+        0.0340136054421768,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.10204081632653039,
+        0.0,
+        0.606122448979592,
+        0.0,
+        0.051020408163265196,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.3621736541390419
+    },
+    "vlm": {
+      "number": 4,
+      "failure": false,
+      "http_elapsed_ms": 230.81516940146685
+    }
+  },
+  {
+    "item_id": "R08_t070_s2_U_w768",
+    "sample_id": "R08_t070_s2",
+    "race": "R08",
+    "frame": "R08_t070",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      424,
+      85,
+      438,
+      96
+    ],
+    "native_cap_size": [
+      14,
+      11
+    ],
+    "reference_number": 9,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R08_t070_s2_U_w768.png",
+    "image_sha256": "78fa84b84bfa28a9ba53f2ac1ec0651e9b8ce94e750d8b1d3aeacbd4d096513c",
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "guess",
+      "score": 1.0,
+      "margin": 1.0,
+      "known_fraction": 0.7739130432158038,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.3132205456495285
+    },
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": 213.55994045734406
+    }
+  },
+  {
+    "item_id": "R08_t070_s2_U_w1280",
+    "sample_id": "R08_t070_s2",
+    "race": "R08",
+    "frame": "R08_t070",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      708,
+      142,
+      730,
+      160
+    ],
+    "native_cap_size": [
+      22,
+      18
+    ],
+    "reference_number": 9,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R08_t070_s2_U_w1280.png",
+    "image_sha256": "0ea7cf36dc75ee3ff9cf90bb622b7a95f921e076db5b31d07d3a8bd30820fb39",
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "guess",
+      "score": 1.0,
+      "margin": 0.993975903614482,
+      "known_fraction": 0.775700934401315,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.016064252995935e-12,
+        0.0,
+        0.0,
+        0.0,
+        0.995983935738972,
+        0.0,
+        0.0,
+        0.004016064257011999
+      ],
+      "all_scores": [
+        0.0,
+        6.024096379493902e-12,
+        0.0,
+        0.0018072289156553993,
+        0.0,
+        0.0,
+        0.006024096385517999,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.352250412106514
+    },
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": 229.17926870286465
+    }
+  },
+  {
+    "item_id": "R09_t020_s1_U_w768",
+    "sample_id": "R09_t020_s1",
+    "race": "R09",
+    "frame": "R09_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      242,
+      75,
+      262,
+      99
+    ],
+    "native_cap_size": [
+      20,
+      24
+    ],
+    "reference_number": 2,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R09_t020_s1_U_w768.png",
+    "image_sha256": "51aa4d9605edb0a13759e2038080cf0e94567c4c4877361c64eb9e2fe805e68f",
+    "hsv": {
+      "number": 2,
+      "top_candidate": 2,
+      "state": "high_evidence",
+      "score": 0.9813432836134697,
+      "margin": 0.46268656722693957,
+      "known_fraction": 0.9095022624399067,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6542288557423132,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.34577114425768674
+      ],
+      "all_scores": [
+        0.0,
+        0.9813432836134697,
+        0.0,
+        0.155597014915959,
+        0.0,
+        0.0,
+        0.5186567163865301,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.3631953150033951
+    },
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": 211.26582752913237
+    }
+  },
+  {
+    "item_id": "R09_t020_s1_U_w1280",
+    "sample_id": "R09_t020_s1",
+    "race": "R09",
+    "frame": "R09_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      404,
+      126,
+      437,
+      164
+    ],
+    "native_cap_size": [
+      33,
+      38
+    ],
+    "reference_number": 2,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R09_t020_s1_U_w1280.png",
+    "image_sha256": "ea6327686d92ec31f8d936a61cf6a2d3906a9e6f6fba908aba38aaa849118931",
+    "hsv": {
+      "number": 2,
+      "top_candidate": 2,
+      "state": "high_evidence",
+      "score": 0.9856321839383884,
+      "margin": 0.4712643678767766,
+      "known_fraction": 0.8938356164427474,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6570881226255922,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3429118773744078
+      ],
+      "all_scores": [
+        0.0,
+        0.9856321839383884,
+        0.0,
+        0.15431034481848352,
+        0.0,
+        0.0,
+        0.5143678160616117,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.48129260540008545
+    },
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": 223.04482478648424
+    }
+  },
+  {
+    "item_id": "R09_t020_s2_U_w768",
+    "sample_id": "R09_t020_s2",
+    "race": "R09",
+    "frame": "R09_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      332,
+      102,
+      353,
+      118
+    ],
+    "native_cap_size": [
+      21,
+      16
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R09_t020_s2_U_w768.png",
+    "image_sha256": "8abbb734a1533818b9ee610deadf3424e83af0cb459343561f2ada4de241bf98",
+    "hsv": {
+      "number": 0,
+      "top_candidate": 4,
+      "state": "unknown",
+      "score": 0.5664179102913623,
+      "margin": 0.017910447689084452,
+      "known_fraction": 0.603603603460311,
+      "histogram": [
+        0.0,
+        0.3283582088645579,
+        0.09701492539112269,
+        0.33582089542966154,
+        0.0,
+        0.03731343282551791,
+        0.02238805991919135,
+        0.0,
+        0.0,
+        0.0,
+        0.014925373137669852,
+        0.0,
+        0.1641791044322788
+      ],
+      "all_scores": [
+        0.0,
+        0.05597014923827687,
+        0.5485074626022779,
+        0.5664179102913623,
+        0.0,
+        0.033582089878787025,
+        0.4679104476319948,
+        0.022388059706504777,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.38119684904813766
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 220.6203667446971
+    }
+  },
+  {
+    "item_id": "R09_t020_s2_U_w1280",
+    "sample_id": "R09_t020_s2",
+    "race": "R09",
+    "frame": "R09_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      554,
+      170,
+      588,
+      197
+    ],
+    "native_cap_size": [
+      34,
+      27
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R09_t020_s2_U_w1280.png",
+    "image_sha256": "e512d4fa8759e68601bbff001aee1c0fcf77818c1866ba5a29051f32868467f6",
+    "hsv": {
+      "number": 0,
+      "top_candidate": 3,
+      "state": "unknown",
+      "score": 0.5648501361691036,
+      "margin": 0.010626703088182032,
+      "known_fraction": 0.6036184209208547,
+      "histogram": [
+        0.0,
+        0.3188010898253089,
+        0.08446866488817929,
+        0.3651226156973622,
+        0.0,
+        0.04359673023252077,
+        0.005449591502498338,
+        0.0,
+        0.0,
+        0.0,
+        0.013623978203112333,
+        0.0,
+        0.16893732965101826
+      ],
+      "all_scores": [
+        0.0,
+        0.06539509534878116,
+        0.5648501361691036,
+        0.5542234330809216,
+        0.0,
+        0.008174387253747507,
+        0.46859673010861086,
+        0.020435967304668498,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.5549220368266106
+    },
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 222.63947129249573
+    }
+  },
+  {
+    "item_id": "R10_t020_s1_U_w768",
+    "sample_id": "R10_t020_s1",
+    "race": "R10",
+    "frame": "R10_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      116,
+      85,
+      143,
+      113
+    ],
+    "native_cap_size": [
+      27,
+      28
+    ],
+    "reference_number": 10,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R10_t020_s1_U_w768.png",
+    "image_sha256": "4bcad932c68e9ee0717ec8a88c2b2443de3b6e467097e28ed26fda5a2a675a0a",
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.9406779658944255,
+      "margin": 0.7330508472961055,
+      "known_fraction": 0.5557299843200452,
+      "histogram": [
+        0.13841807906554668,
+        0.00564971751287945,
+        0.0028248587677391604,
+        0.002824858756439725,
+        0.0,
+        0.002824858756439725,
+        0.0,
+        0.08757062144963147,
+        0.627118643929617,
+        0.0,
+        0.0,
+        0.0,
+        0.13276836176170673
+      ],
+      "all_scores": [
+        0.20762711859832,
+        0.004237288134659588,
+        0.0076271186593364106,
+        0.06822033906208722,
+        0.9406779658944255,
+        0.0,
+        0.20296610196375373,
+        0.0,
+        0.0,
+        0.13135593217444722,
+        0.0
+      ],
+      "elapsed_ms": 0.46532973647117615
+    },
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": 229.74903043359518
+    }
+  },
+  {
+    "item_id": "R10_t020_s1_U_w1280",
+    "sample_id": "R10_t020_s1",
+    "race": "R10",
+    "frame": "R10_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      193,
+      142,
+      238,
+      188
+    ],
+    "native_cap_size": [
+      45,
+      46
+    ],
+    "reference_number": 10,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R10_t020_s1_U_w1280.png",
+    "image_sha256": "3f6fa26514e168e33a1bb44758856ff23d36558400f7bd54adbc11ce52760c7e",
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.9559748425388204,
+      "margin": 0.7562893079953475,
+      "known_fraction": 0.5429709732828982,
+      "histogram": [
+        0.13312368969564853,
+        0.0052410901454979595,
+        0.003144654098829175,
+        0.004192872116398368,
+        1.0482180280513738e-12,
+        0.0,
+        0.0,
+        0.09433962261896349,
+        0.6373165616925469,
+        0.001048218029099592,
+        0.0,
+        0.0,
+        0.12159329160196786
+      ],
+      "all_scores": [
+        0.1996855345434728,
+        0.0,
+        0.009748427687921803,
+        0.06257861643913247,
+        0.9559748425388204,
+        0.0,
+        0.18592767325116288,
+        0.0,
+        0.001572327043649388,
+        0.14150943392844523,
+        0.0
+      ],
+      "elapsed_ms": 0.718114897608757
+    },
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": 266.90341904759407
+    }
+  },
+  {
+    "item_id": "R10_t020_s2_U_w768",
+    "sample_id": "R10_t020_s2",
+    "race": "R10",
+    "frame": "R10_t020",
+    "width": 768,
+    "scale": 0.4,
+    "cap_box": [
+      236,
+      91,
+      268,
+      115
+    ],
+    "native_cap_size": [
+      32,
+      24
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R10_t020_s2_U_w768.png",
+    "image_sha256": "2c3e1d181457adfdb818343ddd8a7d7b7c99f91007648c56b33c81b5288c6483",
+    "hsv": {
+      "number": 7,
+      "top_candidate": 7,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.55,
+      "known_fraction": 0.9115044247366465,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.44999999999999996,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.4326300695538521
+    },
+    "vlm": {
+      "number": 7,
+      "failure": false,
+      "http_elapsed_ms": 238.32119908183813
+    }
+  },
+  {
+    "item_id": "R10_t020_s2_U_w1280",
+    "sample_id": "R10_t020_s2",
+    "race": "R10",
+    "frame": "R10_t020",
+    "width": 1280,
+    "scale": 0.6666666666666666,
+    "cap_box": [
+      394,
+      152,
+      446,
+      192
+    ],
+    "native_cap_size": [
+      52,
+      40
+    ],
+    "reference_number": 7,
+    "reference_status": "assistant_draft",
+    "image": "inputs/R10_t020_s2_U_w1280.png",
+    "image_sha256": "16430bd45306a09328ba493e7e4eaa317b210f27246fb0dfea22cdeef9693753",
+    "hsv": {
+      "number": 7,
+      "top_candidate": 7,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.55,
+      "known_fraction": 0.9062748212668361,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.44999999999999996,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.654369592666626
+    },
+    "vlm": {
+      "number": 7,
+      "failure": false,
+      "http_elapsed_ms": 238.81179559975863
+    }
+  }
+]

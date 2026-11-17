@@ -1,0 +1,17 @@
+{
+  "status": "post-hoc: motivated by four nearest-cap failures on the same 11 annotations; no held-out sample",
+  "rule": "Cap must lie at or behind nose along manually supplied screen progression axis: dot(cap-nose,axis)<=0. Among eligible caps choose nearest Euclidean distance. Abstain if none.",
+  "axis_offsets_degrees": [
+    -30,
+    -15,
+    0,
+    15,
+    30
+  ],
+  "seed": 20261116,
+  "coordinate_jitter_repeats": 2000,
+  "nose_jitter_xy_pixels": 5,
+  "cap_jitter_xy_pixels": 2,
+  "timing_repeats": 1000,
+  "new_model_calls": 0
+}

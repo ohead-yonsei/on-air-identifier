@@ -1,0 +1,18 @@
+{
+  "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "numpy": "2.5.2",
+  "scipy": "1.18.0",
+  "pillow": "12.3.0",
+  "execution_location": "/home/ohead/ai-workspace/projects/onair_nose_cap_20261116",
+  "GPU_used": false,
+  "new_model_calls": 0,
+  "runtime_utc": "2026-11-16T12:41:24Z",
+  "config_sha256": "045780ba1d76cfe302c63b2758c3654ad52b4350551e434c3870a61aea16e301",
+  "annotations_sha256": "f2c0fae53bebe3611258b64eb1c659e1670ee8f668f22000935e7b0f0fdf426e",
+  "code_sha256": "a062dae532aa3ce04ee8287c67f7932b1c4d3098d8a9075b4c3251342a476241",
+  "source_frame_sha256": {
+    "t35": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "t385": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0"
+  }
+}

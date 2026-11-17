@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-16T17:31:36.915422+00:00",
+  "selection_rule": "earliest PTS frame per evaluation race, first two pre-existing sample IDs; no outcome-based selection",
+  "samples": [
+    "R01_t030_s1",
+    "R01_t030_s2",
+    "R02_t020_s1",
+    "R02_t020_s2",
+    "R04_t020_s1",
+    "R04_t020_s2",
+    "R08_t070_s1",
+    "R08_t070_s2",
+    "R09_t020_s1",
+    "R09_t020_s2",
+    "R10_t020_s1",
+    "R10_t020_s2"
+  ],
+  "widths": [
+    768,
+    1280
+  ],
+  "baseline_width": 1920,
+  "coordinates": "scale original manual U cap and common person boxes; no redraw"
+}

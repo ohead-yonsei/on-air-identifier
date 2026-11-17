@@ -1,0 +1,71 @@
+{
+  "methods": {
+    "R0_27": {
+      "vlm": {
+        "correct": 4,
+        "wrong": 1,
+        "abstain": 1
+      },
+      "hsv": {
+        "correct": 2,
+        "wrong": 3,
+        "abstain": 1
+      }
+    },
+    "R0_35": {
+      "vlm": {
+        "correct": 5,
+        "wrong": 1,
+        "abstain": 0
+      },
+      "hsv": {
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 5
+      }
+    },
+    "R1_pose": {
+      "vlm": {
+        "correct": 2,
+        "wrong": 1,
+        "abstain": 3
+      },
+      "hsv": {
+        "correct": 1,
+        "wrong": 1,
+        "abstain": 4
+      }
+    },
+    "R2_cluster": {
+      "vlm": {
+        "correct": 4,
+        "wrong": 2,
+        "abstain": 0
+      },
+      "hsv": {
+        "correct": 3,
+        "wrong": 2,
+        "abstain": 1
+      }
+    },
+    "U_manual": {
+      "vlm": {
+        "correct": 4,
+        "wrong": 2,
+        "abstain": 0
+      },
+      "hsv": {
+        "correct": 3,
+        "wrong": 3,
+        "abstain": 0
+      }
+    }
+  },
+  "observations": 6,
+  "matched_people": 6,
+  "conditions": 30,
+  "new_vlm_requests": 10,
+  "reused_requests": 18,
+  "unavailable_regions": 2,
+  "status": "post-result input correction; original primary results preserved; no threshold/label edits"
+}

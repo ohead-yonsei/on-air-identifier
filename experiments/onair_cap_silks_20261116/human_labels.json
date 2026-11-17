@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-16T12:05:20.651823+00:00",
+  "source": "user review of review/simple_cap_labels.jpg",
+  "user_reply": "네, 번호가 맞아요",
+  "reviewed_pts_seconds": 38.5,
+  "labels": {
+    "G": 9,
+    "H": 1,
+    "I": 2,
+    "J": 10,
+    "K": 5,
+    "L": 11
+  },
+  "scope": "Only the six displayed crops at 38.5 seconds; do not silently extend to other samples. Other frame labels remain provisional."
+}

@@ -1,0 +1,7 @@
+{
+  "source": "ON-AIR_진행공유.md section11-1",
+  "source_document_sha256": "4ff041e89e482c118a977114f4ae7a552d9e4b3a28047b9c9a73e24783dd03f8",
+  "extracted_code_sha256": "70e3f199c7eaaea6078bf2846f864b9100d04433c484535cae0690139ed51d9a",
+  "import_changes_only": "Retained FX, PAL, CAP, quant, fgmask, A, hist, soft, cap_score, silk_ref; removed unused detector imports.",
+  "frozen_FX": "brown,rel47,edge,unknown,small"
+}

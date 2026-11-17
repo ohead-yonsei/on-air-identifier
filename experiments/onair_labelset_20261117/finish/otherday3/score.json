@@ -1,0 +1,271 @@
+{
+ "day": "otherday3",
+ "races": [
+  "R01",
+  "R02",
+  "R03",
+  "R06",
+  "R07",
+  "R09",
+  "R10"
+ ],
+ "results": {
+  "S0": {
+   "classifier": "cnn_probs_two",
+   "sure_rule": "C2",
+   "threshold": 0.8,
+   "frames": 28,
+   "statements": 3,
+   "right": 3,
+   "A": 1.0,
+   "B": 0.10714285714285714,
+   "boxes_per_frame": 0.6071428571428571,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "4.5": {
+     "frames": 7,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "6.0": {
+     "frames": 7,
+     "statements": 2,
+     "right": 2,
+     "good": 2
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R10": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    }
+   }
+  },
+  "S1": {
+   "classifier": "cnn_probs_two",
+   "sure_rule": "CONF",
+   "threshold": 0.8,
+   "frames": 28,
+   "statements": 0,
+   "right": 0,
+   "A": 0.0,
+   "B": 0.0,
+   "boxes_per_frame": 0.6071428571428571,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "4.5": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "6.0": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R10": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    }
+   }
+  },
+  "S2": {
+   "classifier": "cnn_probs_weak",
+   "sure_rule": "CONF",
+   "threshold": 0.8,
+   "frames": 28,
+   "statements": 2,
+   "right": 2,
+   "A": 1.0,
+   "B": 0.07142857142857142,
+   "boxes_per_frame": 0.6071428571428571,
+   "by_seconds_before_finish": {
+    "1.5": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "3.0": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "4.5": {
+     "frames": 7,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "6.0": {
+     "frames": 7,
+     "statements": 2,
+     "right": 2,
+     "good": 2
+    }
+   },
+   "by_race": {
+    "R01": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R02": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R03": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R06": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R07": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    },
+    "R09": {
+     "frames": 4,
+     "statements": 1,
+     "right": 1,
+     "good": 1
+    },
+    "R10": {
+     "frames": 4,
+     "statements": 0,
+     "right": 0,
+     "good": 0
+    }
+   }
+  }
+ },
+ "flags": {
+  "S0": {
+   "A_at_least_90": true,
+   "B_at_least_80": false
+  },
+  "S1": {
+   "A_at_least_90": false,
+   "B_at_least_80": false
+  },
+  "S2": {
+   "A_at_least_90": true,
+   "B_at_least_80": false
+  }
+ }
+}

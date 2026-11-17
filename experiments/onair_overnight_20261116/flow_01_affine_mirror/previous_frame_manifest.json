@@ -1,0 +1,50 @@
+{
+  "t031": {
+    "file": "flow_01_affine_mirror/t031_previous.png",
+    "decoded_index": 926,
+    "actual_pts": 30.9,
+    "sha256": "c2074a0e4193dbe6b17bcdcdec3a126760922b2a344e19827ab52ad7cb2c2177"
+  },
+  "t034": {
+    "file": "flow_01_affine_mirror/t034_previous.png",
+    "decoded_index": 1016,
+    "actual_pts": 33.9,
+    "sha256": "32c5a40664030737e0748ab73af7b40bee8ec5cc144c1a2b6e8e7c29a8b10128"
+  },
+  "t037": {
+    "file": "flow_01_affine_mirror/t037_previous.png",
+    "decoded_index": 1106,
+    "actual_pts": 36.9,
+    "sha256": "561e34bb9e8ec80faedf68952bf06dc36831b358af35b10c124ea2fa103b89a0"
+  },
+  "t040": {
+    "file": "flow_01_affine_mirror/t040_previous.png",
+    "decoded_index": 1196,
+    "actual_pts": 39.9,
+    "sha256": "40a308cffb3eb1e5702f61825d9748827a06c99ee2bdf6e25dc1df5c9e54a5dc"
+  },
+  "t042": {
+    "file": "flow_01_affine_mirror/t042_previous.png",
+    "decoded_index": 1256,
+    "actual_pts": 41.9,
+    "sha256": "5fe1b8b108c5fbab3473fb866d293bfb99e8af08d55605f88e7175f6ccad9a4e"
+  },
+  "t048": {
+    "file": "flow_01_affine_mirror/t048_previous.png",
+    "decoded_index": 1436,
+    "actual_pts": 47.9,
+    "sha256": "a54ed677f46f4f272620c7665b665898f808e6c68ba934d2a0862e8dd0c2fcbd"
+  },
+  "t052": {
+    "file": "flow_01_affine_mirror/t052_previous.png",
+    "decoded_index": 1556,
+    "actual_pts": 51.9,
+    "sha256": "1306d8f3fd63ce04f79e9c5b67a4af5cc14a391cbddcbf5e9abb83e3a6dc09b3"
+  },
+  "t058": {
+    "file": "flow_01_affine_mirror/t058_previous.png",
+    "decoded_index": 1736,
+    "actual_pts": 57.9,
+    "sha256": "03ac9f2afcbecd21298f47aa6c0abb2443ed4fe44a327db19f48de9a79060348"
+  }
+}

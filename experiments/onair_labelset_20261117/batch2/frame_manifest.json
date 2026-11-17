@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "R01_t027",
+  "race": "R01",
+  "target_pts": 27,
+  "actual_pts": 27.0,
+  "decoded_index": 1620,
+  "file": "frames/R01_t027.png",
+  "sha256": "ce40ab716c4805c343b6948afcf8ed4ef8ba3c0c533fd7c98b7a697d6fd8ac5a",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 9,
+  "horses_detected": 5,
+  "riders_kept": 2
+ },
+ {
+  "id": "R01_t044",
+  "race": "R01",
+  "target_pts": 44,
+  "actual_pts": 44.0,
+  "decoded_index": 2640,
+  "file": "frames/R01_t044.png",
+  "sha256": "3ca6fb562a09267775ea18bbe89742566f35726e5ace0f0d5cfb1f74fb771ec8",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 8,
+  "riders_kept": 7
+ },
+ {
+  "id": "R01_t055",
+  "race": "R01",
+  "target_pts": 55,
+  "actual_pts": 55.0,
+  "decoded_index": 3300,
+  "file": "frames/R01_t055.png",
+  "sha256": "5026a2623f35acd61c3b08588ea34da33c0ad0459bf73353a50ec5da6211f5bf",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 13,
+  "horses_detected": 13,
+  "riders_kept": 10
+ },
+ {
+  "id": "R01_t060",
+  "race": "R01",
+  "target_pts": 60,
+  "actual_pts": 60.0,
+  "decoded_index": 3600,
+  "file": "frames/R01_t060.png",
+  "sha256": "eecd12702f996958568325a7265438cec0043f6f949b404592ed6de1f57a9b91",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 9,
+  "riders_kept": 3
+ },
+ {
+  "id": "R01_t068",
+  "race": "R01",
+  "target_pts": 68,
+  "actual_pts": 68.0,
+  "decoded_index": 4080,
+  "file": "frames/R01_t068.png",
+  "sha256": "d8ded998c93f5c53db872164de67a50e3c0567f4d824ac4173ade913f35f0e59",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 9,
+  "horses_detected": 11,
+  "riders_kept": 2
+ },
+ {
+  "id": "R02_t034",
+  "race": "R02",
+  "target_pts": 34,
+  "actual_pts": 34.0,
+  "decoded_index": 2040,
+  "file": "frames/R02_t034.png",
+  "sha256": "5ddb51f3ffab41c4d407a9281b81ab7b3950ff467760de30913447cd95aa3edc",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 9,
+  "riders_kept": 9
+ },
+ {
+  "id": "R02_t044",
+  "race": "R02",
+  "target_pts": 44,
+  "actual_pts": 44.0,
+  "decoded_index": 2640,
+  "file": "frames/R02_t044.png",
+  "sha256": "20fb3c52f92e921c30565feee250cc582a04bdedaa02c2478ee91c79acd4b38a",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 11,
+  "riders_kept": 10
+ },
+ {
+  "id": "R02_t048",
+  "race": "R02",
+  "target_pts": 48,
+  "actual_pts": 48.0,
+  "decoded_index": 2880,
+  "file": "frames/R02_t048.png",
+  "sha256": "4aa0f41335a93945b14c192d8c46c3f516acd4d0703f2aff9bfb27dbe8767bbe",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 13,
+  "horses_detected": 12,
+  "riders_kept": 11
+ },
+ {
+  "id": "R02_t061",
+  "race": "R02",
+  "target_pts": 61,
+  "actual_pts": 61.0,
+  "decoded_index": 3660,
+  "file": "frames/R02_t061.png",
+  "sha256": "a3591120a9db3c3d36afe509387d405066016eefbc9fc0cab2ee8a2389459804",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 9,
+  "riders_kept": 7
+ },
+ {
+  "id": "R02_t068",
+  "race": "R02",
+  "target_pts": 68,
+  "actual_pts": 68.0,
+  "decoded_index": 4080,
+  "file": "frames/R02_t068.png",
+  "sha256": "7ae5c94cd6753a8985cb6f43ca032b7bfe31fc34a7465c18b0a7061da455a569",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 10,
+  "riders_kept": 3
+ },
+ {
+  "id": "R03_t032",
+  "race": "R03",
+  "target_pts": 32,
+  "actual_pts": 32.0,
+  "decoded_index": 1920,
+  "file": "frames/R03_t032.png",
+  "sha256": "13e708bdd949066e90960285a0b367154376ee96f1b1ae43baf5a32055e0a465",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 11,
+  "riders_kept": 1
+ },
+ {
+  "id": "R03_t057",
+  "race": "R03",
+  "target_pts": 57,
+  "actual_pts": 57.0,
+  "decoded_index": 3420,
+  "file": "frames/R03_t057.png",
+  "sha256": "59735c3f81a2dbe3ad70b0f94b69d743822333ec1b0dc42e1ddee41ec10cc88b",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 5,
+  "riders_kept": 5
+ },
+ {
+  "id": "R03_t070",
+  "race": "R03",
+  "target_pts": 70,
+  "actual_pts": 70.0,
+  "decoded_index": 4200,
+  "file": "frames/R03_t070.png",
+  "sha256": "d63b1c21dd5e874b0790d203f4b615b4534aee6feb7e6ca95fc7700d13510ebc",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 8,
+  "riders_kept": 7
+ },
+ {
+  "id": "R03_t094",
+  "race": "R03",
+  "target_pts": 94,
+  "actual_pts": 94.0,
+  "decoded_index": 5640,
+  "file": "frames/R03_t094.png",
+  "sha256": "65fed58a5edacb15c2b518c99594f7cdb1fad8fbcf1876c5749875ee995680d9",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 12,
+  "riders_kept": 9
+ },
+ {
+  "id": "R03_t107",
+  "race": "R03",
+  "target_pts": 107,
+  "actual_pts": 107.0,
+  "decoded_index": 6420,
+  "file": "frames/R03_t107.png",
+  "sha256": "889b34bd6b2a6fcb300921890add19b278accf9acad92280f26788bed51bb7db",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 13,
+  "horses_detected": 11,
+  "riders_kept": 10
+ },
+ {
+  "id": "R04_t033",
+  "race": "R04",
+  "target_pts": 33,
+  "actual_pts": 33.0,
+  "decoded_index": 1980,
+  "file": "frames/R04_t033.png",
+  "sha256": "58d109b0c552354e8ca5ebe101ca6bc7fdbd69e6ee3579294318e1531bf96a70",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 11,
+  "riders_kept": 8
+ },
+ {
+  "id": "R04_t058",
+  "race": "R04",
+  "target_pts": 58,
+  "actual_pts": 58.0,
+  "decoded_index": 3480,
+  "file": "frames/R04_t058.png",
+  "sha256": "7c42166225c78bda77f77da80b9a53659f7977aa84fd16eaca48982dbe39bbc3",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 5,
+  "horses_detected": 5,
+  "riders_kept": 2
+ },
+ {
+  "id": "R04_t071",
+  "race": "R04",
+  "target_pts": 71,
+  "actual_pts": 71.0,
+  "decoded_index": 4260,
+  "file": "frames/R04_t071.png",
+  "sha256": "306a2c0c5ac7439212d1926a0950cc7050504d6d7bd219e2535bf63a0ee41934",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 7,
+  "riders_kept": 8
+ },
+ {
+  "id": "R04_t090",
+  "race": "R04",
+  "target_pts": 90,
+  "actual_pts": 90.0,
+  "decoded_index": 5400,
+  "file": "frames/R04_t090.png",
+  "sha256": "3c3dc2d7612a3aa2eadd867d91e6eb4d3451de8a4540c53de56a5a597a298cbd",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 8,
+  "riders_kept": 7
+ },
+ {
+  "id": "R04_t109",
+  "race": "R04",
+  "target_pts": 109,
+  "actual_pts": 109.0,
+  "decoded_index": 6540,
+  "file": "frames/R04_t109.png",
+  "sha256": "7749adf1dc58faedd01fd86839703dab1de6ecddb36c2623e460ab68751e4465",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 10,
+  "riders_kept": 5
+ },
+ {
+  "id": "R05_t035",
+  "race": "R05",
+  "target_pts": 35,
+  "actual_pts": 35.0,
+  "decoded_index": 2100,
+  "file": "frames/R05_t035.png",
+  "sha256": "cb90f1103f08521c1ca2d3b3089b006e4353f5f939f539fcf16f6471b03fa201",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 11,
+  "riders_kept": 10
+ },
+ {
+  "id": "R05_t047",
+  "race": "R05",
+  "target_pts": 47,
+  "actual_pts": 47.0,
+  "decoded_index": 2820,
+  "file": "frames/R05_t047.png",
+  "sha256": "9a1ebeb1ec7f19100b71a0eca8243f848e8b478940e2690897e011d28adddee1",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 14,
+  "horses_detected": 8,
+  "riders_kept": 8
+ },
+ {
+  "id": "R05_t053",
+  "race": "R05",
+  "target_pts": 53,
+  "actual_pts": 53.0,
+  "decoded_index": 3180,
+  "file": "frames/R05_t053.png",
+  "sha256": "5b0a7a804d6bf79076ca59537b597c2dee3cd6ee896e2a73edc22b9a26f720a9",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 7,
+  "riders_kept": 10
+ },
+ {
+  "id": "R05_t068",
+  "race": "R05",
+  "target_pts": 68,
+  "actual_pts": 68.0,
+  "decoded_index": 4080,
+  "file": "frames/R05_t068.png",
+  "sha256": "e317e4424d74a02384f070e2faae39f5d9657e489b0f4d1dd2ab95b328ce4838",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 10,
+  "riders_kept": 10
+ },
+ {
+  "id": "R05_t077",
+  "race": "R05",
+  "target_pts": 77,
+  "actual_pts": 77.0,
+  "decoded_index": 4620,
+  "file": "frames/R05_t077.png",
+  "sha256": "c21a6fdbf27c52e2a6e7dfb1a6a593a325417466bf90b73c7eaf2e6aa23c181a",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 10,
+  "riders_kept": 4
+ },
+ {
+  "id": "R06_t029",
+  "race": "R06",
+  "target_pts": 29,
+  "actual_pts": 29.0,
+  "decoded_index": 1740,
+  "file": "frames/R06_t029.png",
+  "sha256": "c0810b94b58b40da199ff985d9260bf94dc2ef3947413e1ba5b6278b500e999a",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 6,
+  "riders_kept": 6
+ },
+ {
+  "id": "R06_t048",
+  "race": "R06",
+  "target_pts": 48,
+  "actual_pts": 48.0,
+  "decoded_index": 2880,
+  "file": "frames/R06_t048.png",
+  "sha256": "44ee02d03c61d17481454ba427d2dd8730d12aa7ecaec0831ffe431b1131a0f1",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 7,
+  "riders_kept": 8
+ },
+ {
+  "id": "R06_t054",
+  "race": "R06",
+  "target_pts": 54,
+  "actual_pts": 54.0,
+  "decoded_index": 3240,
+  "file": "frames/R06_t054.png",
+  "sha256": "7b16d1d8310eb41463c7f2dc618bfa084505ef00ec7b1376a2b42160c9490fb6",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 7,
+  "riders_kept": 7
+ },
+ {
+  "id": "R06_t070",
+  "race": "R06",
+  "target_pts": 70,
+  "actual_pts": 70.0,
+  "decoded_index": 4200,
+  "file": "frames/R06_t070.png",
+  "sha256": "748f47f3d346763396653c8f04bd1848939524feea7167e1be9a4d2c955cebdd",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 10,
+  "riders_kept": 8
+ },
+ {
+  "id": "R06_t083",
+  "race": "R06",
+  "target_pts": 83,
+  "actual_pts": 83.0,
+  "decoded_index": 4980,
+  "file": "frames/R06_t083.png",
+  "sha256": "2c4a9bbe1d2b6962e5f70f481b102bcf695dd68a90d59dee2a1551915f3692da",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 12,
+  "horses_detected": 10,
+  "riders_kept": 9
+ },
+ {
+  "id": "R07_t030",
+  "race": "R07",
+  "target_pts": 30,
+  "actual_pts": 30.0,
+  "decoded_index": 1800,
+  "file": "frames/R07_t030.png",
+  "sha256": "0e748d6dff1a98840b00fde67f168ca5fdfde1157fc1043e647410fe38011ffe",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 15,
+  "horses_detected": 8,
+  "riders_kept": 9
+ },
+ {
+  "id": "R07_t042",
+  "race": "R07",
+  "target_pts": 42,
+  "actual_pts": 42.0,
+  "decoded_index": 2520,
+  "file": "frames/R07_t042.png",
+  "sha256": "c4bee4a5c2dc74e5a833262443eebef7fec904ac78832b41ab38daec9d590598",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 16,
+  "horses_detected": 11,
+  "riders_kept": 9
+ },
+ {
+  "id": "R07_t056",
+  "race": "R07",
+  "target_pts": 56,
+  "actual_pts": 56.0,
+  "decoded_index": 3360,
+  "file": "frames/R07_t056.png",
+  "sha256": "e4eefdb1d99af5ad8459ce1a811c6594b9fca3633fdec7d447dad1d30b7abba8",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 12,
+  "riders_kept": 7
+ },
+ {
+  "id": "R07_t071",
+  "race": "R07",
+  "target_pts": 71,
+  "actual_pts": 71.0,
+  "decoded_index": 4260,
+  "file": "frames/R07_t071.png",
+  "sha256": "343f231dc58a80c0ae4d7389f290db1b400e8b438921664a5aebacd95b361976",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 14,
+  "horses_detected": 11,
+  "riders_kept": 11
+ },
+ {
+  "id": "R07_t082",
+  "race": "R07",
+  "target_pts": 82,
+  "actual_pts": 82.0,
+  "decoded_index": 4920,
+  "file": "frames/R07_t082.png",
+  "sha256": "3754bf7135c8291d6d6247dbfb8a29df98a0e4cb1e7df1ffc351bab209f50af1",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 15,
+  "horses_detected": 12,
+  "riders_kept": 3
+ },
+ {
+  "id": "R08_t031",
+  "race": "R08",
+  "target_pts": 31,
+  "actual_pts": 31.0,
+  "decoded_index": 1860,
+  "file": "frames/R08_t031.png",
+  "sha256": "bb1223e5d3e10f1068631847156017e3a99ba4d5369541fd14c41d359784bf5e",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 7,
+  "riders_kept": 0
+ },
+ {
+  "id": "R08_t052",
+  "race": "R08",
+  "target_pts": 52,
+  "actual_pts": 52.0,
+  "decoded_index": 3120,
+  "file": "frames/R08_t052.png",
+  "sha256": "cc5115ebac7881c60d56bf7e828ca6defca7b28652076701dcae39e772718c7d",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 14,
+  "horses_detected": 12,
+  "riders_kept": 10
+ },
+ {
+  "id": "R08_t061",
+  "race": "R08",
+  "target_pts": 61,
+  "actual_pts": 61.0,
+  "decoded_index": 3660,
+  "file": "frames/R08_t061.png",
+  "sha256": "c1497ec1454a96d913cc3bbe914ce93fb81ef278d18ace29db7d8f434ddefeca",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 19,
+  "horses_detected": 7,
+  "riders_kept": 9
+ },
+ {
+  "id": "R08_t085",
+  "race": "R08",
+  "target_pts": 85,
+  "actual_pts": 85.0,
+  "decoded_index": 5100,
+  "file": "frames/R08_t085.png",
+  "sha256": "9bae77629d71ccfe4568b8ca21aa205197a0fe5e071bdd538e7162d4af4f26dc",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 22,
+  "horses_detected": 13,
+  "riders_kept": 13
+ },
+ {
+  "id": "R08_t091",
+  "race": "R08",
+  "target_pts": 91,
+  "actual_pts": 91.0,
+  "decoded_index": 5460,
+  "file": "frames/R08_t091.png",
+  "sha256": "c7cf9ad8f4304c5092b9f45866e7062b2214e2c98d7246100abae4da4e361bfe",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 19,
+  "horses_detected": 14,
+  "riders_kept": 3
+ },
+ {
+  "id": "R09_t035",
+  "race": "R09",
+  "target_pts": 35,
+  "actual_pts": 35.0,
+  "decoded_index": 2100,
+  "file": "frames/R09_t035.png",
+  "sha256": "9baf0322de01320a51662eed8c65f2487adf03d64c040437bc1a2e655cd1e1e4",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 11,
+  "horses_detected": 8,
+  "riders_kept": 1
+ },
+ {
+  "id": "R09_t051",
+  "race": "R09",
+  "target_pts": 51,
+  "actual_pts": 51.0,
+  "decoded_index": 3060,
+  "file": "frames/R09_t051.png",
+  "sha256": "56c469ceb4abcb3a5d41e22db94aaf8aef41198e4421c7a4c9bd3ac43a88bdb1",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 9,
+  "horses_detected": 9,
+  "riders_kept": 8
+ },
+ {
+  "id": "R09_t069",
+  "race": "R09",
+  "target_pts": 69,
+  "actual_pts": 69.0,
+  "decoded_index": 4140,
+  "file": "frames/R09_t069.png",
+  "sha256": "21cedeb86df102d4797f6d0a131a82ddda79e320a5162e59eb54d9f23eb48671",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 7,
+  "horses_detected": 6,
+  "riders_kept": 0
+ },
+ {
+  "id": "R09_t087",
+  "race": "R09",
+  "target_pts": 87,
+  "actual_pts": 87.0,
+  "decoded_index": 5220,
+  "file": "frames/R09_t087.png",
+  "sha256": "a3918eccecfa8d112925964992d95c9823fd6d4f03620c28266f559c63f6bef7",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 8,
+  "horses_detected": 6,
+  "riders_kept": 6
+ },
+ {
+  "id": "R09_t106",
+  "race": "R09",
+  "target_pts": 106,
+  "actual_pts": 106.0,
+  "decoded_index": 6360,
+  "file": "frames/R09_t106.png",
+  "sha256": "a2f67f2ce539048e9605408001c45446f2839aaab83988cb090d62580b155975",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 9,
+  "horses_detected": 8,
+  "riders_kept": 0
+ },
+ {
+  "id": "R10_t032",
+  "race": "R10",
+  "target_pts": 32,
+  "actual_pts": 32.0,
+  "decoded_index": 1920,
+  "file": "frames/R10_t032.png",
+  "sha256": "aea3304be973665f7cba3e8c5b8cda7e6ceafbf7c7760b702a5ddf94f423d356",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 6,
+  "horses_detected": 6,
+  "riders_kept": 0
+ },
+ {
+  "id": "R10_t050",
+  "race": "R10",
+  "target_pts": 50,
+  "actual_pts": 50.0,
+  "decoded_index": 3000,
+  "file": "frames/R10_t050.png",
+  "sha256": "3f9ab4855cb612a363d2fe0cba6e8ab26b785e765adec3b5500d218a68302ba3",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 3,
+  "horses_detected": 6,
+  "riders_kept": 0
+ },
+ {
+  "id": "R10_t068",
+  "race": "R10",
+  "target_pts": 68,
+  "actual_pts": 68.0,
+  "decoded_index": 4080,
+  "file": "frames/R10_t068.png",
+  "sha256": "e1ef258ce7f57184578e63135cf88bcaa3fa3bf020ea2fa95b386b680dc1a900",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 15,
+  "horses_detected": 9,
+  "riders_kept": 10
+ },
+ {
+  "id": "R10_t086",
+  "race": "R10",
+  "target_pts": 86,
+  "actual_pts": 86.0,
+  "decoded_index": 5160,
+  "file": "frames/R10_t086.png",
+  "sha256": "3f5ee693afdd4a589c5a813cd113e740b3ffa6959113599817f9e2e834099ba2",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 9,
+  "horses_detected": 10,
+  "riders_kept": 8
+ },
+ {
+  "id": "R10_t104",
+  "race": "R10",
+  "target_pts": 104,
+  "actual_pts": 104.0,
+  "decoded_index": 6240,
+  "file": "frames/R10_t104.png",
+  "sha256": "9493d95dd2a5166e6aa1dc6ee1377e64cb860fd95b188538136ea49469ad6ae4",
+  "masks": [
+   [
+    0,
+    0,
+    360,
+    210
+   ],
+   [
+    1710,
+    0,
+    1920,
+    180
+   ],
+   [
+    0,
+    930,
+    1920,
+    1080
+   ]
+  ],
+  "persons_detected": 10,
+  "horses_detected": 12,
+  "riders_kept": 10
+ }
+]

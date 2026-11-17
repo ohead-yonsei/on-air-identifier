@@ -1,0 +1,38 @@
+{
+  "experiment": "onair_overnight_20261117",
+  "started_utc": "2026-11-16T16:49:55.968952+00:00",
+  "deadline_utc": "2026-11-17T23:30:00Z",
+  "review_time_kst": "2026-11-18 09:00",
+  "endpoint": "http://127.0.0.1:11435",
+  "model": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "max_vlm_requests": 400,
+  "max_vision_frames": 3000,
+  "max_new_weight_bytes": 1000000000,
+  "max_retry_per_item": 1,
+  "development_races": [
+    "R03",
+    "R05",
+    "R06",
+    "R07"
+  ],
+  "evaluation_races": [
+    "R01",
+    "R02",
+    "R04",
+    "R08",
+    "R09",
+    "R10"
+  ],
+  "methods": [
+    "R0_27",
+    "R0_35",
+    "R1_pose",
+    "R2_cluster",
+    "U_manual"
+  ],
+  "seed": 20261117,
+  "old_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+  "old_experiment": "/home/ohead/ai-workspace/projects/onair_overnight_20261116",
+  "old_cap_experiment": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116"
+}

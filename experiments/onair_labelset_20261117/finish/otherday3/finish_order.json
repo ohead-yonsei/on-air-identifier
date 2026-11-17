@@ -1,0 +1,23 @@
+{
+ "day": "2026-10-24",
+ "read_by": "Claude, from the slow-motion finish replay (finish/otherday3/arrivals and zoom), before the identifier was run on the finish-stretch frames. Not checked item by item by a person.",
+ "order": {
+  "R01": [3, 6, 4],
+  "R02": [6, 11, 3],
+  "R03": [6, 2, 3],
+  "R06": [3, 2, 1],
+  "R07": [6, 4, 7],
+  "R09": [5, 7, 6],
+  "R10": [11, 4, 5]
+ },
+ "notes": {
+  "R02": "second (11) read from the number on the striped sky-blue cap; its cloth was hidden by the third horse",
+  "R09": "third (6) and fourth (1) reach the line almost together; 6 looked a nose ahead",
+  "R10": "first three (11, 4, 5) reach the line within a length; 4 read from the cloth in an enlarged crop"
+ },
+ "excluded": {
+  "R04": "the video ends before the third horse reaches the line in the replay (first 7, second 2)",
+  "R05": "the video ends just after the replay starts",
+  "R08": "the video ends just after the replay starts"
+ }
+}

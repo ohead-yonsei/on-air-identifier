@@ -1,0 +1,26 @@
+[
+  {
+    "command": "run_detector.py",
+    "exit_code": 0
+  },
+  {
+    "command": "run_vlm.py --task view",
+    "exit_code": 0
+  },
+  {
+    "command": "run_vlm.py --task view --mirror",
+    "exit_code": 0
+  },
+  {
+    "command": "run_vlm.py --task localize",
+    "exit_code": 0
+  },
+  {
+    "command": "run_vlm.py --task conditioned",
+    "exit_code": 0
+  },
+  {
+    "command": "run_geometry.py",
+    "exit_code": 0
+  }
+]

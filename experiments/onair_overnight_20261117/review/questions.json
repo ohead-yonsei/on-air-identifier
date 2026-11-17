@@ -1,0 +1,74 @@
+[
+  {
+    "id": "Q01",
+    "image": "review/races/R01.jpg",
+    "question": "R01: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q02",
+    "image": "review/races/R02.jpg",
+    "question": "R02: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q03",
+    "image": "review/races/R04.jpg",
+    "question": "R04: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q04",
+    "image": "review/races/R08.jpg",
+    "question": "R08: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q05",
+    "image": "review/races/R09.jpg",
+    "question": "R09: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q06",
+    "image": "review/races/R10.jpg",
+    "question": "R10: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q07",
+    "image": "review/races/R03.jpg",
+    "question": "R03: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q08",
+    "image": "review/races/R05.jpg",
+    "question": "R05: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q09",
+    "image": "review/races/R06.jpg",
+    "question": "R06: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q10",
+    "image": "review/races/R07.jpg",
+    "question": "R07: 사진 아래의 모자 번호가 맞나요? 틀린 사진 번호와 올바른 마번만 적고, 애매하면 미확인으로 남겨 주세요.",
+    "seconds": 40
+  },
+  {
+    "id": "Q11",
+    "image": "review/leader.jpg",
+    "question": "각 시점의 선두가 표시된 보라색 9번인가요? 다른 시점·미확인 시점만 알려 주세요.",
+    "seconds": 60
+  },
+  {
+    "id": "Q12",
+    "image": "review/connections.jpg",
+    "question": "녹색 선이 같은 말의 코끝과 그 말의 기수 모자를 잇고 있나요? 틀리거나 애매한 시점·번호만 알려 주세요.",
+    "seconds": 120
+  }
+]

@@ -1,0 +1,630 @@
+{
+ "race": "R08",
+ "info": {
+  "place": "서울",
+  "race": 8,
+  "distance": 1200,
+  "race_read": 8,
+  "clock_read": {
+   "minutes": 0,
+   "seconds": 12
+  },
+  "start_video_time": 11.0,
+  "facts_source": "race_facts.json (checked by eye)"
+ },
+ "expected_finish_seconds": 74.4,
+ "rows": [
+  {
+   "k": 0,
+   "t": 23.0,
+   "elapsed": 12.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "5번과 6번이 선두권에서 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "출발 12초 만에 선두권은 3번과 7번이 맞붙고 있다.",
+   "picture_only_numbers": [
+    3,
+    7
+   ],
+   "strip": null
+  },
+  {
+   "k": 1,
+   "t": 26.0,
+   "elapsed": 15.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권에서 5번과 6번이 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "선두권에는 7, 6, 8번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    8
+   ],
+   "strip": [
+    5,
+    3,
+    2,
+    6,
+    1
+   ]
+  },
+  {
+   "k": 2,
+   "t": 29.0,
+   "elapsed": 18.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권에서 5번과 6번이 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "출발 18초, 선두권을 형성한 4번이 내리막을 질주하며 앞선다.",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": [
+    5,
+    3,
+    2,
+    6,
+    1
+   ]
+  },
+  {
+   "k": 3,
+   "t": 32.0,
+   "elapsed": 21.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권에서 5번과 6번이 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "출발 뒤 21초 시점, 현재 선두권에는 3번과 7번이 앞서가고 있으며, 9번이 추격하고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    7,
+    9
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 4,
+   "t": 35.0,
+   "elapsed": 24.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권 5번과 6번이 24초 만에 약 800m 를 남기고 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "선두권은 4번, 3번과 6번이 쫓아가고 있어요.",
+   "picture_only_numbers": [
+    3,
+    4,
+    6
+   ],
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "k": 5,
+   "t": 38.0,
+   "elapsed": 27.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권 5번과 6번이 약 800m 를 남겨 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "선두권에는 4번이 앞서가고 있고 뒤를 이은 10번과 8번이 추격하고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    8,
+    10
+   ],
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "k": 6,
+   "t": 41.0,
+   "elapsed": 30.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    2,
+    6
+   ],
+   "allowed": [
+    2,
+    6
+   ],
+   "recall": [],
+   "line": "선두권 2번과 6번이 약 700m 를 남기고 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    2,
+    6
+   ],
+   "picture_only_line": "지금 선두권에는 12번, 8번, 7번이 다투고 있습니다.",
+   "picture_only_numbers": [
+    7,
+    8,
+    12
+   ],
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "k": 7,
+   "t": 44.0,
+   "elapsed": 33.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6
+   ],
+   "allowed": [
+    6
+   ],
+   "recall": [],
+   "line": "선두권 6번이 약 700m 를 남겨 치열하게 달리고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    6
+   ],
+   "picture_only_line": "지금 선두권을 달리는 4번과 7번, 3번이 치열한 경쟁을 펼치고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    7
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 8,
+   "t": 47.0,
+   "elapsed": 36.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권 5번과 6번이 약 600m 를 남겨 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "지금 선두권을 달리고 있는 4번, 10번과 8번이 치열한 경쟁을 펼치고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    8,
+    10
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 9,
+   "t": 50.0,
+   "elapsed": 39.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6
+   ],
+   "allowed": [
+    6
+   ],
+   "recall": [],
+   "line": "선두권 6번이 약 600m 를 남겨 치열하게 달리고 있습니다.",
+   "source": "model_retry",
+   "said_numbers": [
+    6
+   ],
+   "picture_only_line": "지금 선두권은 4번, 10번, 2번이 치열하게 주고받고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    4,
+    10
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 10,
+   "t": 53.0,
+   "elapsed": 42.0,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [
+    5,
+    6
+   ],
+   "recall": [],
+   "line": "선두권 5번과 6번이 약 500m 를 남겨 치열하게 주고받고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "지금 선두권은 4번과 6번이 치열하게 경쟁하고 있으며 10번이 추격하는 모습입니다.",
+   "picture_only_numbers": [
+    4,
+    6,
+    10
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 11,
+   "t": 56.0,
+   "elapsed": 45.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [],
+   "recall": [
+    5,
+    6
+   ],
+   "line": "서울 8경주 1200m 후반 45초 지났고, 조금 전까지 선두권 5번과 6번이 약 500m 를 남겨 달리고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "지금 선두권은 4번과 10번이 앞서가고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    10
+   ],
+   "strip": [
+    5,
+    6,
+    2,
+    4,
+    3
+   ]
+  },
+  {
+   "k": 12,
+   "t": 59.0,
+   "elapsed": 48.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    5,
+    6
+   ],
+   "allowed": [],
+   "recall": [
+    5,
+    6
+   ],
+   "line": "서울 8경주 후반, 출발 48초가 지났고 약 400m 를 남겨 조금 전까지 선두권으로 확인된 5번과 6번이 달리고 있습니다.",
+   "source": "model_retry",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "지금 선두권에 있는 말은 2번, 3번, 4번이다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 13,
+   "t": 62.0,
+   "elapsed": 51.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    2,
+    5
+   ],
+   "allowed": [],
+   "recall": [
+    5,
+    6
+   ],
+   "line": "서울 8경주 후반, 출발 51초가 지났고 약 400m 를 남겨 조금 전까지 선두권으로 확인된 5번과 6번이 달리고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5,
+    6
+   ],
+   "picture_only_line": "지금 선두권에는 3번, 11번, 2번 말이 자리하고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    11
+   ],
+   "strip": null
+  },
+  {
+   "k": 14,
+   "t": 65.0,
+   "elapsed": 54.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    2,
+    5
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 후반, 출발 54초가 지났고 약 300m 를 남겨 경주 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "2800m 마크를 지나며 4번이 앞서가고 뒤이어 1번과 3번이 쫓아옵니다.",
+   "picture_only_numbers": [
+    1,
+    3,
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 15,
+   "t": 68.0,
+   "elapsed": 57.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    2,
+    5
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 후반, 출발 57초가 지났고 약 300m 를 남겨 경주 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "239m 지점 선두권은 4,10,7번이 치열한 경쟁을 벌이고 있습니다.",
+   "picture_only_numbers": [
+    7
+   ],
+   "strip": null
+  },
+  {
+   "k": 16,
+   "t": 71.0,
+   "elapsed": 60.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    2,
+    5
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 후반, 출발 60초가 지났고 약 200m 를 남겨 경주 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "4번이 선두권을 형성하며 앞서가고 있습니다.",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 17,
+   "t": 74.0,
+   "elapsed": 63.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    5
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 후반, 출발 63초가 지났고 약 200m 를 남겨 경주 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "4번이 앞서가고 있고, 뒤를 이어 8번과 10번이 추격하는 형국입니다.",
+   "picture_only_numbers": [
+    4,
+    8,
+    10
+   ],
+   "strip": null
+  },
+  {
+   "k": 18,
+   "t": 77.0,
+   "elapsed": 66.0,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    5
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 후반, 출발 66초가 지났고 약 100m 를 남겨 경주 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "지금 선두권에 있는 말은 4번, 10번과 9번이 앞서고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    9,
+    10
+   ],
+   "strip": null
+  },
+  {
+   "k": 19,
+   "t": 80.0,
+   "elapsed": 69.0,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [
+    5,
+    8
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 결승선 직전, 출발 69초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "선두권은 4번이 앞서고 뒤를 이을 1번과 6번이 추격하며 긴박한 전개가 예상됩니다.",
+   "picture_only_numbers": [
+    1,
+    4,
+    6
+   ],
+   "strip": null
+  },
+  {
+   "k": 20,
+   "t": 83.0,
+   "elapsed": 72.0,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 8경주 결승선 직전, 출발 72초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "4번이 결승선을 앞두고 3번과 2번을 따돌리며 선두를 달리고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    4
+   ],
+   "strip": null
+  }
+ ]
+}

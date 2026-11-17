@@ -1,0 +1,43 @@
+{
+  "new_generations": 4,
+  "jev_generations": 0,
+  "total_generations_including_original": 20,
+  "failures": 0,
+  "format_violations": 0,
+  "changed_order_scenes": [
+    "S2_bend",
+    "S4_straight"
+  ],
+  "racecard_prefix_match_scenes": [
+    "S2_bend",
+    "S4_straight"
+  ],
+  "order_body_conflict_scenes": [
+    "S4_straight"
+  ],
+  "human_reviewed_scenes": [
+    "S2_bend"
+  ],
+  "human_confirmed_leader": 9,
+  "human_reviewed_scene_wrong_leader_in_both": true,
+  "unreviewed_scenes_not_scored": [
+    "S1_early",
+    "S3_wide",
+    "S4_straight"
+  ],
+  "elapsed_seconds_sum": 19.265,
+  "after_first_call_seconds": [
+    3.537,
+    3.621,
+    3.648
+  ],
+  "after_first_call_median_seconds": 3.621,
+  "checks_passed": 164,
+  "limits": [
+    "Single race, four calls, no repeats or new shuffle control.",
+    "Only S2 final-frame leader has user confirmation; remaining correctness unscored.",
+    "Explicit image separation and temporal text labels changed together.",
+    "Cold load and cache state prevent interpreting latency as controlled model-speed comparison.",
+    "Fixed-fact condition B and detector integration not tested in this followup."
+  ]
+}

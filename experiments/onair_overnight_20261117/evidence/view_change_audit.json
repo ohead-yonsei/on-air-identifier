@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-16T17:38:45.355652+00:00",
+  "status": "post-result visual explanation; not a new model evaluation",
+  "old_visual_interval": [
+    32.733,
+    43.067
+  ],
+  "sampled_continuous_shot": [
+    32.8,
+    43.0
+  ],
+  "illustrated_pts": [
+    34.0,
+    37.0,
+    40.0,
+    42.0
+  ],
+  "observed": "Side-to-frontal-to-opposite-side views within one shot; all sampled box-aspect proxies incorrectly remain front_or_rear_like.",
+  "view_proxy_pre_registration": "Thresholds <=1.1 and >=1.6 were implementation-time exploratory heuristics, not specified in PLAN; no accuracy claim.",
+  "tracking_flow_direction_check": "archive.tracked returns (previous_points,current_points); affine fits previous->current and warp uses same direction; code inspection found no reversed-transform error.",
+  "causal_limit": "Background warp does not model runner residual velocity. Worse continuity is observed; its full cause is not established."
+}

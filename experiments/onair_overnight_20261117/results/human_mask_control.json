@@ -1,0 +1,3131 @@
+[
+  {
+    "item_id": "HUMAN_G_R0_27_masked_control",
+    "sample_id": "HUMAN_G",
+    "method": "R0_27",
+    "reference_number": 9,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      653.742919921875,
+      465.4102478027344,
+      729.4819946289062,
+      580.9412231445312
+    ],
+    "original_person_box": [
+      654.8895263671875,
+      467.397216796875,
+      725.6221313476562,
+      580.9393920898438
+    ],
+    "person_match_iou": 0.9178219257847118,
+    "region_box": [
+      659,
+      465,
+      724,
+      497
+    ],
+    "region_info": {},
+    "region_ms": 0.015628524124622345,
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "high_evidence",
+      "score": 0.5568345323684916,
+      "margin": 0.11622302158091524,
+      "known_fraction": 0.7726514729276739,
+      "histogram": [
+        0.0,
+        0.29352517985315857,
+        0.020143884900516655,
+        0.02661870503570329,
+        0.0,
+        0.0,
+        0.005755395683395303,
+        0.008633093525092955,
+        0.2453237410047234,
+        0.37122302157899434,
+        0.02805755395655212,
+        0.0,
+        0.0007194244618632619
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.06215827339361893,
+        0.4406115107875763,
+        0.3679856115070851,
+        0.008633093525092955,
+        0.19920863309367692,
+        0.04208633093482818,
+        0.5568345323684916,
+        0.012949640287639431,
+        0.0
+      ],
+      "elapsed_ms": 110.11962220072746
+    },
+    "cap_iou": 0.4694814134924277,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.508173076923077,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_G_R0_27_masked_control.png",
+    "image_sha256": "5c8868cc695c3fdaf13e039f92912f173bc40743f435cd762be5efada2fc2217",
+    "native_size": [
+      65,
+      32
+    ],
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 4503.197065554559,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_G_R0_35_masked_control",
+    "sample_id": "HUMAN_G",
+    "method": "R0_35",
+    "reference_number": 9,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      653.742919921875,
+      465.4102478027344,
+      729.4819946289062,
+      580.9412231445312
+    ],
+    "original_person_box": [
+      654.8895263671875,
+      467.397216796875,
+      725.6221313476562,
+      580.9393920898438
+    ],
+    "person_match_iou": 0.9178219257847118,
+    "region_box": [
+      653,
+      465,
+      730,
+      506
+    ],
+    "region_info": {},
+    "region_ms": 0.008585862815380096,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 4,
+      "state": "unknown",
+      "score": 0.47755949086458377,
+      "margin": 0.032623132263593035,
+      "known_fraction": 0.6788129224951127,
+      "histogram": [
+        0.0,
+        0.3182069728800617,
+        0.015495296077322227,
+        0.05644714997176804,
+        0.0,
+        0.0,
+        0.00442722744876611,
+        0.011068068621915275,
+        0.2695074709441884,
+        0.29662423906732716,
+        0.02767017155644842,
+        0.0,
+        0.0005534034322025707
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.090979524082105,
+        0.47755949086458377,
+        0.4042612064162826,
+        0.006640841173149165,
+        0.2156198118423455,
+        0.04150525733467263,
+        0.44493635860099073,
+        0.01660210293287291,
+        0.0
+      ],
+      "elapsed_ms": 0.8395863696932793
+    },
+    "cap_iou": 0.3554006968641115,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.6445993031358885,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_G_R0_35_masked_control.png",
+    "image_sha256": "f44f7b29f7f1ceaa593be8d513809d16c138dac779e7aa28b8e9acc167b592a9",
+    "native_size": [
+      77,
+      41
+    ],
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": 216.47075936198235,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_G_R1_pose_masked_control",
+    "sample_id": "HUMAN_G",
+    "method": "R1_pose",
+    "reference_number": 9,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      653.742919921875,
+      465.4102478027344,
+      729.4819946289062,
+      580.9412231445312
+    ],
+    "original_person_box": [
+      654.8895263671875,
+      467.397216796875,
+      725.6221313476562,
+      580.9393920898438
+    ],
+    "person_match_iou": 0.9178219257847118,
+    "region_box": [
+      678,
+      475,
+      724,
+      514
+    ],
+    "region_info": {
+      "face_keypoints": [
+        [
+          705.8541870117188,
+          511.29144287109375
+        ],
+        [
+          713.4879760742188,
+          502.6903076171875
+        ],
+        [
+          701.0830078125,
+          504.6016845703125
+        ],
+        [
+          683.9069213867188,
+          500.7789001464844
+        ],
+        [
+          690.5864868164062,
+          497.9118347167969
+        ]
+      ],
+      "keypoint_scores": [
+        5.782998561859131,
+        5.421868324279785,
+        6.053794860839844,
+        3.5874969959259033,
+        4.905656814575195
+      ],
+      "usable_points": 5
+    },
+    "region_ms": 0.19711628556251526,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 9,
+      "state": "unknown",
+      "score": 0.5865633074910127,
+      "margin": 0.016795865633002394,
+      "known_fraction": 0.6730434782368473,
+      "histogram": [
+        0.0,
+        0.09819121446986209,
+        0.024117140399551724,
+        0.06546080964657469,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3798449612386735,
+        0.3910422049940085,
+        0.041343669251329505,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.11472868217521721,
+        0.14728682170479312,
+        0.5697674418580103,
+        0.0,
+        0.06627906976715692,
+        0.062015503876994255,
+        0.5865633074910127,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.5947574973106384
+    },
+    "cap_iou": 0.3728813559322034,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.5585284280936456,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_G_R1_pose_masked_control.png",
+    "image_sha256": "b4e06b23d00cabfe944d6536938c27a941a8646e01189fb50015145404e0c48a",
+    "native_size": [
+      46,
+      39
+    ],
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "http_elapsed_ms": 222.87123929709196,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_G_R2_cluster_masked_control",
+    "sample_id": "HUMAN_G",
+    "method": "R2_cluster",
+    "reference_number": 9,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      653.742919921875,
+      465.4102478027344,
+      729.4819946289062,
+      580.9412231445312
+    ],
+    "original_person_box": [
+      654.8895263671875,
+      467.397216796875,
+      725.6221313476562,
+      580.9393920898438
+    ],
+    "person_match_iou": 0.9178219257847118,
+    "region_box": [
+      691,
+      467,
+      721,
+      495
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.27367855882128295,
+          "cluster": 0,
+          "component": 1,
+          "area_fraction": 0.17643332277478618,
+          "border_delta_lab": 44.89631652832031,
+          "bbox": [
+            652,
+            464,
+            701,
+            491
+          ]
+        },
+        {
+          "cost": 0.4988721044330881,
+          "cluster": 0,
+          "component": 2,
+          "area_fraction": 0.1599619892302819,
+          "border_delta_lab": 44.89631652832031,
+          "bbox": [
+            681,
+            482,
+            728,
+            507
+          ]
+        },
+        {
+          "cost": 0.2095076195197701,
+          "cluster": 1,
+          "component": 1,
+          "area_fraction": 0.16693063034526448,
+          "border_delta_lab": 51.64009475708008,
+          "bbox": [
+            691,
+            467,
+            721,
+            495
+          ]
+        },
+        {
+          "cost": 0.4677877940907382,
+          "cluster": 2,
+          "component": 1,
+          "area_fraction": 0.10104529616724739,
+          "border_delta_lab": 38.48676681518555,
+          "bbox": [
+            698,
+            464,
+            731,
+            507
+          ]
+        },
+        {
+          "cost": 0.5333080047313175,
+          "cluster": 2,
+          "component": 2,
+          "area_fraction": 0.11276528349699082,
+          "border_delta_lab": 38.48676681518555,
+          "bbox": [
+            652,
+            470,
+            680,
+            507
+          ]
+        },
+        {
+          "cost": 0.4500980064461193,
+          "cluster": 3,
+          "component": 1,
+          "area_fraction": 0.1916376306620209,
+          "border_delta_lab": 17.968481063842773,
+          "bbox": [
+            653,
+            464,
+            705,
+            507
+          ]
+        },
+        {
+          "cost": 0.9389851286053909,
+          "cluster": 3,
+          "component": 2,
+          "area_fraction": 0.03991130820399113,
+          "border_delta_lab": 17.968481063842773,
+          "bbox": [
+            707,
+            481,
+            730,
+            507
+          ]
+        },
+        {
+          "cost": 1.1145586352180217,
+          "cluster": 3,
+          "component": 4,
+          "area_fraction": 0.03294266708900855,
+          "border_delta_lab": 17.968481063842773,
+          "bbox": [
+            685,
+            497,
+            720,
+            507
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.2095076195197701,
+        "cluster": 1,
+        "component": 1,
+        "area_fraction": 0.16693063034526448,
+        "border_delta_lab": 51.64009475708008,
+        "bbox": [
+          691,
+          467,
+          721,
+          495
+        ]
+      }
+    },
+    "region_ms": 1.4066779986023903,
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.6854166666684127,
+      "known_fraction": 0.9011264079687776,
+      "histogram": [
+        0.0,
+        0.026388888888742405,
+        0.013888888894367348,
+        0.024999999999861224,
+        0.0,
+        0.0,
+        0.0,
+        0.011111111111049433,
+        0.20972222222105819,
+        0.6708333333296047,
+        0.04305555555531655,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.05083333334138449,
+        0.039583333333113604,
+        0.3145833333315873,
+        0.0,
+        0.017812499999901123,
+        0.06458333333297483,
+        1.0,
+        0.01666666666657415,
+        0.0
+      ],
+      "elapsed_ms": 0.49521494656801224
+    },
+    "cap_iou": 0.7486631016042781,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_G_R2_cluster_masked_control.png",
+    "image_sha256": "39b8a66edd0aea51abfe50d2b2e97546822514ed22c4ddf321b24ea746518017",
+    "native_size": [
+      30,
+      28
+    ],
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_G_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_G_U_manual_masked_control",
+    "sample_id": "HUMAN_G",
+    "method": "U_manual",
+    "reference_number": 9,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      653.742919921875,
+      465.4102478027344,
+      729.4819946289062,
+      580.9412231445312
+    ],
+    "original_person_box": [
+      654.8895263671875,
+      467.397216796875,
+      725.6221313476562,
+      580.9393920898438
+    ],
+    "person_match_iou": 0.9178219257847118,
+    "region_box": [
+      691,
+      466,
+      725,
+      499
+    ],
+    "region_info": {},
+    "region_ms": 0.020436011254787445,
+    "hsv": {
+      "number": 9,
+      "top_candidate": 9,
+      "state": "high_evidence",
+      "score": 0.8427922814868156,
+      "margin": 0.4801362088470327,
+      "known_fraction": 0.8603515624293797,
+      "histogram": [
+        0.0,
+        0.04767309875076975,
+        0.03178206584746736,
+        0.05788876276879187,
+        0.0,
+        0.0,
+        0.0,
+        0.014755959137143006,
+        0.24177071509318862,
+        0.5618615209912105,
+        0.04426787741142905,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.11713961409375127,
+        0.07150964812615462,
+        0.36265607263978294,
+        0.0,
+        0.03217934165676958,
+        0.06640181611714358,
+        0.8427922814868156,
+        0.02213393870571451,
+        0.0
+      ],
+      "elapsed_ms": 1.4744112268090248
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_G_U_manual_masked_control.png",
+    "image_sha256": "4bce95c73b19a921fe178c3046501215903cacd65ad508025cd1a26a8dde1322",
+    "native_size": [
+      34,
+      33
+    ],
+    "vlm": {
+      "number": 9,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_G_U_manual"
+    }
+  },
+  {
+    "item_id": "HUMAN_H_R0_27_masked_control",
+    "sample_id": "HUMAN_H",
+    "method": "R0_27",
+    "reference_number": 1,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      567.93359375,
+      388.93280029296875,
+      632.9939575195312,
+      499.3526916503906
+    ],
+    "original_person_box": [
+      566.6604614257812,
+      388.6912536621094,
+      631.82275390625,
+      498.7001037597656
+    ],
+    "person_match_iou": 0.9555136058561439,
+    "region_box": [
+      573,
+      388,
+      628,
+      419
+    ],
+    "region_info": {},
+    "region_ms": 0.022727064788341522,
+    "hsv": {
+      "number": 3,
+      "top_candidate": 3,
+      "state": "high_evidence",
+      "score": 0.7338888888793751,
+      "margin": 0.32277777776803707,
+      "known_fraction": 0.3258901629398675,
+      "histogram": [
+        0.033333333332901255,
+        0.044444444443868344,
+        0.1574074074053674,
+        0.4148148148094366,
+        0.0,
+        0.005555555555483543,
+        0.27407407407422535,
+        0.0,
+        0.0,
+        0.0,
+        5.555555549927987e-12,
+        0.0,
+        0.07037037037316195
+      ],
+      "all_scores": [
+        0.04999999999935188,
+        0.008333333333225314,
+        0.7338888888793751,
+        0.0983333333337254,
+        0.0,
+        0.411111111111338,
+        0.13555555555935406,
+        8.333333324891981e-12,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.6222447156906128
+    },
+    "cap_iou": 0.40821114369501466,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.5917888563049853,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_H_R0_27_masked_control.png",
+    "image_sha256": "4ab4171b21be309764728c542679740f752e56bfbb5b85f02de1123e8a9737a1",
+    "native_size": [
+      55,
+      31
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": 226.98788717389107,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_H_R0_35_masked_control",
+    "sample_id": "HUMAN_H",
+    "method": "R0_35",
+    "reference_number": 1,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      567.93359375,
+      388.93280029296875,
+      632.9939575195312,
+      499.3526916503906
+    ],
+    "original_person_box": [
+      566.6604614257812,
+      388.6912536621094,
+      631.82275390625,
+      498.7001037597656
+    ],
+    "person_match_iou": 0.9555136058561439,
+    "region_box": [
+      567,
+      388,
+      633,
+      428
+    ],
+    "region_info": {},
+    "region_ms": 0.013842247426509857,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 3,
+      "state": "unknown",
+      "score": 0.6258849557461129,
+      "margin": 0.0683628318489019,
+      "known_fraction": 0.3529871144037944,
+      "histogram": [
+        0.019911504424426425,
+        0.05752212389278753,
+        0.10840707964741829,
+        0.38606194689582124,
+        0.0,
+        0.014380530973196862,
+        0.371681415931474,
+        0.0,
+        0.0,
+        0.0,
+        3.3185840674191535e-12,
+        0.0,
+        0.04203539823155708
+      ],
+      "all_scores": [
+        0.02986725663663964,
+        0.021570796459795295,
+        0.6258849557461129,
+        0.10519911504338197,
+        0.0,
+        0.557522123897211,
+        0.10188053097496721,
+        4.97787610112873e-12,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.5920549631118774
+    },
+    "cap_iou": 0.2636363636363636,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.7363636363636363,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_H_R0_35_masked_control.png",
+    "image_sha256": "ae27d61ed701461b3567361027bec8d4198d29872f37865a2e47e4f87fbe7c6b",
+    "native_size": [
+      66,
+      40
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": 222.16479945927858,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_H_R1_pose_masked_control",
+    "sample_id": "HUMAN_H",
+    "method": "R1_pose",
+    "reference_number": 1,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      567.93359375,
+      388.93280029296875,
+      632.9939575195312,
+      499.3526916503906
+    ],
+    "original_person_box": [
+      566.6604614257812,
+      388.6912536621094,
+      631.82275390625,
+      498.7001037597656
+    ],
+    "person_match_iou": 0.9555136058561439,
+    "region_box": [
+      587,
+      393,
+      613,
+      416
+    ],
+    "region_info": {
+      "face_keypoints": [
+        [
+          600.0160522460938,
+          415.5169372558594
+        ],
+        [
+          602.8675537109375,
+          412.6350402832031
+        ],
+        [
+          597.1646118164062,
+          412.6350402832031
+        ],
+        [
+          610.471435546875,
+          409.7531433105469
+        ],
+        [
+          593.3626098632812,
+          410.7137756347656
+        ]
+      ],
+      "keypoint_scores": [
+        10.563687324523926,
+        12.058907508850098,
+        10.488525390625,
+        11.83073902130127,
+        8.285085678100586
+      ],
+      "usable_points": 5
+    },
+    "region_ms": 0.2748016268014908,
+    "hsv": {
+      "number": 3,
+      "top_candidate": 3,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.8547872340448706,
+      "known_fraction": 0.3230240549790938,
+      "histogram": [
+        0.05319148936085326,
+        0.09042553191345054,
+        0.09574468084953587,
+        0.7393617021158615,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.5957446792298533e-11,
+        0.0,
+        0.021276595744341303
+      ],
+      "all_scores": [
+        0.07978723404127988,
+        0.0,
+        1.0,
+        0.14521276595512939,
+        0.0,
+        0.0,
+        0.09295212765809108,
+        2.39361701884478e-11,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.8831284940242767
+    },
+    "cap_iou": 0.6718346253229974,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.13043478260869568,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_H_R1_pose_masked_control.png",
+    "image_sha256": "c11bc18780039c5a50148210828d589ea3dbf4ba2ab2d90746fa2bc1c7e41bed",
+    "native_size": [
+      26,
+      23
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": 214.99714255332947,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_H_R2_cluster_masked_control",
+    "sample_id": "HUMAN_H",
+    "method": "R2_cluster",
+    "reference_number": 1,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      567.93359375,
+      388.93280029296875,
+      632.9939575195312,
+      499.3526916503906
+    ],
+    "original_person_box": [
+      566.6604614257812,
+      388.6912536621094,
+      631.82275390625,
+      498.7001037597656
+    ],
+    "person_match_iou": 0.9555136058561439,
+    "region_box": [
+      590,
+      387,
+      613,
+      411
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.5970825654707719,
+          "cluster": 0,
+          "component": 1,
+          "area_fraction": 0.43863636363636366,
+          "border_delta_lab": 74.24488830566406,
+          "bbox": [
+            566,
+            387,
+            630,
+            429
+          ]
+        },
+        {
+          "cost": 0.8969299561199338,
+          "cluster": 0,
+          "component": 4,
+          "area_fraction": 0.023484848484848483,
+          "border_delta_lab": 74.24488830566406,
+          "bbox": [
+            596,
+            406,
+            612,
+            421
+          ]
+        },
+        {
+          "cost": 0.3832749778562683,
+          "cluster": 2,
+          "component": 1,
+          "area_fraction": 0.1606060606060606,
+          "border_delta_lab": 120.09747314453125,
+          "bbox": [
+            586,
+            399,
+            619,
+            428
+          ]
+        },
+        {
+          "cost": 0.024179045218915285,
+          "cluster": 3,
+          "component": 1,
+          "area_fraction": 0.12954545454545455,
+          "border_delta_lab": 52.658897399902344,
+          "bbox": [
+            590,
+            387,
+            613,
+            411
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.024179045218915285,
+        "cluster": 3,
+        "component": 1,
+        "area_fraction": 0.12954545454545455,
+        "border_delta_lab": 52.658897399902344,
+        "bbox": [
+          590,
+          387,
+          613,
+          411
+        ]
+      }
+    },
+    "region_ms": 1.3039354234933853,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 3,
+      "state": "unknown",
+      "score": 0.2605714285580293,
+      "margin": 0.054857142854321944,
+      "known_fraction": 0.0876190476202563,
+      "histogram": [
+        0.3913043478005671,
+        0.0,
+        0.04347826086672968,
+        0.5652173912674858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.521739123487713e-11,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.20571428570370734,
+        0.0,
+        0.2605714285580293,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.4285714249665513e-11,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.7761893793940544
+    },
+    "cap_iou": 0.6819407008086253,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.08333333333333337,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_H_R2_cluster_masked_control.png",
+    "image_sha256": "366c25745e3ccab259d0b9cd84bf2209d250f251222ea78add2b3ec96f9f88f3",
+    "native_size": [
+      23,
+      24
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_H_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_H_U_manual_masked_control",
+    "sample_id": "HUMAN_H",
+    "method": "U_manual",
+    "reference_number": 1,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      567.93359375,
+      388.93280029296875,
+      632.9939575195312,
+      499.3526916503906
+    ],
+    "original_person_box": [
+      566.6604614257812,
+      388.6912536621094,
+      631.82275390625,
+      498.7001037597656
+    ],
+    "person_match_iou": 0.9555136058561439,
+    "region_box": [
+      587,
+      389,
+      616,
+      413
+    ],
+    "region_info": {},
+    "region_ms": 0.020310282707214355,
+    "hsv": {
+      "number": 3,
+      "top_candidate": 3,
+      "state": "guess",
+      "score": 0.8221889055114853,
+      "margin": 0.6602698650387642,
+      "known_fraction": 0.22038980509236838,
+      "histogram": [
+        0.12244897958933759,
+        0.10204081632444799,
+        0.08843537414785493,
+        0.6666666666530618,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0408163244481437e-11,
+        0.0,
+        0.0204081632648896
+      ],
+      "all_scores": [
+        0.16191904047272104,
+        0.0,
+        0.8221889055114853,
+        0.1430284857509036,
+        0.0,
+        0.0,
+        0.0877061469227239,
+        2.6986506718467e-11,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.3311496004462242
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_H_U_manual_masked_control.png",
+    "image_sha256": "568d45712f5ecb0dc4efc67b4974fb55acb27a40defb1ebcdcac9d08efdadc44",
+    "native_size": [
+      29,
+      24
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_H_U_manual"
+    }
+  },
+  {
+    "item_id": "HUMAN_I_R0_27_masked_control",
+    "sample_id": "HUMAN_I",
+    "method": "R0_27",
+    "reference_number": 2,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      447.3642578125,
+      344.3033752441406,
+      525.2607421875,
+      469.142333984375
+    ],
+    "original_person_box": [
+      448.85797119140625,
+      343.5646057128906,
+      528.8921508789062,
+      464.141845703125
+    ],
+    "person_match_iou": 0.8959925400574799,
+    "region_box": [
+      453,
+      344,
+      520,
+      379
+    ],
+    "region_info": {},
+    "region_ms": 0.021531246602535248,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 2,
+      "state": "unknown",
+      "score": 0.5700267617923442,
+      "margin": 0.06496431751025122,
+      "known_fraction": 0.5116385212118713,
+      "histogram": [
+        0.0,
+        0.01873327386172036,
+        0.013380909901228828,
+        0.011596788581064985,
+        0.0,
+        0.3800178411948962,
+        0.24799286351080171,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3282783229502878
+      ],
+      "all_scores": [
+        0.0,
+        0.5700267617923442,
+        0.03398751114912123,
+        0.17582515612021005,
+        0.0,
+        0.37198929526620256,
+        0.505062444282093,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.8277717754244804
+    },
+    "cap_iou": 0.28827292110874203,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.711727078891258,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_I_R0_27_masked_control.png",
+    "image_sha256": "201f9ed49648a478578f13201c06f3786622ea502b52b14669ab09a21c939983",
+    "native_size": [
+      67,
+      35
+    ],
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": 227.42527816444635,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_I_R0_35_masked_control",
+    "sample_id": "HUMAN_I",
+    "method": "R0_35",
+    "reference_number": 2,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      447.3642578125,
+      344.3033752441406,
+      525.2607421875,
+      469.142333984375
+    ],
+    "original_person_box": [
+      448.85797119140625,
+      343.5646057128906,
+      528.8921508789062,
+      464.141845703125
+    ],
+    "person_match_iou": 0.8959925400574799,
+    "region_box": [
+      447,
+      344,
+      526,
+      388
+    ],
+    "region_info": {},
+    "region_ms": 0.013327226042747498,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 6,
+      "state": "unknown",
+      "score": 0.5538942976241926,
+      "margin": 0.06675938804582376,
+      "known_fraction": 0.4586921849753077,
+      "histogram": [
+        0.0,
+        0.027121001389802328,
+        0.010431154380693197,
+        0.00904033379660077,
+        0.0,
+        0.32475660638557924,
+        0.3692628650827951,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2593880389645292
+      ],
+      "all_scores": [
+        0.0,
+        0.48713490957836886,
+        0.02649513212696072,
+        0.15740611961874165,
+        0.0,
+        0.5538942976241926,
+        0.4073887343849104,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.8291659653186798
+    },
+    "cap_iou": 0.19447640966628307,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.8055235903337169,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_I_R0_35_masked_control.png",
+    "image_sha256": "2b29fd74db3466c4cc7211906a644876c71a1f76df515faa87a2d34e1779cc61",
+    "native_size": [
+      79,
+      44
+    ],
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": 224.96557980775833,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_I_R1_pose_masked_control",
+    "sample_id": "HUMAN_I",
+    "method": "R1_pose",
+    "reference_number": 2,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      447.3642578125,
+      344.3033752441406,
+      525.2607421875,
+      469.142333984375
+    ],
+    "original_person_box": [
+      448.85797119140625,
+      343.5646057128906,
+      528.8921508789062,
+      464.141845703125
+    ],
+    "person_match_iou": 0.8959925400574799,
+    "region_box": [
+      473,
+      348,
+      500,
+      371
+    ],
+    "region_info": {
+      "face_keypoints": [
+        [
+          486.4692077636719,
+          370.0805358886719
+        ],
+        [
+          489.3140563964844,
+          368.1626892089844
+        ],
+        [
+          484.5726318359375,
+          368.1626892089844
+        ],
+        [
+          478.8829650878906,
+          357.6144714355469
+        ],
+        [
+          495.95196533203125,
+          359.5323181152344
+        ]
+      ],
+      "keypoint_scores": [
+        4.052646636962891,
+        5.26890754699707,
+        4.911328315734863,
+        6.27521276473999,
+        6.724769592285156
+      ],
+      "usable_points": 5
+    },
+    "region_ms": 0.25413092225790024,
+    "hsv": {
+      "number": 2,
+      "top_candidate": 2,
+      "state": "high_evidence",
+      "score": 0.8776290630589172,
+      "margin": 0.37815487564302286,
+      "known_fraction": 0.8834459459415198,
+      "histogram": [
+        0.0,
+        0.01338432122312081,
+        0.015296367112138068,
+        0.003824091778034517,
+        0.0,
+        0.5850860420392782,
+        0.055449330787236635,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3269598470601919
+      ],
+      "all_scores": [
+        0.0,
+        0.8776290630589172,
+        0.027533460801848524,
+        0.16720841301176753,
+        0.0,
+        0.08317399618085496,
+        0.49947418741589433,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 0.9342730045318604
+    },
+    "cap_iou": 0.7362784471218207,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.11433172302737515,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_I_R1_pose_masked_control.png",
+    "image_sha256": "992c56560ad6089050684f5944f1f300bfae40d637f09d39a1d2659ad4b890c3",
+    "native_size": [
+      27,
+      23
+    ],
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_I_R1_pose"
+    }
+  },
+  {
+    "item_id": "HUMAN_I_R2_cluster_masked_control",
+    "sample_id": "HUMAN_I",
+    "method": "R2_cluster",
+    "reference_number": 2,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      447.3642578125,
+      344.3033752441406,
+      525.2607421875,
+      469.142333984375
+    ],
+    "original_person_box": [
+      448.85797119140625,
+      343.5646057128906,
+      528.8921508789062,
+      464.141845703125
+    ],
+    "person_match_iou": 0.8959925400574799,
+    "region_box": [
+      477,
+      345,
+      501,
+      368
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.06030785956311696,
+          "cluster": 0,
+          "component": 1,
+          "area_fraction": 0.10356731875719218,
+          "border_delta_lab": 86.15127563476562,
+          "bbox": [
+            477,
+            345,
+            501,
+            368
+          ]
+        },
+        {
+          "cost": 0.6614692386355453,
+          "cluster": 1,
+          "component": 1,
+          "area_fraction": 0.029344073647871116,
+          "border_delta_lab": 38.677101135253906,
+          "bbox": [
+            469,
+            344,
+            485,
+            375
+          ]
+        },
+        {
+          "cost": 0.5608202730064348,
+          "cluster": 1,
+          "component": 2,
+          "area_fraction": 0.3201956271576525,
+          "border_delta_lab": 38.677101135253906,
+          "bbox": [
+            486,
+            343,
+            527,
+            389
+          ]
+        },
+        {
+          "cost": 0.7238423308724548,
+          "cluster": 1,
+          "component": 3,
+          "area_fraction": 0.06846950517836593,
+          "border_delta_lab": 38.677101135253906,
+          "bbox": [
+            446,
+            354,
+            461,
+            389
+          ]
+        },
+        {
+          "cost": 1.3461731450813226,
+          "cluster": 1,
+          "component": 7,
+          "area_fraction": 0.015535097813578827,
+          "border_delta_lab": 38.677101135253906,
+          "bbox": [
+            458,
+            377,
+            469,
+            389
+          ]
+        },
+        {
+          "cost": 0.607358013407328,
+          "cluster": 2,
+          "component": 1,
+          "area_fraction": 0.40362485615650173,
+          "border_delta_lab": 23.279565811157227,
+          "bbox": [
+            446,
+            343,
+            510,
+            389
+          ]
+        },
+        {
+          "cost": 0.894638337781141,
+          "cluster": 3,
+          "component": 2,
+          "area_fraction": 0.01668584579976985,
+          "border_delta_lab": 92.98748779296875,
+          "bbox": [
+            479,
+            366,
+            495,
+            374
+          ]
+        },
+        {
+          "cost": 1.0807287896578983,
+          "cluster": 3,
+          "component": 4,
+          "area_fraction": 0.02991944764096663,
+          "border_delta_lab": 92.98748779296875,
+          "bbox": [
+            475,
+            382,
+            503,
+            389
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.06030785956311696,
+        "cluster": 0,
+        "component": 1,
+        "area_fraction": 0.10356731875719218,
+        "border_delta_lab": 86.15127563476562,
+        "bbox": [
+          477,
+          345,
+          501,
+          368
+        ]
+      }
+    },
+    "region_ms": 2.259163185954094,
+    "hsv": {
+      "number": 2,
+      "top_candidate": 2,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.5566037735336002,
+      "known_fraction": 0.9426877470012575,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.002096436058585946,
+        0.0,
+        0.6939203353919443,
+        0.008385744238536656,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2955974843109332
+      ],
+      "all_scores": [
+        0.0,
+        1.0,
+        0.0025157232703031354,
+        0.13301886793991993,
+        0.0,
+        0.012578616357804984,
+        0.44339622646639976,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.220901496708393
+    },
+    "cap_iou": 0.8165680473372781,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_I_R2_cluster_masked_control.png",
+    "image_sha256": "6392552e3c486cf244c88183c9a880ab3e246b5df5724e5a86812946846a5172",
+    "native_size": [
+      24,
+      23
+    ],
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_I_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_I_U_manual_masked_control",
+    "sample_id": "HUMAN_I",
+    "method": "U_manual",
+    "reference_number": 2,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      447.3642578125,
+      344.3033752441406,
+      525.2607421875,
+      469.142333984375
+    ],
+    "original_person_box": [
+      448.85797119140625,
+      343.5646057128906,
+      528.8921508789062,
+      464.141845703125
+    ],
+    "person_match_iou": 0.8959925400574799,
+    "region_box": [
+      475,
+      344,
+      501,
+      370
+    ],
+    "region_info": {},
+    "region_ms": 0.0200001522898674,
+    "hsv": {
+      "number": 2,
+      "top_candidate": 2,
+      "state": "high_evidence",
+      "score": 0.9228624534561213,
+      "margin": 0.40734200728731507,
+      "known_fraction": 0.886326194370417,
+      "histogram": [
+        0.0,
+        0.0037174721186550913,
+        0.0,
+        0.0037174721186550913,
+        0.0,
+        0.6152416356374142,
+        0.03531598513279958,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.34200743499247604
+      ],
+      "all_scores": [
+        0.0,
+        0.9228624534561213,
+        0.00446096654238611,
+        0.15947955392459684,
+        0.0,
+        0.05297397769919937,
+        0.5155204461688062,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.3216584920883179
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_I_U_manual_masked_control.png",
+    "image_sha256": "56181e2c13b03913e878309f9161125341ffde830de2274c1532e09d457b82c6",
+    "native_size": [
+      26,
+      26
+    ],
+    "vlm": {
+      "number": 2,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_I_U_manual"
+    }
+  },
+  {
+    "item_id": "HUMAN_J_R0_27_masked_control",
+    "sample_id": "HUMAN_J",
+    "method": "R0_27",
+    "reference_number": 10,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      344.65374755859375,
+      356.075439453125,
+      409.2477111816406,
+      444.12164306640625
+    ],
+    "original_person_box": [
+      344.338623046875,
+      356.0736083984375,
+      409.31707763671875,
+      445.0782470703125
+    ],
+    "person_match_iou": 0.9833781396832622,
+    "region_box": [
+      349,
+      356,
+      405,
+      380
+    ],
+    "region_info": {},
+    "region_ms": 0.02142786979675293,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.5661654134435872,
+      "margin": 0.16240601494178036,
+      "known_fraction": 0.8647594273195878,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0060150375975374605,
+        0.0015037593982565455,
+        0.013533834584308908,
+        0.2691729323345379,
+        0.004511278200784674,
+        0.17593984960654258,
+        0.37744360896239143,
+        0.0,
+        0.0,
+        0.0,
+        0.15187969931564063
+      ],
+      "all_scores": [
+        0.0,
+        0.4037593985018068,
+        0.010827067674214045,
+        0.06834586469203828,
+        0.5661654134435872,
+        0.006766917301177011,
+        0.22781954897346096,
+        0.0,
+        0.0,
+        0.2639097744098139,
+        0.2639097744098139
+      ],
+      "elapsed_ms": 1.4639496803283691
+    },
+    "cap_iou": 0.42857142857142855,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.5,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_J_R0_27_masked_control.png",
+    "image_sha256": "8c06c0055ff176ddbd0528d8d78321065b7b2bfbeb6225890a8255bc145e89d3",
+    "native_size": [
+      56,
+      24
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": 227.70337853580713,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_J_R0_35_masked_control",
+    "sample_id": "HUMAN_J",
+    "method": "R0_35",
+    "reference_number": 10,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      344.65374755859375,
+      356.075439453125,
+      409.2477111816406,
+      444.12164306640625
+    ],
+    "original_person_box": [
+      344.338623046875,
+      356.0736083984375,
+      409.31707763671875,
+      445.0782470703125
+    ],
+    "person_match_iou": 0.9833781396832622,
+    "region_box": [
+      344,
+      356,
+      410,
+      387
+    ],
+    "region_info": {},
+    "region_ms": 0.013991259038448334,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 5,
+      "state": "unknown",
+      "score": 0.4315068492636868,
+      "margin": 0.03856691243060256,
+      "known_fraction": 0.8152920956992379,
+      "histogram": [
+        0.0,
+        0.00842992623714166,
+        0.08429926237668549,
+        0.01264488935571249,
+        0.027397260270710395,
+        0.19494204426656658,
+        0.003161222343143086,
+        0.12328767122557327,
+        0.2876712328424579,
+        0.0,
+        0.0,
+        0.0,
+        0.2581664910820091
+      ],
+      "all_scores": [
+        0.0,
+        0.2924130663998499,
+        0.1416227607918832,
+        0.12881981034261658,
+        0.4315068492636868,
+        0.004741833514714629,
+        0.39293993683308426,
+        0.0,
+        0.0,
+        0.1849315068383599,
+        0.1849315068383599
+      ],
+      "elapsed_ms": 1.527043990790844
+    },
+    "cap_iou": 0.39961941008563273,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.5894428152492668,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_J_R0_35_masked_control.png",
+    "image_sha256": "a7daadb024d5ec24be3f8b45e1a1cf95a8917915026d9330c169ba37250d01cb",
+    "native_size": [
+      66,
+      31
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": 223.47875405102968,
+      "state": "new_request"
+    }
+  },
+  {
+    "item_id": "HUMAN_J_R1_pose_masked_control",
+    "sample_id": "HUMAN_J",
+    "method": "R1_pose",
+    "reference_number": 10,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      344.65374755859375,
+      356.075439453125,
+      409.2477111816406,
+      444.12164306640625
+    ],
+    "original_person_box": [
+      344.338623046875,
+      356.0736083984375,
+      409.31707763671875,
+      445.0782470703125
+    ],
+    "person_match_iou": 0.9833781396832622,
+    "region_box": [
+      361,
+      366,
+      389,
+      390
+    ],
+    "region_info": {
+      "face_keypoints": [
+        [
+          375.4500427246094,
+          387.03704833984375
+        ],
+        [
+          378.2931213378906,
+          384.1559143066406
+        ],
+        [
+          371.6593322753906,
+          384.1559143066406
+        ],
+        [
+          384.9268798828125,
+          378.3936462402344
+        ],
+        [
+          366.9209289550781,
+          380.31439208984375
+        ]
+      ],
+      "keypoint_scores": [
+        10.947190284729004,
+        11.227863311767578,
+        11.454082489013672,
+        10.381446838378906,
+        7.447824478149414
+      ],
+      "usable_points": 5
+    },
+    "region_ms": 0.2655591815710068,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 7,
+      "state": "unknown",
+      "score": 0.5775431861925692,
+      "margin": 0.019001919427961478,
+      "known_fraction": 0.8583196045670658,
+      "histogram": [
+        0.0,
+        0.015355086371535638,
+        0.019193857964419546,
+        0.034548944335955185,
+        0.0038387715928839094,
+        0.015355086396487656,
+        0.0,
+        0.16122840690112455,
+        0.3723608445097385,
+        0.0,
+        0.0,
+        0.0,
+        0.3781190019278551
+      ],
+      "all_scores": [
+        0.0,
+        0.023032629594731485,
+        0.07024952014977555,
+        0.19318618042483823,
+        0.5585412667646077,
+        0.0,
+        0.5775431861925692,
+        0.0,
+        0.0,
+        0.24184261035168683,
+        0.24184261035168683
+      ],
+      "elapsed_ms": 0.9353533387184143
+    },
+    "cap_iou": 0.5252918287937743,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.1964285714285714,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_J_R1_pose_masked_control.png",
+    "image_sha256": "a862c9fd81663748902bb247ca2c4e03e3771ab80f7d9ab1515a9fd3a5d61d25",
+    "native_size": [
+      28,
+      24
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_J_R1_pose"
+    }
+  },
+  {
+    "item_id": "HUMAN_J_R2_cluster_masked_control",
+    "sample_id": "HUMAN_J",
+    "method": "R2_cluster",
+    "reference_number": 10,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      344.65374755859375,
+      356.075439453125,
+      409.2477111816406,
+      444.12164306640625
+    ],
+    "original_person_box": [
+      344.338623046875,
+      356.0736083984375,
+      409.31707763671875,
+      445.0782470703125
+    ],
+    "person_match_iou": 0.9833781396832622,
+    "region_box": [
+      363,
+      357,
+      387,
+      382
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.5515295910412217,
+          "cluster": 1,
+          "component": 3,
+          "area_fraction": 0.14516129032258066,
+          "border_delta_lab": 75.93743133544922,
+          "bbox": [
+            355,
+            375,
+            404,
+            388
+          ]
+        },
+        {
+          "cost": 0.5994785276925845,
+          "cluster": 2,
+          "component": 1,
+          "area_fraction": 0.06695992179863147,
+          "border_delta_lab": 49.69186782836914,
+          "bbox": [
+            385,
+            360,
+            408,
+            388
+          ]
+        },
+        {
+          "cost": 0.6576483085714093,
+          "cluster": 2,
+          "component": 3,
+          "area_fraction": 0.05767350928641251,
+          "border_delta_lab": 49.69186782836914,
+          "bbox": [
+            387,
+            365,
+            400,
+            385
+          ]
+        },
+        {
+          "cost": 0.2296702938870472,
+          "cluster": 3,
+          "component": 1,
+          "area_fraction": 0.20087976539589442,
+          "border_delta_lab": 36.418880462646484,
+          "bbox": [
+            363,
+            357,
+            387,
+            382
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.2296702938870472,
+        "cluster": 3,
+        "component": 1,
+        "area_fraction": 0.20087976539589442,
+        "border_delta_lab": 36.418880462646484,
+        "bbox": [
+          363,
+          357,
+          387,
+          382
+        ]
+      }
+    },
+    "region_ms": 1.7468510195612907,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.9760765549445274,
+      "margin": 0.5562200956234132,
+      "known_fraction": 0.865424430502578,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00956937802553744,
+        0.0023923445069824463,
+        0.2799043062140761,
+        0.6507177032963516,
+        0.0,
+        0.0,
+        0.0,
+        0.05741626795705239
+      ],
+      "all_scores": [
+        0.0,
+        0.01435406703830616,
+        0.0,
+        0.025837320580673576,
+        0.9760765549445274,
+        0.003588516760473669,
+        0.08612440193557858,
+        0.0,
+        0.0,
+        0.41985645932111415,
+        0.41985645932111415
+      ],
+      "elapsed_ms": 1.1421488597989082
+    },
+    "cap_iou": 0.6696428571428571,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_J_R2_cluster_masked_control.png",
+    "image_sha256": "9fba1bd6808fcc0a7fd894a9cbd3878311d3b641891ccd116510a54deb47acbc",
+    "native_size": [
+      24,
+      25
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_J_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_J_U_manual_masked_control",
+    "sample_id": "HUMAN_J",
+    "method": "U_manual",
+    "reference_number": 10,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      344.65374755859375,
+      356.075439453125,
+      409.2477111816406,
+      444.12164306640625
+    ],
+    "original_person_box": [
+      344.338623046875,
+      356.0736083984375,
+      409.31707763671875,
+      445.0782470703125
+    ],
+    "person_match_iou": 0.9833781396832622,
+    "region_box": [
+      362,
+      354,
+      390,
+      386
+    ],
+    "region_info": {},
+    "region_ms": 0.019856728613376617,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.7405063290429508,
+      "margin": 0.4052441228969621,
+      "known_fraction": 0.8429878046504309,
+      "histogram": [
+        0.0,
+        0.014466546110729261,
+        0.0,
+        0.0072332730553646305,
+        0.0,
+        0.05063291144361028,
+        0.005424954798756747,
+        0.2115732368820742,
+        0.49367088602863385,
+        0.0,
+        0.0,
+        0.0,
+        0.21699819168083095
+      ],
+      "all_scores": [
+        0.0,
+        0.07594936716541542,
+        0.008679927666437557,
+        0.1193490054224678,
+        0.7405063290429508,
+        0.00813743219813512,
+        0.3352622061459887,
+        0.0,
+        0.0,
+        0.3173598553231113,
+        0.3173598553231113
+      ],
+      "elapsed_ms": 1.3044951483607292
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_J_U_manual_masked_control.png",
+    "image_sha256": "7f661bfb6008889ef57e5ca554207e2a08e5ecc92e6241df0603496f82b6a31d",
+    "native_size": [
+      28,
+      32
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_J_U_manual"
+    }
+  },
+  {
+    "item_id": "HUMAN_K_R0_27_masked_control",
+    "sample_id": "HUMAN_K",
+    "method": "R0_27",
+    "reference_number": 5,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "original_person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "person_match_iou": 1.0,
+    "region_box": [
+      657,
+      334,
+      714,
+      361
+    ],
+    "region_info": {},
+    "region_ms": 0.021372921764850616,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.9478205128208692,
+      "known_fraction": 0.7386363629447456,
+      "histogram": [
+        0.0017094017093900336,
+        0.005128205128170101,
+        0.0,
+        0.0,
+        0.0,
+        6.837606830722527e-12,
+        0.0,
+        0.0,
+        0.9572649572584115,
+        0.0034188034187800673,
+        0.0,
+        0.0,
+        0.03247863247841064
+      ],
+      "all_scores": [
+        0.0025641025640850503,
+        1.025641024608379e-11,
+        0.0,
+        0.022307692307539935,
+        1.0,
+        0.0,
+        0.052179487179130776,
+        0.0,
+        0.005128205128170101,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.5367558225989342
+    },
+    "cap_iou": 0.33557046979865773,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.6426250812215725,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_K_R0_27_masked_control.png",
+    "image_sha256": "cd6dc556e0d0fc107306c1db2af115bfab02b4dc72cd7eada9c59b78265a645e",
+    "native_size": [
+      57,
+      27
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_K_R0_27"
+    }
+  },
+  {
+    "item_id": "HUMAN_K_R0_35_masked_control",
+    "sample_id": "HUMAN_K",
+    "method": "R0_35",
+    "reference_number": 5,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "original_person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "person_match_iou": 1.0,
+    "region_box": [
+      651,
+      334,
+      720,
+      369
+    ],
+    "region_info": {},
+    "region_ms": 0.019447878003120422,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.9120286085862348,
+      "known_fraction": 0.6533559891445604,
+      "histogram": [
+        0.006501950584905039,
+        0.04811443432829731,
+        0.0,
+        0.0,
+        0.0,
+        4.161248370177975e-11,
+        0.0,
+        0.0,
+        0.9063719115357549,
+        0.003901170350943023,
+        0.0,
+        0.0,
+        0.03511053315848721
+      ],
+      "all_scores": [
+        0.009752925877357557,
+        6.241872555266962e-11,
+        0.0,
+        0.0879713914137652,
+        1.0,
+        0.0,
+        0.0851430429093315,
+        0.0,
+        0.0058517555264145345,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.780858263373375
+    },
+    "cap_iou": 0.21868787276341947,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.7722567287784678,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_K_R0_35_masked_control.png",
+    "image_sha256": "13252d379b00ee265733fca348c4754a486654d5ebe44cbead991b8cc870ac22",
+    "native_size": [
+      69,
+      35
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_K_R0_35"
+    }
+  },
+  {
+    "item_id": "HUMAN_K_R1_pose_masked_control",
+    "sample_id": "HUMAN_K",
+    "method": "R1_pose",
+    "reference_number": 5,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "original_person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "person_match_iou": 1.0,
+    "region_box": null,
+    "region_info": {
+      "reason": "no_pose_match"
+    },
+    "region_ms": 0.007635913789272308,
+    "hsv": {
+      "number": 0,
+      "state": "unknown",
+      "reason": "no_region_or_person",
+      "elapsed_ms": 0
+    },
+    "cap_iou": 0.0,
+    "cap_center_included": false,
+    "outside_cap_box_fraction": null,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "state": "region_unavailable",
+      "http_elapsed_ms": 0
+    }
+  },
+  {
+    "item_id": "HUMAN_K_R2_cluster_masked_control",
+    "sample_id": "HUMAN_K",
+    "method": "R2_cluster",
+    "reference_number": 5,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "original_person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "person_match_iou": 1.0,
+    "region_box": [
+      682,
+      333,
+      710,
+      355
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.0723561806872796,
+          "cluster": 0,
+          "component": 1,
+          "area_fraction": 0.14037267080745341,
+          "border_delta_lab": 76.6971664428711,
+          "bbox": [
+            682,
+            333,
+            710,
+            355
+          ]
+        },
+        {
+          "cost": 0.7052947659003768,
+          "cluster": 1,
+          "component": 2,
+          "area_fraction": 0.05300207039337474,
+          "border_delta_lab": 133.59727478027344,
+          "bbox": [
+            673,
+            350,
+            686,
+            370
+          ]
+        },
+        {
+          "cost": 0.80734889702731,
+          "cluster": 1,
+          "component": 3,
+          "area_fraction": 0.05217391304347826,
+          "border_delta_lab": 133.59727478027344,
+          "bbox": [
+            701,
+            350,
+            715,
+            370
+          ]
+        },
+        {
+          "cost": 1.3109549303336112,
+          "cluster": 1,
+          "component": 5,
+          "area_fraction": 0.014078674948240166,
+          "border_delta_lab": 133.59727478027344,
+          "bbox": [
+            685,
+            364,
+            700,
+            370
+          ]
+        },
+        {
+          "cost": 0.4637151844573321,
+          "cluster": 3,
+          "component": 2,
+          "area_fraction": 0.1300207039337474,
+          "border_delta_lab": 76.12755584716797,
+          "bbox": [
+            669,
+            345,
+            706,
+            370
+          ]
+        },
+        {
+          "cost": 1.0651172856582458,
+          "cluster": 3,
+          "component": 4,
+          "area_fraction": 0.022774327122153208,
+          "border_delta_lab": 76.12755584716797,
+          "bbox": [
+            704,
+            347,
+            718,
+            370
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.0723561806872796,
+        "cluster": 0,
+        "component": 1,
+        "area_fraction": 0.14037267080745341,
+        "border_delta_lab": 76.6971664428711,
+        "bbox": [
+          682,
+          333,
+          710,
+          355
+        ]
+      }
+    },
+    "region_ms": 3.2417187467217445,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 0.9963592233009708,
+      "known_fraction": 0.8256513024116197,
+      "histogram": [
+        0.0024271844660194333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9975728155339806,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0036407766990291498,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.1627431958913803
+    },
+    "cap_iou": 0.7681564245810056,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.1071428571428571,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_K_R2_cluster_masked_control.png",
+    "image_sha256": "501c4f91658b1dcdbdc7cd3c408c260cd90ad94c846a0a513f983b699b82bae4",
+    "native_size": [
+      28,
+      22
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_K_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_K_U_manual_masked_control",
+    "sample_id": "HUMAN_K",
+    "method": "U_manual",
+    "reference_number": 5,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "original_person_box": [
+      651.6340942382812,
+      334.34307861328125,
+      719.2293090820312,
+      431.7261657714844
+    ],
+    "person_match_iou": 1.0,
+    "region_box": [
+      682,
+      330,
+      707,
+      356
+    ],
+    "region_info": {},
+    "region_ms": 0.02042669802904129,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 1.0,
+      "margin": 1.0,
+      "known_fraction": 0.8703703700766642,
+      "histogram": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elapsed_ms": 1.2559322640299797
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_K_U_manual_masked_control.png",
+    "image_sha256": "50a340ca829655ff424e3b4e931cebc335552d4994d43af5c10a84e21fe32102",
+    "native_size": [
+      25,
+      26
+    ],
+    "vlm": {
+      "number": 5,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_K_U_manual"
+    }
+  },
+  {
+    "item_id": "HUMAN_L_R0_27_masked_control",
+    "sample_id": "HUMAN_L",
+    "method": "R0_27",
+    "reference_number": 11,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      448.07745361328125,
+      211.04583740234375,
+      509.7476501464844,
+      323.750732421875
+    ],
+    "original_person_box": [
+      448.0777282714844,
+      211.04598999023438,
+      509.7469787597656,
+      323.74700927734375
+    ],
+    "person_match_iou": 0.9999502718128443,
+    "region_box": [
+      453,
+      211,
+      505,
+      242
+    ],
+    "region_info": {},
+    "region_ms": 0.021996907889842987,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "guess",
+      "score": 0.543529411277455,
+      "margin": 0.21882352921559917,
+      "known_fraction": 0.162352941030928,
+      "histogram": [
+        0.3333333333333332,
+        0.007246376811594192,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1014492753623187,
+        0.557971014492754,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.32470588206185586,
+        0.0,
+        0.0,
+        0.0070588235230838155,
+        0.543529411277455,
+        0.0,
+        0.0031764705853877173,
+        0.0,
+        0.0,
+        0.09882352932317344,
+        0.0
+      ],
+      "elapsed_ms": 1.5515368431806564
+    },
+    "cap_iou": 0.3180722891566265,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.6724565756823822,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_L_R0_27_masked_control.png",
+    "image_sha256": "e5f1a028fa04c91acc4e7877695abcb3d1a83a39d6d9507effc1492e9499c803",
+    "native_size": [
+      52,
+      31
+    ],
+    "vlm": {
+      "number": 11,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_L_R0_27"
+    }
+  },
+  {
+    "item_id": "HUMAN_L_R0_35_masked_control",
+    "sample_id": "HUMAN_L",
+    "method": "R0_35",
+    "reference_number": 11,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      448.07745361328125,
+      211.04583740234375,
+      509.7476501464844,
+      323.750732421875
+    ],
+    "original_person_box": [
+      448.0777282714844,
+      211.04598999023438,
+      509.7469787597656,
+      323.74700927734375
+    ],
+    "person_match_iou": 0.9999502718128443,
+    "region_box": [
+      448,
+      211,
+      510,
+      251
+    ],
+    "region_info": {},
+    "region_ms": 0.02131890505552292,
+    "hsv": {
+      "number": 0,
+      "top_candidate": 5,
+      "state": "unknown",
+      "score": 0.37868852419906524,
+      "margin": 0.02950819669083632,
+      "known_fraction": 0.13360655723906412,
+      "histogram": [
+        0.4355828220858896,
+        0.006134969325153362,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08588957055214708,
+        0.4723926380368099,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.3491803275082289,
+        0.0,
+        0.0,
+        0.0049180327818060315,
+        0.37868852419906524,
+        0.0,
+        0.002213114751812714,
+        0.0,
+        0.0,
+        0.06885245894528444,
+        0.0
+      ],
+      "elapsed_ms": 1.7911242321133614
+    },
+    "cap_iou": 0.2088607594936709,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.7870967741935484,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_L_R0_35_masked_control.png",
+    "image_sha256": "c01165a3e80e78414afb582e8f2b2f3b42ed7d13c81d65d860baf61f5565b063",
+    "native_size": [
+      62,
+      40
+    ],
+    "vlm": {
+      "number": 11,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_L_R0_35"
+    }
+  },
+  {
+    "item_id": "HUMAN_L_R1_pose_masked_control",
+    "sample_id": "HUMAN_L",
+    "method": "R1_pose",
+    "reference_number": 11,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      448.07745361328125,
+      211.04583740234375,
+      509.7476501464844,
+      323.750732421875
+    ],
+    "original_person_box": [
+      448.0777282714844,
+      211.04598999023438,
+      509.7469787597656,
+      323.74700927734375
+    ],
+    "person_match_iou": 0.9999502718128443,
+    "region_box": null,
+    "region_info": {
+      "reason": "no_pose_match"
+    },
+    "region_ms": 0.00806618481874466,
+    "hsv": {
+      "number": 0,
+      "state": "unknown",
+      "reason": "no_region_or_person",
+      "elapsed_ms": 0
+    },
+    "cap_iou": 0.0,
+    "cap_center_included": false,
+    "outside_cap_box_fraction": null,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "vlm": {
+      "number": 0,
+      "failure": false,
+      "state": "region_unavailable",
+      "http_elapsed_ms": 0
+    }
+  },
+  {
+    "item_id": "HUMAN_L_R2_cluster_masked_control",
+    "sample_id": "HUMAN_L",
+    "method": "R2_cluster",
+    "reference_number": 11,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      448.07745361328125,
+      211.04583740234375,
+      509.7476501464844,
+      323.750732421875
+    ],
+    "original_person_box": [
+      448.0777282714844,
+      211.04598999023438,
+      509.7469787597656,
+      323.74700927734375
+    ],
+    "person_match_iou": 0.9999502718128443,
+    "region_box": [
+      476,
+      210,
+      495,
+      228
+    ],
+    "region_info": {
+      "candidates": [
+        {
+          "cost": 0.49110814849944706,
+          "cluster": 0,
+          "component": 2,
+          "area_fraction": 0.12459677419354839,
+          "border_delta_lab": 35.280029296875,
+          "bbox": [
+            467,
+            221,
+            498,
+            252
+          ]
+        },
+        {
+          "cost": 0.27700373000396555,
+          "cluster": 1,
+          "component": 1,
+          "area_fraction": 0.06975806451612904,
+          "border_delta_lab": 50.537837982177734,
+          "bbox": [
+            476,
+            210,
+            495,
+            228
+          ]
+        },
+        {
+          "cost": 0.6574446050341547,
+          "cluster": 1,
+          "component": 3,
+          "area_fraction": 0.07137096774193548,
+          "border_delta_lab": 50.537837982177734,
+          "bbox": [
+            455,
+            222,
+            473,
+            252
+          ]
+        },
+        {
+          "cost": 0.8961589537625921,
+          "cluster": 1,
+          "component": 4,
+          "area_fraction": 0.013709677419354839,
+          "border_delta_lab": 50.537837982177734,
+          "bbox": [
+            475,
+            227,
+            491,
+            233
+          ]
+        },
+        {
+          "cost": 0.8688498021717481,
+          "cluster": 1,
+          "component": 5,
+          "area_fraction": 0.05241935483870968,
+          "border_delta_lab": 50.537837982177734,
+          "bbox": [
+            493,
+            226,
+            508,
+            252
+          ]
+        },
+        {
+          "cost": 0.6854876691129252,
+          "cluster": 2,
+          "component": 2,
+          "area_fraction": 0.034274193548387094,
+          "border_delta_lab": 67.7348403930664,
+          "bbox": [
+            476,
+            224,
+            495,
+            240
+          ]
+        },
+        {
+          "cost": 0.938748158669259,
+          "cluster": 2,
+          "component": 5,
+          "area_fraction": 0.04314516129032258,
+          "border_delta_lab": 67.7348403930664,
+          "bbox": [
+            471,
+            237,
+            496,
+            252
+          ]
+        }
+      ],
+      "chosen": {
+        "cost": 0.27700373000396555,
+        "cluster": 1,
+        "component": 1,
+        "area_fraction": 0.06975806451612904,
+        "border_delta_lab": 50.537837982177734,
+        "bbox": [
+          476,
+          210,
+          495,
+          228
+        ]
+      }
+    },
+    "region_ms": 2.7941204607486725,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.8076923076923079,
+      "margin": 0.28461538461538505,
+      "known_fraction": 0.2836363635672602,
+      "histogram": [
+        0.28205128205128194,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1794871794871794,
+        0.5384615384615387,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.4230769230769229,
+        0.0,
+        0.0,
+        0.0,
+        0.8076923076923079,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2692307692307691,
+        0.5230769230769229
+      ],
+      "elapsed_ms": 1.0975180193781853
+    },
+    "cap_iou": 0.59375,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_L_R2_cluster_masked_control.png",
+    "image_sha256": "c2cf5719b7c01e5486e6dbe3617623f5248f6a9d3296ff6bee2c3c1b7433b8f0",
+    "native_size": [
+      19,
+      18
+    ],
+    "vlm": {
+      "number": 10,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_L_R2_cluster"
+    }
+  },
+  {
+    "item_id": "HUMAN_L_U_manual_masked_control",
+    "sample_id": "HUMAN_L",
+    "method": "U_manual",
+    "reference_number": 11,
+    "reference_status": "human_confirmed_colour_only",
+    "person_box": [
+      448.07745361328125,
+      211.04583740234375,
+      509.7476501464844,
+      323.750732421875
+    ],
+    "original_person_box": [
+      448.0777282714844,
+      211.04598999023438,
+      509.7469787597656,
+      323.74700927734375
+    ],
+    "person_match_iou": 0.9999502718128443,
+    "region_box": [
+      473,
+      209,
+      497,
+      233
+    ],
+    "region_info": {},
+    "region_ms": 0.02096407115459442,
+    "hsv": {
+      "number": 5,
+      "top_candidate": 5,
+      "state": "high_evidence",
+      "score": 0.8720930232558145,
+      "margin": 0.4069767441860474,
+      "known_fraction": 0.31234866815759765,
+      "histogram": [
+        0.31007751937984473,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.10852713178294558,
+        0.5813953488372097,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "all_scores": [
+        0.4651162790697671,
+        0.0,
+        0.0,
+        0.0,
+        0.8720930232558145,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.16279069767441837,
+        0.0
+      ],
+      "elapsed_ms": 1.2478213757276535
+    },
+    "cap_iou": 1.0,
+    "cap_center_included": true,
+    "outside_cap_box_fraction": 0.0,
+    "face_box_overlap_fraction": null,
+    "torso_box_overlap_fraction": null,
+    "contamination_definition": "overlap of draft rectangles, not pixel segmentation",
+    "image": "inputs/HUMAN_L_U_manual_masked_control.png",
+    "image_sha256": "94dfb9f3008c2cb151e0727412df942e2f54338d2a68f937348c9d1d70ee82e5",
+    "native_size": [
+      24,
+      24
+    ],
+    "vlm": {
+      "number": 1,
+      "failure": false,
+      "http_elapsed_ms": null,
+      "state": "reused_byte_identical_input",
+      "reused_item_id": "HUMAN_L_U_manual"
+    }
+  }
+]

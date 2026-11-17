@@ -1,0 +1,265 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/frames/R02_t023.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R02.json",
+ "riders": [
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.5048,
+   "x": 516.5,
+   "h_px": 180.6,
+   "box": [
+    464.4,
+    474.7,
+    568.6,
+    655.3
+   ],
+   "colour": "sky blue",
+   "qwen_number": 5,
+   "p_learned": 0.5048,
+   "sure_strict": false,
+   "detector_score": 0.942
+  },
+  {
+   "no": 11,
+   "state": "guess",
+   "score": 0.2731,
+   "x": 587.0,
+   "h_px": 160.4,
+   "box": [
+    525.3,
+    413.5,
+    648.6,
+    574.0
+   ],
+   "colour": "sky blue/white stripes",
+   "qwen_number": 0,
+   "p_learned": 0.2731,
+   "sure_strict": false,
+   "detector_score": 0.959
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.3958,
+   "x": 694.2,
+   "h_px": 196.6,
+   "box": [
+    633.8,
+    490.1,
+    754.6,
+    686.8
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.3958,
+   "sure_strict": true,
+   "detector_score": 0.982
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.7782,
+   "x": 870.2,
+   "h_px": 216.6,
+   "box": [
+    808.3,
+    340.2,
+    932.2,
+    556.8
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.7782,
+   "sure_strict": true,
+   "detector_score": 0.989
+  },
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.7981,
+   "x": 997.7,
+   "h_px": 259.3,
+   "box": [
+    932.8,
+    299.7,
+    1062.6,
+    559.0
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.7981,
+   "sure_strict": true,
+   "detector_score": 0.98
+  },
+  {
+   "no": 8,
+   "state": "sure",
+   "score": 1.8104,
+   "x": 1023.5,
+   "h_px": 297.2,
+   "box": [
+    971.5,
+    189.9,
+    1075.5,
+    487.1
+   ],
+   "colour": "pink",
+   "qwen_number": 8,
+   "p_learned": 0.8104,
+   "sure_strict": true,
+   "detector_score": 0.789
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.292,
+   "x": 1086.5,
+   "h_px": 187.6,
+   "box": [
+    1027.9,
+    523.2,
+    1145.0,
+    710.8
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.292,
+   "sure_strict": true,
+   "detector_score": 0.989
+  },
+  {
+   "no": 7,
+   "state": "guess",
+   "score": 0.1163,
+   "x": 1198.5,
+   "h_px": 166.6,
+   "box": [
+    1147.6,
+    170.7,
+    1249.3,
+    337.3
+   ],
+   "colour": "brown",
+   "qwen_number": 0,
+   "p_learned": 0.1163,
+   "sure_strict": false,
+   "detector_score": 0.688
+  },
+  {
+   "no": 1,
+   "state": "sure",
+   "score": 1.206,
+   "x": 1280.0,
+   "h_px": 187.3,
+   "box": [
+    1218.7,
+    427.7,
+    1341.3,
+    615.0
+   ],
+   "colour": "white",
+   "qwen_number": 1,
+   "p_learned": 0.206,
+   "sure_strict": true,
+   "detector_score": 0.983
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.9754,
+   "x": 1327.0,
+   "h_px": 168.0,
+   "box": [
+    1279.2,
+    303.0,
+    1374.7,
+    471.0
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.9754,
+   "sure_strict": true,
+   "detector_score": 0.984
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 4515.5,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 229.3,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 220.6,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 228.5,
+   "error": null
+  },
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 229.6,
+   "error": null
+  },
+  {
+   "colour": "pink",
+   "number": 8,
+   "ms": 207.8,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 202.4,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 210.6,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 224.3,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 216.1,
+   "error": null
+  }
+ ],
+ "total_ms": 7410.3
+}

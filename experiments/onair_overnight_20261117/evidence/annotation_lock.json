@@ -1,0 +1,22 @@
+{
+  "locked_at_utc": "2026-11-16T17:08:33.887595+00:00",
+  "sha256": "ca16d0cc6f2c484529c31e68a9377631ac5c41b949af7e3f471bc729b7858862",
+  "samples": 66,
+  "new_drafts": 60,
+  "human_colours": 6,
+  "classifier_outputs_seen": false,
+  "person_detector_precedes_annotation": true,
+  "files": {
+    "code/survey.py": "0a7909d46c222c81aa64cf8071bf33a7e44ed45902eb1f8780714dac519c8966",
+    "code/prepare.py": "a15e1e391631c942d992779540b916602a5b6690a2f9781af640602b0a3cc027",
+    "code/classify_regions.py": "87523315c09c7dba833639e641dc092a21e877011c85a62a46b83c710e3e3783",
+    "code/common.py": "95f028bbe467cd22da2f603c16ad923d7a83d6347263994bdc56cb0b84d85735",
+    "code/v4_color.py": "c4f677cfd611a711255eff7dd3eaaf464e707357068525f3e43f95ebbd4edbb3",
+    "code/build_annotations.py": "1bfae8256474fda47c1f838065e82916faada2c9682d3aa3ca1ad75fd53d4475",
+    "code/regions.py": "9dbcc6ae0e8cd2155179ff7349c4c5bf67d5dc6f3c848e1048023071ccdeb115",
+    "code/detect.py": "c28be6f701a560e199a19ec2d889fb6ca0b7ebef7185f1a41bb83e0178c738df",
+    "code/extract_selected.py": "c1a656f5cdc6dc3da141ee5257270019524225471d21e6b5393ef6c80311d63d",
+    "code/annotation_sheets.py": "579543cdddee55bebb82bf039c4eae71350e4ba18beff2fdc95a61d68f9435db",
+    "code/pose.py": "8c60893539249f7862b88d6c11354aae2bb91a7100cf3306df85fa51bb85b452"
+  }
+}

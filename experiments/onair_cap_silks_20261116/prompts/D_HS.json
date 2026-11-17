@@ -1,0 +1,83 @@
+{
+  "sample": "D",
+  "condition": "HS",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You identify a single horse-race runner from visible helmet and/or racing silks. This is identification, not running order. Do not infer identity from race position or registry order. Never guess when evidence is insufficient."
+    },
+    {
+      "role": "user",
+      "content": "The first image is the verified racing-silks registry for the eleven entrants, labelled No.1 to No.11. It describes identity, not current running order.\nSILKS REGISTRY: [img]\n\nThe second image contains two separately cropped parts of ONE target rider: helmet on the LEFT, racing jacket on the RIGHT. Grey areas are unavailable or masked. Either part may be absent. Grey masks remove helmet information from jacket crops. Ignore saddle, horse equipment, hands and white breeches; they are not jacket patterns. Match any available jacket colours and patterns to the registry; similar jackets may be ambiguous.\nTARGET PARTS: [img]\n\nFixed helmet classes for this race: 1 white; 2 yellow; 3 red; 4 black; 5 blue; 6 green; 7 brown/maroon; 8 pink; 9 purple; 10 sky blue; 11 sky blue and white stripes. Distinguish a solid pale helmet from white/blue stripes. Use helmet class and/or the provided jacket registry, as visible. If evidence is insufficient or conflicting, return number 0 (unknown). Do not use information from other requests.\nReturn JSON with number (0 through 11), cap_class, and basis. cap_class describes the visible helmet only; use not_visible if that patch is absent, unreadable if unclear. basis is cap, silks, both, or unclear. No explanation."
+    }
+  ],
+  "images": [
+    {
+      "file": "references/registry.png",
+      "sha256": "1662a583a8de7b3640c09eddabf1d45946f06d6fd1e4047db77007dbfe6d38ea",
+      "bytes": 175265
+    },
+    {
+      "file": "inputs/D_HS.png",
+      "sha256": "c0d921c53b089ffb8f9a11e51fc5d92f5b8e5aa4716b42e9644527f6df015c84",
+      "bytes": 32224
+    }
+  ],
+  "format_schema": {
+    "type": "object",
+    "properties": {
+      "number": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 11
+      },
+      "cap_class": {
+        "type": "string",
+        "enum": [
+          "white",
+          "yellow",
+          "red",
+          "black",
+          "blue",
+          "green",
+          "brown_maroon",
+          "pink",
+          "purple",
+          "sky_blue",
+          "sky_blue_white_stripes",
+          "unreadable",
+          "not_visible"
+        ]
+      },
+      "basis": {
+        "type": "string",
+        "enum": [
+          "cap",
+          "silks",
+          "both",
+          "unclear"
+        ]
+      }
+    },
+    "required": [
+      "number",
+      "cap_class",
+      "basis"
+    ],
+    "additionalProperties": false
+  },
+  "model": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 16384,
+    "num_predict": 96,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "think": false
+}

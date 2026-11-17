@@ -1,0 +1,658 @@
+[
+  {
+    "check": "exactly four new F calls",
+    "passed": true
+  },
+  {
+    "check": "one call per scene",
+    "passed": true
+  },
+  {
+    "check": "ledger matches saved requests",
+    "passed": true
+  },
+  {
+    "check": "original plus followup equals twenty",
+    "passed": true
+  },
+  {
+    "check": "configuration unchanged",
+    "passed": true
+  },
+  {
+    "check": "scene specifications unchanged",
+    "passed": true
+  },
+  {
+    "check": "S1_early f001.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f001.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f002.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f002.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f003.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f003.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f004.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f004.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f005.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f005.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f006.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f006.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f007.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f007.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f008.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f008.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f009.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f009.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f010.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f010.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f011.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f011.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f012.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f012.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f013.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f013.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f014.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f014.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f015.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f015.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early f016.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S1_early f016.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f001.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f001.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f002.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f002.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f003.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f003.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f004.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f004.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f005.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f005.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f006.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f006.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f007.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f007.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f008.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f008.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f009.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f009.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f010.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f010.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f011.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f011.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f012.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f012.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f013.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f013.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f014.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f014.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f015.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f015.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f016.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S2_bend f016.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f001.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f001.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f002.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f002.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f003.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f003.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f004.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f004.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f005.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f005.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f006.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f006.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f007.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f007.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f008.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f008.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f009.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f009.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f010.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f010.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f011.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f011.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f012.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f012.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f013.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f013.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f014.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f014.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f015.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f015.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f016.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S3_wide f016.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f001.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f001.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f002.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f002.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f003.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f003.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f004.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f004.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f005.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f005.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f006.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f006.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f007.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f007.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f008.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f008.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f009.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f009.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f010.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f010.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f011.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f011.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f012.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f012.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f013.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f013.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f014.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f014.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f015.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f015.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f016.jpg unchanged image",
+    "passed": true
+  },
+  {
+    "check": "S4_straight f016.jpg no future frame",
+    "passed": true
+  },
+  {
+    "check": "S1_early exact request reconstruction",
+    "passed": true
+  },
+  {
+    "check": "S1_early sixteen image references",
+    "passed": true
+  },
+  {
+    "check": "S1_early system prompt unchanged",
+    "passed": true
+  },
+  {
+    "check": "S1_early original user prompt preserved",
+    "passed": true
+  },
+  {
+    "check": "S1_early all sixteen explicit markers",
+    "passed": true
+  },
+  {
+    "check": "S1_early independent request",
+    "passed": true
+  },
+  {
+    "check": "S1_early settings and model unchanged",
+    "passed": true
+  },
+  {
+    "check": "S2_bend exact request reconstruction",
+    "passed": true
+  },
+  {
+    "check": "S2_bend sixteen image references",
+    "passed": true
+  },
+  {
+    "check": "S2_bend system prompt unchanged",
+    "passed": true
+  },
+  {
+    "check": "S2_bend original user prompt preserved",
+    "passed": true
+  },
+  {
+    "check": "S2_bend all sixteen explicit markers",
+    "passed": true
+  },
+  {
+    "check": "S2_bend independent request",
+    "passed": true
+  },
+  {
+    "check": "S2_bend settings and model unchanged",
+    "passed": true
+  },
+  {
+    "check": "S3_wide exact request reconstruction",
+    "passed": true
+  },
+  {
+    "check": "S3_wide sixteen image references",
+    "passed": true
+  },
+  {
+    "check": "S3_wide system prompt unchanged",
+    "passed": true
+  },
+  {
+    "check": "S3_wide original user prompt preserved",
+    "passed": true
+  },
+  {
+    "check": "S3_wide all sixteen explicit markers",
+    "passed": true
+  },
+  {
+    "check": "S3_wide independent request",
+    "passed": true
+  },
+  {
+    "check": "S3_wide settings and model unchanged",
+    "passed": true
+  },
+  {
+    "check": "S4_straight exact request reconstruction",
+    "passed": true
+  },
+  {
+    "check": "S4_straight sixteen image references",
+    "passed": true
+  },
+  {
+    "check": "S4_straight system prompt unchanged",
+    "passed": true
+  },
+  {
+    "check": "S4_straight original user prompt preserved",
+    "passed": true
+  },
+  {
+    "check": "S4_straight all sixteen explicit markers",
+    "passed": true
+  },
+  {
+    "check": "S4_straight independent request",
+    "passed": true
+  },
+  {
+    "check": "S4_straight settings and model unchanged",
+    "passed": true
+  },
+  {
+    "check": "first call sixteen decoded image batches",
+    "passed": true
+  },
+  {
+    "check": "other three calls forty-eight decoded image batches",
+    "passed": true
+  }
+]

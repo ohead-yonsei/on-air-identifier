@@ -1,0 +1,217 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/frames/R09_t054.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R09.json",
+ "riders": [
+  {
+   "no": 8,
+   "state": "sure",
+   "score": 1.7396,
+   "x": 299.2,
+   "h_px": 193.6,
+   "box": [
+    240.4,
+    209.8,
+    358.0,
+    403.4
+   ],
+   "colour": "pink",
+   "qwen_number": 8,
+   "p_learned": 0.7396,
+   "sure_strict": true,
+   "detector_score": 0.983
+  },
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.9861,
+   "x": 556.6,
+   "h_px": 212.9,
+   "box": [
+    504.5,
+    188.3,
+    608.6,
+    401.1
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.9861,
+   "sure_strict": true,
+   "detector_score": 0.963
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.939,
+   "x": 590.0,
+   "h_px": 152.3,
+   "box": [
+    542.2,
+    283.7,
+    637.9,
+    436.0
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.939,
+   "sure_strict": true,
+   "detector_score": 0.534
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.8738,
+   "x": 749.2,
+   "h_px": 238.8,
+   "box": [
+    676.6,
+    177.9,
+    821.9,
+    416.7
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.8738,
+   "sure_strict": true,
+   "detector_score": 0.986
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.1973,
+   "x": 971.2,
+   "h_px": 283.9,
+   "box": [
+    904.0,
+    142.8,
+    1038.4,
+    426.7
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.1973,
+   "sure_strict": true,
+   "detector_score": 0.896
+  },
+  {
+   "no": 4,
+   "state": "guess",
+   "score": 0.3915,
+   "x": 1044.0,
+   "h_px": 223.2,
+   "box": [
+    976.4,
+    439.6,
+    1111.7,
+    662.8
+   ],
+   "colour": "black",
+   "qwen_number": 0,
+   "p_learned": 0.3915,
+   "sure_strict": false,
+   "detector_score": 0.979
+  },
+  {
+   "no": 1,
+   "state": "sure",
+   "score": 1.0357,
+   "x": 1223.7,
+   "h_px": 202.9,
+   "box": [
+    1173.3,
+    328.1,
+    1274.1,
+    531.0
+   ],
+   "colour": "white",
+   "qwen_number": 1,
+   "p_learned": 0.0357,
+   "sure_strict": false,
+   "detector_score": 0.881
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.9954,
+   "x": 1468.1,
+   "h_px": 205.3,
+   "box": [
+    1403.7,
+    470.0,
+    1532.5,
+    675.3
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.9954,
+   "sure_strict": true,
+   "detector_score": 0.982
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "pink",
+   "number": 8,
+   "ms": 207.9,
+   "error": null
+  },
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 218.7,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 221.9,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 211.4,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 257.4,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 209.4,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 223.9,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 213.5,
+   "error": null
+  }
+ ],
+ "total_ms": 1924.3
+}

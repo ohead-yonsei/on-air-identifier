@@ -1,0 +1,90 @@
+{
+ "day": "otherday4",
+ "results": {
+  "BASE": {
+   "frames": 40,
+   "statements": 6,
+   "right": 2,
+   "A": 0.3333333333333333,
+   "B": 0.05,
+   "by_seconds_before_finish": {
+    "6.0": [
+     2,
+     10
+    ],
+    "4.5": [
+     0,
+     10
+    ],
+    "3.0": [
+     0,
+     10
+    ],
+    "1.5": [
+     0,
+     10
+    ]
+   }
+  },
+  "FIN_Y": {
+   "frames": 40,
+   "statements": 25,
+   "right": 14,
+   "A": 0.56,
+   "B": 0.325,
+   "by_seconds_before_finish": {
+    "6.0": [
+     5,
+     10
+    ],
+    "4.5": [
+     4,
+     10
+    ],
+    "3.0": [
+     2,
+     10
+    ],
+    "1.5": [
+     2,
+     10
+    ]
+   }
+  },
+  "FIN_X": {
+   "frames": 40,
+   "statements": 27,
+   "right": 12,
+   "A": 0.4444444444444444,
+   "B": 0.3,
+   "by_seconds_before_finish": {
+    "6.0": [
+     4,
+     10
+    ],
+    "4.5": [
+     3,
+     10
+    ],
+    "3.0": [
+     3,
+     10
+    ],
+    "1.5": [
+     2,
+     10
+    ]
+   }
+  }
+ },
+ "verdict": {
+  "improved": 11,
+  "worsened": 1,
+  "sign_test_p": 0.00634765625,
+  "finish_rule_better": false,
+  "FIN_X_A_at_least_80": false,
+  "FIN_X_B_at_least_60": false,
+  "goal_A_90": false,
+  "goal_B_80": false
+ }
+}

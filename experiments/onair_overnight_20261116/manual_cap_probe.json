@@ -1,0 +1,61 @@
+{
+  "stage": "posthoc_manual_tight_cap",
+  "trigger": "All8manual-axis modular horse/person ROIs include reference cap center, but only3/8 classify purple. Test tighter manually located helmet crops to separate region contamination from color discrimination.",
+  "created_at_utc": "2026-11-16T15:23:22.383424+00:00",
+  "boxes_1280": {
+    "t031": [
+      958,
+      417,
+      984,
+      439
+    ],
+    "t034": [
+      192,
+      405,
+      210,
+      424
+    ],
+    "t037": [
+      453,
+      438,
+      478,
+      460
+    ],
+    "t040": [
+      890,
+      469,
+      915,
+      494
+    ],
+    "t042": [
+      1068,
+      480,
+      1088,
+      499
+    ],
+    "t048": [
+      409,
+      389,
+      431,
+      411
+    ],
+    "t052": [
+      504,
+      407,
+      526,
+      428
+    ],
+    "t058": [
+      1128,
+      378,
+      1150,
+      398
+    ]
+  },
+  "reference_color": "purple",
+  "reference_status": "assistant provisional, same8frames, no independent test set",
+  "target_model": "qwen3.5:9b",
+  "prompt": "exact previous direct_cap prompt/schema/options",
+  "max_new_calls": 8,
+  "no_training": true
+}

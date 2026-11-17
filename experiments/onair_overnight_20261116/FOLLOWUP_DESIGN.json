@@ -1,0 +1,27 @@
+{
+  "added_at_utc": "2026-11-16T15:15:43.599047+00:00",
+  "trigger": "9B predicts side for all33original/mirrored view calls; full-image localization often wrong; conditioned localization8/8abstain.",
+  "experiments": [
+    {
+      "id": "modular_roi",
+      "design": "Generic horse/person boxes + manual vs9Baxis -> selectedhorse -> nearest plausible rider -> top35% ofpersonbox -> identical old cap-only classification prompt. Axis is manually supplied in one arm; do not claim fully automatic result.",
+      "scored_frames": 8,
+      "new_calls_max": 16
+    },
+    {
+      "id": "bigger_installed_model",
+      "model": "qwen3.8:27b-q4_K_M",
+      "digest": "25b843619e944cd0ae6069f94ff4e5e26a16e109ccbc0a66a0f05979ed70098e",
+      "local_tag_note": "Exact installed Ollama tag, not a verified external release name. Metadata architecture qwen35,27.3B,Q4_K_M.",
+      "design": "Same8evaluation frames, sameview andlocalize prompts/schema/options as9B; first dev35call before batch.",
+      "new_calls_max": 18
+    },
+    {
+      "id": "schema_order_control",
+      "design": "Rotate view enum to put front first, keep question/images/settings identical on8evaluation frames. Test response-format sensitivity, not a replacement tuned score.",
+      "new_calls_max": 8
+    }
+  ],
+  "frozen_roi_rule": "Horse box with highest center projection onaxis among score>=.5. Person candidatecenter within x[hleft-.2w,hright+.2w] andy[htop-.75h,hbottom-.2h]; minimize normalized distance to(hcx,htop+.1h), tie-breaking by confidence. Helmet ROI=top35%ofpersonbox, no target cap coordinates used in crop generation.",
+  "do_not": "Do not change annotations or thresholds to improve these results."
+}

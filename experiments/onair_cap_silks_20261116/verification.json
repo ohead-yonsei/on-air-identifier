@@ -1,0 +1,802 @@
+[
+  {
+    "check": "36 VLM paired calls",
+    "passed": true
+  },
+  {
+    "check": "36 classical paired predictions",
+    "passed": true
+  },
+  {
+    "check": "6 separate posthoc calls",
+    "passed": true
+  },
+  {
+    "check": "only six explicit human labels",
+    "passed": true
+  },
+  {
+    "check": "identical text across all 36 paired calls",
+    "passed": true
+  },
+  {
+    "check": "fixed seed/settings",
+    "passed": true
+  },
+  {
+    "check": "no paired retries",
+    "passed": true
+  },
+  {
+    "check": "independent paired calls",
+    "passed": true
+  },
+  {
+    "check": "all intents have saved outcomes",
+    "passed": true
+  },
+  {
+    "check": "A identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "A same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "A same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "A no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "A no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "A original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "A cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "A shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "AH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "AH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "AS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "AS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "AHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "AHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "B identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "B same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "B same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "B no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "B no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "B original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "B cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "B shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "BH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "BH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "BS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "BS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "BHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "BHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "C identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "C same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "C same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "C no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "C no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "C original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "C cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "C shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "CH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "CH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "CS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "CS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "CHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "CHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "D identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "D same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "D same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "D no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "D no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "D original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "D cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "D shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "DH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "DH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "DS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "DS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "DHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "DHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "E identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "E same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "E same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "E no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "E no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "E original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "E cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "E shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "EH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "EH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "ES exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "ES input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "EHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "EHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "F identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "F same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "F same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "F no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "F no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "F original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "F cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "F shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "FH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "FH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "FS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "FS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "FHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "FHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "G identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "G same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "G same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "G no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "G no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "G original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "G cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "G shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "GH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "GH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "GS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "GS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "GHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "GHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "H identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "H same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "H same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "H no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "H no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "H original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "H cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "H shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "HH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "HH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "HS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "HS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "HHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "HHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "I identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "I same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "I same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "I no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "I no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "I original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "I cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "I shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "IH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "IH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "IS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "IS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "IHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "IHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "J identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "J same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "J same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "J no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "J no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "J original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "J cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "J shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "JH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "JH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "JS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "JS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "JHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "JHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "K identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "K same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "K same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "K no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "K no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "K original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "K cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "K shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "KH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "KH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "KS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "KS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "KHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "KHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "L identical dimensions",
+    "passed": true
+  },
+  {
+    "check": "L same cap pixels H vs HS",
+    "passed": true
+  },
+  {
+    "check": "L same silks pixels S vs HS",
+    "passed": true
+  },
+  {
+    "check": "L no cap panel in S",
+    "passed": true
+  },
+  {
+    "check": "L no silks panel in H",
+    "passed": true
+  },
+  {
+    "check": "L original frame unchanged",
+    "passed": true
+  },
+  {
+    "check": "L cap crop exactly from original",
+    "passed": true
+  },
+  {
+    "check": "L shirt mask reconstructed",
+    "passed": true
+  },
+  {
+    "check": "LH exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "LH input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "LS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "LS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "LHS exact payload hash",
+    "passed": true
+  },
+  {
+    "check": "LHS input whitelist excludes source overlays and labels",
+    "passed": true
+  },
+  {
+    "check": "reference 1 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 2 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 3 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 4 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 5 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 6 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 7 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 8 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 9 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 10 unchanged",
+    "passed": true
+  },
+  {
+    "check": "reference 11 unchanged",
+    "passed": true
+  },
+  {
+    "check": "G direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "G deterministic class-to-number mapping",
+    "passed": true
+  },
+  {
+    "check": "H direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "H deterministic class-to-number mapping",
+    "passed": true
+  },
+  {
+    "check": "I direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "I deterministic class-to-number mapping",
+    "passed": true
+  },
+  {
+    "check": "J direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "J deterministic class-to-number mapping",
+    "passed": true
+  },
+  {
+    "check": "K direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "K deterministic class-to-number mapping",
+    "passed": true
+  },
+  {
+    "check": "L direct exact request hash",
+    "passed": true
+  },
+  {
+    "check": "L deterministic class-to-number mapping",
+    "passed": true
+  }
+]

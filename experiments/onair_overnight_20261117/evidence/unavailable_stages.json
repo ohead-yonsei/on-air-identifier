@@ -1,0 +1,10 @@
+{
+  "B2_Jo": {
+    "state": "blocked_missing_inputs",
+    "reason": "Local inputs_0906 absent; server checked input folders absent; named project search found no scenes.json/owners.json/visible.json. No inferred labels."
+  },
+  "D": {
+    "state": "deferred_missing_official_alignment",
+    "reason": "No saved scenes.json/order_now/time-gap records or matched Jo frames available. No KRA API/key search. Continue C/E/F."
+  }
+}

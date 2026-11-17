@@ -1,0 +1,492 @@
+{
+  "source": "REVIEW.html answers pasted by the user on 2026-11-17",
+  "scope": "cap number (colour) only; cap box position, nose point and running order are not confirmed by this review",
+  "counts": {
+    "confirmed": 54,
+    "marked_unknown": 1,
+    "corrected": 3,
+    "confirmed_unclear": 2
+  },
+  "labels": {
+    "R01_t030_s1": {
+      "race": "R01",
+      "pts": "30.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R01_t030_s2": {
+      "race": "R01",
+      "pts": "30.0",
+      "draft_number": "9",
+      "draft_colour": "purple",
+      "human_number": "9",
+      "review": "confirmed"
+    },
+    "R01_t030_s3": {
+      "race": "R01",
+      "pts": "30.0",
+      "draft_number": "6",
+      "draft_colour": "green",
+      "human_number": "6",
+      "review": "confirmed"
+    },
+    "R01_t040_s1": {
+      "race": "R01",
+      "pts": "40.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R01_t040_s2": {
+      "race": "R01",
+      "pts": "40.0",
+      "draft_number": "5",
+      "draft_colour": "blue",
+      "human_number": "5",
+      "review": "confirmed"
+    },
+    "R01_t040_s3": {
+      "race": "R01",
+      "pts": "40.0",
+      "draft_number": "11",
+      "draft_colour": "sky/white stripes",
+      "human_number": null,
+      "review": "marked_unknown"
+    },
+    "R02_t030_s1": {
+      "race": "R02",
+      "pts": "30.0",
+      "draft_number": "10",
+      "draft_colour": "sky blue",
+      "human_number": "10",
+      "review": "confirmed"
+    },
+    "R02_t030_s2": {
+      "race": "R02",
+      "pts": "30.0",
+      "draft_number": "2",
+      "draft_colour": "yellow",
+      "human_number": "2",
+      "review": "confirmed"
+    },
+    "R02_t030_s3": {
+      "race": "R02",
+      "pts": "30.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R02_t020_s1": {
+      "race": "R02",
+      "pts": "20.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R02_t020_s2": {
+      "race": "R02",
+      "pts": "20.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R02_t020_s3": {
+      "race": "R02",
+      "pts": "20.0",
+      "draft_number": "1",
+      "draft_colour": "white",
+      "human_number": "1",
+      "review": "confirmed"
+    },
+    "R04_t050_s1": {
+      "race": "R04",
+      "pts": "50.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R04_t050_s2": {
+      "race": "R04",
+      "pts": "50.0",
+      "draft_number": "2",
+      "draft_colour": "yellow",
+      "human_number": "2",
+      "review": "confirmed"
+    },
+    "R04_t050_s3": {
+      "race": "R04",
+      "pts": "50.0",
+      "draft_number": "1",
+      "draft_colour": "white",
+      "human_number": "1",
+      "review": "confirmed"
+    },
+    "R04_t020_s1": {
+      "race": "R04",
+      "pts": "20.0",
+      "draft_number": "3",
+      "draft_colour": "red",
+      "human_number": "3",
+      "review": "confirmed"
+    },
+    "R04_t020_s2": {
+      "race": "R04",
+      "pts": "20.0",
+      "draft_number": "6",
+      "draft_colour": "green",
+      "human_number": "6",
+      "review": "confirmed"
+    },
+    "R04_t020_s3": {
+      "race": "R04",
+      "pts": "20.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R08_t080_s1": {
+      "race": "R08",
+      "pts": "80.0",
+      "draft_number": "unclear",
+      "draft_colour": "unresolved",
+      "human_number": "3",
+      "review": "corrected"
+    },
+    "R08_t080_s2": {
+      "race": "R08",
+      "pts": "80.0",
+      "draft_number": "2",
+      "draft_colour": "yellow",
+      "human_number": "2",
+      "review": "confirmed"
+    },
+    "R08_t080_s3": {
+      "race": "R08",
+      "pts": "80.0",
+      "draft_number": "5",
+      "draft_colour": "blue",
+      "human_number": "5",
+      "review": "confirmed"
+    },
+    "R08_t070_s1": {
+      "race": "R08",
+      "pts": "70.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R08_t070_s2": {
+      "race": "R08",
+      "pts": "70.0",
+      "draft_number": "9",
+      "draft_colour": "purple",
+      "human_number": "9",
+      "review": "confirmed"
+    },
+    "R08_t070_s3": {
+      "race": "R08",
+      "pts": "70.0",
+      "draft_number": "6",
+      "draft_colour": "green",
+      "human_number": "6",
+      "review": "confirmed"
+    },
+    "R09_t030_s1": {
+      "race": "R09",
+      "pts": "30.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R09_t030_s2": {
+      "race": "R09",
+      "pts": "30.0",
+      "draft_number": "3",
+      "draft_colour": "red",
+      "human_number": "3",
+      "review": "confirmed"
+    },
+    "R09_t030_s3": {
+      "race": "R09",
+      "pts": "30.0",
+      "draft_number": "unclear",
+      "draft_colour": "unresolved",
+      "human_number": null,
+      "review": "confirmed_unclear"
+    },
+    "R09_t020_s1": {
+      "race": "R09",
+      "pts": "20.0",
+      "draft_number": "2",
+      "draft_colour": "yellow",
+      "human_number": "2",
+      "review": "confirmed"
+    },
+    "R09_t020_s2": {
+      "race": "R09",
+      "pts": "20.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R09_t020_s3": {
+      "race": "R09",
+      "pts": "20.0",
+      "draft_number": "1",
+      "draft_colour": "white",
+      "human_number": "1",
+      "review": "confirmed"
+    },
+    "R10_t020_s1": {
+      "race": "R10",
+      "pts": "20.0",
+      "draft_number": "10",
+      "draft_colour": "sky blue",
+      "human_number": "10",
+      "review": "confirmed"
+    },
+    "R10_t020_s2": {
+      "race": "R10",
+      "pts": "20.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R10_t020_s3": {
+      "race": "R10",
+      "pts": "20.0",
+      "draft_number": "3",
+      "draft_colour": "red",
+      "human_number": "3",
+      "review": "confirmed"
+    },
+    "R10_t060_s1": {
+      "race": "R10",
+      "pts": "60.0",
+      "draft_number": "11",
+      "draft_colour": "sky/white stripes",
+      "human_number": "11",
+      "review": "confirmed"
+    },
+    "R10_t060_s2": {
+      "race": "R10",
+      "pts": "60.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R10_t060_s3": {
+      "race": "R10",
+      "pts": "60.0",
+      "draft_number": "9",
+      "draft_colour": "purple",
+      "human_number": "9",
+      "review": "confirmed"
+    },
+    "R03_t050_s1": {
+      "race": "R03",
+      "pts": "50.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R03_t050_s2": {
+      "race": "R03",
+      "pts": "50.0",
+      "draft_number": "10",
+      "draft_colour": "sky blue",
+      "human_number": "10",
+      "review": "confirmed"
+    },
+    "R03_t050_s3": {
+      "race": "R03",
+      "pts": "50.0",
+      "draft_number": "11",
+      "draft_colour": "sky/white stripes",
+      "human_number": "11",
+      "review": "confirmed"
+    },
+    "R03_t090_s1": {
+      "race": "R03",
+      "pts": "90.0",
+      "draft_number": "2",
+      "draft_colour": "yellow",
+      "human_number": "2",
+      "review": "confirmed"
+    },
+    "R03_t090_s2": {
+      "race": "R03",
+      "pts": "90.0",
+      "draft_number": "9",
+      "draft_colour": "purple",
+      "human_number": "9",
+      "review": "confirmed"
+    },
+    "R03_t090_s3": {
+      "race": "R03",
+      "pts": "90.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R05_t040_s1": {
+      "race": "R05",
+      "pts": "40.0",
+      "draft_number": "6",
+      "draft_colour": "green",
+      "human_number": "6",
+      "review": "confirmed"
+    },
+    "R05_t040_s2": {
+      "race": "R05",
+      "pts": "40.0",
+      "draft_number": "5",
+      "draft_colour": "blue",
+      "human_number": "5",
+      "review": "confirmed"
+    },
+    "R05_t040_s3": {
+      "race": "R05",
+      "pts": "40.0",
+      "draft_number": "1",
+      "draft_colour": "white",
+      "human_number": "1",
+      "review": "confirmed"
+    },
+    "R05_t030_s1": {
+      "race": "R05",
+      "pts": "30.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R05_t030_s2": {
+      "race": "R05",
+      "pts": "30.0",
+      "draft_number": "3",
+      "draft_colour": "red",
+      "human_number": "3",
+      "review": "confirmed"
+    },
+    "R05_t030_s3": {
+      "race": "R05",
+      "pts": "30.0",
+      "draft_number": "10",
+      "draft_colour": "sky blue",
+      "human_number": "10",
+      "review": "confirmed"
+    },
+    "R06_t080_s1": {
+      "race": "R06",
+      "pts": "80.0",
+      "draft_number": "4",
+      "draft_colour": "black",
+      "human_number": "4",
+      "review": "confirmed"
+    },
+    "R06_t080_s2": {
+      "race": "R06",
+      "pts": "80.0",
+      "draft_number": "8",
+      "draft_colour": "pink",
+      "human_number": "8",
+      "review": "confirmed"
+    },
+    "R06_t080_s3": {
+      "race": "R06",
+      "pts": "80.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R06_t060_s1": {
+      "race": "R06",
+      "pts": "60.0",
+      "draft_number": "5",
+      "draft_colour": "blue",
+      "human_number": "5",
+      "review": "confirmed"
+    },
+    "R06_t060_s2": {
+      "race": "R06",
+      "pts": "60.0",
+      "draft_number": "unclear",
+      "draft_colour": "unresolved",
+      "human_number": "1",
+      "review": "corrected"
+    },
+    "R06_t060_s3": {
+      "race": "R06",
+      "pts": "60.0",
+      "draft_number": "10",
+      "draft_colour": "sky blue",
+      "human_number": "10",
+      "review": "confirmed"
+    },
+    "R07_t020_s1": {
+      "race": "R07",
+      "pts": "20.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R07_t020_s2": {
+      "race": "R07",
+      "pts": "20.0",
+      "draft_number": "3",
+      "draft_colour": "red",
+      "human_number": "3",
+      "review": "confirmed"
+    },
+    "R07_t020_s3": {
+      "race": "R07",
+      "pts": "20.0",
+      "draft_number": "unclear",
+      "draft_colour": "unresolved",
+      "human_number": null,
+      "review": "confirmed_unclear"
+    },
+    "R07_t060_s1": {
+      "race": "R07",
+      "pts": "60.0",
+      "draft_number": "7",
+      "draft_colour": "brown/maroon",
+      "human_number": "7",
+      "review": "confirmed"
+    },
+    "R07_t060_s2": {
+      "race": "R07",
+      "pts": "60.0",
+      "draft_number": "11",
+      "draft_colour": "sky/white stripes",
+      "human_number": "1",
+      "review": "corrected"
+    },
+    "R07_t060_s3": {
+      "race": "R07",
+      "pts": "60.0",
+      "draft_number": "5",
+      "draft_colour": "blue",
+      "human_number": "5",
+      "review": "confirmed"
+    }
+  }
+}

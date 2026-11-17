@@ -1,0 +1,863 @@
+{
+ "race": "R10",
+ "info": {
+  "place": "서울",
+  "race": 10,
+  "distance": 1600,
+  "race_read": 10,
+  "clock_read": {
+   "minutes": 0,
+   "seconds": 16.3
+  },
+  "start_video_time": 6.699999999999999
+ },
+ "expected_finish_seconds": 105.6,
+ "rows": [
+  {
+   "k": 0,
+   "t": 23.0,
+   "elapsed": 16.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1
+   ],
+   "allowed": [
+    1
+   ],
+   "recall": [],
+   "line": "선두권 1번이 16초가 지나고 약 1400m 를 남기고 경주 중반을 달리고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    1
+   ],
+   "picture_only_line": "4번이 앞서 있고, 뒤이어 10번과 3번이 선두권에서 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    6,
+    8,
+    3
+   ]
+  },
+  {
+   "k": 1,
+   "t": 26.0,
+   "elapsed": 19.3,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [
+    1
+   ],
+   "line": "조금 전까지 선두였던 1번이 출발 후 19초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [
+    1
+   ],
+   "picture_only_line": "선두권에는 2, 3, 1번이 밀고 있다.",
+   "picture_only_numbers": [
+    1
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    10
+   ]
+  },
+  {
+   "k": 2,
+   "t": 29.0,
+   "elapsed": 22.3,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [
+    1
+   ],
+   "line": "조금 전까지 선두였던 1번이 출발 후 22초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [
+    1
+   ],
+   "picture_only_line": "선두권은 4번과 9번, 10번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    9,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    3
+   ]
+  },
+  {
+   "k": 3,
+   "t": 32.0,
+   "elapsed": 25.3,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [
+    1
+   ],
+   "line": "조금 전까지 선두였던 1번이 출발 후 25초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [
+    1
+   ],
+   "picture_only_line": "지금 선두권에는 4번, 2번, 10번이 앞서가고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    4,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    3
+   ]
+  },
+  {
+   "k": 4,
+   "t": 35.0,
+   "elapsed": 28.3,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [],
+   "line": "출발 후 28초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "선두권은 4번이 앞서 있고 뒤이어 7번과 10번이 추격 중이다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    3
+   ]
+  },
+  {
+   "k": 5,
+   "t": 38.0,
+   "elapsed": 31.3,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 1600m 경주 중반 구간 출발 후 31초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "4번이 이끄는 선두권에서 3번과 6번이 추격하며 치열한 경쟁을 펼치고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    6
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    3
+   ]
+  },
+  {
+   "k": 6,
+   "t": 41.0,
+   "elapsed": 34.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2
+   ],
+   "allowed": [
+    1,
+    2
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 서울 10경주 1600m 중반 약 1100m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "지금 선두권에는 4번, 7번, 8번이 앞서고 있다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    8
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    6,
+    3
+   ]
+  },
+  {
+   "k": 7,
+   "t": 44.0,
+   "elapsed": 37.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2
+   ],
+   "allowed": [
+    1,
+    2
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 서울 10경주 1600m 중반 약 1000m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "지금 선두권에 있는 말은 3번, 2번, 10번입니다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 8,
+   "t": 47.0,
+   "elapsed": 40.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2
+   ],
+   "allowed": [
+    1,
+    2
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 서울 10경주 중반 약 1000m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "지금 선두권에는 검은색 모자의 4번이 앞서가고 있다.",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 9,
+   "t": 50.0,
+   "elapsed": 43.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2
+   ],
+   "allowed": [
+    1,
+    2
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 서울 10경주 중반 약 900m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "4번이 이끄는 앞세움과 3번, 8번의 추격전이 치열하게 벌어지고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    8
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 10,
+   "t": 53.0,
+   "elapsed": 46.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    2
+   ],
+   "allowed": [
+    2
+   ],
+   "recall": [],
+   "line": "선두권 2번이 서울 10경주 중반 약 900m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    2
+   ],
+   "picture_only_line": "지금 선두권에는 3번, 2번, 10번이 위치해 있으며 치열한 경주 상황입니다!",
+   "picture_only_numbers": [
+    2,
+    3,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 11,
+   "t": 56.0,
+   "elapsed": 49.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    2,
+    8
+   ],
+   "allowed": [
+    2,
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번과 2번이 서울 10경주 중반 약 900m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    2,
+    8
+   ],
+   "picture_only_line": "지금 선두권은 4번, 7번, 8번이 다투고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    8
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 12,
+   "t": 59.0,
+   "elapsed": 52.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    2
+   ],
+   "allowed": [
+    2
+   ],
+   "recall": [],
+   "line": "선두권 2번이 서울 10경주 중반 약 800m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    2
+   ],
+   "picture_only_line": "지금 선두권을 달리는 4번과 7번이 8번을 추격하고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    8
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 13,
+   "t": 62.0,
+   "elapsed": 55.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2
+   ],
+   "allowed": [
+    1,
+    2
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 약 800m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "지금 선두권에는 3번, 11번, 8번이 자리 잡고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    8,
+    11
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 14,
+   "t": 65.0,
+   "elapsed": 58.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    2,
+    8
+   ],
+   "allowed": [
+    2,
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번과 2번이 서울 10경주 중반 약 700m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    2,
+    8
+   ],
+   "picture_only_line": "선두권은 4번, 10번, 7번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    10
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 15,
+   "t": 68.0,
+   "elapsed": 61.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    8
+   ],
+   "allowed": [
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번이 서울 10경주 중반 약 700m 를 남겨두고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "선두권은 4번, 7번과 2번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    4,
+    7
+   ],
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 16,
+   "t": 71.0,
+   "elapsed": 64.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    1,
+    2,
+    8
+   ],
+   "allowed": [
+    1,
+    2,
+    8
+   ],
+   "recall": [],
+   "line": "선두권 1번과 2번이 서울 10경주 중반 약 600m 를 남겨두고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    1,
+    2
+   ],
+   "picture_only_line": "4번이 선두를 달리고 있네요!",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": [
+    1,
+    8,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 17,
+   "t": 74.0,
+   "elapsed": 67.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    8
+   ],
+   "allowed": [
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번이 서울 10경주 중반 약 600m 를 남겨두고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "선두권은 4번, 1번, 2번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    1,
+    2,
+    4
+   ],
+   "strip": [
+    1,
+    8,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "k": 18,
+   "t": 77.0,
+   "elapsed": 70.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    8
+   ],
+   "allowed": [
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번이 서울 10경주 중반 약 500m 를 남겨두고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "4번이 2번과 6번을 앞서며 치열한 선두 싸움을 벌이고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    4,
+    6
+   ],
+   "strip": [
+    1,
+    8,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "k": 19,
+   "t": 80.0,
+   "elapsed": 73.3,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    8
+   ],
+   "allowed": [
+    8
+   ],
+   "recall": [],
+   "line": "선두권 8번이 서울 10경주 중반 약 500m 를 남겨두고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "4번이 앞서가고 있고, 10번과 8번이 뒤를 이어서 추격하고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    8,
+    10
+   ],
+   "strip": null
+  },
+  {
+   "k": 20,
+   "t": 83.0,
+   "elapsed": 76.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    8
+   ],
+   "allowed": [],
+   "recall": [
+    8
+   ],
+   "line": "서울 10경주 후반 76초가 지났고 약 400m 를 남겨두며 8번은 조금 전까지 선두권으로 확인되었습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "지금 선두권을 장악한 4번이 치열한 추격 속에 결승선을 향해 질주합니다.",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 21,
+   "t": 86.0,
+   "elapsed": 79.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    8
+   ],
+   "allowed": [],
+   "recall": [
+    8
+   ],
+   "line": "서울 10경주 후반 79초가 지났고 약 400m 를 남겨두며 8번은 조금 전까지 선두권으로 확인되었습니다.",
+   "source": "model",
+   "said_numbers": [
+    8
+   ],
+   "picture_only_line": "4번과 10번이 앞서 있으며, 3번도 선두권에 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    10
+   ],
+   "strip": null
+  },
+  {
+   "k": 22,
+   "t": 89.0,
+   "elapsed": 82.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    8
+   ],
+   "allowed": [],
+   "recall": [
+    8
+   ],
+   "line": "서울 10경주 후반 82초가 지났고 약 400m 를 남겨두며 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "11번과 4번이 나란히 앞서가고, 2번이 뒤를 이었다.",
+   "picture_only_numbers": [
+    2,
+    4,
+    11
+   ],
+   "strip": null
+  },
+  {
+   "k": 23,
+   "t": 92.0,
+   "elapsed": 85.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    8
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 후반 85초가 지났고 약 300m 를 남겨두며 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "선두권에는 4번, 7번, 9번이 이어가고 있습니다.",
+   "picture_only_numbers": [
+    4,
+    7,
+    9
+   ],
+   "strip": null
+  },
+  {
+   "k": 24,
+   "t": 95.0,
+   "elapsed": 88.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    8
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 후반 88초가 지났고 약 300m 를 남겨두며 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "지금 선두권에는 4번과 3번, 2번이 있습니다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 25,
+   "t": 98.0,
+   "elapsed": 91.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    3,
+    8
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 후반 91초가 지났고 약 200m 를 남겨두며 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "4번이 앞을 내다보며 2번과 3번을 추격하고 있습니다.",
+   "picture_only_numbers": [
+    2,
+    3,
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 26,
+   "t": 101.0,
+   "elapsed": 94.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    1,
+    3
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 후반 94초가 지나며 약 200m 를 남겨두는 가운데 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "지금 선두권에는 4번과 8번, 그리고 3번이 치열하게 경쟁하고 있습니다.",
+   "picture_only_numbers": [
+    3,
+    4,
+    8
+   ],
+   "strip": null
+  },
+  {
+   "k": 27,
+   "t": 104.0,
+   "elapsed": 97.3,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    3
+   ],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 후반 97초가 지났으며 약 100m 를 남겨두는 가운데 경주는 진행 중입니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "200m 직전까지 밀고 올라온 4번이 이제 막내들보다 앞서나가고 있습니다.",
+   "picture_only_numbers": [
+    4
+   ],
+   "strip": null
+  },
+  {
+   "k": 28,
+   "t": 107.0,
+   "elapsed": 100.3,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [],
+   "allowed": [],
+   "recall": [],
+   "line": "서울 10경주 결승선 직전 구간, 출발 뒤 100초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "picture_only_line": "지금 선두권에는 2번, 3번, 5번 말이 자리하고 있습니다!",
+   "picture_only_numbers": [
+    2,
+    3,
+    5
+   ],
+   "strip": null
+  }
+ ]
+}

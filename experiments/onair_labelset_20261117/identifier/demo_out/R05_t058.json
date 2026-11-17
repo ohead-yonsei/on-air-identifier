@@ -1,0 +1,192 @@
+{
+ "frame": "identifier/demo_frames/R05_t058.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "riders": [
+  {
+   "no": 7,
+   "state": "sure",
+   "score": 1.8615,
+   "x": 570.7,
+   "h_px": 210.8,
+   "box": [
+    507.4,
+    350.8,
+    634.0,
+    561.6
+   ],
+   "colour": "brown",
+   "qwen_number": 7,
+   "p_learned": 0.8615,
+   "sure_strict": true,
+   "detector_score": 0.983
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.962,
+   "x": 770.8,
+   "h_px": 153.9,
+   "box": [
+    710.3,
+    384.2,
+    831.4,
+    538.2
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.962,
+   "sure_strict": true,
+   "detector_score": 0.981
+  },
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.6122,
+   "x": 835.7,
+   "h_px": 183.4,
+   "box": [
+    767.5,
+    228.4,
+    904.0,
+    411.8
+   ],
+   "colour": "sky blue",
+   "qwen_number": 5,
+   "p_learned": 0.6122,
+   "sure_strict": false,
+   "detector_score": 0.706
+  },
+  {
+   "no": 1,
+   "state": "sure",
+   "score": 1.7347,
+   "x": 945.0,
+   "h_px": 215.1,
+   "box": [
+    873.3,
+    432.7,
+    1016.6,
+    647.8
+   ],
+   "colour": "white",
+   "qwen_number": 1,
+   "p_learned": 0.7347,
+   "sure_strict": true,
+   "detector_score": 0.972
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.9162,
+   "x": 1153.9,
+   "h_px": 169.5,
+   "box": [
+    1087.3,
+    157.0,
+    1220.6,
+    326.5
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.9162,
+   "sure_strict": true,
+   "detector_score": 0.878
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.871,
+   "x": 1221.0,
+   "h_px": 216.6,
+   "box": [
+    1160.1,
+    297.2,
+    1281.8,
+    513.8
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.871,
+   "sure_strict": true,
+   "detector_score": 0.97
+  },
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.9939,
+   "x": 1355.1,
+   "h_px": 218.4,
+   "box": [
+    1304.0,
+    89.5,
+    1406.2,
+    307.9
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.9939,
+   "sure_strict": true,
+   "detector_score": 0.988
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "brown_maroon",
+   "number": 7,
+   "ms": 4880.3,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 204.4,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 214.4,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 213.8,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 210.4,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 225.0,
+   "error": null
+  },
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 212.4,
+   "error": null
+  }
+ ],
+ "total_ms": 6859.8
+}

@@ -1,0 +1,108 @@
+{
+ "frames_complete": 238,
+ "failures_or_missing": 0,
+ "strip": {
+  "frames": 138,
+  "conditions": {
+   "A": {
+    "claims": 413,
+    "wrong": 267,
+    "frames_with_wrong": 136,
+    "frames_with_right": 103,
+    "frames_silent": 0,
+    "wrong_rate": 0.6464891041162227
+   },
+   "B": {
+    "claims": 227,
+    "wrong": 48,
+    "frames_with_wrong": 43,
+    "frames_with_right": 119,
+    "frames_silent": 0,
+    "wrong_rate": 0.21145374449339208
+   },
+   "G": {
+    "claims": 198,
+    "wrong": 27,
+    "frames_with_wrong": 26,
+    "frames_with_right": 114,
+    "frames_silent": 18,
+    "wrong_rate": 0.13636363636363635
+   }
+  },
+  "A_vs_G": {
+   "frames_with_fewer_wrong": 133,
+   "frames_with_more_wrong": 0,
+   "sign_test_p": 1.8367099231598242e-40
+  },
+  "B_vs_G": {
+   "frames_with_fewer_wrong": 17,
+   "frames_with_more_wrong": 0,
+   "sign_test_p": 1.52587890625e-05
+  },
+  "supported_A_vs_G": true,
+  "identifier_facts": {
+   "frames_with_facts": 120,
+   "facts": 198,
+   "facts_right": 171
+  },
+  "frames_without_facts": {
+   "frames": 18,
+   "B_claims": 29,
+   "B_wrong": 21,
+   "A_claims": 53,
+   "A_wrong": 35
+  }
+ },
+ "finish": {
+  "frames": 100,
+  "conditions": {
+   "A": {
+    "claims": 296,
+    "wrong": 188,
+    "frames_with_wrong": 98,
+    "frames_with_right": 82,
+    "frames_silent": 0,
+    "wrong_rate": 0.6351351351351351
+   },
+   "B": {
+    "claims": 136,
+    "wrong": 77,
+    "frames_with_wrong": 60,
+    "frames_with_right": 50,
+    "frames_silent": 2,
+    "wrong_rate": 0.5661764705882353
+   },
+   "G": {
+    "claims": 23,
+    "wrong": 6,
+    "frames_with_wrong": 6,
+    "frames_with_right": 13,
+    "frames_silent": 82,
+    "wrong_rate": 0.2608695652173913
+   }
+  },
+  "A_vs_G": {
+   "frames_with_fewer_wrong": 96,
+   "frames_with_more_wrong": 0,
+   "sign_test_p": 2.524354896707238e-29
+  },
+  "B_vs_G": {
+   "frames_with_fewer_wrong": 54,
+   "frames_with_more_wrong": 0,
+   "sign_test_p": 1.1102230246251565e-16
+  },
+  "supported_A_vs_G": true,
+  "identifier_facts": {
+   "frames_with_facts": 18,
+   "facts": 23,
+   "facts_right": 17
+  },
+  "frames_without_facts": {
+   "frames": 82,
+   "B_claims": 113,
+   "B_wrong": 71,
+   "A_claims": 244,
+   "A_wrong": 151
+  }
+ }
+}

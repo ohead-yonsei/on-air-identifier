@@ -1,0 +1,88 @@
+{
+ "split": "test",
+ "frames_complete": 74,
+ "conditions": {
+  "A": {
+   "claims": 221,
+   "wrong_top3": 143,
+   "wrong_top5": 122,
+   "frames_with_wrong": 71,
+   "frames_silent": 0,
+   "frames_with_correct": 58,
+   "claims_equal_to_facts": 32,
+   "frames_answer_equals_facts": 0,
+   "ms": 106205.60000000005,
+   "wrong_rate_top3": 0.6470588235294118,
+   "wrong_rate_top5": 0.5520361990950227,
+   "ms_per_call": 1435.2108108108114
+  },
+  "R": {
+   "claims": 221,
+   "wrong_top3": 154,
+   "wrong_top5": 119,
+   "frames_with_wrong": 72,
+   "frames_silent": 0,
+   "frames_with_correct": 53,
+   "claims_equal_to_facts": 31,
+   "frames_answer_equals_facts": 0,
+   "ms": 100125.69999999998,
+   "wrong_rate_top3": 0.6968325791855203,
+   "wrong_rate_top5": 0.5384615384615384,
+   "ms_per_call": 1353.0499999999997
+  },
+  "F": {
+   "claims": 197,
+   "wrong_top3": 109,
+   "wrong_top5": 79,
+   "frames_with_wrong": 57,
+   "frames_silent": 3,
+   "frames_with_correct": 59,
+   "claims_equal_to_facts": 68,
+   "frames_answer_equals_facts": 19,
+   "ms": 96126.7,
+   "wrong_rate_top3": 0.5532994923857868,
+   "wrong_rate_top5": 0.4010152284263959,
+   "ms_per_call": 1299.0094594594593
+  },
+  "B": {
+   "claims": 111,
+   "wrong_top3": 42,
+   "wrong_top5": 33,
+   "frames_with_wrong": 28,
+   "frames_silent": 1,
+   "frames_with_correct": 53,
+   "claims_equal_to_facts": 69,
+   "frames_answer_equals_facts": 53,
+   "ms": 86793.9,
+   "wrong_rate_top3": 0.3783783783783784,
+   "wrong_rate_top5": 0.2972972972972973,
+   "ms_per_call": 1172.8905405405405
+  }
+ },
+ "primary_A_vs_B": {
+  "frames_with_fewer_wrong": 60,
+  "frames_with_more_wrong": 2,
+  "sign_test_p": 8.474124180146703e-16
+ },
+ "hypothesis_supported": true,
+ "A_vs_R": {
+  "frames_with_fewer_wrong": 7,
+  "frames_with_more_wrong": 18,
+  "sign_test_p": 0.043285250663757324
+ },
+ "A_vs_F": {
+  "frames_with_fewer_wrong": 36,
+  "frames_with_more_wrong": 16,
+  "sign_test_p": 0.0077874363057435225
+ },
+ "F_vs_B": {
+  "frames_with_fewer_wrong": 46,
+  "frames_with_more_wrong": 2,
+  "sign_test_p": 8.363087999896379e-12
+ },
+ "identifier_facts": {
+  "frames_with_facts": 52,
+  "facts": 69,
+  "facts_in_top3": 62
+ }
+}

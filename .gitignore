@@ -1,0 +1,33 @@
+# 공개 저장소에 올리지 않는 것 (2026-11-18 결정: 방송 화면은 팀 페이지 캡처 4장만)
+
+# 방송 화면에서 나온 이미지와 영상, 묶음 파일
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.zip
+*.psd
+*.pdf
+!experiments/onair_labelset_20261117/team_page/img/*.jpg
+
+# 방송 화면이 들어 있는 검토·시연 페이지
+REVIEW.html
+demo.html
+commentary.html
+
+# 마주 경주복 그림(파일 이름에 마주 이름이 있음)과 외부 사이트에서 받은 원본
+SEOUL_SILKS/
+experiments/*/evidence/*.html
+
+# 마주 이름이 적힌 파일
+experiments/onair_cap_silks_20261116/reference_manifest.json
+experiments/onair_cap_silks_20261116/evidence/card_pdf.txt
+
+# 모델 파일과 기타
+*.pt
+*.joblib
+*.gguf
+*.pyc
+__pycache__/
+.DS_Store
+.claude/

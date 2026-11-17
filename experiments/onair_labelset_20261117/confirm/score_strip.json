@@ -1,0 +1,37 @@
+{
+ "pairs": [
+  {
+   "D0_dir": "otherday4",
+   "DA_dir": "da/otherday4",
+   "frames": 138,
+   "D0": {
+    "statements": 198,
+    "right": 171,
+    "good_frames": 114
+   },
+   "DA": {
+    "statements": 203,
+    "right": 176,
+    "good_frames": 118
+   },
+   "improved": 4,
+   "worsened": 0
+  }
+ ],
+ "verdict": {
+  "kind": "strip",
+  "frames": 138,
+  "A_D0": 0.8636363636363636,
+  "A_DA": 0.8669950738916257,
+  "B_D0": 0.8260869565217391,
+  "B_DA": 0.855072463768116,
+  "improved": 4,
+  "worsened": 0,
+  "sign_test_p": 0.125,
+  "DA_better": false,
+  "DA_A_at_least_80": true,
+  "DA_B_at_least_60": true,
+  "goal_A_90": false,
+  "goal_B_80": true
+ }
+}

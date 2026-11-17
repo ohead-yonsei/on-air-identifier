@@ -1,0 +1,265 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/batch2/frames/R10_t068.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R10.json",
+ "riders": [
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.6536,
+   "x": 415.9,
+   "h_px": 138.1,
+   "box": [
+    378.8,
+    101.0,
+    453.0,
+    239.1
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.6536,
+   "sure_strict": true,
+   "detector_score": 0.966
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.0558,
+   "x": 447.0,
+   "h_px": 123.3,
+   "box": [
+    406.7,
+    249.8,
+    487.2,
+    373.1
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.0558,
+   "sure_strict": false,
+   "detector_score": 0.642
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.6223,
+   "x": 592.4,
+   "h_px": 109.9,
+   "box": [
+    558.4,
+    219.1,
+    626.5,
+    329.0
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.6223,
+   "sure_strict": true,
+   "detector_score": 0.956
+  },
+  {
+   "no": 1,
+   "state": "guess",
+   "score": 0.3558,
+   "x": 952.9,
+   "h_px": 136.8,
+   "box": [
+    913.0,
+    442.5,
+    992.7,
+    579.3
+   ],
+   "colour": "white",
+   "qwen_number": 0,
+   "p_learned": 0.3558,
+   "sure_strict": false,
+   "detector_score": 0.791
+  },
+  {
+   "no": 4,
+   "state": "guess",
+   "score": 0.9992,
+   "x": 1097.1,
+   "h_px": 98.6,
+   "box": [
+    1057.6,
+    464.0,
+    1136.5,
+    562.6
+   ],
+   "colour": "black",
+   "qwen_number": 0,
+   "p_learned": 0.9992,
+   "sure_strict": false,
+   "detector_score": 0.893
+  },
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.9988,
+   "x": 1240.0,
+   "h_px": 128.0,
+   "box": [
+    1200.1,
+    464.2,
+    1280.0,
+    592.1
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.9988,
+   "sure_strict": true,
+   "detector_score": 0.99
+  },
+  {
+   "no": 11,
+   "state": "guess",
+   "score": 0.2228,
+   "x": 1311.1,
+   "h_px": 147.8,
+   "box": [
+    1273.5,
+    582.0,
+    1348.8,
+    729.7
+   ],
+   "colour": "sky blue/white stripes",
+   "qwen_number": 5,
+   "p_learned": 0.2228,
+   "sure_strict": false,
+   "detector_score": 0.898
+  },
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.6779,
+   "x": 1351.1,
+   "h_px": 87.9,
+   "box": [
+    1336.1,
+    651.3,
+    1366.1,
+    739.2
+   ],
+   "colour": "sky blue",
+   "qwen_number": 0,
+   "p_learned": 0.6779,
+   "sure_strict": false,
+   "detector_score": 0.751
+  },
+  {
+   "no": 7,
+   "state": "guess",
+   "score": 0.0245,
+   "x": 1478.5,
+   "h_px": 131.9,
+   "box": [
+    1434.4,
+    611.0,
+    1522.6,
+    742.9
+   ],
+   "colour": "brown",
+   "qwen_number": 3,
+   "p_learned": 0.0245,
+   "sure_strict": false,
+   "detector_score": 0.947
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.5708,
+   "x": 1510.3,
+   "h_px": 155.3,
+   "box": [
+    1465.5,
+    613.8,
+    1555.1,
+    769.1
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.5708,
+   "sure_strict": true,
+   "detector_score": 0.859
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 230.6,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 274.0,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 230.8,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 229.2,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 226.9,
+   "error": null
+  },
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 232.1,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 233.7,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 231.3,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 230.9,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 235.4,
+   "error": null
+  }
+ ],
+ "total_ms": 2720.2
+}

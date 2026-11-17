@@ -1,0 +1,61 @@
+{
+  "frame": "t385",
+  "reference_nose_number": 5,
+  "point": [
+    690,
+    439
+  ],
+  "eligible_caps_sorted": [
+    {
+      "cap_number": 5,
+      "distance_px": 96.10541087784809,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 1,
+      "distance_px": 96.31329087929662,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 7,
+      "distance_px": 182.27588979346663,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 2,
+      "distance_px": 218.00917411888886,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 6,
+      "distance_px": 263.55312557433274,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 11,
+      "distance_px": 299.2473892952117,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 10,
+      "distance_px": 321.49183504406454,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 8,
+      "distance_px": 324.53235585993576,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 3,
+      "distance_px": 337.50925913224955,
+      "behind_nose": true
+    },
+    {
+      "cap_number": 4,
+      "distance_px": 395.06739931307925,
+      "behind_nose": true
+    }
+  ],
+  "nearest_runner_up_margin_px": 0.20788000144852958
+}

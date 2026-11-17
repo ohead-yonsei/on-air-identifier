@@ -1,0 +1,36 @@
+{
+  "experiment": "onair_nose_cap_20261116",
+  "scope": "Spatial association diagnostic with manual landmarks; no learned detection, no learned cap identification, no automatic body-instance model.",
+  "methods": {
+    "point_nearest": "Each nose chooses minimum Euclidean distance cap among all 11 caps; cap reuse allowed.",
+    "line_nearest": "Line through nose perpendicular to manually specified screen direction; choose cap with minimum absolute distance to that line; cap reuse allowed.",
+    "point_one_to_one": "Globally minimum sum of Euclidean distances; each cap can be used once; all 11 caps remain candidates, only visible annotated noses are queries."
+  },
+  "body_reference": "Human-readable same-horse links annotated by assistant after inspecting head/neck/body/rider. Reference only, not an automated method and must not be scored as 100% accuracy.",
+  "direction_source": "Manual rough view axis; not inferred motion, calibrated track coordinates, or official rank.",
+  "seed": 20261116,
+  "timing_repeats": 1000,
+  "timing_includes": "coordinate distance and matching only, excludes detection, annotation, image decode, I/O and cap recognition",
+  "sensitivity": {
+    "repeats": 2000,
+    "nose_xy_uniform_pixels": 5,
+    "cap_xy_uniform_pixels": 2,
+    "meaning": "Exploratory coordinate jitter stability, not calibrated detector error or statistical confidence interval."
+  },
+  "new_model_calls": 0,
+  "training_runs": 0,
+  "graphics_masks": [
+    [
+      0,
+      0,
+      240,
+      110
+    ],
+    [
+      0,
+      610,
+      1280,
+      720
+    ]
+  ]
+}

@@ -1,0 +1,2065 @@
+{
+  "created_utc": "2026-11-16T17:06:54.128242+00:00",
+  "policy": "No classification output seen; person detections predate annotation. All September colour and coordinate labels are assistant drafts. October G-L colours only human confirmed.",
+  "samples": [
+    {
+      "id": "R03_t050_s1",
+      "frame": "R03_t050",
+      "race": "R03",
+      "split": "development",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        158.08505249023438,
+        416.598876953125,
+        245.7676544189453,
+        505.46185302734375
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "a9fa785d1ccf85bb6873f94aa61e7b67d921a0efd1e8260fc7a0d54cf2382968",
+      "cap_box": [
+        215,
+        417,
+        241,
+        439
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R03_t050_s2",
+      "frame": "R03_t050",
+      "race": "R03",
+      "split": "development",
+      "view": "side",
+      "person_id": "p3",
+      "person_box": [
+        743.2544555664062,
+        509.7757263183594,
+        824.1878662109375,
+        601.2040405273438
+      ],
+      "number": 10,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "a9fa785d1ccf85bb6873f94aa61e7b67d921a0efd1e8260fc7a0d54cf2382968",
+      "cap_box": [
+        789,
+        507,
+        818,
+        528
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R03_t050_s3",
+      "frame": "R03_t050",
+      "race": "R03",
+      "split": "development",
+      "view": "side",
+      "person_id": "p7",
+      "person_box": [
+        988.37060546875,
+        507.0268859863281,
+        1066.0262451171875,
+        608.2828369140625
+      ],
+      "number": 11,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "a9fa785d1ccf85bb6873f94aa61e7b67d921a0efd1e8260fc7a0d54cf2382968",
+      "cap_box": [
+        1038,
+        507,
+        1063,
+        533
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R03_t090_s1",
+      "frame": "R03_t090",
+      "race": "R03",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p1",
+      "person_box": [
+        630.6333618164062,
+        328.7139587402344,
+        781.0025634765625,
+        616.0689697265625
+      ],
+      "number": 2,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "24a7c73e0e70355d351c99a6e24265d7fb9e3421ca07fb9cfbb5428e6f54e437",
+      "cap_box": [
+        692,
+        330,
+        749,
+        377
+      ],
+      "face_box": [
+        690,
+        378,
+        748,
+        403
+      ],
+      "torso_box": [
+        673,
+        405,
+        758,
+        432
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R03_t090_s2",
+      "frame": "R03_t090",
+      "race": "R03",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p2",
+      "person_box": [
+        743.769287109375,
+        422.6258850097656,
+        892.5720825195312,
+        747.365966796875
+      ],
+      "number": 9,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "24a7c73e0e70355d351c99a6e24265d7fb9e3421ca07fb9cfbb5428e6f54e437",
+      "cap_box": [
+        776,
+        425,
+        843,
+        492
+      ],
+      "face_box": [
+        782,
+        492,
+        834,
+        518
+      ],
+      "torso_box": [
+        775,
+        519,
+        850,
+        560
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R03_t090_s3",
+      "frame": "R03_t090",
+      "race": "R03",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p11",
+      "person_box": [
+        1369.9073486328125,
+        199.49774169921875,
+        1482.1558837890625,
+        430.3065490722656
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "24a7c73e0e70355d351c99a6e24265d7fb9e3421ca07fb9cfbb5428e6f54e437",
+      "cap_box": [
+        1376,
+        204,
+        1430,
+        257
+      ],
+      "face_box": [
+        1385,
+        258,
+        1429,
+        283
+      ],
+      "torso_box": [
+        1384,
+        284,
+        1447,
+        316
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t040_s1",
+      "frame": "R05_t040",
+      "race": "R05",
+      "split": "development",
+      "view": "side",
+      "person_id": "p1",
+      "person_box": [
+        428.6578369140625,
+        120.47584533691406,
+        514.9598999023438,
+        224.8876190185547
+      ],
+      "number": 6,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "28657eee58d1983b0ccde2caadb9c88168e82a6fe407ddf152d007a390c354ba",
+      "cap_box": [
+        466,
+        120,
+        495,
+        146
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t040_s2",
+      "frame": "R05_t040",
+      "race": "R05",
+      "split": "development",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        545.0438842773438,
+        193.46759033203125,
+        623.984375,
+        299.99322509765625
+      ],
+      "number": 5,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "28657eee58d1983b0ccde2caadb9c88168e82a6fe407ddf152d007a390c354ba",
+      "cap_box": [
+        597,
+        191,
+        624,
+        217
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t040_s3",
+      "frame": "R05_t040",
+      "race": "R05",
+      "split": "development",
+      "view": "side",
+      "person_id": "p12",
+      "person_box": [
+        1508.55615234375,
+        498.4593505859375,
+        1603.2862548828125,
+        611.3930053710938
+      ],
+      "number": 1,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "28657eee58d1983b0ccde2caadb9c88168e82a6fe407ddf152d007a390c354ba",
+      "cap_box": [
+        1570,
+        497,
+        1602,
+        521
+      ],
+      "face_box": [
+        1573,
+        522,
+        1601,
+        541
+      ],
+      "torso_box": [
+        1524,
+        516,
+        1569,
+        550
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t030_s1",
+      "frame": "R05_t030",
+      "race": "R05",
+      "split": "development",
+      "view": "straight_front",
+      "person_id": "p6",
+      "person_box": [
+        837.4754028320312,
+        395.98480224609375,
+        928.9878540039062,
+        577.9161376953125
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "9902a33c4512dde3d00624ac5225866429045e4257b5425680b60015ee3d8f1c",
+      "cap_box": [
+        883,
+        405,
+        928,
+        449
+      ],
+      "face_box": [
+        888,
+        450,
+        922,
+        470
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t030_s2",
+      "frame": "R05_t030",
+      "race": "R05",
+      "split": "development",
+      "view": "straight_front",
+      "person_id": "p10",
+      "person_box": [
+        1255.0390625,
+        284.7799377441406,
+        1395.8101806640625,
+        476.32666015625
+      ],
+      "number": 3,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "9902a33c4512dde3d00624ac5225866429045e4257b5425680b60015ee3d8f1c",
+      "cap_box": [
+        1300,
+        284,
+        1348,
+        323
+      ],
+      "face_box": [
+        1303,
+        324,
+        1347,
+        340
+      ],
+      "torso_box": [
+        1291,
+        341,
+        1359,
+        376
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R05_t030_s3",
+      "frame": "R05_t030",
+      "race": "R05",
+      "split": "development",
+      "view": "straight_front",
+      "person_id": "p1",
+      "person_box": [
+        520.7222290039062,
+        336.7968444824219,
+        629.062255859375,
+        460.0076904296875
+      ],
+      "number": 10,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "9902a33c4512dde3d00624ac5225866429045e4257b5425680b60015ee3d8f1c",
+      "cap_box": [
+        572,
+        335,
+        624,
+        383
+      ],
+      "face_box": [
+        577,
+        384,
+        623,
+        401
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t080_s1",
+      "frame": "R06_t080",
+      "race": "R06",
+      "split": "development",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        347.7749328613281,
+        358.15869140625,
+        404.5594787597656,
+        452.90478515625
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "53ad87371543906755f0bf0724f7806e3f2edc10225e68c4f6174013818c0369",
+      "cap_box": [
+        386,
+        358,
+        405,
+        380
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t080_s2",
+      "frame": "R06_t080",
+      "race": "R06",
+      "split": "development",
+      "view": "side",
+      "person_id": "p3",
+      "person_box": [
+        817.28515625,
+        456.9517517089844,
+        883.9287109375,
+        541.5230102539062
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "53ad87371543906755f0bf0724f7806e3f2edc10225e68c4f6174013818c0369",
+      "cap_box": [
+        856,
+        456,
+        880,
+        480
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t080_s3",
+      "frame": "R06_t080",
+      "race": "R06",
+      "split": "development",
+      "view": "side",
+      "person_id": "p8",
+      "person_box": [
+        1203.6365966796875,
+        549.17333984375,
+        1245.7908935546875,
+        626.3075561523438
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "Partial person detection; brown-cap draft, difficult small crop.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "53ad87371543906755f0bf0724f7806e3f2edc10225e68c4f6174013818c0369",
+      "cap_box": [
+        1205,
+        549,
+        1223,
+        570
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t060_s1",
+      "frame": "R06_t060",
+      "race": "R06",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p2",
+      "person_box": [
+        597.3160400390625,
+        311.6509704589844,
+        704.1485595703125,
+        433.80426025390625
+      ],
+      "number": 5,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "969770ef66b7fd8945ee7070c3de8dbdf1b5d3b789606a9d7ea620abc63c61f0",
+      "cap_box": [
+        632,
+        312,
+        669,
+        344
+      ],
+      "face_box": [
+        634,
+        345,
+        667,
+        365
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t060_s2",
+      "frame": "R06_t060",
+      "race": "R06",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p6",
+      "person_box": [
+        1027.4256591796875,
+        359.2148742675781,
+        1143.646484375,
+        514.6273193359375
+      ],
+      "number": 0,
+      "label_status": "unresolved_draft",
+      "note": "White versus blue-white stripes is visually unresolved; not scored as correct/incorrect.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "969770ef66b7fd8945ee7070c3de8dbdf1b5d3b789606a9d7ea620abc63c61f0",
+      "cap_box": [
+        1051,
+        358,
+        1088,
+        393
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R06_t060_s3",
+      "frame": "R06_t060",
+      "race": "R06",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p10",
+      "person_box": [
+        1638.8521728515625,
+        163.82359313964844,
+        1729.403564453125,
+        305.2276611328125
+      ],
+      "number": 10,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "969770ef66b7fd8945ee7070c3de8dbdf1b5d3b789606a9d7ea620abc63c61f0",
+      "cap_box": [
+        1657,
+        163,
+        1687,
+        197
+      ],
+      "face_box": [
+        1661,
+        198,
+        1686,
+        215
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t020_s1",
+      "frame": "R07_t020",
+      "race": "R07",
+      "split": "development",
+      "view": "side",
+      "person_id": "p1",
+      "person_box": [
+        408.8299560546875,
+        464.0662841796875,
+        502.7744140625,
+        557.9821166992188
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "Dark brown versus black is challenging; draft label requires review.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "952040ca5377a6f4816864c1519d43a8140101d18b91bf6ab6315bf7f3064f52",
+      "cap_box": [
+        414,
+        463,
+        438,
+        491
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t020_s2",
+      "frame": "R07_t020",
+      "race": "R07",
+      "split": "development",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        557.5277709960938,
+        484.95489501953125,
+        671.8369140625,
+        602.6869506835938
+      ],
+      "number": 3,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "952040ca5377a6f4816864c1519d43a8140101d18b91bf6ab6315bf7f3064f52",
+      "cap_box": [
+        558,
+        485,
+        584,
+        509
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t020_s3",
+      "frame": "R07_t020",
+      "race": "R07",
+      "split": "development",
+      "view": "side",
+      "person_id": "p4",
+      "person_box": [
+        786.55615234375,
+        449.54132080078125,
+        830.880615234375,
+        519.0059814453125
+      ],
+      "number": 0,
+      "label_status": "unresolved_draft",
+      "note": "Sky blue highlight versus blue-white pattern unresolved; excluded from labelled agreement denominator.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "952040ca5377a6f4816864c1519d43a8140101d18b91bf6ab6315bf7f3064f52",
+      "cap_box": [
+        789,
+        448,
+        813,
+        469
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t060_s1",
+      "frame": "R07_t060",
+      "race": "R07",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p1",
+      "person_box": [
+        657.342529296875,
+        472.39306640625,
+        776.1688232421875,
+        654.2223510742188
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1186af4566aea2bf90ae4ad543b49ef4bbf786379a2a9fea948df247e4d23cf8",
+      "cap_box": [
+        698,
+        470,
+        743,
+        509
+      ],
+      "face_box": [
+        699,
+        510,
+        739,
+        530
+      ],
+      "torso_box": [
+        687,
+        532,
+        757,
+        563
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t060_s2",
+      "frame": "R07_t060",
+      "race": "R07",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p4",
+      "person_box": [
+        1038.2474365234375,
+        260.3218994140625,
+        1130.113037109375,
+        418.9576110839844
+      ],
+      "number": 11,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1186af4566aea2bf90ae4ad543b49ef4bbf786379a2a9fea948df247e4d23cf8",
+      "cap_box": [
+        1068,
+        262,
+        1104,
+        299
+      ],
+      "face_box": [
+        1070,
+        300,
+        1104,
+        315
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R07_t060_s3",
+      "frame": "R07_t060",
+      "race": "R07",
+      "split": "development",
+      "view": "corner_front",
+      "person_id": "p9",
+      "person_box": [
+        1520.57666015625,
+        203.87681579589844,
+        1649.7845458984375,
+        426.1390686035156
+      ],
+      "number": 5,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1186af4566aea2bf90ae4ad543b49ef4bbf786379a2a9fea948df247e4d23cf8",
+      "cap_box": [
+        1562,
+        202,
+        1598,
+        239
+      ],
+      "face_box": [
+        1563,
+        240,
+        1598,
+        261
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t030_s1",
+      "frame": "R01_t030",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        204.66539001464844,
+        471.320068359375,
+        276.1024169921875,
+        587.4322509765625
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "Dark brown draft; grey/black appearance needs review.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d4c684e8305a31f2c6e28eb72dfef9fdf9a6668adfc27ab2fb0ebd626e8c7f01",
+      "cap_box": [
+        207,
+        470,
+        231,
+        491
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t030_s2",
+      "frame": "R01_t030",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p7",
+      "person_box": [
+        659.747314453125,
+        452.26416015625,
+        726.1412353515625,
+        565.1793212890625
+      ],
+      "number": 9,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d4c684e8305a31f2c6e28eb72dfef9fdf9a6668adfc27ab2fb0ebd626e8c7f01",
+      "cap_box": [
+        669,
+        449,
+        697,
+        468
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t030_s3",
+      "frame": "R01_t030",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p10",
+      "person_box": [
+        1409.5577392578125,
+        405.4662170410156,
+        1497.0067138671875,
+        498.3442687988281
+      ],
+      "number": 6,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d4c684e8305a31f2c6e28eb72dfef9fdf9a6668adfc27ab2fb0ebd626e8c7f01",
+      "cap_box": [
+        1411,
+        403,
+        1433,
+        422
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t040_s1",
+      "frame": "R01_t040",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p2",
+      "person_box": [
+        428.1513366699219,
+        339.5335388183594,
+        550.0027465820312,
+        527.318359375
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "fe073e7376f8dbff881209388cd5301523a5e1a26708f74c794616e2c1e86e3e",
+      "cap_box": [
+        502,
+        339,
+        543,
+        380
+      ],
+      "face_box": [
+        501,
+        381,
+        538,
+        398
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t040_s2",
+      "frame": "R01_t040",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p4",
+      "person_box": [
+        551.2246704101562,
+        340.2776184082031,
+        707.6461791992188,
+        590.291015625
+      ],
+      "number": 5,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "fe073e7376f8dbff881209388cd5301523a5e1a26708f74c794616e2c1e86e3e",
+      "cap_box": [
+        655,
+        343,
+        698,
+        387
+      ],
+      "face_box": [
+        658,
+        388,
+        695,
+        407
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R01_t040_s3",
+      "frame": "R01_t040",
+      "race": "R01",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p8",
+      "person_box": [
+        1193.673828125,
+        287.4688415527344,
+        1296.4097900390625,
+        460.6050720214844
+      ],
+      "number": 11,
+      "label_status": "assistant_draft",
+      "note": "Blue-white cap pattern draft; review shade versus stripe.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "fe073e7376f8dbff881209388cd5301523a5e1a26708f74c794616e2c1e86e3e",
+      "cap_box": [
+        1243,
+        288,
+        1282,
+        328
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t030_s1",
+      "frame": "R02_t030",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        589.0313720703125,
+        624.8941650390625,
+        654.84228515625,
+        707.8070068359375
+      ],
+      "number": 10,
+      "label_status": "assistant_draft",
+      "note": "Small desaturated sky-blue draft.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "8b04b3c9e6542057810d56b2fd126a6e37d18585453a970d6486fe6ecb475f83",
+      "cap_box": [
+        592,
+        626,
+        619,
+        649
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t030_s2",
+      "frame": "R02_t030",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p1",
+      "person_box": [
+        341.6549072265625,
+        670.6436767578125,
+        412.4374084472656,
+        775.1393432617188
+      ],
+      "number": 2,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "8b04b3c9e6542057810d56b2fd126a6e37d18585453a970d6486fe6ecb475f83",
+      "cap_box": [
+        342,
+        670,
+        369,
+        687
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t030_s3",
+      "frame": "R02_t030",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p10",
+      "person_box": [
+        1583.510986328125,
+        497.8089294433594,
+        1645.228759765625,
+        571.0797729492188
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "8b04b3c9e6542057810d56b2fd126a6e37d18585453a970d6486fe6ecb475f83",
+      "cap_box": [
+        1585,
+        497,
+        1609,
+        520
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t020_s1",
+      "frame": "R02_t020",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p4",
+      "person_box": [
+        940.2021484375,
+        385.6221923828125,
+        1046.94287109375,
+        572.03271484375
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d7fdca1c6e75b0346b98488a89e70815d7b3405ee7b7342be76bac0b2637dd33",
+      "cap_box": [
+        965,
+        387,
+        1000,
+        423
+      ],
+      "face_box": [
+        965,
+        424,
+        999,
+        440
+      ],
+      "torso_box": [
+        953,
+        441,
+        1014,
+        478
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t020_s2",
+      "frame": "R02_t020",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p7",
+      "person_box": [
+        1139.957275390625,
+        202.6710205078125,
+        1249.2041015625,
+        374.8130798339844
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "Brown versus black draft needs user review.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d7fdca1c6e75b0346b98488a89e70815d7b3405ee7b7342be76bac0b2637dd33",
+      "cap_box": [
+        1175,
+        200,
+        1210,
+        226
+      ],
+      "face_box": [
+        1171,
+        227,
+        1210,
+        250
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R02_t020_s3",
+      "frame": "R02_t020",
+      "race": "R02",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p9",
+      "person_box": [
+        1276.1544189453125,
+        412.80352783203125,
+        1401.5733642578125,
+        601.4771118164062
+      ],
+      "number": 1,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "d7fdca1c6e75b0346b98488a89e70815d7b3405ee7b7342be76bac0b2637dd33",
+      "cap_box": [
+        1310,
+        410,
+        1348,
+        442
+      ],
+      "face_box": [
+        1312,
+        443,
+        1347,
+        462
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t050_s1",
+      "frame": "R04_t050",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        900.3413696289062,
+        404.6769714355469,
+        974.4847412109375,
+        495.25299072265625
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "bcb11d266b1a46d919276641a5c22f1d9e17eb8a3e15e5e8fc789b1c484369c9",
+      "cap_box": [
+        951,
+        403,
+        974,
+        421
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t050_s2",
+      "frame": "R04_t050",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p4",
+      "person_box": [
+        1283.15283203125,
+        496.0921630859375,
+        1360.0662841796875,
+        611.8971557617188
+      ],
+      "number": 2,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "bcb11d266b1a46d919276641a5c22f1d9e17eb8a3e15e5e8fc789b1c484369c9",
+      "cap_box": [
+        1336,
+        497,
+        1360,
+        514
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t050_s3",
+      "frame": "R04_t050",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p6",
+      "person_box": [
+        1429.8890380859375,
+        475.24346923828125,
+        1505.14599609375,
+        584.7064819335938
+      ],
+      "number": 1,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "bcb11d266b1a46d919276641a5c22f1d9e17eb8a3e15e5e8fc789b1c484369c9",
+      "cap_box": [
+        1485,
+        474,
+        1507,
+        499
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t020_s1",
+      "frame": "R04_t020",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p3",
+      "person_box": [
+        762.0291748046875,
+        171.7221221923828,
+        938.5455322265625,
+        509.4064025878906
+      ],
+      "number": 3,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "4c7ac11a3b9e8b5ceb6981412341fcc331067aa1a305ed6eb0547d99ec210e92",
+      "cap_box": [
+        806,
+        170,
+        869,
+        236
+      ],
+      "face_box": [
+        812,
+        237,
+        866,
+        265
+      ],
+      "torso_box": [
+        809,
+        266,
+        882,
+        294
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t020_s2",
+      "frame": "R04_t020",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p5",
+      "person_box": [
+        994.7955322265625,
+        232.8438720703125,
+        1219.2784423828125,
+        533.7341918945312
+      ],
+      "number": 6,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "4c7ac11a3b9e8b5ceb6981412341fcc331067aa1a305ed6eb0547d99ec210e92",
+      "cap_box": [
+        1103,
+        244,
+        1168,
+        315
+      ],
+      "face_box": [
+        1108,
+        316,
+        1163,
+        345
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R04_t020_s3",
+      "frame": "R04_t020",
+      "race": "R04",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p1",
+      "person_box": [
+        425.3411560058594,
+        196.4168243408203,
+        607.7125244140625,
+        559.602294921875
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "4c7ac11a3b9e8b5ceb6981412341fcc331067aa1a305ed6eb0547d99ec210e92",
+      "cap_box": [
+        504,
+        201,
+        567,
+        261
+      ],
+      "face_box": [
+        504,
+        262,
+        559,
+        295
+      ],
+      "torso_box": [
+        487,
+        296,
+        574,
+        349
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R08_t080_s1",
+      "frame": "R08_t080",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        509.7807922363281,
+        596.324462890625,
+        573.8395385742188,
+        666.0205688476562
+      ],
+      "number": 0,
+      "label_status": "unresolved_draft",
+      "note": "Small motion-blurred cap, red/brown appearance unresolved. Exact cap extent also uncertain; excluded from ROI-quality aggregation.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "141f7ce3508d5260aa9ec2c53ec77502e11ae1c020daa3f90ff06af0224de221",
+      "cap_box": [
+        512,
+        602,
+        532,
+        623
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "uncertain"
+    },
+    {
+      "id": "R08_t080_s2",
+      "frame": "R08_t080",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        1046.5562744140625,
+        566.5505981445312,
+        1100.5072021484375,
+        618.7259521484375
+      ],
+      "number": 2,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "141f7ce3508d5260aa9ec2c53ec77502e11ae1c020daa3f90ff06af0224de221",
+      "cap_box": [
+        1051,
+        567,
+        1069,
+        583
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R08_t080_s3",
+      "frame": "R08_t080",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p4",
+      "person_box": [
+        1547.4219970703125,
+        583.677001953125,
+        1620.101806640625,
+        624.2772216796875
+      ],
+      "number": 5,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "141f7ce3508d5260aa9ec2c53ec77502e11ae1c020daa3f90ff06af0224de221",
+      "cap_box": [
+        1558,
+        583,
+        1578,
+        600
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R08_t070_s1",
+      "frame": "R08_t070",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p14",
+      "person_box": [
+        1516.076904296875,
+        245.54684448242188,
+        1587.232666015625,
+        350.4847412109375
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b39352a049f7b20c55135312079362dbdc946d8d35b2615961a7fa856fb6e2b7",
+      "cap_box": [
+        1521,
+        245,
+        1553,
+        268
+      ],
+      "face_box": [
+        1523,
+        269,
+        1553,
+        284
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R08_t070_s2",
+      "frame": "R08_t070",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p9",
+      "person_box": [
+        1045.41357421875,
+        214.39242553710938,
+        1125.2315673828125,
+        300.34783935546875
+      ],
+      "number": 9,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b39352a049f7b20c55135312079362dbdc946d8d35b2615961a7fa856fb6e2b7",
+      "cap_box": [
+        1062,
+        214,
+        1095,
+        240
+      ],
+      "face_box": [
+        1065,
+        241,
+        1095,
+        254
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R08_t070_s3",
+      "frame": "R08_t070",
+      "race": "R08",
+      "split": "evaluation",
+      "view": "corner_front",
+      "person_id": "p7",
+      "person_box": [
+        919.0897827148438,
+        340.11053466796875,
+        1013.3804321289062,
+        509.24188232421875
+      ],
+      "number": 6,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b39352a049f7b20c55135312079362dbdc946d8d35b2615961a7fa856fb6e2b7",
+      "cap_box": [
+        940,
+        338,
+        971,
+        369
+      ],
+      "face_box": [
+        941,
+        370,
+        970,
+        387
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t030_s1",
+      "frame": "R09_t030",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        180.5138702392578,
+        288.9980163574219,
+        240.2748260498047,
+        365.5468444824219
+      ],
+      "number": 8,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "92f89dee60a334177d644c24abe416d923e1b425ae43830dc74015b1df7855b4",
+      "cap_box": [
+        216,
+        290,
+        236,
+        315
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t030_s2",
+      "frame": "R09_t030",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p3",
+      "person_box": [
+        502.1649169921875,
+        311.5170593261719,
+        574.1903076171875,
+        388.0142517089844
+      ],
+      "number": 3,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "92f89dee60a334177d644c24abe416d923e1b425ae43830dc74015b1df7855b4",
+      "cap_box": [
+        555,
+        311,
+        574,
+        330
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t030_s3",
+      "frame": "R09_t030",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p7",
+      "person_box": [
+        1509.4556884765625,
+        521.57421875,
+        1575.4144287109375,
+        606.6624145507812
+      ],
+      "number": 0,
+      "label_status": "unresolved_draft",
+      "note": "Dark cap; black versus brown unresolved in this small side frame.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "92f89dee60a334177d644c24abe416d923e1b425ae43830dc74015b1df7855b4",
+      "cap_box": [
+        1561,
+        521,
+        1577,
+        541
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t020_s1",
+      "frame": "R09_t020",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p2",
+      "person_box": [
+        554.8046875,
+        184.1361083984375,
+        696.4037475585938,
+        338.63916015625
+      ],
+      "number": 2,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "40fc712bdb45851c4ade1fb7bbb7a6f1a550e030aeb75db1025962760f978093",
+      "cap_box": [
+        606,
+        189,
+        655,
+        246
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t020_s2",
+      "frame": "R09_t020",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p3",
+      "person_box": [
+        701.5270385742188,
+        256.03668212890625,
+        884.6080932617188,
+        535.7516479492188
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "40fc712bdb45851c4ade1fb7bbb7a6f1a550e030aeb75db1025962760f978093",
+      "cap_box": [
+        832,
+        255,
+        882,
+        295
+      ],
+      "face_box": [
+        834,
+        296,
+        877,
+        321
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R09_t020_s3",
+      "frame": "R09_t020",
+      "race": "R09",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p6",
+      "person_box": [
+        1014.6207275390625,
+        232.35714721679688,
+        1157.0494384765625,
+        479.00531005859375
+      ],
+      "number": 1,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "40fc712bdb45851c4ade1fb7bbb7a6f1a550e030aeb75db1025962760f978093",
+      "cap_box": [
+        1060,
+        232,
+        1123,
+        282
+      ],
+      "face_box": [
+        1065,
+        283,
+        1118,
+        305
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t020_s1",
+      "frame": "R10_t020",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p0",
+      "person_box": [
+        133.07894897460938,
+        213.07614135742188,
+        370.5623474121094,
+        535.3253173828125
+      ],
+      "number": 10,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1d8a8b3b9f4aaff3a48208af75b5ab29995aa3b87384117b82e6515df43d9b3f",
+      "cap_box": [
+        290,
+        213,
+        356,
+        281
+      ],
+      "face_box": [
+        292,
+        282,
+        351,
+        314
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t020_s2",
+      "frame": "R10_t020",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p2",
+      "person_box": [
+        491.1769714355469,
+        230.62435913085938,
+        668.3302612304688,
+        541.656494140625
+      ],
+      "number": 7,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1d8a8b3b9f4aaff3a48208af75b5ab29995aa3b87384117b82e6515df43d9b3f",
+      "cap_box": [
+        591,
+        229,
+        669,
+        287
+      ],
+      "face_box": [
+        605,
+        288,
+        658,
+        319
+      ],
+      "torso_box": [
+        542,
+        296,
+        608,
+        362
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t020_s3",
+      "frame": "R10_t020",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "side",
+      "person_id": "p4",
+      "person_box": [
+        1102.1982421875,
+        243.3060760498047,
+        1293.747314453125,
+        533.692138671875
+      ],
+      "number": 3,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "1d8a8b3b9f4aaff3a48208af75b5ab29995aa3b87384117b82e6515df43d9b3f",
+      "cap_box": [
+        1205,
+        243,
+        1281,
+        303
+      ],
+      "face_box": [
+        1208,
+        304,
+        1274,
+        344
+      ],
+      "torso_box": [
+        1147,
+        323,
+        1207,
+        381
+      ],
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t060_s1",
+      "frame": "R10_t060",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p4",
+      "person_box": [
+        636.8258056640625,
+        411.9914245605469,
+        748.992431640625,
+        603.1242065429688
+      ],
+      "number": 11,
+      "label_status": "assistant_draft",
+      "note": "Blue-white stripe draft, shadow versus stripe requires review.",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b362b3c7a8ad27125bf5985634e3f0ebaa8b569000bc4548329315dd5703e20a",
+      "cap_box": [
+        688,
+        413,
+        727,
+        450
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t060_s2",
+      "frame": "R10_t060",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p5",
+      "person_box": [
+        727.5538330078125,
+        168.61679077148438,
+        799.0772705078125,
+        334.62225341796875
+      ],
+      "number": 4,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b362b3c7a8ad27125bf5985634e3f0ebaa8b569000bc4548329315dd5703e20a",
+      "cap_box": [
+        745,
+        171,
+        777,
+        205
+      ],
+      "face_box": [
+        748,
+        206,
+        775,
+        222
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "R10_t060_s3",
+      "frame": "R10_t060",
+      "race": "R10",
+      "split": "evaluation",
+      "view": "straight_front",
+      "person_id": "p7",
+      "person_box": [
+        891.6834716796875,
+        367.0193176269531,
+        966.3084106445312,
+        480.3488464355469
+      ],
+      "number": 9,
+      "label_status": "assistant_draft",
+      "note": "",
+      "coordinate_status": "assistant rectangle draft, not human-verified segmentation",
+      "image_sha256": "b362b3c7a8ad27125bf5985634e3f0ebaa8b569000bc4548329315dd5703e20a",
+      "cap_box": [
+        919,
+        367,
+        955,
+        398
+      ],
+      "face_box": [
+        920,
+        399,
+        953,
+        414
+      ],
+      "torso_box": null,
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_G",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p6",
+      "person_box": [
+        654.8895263671875,
+        467.397216796875,
+        725.6221313476562,
+        580.9393920898438
+      ],
+      "number": 9,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        691,
+        466,
+        725,
+        499
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "ac7c7f8b7efbb67fdfe484662e39e761074cff0490851b357296fa60888ac43d",
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_H",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p4",
+      "person_box": [
+        566.6604614257812,
+        388.6912536621094,
+        631.82275390625,
+        498.7001037597656
+      ],
+      "number": 1,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        587,
+        389,
+        616,
+        413
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "7d9230d664a686f14f45197772ba796b88d8e1f1a8f624fa4ba2c1cf0a00cd22",
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_I",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p2",
+      "person_box": [
+        448.85797119140625,
+        343.5646057128906,
+        528.8921508789062,
+        464.141845703125
+      ],
+      "number": 2,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        475,
+        344,
+        501,
+        370
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "2c4638f13bd810c6a72a20fe7df5c18b3458a10dd6af4c6ac7f1d7aa30c0b51b",
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_J",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p0",
+      "person_box": [
+        344.338623046875,
+        356.0736083984375,
+        409.31707763671875,
+        445.0782470703125
+      ],
+      "number": 10,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        362,
+        354,
+        390,
+        386
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "11b33c8e20e46b15f4c81c44c9e9a594f22c4a1f32cb112ae4b346cdf50d8898",
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_K",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p5",
+      "person_box": [
+        651.6340942382812,
+        334.34307861328125,
+        719.2293090820312,
+        431.7261657714844
+      ],
+      "number": 5,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        682,
+        330,
+        707,
+        356
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "27cac33d70fb427cda91ddedce8225902cae2093d4c78dde6f94e774e8c7d9ec",
+      "cap_box_reliability": "draft_rectangle"
+    },
+    {
+      "id": "HUMAN_L",
+      "frame": "HUMAN_t038_5",
+      "race": "20261010_R10",
+      "split": "human_check",
+      "view": "corner_front",
+      "person_id": "p1",
+      "person_box": [
+        448.0777282714844,
+        211.04598999023438,
+        509.7469787597656,
+        323.74700927734375
+      ],
+      "number": 11,
+      "label_status": "human_confirmed_colour_only",
+      "cap_box": [
+        473,
+        209,
+        497,
+        233
+      ],
+      "face_box": null,
+      "torso_box": null,
+      "coordinate_status": "original displayed crop; colour/number human confirmed, precise box segmentation not human confirmed",
+      "image_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+      "source_sample": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/samples.json",
+      "source_crop_sha256": "7b046c014a9b749e6462379734e2a9879fd4e77a424f4ad751af93765020252f",
+      "cap_box_reliability": "draft_rectangle"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "pid": 2061461,
+  "command": [
+    "/home/ohead/ai-workspace/.venv/bin/python",
+    "-u",
+    "-c",
+    "import subprocess,sys; subprocess.run([sys.executable,\"code/extract_tracking.py\"],check=True); subprocess.run([sys.executable,\"code/detect.py\",\"--manifest\",\"tracking_frame_manifest.json\",\"--out\",\"tracking_detector\"],check=True); subprocess.run([sys.executable,\"code/tracking.py\"],check=True)"
+  ]
+}

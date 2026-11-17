@@ -1,0 +1,211 @@
+11월 16 20:32:53 ohead-Precision-7920-Tower ollama[937931]: time=2026-11-16T20:32:53.863+09:00 level=INFO source=llama_server.go:433 msg="starting llama-server" cmd="/home/ohead/.local/lib/ollama/llama-server --model /home/ohead/.ollama/models/blobs/sha256-dec52a44569a2a25341c4e4d3fee25846eed4f6f0b936278e3a3c900bb99d37c --port 39615 --host 127.0.0.1 --no-webui --offline -c 32768 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --no-jinja --chat-template chatml --mmproj /home/ohead/.ollama/models/blobs/sha256-dec52a44569a2a25341c4e4d3fee25846eed4f6f0b936278e3a3c900bb99d37c --flash-attn auto -b 1024 -ub 1024 --context-shift --keep 4"
+11월 16 20:32:54 ohead-Precision-7920-Tower ollama[937931]: cmn  common_param: system_info: n_threads = 16 (n_threads_batch = 16) / 32 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VNNI = 1 | LLAMAFILE = 1 | REPACK = 1 | CUDA : ARCHS = 750,800,860,870,890,900,1000,1030,1100,1200,1210 | USE_GRAPHS = 1 |
+11월 16 20:32:54 ohead-Precision-7920-Tower ollama[937931]: handle_qwen35_like_clip: detected Ollama-format qwen35 GGUF used as mmproj; translating
+11월 16 20:32:54 ohead-Precision-7920-Tower ollama[937931]: srv    load_model: [mtmd] estimated worst-case memory usage of mmproj is 1286.40 MiB (took 156.48 ms)
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv   9:                    qwen35.embedding_length u32              = 4096
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  12:                      qwen35.image_token_id u32              = 248056
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  24:         qwen35.vision.attention.head_count u32              = 16
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  25:                  qwen35.vision.block_count u32              = 27
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  26:     qwen35.vision.deepstack_visual_indexes arr[i32,0]       = []
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  27:             qwen35.vision.embedding_length u32              = 1152
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  28:                   qwen35.vision.image_mean arr[f32,3]       = [0.500000, 0.500000, 0.500000]
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  29:                    qwen35.vision.image_std arr[f32,3]       = [0.500000, 0.500000, 0.500000]
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  30:                 qwen35.vision.longest_edge u32              = 16777216
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  31:                 qwen35.vision.num_channels u32              = 3
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  32:                   qwen35.vision.patch_size u32              = 16
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  33:                qwen35.vision.shortest_edge u32              = 65536
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  34:           qwen35.vision.spatial_merge_size u32              = 2
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  35:          qwen35.vision.temporal_patch_size u32              = 2
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  36:                 qwen35.vision_end_token_id u32              = 248054
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  37:               qwen35.vision_start_token_id u32              = 248053
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  38:                    tokenizer.chat_template str              = {%- set image_count = namespace(value...
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  39:               tokenizer.ggml.add_eos_token bool             = false
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  40:           tokenizer.ggml.add_padding_token bool             = false
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  41:                tokenizer.ggml.eos_token_id u32              = 248046
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  42:                      tokenizer.ggml.merges arr[str,247587]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  43:                       tokenizer.ggml.model str              = gpt2
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  44:            tokenizer.ggml.padding_token_id u32              = 248044
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  45:                         tokenizer.ggml.pre str              = qwen35
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  46:                      tokenizer.ggml.scores arr[f32,248320]  = [0.000000, 1.000000, 2.000000, 3.0000...
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  47:                  tokenizer.ggml.token_type arr[i32,248320]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: llama_model_loader: - kv  48:                      tokenizer.ggml.tokens arr[str,248320]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248064 '<|repo_name|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248061 '<|fim_middle|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248065 '<|file_sep|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248060 '<|fim_prefix|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248062 '<|fim_suffix|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: control-looking token: 248063 '<|fim_pad|>' was not control-type; this is probably a bug in the model. its type will be overridden
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: 0 unused tokens
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: printing all EOG tokens:
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: special tokens cache size = 276
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: load: token to piece cache size = 1.7598 MB
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: BOS token             = 11 ','
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOS token             = 248046 '<|im_end|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOT token             = 248046 '<|im_end|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: PAD token             = 248044 '<|endoftext|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: LF token              = 198 'Ċ'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM PRE token         = 248060 '<|fim_prefix|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM SUF token         = 248062 '<|fim_suffix|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM MID token         = 248061 '<|fim_middle|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM PAD token         = 248063 '<|fim_pad|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM REP token         = 248064 '<|repo_name|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: FIM SEP token         = 248065 '<|file_sep|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOG token             = 248044 '<|endoftext|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOG token             = 248046 '<|im_end|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOG token             = 248063 '<|fim_pad|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOG token             = 248064 '<|repo_name|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: EOG token             = 248065 '<|file_sep|>'
+11월 16 20:32:55 ohead-Precision-7920-Tower ollama[937931]: print_info: max token length      = 256
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: llama_context: n_batch               = 1024
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: llama_context: n_ubatch              = 1024
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: handle_qwen35_like_clip: detected Ollama-format qwen35 GGUF used as mmproj; translating
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: clip_model_loader: has vision encoder
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: load_hparams: Qwen-VL models require at minimum 1024 image tokens to function correctly on grounding tasks
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: load_hparams: if you encounter problems with accuracy, try adding --image-min-tokens 1024
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: --- vision hparams ---
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: load_hparams: image_size:         768
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: load_hparams: image_min_pixels:   8192
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: load_hparams: image_max_pixels:   4194304
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: compat tensor transform: op=patch_embed slice 0 (permute+F16->F32) tensor=v.patch_embd.weight bytes=3538944 duration_ms=4.094 total_ops=1 total_bytes=3538944 total_ms=4.094
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: compat tensor transform: op=patch_embed slice 1 (permute+F16->F32) tensor=v.patch_embd.weight.1 bytes=3538944 duration_ms=2.998 total_ops=2 total_bytes=7077888 total_ms=7.092
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: get_dummy_batch: warmup with image size = 1472 x 1472
+11월 16 20:32:56 ohead-Precision-7920-Tower ollama[937931]: get_dummy_batch: warmup with image size = 1472 x 1472
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: time=2026-11-16T20:32:57.365+09:00 level=INFO source=images.go:381 msg="template selection" model=registry.ollama.ai/library/qwen3.5:9b selected=renderer_parser renderer=qwen3.5 parser=qwen3.5 go_template=null chat_template="[tools thinking completion vision]" harmony=null renderer_parser="[completion vision tools thinking]"
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: srv        update:  - cache state: 0 prompts, 0.000 MiB (limits: 8192.000 MiB, 32768 tokens, 8589934592 est)
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 32768, n_keep = 4, task.n_tokens = 6211
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 585, memory_seq_rm [585, end)
+11월 16 20:32:57 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 585, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 585 after 584 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 585 after 584 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 624 after 585 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 624 after 585 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 937, memory_seq_rm [625, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 937, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 625 after 624 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 625 after 624 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 25 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 664 after 625 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 664 after 625 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 1289, memory_seq_rm [665, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 1289, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 665 after 664 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 665 after 664 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 704 after 665 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 704 after 665 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 1641, memory_seq_rm [705, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 1641, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 705 after 704 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 705 after 704 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 744 after 705 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 744 after 705 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 1993, memory_seq_rm [745, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 1993, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 745 after 744 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 745 after 744 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 784 after 745 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 784 after 745 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 2345, memory_seq_rm [785, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 2345, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 785 after 784 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 785 after 784 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 824 after 785 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 824 after 785 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 2697, memory_seq_rm [825, end)
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 2697, n_chunks = 1
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 825 after 824 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 825 after 824 for sequence 0 with 336 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 864 after 825 for sequence 0 with 16 new tokens
+11월 16 20:32:58 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 864 after 825 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 3049, memory_seq_rm [865, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 3049, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 865 after 864 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 865 after 864 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 904 after 865 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 904 after 865 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 3401, memory_seq_rm [905, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 3401, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 905 after 904 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 905 after 904 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 944 after 905 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 944 after 905 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 3753, memory_seq_rm [945, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 3753, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 945 after 944 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 945 after 944 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 984 after 945 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 984 after 945 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 4105, memory_seq_rm [985, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 4105, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 985 after 984 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 985 after 984 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1024 after 985 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1024 after 985 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 4457, memory_seq_rm [1025, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 4457, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1025 after 1024 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1025 after 1024 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1064 after 1025 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1064 after 1025 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 4809, memory_seq_rm [1065, end)
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 4809, n_chunks = 1
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1065 after 1064 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1065 after 1064 for sequence 0 with 336 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1104 after 1065 for sequence 0 with 16 new tokens
+11월 16 20:32:59 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1104 after 1065 for sequence 0 with 16 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 5161, memory_seq_rm [1105, end)
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 5161, n_chunks = 1
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1105 after 1104 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1105 after 1104 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 23 ms
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1144 after 1105 for sequence 0 with 16 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1144 after 1105 for sequence 0 with 16 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 5513, memory_seq_rm [1145, end)
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 5513, n_chunks = 1
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1145 after 1144 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1145 after 1144 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1184 after 1145 for sequence 0 with 16 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1184 after 1145 for sequence 0 with 16 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 5865, memory_seq_rm [1185, end)
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot process_mtmd: id  0 | task 0 | encoding mtmd batch from idx = 5865, n_chunks = 1
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: decoding image batch 1/1, n_tokens_batch = 336
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1185 after 1184 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1185 after 1184 for sequence 0 with 336 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: image decoded (batch 1/1) in 24 ms
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1214 after 1185 for sequence 0 with 6 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: find_slot: non-consecutive token position 1214 after 1185 for sequence 0 with 6 new tokens
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot   operator(): id  0 | task 0 | cached n_tokens = 6207, memory_seq_rm [1215, end)
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot init_sampler: id  0 | task 0 | init sampler, took 0.35 ms, tokens: text = 835, total = 6211
+11월 16 20:33:00 ohead-Precision-7920-Tower ollama[937931]: slot create_check: id  0 | task 0 | created context checkpoint 1 of 32 (pos_min = 1214, pos_max = 1214, n_tokens = 6207, size = 50.251 MiB)
+11월 16 20:33:01 ohead-Precision-7920-Tower ollama[937931]: slot print_timing: id  0 | task 0 | prompt eval time =    2986.94 ms /  6211 tokens (    0.48 ms per token,  2079.38 tokens per second)
+11월 16 20:33:01 ohead-Precision-7920-Tower ollama[937931]: slot print_timing: id  0 | task 0 |        eval time =     360.85 ms /    41 tokens (    9.02 ms per token,   110.85 tokens per second)
+11월 16 20:33:01 ohead-Precision-7920-Tower ollama[937931]: slot print_timing: id  0 | task 0 |       total time =    3347.79 ms /  6252 tokens
+11월 16 20:33:01 ohead-Precision-7920-Tower ollama[937931]: slot      release: id  0 | task 0 | stop processing: n_tokens = 6251, truncated = 0

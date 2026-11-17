@@ -1,0 +1,143 @@
+{
+  "video": "candidate_20261010_R10.mp4",
+  "model": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "endpoint": "http://127.0.0.1:11435",
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 32768,
+    "num_predict": 256,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "racecard": [
+    {
+      "no": 1,
+      "name_en": "Jeongwangseokhwa",
+      "name_ko": "전광석화",
+      "jockey_en": "Da Silva",
+      "cap": "white"
+    },
+    {
+      "no": 2,
+      "name_en": "Raon Final",
+      "name_ko": "라온파이널",
+      "jockey_en": "Choi Bum Hyun",
+      "cap": "yellow"
+    },
+    {
+      "no": 3,
+      "name_en": "Eunbit Yuhok",
+      "name_ko": "은빛유혹",
+      "jockey_en": "Kim Jung Joon",
+      "cap": "red"
+    },
+    {
+      "no": 4,
+      "name_en": "Cyclone Star",
+      "name_ko": "사이클론스타",
+      "jockey_en": "Song Jae Chul",
+      "cap": "black"
+    },
+    {
+      "no": 5,
+      "name_en": "Cheongsan Dolpung",
+      "name_ko": "청산돌풍",
+      "jockey_en": "Lim Gi Won",
+      "cap": "blue"
+    },
+    {
+      "no": 6,
+      "name_en": "Purple Sinhwa",
+      "name_ko": "퍼플신화",
+      "jockey_en": "Kim Tae Hui",
+      "cap": "green"
+    },
+    {
+      "no": 7,
+      "name_en": "Byeoksong",
+      "name_ko": "벽송",
+      "jockey_en": "Kim Seong Hyeon",
+      "cap": "brown (maroon)"
+    },
+    {
+      "no": 8,
+      "name_en": "Geosen Daero",
+      "name_ko": "거센대로",
+      "jockey_en": "Lee Hyeok",
+      "cap": "pink"
+    },
+    {
+      "no": 9,
+      "name_en": "Duson Eutteum",
+      "name_ko": "두손으뜸",
+      "jockey_en": "Lim Da Bin",
+      "cap": "purple"
+    },
+    {
+      "no": 10,
+      "name_en": "Love O Mine",
+      "name_ko": "러브오마인",
+      "jockey_en": "Kim Yong Geun",
+      "cap": "sky blue"
+    },
+    {
+      "no": 11,
+      "name_en": "G Flex",
+      "name_ko": "지플렉스",
+      "jockey_en": "Seo Seung Un",
+      "cap": "sky blue and white vertical stripes"
+    }
+  ],
+  "shuffle_order": [
+    7,
+    3,
+    11,
+    2,
+    10,
+    6,
+    1,
+    8,
+    4,
+    9,
+    5
+  ],
+  "fixed_facts": [
+    "The total race distance is 1200 metres.",
+    "Eleven runners are entered in this race.",
+    "The racecard gives each runner's number, name, cap colour and jockey."
+  ],
+  "scenes": [
+    {
+      "scene": "S1_early",
+      "evaluation_video_seconds": 15.0,
+      "difficulty_provisional": "ambiguous early positions / split screen"
+    },
+    {
+      "scene": "S2_bend",
+      "evaluation_video_seconds": 39.0,
+      "difficulty_provisional": "clear leader identity"
+    },
+    {
+      "scene": "S3_wide",
+      "evaluation_video_seconds": 46.0,
+      "difficulty_provisional": "ambiguous identity in wide shot"
+    },
+    {
+      "scene": "S4_straight",
+      "evaluation_video_seconds": 56.0,
+      "difficulty_provisional": "clear leader identity"
+    }
+  ],
+  "notes": [
+    "English names are experiment transliterations/aliases, not independently verified official English spellings.",
+    "Runner numbers, Korean names and jockey mappings checked against KRA official page.",
+    "Cap mapping from supplied ON-AIR document, cross-checked visually against saddles/caps in this video.",
+    "Going and weather omitted: only retrospective source found, no pre-race provenance.",
+    "All clear leader examples are No.9; original different-leader scene requirement cannot be met with available material."
+  ]
+}

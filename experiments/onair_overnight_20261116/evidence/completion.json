@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-11-16T16:01:57.413457+00:00",
+  "model_generations": 97,
+  "integrity_checks_passed": 688,
+  "batch_processes": [
+    {
+      "pid": 2050329,
+      "still_present": false,
+      "command": null
+    },
+    {
+      "pid": 2051507,
+      "still_present": false,
+      "command": null
+    }
+  ],
+  "gpu_at_completion": "NVIDIA GeForce RTX 3090, 381 MiB, 24576 MiB, 0 %",
+  "state": "completed; no research job scheduled to continue until 09:00",
+  "human_review": "pending; new reference annotations are assistant drafts",
+  "next_review_kst": "2026-11-17 09:00:00+09:00"
+}

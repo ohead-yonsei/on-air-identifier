@@ -1,0 +1,72 @@
+[
+  {
+    "frame_index": 981,
+    "pts": 32.733333,
+    "mad": 0.23183630406856537,
+    "hist_bhattacharyya": 0.3958096853625528,
+    "candidate": true,
+    "before_pts": 32.7,
+    "file": "review/cuts/cut1.jpg",
+    "sha256": "2d7815cfcfb1ef924e4770bd3adf5c81093d5ef9f79dc565f40d8b6545e3ba69"
+  },
+  {
+    "frame_index": 1291,
+    "pts": 43.066667,
+    "mad": 0.23579208552837372,
+    "hist_bhattacharyya": 0.719774226832836,
+    "candidate": true,
+    "before_pts": 43.033333,
+    "file": "review/cuts/cut2.jpg",
+    "sha256": "9e80d107379009c0cdda2b9b8d81b08cb46606cc22864556a3ac4d429389d8cf"
+  },
+  {
+    "frame_index": 1347,
+    "pts": 44.933333,
+    "mad": 0.04018529877066612,
+    "hist_bhattacharyya": 0.5472326581412374,
+    "candidate": true,
+    "before_pts": 44.9,
+    "file": "review/cuts/cut3.jpg",
+    "sha256": "8195fbd553fdf6436c4ca6d96e787cdd8b137ed2be106083c7158382c7322f42"
+  },
+  {
+    "frame_index": 2513,
+    "pts": 83.8,
+    "mad": 0.24545066058635712,
+    "hist_bhattacharyya": 0.4787096857887341,
+    "candidate": true,
+    "before_pts": 83.766667,
+    "file": "review/cuts/cut4.jpg",
+    "sha256": "b3738a9e310a5daa10950669a0d8143f366b54dfb63b0618dc8cb27d49d87edd"
+  },
+  {
+    "frame_index": 2750,
+    "pts": 91.7,
+    "mad": 0.24209150671958923,
+    "hist_bhattacharyya": 0.661104647033698,
+    "candidate": true,
+    "before_pts": 91.666667,
+    "file": "review/cuts/cut5.jpg",
+    "sha256": "b6a865db62cd561878278691f8f1a6f968dd6d2c78143d7233e019a44e0951c3"
+  },
+  {
+    "frame_index": 2948,
+    "pts": 98.3,
+    "mad": 0.18173114955425262,
+    "hist_bhattacharyya": 0.4364565742433322,
+    "candidate": true,
+    "before_pts": 98.266667,
+    "file": "review/cuts/cut6.jpg",
+    "sha256": "086adda009119a18ec616f7c84fe93aff4bce48fdd75bef6bc8ea416901d5eb2"
+  },
+  {
+    "frame_index": 2996,
+    "pts": 99.9,
+    "mad": 0.1910611242055893,
+    "hist_bhattacharyya": 0.7243754384091314,
+    "candidate": true,
+    "before_pts": 99.866667,
+    "file": "review/cuts/cut7.jpg",
+    "sha256": "dad3c8bfa7fc1d0201db6aedb38a45ec438e0c9319246470ebb5f089d7ceab01"
+  }
+]

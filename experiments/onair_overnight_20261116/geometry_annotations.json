@@ -1,0 +1,1183 @@
+{
+  "status": "assistant visual reference frozen after enlarged image inspection, before new algorithm/model output review; not user/expert confirmed",
+  "coordinate_system": "source1280x720 pixels, x right,y down",
+  "selection_note": "3 visually traceable noses per new frame; all11 manually estimated cap centers; no full-field gold rank",
+  "nose_error_probe_pixels": 5,
+  "cap_error_probe_pixels": 2,
+  "user_confirmation": "none for these new frames",
+  "leader_reference": "purple cap9 appears ahead by visual review, provisional; no official results used",
+  "frames": [
+    {
+      "id": "t031",
+      "pts": 31.0,
+      "file": "frames/t031.00.jpg",
+      "view": "oblique_front",
+      "direction": [
+        1,
+        0.4
+      ],
+      "source_sha256": "701fda8921c35f6ec5362e5a68b50fd0f1abef3a1108bcf152b4a3d1a45ced5d",
+      "caps": [
+        {
+          "id": "t31_c9",
+          "center": [
+            970,
+            427
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c1",
+          "center": [
+            839,
+            381
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c2",
+          "center": [
+            742,
+            361
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c3",
+          "center": [
+            343,
+            137
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c4",
+          "center": [
+            244,
+            114
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c5",
+          "center": [
+            692,
+            330
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c6",
+          "center": [
+            388,
+            199
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c7",
+          "center": [
+            543,
+            319
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c8",
+          "center": [
+            167,
+            113
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c10",
+          "center": [
+            648,
+            360
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t31_c11",
+          "center": [
+            376,
+            269
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t31_n0",
+          "point": [
+            998,
+            480
+          ],
+          "reference_cap_id": "t31_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t31_n1",
+          "point": [
+            877,
+            448
+          ],
+          "reference_cap_id": "t31_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t31_n2",
+          "point": [
+            384,
+            315
+          ],
+          "reference_cap_id": "t31_c11",
+          "reference_number": 11,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    },
+    {
+      "id": "t034",
+      "pts": 34.0,
+      "file": "frames/t034.00.jpg",
+      "view": "side",
+      "direction": [
+        -1,
+        0.4
+      ],
+      "source_sha256": "5b136b8379bffeeb024ab3edc9b3cd4250d83ffad2b717e8ef612225904e8de1",
+      "caps": [
+        {
+          "id": "t34_c9",
+          "center": [
+            200,
+            415
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c1",
+          "center": [
+            312,
+            383
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c2",
+          "center": [
+            295,
+            371
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c3",
+          "center": [
+            1165,
+            270
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c4",
+          "center": [
+            1186,
+            246
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c5",
+          "center": [
+            483,
+            364
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c6",
+          "center": [
+            906,
+            298
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c7",
+          "center": [
+            444,
+            347
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c8",
+          "center": [
+            1101,
+            249
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c10",
+          "center": [
+            262,
+            367
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t34_c11",
+          "center": [
+            557,
+            319
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t34_n0",
+          "point": [
+            177,
+            457
+          ],
+          "reference_cap_id": "t34_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t34_n1",
+          "point": [
+            294,
+            437
+          ],
+          "reference_cap_id": "t34_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t34_n2",
+          "point": [
+            475,
+            415
+          ],
+          "reference_cap_id": "t34_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    },
+    {
+      "id": "t037",
+      "pts": 37.0,
+      "file": "frames/t037.00.jpg",
+      "view": "front",
+      "direction": [
+        -0.2,
+        1
+      ],
+      "source_sha256": "a74898efc14b24814b172f2bc96b2cea51a3adfb6b5bb1d0ae7780f33201b4cd",
+      "caps": [
+        {
+          "id": "t37_c9",
+          "center": [
+            465,
+            448
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c1",
+          "center": [
+            428,
+            383
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c2",
+          "center": [
+            386,
+            364
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c3",
+          "center": [
+            998,
+            187
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c4",
+          "center": [
+            1058,
+            145
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c5",
+          "center": [
+            585,
+            350
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c6",
+          "center": [
+            866,
+            232
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c7",
+          "center": [
+            535,
+            309
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c8",
+          "center": [
+            909,
+            168
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c10",
+          "center": [
+            321,
+            364
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t37_c11",
+          "center": [
+            524,
+            262
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t37_n0",
+          "point": [
+            465,
+            515
+          ],
+          "reference_cap_id": "t37_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t37_n1",
+          "point": [
+            430,
+            451
+          ],
+          "reference_cap_id": "t37_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t37_n2",
+          "point": [
+            568,
+            424
+          ],
+          "reference_cap_id": "t37_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    },
+    {
+      "id": "t040",
+      "pts": 40.0,
+      "file": "frames/t040.00.jpg",
+      "view": "front",
+      "direction": [
+        0.3,
+        1
+      ],
+      "source_sha256": "f318a0729f5989600f8fca5b9556caa767fdf4b7be773c0822cce63056dc16d8",
+      "caps": [
+        {
+          "id": "t40_c9",
+          "center": [
+            902,
+            480
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c1",
+          "center": [
+            686,
+            411
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c2",
+          "center": [
+            545,
+            360
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c3",
+          "center": [
+            551,
+            127
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c4",
+          "center": [
+            500,
+            70
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c5",
+          "center": [
+            694,
+            339
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c6",
+          "center": [
+            567,
+            183
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c7",
+          "center": [
+            515,
+            280
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c8",
+          "center": [
+            466,
+            111
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c10",
+          "center": [
+            452,
+            363
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t40_c11",
+          "center": [
+            380,
+            212
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t40_n0",
+          "point": [
+            915,
+            550
+          ],
+          "reference_cap_id": "t40_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t40_n1",
+          "point": [
+            704,
+            512
+          ],
+          "reference_cap_id": "t40_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": [
+        {
+          "id": "t40_n2",
+          "point": [
+            695,
+            401
+          ],
+          "reference_cap_id": "t40_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association",
+          "reason": "muzzle boundary too occluded/blurred near another rider to use as a scored nose; excluded during pre-evaluation image review"
+        }
+      ]
+    },
+    {
+      "id": "t042",
+      "pts": 42.0,
+      "file": "frames/t042.00.jpg",
+      "view": "side",
+      "direction": [
+        1,
+        0.5
+      ],
+      "source_sha256": "db5178b3d92427e920cb959c0b97086b69a0d00a20fdfae5da0cd2466c33fd3d",
+      "caps": [
+        {
+          "id": "t42_c9",
+          "center": [
+            1078,
+            489
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c1",
+          "center": [
+            798,
+            435
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c2",
+          "center": [
+            617,
+            390
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c3",
+          "center": [
+            281,
+            201
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c4",
+          "center": [
+            176,
+            155
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c5",
+          "center": [
+            688,
+            379
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c6",
+          "center": [
+            368,
+            252
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c7",
+          "center": [
+            456,
+            328
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c8",
+          "center": [
+            219,
+            201
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c10",
+          "center": [
+            572,
+            398
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t42_c11",
+          "center": [
+            288,
+            267
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t42_n0",
+          "point": [
+            1114,
+            544
+          ],
+          "reference_cap_id": "t42_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t42_n1",
+          "point": [
+            835,
+            504
+          ],
+          "reference_cap_id": "t42_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t42_n2",
+          "point": [
+            712,
+            437
+          ],
+          "reference_cap_id": "t42_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    },
+    {
+      "id": "t048",
+      "pts": 48.0,
+      "file": "frames/t048.00.jpg",
+      "view": "front",
+      "direction": [
+        -0.2,
+        1
+      ],
+      "source_sha256": "07c090c74dd7f6cbc52055661772f20d28a75f32ba657c349709297997813d91",
+      "caps": [
+        {
+          "id": "t48_c9",
+          "center": [
+            420,
+            399
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c1",
+          "center": [
+            372,
+            345
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c2",
+          "center": [
+            439,
+            310
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c3",
+          "center": [
+            1093,
+            194
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c4",
+          "center": [
+            1025,
+            182
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c5",
+          "center": [
+            562,
+            330
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c6",
+          "center": [
+            765,
+            248
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c7",
+          "center": [
+            642,
+            275
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c8",
+          "center": [
+            864,
+            199
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c10",
+          "center": [
+            373,
+            303
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t48_c11",
+          "center": [
+            634,
+            242
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t48_n0",
+          "point": [
+            409,
+            476
+          ],
+          "reference_cap_id": "t48_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t48_n1",
+          "point": [
+            365,
+            418
+          ],
+          "reference_cap_id": "t48_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t48_n2",
+          "point": [
+            551,
+            411
+          ],
+          "reference_cap_id": "t48_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    },
+    {
+      "id": "t052",
+      "pts": 52.0,
+      "file": "frames/t052.00.jpg",
+      "view": "front",
+      "direction": [
+        0.2,
+        1
+      ],
+      "source_sha256": "8574a8e6df51bd4bcc231ce6136227027f28d2a03bfdd97b0551ded0dd2b6e09",
+      "caps": [
+        {
+          "id": "t52_c9",
+          "center": [
+            515,
+            416
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c1",
+          "center": [
+            414,
+            375
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c2",
+          "center": [
+            400,
+            318
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c3",
+          "center": [
+            1076,
+            198
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c4",
+          "center": [
+            825,
+            207
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c5",
+          "center": [
+            550,
+            347
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c6",
+          "center": [
+            721,
+            280
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c7",
+          "center": [
+            589,
+            284
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c8",
+          "center": [
+            738,
+            230
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c10",
+          "center": [
+            234,
+            319
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t52_c11",
+          "center": [
+            499,
+            269
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t52_n0",
+          "point": [
+            514,
+            491
+          ],
+          "reference_cap_id": "t52_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t52_n1",
+          "point": [
+            413,
+            445
+          ],
+          "reference_cap_id": "t52_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": [
+        {
+          "id": "t52_n2",
+          "point": [
+            550,
+            411
+          ],
+          "reference_cap_id": "t52_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association",
+          "reason": "muzzle boundary too occluded/blurred near another rider to use as a scored nose; excluded during pre-evaluation image review"
+        }
+      ]
+    },
+    {
+      "id": "t058",
+      "pts": 58.0,
+      "file": "frames/t058.00.jpg",
+      "view": "oblique_front",
+      "direction": [
+        0.35,
+        1
+      ],
+      "source_sha256": "6be6c973957bd075c5c33751dd06a0f29fe0fa1d30b2855d236fd5ccfe6bf399",
+      "caps": [
+        {
+          "id": "t58_c9",
+          "center": [
+            1141,
+            388
+          ],
+          "display_number": 9,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c1",
+          "center": [
+            790,
+            321
+          ],
+          "display_number": 1,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c2",
+          "center": [
+            508,
+            291
+          ],
+          "display_number": 2,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c3",
+          "center": [
+            410,
+            177
+          ],
+          "display_number": 3,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c4",
+          "center": [
+            140,
+            190
+          ],
+          "display_number": 4,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c5",
+          "center": [
+            859,
+            323
+          ],
+          "display_number": 5,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c6",
+          "center": [
+            731,
+            248
+          ],
+          "display_number": 6,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c7",
+          "center": [
+            595,
+            263
+          ],
+          "display_number": 7,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c8",
+          "center": [
+            76,
+            217
+          ],
+          "display_number": 8,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c10",
+          "center": [
+            413,
+            287
+          ],
+          "display_number": 10,
+          "status": "assistant provisional"
+        },
+        {
+          "id": "t58_c11",
+          "center": [
+            260,
+            259
+          ],
+          "display_number": 11,
+          "status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t58_n0",
+          "point": [
+            1157,
+            440
+          ],
+          "reference_cap_id": "t58_c9",
+          "reference_number": 9,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t58_n1",
+          "point": [
+            806,
+            389
+          ],
+          "reference_cap_id": "t58_c1",
+          "reference_number": 1,
+          "status": "assistant provisional same-horse association"
+        },
+        {
+          "id": "t58_n2",
+          "point": [
+            878,
+            394
+          ],
+          "reference_cap_id": "t58_c5",
+          "reference_number": 5,
+          "status": "assistant provisional same-horse association"
+        }
+      ],
+      "leader_reference_number": 9,
+      "excluded_nose_annotations": []
+    }
+  ]
+}

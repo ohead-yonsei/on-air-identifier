@@ -1,0 +1,802 @@
+[
+  {
+    "scene": "S1_early",
+    "evaluation_video_seconds": 15.0,
+    "difficulty_provisional": "ambiguous early positions / split screen",
+    "video_file": "candidate_20261010_R10.mp4",
+    "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+    "source_time_origin": "container PTS in seconds; video first PTS 0.033333; no race-clock conversion used for scoring",
+    "window_start": 7.0,
+    "window_end_exclusive": 15.0,
+    "images_sent": 16,
+    "fps": 2,
+    "width": 768,
+    "audio_sent": false,
+    "mask_rectangles_at_768": [
+      [
+        0,
+        0,
+        150,
+        65
+      ],
+      [
+        0,
+        365,
+        768,
+        67
+      ]
+    ],
+    "ffmpeg_command": [
+      "ffmpeg",
+      "-nostdin",
+      "-v",
+      "error",
+      "-i",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-to",
+      "15.0",
+      "-vf",
+      "select='eq(n,209)+eq(n,224)+eq(n,239)+eq(n,254)+eq(n,269)+eq(n,284)+eq(n,299)+eq(n,314)+eq(n,329)+eq(n,344)+eq(n,359)+eq(n,374)+eq(n,389)+eq(n,404)+eq(n,419)+eq(n,434)',scale=768:-2,drawbox=x=0:y=0:w=150:h=65:color=black:t=fill,drawbox=x=0:y=365:w=iw:h=ih-365:color=black:t=fill",
+      "-fps_mode",
+      "vfr",
+      "-frames:v",
+      "16",
+      "-q:v",
+      "2",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/frames/S1_early/f%03d.jpg"
+    ],
+    "frames": [
+      {
+        "file": "frames/S1_early/f001.jpg",
+        "sha256": "134438b469ae46e97f622fe5b91b822bca9150e4770bc8d57b41ee589dbfeb66",
+        "decoded_frame_index": 209,
+        "target_video_seconds": 7.0,
+        "actual_pts_seconds": 7.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f002.jpg",
+        "sha256": "21cfd9ecfb06b397013860c8d8f2548e5595dfa79865e4511854fbc3e2fc8a01",
+        "decoded_frame_index": 224,
+        "target_video_seconds": 7.5,
+        "actual_pts_seconds": 7.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f003.jpg",
+        "sha256": "34d001af7170ab810a5f2704f0948ed68c09c85515ce91efbbff84c5bb124799",
+        "decoded_frame_index": 239,
+        "target_video_seconds": 8.0,
+        "actual_pts_seconds": 8.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f004.jpg",
+        "sha256": "fb09023196f1c21fc064917e9745bb8a5afd62847904af35c8867fc58999db17",
+        "decoded_frame_index": 254,
+        "target_video_seconds": 8.5,
+        "actual_pts_seconds": 8.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f005.jpg",
+        "sha256": "f63fb5efdf4153ac00b5dd6da6e8d9afdab697b2eedab5ca511f855d12d07e29",
+        "decoded_frame_index": 269,
+        "target_video_seconds": 9.0,
+        "actual_pts_seconds": 9.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f006.jpg",
+        "sha256": "743e424cf75e1a53083574b8441b904f4d889468f09ec3756590ce3923687b46",
+        "decoded_frame_index": 284,
+        "target_video_seconds": 9.5,
+        "actual_pts_seconds": 9.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f007.jpg",
+        "sha256": "72dbee345605229725e4a7e06db74fcfa01a8d31897b2008f053536f49981168",
+        "decoded_frame_index": 299,
+        "target_video_seconds": 10.0,
+        "actual_pts_seconds": 10.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f008.jpg",
+        "sha256": "0c77ab7c3710d89687f3c61fb3a1d54cf64169ddb4e2e5675b0c9b4f6c6ea40f",
+        "decoded_frame_index": 314,
+        "target_video_seconds": 10.5,
+        "actual_pts_seconds": 10.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f009.jpg",
+        "sha256": "27c9052112f53ad72393039c649fdb52f0a9e9592a2ffcff044766892d3fb0b8",
+        "decoded_frame_index": 329,
+        "target_video_seconds": 11.0,
+        "actual_pts_seconds": 11.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f010.jpg",
+        "sha256": "37bb5f1d07e93b8fb978c32fec2d0cf2b1e4fab985047e3618aecd3b323962fd",
+        "decoded_frame_index": 344,
+        "target_video_seconds": 11.5,
+        "actual_pts_seconds": 11.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f011.jpg",
+        "sha256": "ba05cb5b81e2f2d88f3a58d9421b4d26263f8db0bbc2562f14f0d82bc47d6fa1",
+        "decoded_frame_index": 359,
+        "target_video_seconds": 12.0,
+        "actual_pts_seconds": 12.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f012.jpg",
+        "sha256": "9681bfdfcb60d9b47462633430beb9a7663c99f3bc0d5a5c2e5b963493cb4844",
+        "decoded_frame_index": 374,
+        "target_video_seconds": 12.5,
+        "actual_pts_seconds": 12.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f013.jpg",
+        "sha256": "0e0280909874d22a97d9b9ed858ac4609b34f6ef888e867c6dee46023974fa5d",
+        "decoded_frame_index": 389,
+        "target_video_seconds": 13.0,
+        "actual_pts_seconds": 13.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f014.jpg",
+        "sha256": "57f0f6d57841af2cbec26930fed375741ffb05a8e6c6fb0c38f10ff20c83c86d",
+        "decoded_frame_index": 404,
+        "target_video_seconds": 13.5,
+        "actual_pts_seconds": 13.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f015.jpg",
+        "sha256": "3d26bc652b4f7b009fa1c34c24addec453bf6bfbb67e521c4f1c4153ebcb00ba",
+        "decoded_frame_index": 419,
+        "target_video_seconds": 14.0,
+        "actual_pts_seconds": 14.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S1_early/f016.jpg",
+        "sha256": "bf00e31cbfc95bd65b17f9c8b3c60b781b651d989af300d170576588ff5b119c",
+        "decoded_frame_index": 434,
+        "target_video_seconds": 14.5,
+        "actual_pts_seconds": 14.5,
+        "width": 768,
+        "height": 432
+      }
+    ],
+    "input_review_passed": true,
+    "input_review_note": "Assistant visually inspected all 16 masked input frames in a contact sheet; no commentary subtitles, broadcast runner labels, ranking panel, or result graphics remain. Physical course signage, gates and saddlecloths retained. Expert validation unavailable."
+  },
+  {
+    "scene": "S2_bend",
+    "evaluation_video_seconds": 39.0,
+    "difficulty_provisional": "clear leader identity",
+    "video_file": "candidate_20261010_R10.mp4",
+    "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+    "source_time_origin": "container PTS in seconds; video first PTS 0.033333; no race-clock conversion used for scoring",
+    "window_start": 31.0,
+    "window_end_exclusive": 39.0,
+    "images_sent": 16,
+    "fps": 2,
+    "width": 768,
+    "audio_sent": false,
+    "mask_rectangles_at_768": [
+      [
+        0,
+        0,
+        150,
+        65
+      ],
+      [
+        0,
+        365,
+        768,
+        67
+      ]
+    ],
+    "ffmpeg_command": [
+      "ffmpeg",
+      "-nostdin",
+      "-v",
+      "error",
+      "-i",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-to",
+      "39.0",
+      "-vf",
+      "select='eq(n,929)+eq(n,944)+eq(n,959)+eq(n,974)+eq(n,989)+eq(n,1004)+eq(n,1019)+eq(n,1034)+eq(n,1049)+eq(n,1064)+eq(n,1079)+eq(n,1094)+eq(n,1109)+eq(n,1124)+eq(n,1139)+eq(n,1154)',scale=768:-2,drawbox=x=0:y=0:w=150:h=65:color=black:t=fill,drawbox=x=0:y=365:w=iw:h=ih-365:color=black:t=fill",
+      "-fps_mode",
+      "vfr",
+      "-frames:v",
+      "16",
+      "-q:v",
+      "2",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/frames/S2_bend/f%03d.jpg"
+    ],
+    "frames": [
+      {
+        "file": "frames/S2_bend/f001.jpg",
+        "sha256": "a97ef860bd8c0bb5439726641b7609e8683cd1a4660c20cb30d6d9f1f0b9b82d",
+        "decoded_frame_index": 929,
+        "target_video_seconds": 31.0,
+        "actual_pts_seconds": 31.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f002.jpg",
+        "sha256": "556286abacd08a6410147a2ed7c767a2e48af1847309de481c03f00a12cf89e3",
+        "decoded_frame_index": 944,
+        "target_video_seconds": 31.5,
+        "actual_pts_seconds": 31.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f003.jpg",
+        "sha256": "3b3a02222c7b3cc9ba1e3ab1c7c058e3ce3c4a730e6682e5dc1c3b5c64e22426",
+        "decoded_frame_index": 959,
+        "target_video_seconds": 32.0,
+        "actual_pts_seconds": 32.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f004.jpg",
+        "sha256": "4659b53abcf1730cf2931baaaa759b7f2405ecd5f4571e682406a7c96ba0279c",
+        "decoded_frame_index": 974,
+        "target_video_seconds": 32.5,
+        "actual_pts_seconds": 32.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f005.jpg",
+        "sha256": "4986fbf905a5eac011fab912c3f2749ea7c72ef4796c843ec5ad6cbb5c4d5d72",
+        "decoded_frame_index": 989,
+        "target_video_seconds": 33.0,
+        "actual_pts_seconds": 33.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f006.jpg",
+        "sha256": "c0fcf345d151d8b4d3c54848f9eb50fc1a4fef9ba33e6928992e347859ab15ee",
+        "decoded_frame_index": 1004,
+        "target_video_seconds": 33.5,
+        "actual_pts_seconds": 33.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f007.jpg",
+        "sha256": "c1f65c5df3ed775fc718356406beec0a2f24a7398bafa5d8056bfb3bbc949d71",
+        "decoded_frame_index": 1019,
+        "target_video_seconds": 34.0,
+        "actual_pts_seconds": 34.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f008.jpg",
+        "sha256": "0484fd14ee65a0fec19677118bf3f3ae24c44d19e0a7b22a45bc923d3fbb3504",
+        "decoded_frame_index": 1034,
+        "target_video_seconds": 34.5,
+        "actual_pts_seconds": 34.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f009.jpg",
+        "sha256": "60832bf160896d38326dd95f92069148597921399261f2fe2ac504ff7855fbb4",
+        "decoded_frame_index": 1049,
+        "target_video_seconds": 35.0,
+        "actual_pts_seconds": 35.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f010.jpg",
+        "sha256": "1a8cfa96f37950d7680568f4f6caf259d2a0c47cfae611e9826996194f9c6ee3",
+        "decoded_frame_index": 1064,
+        "target_video_seconds": 35.5,
+        "actual_pts_seconds": 35.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f011.jpg",
+        "sha256": "38965e88a48a8c25b50fbdb4bec09c2a56e37037b415ec18f6e5ff7c5c65f35e",
+        "decoded_frame_index": 1079,
+        "target_video_seconds": 36.0,
+        "actual_pts_seconds": 36.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f012.jpg",
+        "sha256": "afca5b12a32bd5f4ba58687b4a7e2e68184ac9ae50ab8bd79358a1c42f8a10f3",
+        "decoded_frame_index": 1094,
+        "target_video_seconds": 36.5,
+        "actual_pts_seconds": 36.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f013.jpg",
+        "sha256": "a060ec6e2dd5cf4b8e6b8d5403649ccda2b4aed4395302f4e24ea784c8843fe7",
+        "decoded_frame_index": 1109,
+        "target_video_seconds": 37.0,
+        "actual_pts_seconds": 37.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f014.jpg",
+        "sha256": "5bf9057f464746ae4910288782b0ae1772da8e7b4af753908677b2c14a29e92f",
+        "decoded_frame_index": 1124,
+        "target_video_seconds": 37.5,
+        "actual_pts_seconds": 37.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f015.jpg",
+        "sha256": "d5371fc801a36f50850b357a60caad7eb98006da8bc9242e629f193c8ff59f25",
+        "decoded_frame_index": 1139,
+        "target_video_seconds": 38.0,
+        "actual_pts_seconds": 38.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S2_bend/f016.jpg",
+        "sha256": "45bd6e0dca7f621381696dd7d952f8d3b2b33f6328c8d857a39cbb5b1f275508",
+        "decoded_frame_index": 1154,
+        "target_video_seconds": 38.5,
+        "actual_pts_seconds": 38.5,
+        "width": 768,
+        "height": 432
+      }
+    ],
+    "input_review_passed": true,
+    "input_review_note": "Assistant visually inspected all 16 masked input frames in a contact sheet; no commentary subtitles, broadcast runner labels, ranking panel, or result graphics remain. Physical course signage, gates and saddlecloths retained. Expert validation unavailable."
+  },
+  {
+    "scene": "S3_wide",
+    "evaluation_video_seconds": 46.0,
+    "difficulty_provisional": "ambiguous identity in wide shot",
+    "video_file": "candidate_20261010_R10.mp4",
+    "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+    "source_time_origin": "container PTS in seconds; video first PTS 0.033333; no race-clock conversion used for scoring",
+    "window_start": 38.0,
+    "window_end_exclusive": 46.0,
+    "images_sent": 16,
+    "fps": 2,
+    "width": 768,
+    "audio_sent": false,
+    "mask_rectangles_at_768": [
+      [
+        0,
+        0,
+        150,
+        65
+      ],
+      [
+        0,
+        365,
+        768,
+        67
+      ]
+    ],
+    "ffmpeg_command": [
+      "ffmpeg",
+      "-nostdin",
+      "-v",
+      "error",
+      "-i",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-to",
+      "46.0",
+      "-vf",
+      "select='eq(n,1139)+eq(n,1154)+eq(n,1169)+eq(n,1184)+eq(n,1199)+eq(n,1214)+eq(n,1229)+eq(n,1244)+eq(n,1259)+eq(n,1274)+eq(n,1289)+eq(n,1304)+eq(n,1319)+eq(n,1334)+eq(n,1349)+eq(n,1364)',scale=768:-2,drawbox=x=0:y=0:w=150:h=65:color=black:t=fill,drawbox=x=0:y=365:w=iw:h=ih-365:color=black:t=fill",
+      "-fps_mode",
+      "vfr",
+      "-frames:v",
+      "16",
+      "-q:v",
+      "2",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/frames/S3_wide/f%03d.jpg"
+    ],
+    "frames": [
+      {
+        "file": "frames/S3_wide/f001.jpg",
+        "sha256": "d5371fc801a36f50850b357a60caad7eb98006da8bc9242e629f193c8ff59f25",
+        "decoded_frame_index": 1139,
+        "target_video_seconds": 38.0,
+        "actual_pts_seconds": 38.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f002.jpg",
+        "sha256": "45bd6e0dca7f621381696dd7d952f8d3b2b33f6328c8d857a39cbb5b1f275508",
+        "decoded_frame_index": 1154,
+        "target_video_seconds": 38.5,
+        "actual_pts_seconds": 38.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f003.jpg",
+        "sha256": "896d630a2e76ce770e1cc35f249c2d5f2ea115516bc6e5ebea8dd94b10fb3e8e",
+        "decoded_frame_index": 1169,
+        "target_video_seconds": 39.0,
+        "actual_pts_seconds": 39.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f004.jpg",
+        "sha256": "61b1856cc73573913f678c790efcb6b287fde8ff17b90033517aa56774b06fdf",
+        "decoded_frame_index": 1184,
+        "target_video_seconds": 39.5,
+        "actual_pts_seconds": 39.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f005.jpg",
+        "sha256": "65c1326133276bf0a23d3a2dee07e3c02bb43adacd40a80fa23b4cee22614d47",
+        "decoded_frame_index": 1199,
+        "target_video_seconds": 40.0,
+        "actual_pts_seconds": 40.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f006.jpg",
+        "sha256": "1b9c396bf1bf698f7fa4ab7af8920bb9c6f02fa9ce7152afecace1f1ace57fc7",
+        "decoded_frame_index": 1214,
+        "target_video_seconds": 40.5,
+        "actual_pts_seconds": 40.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f007.jpg",
+        "sha256": "0fe9088b31fc01685eb3164704adfb9bc0f77bd1b9cd0ad199c0540d6bf3e2b7",
+        "decoded_frame_index": 1229,
+        "target_video_seconds": 41.0,
+        "actual_pts_seconds": 41.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f008.jpg",
+        "sha256": "0e6442841bf91c6fbcb00c538ddfa47814439b726b759c89f89e82008827b652",
+        "decoded_frame_index": 1244,
+        "target_video_seconds": 41.5,
+        "actual_pts_seconds": 41.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f009.jpg",
+        "sha256": "83b0c937ddf2f9e3cf7d05a8c83e89f13f41ba277418cb12d2262082eb61c678",
+        "decoded_frame_index": 1259,
+        "target_video_seconds": 42.0,
+        "actual_pts_seconds": 42.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f010.jpg",
+        "sha256": "0525bde1cc2f31bd285a0a8a1f0a8e36915bd0271033ca7b2b6e6896fc2b97bb",
+        "decoded_frame_index": 1274,
+        "target_video_seconds": 42.5,
+        "actual_pts_seconds": 42.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f011.jpg",
+        "sha256": "3e36deb46c903539d26d4472aa16d78dd1803044d7713c65b93633a400699ae2",
+        "decoded_frame_index": 1289,
+        "target_video_seconds": 43.0,
+        "actual_pts_seconds": 43.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f012.jpg",
+        "sha256": "844c00796de5700083f08d86921b13d794a5782f0229d8891e730973838eafc5",
+        "decoded_frame_index": 1304,
+        "target_video_seconds": 43.5,
+        "actual_pts_seconds": 43.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f013.jpg",
+        "sha256": "d9dc0fcb7e9c5aa32b593521aeb12b8c31185217056c6811df8b7b4920ad3b9d",
+        "decoded_frame_index": 1319,
+        "target_video_seconds": 44.0,
+        "actual_pts_seconds": 44.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f014.jpg",
+        "sha256": "6af89637dbe407ca41abe527b293db9e3ac711c6273b17390a850f871f8b3ab9",
+        "decoded_frame_index": 1334,
+        "target_video_seconds": 44.5,
+        "actual_pts_seconds": 44.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f015.jpg",
+        "sha256": "029c5f93b9aa37d51fafc014bd16108bcfe438c9e38d6b2b68ef673bec9f9131",
+        "decoded_frame_index": 1349,
+        "target_video_seconds": 45.0,
+        "actual_pts_seconds": 45.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S3_wide/f016.jpg",
+        "sha256": "e05814d64e37cbc9bd41a2d6edb787ad96d84b0e35e05089e272607c53b0d4d8",
+        "decoded_frame_index": 1364,
+        "target_video_seconds": 45.5,
+        "actual_pts_seconds": 45.5,
+        "width": 768,
+        "height": 432
+      }
+    ],
+    "input_review_passed": true,
+    "input_review_note": "Assistant visually inspected all 16 masked input frames in a contact sheet; no commentary subtitles, broadcast runner labels, ranking panel, or result graphics remain. Physical course signage, gates and saddlecloths retained. Expert validation unavailable."
+  },
+  {
+    "scene": "S4_straight",
+    "evaluation_video_seconds": 56.0,
+    "difficulty_provisional": "clear leader identity",
+    "video_file": "candidate_20261010_R10.mp4",
+    "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+    "source_time_origin": "container PTS in seconds; video first PTS 0.033333; no race-clock conversion used for scoring",
+    "window_start": 48.0,
+    "window_end_exclusive": 56.0,
+    "images_sent": 16,
+    "fps": 2,
+    "width": 768,
+    "audio_sent": false,
+    "mask_rectangles_at_768": [
+      [
+        0,
+        0,
+        150,
+        65
+      ],
+      [
+        0,
+        365,
+        768,
+        67
+      ]
+    ],
+    "ffmpeg_command": [
+      "ffmpeg",
+      "-nostdin",
+      "-v",
+      "error",
+      "-i",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-to",
+      "56.0",
+      "-vf",
+      "select='eq(n,1439)+eq(n,1454)+eq(n,1469)+eq(n,1484)+eq(n,1499)+eq(n,1514)+eq(n,1529)+eq(n,1544)+eq(n,1559)+eq(n,1574)+eq(n,1589)+eq(n,1604)+eq(n,1619)+eq(n,1634)+eq(n,1649)+eq(n,1664)',scale=768:-2,drawbox=x=0:y=0:w=150:h=65:color=black:t=fill,drawbox=x=0:y=365:w=iw:h=ih-365:color=black:t=fill",
+      "-fps_mode",
+      "vfr",
+      "-frames:v",
+      "16",
+      "-q:v",
+      "2",
+      "/home/ohead/ai-workspace/projects/onair_diag_20261116/frames/S4_straight/f%03d.jpg"
+    ],
+    "frames": [
+      {
+        "file": "frames/S4_straight/f001.jpg",
+        "sha256": "56432ed24bf332052c615ea68ac7ff57fdcc4eb8e858ac2b990a33060669998b",
+        "decoded_frame_index": 1439,
+        "target_video_seconds": 48.0,
+        "actual_pts_seconds": 48.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f002.jpg",
+        "sha256": "4edd153eeaa4e82254da82e8338a1e52e7e5878569a69078c6e7f7225069ad0a",
+        "decoded_frame_index": 1454,
+        "target_video_seconds": 48.5,
+        "actual_pts_seconds": 48.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f003.jpg",
+        "sha256": "f7314129cc518caed546ca36d437f2eddfb526eb8cdeb7861acdddaf02145e0a",
+        "decoded_frame_index": 1469,
+        "target_video_seconds": 49.0,
+        "actual_pts_seconds": 49.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f004.jpg",
+        "sha256": "fd6ac499b6280e9113d69e79114df159ac1e31d4d73657bb133c1a54b1a80c41",
+        "decoded_frame_index": 1484,
+        "target_video_seconds": 49.5,
+        "actual_pts_seconds": 49.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f005.jpg",
+        "sha256": "5cec425b64a3d2278af7bcae3a10188c359ba94b2d87767f605153f41febfa83",
+        "decoded_frame_index": 1499,
+        "target_video_seconds": 50.0,
+        "actual_pts_seconds": 50.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f006.jpg",
+        "sha256": "6e046b3ae26965749786b19016a87c985daca080f6f164f3fb6fe31bbae3f05b",
+        "decoded_frame_index": 1514,
+        "target_video_seconds": 50.5,
+        "actual_pts_seconds": 50.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f007.jpg",
+        "sha256": "38ffe97124091f4552c7975eb629e72fc640a09fdbbef1ca4786c1668d08f046",
+        "decoded_frame_index": 1529,
+        "target_video_seconds": 51.0,
+        "actual_pts_seconds": 51.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f008.jpg",
+        "sha256": "5b47be6e4bbdb668721c26b97addf42cde5ec518af21b9954a3088116a655dc8",
+        "decoded_frame_index": 1544,
+        "target_video_seconds": 51.5,
+        "actual_pts_seconds": 51.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f009.jpg",
+        "sha256": "d8b05121dd315c4b4167019dee0a97b07d75f72483b0135350418a126c6f1ffe",
+        "decoded_frame_index": 1559,
+        "target_video_seconds": 52.0,
+        "actual_pts_seconds": 52.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f010.jpg",
+        "sha256": "c1733cabf5383e692dbfc29d6ba193d904a54f43c9e60b0a79631d8e8eb7dd51",
+        "decoded_frame_index": 1574,
+        "target_video_seconds": 52.5,
+        "actual_pts_seconds": 52.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f011.jpg",
+        "sha256": "692c927fd672e41fa17f3ca90d63a68d6a260d1fe7660a42dd504869195643e4",
+        "decoded_frame_index": 1589,
+        "target_video_seconds": 53.0,
+        "actual_pts_seconds": 53.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f012.jpg",
+        "sha256": "5f2a1977bfd83c2c5c2f6377cdbe8740c9914ef30105b0dbf1fb27de5aefc7be",
+        "decoded_frame_index": 1604,
+        "target_video_seconds": 53.5,
+        "actual_pts_seconds": 53.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f013.jpg",
+        "sha256": "bf56b235c562ff27df7c790e481a1720aeea9339d939e81ff192812595a44559",
+        "decoded_frame_index": 1619,
+        "target_video_seconds": 54.0,
+        "actual_pts_seconds": 54.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f014.jpg",
+        "sha256": "ab22d162dcf631dd9a3800776032e9739646922c8401880672d1fa72657cb644",
+        "decoded_frame_index": 1634,
+        "target_video_seconds": 54.5,
+        "actual_pts_seconds": 54.5,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f015.jpg",
+        "sha256": "ba5b93fccd0174f4756ad874a9d9778e2bdec71f4deb6aa7772354a0c06603e1",
+        "decoded_frame_index": 1649,
+        "target_video_seconds": 55.0,
+        "actual_pts_seconds": 55.0,
+        "width": 768,
+        "height": 432
+      },
+      {
+        "file": "frames/S4_straight/f016.jpg",
+        "sha256": "a4d4d84e9444d8b1190be22565bebdcb8df43b7e15ec2de1e70a41fc6e44ae92",
+        "decoded_frame_index": 1664,
+        "target_video_seconds": 55.5,
+        "actual_pts_seconds": 55.5,
+        "width": 768,
+        "height": 432
+      }
+    ],
+    "input_review_passed": true,
+    "input_review_note": "Assistant visually inspected all 16 masked input frames in a contact sheet; no commentary subtitles, broadcast runner labels, ranking panel, or result graphics remain. Physical course signage, gates and saddlecloths retained. Expert validation unavailable."
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "url": "https://download.pytorch.org/models/keypointrcnn_resnet50_fpn_coco-fc266e95.pth",
+  "file": "model_cache/checkpoints/keypointrcnn_resnet50_fpn_coco-fc266e95.pth",
+  "bytes": 237034793,
+  "sha256": "fc266e953d2b302cdcbb9ae66f71f6b0d4649928bf02dc573961e361e4918926",
+  "enum": "KeypointRCNN_ResNet50_FPN_Weights.COCO_V1",
+  "keypoint_names": [
+    "nose",
+    "left_eye",
+    "right_eye",
+    "left_ear",
+    "right_ear",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle"
+  ],
+  "torchvision_installed": "0.27.1+cu132",
+  "documentation": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.detection.keypointrcnn_resnet50_fpn.html"
+}

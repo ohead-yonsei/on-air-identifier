@@ -1,0 +1,143 @@
+start 2026-11-17T17:40:25+09:00
+[2026-11-17T17:40:25+09:00] R01 f7Veww3JQIg attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=f7Veww3JQIg
+[youtube] f7Veww3JQIg: Downloading webpage
+[youtube] f7Veww3JQIg: Downloading tv samsung player API JSON
+[youtube] f7Veww3JQIg: Downloading visionos player API JSON
+[youtube] f7Veww3JQIg: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] f7Veww3JQIg: Downloading m3u8 information
+[info] f7Veww3JQIg: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R01_f7Veww3JQIg.info.json
+[download] Destination: videos/R01_f7Veww3JQIg.mp4
+[download] Download completed
+[2026-11-17T17:40:35+09:00] R01 f7Veww3JQIg result ok=1
+[2026-11-17T17:40:38+09:00] R02 6O1JsCbxKjY attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6O1JsCbxKjY
+[youtube] 6O1JsCbxKjY: Downloading webpage
+[youtube] 6O1JsCbxKjY: Downloading tv samsung player API JSON
+[youtube] 6O1JsCbxKjY: Downloading visionos player API JSON
+[youtube] 6O1JsCbxKjY: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] 6O1JsCbxKjY: Downloading m3u8 information
+[info] 6O1JsCbxKjY: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R02_6O1JsCbxKjY.info.json
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+[2026-11-17T17:40:53+09:00] R02 6O1JsCbxKjY attempt 2
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6O1JsCbxKjY
+[youtube] 6O1JsCbxKjY: Downloading webpage
+[youtube] 6O1JsCbxKjY: Downloading tv samsung player API JSON
+[youtube] 6O1JsCbxKjY: Downloading visionos player API JSON
+[youtube] 6O1JsCbxKjY: Downloading player f30b036b-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] 6O1JsCbxKjY: Downloading m3u8 information
+[info] 6O1JsCbxKjY: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R02_6O1JsCbxKjY.info.json
+[download] Destination: videos/R02_6O1JsCbxKjY.mp4
+[download] Download completed
+[2026-11-17T17:41:02+09:00] R02 6O1JsCbxKjY result ok=1
+[2026-11-17T17:41:05+09:00] R03 6eSy9Uu3ExA attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=6eSy9Uu3ExA
+[youtube] 6eSy9Uu3ExA: Downloading webpage
+[youtube] 6eSy9Uu3ExA: Downloading tv samsung player API JSON
+[youtube] 6eSy9Uu3ExA: Downloading visionos player API JSON
+[youtube] 6eSy9Uu3ExA: Downloading player f30b036b-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] 6eSy9Uu3ExA: Downloading m3u8 information
+[info] 6eSy9Uu3ExA: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R03_6eSy9Uu3ExA.info.json
+[download] Destination: videos/R03_6eSy9Uu3ExA.mp4
+[download] Download completed
+[2026-11-17T17:41:16+09:00] R03 6eSy9Uu3ExA result ok=1
+[2026-11-17T17:41:19+09:00] R04 HyNPxJmqdO0 attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HyNPxJmqdO0
+[youtube] HyNPxJmqdO0: Downloading webpage
+[youtube] HyNPxJmqdO0: Downloading tv samsung player API JSON
+[youtube] HyNPxJmqdO0: Downloading visionos player API JSON
+[youtube] HyNPxJmqdO0: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] HyNPxJmqdO0: Downloading m3u8 information
+[info] HyNPxJmqdO0: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R04_HyNPxJmqdO0.info.json
+[download] Destination: videos/R04_HyNPxJmqdO0.mp4
+[download] Download completed
+[2026-11-17T17:41:30+09:00] R04 HyNPxJmqdO0 result ok=1
+[2026-11-17T17:41:33+09:00] R05 3tyrW_BcrA4 attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=3tyrW_BcrA4
+[youtube] 3tyrW_BcrA4: Downloading webpage
+[youtube] 3tyrW_BcrA4: Downloading tv samsung player API JSON
+[youtube] 3tyrW_BcrA4: Downloading visionos player API JSON
+[youtube] 3tyrW_BcrA4: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] 3tyrW_BcrA4: Downloading m3u8 information
+[info] 3tyrW_BcrA4: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R05_3tyrW_BcrA4.info.json
+[download] Destination: videos/R05_3tyrW_BcrA4.mp4
+[download] Download completed
+[2026-11-17T17:41:43+09:00] R05 3tyrW_BcrA4 result ok=1
+[2026-11-17T17:41:47+09:00] R06 x8TWJGo6KF4 attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=x8TWJGo6KF4
+[youtube] x8TWJGo6KF4: Downloading webpage
+[youtube] x8TWJGo6KF4: Downloading tv samsung player API JSON
+[youtube] x8TWJGo6KF4: Downloading visionos player API JSON
+[youtube] x8TWJGo6KF4: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] x8TWJGo6KF4: Downloading m3u8 information
+[info] x8TWJGo6KF4: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R06_x8TWJGo6KF4.info.json
+[download] Destination: videos/R06_x8TWJGo6KF4.mp4
+[download] Download completed
+[2026-11-17T17:41:58+09:00] R06 x8TWJGo6KF4 result ok=1
+[2026-11-17T17:42:01+09:00] R07 QUzby9az7r0 attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=QUzby9az7r0
+[youtube] QUzby9az7r0: Downloading webpage
+[youtube] QUzby9az7r0: Downloading tv samsung player API JSON
+[youtube] QUzby9az7r0: Downloading visionos player API JSON
+[youtube] QUzby9az7r0: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] QUzby9az7r0: Downloading m3u8 information
+[info] QUzby9az7r0: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R07_QUzby9az7r0.info.json
+[download] Destination: videos/R07_QUzby9az7r0.mp4
+[download] Download completed
+[2026-11-17T17:42:13+09:00] R07 QUzby9az7r0 result ok=1
+[2026-11-17T17:42:16+09:00] R08 WTxUbtL6OFk attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=WTxUbtL6OFk
+[youtube] WTxUbtL6OFk: Downloading webpage
+[youtube] WTxUbtL6OFk: Downloading tv samsung player API JSON
+[youtube] WTxUbtL6OFk: Downloading visionos player API JSON
+[youtube] WTxUbtL6OFk: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] WTxUbtL6OFk: Downloading m3u8 information
+[info] WTxUbtL6OFk: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R08_WTxUbtL6OFk.info.json
+[download] Destination: videos/R08_WTxUbtL6OFk.mp4
+[download] Download completed
+[2026-11-17T17:42:26+09:00] R08 WTxUbtL6OFk result ok=1
+[2026-11-17T17:42:29+09:00] R09 9J-SKpuKg6E attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=9J-SKpuKg6E
+[youtube] 9J-SKpuKg6E: Downloading webpage
+[youtube] 9J-SKpuKg6E: Downloading tv samsung player API JSON
+[youtube] 9J-SKpuKg6E: Downloading visionos player API JSON
+[youtube] 9J-SKpuKg6E: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] 9J-SKpuKg6E: Downloading m3u8 information
+[info] 9J-SKpuKg6E: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R09_9J-SKpuKg6E.info.json
+[download] Destination: videos/R09_9J-SKpuKg6E.mp4
+[download] Download completed
+[2026-11-17T17:42:38+09:00] R09 9J-SKpuKg6E result ok=1
+[2026-11-17T17:42:41+09:00] R10 FCVim_5qDiQ attempt 1
+[youtube] Extracting URL: https://www.youtube.com/watch?v=FCVim_5qDiQ
+[youtube] FCVim_5qDiQ: Downloading webpage
+[youtube] FCVim_5qDiQ: Downloading tv samsung player API JSON
+[youtube] FCVim_5qDiQ: Downloading visionos player API JSON
+[youtube] FCVim_5qDiQ: Downloading player ad8d59ae-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] FCVim_5qDiQ: Downloading m3u8 information
+[info] FCVim_5qDiQ: Downloading 1 format(s): 299
+[info] Writing video metadata as JSON to: videos/R10_FCVim_5qDiQ.info.json
+[download] Destination: videos/R10_FCVim_5qDiQ.mp4
+[download] Download completed
+[2026-11-17T17:42:51+09:00] R10 FCVim_5qDiQ result ok=1
+end 2026-11-17T17:42:54+09:00

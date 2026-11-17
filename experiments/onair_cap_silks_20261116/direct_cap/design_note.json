@@ -1,0 +1,12 @@
+{
+  "posthoc": true,
+  "trigger": "All 12 H-condition predictions were unknown despite visually identifiable helmets.",
+  "changes": [
+    "Remove the silks reference image",
+    "Show cap alone at larger relative size",
+    "Replace runner identification with explicit colour/pattern classification and deterministic number lookup"
+  ],
+  "causal_limit": "Multiple input/prompt changes; cannot isolate any one factor. Does not replace or erase the original H condition.",
+  "max_calls": 6,
+  "training_steps": 0
+}

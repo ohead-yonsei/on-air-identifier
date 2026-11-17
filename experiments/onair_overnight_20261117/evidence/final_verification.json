@@ -1,0 +1,282 @@
+{
+  "time_utc": "2026-11-16T17:38:24.782697+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "plan_lock.json:PLAN_KO.md",
+      "passed": true
+    },
+    {
+      "check": "plan_lock.json:config.json",
+      "passed": true
+    },
+    {
+      "check": "plan_lock.json:protocols/cap_classifier.json",
+      "passed": true
+    },
+    {
+      "check": "plan_lock.json:code/v4_color.py",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:config.json",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:PLAN_KO.md",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:annotations.json",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:protocols/cap_classifier.json",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:code/regions.py",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:code/pose.py",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:code/classify_regions.py",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:code/v4_color.py",
+      "passed": true
+    },
+    {
+      "check": "evaluation_lock.json:code/summarize_c.py",
+      "passed": true
+    },
+    {
+      "check": "annotation_frozen",
+      "passed": true
+    },
+    {
+      "check": "labels_scope",
+      "passed": true
+    },
+    {
+      "check": "human_colours_only_preserved",
+      "passed": true
+    },
+    {
+      "check": "old_human_labels_unchanged",
+      "passed": true
+    },
+    {
+      "check": "original_video:R01",
+      "passed": true
+    },
+    {
+      "check": "original_video:R02",
+      "passed": true
+    },
+    {
+      "check": "original_video:R03",
+      "passed": true
+    },
+    {
+      "check": "original_video:R04",
+      "passed": true
+    },
+    {
+      "check": "original_video:R05",
+      "passed": true
+    },
+    {
+      "check": "original_video:R06",
+      "passed": true
+    },
+    {
+      "check": "original_video:R07",
+      "passed": true
+    },
+    {
+      "check": "original_video:R08",
+      "passed": true
+    },
+    {
+      "check": "original_video:R09",
+      "passed": true
+    },
+    {
+      "check": "original_video:R10",
+      "passed": true
+    },
+    {
+      "check": "original_october_video",
+      "passed": true
+    },
+    {
+      "check": "frame_manifest.json:count",
+      "passed": true
+    },
+    {
+      "check": "frame_manifest.json:past_only",
+      "passed": true
+    },
+    {
+      "check": "frame_manifest.json:image_hashes",
+      "passed": true
+    },
+    {
+      "check": "frame_manifest.json:dimensions",
+      "passed": true
+    },
+    {
+      "check": "frame_manifest.json:declared_masks_are_48",
+      "passed": true,
+      "tested": 20,
+      "exception": "original human-check full frame was unmasked; separately repaired and documented"
+    },
+    {
+      "check": "tracking_frame_manifest.json:count",
+      "passed": true
+    },
+    {
+      "check": "tracking_frame_manifest.json:past_only",
+      "passed": true
+    },
+    {
+      "check": "tracking_frame_manifest.json:image_hashes",
+      "passed": true
+    },
+    {
+      "check": "tracking_frame_manifest.json:dimensions",
+      "passed": true
+    },
+    {
+      "check": "tracking_frame_manifest.json:declared_masks_are_48",
+      "passed": true,
+      "tested": 271,
+      "exception": null
+    },
+    {
+      "check": "full_payload_hashes_prompts_independent_one_image",
+      "passed": true,
+      "items": 349,
+      "errors": []
+    },
+    {
+      "check": "ledger_response_one_to_one",
+      "passed": true
+    },
+    {
+      "check": "request_limit",
+      "passed": true,
+      "actual": 349
+    },
+    {
+      "check": "no_retries_or_http_schema_failures",
+      "passed": true
+    },
+    {
+      "check": "330_unique_core_conditions",
+      "passed": true
+    },
+    {
+      "check": "15_missing_roi_no_requests",
+      "passed": true
+    },
+    {
+      "check": "fair_common_person_boxes",
+      "passed": true
+    },
+    {
+      "check": "core_numbers_from_raw",
+      "passed": true
+    },
+    {
+      "check": "vision_frame_counts",
+      "passed": true,
+      "actual": 315
+    },
+    {
+      "check": "complete_tracking",
+      "passed": true
+    },
+    {
+      "check": "extras_request_counts",
+      "passed": true
+    },
+    {
+      "check": "jitter96",
+      "passed": true
+    },
+    {
+      "check": "extra_tracking271",
+      "passed": true
+    },
+    {
+      "check": "human_mask_correction_input",
+      "passed": true
+    },
+    {
+      "check": "human_mask_exact_reuse",
+      "passed": true,
+      "reused": 18
+    },
+    {
+      "check": "human_mask_complete_separate_control",
+      "passed": true
+    },
+    {
+      "check": "human_mask_frozen_before_control",
+      "passed": true
+    },
+    {
+      "check": "blank_confirmations:USER_REVIEW.csv",
+      "passed": true,
+      "rows": 60
+    },
+    {
+      "check": "blank_confirmations:PREVIOUS_GEOMETRY_REVIEW.csv",
+      "passed": true,
+      "rows": 22
+    },
+    {
+      "check": "blank_confirmations:LEADER_REVIEW.csv",
+      "passed": true,
+      "rows": 8
+    },
+    {
+      "check": "blank_confirmations:QUESTIONS.csv",
+      "passed": true,
+      "rows": 12
+    },
+    {
+      "check": "weight_budget_and_hash",
+      "passed": true,
+      "new_bytes": 237034793
+    },
+    {
+      "check": "report_links_exist",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "check": "disk_above_20GB",
+      "passed": true,
+      "free_bytes": 149379756032
+    },
+    {
+      "check": "research_lock_unheld_and_GPU_compute_idle",
+      "passed": true,
+      "gpu": {
+        "time_utc": "2026-11-16T17:38:24.782608+00:00",
+        "research_lock_exists": true,
+        "research_lock_held": false,
+        "compute_processes": "",
+        "disk_free": 149379756032
+      }
+    }
+  ],
+  "scope": "No inference. Original video hashes, frozen files, all reconstructed payloads, input manifests, counts, blank reviews, package link targets. No accuracy ground truth invented."
+}

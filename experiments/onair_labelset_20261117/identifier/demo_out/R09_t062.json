@@ -1,0 +1,168 @@
+{
+ "frame": "identifier/demo_frames/R09_t062.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "riders": [
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.9876,
+   "x": 462.9,
+   "h_px": 164.2,
+   "box": [
+    414.4,
+    159.8,
+    511.3,
+    324.0
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.9876,
+   "sure_strict": true,
+   "detector_score": 0.962
+  },
+  {
+   "no": 8,
+   "state": "sure",
+   "score": 1.9879,
+   "x": 524.3,
+   "h_px": 171.6,
+   "box": [
+    467.9,
+    288.4,
+    580.8,
+    460.0
+   ],
+   "colour": "pink",
+   "qwen_number": 8,
+   "p_learned": 0.9879,
+   "sure_strict": true,
+   "detector_score": 0.973
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.1788,
+   "x": 712.7,
+   "h_px": 173.0,
+   "box": [
+    659.7,
+    154.3,
+    765.8,
+    327.3
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.1788,
+   "sure_strict": true,
+   "detector_score": 0.957
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.0842,
+   "x": 972.6,
+   "h_px": 169.1,
+   "box": [
+    924.8,
+    270.5,
+    1020.5,
+    439.6
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.0842,
+   "sure_strict": false,
+   "detector_score": 0.868
+  },
+  {
+   "no": 4,
+   "state": "guess",
+   "score": 0.7326,
+   "x": 1010.7,
+   "h_px": 167.2,
+   "box": [
+    963.6,
+    497.8,
+    1057.7,
+    665.1
+   ],
+   "colour": "black",
+   "qwen_number": 0,
+   "p_learned": 0.7326,
+   "sure_strict": false,
+   "detector_score": 0.972
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.9824,
+   "x": 1259.7,
+   "h_px": 177.9,
+   "box": [
+    1198.5,
+    543.0,
+    1321.0,
+    720.8
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.9824,
+   "sure_strict": true,
+   "detector_score": 0.979
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 219.6,
+   "error": null
+  },
+  {
+   "colour": "pink",
+   "number": 8,
+   "ms": 225.3,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 221.0,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 225.8,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 224.1,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 264.2,
+   "error": null
+  }
+ ],
+ "total_ms": 1626.5
+}

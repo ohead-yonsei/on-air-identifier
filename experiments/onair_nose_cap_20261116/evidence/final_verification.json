@@ -1,0 +1,194 @@
+[
+  {
+    "name": "baseline_33_decisions",
+    "passed": true
+  },
+  {
+    "name": "posthoc_55_decisions",
+    "passed": true
+  },
+  {
+    "name": "exact_two_frames_11_noses_22_caps",
+    "passed": true
+  },
+  {
+    "name": "no_model_calls_no_gpu",
+    "passed": true
+  },
+  {
+    "name": "t35_n01_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_n02_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_n03_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_n04_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_n05_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c09_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c01_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c02_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c10_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c05_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c11_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c07_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c06_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c08_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c03_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_c04_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_same_original_bytes",
+    "passed": true
+  },
+  {
+    "name": "t35_execution_source_hash",
+    "passed": true
+  },
+  {
+    "name": "t385_n01_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_n02_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_n03_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_n04_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_n05_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_n06_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c09_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c01_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c02_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c10_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c05_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c11_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c07_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c06_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c08_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c03_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_c04_outside_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_same_original_bytes",
+    "passed": true
+  },
+  {
+    "name": "t385_execution_source_hash",
+    "passed": true
+  },
+  {
+    "name": "config.json_unchanged_after_execution",
+    "passed": true
+  },
+  {
+    "name": "annotations.json_unchanged_after_execution",
+    "passed": true
+  },
+  {
+    "name": "code/run_association.py_unchanged_after_execution",
+    "passed": true
+  },
+  {
+    "name": "point_nearest_report_agreement",
+    "passed": true
+  },
+  {
+    "name": "line_nearest_report_agreement",
+    "passed": true
+  },
+  {
+    "name": "point_one_to_one_report_agreement",
+    "passed": true
+  },
+  {
+    "name": "base_direction_gate_11_matches",
+    "passed": true
+  }
+]

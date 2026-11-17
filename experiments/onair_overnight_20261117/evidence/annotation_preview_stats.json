@@ -1,0 +1,24 @@
+{
+  "samples": 66,
+  "colour_counts": {
+    "8": 6,
+    "10": 6,
+    "11": 5,
+    "2": 6,
+    "9": 5,
+    "4": 6,
+    "6": 4,
+    "5": 6,
+    "1": 5,
+    "7": 8,
+    "3": 5,
+    "0": 4
+  },
+  "races": 11,
+  "new_races": 10,
+  "new_frames": 20,
+  "human_confirmed_samples": 6,
+  "unresolved_samples": 4,
+  "face_rectangles": 30,
+  "torso_rectangles": 11
+}

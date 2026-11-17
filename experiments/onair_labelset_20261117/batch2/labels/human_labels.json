@@ -1,0 +1,3143 @@
+{
+ "source": "User reply in chat on 2026-11-17 after opening batch2/review/REVIEW.html: \"다 초안대로\" (all as drafted)",
+ "note": "A single blanket confirmation of all 174 drafts, not an item-by-item paste. Every numbered draft is taken as confirmed; every \"unclear\" draft stays unknown.",
+ "scope": "cap number (colour) per rider box only",
+ "counts": {
+  "confirmed_unclear": 29,
+  "confirmed": 145
+ },
+ "riders": [
+  {
+   "id": "R01_t027_p00",
+   "race": "R01",
+   "frame": "R01_t027",
+   "pts": 27.0,
+   "height_px": 70.0,
+   "person_box": [
+    1361.5,
+    451.9,
+    1447.3,
+    521.9
+   ],
+   "crop": "crops/R01_t027_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t027_p01",
+   "race": "R01",
+   "frame": "R01_t027",
+   "pts": 27.0,
+   "height_px": 73.2,
+   "person_box": [
+    1401.3,
+    451.9,
+    1467.2,
+    525.1
+   ],
+   "crop": "crops/R01_t027_p01.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p00",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 82.3,
+   "person_box": [
+    347.1,
+    388.3,
+    417.3,
+    470.6
+   ],
+   "crop": "crops/R01_t055_p00.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p01",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 96.0,
+   "person_box": [
+    550.5,
+    384.9,
+    609.6,
+    481.0
+   ],
+   "crop": "crops/R01_t055_p01.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p02",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 72.6,
+   "person_box": [
+    695.5,
+    477.1,
+    753.7,
+    549.7
+   ],
+   "crop": "crops/R01_t055_p02.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p03",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 104.5,
+   "person_box": [
+    765.6,
+    440.8,
+    835.7,
+    545.2
+   ],
+   "crop": "crops/R01_t055_p03.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p04",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 88.3,
+   "person_box": [
+    952.7,
+    404.6,
+    1023.1,
+    492.9
+   ],
+   "crop": "crops/R01_t055_p04.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p05",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 81.3,
+   "person_box": [
+    1001.9,
+    476.7,
+    1073.5,
+    558.0
+   ],
+   "crop": "crops/R01_t055_p05.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p06",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 88.8,
+   "person_box": [
+    1108.4,
+    447.1,
+    1165.3,
+    535.9
+   ],
+   "crop": "crops/R01_t055_p06.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p07",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 94.2,
+   "person_box": [
+    1297.7,
+    513.9,
+    1355.3,
+    608.1
+   ],
+   "crop": "crops/R01_t055_p07.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p08",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 100.7,
+   "person_box": [
+    1460.0,
+    493.1,
+    1543.0,
+    593.8
+   ],
+   "crop": "crops/R01_t055_p08.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t055_p09",
+   "race": "R01",
+   "frame": "R01_t055",
+   "pts": 55.0,
+   "height_px": 88.5,
+   "person_box": [
+    1561.7,
+    563.2,
+    1634.6,
+    651.7
+   ],
+   "crop": "crops/R01_t055_p09.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t068_p00",
+   "race": "R01",
+   "frame": "R01_t068",
+   "pts": 68.0,
+   "height_px": 97.3,
+   "person_box": [
+    422.8,
+    526.2,
+    483.5,
+    623.4
+   ],
+   "crop": "crops/R01_t068_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t068_p01",
+   "race": "R01",
+   "frame": "R01_t068",
+   "pts": 68.0,
+   "height_px": 77.8,
+   "person_box": [
+    462.5,
+    511.1,
+    541.6,
+    588.8
+   ],
+   "crop": "crops/R01_t068_p01.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p00",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 154.1,
+   "person_box": [
+    408.0,
+    671.3,
+    494.4,
+    825.4
+   ],
+   "crop": "crops/R02_t034_p00.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p01",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 164.3,
+   "person_box": [
+    696.4,
+    653.9,
+    785.9,
+    818.2
+   ],
+   "crop": "crops/R02_t034_p01.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p02",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 114.6,
+   "person_box": [
+    770.4,
+    527.9,
+    859.9,
+    642.5
+   ],
+   "crop": "crops/R02_t034_p02.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p03",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 130.7,
+   "person_box": [
+    864.7,
+    539.3,
+    947.8,
+    670.0
+   ],
+   "crop": "crops/R02_t034_p03.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p04",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 141.4,
+   "person_box": [
+    883.7,
+    411.7,
+    981.0,
+    553.1
+   ],
+   "crop": "crops/R02_t034_p04.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p05",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 145.5,
+   "person_box": [
+    1248.0,
+    408.2,
+    1324.7,
+    553.7
+   ],
+   "crop": "crops/R02_t034_p05.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p06",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 114.6,
+   "person_box": [
+    1246.8,
+    311.5,
+    1332.6,
+    426.0
+   ],
+   "crop": "crops/R02_t034_p06.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p07",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 125.2,
+   "person_box": [
+    1459.0,
+    350.6,
+    1537.9,
+    475.7
+   ],
+   "crop": "crops/R02_t034_p07.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t034_p08",
+   "race": "R02",
+   "frame": "R02_t034",
+   "pts": 34.0,
+   "height_px": 159.6,
+   "person_box": [
+    1656.1,
+    254.7,
+    1737.6,
+    414.3
+   ],
+   "crop": "crops/R02_t034_p08.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p00",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 126.4,
+   "person_box": [
+    446.6,
+    191.7,
+    587.8,
+    318.0
+   ],
+   "crop": "crops/R02_t048_p00.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p01",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 184.3,
+   "person_box": [
+    746.4,
+    366.9,
+    867.2,
+    551.2
+   ],
+   "crop": "crops/R02_t048_p01.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p02",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 136.9,
+   "person_box": [
+    817.2,
+    109.1,
+    904.9,
+    246.0
+   ],
+   "crop": "crops/R02_t048_p02.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p03",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 199.5,
+   "person_box": [
+    928.6,
+    199.3,
+    998.3,
+    398.8
+   ],
+   "crop": "crops/R02_t048_p03.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p04",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 127.1,
+   "person_box": [
+    958.9,
+    117.3,
+    1044.0,
+    244.5
+   ],
+   "crop": "crops/R02_t048_p04.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p05",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 178.0,
+   "person_box": [
+    1015.1,
+    182.5,
+    1109.4,
+    360.6
+   ],
+   "crop": "crops/R02_t048_p05.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p06",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 208.4,
+   "person_box": [
+    1016.8,
+    351.7,
+    1143.5,
+    560.1
+   ],
+   "crop": "crops/R02_t048_p06.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p07",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 275.1,
+   "person_box": [
+    1115.0,
+    58.1,
+    1247.1,
+    333.1
+   ],
+   "crop": "crops/R02_t048_p07.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p08",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 132.4,
+   "person_box": [
+    1139.8,
+    459.2,
+    1246.3,
+    591.6
+   ],
+   "crop": "crops/R02_t048_p08.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p09",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 259.9,
+   "person_box": [
+    1306.2,
+    567.5,
+    1437.1,
+    827.5
+   ],
+   "crop": "crops/R02_t048_p09.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t048_p10",
+   "race": "R02",
+   "frame": "R02_t048",
+   "pts": 48.0,
+   "height_px": 76.1,
+   "person_box": [
+    1428.9,
+    775.5,
+    1468.0,
+    851.6
+   ],
+   "crop": "crops/R02_t048_p10.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t068_p00",
+   "race": "R02",
+   "frame": "R02_t068",
+   "pts": 68.0,
+   "height_px": 117.9,
+   "person_box": [
+    518.8,
+    282.5,
+    590.4,
+    400.4
+   ],
+   "crop": "crops/R02_t068_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t068_p01",
+   "race": "R02",
+   "frame": "R02_t068",
+   "pts": 68.0,
+   "height_px": 98.1,
+   "person_box": [
+    717.8,
+    371.2,
+    770.2,
+    469.4
+   ],
+   "crop": "crops/R02_t068_p01.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t068_p02",
+   "race": "R02",
+   "frame": "R02_t068",
+   "pts": 68.0,
+   "height_px": 71.6,
+   "person_box": [
+    1558.7,
+    590.7,
+    1612.9,
+    662.3
+   ],
+   "crop": "crops/R02_t068_p02.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t032_p00",
+   "race": "R03",
+   "frame": "R03_t032",
+   "pts": 32.0,
+   "height_px": 79.6,
+   "person_box": [
+    784.5,
+    493.0,
+    859.8,
+    572.6
+   ],
+   "crop": "crops/R03_t032_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p00",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 134.5,
+   "person_box": [
+    466.0,
+    135.2,
+    545.3,
+    269.8
+   ],
+   "crop": "crops/R03_t070_p00.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p01",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 334.7,
+   "person_box": [
+    548.3,
+    282.3,
+    702.1,
+    617.0
+   ],
+   "crop": "crops/R03_t070_p01.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p02",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 161.0,
+   "person_box": [
+    635.6,
+    388.0,
+    732.8,
+    549.0
+   ],
+   "crop": "crops/R03_t070_p02.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p03",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 142.6,
+   "person_box": [
+    850.7,
+    406.3,
+    938.1,
+    548.9
+   ],
+   "crop": "crops/R03_t070_p03.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p04",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 168.0,
+   "person_box": [
+    893.2,
+    494.1,
+    999.2,
+    662.0
+   ],
+   "crop": "crops/R03_t070_p04.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p05",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 160.5,
+   "person_box": [
+    1033.8,
+    401.5,
+    1121.4,
+    562.0
+   ],
+   "crop": "crops/R03_t070_p05.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t070_p06",
+   "race": "R03",
+   "frame": "R03_t070",
+   "pts": 70.0,
+   "height_px": 147.0,
+   "person_box": [
+    1184.0,
+    562.3,
+    1314.3,
+    709.3
+   ],
+   "crop": "crops/R03_t070_p06.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p00",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 85.8,
+   "person_box": [
+    277.6,
+    406.3,
+    347.3,
+    492.1
+   ],
+   "crop": "crops/R03_t107_p00.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p01",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 82.9,
+   "person_box": [
+    344.1,
+    436.5,
+    396.9,
+    519.4
+   ],
+   "crop": "crops/R03_t107_p01.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p02",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 84.5,
+   "person_box": [
+    419.3,
+    410.1,
+    486.2,
+    494.7
+   ],
+   "crop": "crops/R03_t107_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p03",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 85.9,
+   "person_box": [
+    527.9,
+    342.6,
+    582.4,
+    428.5
+   ],
+   "crop": "crops/R03_t107_p03.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p04",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 82.0,
+   "person_box": [
+    591.0,
+    439.8,
+    677.4,
+    521.8
+   ],
+   "crop": "crops/R03_t107_p04.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p05",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 70.2,
+   "person_box": [
+    1158.7,
+    597.3,
+    1226.6,
+    667.6
+   ],
+   "crop": "crops/R03_t107_p05.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p06",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 74.8,
+   "person_box": [
+    1232.5,
+    501.7,
+    1285.5,
+    576.5
+   ],
+   "crop": "crops/R03_t107_p06.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p07",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 101.7,
+   "person_box": [
+    1442.9,
+    568.7,
+    1517.3,
+    670.4
+   ],
+   "crop": "crops/R03_t107_p07.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p08",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 87.7,
+   "person_box": [
+    1485.3,
+    521.5,
+    1558.8,
+    609.2
+   ],
+   "crop": "crops/R03_t107_p08.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t107_p09",
+   "race": "R03",
+   "frame": "R03_t107",
+   "pts": 107.0,
+   "height_px": 83.9,
+   "person_box": [
+    1534.0,
+    493.9,
+    1599.3,
+    577.9
+   ],
+   "crop": "crops/R03_t107_p09.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p00",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 101.6,
+   "person_box": [
+    307.4,
+    240.1,
+    368.0,
+    341.7
+   ],
+   "crop": "crops/R04_t033_p00.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p01",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 139.8,
+   "person_box": [
+    531.0,
+    256.5,
+    603.8,
+    396.3
+   ],
+   "crop": "crops/R04_t033_p01.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p02",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 130.5,
+   "person_box": [
+    885.4,
+    413.3,
+    977.0,
+    543.8
+   ],
+   "crop": "crops/R04_t033_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p03",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 116.6,
+   "person_box": [
+    1126.8,
+    441.2,
+    1210.2,
+    557.8
+   ],
+   "crop": "crops/R04_t033_p03.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p04",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 111.2,
+   "person_box": [
+    1270.2,
+    445.5,
+    1359.5,
+    556.7
+   ],
+   "crop": "crops/R04_t033_p04.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p05",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 109.0,
+   "person_box": [
+    1385.7,
+    494.2,
+    1480.1,
+    603.2
+   ],
+   "crop": "crops/R04_t033_p05.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p06",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 107.5,
+   "person_box": [
+    1568.2,
+    513.5,
+    1646.1,
+    621.0
+   ],
+   "crop": "crops/R04_t033_p06.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t033_p07",
+   "race": "R04",
+   "frame": "R04_t033",
+   "pts": 33.0,
+   "height_px": 149.9,
+   "person_box": [
+    1604.3,
+    522.4,
+    1691.2,
+    672.3
+   ],
+   "crop": "crops/R04_t033_p07.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p00",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 192.0,
+   "person_box": [
+    534.3,
+    187.9,
+    649.0,
+    379.9
+   ],
+   "crop": "crops/R04_t071_p00.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p01",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 160.4,
+   "person_box": [
+    681.5,
+    302.3,
+    774.5,
+    462.8
+   ],
+   "crop": "crops/R04_t071_p01.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p02",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 183.6,
+   "person_box": [
+    767.4,
+    465.3,
+    863.0,
+    648.9
+   ],
+   "crop": "crops/R04_t071_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p03",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 107.0,
+   "person_box": [
+    840.7,
+    396.9,
+    927.3,
+    503.9
+   ],
+   "crop": "crops/R04_t071_p03.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p04",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 191.2,
+   "person_box": [
+    932.3,
+    478.0,
+    1042.0,
+    669.1
+   ],
+   "crop": "crops/R04_t071_p04.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p05",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 199.5,
+   "person_box": [
+    1074.7,
+    376.7,
+    1189.0,
+    576.2
+   ],
+   "crop": "crops/R04_t071_p05.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p06",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 159.7,
+   "person_box": [
+    1093.8,
+    510.5,
+    1196.4,
+    670.2
+   ],
+   "crop": "crops/R04_t071_p06.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t071_p07",
+   "race": "R04",
+   "frame": "R04_t071",
+   "pts": 71.0,
+   "height_px": 143.3,
+   "person_box": [
+    1175.5,
+    523.1,
+    1218.0,
+    666.4
+   ],
+   "crop": "crops/R04_t071_p07.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t109_p00",
+   "race": "R04",
+   "frame": "R04_t109",
+   "pts": 109.0,
+   "height_px": 81.6,
+   "person_box": [
+    197.2,
+    378.0,
+    246.1,
+    459.6
+   ],
+   "crop": "crops/R04_t109_p00.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t109_p01",
+   "race": "R04",
+   "frame": "R04_t109",
+   "pts": 109.0,
+   "height_px": 85.0,
+   "person_box": [
+    460.1,
+    488.0,
+    512.7,
+    572.9
+   ],
+   "crop": "crops/R04_t109_p01.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t109_p02",
+   "race": "R04",
+   "frame": "R04_t109",
+   "pts": 109.0,
+   "height_px": 78.7,
+   "person_box": [
+    1198.7,
+    473.7,
+    1257.5,
+    552.4
+   ],
+   "crop": "crops/R04_t109_p02.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t109_p03",
+   "race": "R04",
+   "frame": "R04_t109",
+   "pts": 109.0,
+   "height_px": 71.5,
+   "person_box": [
+    1246.1,
+    577.8,
+    1290.5,
+    649.3
+   ],
+   "crop": "crops/R04_t109_p03.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t109_p04",
+   "race": "R04",
+   "frame": "R04_t109",
+   "pts": 109.0,
+   "height_px": 98.0,
+   "person_box": [
+    1371.3,
+    641.7,
+    1426.5,
+    739.7
+   ],
+   "crop": "crops/R04_t109_p04.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p00",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 183.4,
+   "person_box": [
+    495.3,
+    331.1,
+    609.1,
+    514.4
+   ],
+   "crop": "crops/R05_t035_p00.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p01",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 192.7,
+   "person_box": [
+    608.8,
+    221.4,
+    723.5,
+    414.2
+   ],
+   "crop": "crops/R05_t035_p01.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p02",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 172.9,
+   "person_box": [
+    670.5,
+    422.6,
+    790.3,
+    595.5
+   ],
+   "crop": "crops/R05_t035_p02.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p03",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 111.3,
+   "person_box": [
+    742.7,
+    136.4,
+    828.6,
+    247.7
+   ],
+   "crop": "crops/R05_t035_p03.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p04",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 178.1,
+   "person_box": [
+    820.9,
+    305.6,
+    923.2,
+    483.8
+   ],
+   "crop": "crops/R05_t035_p04.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p05",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 176.9,
+   "person_box": [
+    881.0,
+    466.7,
+    994.8,
+    643.5
+   ],
+   "crop": "crops/R05_t035_p05.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p06",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 121.7,
+   "person_box": [
+    968.9,
+    232.5,
+    1050.8,
+    354.2
+   ],
+   "crop": "crops/R05_t035_p06.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p07",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 162.7,
+   "person_box": [
+    1020.2,
+    503.3,
+    1128.3,
+    666.0
+   ],
+   "crop": "crops/R05_t035_p07.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p08",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 169.3,
+   "person_box": [
+    1069.3,
+    183.3,
+    1170.4,
+    352.6
+   ],
+   "crop": "crops/R05_t035_p08.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t035_p09",
+   "race": "R05",
+   "frame": "R05_t035",
+   "pts": 35.0,
+   "height_px": 194.4,
+   "person_box": [
+    1104.1,
+    297.9,
+    1231.8,
+    492.3
+   ],
+   "crop": "crops/R05_t035_p09.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p00",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 139.2,
+   "person_box": [
+    218.2,
+    430.3,
+    299.1,
+    569.6
+   ],
+   "crop": "crops/R05_t053_p00.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p01",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 118.6,
+   "person_box": [
+    296.1,
+    409.4,
+    394.5,
+    528.0
+   ],
+   "crop": "crops/R05_t053_p01.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p02",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 135.3,
+   "person_box": [
+    414.3,
+    373.0,
+    506.8,
+    508.3
+   ],
+   "crop": "crops/R05_t053_p02.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p03",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 160.7,
+   "person_box": [
+    745.0,
+    357.0,
+    822.0,
+    517.7
+   ],
+   "crop": "crops/R05_t053_p03.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p04",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 109.9,
+   "person_box": [
+    772.4,
+    370.1,
+    850.9,
+    479.9
+   ],
+   "crop": "crops/R05_t053_p04.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p05",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 134.2,
+   "person_box": [
+    832.3,
+    373.8,
+    921.2,
+    508.0
+   ],
+   "crop": "crops/R05_t053_p05.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p06",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 136.5,
+   "person_box": [
+    1090.6,
+    323.8,
+    1164.1,
+    460.4
+   ],
+   "crop": "crops/R05_t053_p06.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p07",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 94.2,
+   "person_box": [
+    1542.6,
+    283.1,
+    1621.7,
+    377.3
+   ],
+   "crop": "crops/R05_t053_p07.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p08",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 147.0,
+   "person_box": [
+    1612.4,
+    292.1,
+    1700.9,
+    439.1
+   ],
+   "crop": "crops/R05_t053_p08.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t053_p09",
+   "race": "R05",
+   "frame": "R05_t053",
+   "pts": 53.0,
+   "height_px": 127.3,
+   "person_box": [
+    1701.2,
+    268.9,
+    1787.7,
+    396.2
+   ],
+   "crop": "crops/R05_t053_p09.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t077_p00",
+   "race": "R05",
+   "frame": "R05_t077",
+   "pts": 77.0,
+   "height_px": 70.4,
+   "person_box": [
+    326.2,
+    441.9,
+    380.8,
+    512.3
+   ],
+   "crop": "crops/R05_t077_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t077_p01",
+   "race": "R05",
+   "frame": "R05_t077",
+   "pts": 77.0,
+   "height_px": 73.1,
+   "person_box": [
+    397.6,
+    421.6,
+    453.3,
+    494.7
+   ],
+   "crop": "crops/R05_t077_p01.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t077_p02",
+   "race": "R05",
+   "frame": "R05_t077",
+   "pts": 77.0,
+   "height_px": 97.1,
+   "person_box": [
+    1121.0,
+    456.3,
+    1181.6,
+    553.4
+   ],
+   "crop": "crops/R05_t077_p02.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t077_p03",
+   "race": "R05",
+   "frame": "R05_t077",
+   "pts": 77.0,
+   "height_px": 71.2,
+   "person_box": [
+    1291.1,
+    459.8,
+    1336.1,
+    531.0
+   ],
+   "crop": "crops/R05_t077_p03.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p00",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 209.4,
+   "person_box": [
+    518.8,
+    246.0,
+    654.4,
+    455.4
+   ],
+   "crop": "crops/R06_t029_p00.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p01",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 217.4,
+   "person_box": [
+    770.3,
+    348.1,
+    883.7,
+    565.4
+   ],
+   "crop": "crops/R06_t029_p01.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p02",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 150.0,
+   "person_box": [
+    942.3,
+    304.8,
+    1037.5,
+    454.8
+   ],
+   "crop": "crops/R06_t029_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p03",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 259.0,
+   "person_box": [
+    967.7,
+    489.8,
+    1097.7,
+    748.8
+   ],
+   "crop": "crops/R06_t029_p03.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p04",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 139.6,
+   "person_box": [
+    1147.5,
+    340.3,
+    1244.0,
+    479.9
+   ],
+   "crop": "crops/R06_t029_p04.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t029_p05",
+   "race": "R06",
+   "frame": "R06_t029",
+   "pts": 29.0,
+   "height_px": 212.6,
+   "person_box": [
+    1155.9,
+    460.5,
+    1290.1,
+    673.1
+   ],
+   "crop": "crops/R06_t029_p05.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p00",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 89.3,
+   "person_box": [
+    341.2,
+    457.1,
+    407.5,
+    546.4
+   ],
+   "crop": "crops/R06_t054_p00.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p01",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 92.1,
+   "person_box": [
+    439.2,
+    458.1,
+    504.7,
+    550.3
+   ],
+   "crop": "crops/R06_t054_p01.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p02",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 109.8,
+   "person_box": [
+    768.9,
+    419.8,
+    837.2,
+    529.6
+   ],
+   "crop": "crops/R06_t054_p02.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p03",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 84.6,
+   "person_box": [
+    1044.1,
+    410.0,
+    1101.9,
+    494.6
+   ],
+   "crop": "crops/R06_t054_p03.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p04",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 72.4,
+   "person_box": [
+    1064.4,
+    414.1,
+    1122.4,
+    486.5
+   ],
+   "crop": "crops/R06_t054_p04.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p05",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 81.7,
+   "person_box": [
+    1294.8,
+    394.9,
+    1363.2,
+    476.6
+   ],
+   "crop": "crops/R06_t054_p05.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t054_p06",
+   "race": "R06",
+   "frame": "R06_t054",
+   "pts": 54.0,
+   "height_px": 97.3,
+   "person_box": [
+    1701.8,
+    383.3,
+    1785.3,
+    480.6
+   ],
+   "crop": "crops/R06_t054_p06.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p00",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 79.3,
+   "person_box": [
+    358.9,
+    299.9,
+    414.8,
+    379.3
+   ],
+   "crop": "crops/R06_t083_p00.jpg",
+   "draft_number": 4,
+   "human_number": 4,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p01",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 100.2,
+   "person_box": [
+    482.8,
+    436.6,
+    572.3,
+    536.8
+   ],
+   "crop": "crops/R06_t083_p01.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p02",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 90.1,
+   "person_box": [
+    518.1,
+    392.2,
+    599.3,
+    482.3
+   ],
+   "crop": "crops/R06_t083_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p03",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 76.2,
+   "person_box": [
+    782.8,
+    335.9,
+    845.7,
+    412.1
+   ],
+   "crop": "crops/R06_t083_p03.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p04",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 76.8,
+   "person_box": [
+    823.6,
+    420.1,
+    890.2,
+    497.0
+   ],
+   "crop": "crops/R06_t083_p04.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p05",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 77.0,
+   "person_box": [
+    1064.1,
+    422.1,
+    1137.3,
+    499.1
+   ],
+   "crop": "crops/R06_t083_p05.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p06",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 85.4,
+   "person_box": [
+    1101.2,
+    474.9,
+    1180.0,
+    560.3
+   ],
+   "crop": "crops/R06_t083_p06.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p07",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 92.7,
+   "person_box": [
+    1249.7,
+    546.1,
+    1320.8,
+    638.8
+   ],
+   "crop": "crops/R06_t083_p07.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t083_p08",
+   "race": "R06",
+   "frame": "R06_t083",
+   "pts": 83.0,
+   "height_px": 90.2,
+   "person_box": [
+    1533.9,
+    522.4,
+    1608.9,
+    612.6
+   ],
+   "crop": "crops/R06_t083_p08.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p00",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 177.0,
+   "person_box": [
+    562.9,
+    444.7,
+    676.2,
+    621.8
+   ],
+   "crop": "crops/R07_t030_p00.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p01",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 236.9,
+   "person_box": [
+    650.1,
+    369.1,
+    747.4,
+    606.0
+   ],
+   "crop": "crops/R07_t030_p01.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p02",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 178.8,
+   "person_box": [
+    682.8,
+    445.8,
+    791.0,
+    624.6
+   ],
+   "crop": "crops/R07_t030_p02.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p03",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 183.7,
+   "person_box": [
+    809.4,
+    466.3,
+    918.3,
+    650.1
+   ],
+   "crop": "crops/R07_t030_p03.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p04",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 142.0,
+   "person_box": [
+    834.1,
+    417.4,
+    912.7,
+    559.4
+   ],
+   "crop": "crops/R07_t030_p04.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p05",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 175.7,
+   "person_box": [
+    989.7,
+    356.3,
+    1097.6,
+    531.9
+   ],
+   "crop": "crops/R07_t030_p05.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p06",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 200.0,
+   "person_box": [
+    1057.5,
+    452.2,
+    1179.6,
+    652.2
+   ],
+   "crop": "crops/R07_t030_p06.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p07",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 365.0,
+   "person_box": [
+    1124.2,
+    159.6,
+    1266.5,
+    524.7
+   ],
+   "crop": "crops/R07_t030_p07.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t030_p08",
+   "race": "R07",
+   "frame": "R07_t030",
+   "pts": 30.0,
+   "height_px": 146.9,
+   "person_box": [
+    1229.6,
+    453.2,
+    1320.6,
+    600.1
+   ],
+   "crop": "crops/R07_t030_p08.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p00",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 107.1,
+   "person_box": [
+    210.3,
+    444.2,
+    291.5,
+    551.3
+   ],
+   "crop": "crops/R07_t056_p00.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p01",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 163.3,
+   "person_box": [
+    256.6,
+    422.3,
+    354.4,
+    585.6
+   ],
+   "crop": "crops/R07_t056_p01.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p02",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 112.2,
+   "person_box": [
+    533.0,
+    421.1,
+    620.4,
+    533.2
+   ],
+   "crop": "crops/R07_t056_p02.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p03",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 133.2,
+   "person_box": [
+    1042.9,
+    364.3,
+    1150.2,
+    497.4
+   ],
+   "crop": "crops/R07_t056_p03.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p04",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 124.2,
+   "person_box": [
+    1086.7,
+    380.3,
+    1173.8,
+    504.4
+   ],
+   "crop": "crops/R07_t056_p04.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p05",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 137.7,
+   "person_box": [
+    1323.4,
+    335.7,
+    1399.0,
+    473.4
+   ],
+   "crop": "crops/R07_t056_p05.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t056_p06",
+   "race": "R07",
+   "frame": "R07_t056",
+   "pts": 56.0,
+   "height_px": 126.3,
+   "person_box": [
+    1666.3,
+    317.3,
+    1747.7,
+    443.7
+   ],
+   "crop": "crops/R07_t056_p06.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t082_p00",
+   "race": "R07",
+   "frame": "R07_t082",
+   "pts": 82.0,
+   "height_px": 95.6,
+   "person_box": [
+    282.5,
+    390.4,
+    351.3,
+    486.0
+   ],
+   "crop": "crops/R07_t082_p00.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t082_p01",
+   "race": "R07",
+   "frame": "R07_t082",
+   "pts": 82.0,
+   "height_px": 113.9,
+   "person_box": [
+    324.2,
+    384.6,
+    377.1,
+    498.6
+   ],
+   "crop": "crops/R07_t082_p01.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t082_p02",
+   "race": "R07",
+   "frame": "R07_t082",
+   "pts": 82.0,
+   "height_px": 72.7,
+   "person_box": [
+    355.7,
+    425.3,
+    396.4,
+    498.0
+   ],
+   "crop": "crops/R07_t082_p02.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p00",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 137.4,
+   "person_box": [
+    684.5,
+    652.7,
+    765.0,
+    790.1
+   ],
+   "crop": "crops/R08_t061_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p01",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 205.7,
+   "person_box": [
+    714.1,
+    288.8,
+    819.0,
+    494.5
+   ],
+   "crop": "crops/R08_t061_p01.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p02",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 249.9,
+   "person_box": [
+    761.0,
+    608.5,
+    857.1,
+    858.4
+   ],
+   "crop": "crops/R08_t061_p02.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p03",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 76.9,
+   "person_box": [
+    829.6,
+    688.4,
+    894.1,
+    765.3
+   ],
+   "crop": "crops/R08_t061_p03.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p04",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 108.1,
+   "person_box": [
+    862.7,
+    462.7,
+    934.1,
+    570.8
+   ],
+   "crop": "crops/R08_t061_p04.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p05",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 122.9,
+   "person_box": [
+    895.4,
+    272.0,
+    964.0,
+    394.8
+   ],
+   "crop": "crops/R08_t061_p05.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p06",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 184.8,
+   "person_box": [
+    883.6,
+    685.6,
+    977.9,
+    870.4
+   ],
+   "crop": "crops/R08_t061_p06.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p07",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 123.2,
+   "person_box": [
+    898.8,
+    640.4,
+    981.7,
+    763.6
+   ],
+   "crop": "crops/R08_t061_p07.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t061_p08",
+   "race": "R08",
+   "frame": "R08_t061",
+   "pts": 61.0,
+   "height_px": 144.7,
+   "person_box": [
+    979.2,
+    697.6,
+    1072.4,
+    842.3
+   ],
+   "crop": "crops/R08_t061_p08.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t091_p00",
+   "race": "R08",
+   "frame": "R08_t091",
+   "pts": 91.0,
+   "height_px": 79.5,
+   "person_box": [
+    939.6,
+    380.0,
+    999.0,
+    459.4
+   ],
+   "crop": "crops/R08_t091_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t091_p01",
+   "race": "R08",
+   "frame": "R08_t091",
+   "pts": 91.0,
+   "height_px": 116.6,
+   "person_box": [
+    943.9,
+    460.6,
+    1017.6,
+    577.2
+   ],
+   "crop": "crops/R08_t091_p01.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t091_p02",
+   "race": "R08",
+   "frame": "R08_t091",
+   "pts": 91.0,
+   "height_px": 85.9,
+   "person_box": [
+    1631.0,
+    584.7,
+    1684.5,
+    670.6
+   ],
+   "crop": "crops/R08_t091_p02.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t035_p00",
+   "race": "R09",
+   "frame": "R09_t035",
+   "pts": 35.0,
+   "height_px": 98.5,
+   "person_box": [
+    1659.7,
+    431.3,
+    1703.9,
+    529.8
+   ],
+   "crop": "crops/R09_t035_p00.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p00",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 138.1,
+   "person_box": [
+    378.8,
+    101.0,
+    453.0,
+    239.1
+   ],
+   "crop": "crops/R10_t068_p00.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p01",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 123.3,
+   "person_box": [
+    406.7,
+    249.8,
+    487.2,
+    373.1
+   ],
+   "crop": "crops/R10_t068_p01.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p02",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 109.9,
+   "person_box": [
+    558.4,
+    219.1,
+    626.5,
+    329.0
+   ],
+   "crop": "crops/R10_t068_p02.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p03",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 136.8,
+   "person_box": [
+    913.0,
+    442.5,
+    992.7,
+    579.3
+   ],
+   "crop": "crops/R10_t068_p03.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p04",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 98.6,
+   "person_box": [
+    1057.6,
+    464.0,
+    1136.5,
+    562.6
+   ],
+   "crop": "crops/R10_t068_p04.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p05",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 128.0,
+   "person_box": [
+    1200.1,
+    464.2,
+    1280.0,
+    592.1
+   ],
+   "crop": "crops/R10_t068_p05.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p06",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 147.8,
+   "person_box": [
+    1273.5,
+    582.0,
+    1348.8,
+    729.7
+   ],
+   "crop": "crops/R10_t068_p06.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p07",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 87.9,
+   "person_box": [
+    1336.1,
+    651.3,
+    1366.1,
+    739.2
+   ],
+   "crop": "crops/R10_t068_p07.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p08",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 131.9,
+   "person_box": [
+    1434.4,
+    611.0,
+    1522.6,
+    742.9
+   ],
+   "crop": "crops/R10_t068_p08.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t068_p09",
+   "race": "R10",
+   "frame": "R10_t068",
+   "pts": 68.0,
+   "height_px": 155.3,
+   "person_box": [
+    1465.5,
+    613.8,
+    1555.1,
+    769.1
+   ],
+   "crop": "crops/R10_t068_p09.jpg",
+   "draft_number": null,
+   "human_number": null,
+   "review": "confirmed_unclear",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p00",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 96.2,
+   "person_box": [
+    220.1,
+    432.8,
+    296.2,
+    529.0
+   ],
+   "crop": "crops/R10_t104_p00.jpg",
+   "draft_number": 1,
+   "human_number": 1,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p01",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 104.5,
+   "person_box": [
+    440.1,
+    348.4,
+    510.1,
+    452.9
+   ],
+   "crop": "crops/R10_t104_p01.jpg",
+   "draft_number": 2,
+   "human_number": 2,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p02",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 94.4,
+   "person_box": [
+    824.6,
+    442.2,
+    899.6,
+    536.6
+   ],
+   "crop": "crops/R10_t104_p02.jpg",
+   "draft_number": 10,
+   "human_number": 10,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p03",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 117.5,
+   "person_box": [
+    897.7,
+    572.2,
+    966.9,
+    689.7
+   ],
+   "crop": "crops/R10_t104_p03.jpg",
+   "draft_number": 8,
+   "human_number": 8,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p04",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 113.0,
+   "person_box": [
+    1012.8,
+    438.3,
+    1081.7,
+    551.3
+   ],
+   "crop": "crops/R10_t104_p04.jpg",
+   "draft_number": 11,
+   "human_number": 11,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p05",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 97.7,
+   "person_box": [
+    1151.1,
+    441.2,
+    1253.9,
+    538.8
+   ],
+   "crop": "crops/R10_t104_p05.jpg",
+   "draft_number": 5,
+   "human_number": 5,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p06",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 122.7,
+   "person_box": [
+    1226.1,
+    587.6,
+    1310.0,
+    710.3
+   ],
+   "crop": "crops/R10_t104_p06.jpg",
+   "draft_number": 7,
+   "human_number": 7,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p07",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 78.4,
+   "person_box": [
+    1288.9,
+    581.6,
+    1343.1,
+    660.0
+   ],
+   "crop": "crops/R10_t104_p07.jpg",
+   "draft_number": 6,
+   "human_number": 6,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p08",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 88.6,
+   "person_box": [
+    1406.9,
+    556.9,
+    1475.6,
+    645.5
+   ],
+   "crop": "crops/R10_t104_p08.jpg",
+   "draft_number": 3,
+   "human_number": 3,
+   "review": "confirmed",
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t104_p09",
+   "race": "R10",
+   "frame": "R10_t104",
+   "pts": 104.0,
+   "height_px": 135.2,
+   "person_box": [
+    1557.7,
+    522.0,
+    1629.5,
+    657.2
+   ],
+   "crop": "crops/R10_t104_p09.jpg",
+   "draft_number": 9,
+   "human_number": 9,
+   "review": "confirmed",
+   "duplicate_of": null
+  }
+ ]
+}

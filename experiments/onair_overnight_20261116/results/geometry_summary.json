@@ -1,0 +1,322 @@
+[
+  {
+    "frame": "t031",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t031",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t031",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t031",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t031",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t034",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t034",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t034",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t034",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t034",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t037",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t037",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t037",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t037",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t037",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t040",
+    "method": "A_distance",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t040",
+    "method": "B_view_gate",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t040",
+    "method": "C_view_gate_unique",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t040",
+    "method": "D_view_gate_abstain",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t040",
+    "method": "E_cut_only_gate",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t042",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t042",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t042",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t042",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t042",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 0,
+    "wrong": 2,
+    "abstain": 1
+  },
+  {
+    "frame": "t048",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t048",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t048",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t048",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t048",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 2,
+    "wrong": 1,
+    "abstain": 0
+  },
+  {
+    "frame": "t052",
+    "method": "A_distance",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t052",
+    "method": "B_view_gate",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t052",
+    "method": "C_view_gate_unique",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t052",
+    "method": "D_view_gate_abstain",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t052",
+    "method": "E_cut_only_gate",
+    "n": 2,
+    "agreement": 2,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t058",
+    "method": "A_distance",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t058",
+    "method": "B_view_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t058",
+    "method": "C_view_gate_unique",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t058",
+    "method": "D_view_gate_abstain",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  },
+  {
+    "frame": "t058",
+    "method": "E_cut_only_gate",
+    "n": 3,
+    "agreement": 3,
+    "wrong": 0,
+    "abstain": 0
+  }
+]

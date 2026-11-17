@@ -1,0 +1,51 @@
+[
+  {
+    "frame_index": 981,
+    "pts": 32.733333,
+    "mad": 0.23183630406856537,
+    "hist_bhattacharyya": 0.3958096853625528,
+    "candidate": true
+  },
+  {
+    "frame_index": 1291,
+    "pts": 43.066667,
+    "mad": 0.23579208552837372,
+    "hist_bhattacharyya": 0.719774226832836,
+    "candidate": true
+  },
+  {
+    "frame_index": 1347,
+    "pts": 44.933333,
+    "mad": 0.04018529877066612,
+    "hist_bhattacharyya": 0.5472326581412374,
+    "candidate": true
+  },
+  {
+    "frame_index": 2513,
+    "pts": 83.8,
+    "mad": 0.24545066058635712,
+    "hist_bhattacharyya": 0.4787096857887341,
+    "candidate": true
+  },
+  {
+    "frame_index": 2750,
+    "pts": 91.7,
+    "mad": 0.24209150671958923,
+    "hist_bhattacharyya": 0.661104647033698,
+    "candidate": true
+  },
+  {
+    "frame_index": 2948,
+    "pts": 98.3,
+    "mad": 0.18173114955425262,
+    "hist_bhattacharyya": 0.4364565742433322,
+    "candidate": true
+  },
+  {
+    "frame_index": 2996,
+    "pts": 99.9,
+    "mad": 0.1910611242055893,
+    "hist_bhattacharyya": 0.7243754384091314,
+    "candidate": true
+  }
+]

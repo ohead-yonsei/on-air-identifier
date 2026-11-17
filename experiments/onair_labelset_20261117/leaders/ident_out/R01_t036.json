@@ -1,0 +1,217 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/frames/R01_t036.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R01.json",
+ "riders": [
+  {
+   "no": 8,
+   "state": "sure",
+   "score": 1.867,
+   "x": 383.3,
+   "h_px": 194.3,
+   "box": [
+    332.3,
+    427.6,
+    434.3,
+    621.9
+   ],
+   "colour": "pink",
+   "qwen_number": 8,
+   "p_learned": 0.867,
+   "sure_strict": true,
+   "detector_score": 0.998
+  },
+  {
+   "no": 11,
+   "state": "guess",
+   "score": 0.2163,
+   "x": 513.3,
+   "h_px": 196.4,
+   "box": [
+    460.4,
+    476.8,
+    566.3,
+    673.2
+   ],
+   "colour": "sky blue/white stripes",
+   "qwen_number": 0,
+   "p_learned": 0.2163,
+   "sure_strict": false,
+   "detector_score": 0.614
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.7943,
+   "x": 565.9,
+   "h_px": 204.8,
+   "box": [
+    514.9,
+    431.1,
+    616.9,
+    635.9
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.7943,
+   "sure_strict": true,
+   "detector_score": 0.757
+  },
+  {
+   "no": 7,
+   "state": "guess",
+   "score": 0.2377,
+   "x": 688.3,
+   "h_px": 197.7,
+   "box": [
+    636.8,
+    480.7,
+    739.9,
+    678.5
+   ],
+   "colour": "brown",
+   "qwen_number": 1,
+   "p_learned": 0.2377,
+   "sure_strict": false,
+   "detector_score": 0.984
+  },
+  {
+   "no": 1,
+   "state": "sure",
+   "score": 1.6338,
+   "x": 788.7,
+   "h_px": 180.5,
+   "box": [
+    734.9,
+    509.1,
+    842.6,
+    689.6
+   ],
+   "colour": "white",
+   "qwen_number": 1,
+   "p_learned": 0.6338,
+   "sure_strict": true,
+   "detector_score": 0.983
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.9995,
+   "x": 919.9,
+   "h_px": 204.7,
+   "box": [
+    854.7,
+    416.9,
+    985.2,
+    621.6
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.9995,
+   "sure_strict": true,
+   "detector_score": 0.989
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.9532,
+   "x": 1349.4,
+   "h_px": 174.1,
+   "box": [
+    1295.9,
+    321.3,
+    1402.8,
+    495.4
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.9532,
+   "sure_strict": true,
+   "detector_score": 0.981
+  },
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.1717,
+   "x": 1678.0,
+   "h_px": 187.7,
+   "box": [
+    1614.5,
+    244.7,
+    1741.4,
+    432.3
+   ],
+   "colour": "sky blue",
+   "qwen_number": 5,
+   "p_learned": 0.1717,
+   "sure_strict": false,
+   "detector_score": 0.951
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "pink",
+   "number": 8,
+   "ms": 258.3,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 216.2,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 235.2,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 225.9,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 229.2,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 222.1,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 226.6,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 224.7,
+   "error": null
+  }
+ ],
+ "total_ms": 2628.4
+}

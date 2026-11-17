@@ -1,0 +1,8 @@
+﻿method,condition,n,correct,wrong,abstained,overall_accuracy,coverage,accuracy_when_answered,median_ms,p95_ms,timing_scope
+VLM,H,6,0,0,6,0.0,0.0,,669.3615573458374,672.578496625647,local HTTP response including model work
+VLM,S,6,3,1,2,0.5,0.6666666666666666,0.75,669.3834192119539,739.6520948968828,local HTTP response including model work
+VLM,HS,6,4,0,2,0.6666666666666666,0.6666666666666666,1.0,675.2919093705714,738.1825088523328,local HTTP response including model work
+HSV,H,6,3,3,0,0.5,1.0,0.5,0.284885,0.33143187500000004,in-memory CPU feature+score
+HSV,S,6,1,3,2,0.16666666666666666,0.6666666666666666,0.25,0.42380375,0.541614375,in-memory CPU feature+score
+HSV,HS,6,3,2,1,0.5,0.8333333333333334,0.6,0.7226779999999999,0.874899125,in-memory CPU feature+score
+VLM_direct_cap,direct_cap,6,4,2,0,0.6666666666666666,1.0,0.6666666666666666,244.57633960992098,345.2301509678364,local HTTP response including model work

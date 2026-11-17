@@ -1,0 +1,1138 @@
+[
+ {
+  "frame": "R01_t036",
+  "strip": [
+   1,
+   2,
+   7,
+   5,
+   8
+  ],
+  "human_in_strip_by_rule": [
+   1,
+   2,
+   7,
+   5,
+   8
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    7,
+    "guess"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ],
+  "front_box_human": 1
+ },
+ {
+  "frame": "R02_t023",
+  "strip": [
+   2,
+   9,
+   10,
+   1,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   2,
+   9,
+   10,
+   1,
+   11
+  ],
+  "system_front3": [
+   [
+    2,
+    "sure"
+   ],
+   [
+    9,
+    "sure"
+   ],
+   [
+    10,
+    "guess"
+   ]
+  ],
+  "front_box_human": 2
+ },
+ {
+  "frame": "R02_t034",
+  "strip": [
+   2,
+   9,
+   10,
+   1,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   2,
+   1,
+   10,
+   11
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    1,
+    "sure"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R02_t040",
+  "strip": [
+   9,
+   2,
+   1,
+   10,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   2,
+   11
+  ],
+  "system_front3": [
+   [
+    9,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    4,
+    "guess"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R02_t044",
+  "strip": [
+   9,
+   2,
+   1,
+   10,
+   4
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   2,
+   10,
+   1
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    10,
+    "guess"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R02_t048",
+  "strip": [
+   9,
+   2,
+   1,
+   10,
+   4
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   2,
+   1,
+   10,
+   4
+  ],
+  "system_front3": [
+   [
+    8,
+    "guess"
+   ],
+   [
+    9,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R03_t054",
+  "strip": [
+   5,
+   9,
+   4,
+   11,
+   2
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   2
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    8,
+    "guess"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R03_t057",
+  "strip": [
+   5,
+   9,
+   4,
+   11,
+   6
+  ],
+  "human_in_strip_by_rule": [
+   5,
+   9,
+   6,
+   4
+  ],
+  "system_front3": [
+   [
+    5,
+    "sure"
+   ],
+   [
+    9,
+    "guess"
+   ],
+   [
+    6,
+    "sure"
+   ]
+  ],
+  "front_box_human": 5
+ },
+ {
+  "frame": "R03_t070",
+  "strip": [
+   5,
+   9,
+   4,
+   11,
+   6
+  ],
+  "human_in_strip_by_rule": [
+   5,
+   9,
+   4,
+   6,
+   11
+  ],
+  "system_front3": [
+   [
+    5,
+    "sure"
+   ],
+   [
+    9,
+    "sure"
+   ],
+   [
+    7,
+    "guess"
+   ]
+  ],
+  "front_box_human": 5
+ },
+ {
+  "frame": "R03_t085",
+  "strip": [
+   5,
+   9,
+   11,
+   4,
+   2
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R04_t033",
+  "strip": [
+   6,
+   8,
+   1,
+   2,
+   3
+  ],
+  "human_in_strip_by_rule": [
+   6,
+   8,
+   2,
+   1,
+   3
+  ],
+  "system_front3": [
+   [
+    6,
+    "sure"
+   ],
+   [
+    2,
+    "guess"
+   ],
+   [
+    8,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R04_t055",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "human_in_strip_by_rule": [
+   3,
+   1
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    11,
+    "guess"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ],
+  "front_box_human": 3
+ },
+ {
+  "frame": "R04_t058",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    4,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ],
+  "front_box_human": 4
+ },
+ {
+  "frame": "R04_t071",
+  "strip": [
+   6,
+   8,
+   3,
+   1,
+   2
+  ],
+  "human_in_strip_by_rule": [
+   6,
+   8,
+   3,
+   1,
+   2
+  ],
+  "system_front3": [
+   [
+    6,
+    "sure"
+   ],
+   [
+    8,
+    "sure"
+   ],
+   [
+    4,
+    "guess"
+   ]
+  ],
+  "front_box_human": 6
+ },
+ {
+  "frame": "R04_t087",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    3,
+    "sure"
+   ],
+   [
+    2,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R04_t090",
+  "strip": [
+   6,
+   8,
+   3,
+   2,
+   1
+  ],
+  "human_in_strip_by_rule": [
+   8,
+   6,
+   3,
+   1,
+   2
+  ],
+  "system_front3": [
+   [
+    8,
+    "sure"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    3,
+    "sure"
+   ]
+  ],
+  "front_box_human": 8
+ },
+ {
+  "frame": "R05_t035",
+  "strip": [
+   1,
+   2,
+   7,
+   10,
+   5
+  ],
+  "human_in_strip_by_rule": [
+   1,
+   2,
+   7,
+   10,
+   5
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    7,
+    "guess"
+   ]
+  ],
+  "front_box_human": 1
+ },
+ {
+  "frame": "R05_t043",
+  "strip": [
+   1,
+   2,
+   7,
+   3,
+   8
+  ],
+  "human_in_strip_by_rule": [
+   2,
+   7
+  ],
+  "system_front3": [
+   [
+    2,
+    "guess"
+   ],
+   [
+    8,
+    "sure"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ],
+  "front_box_human": 2
+ },
+ {
+  "frame": "R05_t047",
+  "strip": [
+   1,
+   2,
+   7,
+   3,
+   8
+  ],
+  "human_in_strip_by_rule": [
+   1,
+   2,
+   7,
+   3
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    7,
+    "guess"
+   ],
+   [
+    8,
+    "guess"
+   ]
+  ],
+  "front_box_human": 1
+ },
+ {
+  "frame": "R05_t053",
+  "strip": [
+   1,
+   2,
+   7,
+   3,
+   8
+  ],
+  "human_in_strip_by_rule": [
+   1,
+   2,
+   8,
+   7,
+   3
+  ],
+  "system_front3": [
+   [
+    1,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    8,
+    "sure"
+   ]
+  ],
+  "front_box_human": 1
+ },
+ {
+  "frame": "R06_t029",
+  "strip": [
+   7,
+   6,
+   2,
+   3,
+   4
+  ],
+  "human_in_strip_by_rule": [
+   7,
+   6,
+   4,
+   3
+  ],
+  "system_front3": [
+   [
+    7,
+    "sure"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    4,
+    "guess"
+   ]
+  ],
+  "front_box_human": 7
+ },
+ {
+  "frame": "R06_t044",
+  "strip": [
+   7,
+   6,
+   2,
+   4,
+   1
+  ],
+  "human_in_strip_by_rule": [
+   7,
+   6,
+   2
+  ],
+  "system_front3": [
+   [
+    2,
+    "sure"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    5,
+    "guess"
+   ]
+  ],
+  "front_box_human": 7
+ },
+ {
+  "frame": "R06_t048",
+  "strip": [
+   7,
+   6,
+   2,
+   4,
+   1
+  ],
+  "human_in_strip_by_rule": [
+   6,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R06_t054",
+  "strip": [
+   6,
+   7,
+   2,
+   1,
+   4
+  ],
+  "human_in_strip_by_rule": [
+   6,
+   7,
+   2,
+   1
+  ],
+  "system_front3": [
+   [
+    9,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ],
+   [
+    6,
+    "guess"
+   ]
+  ],
+  "front_box_human": 6
+ },
+ {
+  "frame": "R07_t023",
+  "strip": [
+   6,
+   3,
+   7,
+   2,
+   5
+  ],
+  "human_in_strip_by_rule": [
+   2,
+   5,
+   6,
+   3
+  ],
+  "system_front3": [
+   [
+    2,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ],
+  "front_box_human": 1
+ },
+ {
+  "frame": "R07_t030",
+  "strip": [
+   6,
+   7,
+   2,
+   3,
+   10
+  ],
+  "human_in_strip_by_rule": [
+   7,
+   10,
+   2
+  ],
+  "system_front3": [
+   [
+    6,
+    "sure"
+   ],
+   [
+    3,
+    "sure"
+   ],
+   [
+    1,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R07_t042",
+  "strip": [
+   6,
+   7,
+   2,
+   10,
+   3
+  ],
+  "human_in_strip_by_rule": [
+   7,
+   6,
+   10,
+   2
+  ],
+  "system_front3": [
+   [
+    3,
+    "sure"
+   ],
+   [
+    6,
+    "sure"
+   ],
+   [
+    9,
+    "guess"
+   ]
+  ],
+  "front_box_human": 7
+ },
+ {
+  "frame": "R07_t045",
+  "strip": [
+   6,
+   7,
+   2,
+   10,
+   3
+  ],
+  "human_in_strip_by_rule": [
+   7,
+   10,
+   2,
+   3
+  ],
+  "system_front3": [
+   [
+    4,
+    "guess"
+   ],
+   [
+    6,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ],
+  "front_box_human": 7
+ },
+ {
+  "frame": "R07_t056",
+  "strip": [
+   6,
+   7,
+   10,
+   2,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   10,
+   7,
+   2,
+   11
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    4,
+    "guess"
+   ],
+   [
+    2,
+    "sure"
+   ]
+  ],
+  "front_box_human": 10
+ },
+ {
+  "frame": "R08_t052",
+  "strip": [
+   3,
+   5,
+   7,
+   14,
+   1
+  ],
+  "human_in_strip_by_rule": [
+   5,
+   3
+  ],
+  "system_front3": [
+   [
+    5,
+    "sure"
+   ],
+   [
+    8,
+    "guess"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R08_t061",
+  "strip": [
+   3,
+   7,
+   14,
+   5,
+   2
+  ],
+  "human_in_strip_by_rule": [
+   3,
+   5
+  ],
+  "system_front3": [
+   [
+    7,
+    "guess"
+   ],
+   [
+    4,
+    "guess"
+   ],
+   [
+    3,
+    "sure"
+   ]
+  ]
+ },
+ {
+  "frame": "R09_t051",
+  "strip": [
+   9,
+   7,
+   1,
+   5,
+   3
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   7,
+   1,
+   5,
+   3
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    1,
+    "guess"
+   ],
+   [
+    10,
+    "guess"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R09_t054",
+  "strip": [
+   9,
+   7,
+   1,
+   5,
+   3
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   7,
+   1,
+   5
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    4,
+    "guess"
+   ],
+   [
+    1,
+    "sure"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R09_t084",
+  "strip": [
+   9,
+   7,
+   8,
+   1,
+   6
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   7,
+   8,
+   1,
+   6
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ],
+   [
+    8,
+    "sure"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R09_t087",
+  "strip": [
+   9,
+   7,
+   8,
+   1,
+   6
+  ],
+  "human_in_strip_by_rule": [
+   9,
+   8,
+   7,
+   1
+  ],
+  "system_front3": [
+   [
+    9,
+    "sure"
+   ],
+   [
+    8,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ]
+  ],
+  "front_box_human": 9
+ },
+ {
+  "frame": "R10_t053",
+  "strip": [
+   3,
+   10,
+   6,
+   7,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   3,
+   10,
+   6,
+   11,
+   7
+  ],
+  "system_front3": [
+   [
+    3,
+    "sure"
+   ],
+   [
+    5,
+    "sure"
+   ],
+   [
+    11,
+    "guess"
+   ]
+  ],
+  "front_box_human": 3
+ },
+ {
+  "frame": "R10_t068",
+  "strip": [
+   3,
+   10,
+   6,
+   7,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   3,
+   10,
+   6,
+   11,
+   7
+  ],
+  "system_front3": [
+   [
+    3,
+    "sure"
+   ],
+   [
+    7,
+    "guess"
+   ],
+   [
+    10,
+    "guess"
+   ]
+  ]
+ },
+ {
+  "frame": "R10_t086",
+  "strip": [
+   3,
+   10,
+   6,
+   7,
+   11
+  ],
+  "human_in_strip_by_rule": [
+   10,
+   7,
+   11
+  ],
+  "system_front3": [
+   [
+    6,
+    "guess"
+   ],
+   [
+    10,
+    "guess"
+   ],
+   [
+    7,
+    "guess"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,827 @@
+[
+  {
+    "id": "A",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      190,
+      412,
+      216,
+      439
+    ],
+    "torso_box": [
+      207,
+      407,
+      243,
+      449
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "A",
+        "source_box": [
+          207,
+          412,
+          216,
+          439
+        ]
+      }
+    ],
+    "cap_file": "crops/A_cap.png",
+    "torso_file": "crops/A_torso.png",
+    "provisional_number": 9,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      26,
+      27
+    ],
+    "torso_native_size": [
+      36,
+      42
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/A_H.png",
+        "sha256": "516350d7066c9afe568ef3ca7107c9fa9473b64012c95467463cab8786c1b24d",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/A_S.png",
+        "sha256": "48a498687f818d686a5d166fbbee9ca3184f62c0507cba15722232d2d8f8456d",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/A_HS.png",
+        "sha256": "6dff25c6fcc69a7f02243559bfb3df9df71668639bbeb338e0e76af69c0dd8c2",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "B",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      273,
+      370,
+      295,
+      392
+    ],
+    "torso_box": [
+      277,
+      374,
+      320,
+      417
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "B",
+        "source_box": [
+          277,
+          374,
+          295,
+          392
+        ]
+      }
+    ],
+    "cap_file": "crops/B_cap.png",
+    "torso_file": "crops/B_torso.png",
+    "provisional_number": 1,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      22,
+      22
+    ],
+    "torso_native_size": [
+      43,
+      43
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/B_H.png",
+        "sha256": "8d429ce03c496874227dec22b95e1b4a023b03a2bf25f5ee215c679f7fd8ae46",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/B_S.png",
+        "sha256": "fa768f4e9715d3b5625b1fb96b1b8082bebab8421537c7f8e9506ef7bce186b8",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/B_HS.png",
+        "sha256": "797d8686b1b869f4c6bb10235807a782c402767c20b288c76a7031f45fc94e8a",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "C",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      263,
+      348,
+      284,
+      370
+    ],
+    "torso_box": [
+      258,
+      365,
+      297,
+      391
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "B",
+        "source_box": [
+          273,
+          370,
+          295,
+          391
+        ]
+      },
+      {
+        "sample_id": "C",
+        "source_box": [
+          263,
+          365,
+          284,
+          370
+        ]
+      }
+    ],
+    "cap_file": "crops/C_cap.png",
+    "torso_file": "crops/C_torso.png",
+    "provisional_number": 2,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      21,
+      22
+    ],
+    "torso_native_size": [
+      39,
+      26
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/C_H.png",
+        "sha256": "8cf369cf9d5cc43c037253fc36d53c27511caae850852f485bca11c84fb52a4f",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/C_S.png",
+        "sha256": "5e92b2e0cc73492e8243f6c0f44373738e564dc3a5916cef4f95c16f13cad772",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/C_HS.png",
+        "sha256": "a87315efa07c5b5e04b9d68560eb0d21bbe8408fb8a7bfad1e17a1eb569848bc",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "D",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      216,
+      348,
+      239,
+      370
+    ],
+    "torso_box": [
+      218,
+      357,
+      261,
+      391
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "D",
+        "source_box": [
+          218,
+          357,
+          239,
+          370
+        ]
+      }
+    ],
+    "cap_file": "crops/D_cap.png",
+    "torso_file": "crops/D_torso.png",
+    "provisional_number": 10,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      23,
+      22
+    ],
+    "torso_native_size": [
+      43,
+      34
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/D_H.png",
+        "sha256": "7c2ac5fd7be4afc652126012e37006d3ec326049b84ca34945fac30f52021434",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/D_S.png",
+        "sha256": "36a956d4d9c831a63301b738f4b61e581915844bd5f04cbba33599c2ff045124",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/D_HS.png",
+        "sha256": "c0d921c53b089ffb8f9a11e51fc5d92f5b8e5aa4716b42e9644527f6df015c84",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "E",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      462,
+      337,
+      484,
+      359
+    ],
+    "torso_box": [
+      465,
+      349,
+      505,
+      386
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "E",
+        "source_box": [
+          465,
+          349,
+          484,
+          359
+        ]
+      }
+    ],
+    "cap_file": "crops/E_cap.png",
+    "torso_file": "crops/E_torso.png",
+    "provisional_number": 5,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      22,
+      22
+    ],
+    "torso_native_size": [
+      40,
+      37
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/E_H.png",
+        "sha256": "b0b2942cf523e4c3e0655b1793f512575763e9bf463a2599ad3a066950e8661a",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/E_S.png",
+        "sha256": "2c76171b38f021235025a0f08a7dd459661b2b98435a09caedcd2967ab92b7f6",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/E_HS.png",
+        "sha256": "52050ce707e29e4ff8cfe58bf2f9b2728ae6885e064d6b149e94c80ea4c791ee",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "F",
+    "frame_id": "t35",
+    "pts_seconds": 35.0,
+    "source_file": "source_frames/t35.png",
+    "source_sha256": "1d98bf92a71f7cf1afb1f5b7e67ccaa4a3ab883c8640d8befe11e3c95e87f332",
+    "cap_box": [
+      525,
+      278,
+      546,
+      301
+    ],
+    "torso_box": [
+      524,
+      288,
+      567,
+      324
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "F",
+        "source_box": [
+          525,
+          288,
+          546,
+          301
+        ]
+      }
+    ],
+    "cap_file": "crops/F_cap.png",
+    "torso_file": "crops/F_torso.png",
+    "provisional_number": 11,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      21,
+      23
+    ],
+    "torso_native_size": [
+      43,
+      36
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/F_H.png",
+        "sha256": "e127b0f90e92e98f1cf6eb0b19e154106ce20628067e75744b01297d7ea12699",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/F_S.png",
+        "sha256": "16496ce8fe3e0235483edab4eedc561cc252c014d3b9389e0a3d434f0f3dabf7",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/F_HS.png",
+        "sha256": "01e6a65595f1a1c161a3f790da2c1d83e3ca0b76136298155df9a397c1c8d55e",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "G",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      691,
+      466,
+      725,
+      499
+    ],
+    "torso_box": [
+      672,
+      462,
+      736,
+      519
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "G",
+        "source_box": [
+          691,
+          466,
+          725,
+          499
+        ]
+      }
+    ],
+    "cap_file": "crops/G_cap.png",
+    "torso_file": "crops/G_torso.png",
+    "provisional_number": 9,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      34,
+      33
+    ],
+    "torso_native_size": [
+      64,
+      57
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/G_H.png",
+        "sha256": "0184293ed7bab2bbc73308d31790bde73b3822546993dafcdc505bcd54f220b3",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/G_S.png",
+        "sha256": "c409c721ba37d7ec3ac792c86f4ee496e3205ac40a17f4cb19676438657596d2",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/G_HS.png",
+        "sha256": "c7d53c7ebbf51032a31a759d7ad12677272fefc02dea4798c12426774a7cba27",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "H",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      587,
+      389,
+      616,
+      413
+    ],
+    "torso_box": [
+      573,
+      402,
+      633,
+      448
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "H",
+        "source_box": [
+          587,
+          402,
+          616,
+          413
+        ]
+      }
+    ],
+    "cap_file": "crops/H_cap.png",
+    "torso_file": "crops/H_torso.png",
+    "provisional_number": 1,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      29,
+      24
+    ],
+    "torso_native_size": [
+      60,
+      46
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/H_H.png",
+        "sha256": "05039bddc9347e8d5274a4209b9902d72530fd56651917ece2795c295005f0c5",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/H_S.png",
+        "sha256": "a4891049243502a17305a8d93f7ab673777ecf722a2e7c11ffe47ae43021a31f",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/H_HS.png",
+        "sha256": "36776a2da1e3b73bc844cffba29d48136c9d0ef8fad5a371e7a9ca7f12065159",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "I",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      475,
+      344,
+      501,
+      370
+    ],
+    "torso_box": [
+      462,
+      366,
+      514,
+      410
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "I",
+        "source_box": [
+          475,
+          366,
+          501,
+          370
+        ]
+      }
+    ],
+    "cap_file": "crops/I_cap.png",
+    "torso_file": "crops/I_torso.png",
+    "provisional_number": 2,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      26,
+      26
+    ],
+    "torso_native_size": [
+      52,
+      44
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/I_H.png",
+        "sha256": "b1e32dc491456f91b1403b2ae15ce82ddd91e05e919f2b2c3fad9f71103146ff",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/I_S.png",
+        "sha256": "4eb76a9ff9916a3811560fb915448c4a5a354f43328763cd54bd2e8089956e2c",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/I_HS.png",
+        "sha256": "31b6cf4a404a52b2ff663636237338cff2f9091e77c6ee16d154759f27b0a682",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "J",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      362,
+      354,
+      390,
+      386
+    ],
+    "torso_box": [
+      355,
+      378,
+      408,
+      415
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "J",
+        "source_box": [
+          362,
+          378,
+          390,
+          386
+        ]
+      }
+    ],
+    "cap_file": "crops/J_cap.png",
+    "torso_file": "crops/J_torso.png",
+    "provisional_number": 10,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      28,
+      32
+    ],
+    "torso_native_size": [
+      53,
+      37
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/J_H.png",
+        "sha256": "79880d0ee238239b803c47b193352cd8d446e93dec7f51e1988805585452fb35",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/J_S.png",
+        "sha256": "b1ffe5a559d588d8838a64f401885d602cc46ef17a3728e49e43d0a0a28ed68c",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/J_HS.png",
+        "sha256": "81ad4328a9f5a884230d97b00c7278f146fe5ffda4479f7fb6e2a4878c81a095",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "K",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      682,
+      330,
+      707,
+      356
+    ],
+    "torso_box": [
+      668,
+      350,
+      721,
+      389
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "K",
+        "source_box": [
+          682,
+          350,
+          707,
+          356
+        ]
+      }
+    ],
+    "cap_file": "crops/K_cap.png",
+    "torso_file": "crops/K_torso.png",
+    "provisional_number": 5,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      25,
+      26
+    ],
+    "torso_native_size": [
+      53,
+      39
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/K_H.png",
+        "sha256": "3cbdfe94aecb31397251c64987e1faea418c15ea74d647d9b05c5c7d16114b0f",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/K_S.png",
+        "sha256": "7c7bf945674bda734bb6be285cdb4dd17fde1483907620ce14f13ce1f03d6f9a",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/K_HS.png",
+        "sha256": "4c4619def22a20839dae70b87f24f6696ef187b8617bb0e4d085804fe35e5dce",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  },
+  {
+    "id": "L",
+    "frame_id": "t385",
+    "pts_seconds": 38.5,
+    "source_file": "source_frames/t385.png",
+    "source_sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "cap_box": [
+      473,
+      209,
+      497,
+      233
+    ],
+    "torso_box": [
+      455,
+      228,
+      511,
+      266
+    ],
+    "torso_masked_helmet_regions": [
+      {
+        "sample_id": "L",
+        "source_box": [
+          473,
+          228,
+          497,
+          233
+        ]
+      }
+    ],
+    "cap_file": "crops/L_cap.png",
+    "torso_file": "crops/L_torso.png",
+    "provisional_number": 11,
+    "label_status": "assistant visual label; user review requested",
+    "cap_native_size": [
+      24,
+      24
+    ],
+    "torso_native_size": [
+      56,
+      38
+    ],
+    "inputs": {
+      "H": {
+        "file": "inputs/L_H.png",
+        "sha256": "f5cc8ecf3150c2c0cdd5d0694bd18bd272a2034e12776934afb77674e6cbbdef",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "S": {
+        "file": "inputs/L_S.png",
+        "sha256": "099826e693b6cff13ada62f9edd59625d502d69c18701fcd3256e74d0e320c65",
+        "size": [
+          336,
+          224
+        ]
+      },
+      "HS": {
+        "file": "inputs/L_HS.png",
+        "sha256": "2e54cc58a969bbd34140c8808da66bfc70d4bf04ef38ec78fad93a23598bc829",
+        "size": [
+          336,
+          224
+        ]
+      }
+    }
+  }
+]

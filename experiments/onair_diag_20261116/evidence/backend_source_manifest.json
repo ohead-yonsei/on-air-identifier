@@ -1,0 +1,17 @@
+[
+  {
+    "file": "evidence/ollama_image_tags.go",
+    "url": "https://raw.githubusercontent.com/ollama/ollama/v0.32.15/model/renderers/image_tags.go",
+    "sha256": "4a94f0ba425516f5393d7c613d6a6b40ab0b126bedf52cbdfa8a473699069607"
+  },
+  {
+    "file": "evidence/LLAMA_CPP_VERSION",
+    "url": "https://raw.githubusercontent.com/ollama/ollama/v0.32.15/LLAMA_CPP_VERSION",
+    "sha256": "6f64fd88f3e0c7784dfc122fef58f0df9def5f64e0a1adf89f5f76f85600831e"
+  },
+  {
+    "file": "evidence/llama_b10488_mtmd.cpp",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/b10488/tools/mtmd/mtmd.cpp",
+    "sha256": "60e2b09b187f027eccd872677de52fde79e602e6d3911b3518de1f8af7b08c9c"
+  }
+]

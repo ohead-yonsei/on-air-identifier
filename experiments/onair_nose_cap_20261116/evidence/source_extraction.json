@@ -1,0 +1,16 @@
+{
+  "source": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+  "frames": [
+    {
+      "id": "t35",
+      "index": 1049,
+      "pts": 35.0
+    },
+    {
+      "id": "t385",
+      "index": 1154,
+      "pts": 38.5
+    }
+  ],
+  "note": "Original decoded 1280x720 frames; only manually selected helmet/rider crops will be model inputs. Audio and broadcast graphics excluded."
+}

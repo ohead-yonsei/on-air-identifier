@@ -1,0 +1,37 @@
+{
+ "pairs": [
+  {
+   "D0_dir": "finish/otherday2",
+   "DA_dir": "da/finish_otherday2",
+   "frames": 32,
+   "D0": {
+    "statements": 14,
+    "right": 12,
+    "good_frames": 8
+   },
+   "DA": {
+    "statements": 36,
+    "right": 32,
+    "good_frames": 25
+   },
+   "improved": 19,
+   "worsened": 2
+  }
+ ],
+ "verdict": {
+  "kind": "finish",
+  "frames": 32,
+  "A_D0": 0.8571428571428571,
+  "A_DA": 0.8888888888888888,
+  "B_D0": 0.25,
+  "B_DA": 0.78125,
+  "improved": 19,
+  "worsened": 2,
+  "sign_test_p": 0.00022125244140625,
+  "DA_better": true,
+  "DA_A_at_least_80": true,
+  "DA_B_at_least_60": true,
+  "goal_A_90": false,
+  "goal_B_80": false
+ }
+}

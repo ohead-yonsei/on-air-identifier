@@ -1,0 +1,463 @@
+{
+ "day": "20261115",
+ "races": 11,
+ "time_points": 292,
+ "modes": {
+  "leader": 148,
+  "confirmed": 144
+ },
+ "sentence_sources": {
+  "model": 276,
+  "model_retry": 11,
+  "template": 5
+ },
+ "confirmed_sentences_recalling_numbers": 28,
+ "total": {
+  "system": {
+   "points": 292,
+   "points_with_strip": 140,
+   "numbers": 217,
+   "right": 210,
+   "places_4_5": 7,
+   "off_strip": 0,
+   "no_reference": 47,
+   "points_with_right": 119,
+   "points_with_wrong": 7,
+   "share_right": 0.967741935483871,
+   "share_points_with_right": 0.85
+  },
+  "picture_only": {
+   "points": 292,
+   "points_with_strip": 140,
+   "numbers": 396,
+   "right": 105,
+   "places_4_5": 100,
+   "off_strip": 191,
+   "no_reference": 399,
+   "points_with_right": 88,
+   "points_with_wrong": 138,
+   "share_right": 0.26515151515151514,
+   "share_points_with_right": 0.6285714285714286
+  }
+ },
+ "by_race": {
+  "R01": {
+   "system": {
+    "points": 18,
+    "points_with_strip": 6,
+    "numbers": 6,
+    "right": 6,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 0,
+    "points_with_right": 5,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 18,
+    "points_with_strip": 6,
+    "numbers": 18,
+    "right": 7,
+    "places_4_5": 5,
+    "off_strip": 6,
+    "no_reference": 31,
+    "points_with_right": 6,
+    "points_with_wrong": 6
+   },
+   "info": {
+    "place": "서울",
+    "race": 1,
+    "distance": 1000,
+    "race_read": 1,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 11.8
+    },
+    "start_video_time": 13.2,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 18,
+   "leader_points": 5
+  },
+  "R02": {
+   "system": {
+    "points": 22,
+    "points_with_strip": 11,
+    "numbers": 22,
+    "right": 22,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 2,
+    "points_with_right": 10,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 22,
+    "points_with_strip": 11,
+    "numbers": 31,
+    "right": 1,
+    "places_4_5": 14,
+    "off_strip": 16,
+    "no_reference": 25,
+    "points_with_right": 1,
+    "points_with_wrong": 11
+   },
+   "info": {
+    "place": "서울",
+    "race": 2,
+    "distance": 1200,
+    "race_read": 2,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 12.3
+    },
+    "start_video_time": 10.7,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 22,
+   "leader_points": 11
+  },
+  "R03": {
+   "system": {
+    "points": 22,
+    "points_with_strip": 10,
+    "numbers": 17,
+    "right": 17,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 2,
+    "points_with_right": 10,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 22,
+    "points_with_strip": 10,
+    "numbers": 29,
+    "right": 4,
+    "places_4_5": 9,
+    "off_strip": 16,
+    "no_reference": 38,
+    "points_with_right": 3,
+    "points_with_wrong": 10
+   },
+   "info": {
+    "place": "서울",
+    "race": 3,
+    "distance": 1200,
+    "race_read": 3,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 13.8
+    },
+    "start_video_time": 9.2,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 22,
+   "leader_points": 11
+  },
+  "R04": {
+   "system": {
+    "points": 24,
+    "points_with_strip": 0,
+    "numbers": 0,
+    "right": 0,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 23,
+    "points_with_right": 0,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 24,
+    "points_with_strip": 0,
+    "numbers": 0,
+    "right": 0,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 63,
+    "points_with_right": 0,
+    "points_with_wrong": 0
+   },
+   "info": {
+    "place": "서울",
+    "race": 4,
+    "distance": 1300,
+    "race_read": 4,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 14
+    },
+    "start_video_time": 9.0,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 24,
+   "leader_points": 13
+  },
+  "R05": {
+   "system": {
+    "points": 29,
+    "points_with_strip": 11,
+    "numbers": 21,
+    "right": 21,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 5,
+    "points_with_right": 11,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 29,
+    "points_with_strip": 11,
+    "numbers": 29,
+    "right": 13,
+    "places_4_5": 3,
+    "off_strip": 13,
+    "no_reference": 49,
+    "points_with_right": 10,
+    "points_with_wrong": 10
+   },
+   "info": {
+    "place": "서울",
+    "race": 5,
+    "distance": 1300,
+    "race_read": 5,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 0.0
+    },
+    "start_video_time": 40.0,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 29,
+   "leader_points": 15
+  },
+  "R06": {
+   "system": {
+    "points": 28,
+    "points_with_strip": 15,
+    "numbers": 26,
+    "right": 26,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 0,
+    "points_with_right": 14,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 28,
+    "points_with_strip": 15,
+    "numbers": 44,
+    "right": 11,
+    "places_4_5": 9,
+    "off_strip": 24,
+    "no_reference": 32,
+    "points_with_right": 10,
+    "points_with_wrong": 15
+   },
+   "info": {
+    "place": "서울",
+    "race": 6,
+    "distance": 1400,
+    "race_read": 6,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 9
+    },
+    "start_video_time": 14.0,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 28,
+   "leader_points": 14
+  },
+  "R07": {
+   "system": {
+    "points": 35,
+    "points_with_strip": 21,
+    "numbers": 30,
+    "right": 26,
+    "places_4_5": 4,
+    "off_strip": 0,
+    "no_reference": 6,
+    "points_with_right": 15,
+    "points_with_wrong": 4
+   },
+   "picture_only": {
+    "points": 35,
+    "points_with_strip": 21,
+    "numbers": 63,
+    "right": 22,
+    "places_4_5": 14,
+    "off_strip": 27,
+    "no_reference": 37,
+    "points_with_right": 18,
+    "points_with_wrong": 21
+   },
+   "info": {
+    "place": "서울",
+    "race": 7,
+    "distance": 1700,
+    "race_read": 7,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 9
+    },
+    "start_video_time": 14.0,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 35,
+   "leader_points": 20
+  },
+  "R08": {
+   "system": {
+    "points": 21,
+    "points_with_strip": 11,
+    "numbers": 18,
+    "right": 15,
+    "places_4_5": 3,
+    "off_strip": 0,
+    "no_reference": 2,
+    "points_with_right": 10,
+    "points_with_wrong": 3
+   },
+   "picture_only": {
+    "points": 21,
+    "points_with_strip": 11,
+    "numbers": 28,
+    "right": 4,
+    "places_4_5": 9,
+    "off_strip": 15,
+    "no_reference": 25,
+    "points_with_right": 3,
+    "points_with_wrong": 11
+   },
+   "info": {
+    "place": "서울",
+    "race": 8,
+    "distance": 1200,
+    "race_read": 8,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 12
+    },
+    "start_video_time": 11.0,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 21,
+   "leader_points": 11
+  },
+  "R09": {
+   "system": {
+    "points": 39,
+    "points_with_strip": 25,
+    "numbers": 39,
+    "right": 39,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 2,
+    "points_with_right": 21,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 39,
+    "points_with_strip": 25,
+    "numbers": 72,
+    "right": 22,
+    "places_4_5": 23,
+    "off_strip": 27,
+    "no_reference": 38,
+    "points_with_right": 18,
+    "points_with_wrong": 25
+   },
+   "info": {
+    "place": "서울",
+    "race": 9,
+    "distance": 1800,
+    "race_read": 9,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 4.9
+    },
+    "start_video_time": 18.1,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 39,
+   "leader_points": 22
+  },
+  "R10": {
+   "system": {
+    "points": 29,
+    "points_with_strip": 19,
+    "numbers": 22,
+    "right": 22,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 1,
+    "points_with_right": 14,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 29,
+    "points_with_strip": 19,
+    "numbers": 51,
+    "right": 13,
+    "places_4_5": 7,
+    "off_strip": 31,
+    "no_reference": 26,
+    "points_with_right": 12,
+    "points_with_wrong": 18
+   },
+   "info": {
+    "place": "서울",
+    "race": 10,
+    "distance": 1600,
+    "race_read": 10,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 16.3
+    },
+    "start_video_time": 6.7,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 29,
+   "leader_points": 15
+  },
+  "R11": {
+   "system": {
+    "points": 25,
+    "points_with_strip": 11,
+    "numbers": 16,
+    "right": 16,
+    "places_4_5": 0,
+    "off_strip": 0,
+    "no_reference": 4,
+    "points_with_right": 9,
+    "points_with_wrong": 0
+   },
+   "picture_only": {
+    "points": 25,
+    "points_with_strip": 11,
+    "numbers": 31,
+    "right": 8,
+    "places_4_5": 7,
+    "off_strip": 16,
+    "no_reference": 35,
+    "points_with_right": 7,
+    "points_with_wrong": 11
+   },
+   "info": {
+    "place": "서울",
+    "race": 11,
+    "distance": 1200,
+    "race_read": 11,
+    "clock_read": {
+     "minutes": 0,
+     "seconds": 3.1
+    },
+    "start_video_time": 19.9,
+    "facts_source": "race_facts.json (checked by eye)"
+   },
+   "points": 25,
+   "leader_points": 11
+  }
+ }
+}

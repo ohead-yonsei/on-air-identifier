@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-16T17:38:50.220057+00:00",
+  "time_kst": "2026-11-17T02:38:50.220083+09:00",
+  "stage": "ALL",
+  "state": "complete",
+  "reason": "All preregistered A-F and three extra items processed; D unavailable and recorded. Final input-protocol correction complete. No remaining background job.",
+  "vlm_requests": 349,
+  "vision_inferences": 315,
+  "deferred": [
+    "D"
+  ],
+  "background_jobs_remaining": 0
+}

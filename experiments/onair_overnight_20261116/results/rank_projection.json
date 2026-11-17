@@ -1,0 +1,970 @@
+[
+  {
+    "frame": "t031",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      1,
+      0.4
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      875.2074584960938,
+      434.63629150390625,
+      1000.740478515625,
+      551.987548828125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t031",
+    "axis_source": "vlm9",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 11,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      117.30461120605469,
+      119.72457885742188,
+      189.571533203125,
+      220.98583984375
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t031",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      875.2074584960938,
+      434.63629150390625,
+      1000.740478515625,
+      551.987548828125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t031",
+    "axis_source": "flow",
+    "axis": [
+      0.9935644268989563,
+      -0.11326853185892105
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      875.2074584960938,
+      434.63629150390625,
+      1000.740478515625,
+      551.987548828125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t031",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      0.9201115965843201,
+      0.39165639877319336
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      875.2074584960938,
+      434.63629150390625,
+      1000.740478515625,
+      551.987548828125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t031",
+    "axis_source": "flow_05_affine",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t031",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      0.9247756004333496,
+      0.3805130124092102
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      875.2074584960938,
+      434.63629150390625,
+      1000.740478515625,
+      551.987548828125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t034",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      -1,
+      0.4
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      171.84075927734375,
+      422.5640563964844,
+      244.83969116210938,
+      525.9379272460938
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t034",
+    "axis_source": "vlm9",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1155.3994140625,
+      284.98095703125,
+      1228.56591796875,
+      359.4280700683594
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t034",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1155.3994140625,
+      284.98095703125,
+      1228.56591796875,
+      359.4280700683594
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t034",
+    "axis_source": "flow",
+    "axis": [
+      0.9235684275627136,
+      -0.38343361020088196
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1155.3994140625,
+      284.98095703125,
+      1228.56591796875,
+      359.4280700683594
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t034",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      -0.9907447099685669,
+      0.13573837280273438
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      171.84075927734375,
+      422.5640563964844,
+      244.83969116210938,
+      525.9379272460938
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t034",
+    "axis_source": "flow_05_affine",
+    "axis": [
+      -0.8079465627670288,
+      -0.5892558693885803
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      232.06947326660156,
+      384.911376953125,
+      266.6603088378906,
+      427.1798095703125
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t034",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      -0.9898079633712769,
+      0.14240889251232147
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      171.84075927734375,
+      422.5640563964844,
+      244.83969116210938,
+      525.9379272460938
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t037",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      -0.2,
+      1
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      420.3476257324219,
+      479.0940856933594,
+      513.84375,
+      607.4345703125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t037",
+    "axis_source": "vlm9",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1018.0641479492188,
+      176.71885681152344,
+      1111.8203125,
+      280.6616516113281
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t037",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1018.0641479492188,
+      176.71885681152344,
+      1111.8203125,
+      280.6616516113281
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t037",
+    "axis_source": "flow",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t037",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      -0.9156041741371155,
+      0.4020806550979614
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      282.3663635253906,
+      395.52044677734375,
+      357.52691650390625,
+      539.3150024414062
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t037",
+    "axis_source": "flow_05_affine",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t037",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      -0.9296255707740784,
+      0.3685055375099182
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      282.3663635253906,
+      395.52044677734375,
+      357.52691650390625,
+      539.3150024414062
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t040",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      0.3,
+      1
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t040",
+    "axis_source": "vlm9",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      329.54229736328125,
+      200.7480926513672,
+      404.2543029785156,
+      372.1353454589844
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t040",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t040",
+    "axis_source": "flow",
+    "axis": [
+      0.6289222836494446,
+      0.7774681448936462
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t040",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      0.6700275540351868,
+      0.7423362135887146
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t040",
+    "axis_source": "flow_05_affine",
+    "axis": [
+      0.6272853016853333,
+      0.7787896394729614
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t040",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      0.6784207820892334,
+      0.7346735596656799
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      834.8470458984375,
+      483.2049865722656,
+      926.1338500976562,
+      612.4606323242188
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      1,
+      0.5
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      974.8159790039062,
+      497.2615051269531,
+      1119.65966796875,
+      610.8007202148438
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "vlm9",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      974.8159790039062,
+      497.2615051269531,
+      1119.65966796875,
+      610.8007202148438
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      974.8159790039062,
+      497.2615051269531,
+      1119.65966796875,
+      610.8007202148438
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "flow",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      0.9363270998001099,
+      0.3511289656162262
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      974.8159790039062,
+      497.2615051269531,
+      1119.65966796875,
+      610.8007202148438
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "flow_05_affine",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t042",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      0.9405699372291565,
+      0.33960020542144775
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      974.8159790039062,
+      497.2615051269531,
+      1119.65966796875,
+      610.8007202148438
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t048",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      -0.2,
+      1
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      372.7521667480469,
+      413.503662109375,
+      450.05682373046875,
+      570.8995361328125
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t048",
+    "axis_source": "vlm9",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1055.6627197265625,
+      222.2734375,
+      1150.6812744140625,
+      351.1412353515625
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t048",
+    "axis_source": "vlm27",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      332.1860656738281,
+      404.48358154296875,
+      393.50030517578125,
+      520.7612915039062
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t048",
+    "axis_source": "flow",
+    "axis": [
+      0.9177736639976501,
+      -0.3971039056777954
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1055.6627197265625,
+      222.2734375,
+      1150.6812744140625,
+      351.1412353515625
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t048",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      -0.9505165219306946,
+      0.3106739819049835
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      332.1860656738281,
+      404.48358154296875,
+      393.50030517578125,
+      520.7612915039062
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t048",
+    "axis_source": "flow_05_affine",
+    "axis": [
+      0.4555177390575409,
+      -0.8902266621589661
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 5,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      1055.6627197265625,
+      222.2734375,
+      1150.6812744140625,
+      351.1412353515625
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t048",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      -0.9565247893333435,
+      0.29165118932724
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      332.1860656738281,
+      404.48358154296875,
+      393.50030517578125,
+      520.7612915039062
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t052",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      0.2,
+      1
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      459.25933837890625,
+      442.30389404296875,
+      534.8856811523438,
+      584.485107421875
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t052",
+    "axis_source": "vlm9",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      194.6392059326172,
+      354.38897705078125,
+      277.1185302734375,
+      499.37060546875
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t052",
+    "axis_source": "vlm27",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      194.6392059326172,
+      354.38897705078125,
+      277.1185302734375,
+      499.37060546875
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t052",
+    "axis_source": "flow",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t052",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      -0.953488290309906,
+      0.3014298975467682
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      194.6392059326172,
+      354.38897705078125,
+      277.1185302734375,
+      499.37060546875
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t052",
+    "axis_source": "flow_05_affine",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t052",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      -0.9540119171142578,
+      0.29976892471313477
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 1,
+    "nose_choice_agrees_with_visual_draft": false,
+    "selected_automatic_horse_box": [
+      194.6392059326172,
+      354.38897705078125,
+      277.1185302734375,
+      499.37060546875
+    ],
+    "automatic_box_contains_reference_leader_nose": false
+  },
+  {
+    "frame": "t058",
+    "axis_source": "manual_heuristic",
+    "axis": [
+      0.35,
+      1
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "vlm9",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "vlm27",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "flow",
+    "axis": [
+      0.7395009398460388,
+      0.6731554865837097
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "flow_01_homography",
+    "axis": [
+      0.99977707862854,
+      -0.021113332360982895
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "flow_05_affine",
+    "axis": null,
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": true
+  },
+  {
+    "frame": "t058",
+    "axis_source": "flow_01_affine",
+    "axis": [
+      0.9024415612220764,
+      0.4308122992515564
+    ],
+    "reference_status": "assistant visual draft; no calibrated rank truth",
+    "abstain": false,
+    "selected_nose_reference_number": 9,
+    "nose_choice_agrees_with_visual_draft": true,
+    "selected_automatic_horse_box": [
+      1087.9530029296875,
+      389.975341796875,
+      1172.51513671875,
+      535.9968872070312
+    ],
+    "automatic_box_contains_reference_leader_nose": true
+  }
+]

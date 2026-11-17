@@ -1,0 +1,34 @@
+[
+  {
+    "name": "t35_graphics_masks",
+    "passed": true
+  },
+  {
+    "name": "t35_point_nearest_permutation_invariant",
+    "passed": true
+  },
+  {
+    "name": "t35_line_nearest_permutation_invariant",
+    "passed": true
+  },
+  {
+    "name": "t35_point_one_to_one_permutation_invariant",
+    "passed": true
+  },
+  {
+    "name": "t385_graphics_masks",
+    "passed": true
+  },
+  {
+    "name": "t385_point_nearest_permutation_invariant",
+    "passed": true
+  },
+  {
+    "name": "t385_line_nearest_permutation_invariant",
+    "passed": true
+  },
+  {
+    "name": "t385_point_one_to_one_permutation_invariant",
+    "passed": true
+  }
+]

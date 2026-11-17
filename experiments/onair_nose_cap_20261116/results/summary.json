@@ -1,0 +1,56 @@
+[
+  {
+    "frame": "t35",
+    "method": "point_nearest",
+    "reference_agreements": 3,
+    "reference_disagreements": 2,
+    "scored_noses": 5,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  },
+  {
+    "frame": "t35",
+    "method": "line_nearest",
+    "reference_agreements": 1,
+    "reference_disagreements": 4,
+    "scored_noses": 5,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  },
+  {
+    "frame": "t35",
+    "method": "point_one_to_one",
+    "reference_agreements": 3,
+    "reference_disagreements": 2,
+    "scored_noses": 5,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  },
+  {
+    "frame": "t385",
+    "method": "point_nearest",
+    "reference_agreements": 4,
+    "reference_disagreements": 2,
+    "scored_noses": 6,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  },
+  {
+    "frame": "t385",
+    "method": "line_nearest",
+    "reference_agreements": 1,
+    "reference_disagreements": 5,
+    "scored_noses": 6,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  },
+  {
+    "frame": "t385",
+    "method": "point_one_to_one",
+    "reference_agreements": 6,
+    "reference_disagreements": 0,
+    "scored_noses": 6,
+    "candidate_caps": 11,
+    "status": "assistant provisional association reference, not expert accuracy"
+  }
+]

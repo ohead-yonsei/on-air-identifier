@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-11-16T17:40:14.773553+00:00",
+  "visual_checks": [
+    "all seven highlights examined against actual saved outputs",
+    "human corrected cases labelled as post-result input correction",
+    "R04 race review grid examined; clear photo numbers, green cap boxes, draft colours",
+    "old 22 nose-cap connections retained and visibly labelled draft",
+    "tracking view panel preserves frame aspect ratio and displays IDs outside horse region"
+  ],
+  "local_delivery_check_before_final_editorial_cleanup": {
+    "files_hashed": 1047,
+    "hash_mismatches": 0,
+    "zip_crc_errors": 0,
+    "zip_internal_hash_errors": 0,
+    "missing_zip_embedded_images": 0,
+    "chapters": 7,
+    "original_project_md_sha_unchanged": true
+  },
+  "editorial_cleanup": "Replace ambiguous human-drawn rectangle wording with assistant draft; remove unhelpful view-proxy text from user review pictures. No model/threshold/label changes."
+}

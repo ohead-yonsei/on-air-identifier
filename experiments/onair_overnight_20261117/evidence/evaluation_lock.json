@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-11-16T17:14:07.988239+00:00",
+  "development_requests": 140,
+  "evaluation_classification_requests": 0,
+  "decision": "No parameters altered after development; run all five preregistered methods once on evaluation races. Pose abstentions retained.",
+  "files": {
+    "config.json": "653fb58847a374692e1a72d327a4b9e1efb1eba3f9c28cd14a53aff8441fda42",
+    "PLAN_KO.md": "dfd1c6dd527c442232b8759727c89d9cbc7971fb0059f78ff9b20bb4a53bd5b7",
+    "annotations.json": "ca16d0cc6f2c484529c31e68a9377631ac5c41b949af7e3f471bc729b7858862",
+    "protocols/cap_classifier.json": "86d9f3d352d9508a05851a1447af24b241d71965a326f3190e43f765460975e1",
+    "code/regions.py": "9dbcc6ae0e8cd2155179ff7349c4c5bf67d5dc6f3c848e1048023071ccdeb115",
+    "code/pose.py": "8c60893539249f7862b88d6c11354aae2bb91a7100cf3306df85fa51bb85b452",
+    "code/classify_regions.py": "87523315c09c7dba833639e641dc092a21e877011c85a62a46b83c710e3e3783",
+    "code/v4_color.py": "c4f677cfd611a711255eff7dd3eaaf464e707357068525f3e43f95ebbd4edbb3",
+    "code/summarize_c.py": "4bdf38ef04958d94c581b95e35912699e82811373d7e7bfb9f84ebc07a5a4278"
+  }
+}

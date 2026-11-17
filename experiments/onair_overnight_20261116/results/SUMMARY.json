@@ -1,0 +1,548 @@
+{
+  "reference_policy": "All new references are assistant visual drafts. Counts are agreement/coverage, not expert accuracy or independent-race performance.",
+  "model_request_count": 97,
+  "raw_responses": 97,
+  "request_count_by_model": {
+    "qwen3.5:9b": 80,
+    "qwen3.8:27b-q4_K_M": 17
+  },
+  "http_failures": 0,
+  "model_retries": 0,
+  "cpu_failures_recorded": 2,
+  "annotated_frames": 8,
+  "annotated_noses": 22,
+  "excluded_noses": 2,
+  "geometry_totals": {
+    "A_distance": {
+      "n": 22,
+      "agreement": 20,
+      "wrong": 2,
+      "abstain": 0
+    },
+    "B_view_gate": {
+      "n": 22,
+      "agreement": 20,
+      "wrong": 2,
+      "abstain": 0
+    },
+    "C_view_gate_unique": {
+      "n": 22,
+      "agreement": 22,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "D_view_gate_abstain": {
+      "n": 22,
+      "agreement": 20,
+      "wrong": 2,
+      "abstain": 0
+    },
+    "E_cut_only_gate": {
+      "n": 22,
+      "agreement": 17,
+      "wrong": 4,
+      "abstain": 1
+    }
+  },
+  "total_http_seconds": 174.94864447973669,
+  "localization": [
+    {
+      "condition": "9B_full_frame",
+      "n": 8,
+      "leader_claims": 7,
+      "leader_abstain": 1,
+      "cap_box_reference_center_coverage": 1,
+      "purple_class_reference_agreement": 0
+    },
+    {
+      "condition": "9B_with_manual_view",
+      "n": 8,
+      "leader_claims": 0,
+      "leader_abstain": 8,
+      "cap_box_reference_center_coverage": 0,
+      "purple_class_reference_agreement": 0
+    },
+    {
+      "condition": "27B_full_frame",
+      "n": 8,
+      "leader_claims": 2,
+      "leader_abstain": 6,
+      "cap_box_reference_center_coverage": 1,
+      "purple_class_reference_agreement": 1
+    }
+  ],
+  "latencies": {
+    "9B_full_frame": {
+      "n": 8,
+      "median_ms": 1935.3301548399031,
+      "p95_ms": 1963.577429158613
+    },
+    "9B_with_manual_view": {
+      "n": 8,
+      "median_ms": 1569.857924245298,
+      "p95_ms": 1664.127753674984
+    },
+    "27B_full_frame": {
+      "n": 8,
+      "median_ms": 2799.0472805686295,
+      "p95_ms": 3307.3573666159064
+    },
+    "9B_core_view": {
+      "n": 8,
+      "median_ms": 1791.1466318182647,
+      "p95_ms": 1851.7998589202762
+    },
+    "27B_core_view": {
+      "n": 8,
+      "median_ms": 3019.3824004381895,
+      "p95_ms": 3070.6396880559623
+    },
+    "tight_cap": {
+      "n": 8,
+      "median_ms": 222.0302913337946,
+      "p95_ms": 4453.860740736123
+    },
+    "modular_cap_unique_calls": {
+      "n": 14,
+      "median_ms": 224.5801161043346,
+      "p95_ms": 358.79425420425827
+    }
+  },
+  "view_diagnostics": {
+    "9B_core_view": {
+      "n": 8,
+      "predicted_views": {
+        "side": 8
+      },
+      "predicted_directions": {
+        "left": 3,
+        "right": 5
+      }
+    },
+    "27B_core_view": {
+      "n": 8,
+      "predicted_views": {
+        "side": 8
+      },
+      "predicted_directions": {
+        "right": 6,
+        "left": 2
+      }
+    },
+    "9B_mirror": {
+      "consistent": 3,
+      "n": 8,
+      "rows": [
+        {
+          "frame": "t031",
+          "original": "left",
+          "mirror": "right",
+          "reflection_consistent": true,
+          "same_view_class": true
+        },
+        {
+          "frame": "t034",
+          "original": "right",
+          "mirror": "right",
+          "reflection_consistent": false,
+          "same_view_class": true
+        },
+        {
+          "frame": "t037",
+          "original": "right",
+          "mirror": "right",
+          "reflection_consistent": false,
+          "same_view_class": true
+        },
+        {
+          "frame": "t040",
+          "original": "left",
+          "mirror": "right",
+          "reflection_consistent": true,
+          "same_view_class": true
+        },
+        {
+          "frame": "t042",
+          "original": "right",
+          "mirror": "right",
+          "reflection_consistent": false,
+          "same_view_class": true
+        },
+        {
+          "frame": "t048",
+          "original": "right",
+          "mirror": "right",
+          "reflection_consistent": false,
+          "same_view_class": true
+        },
+        {
+          "frame": "t052",
+          "original": "left",
+          "mirror": "right",
+          "reflection_consistent": true,
+          "same_view_class": true
+        },
+        {
+          "frame": "t058",
+          "original": "right",
+          "mirror": "right",
+          "reflection_consistent": false,
+          "same_view_class": true
+        }
+      ]
+    },
+    "enum_order_control": {
+      "n": 8,
+      "same_parsed_response": 8,
+      "interpretation": "This enum reorder did not change these responses; does not exclude other prompt/schema effects."
+    }
+  },
+  "flow": {
+    "flow": {
+      "n": 8,
+      "usable": 5,
+      "agreement_with_heuristic_within45deg": 3,
+      "NOT_ACCURACY": "Manual axes are heuristic and uncalibrated; angle differences do not establish incorrect motion.",
+      "details": [
+        {
+          "frame": "t031",
+          "angle_to_manual_heuristic_degrees": 28.305176063767718,
+          "status": "ok"
+        },
+        {
+          "frame": "t034",
+          "angle_to_manual_heuristic_degrees": 179.25487793611464,
+          "status": "ok"
+        },
+        {
+          "frame": "t037",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t040",
+          "angle_to_manual_heuristic_degrees": 22.271412064920973,
+          "status": "ok"
+        },
+        {
+          "frame": "t042",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t048",
+          "angle_to_manual_heuristic_degrees": 124.70718637762796,
+          "status": "ok"
+        },
+        {
+          "frame": "t052",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t058",
+          "angle_to_manual_heuristic_degrees": 28.39887602169819,
+          "status": "ok"
+        }
+      ],
+      "timing": {
+        "n": 8,
+        "median_ms": 238.05240681394935,
+        "p95_ms": 346.538957254961
+      }
+    },
+    "flow_01_homography": {
+      "n": 8,
+      "usable": 8,
+      "agreement_with_heuristic_within45deg": 4,
+      "NOT_ACCURACY": "Manual axes are heuristic and uncalibrated; angle differences do not establish incorrect motion.",
+      "details": [
+        {
+          "frame": "t031",
+          "angle_to_manual_heuristic_degrees": 1.256194178545781,
+          "status": "ok"
+        },
+        {
+          "frame": "t034",
+          "angle_to_manual_heuristic_degrees": 14.00009086558682,
+          "status": "ok"
+        },
+        {
+          "frame": "t037",
+          "angle_to_manual_heuristic_degrees": 54.98175085460857,
+          "status": "ok"
+        },
+        {
+          "frame": "t040",
+          "angle_to_manual_heuristic_degrees": 25.36994782783088,
+          "status": "ok"
+        },
+        {
+          "frame": "t042",
+          "angle_to_manual_heuristic_degrees": 6.008667805719162,
+          "status": "ok"
+        },
+        {
+          "frame": "t048",
+          "angle_to_manual_heuristic_degrees": 60.59021489819268,
+          "status": "ok"
+        },
+        {
+          "frame": "t052",
+          "angle_to_manual_heuristic_degrees": 83.7664252557675,
+          "status": "ok"
+        },
+        {
+          "frame": "t058",
+          "angle_to_manual_heuristic_degrees": 71.9197485224205,
+          "status": "ok"
+        }
+      ],
+      "timing": {
+        "n": 8,
+        "median_ms": 209.54789593815804,
+        "p95_ms": 217.64443260617554
+      }
+    },
+    "flow_05_affine": {
+      "n": 8,
+      "usable": 3,
+      "agreement_with_heuristic_within45deg": 1,
+      "NOT_ACCURACY": "Manual axes are heuristic and uncalibrated; angle differences do not establish incorrect motion.",
+      "details": [
+        {
+          "frame": "t031",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t034",
+          "angle_to_manual_heuristic_degrees": 57.90562701552577,
+          "status": "ok"
+        },
+        {
+          "frame": "t037",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t040",
+          "angle_to_manual_heuristic_degrees": 22.15087204898896,
+          "status": "ok"
+        },
+        {
+          "frame": "t042",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t048",
+          "angle_to_manual_heuristic_degrees": 164.21167989185878,
+          "status": "ok"
+        },
+        {
+          "frame": "t052",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        },
+        {
+          "frame": "t058",
+          "angle_to_manual_heuristic_degrees": null,
+          "status": "unknown"
+        }
+      ],
+      "timing": {
+        "n": 8,
+        "median_ms": 213.85428914800286,
+        "p95_ms": 236.67626944370568
+      }
+    },
+    "flow_01_affine": {
+      "n": 8,
+      "usable": 8,
+      "agreement_with_heuristic_within45deg": 4,
+      "NOT_ACCURACY": "Manual axes are heuristic and uncalibrated; angle differences do not establish incorrect motion.",
+      "details": [
+        {
+          "frame": "t031",
+          "angle_to_manual_heuristic_degrees": 0.5640532048591799,
+          "status": "ok"
+        },
+        {
+          "frame": "t034",
+          "angle_to_manual_heuristic_degrees": 13.614147340889263,
+          "status": "ok"
+        },
+        {
+          "frame": "t037",
+          "angle_to_manual_heuristic_degrees": 57.06658850074008,
+          "status": "ok"
+        },
+        {
+          "frame": "t040",
+          "angle_to_manual_heuristic_degrees": 26.021116149835628,
+          "status": "ok"
+        },
+        {
+          "frame": "t042",
+          "angle_to_manual_heuristic_degrees": 6.7125339737905145,
+          "status": "ok"
+        },
+        {
+          "frame": "t048",
+          "angle_to_manual_heuristic_degrees": 61.733232096101254,
+          "status": "ok"
+        },
+        {
+          "frame": "t052",
+          "angle_to_manual_heuristic_degrees": 83.8662090505435,
+          "status": "ok"
+        },
+        {
+          "frame": "t058",
+          "angle_to_manual_heuristic_degrees": 45.19083215670198,
+          "status": "ok"
+        }
+      ],
+      "timing": {
+        "n": 8,
+        "median_ms": 209.0514018200338,
+        "p95_ms": 217.31809806078672
+      }
+    }
+  },
+  "modular": {
+    "manual_axis": {
+      "n": 8,
+      "selected_horse_reference_nose_coverage": 8,
+      "roi_reference_cap_center_coverage": 8,
+      "purple_class_reference_agreement": 3,
+      "classification_unknown": 3,
+      "nonpurple_nonunknown": 2
+    },
+    "model9b_axis": {
+      "n": 8,
+      "selected_horse_reference_nose_coverage": 2,
+      "roi_reference_cap_center_coverage": 2,
+      "purple_class_reference_agreement": 1,
+      "classification_unknown": 5,
+      "nonpurple_nonunknown": 2
+    }
+  },
+  "tight_cap": {
+    "n": 8,
+    "purple": 8,
+    "unknown": 0,
+    "reference_status": "same8frames and samepurplehorse, posthoc manually tight crops, not 11classaccuracy"
+  },
+  "flow_mirror": {
+    "consistent_within15deg": 8,
+    "n": 8,
+    "details": [
+      {
+        "frame": "t031",
+        "angle_deviation_degrees": 0.1695815235841521,
+        "within15deg": true
+      },
+      {
+        "frame": "t034",
+        "angle_deviation_degrees": 0.06672987392796144,
+        "within15deg": true
+      },
+      {
+        "frame": "t037",
+        "angle_deviation_degrees": 0.11436224673812641,
+        "within15deg": true
+      },
+      {
+        "frame": "t040",
+        "angle_deviation_degrees": 0.9119349285505135,
+        "within15deg": true
+      },
+      {
+        "frame": "t042",
+        "angle_deviation_degrees": 0.3866977661147985,
+        "within15deg": true
+      },
+      {
+        "frame": "t048",
+        "angle_deviation_degrees": 0.025863972781448016,
+        "within15deg": true
+      },
+      {
+        "frame": "t052",
+        "angle_deviation_degrees": 0.04035909694775796,
+        "within15deg": true
+      },
+      {
+        "frame": "t058",
+        "angle_deviation_degrees": 8.320547547098938,
+        "within15deg": true
+      }
+    ],
+    "limitation": "Geometric equivariance check, not proof of correct real-world motion or ranking."
+  },
+  "rank_projection": [
+    {
+      "axis_source": "flow",
+      "n": 8,
+      "abstain": 3,
+      "nose_reference_agreement": 3,
+      "auto_box_reference_coverage": 3
+    },
+    {
+      "axis_source": "flow_01_affine",
+      "n": 8,
+      "abstain": 0,
+      "nose_reference_agreement": 5,
+      "auto_box_reference_coverage": 5
+    },
+    {
+      "axis_source": "flow_01_homography",
+      "n": 8,
+      "abstain": 0,
+      "nose_reference_agreement": 5,
+      "auto_box_reference_coverage": 5
+    },
+    {
+      "axis_source": "flow_05_affine",
+      "n": 8,
+      "abstain": 5,
+      "nose_reference_agreement": 2,
+      "auto_box_reference_coverage": 1
+    },
+    {
+      "axis_source": "manual_heuristic",
+      "n": 8,
+      "abstain": 0,
+      "nose_reference_agreement": 8,
+      "auto_box_reference_coverage": 8
+    },
+    {
+      "axis_source": "vlm27",
+      "n": 8,
+      "abstain": 0,
+      "nose_reference_agreement": 4,
+      "auto_box_reference_coverage": 4
+    },
+    {
+      "axis_source": "vlm9",
+      "n": 8,
+      "abstain": 0,
+      "nose_reference_agreement": 2,
+      "auto_box_reference_coverage": 2
+    }
+  ],
+  "detector": {
+    "frames": 25,
+    "model": "torchvision FasterRCNN ResNet50 FPNv2 COCO_V1",
+    "training_steps": 0,
+    "nose_or_helmet_detector": false,
+    "all_frame_forward_timing": {
+      "n": 25,
+      "median_ms": 48.21739625185728,
+      "p95_ms": 415.42524602264035
+    },
+    "note": "Includes cold forward calls; excludes image decode and host-to-device tensor preparation. Detection count is not precision/recall."
+  }
+}

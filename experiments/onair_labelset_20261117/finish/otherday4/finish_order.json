@@ -1,0 +1,28 @@
+{
+ "day": "2026-10-17",
+ "read_by": "Claude, from the slow-motion finish replay (finish/otherday4/arrivals and zoom), before the identifier was run on the finish-stretch frames. Not checked item by item by a person.",
+ "order": {
+  "R01": [10, 11, 5],
+  "R02": [10, 6, 8],
+  "R03": [7, 1, 8],
+  "R04": [7, 2, 11],
+  "R05": [7, 5, 9],
+  "R06": [7, 8, 1],
+  "R07": [8, 3, 11],
+  "R08": [11, 3, 4],
+  "R09": [7, 5, 10],
+  "R10": [10, 11, 9]
+ },
+ "notes": {
+  "R01": "second (11): white cloth starting with 1, striped light cap; the strip of this race shows 11 and no 1",
+  "R02": "first (10) read from the cloth in an enlarged crop; second and third (6, 8) are close",
+  "R03": "second (1): white cloth with 1; the strip of this race shows 1 and no 11",
+  "R04": "first (7) read from the cloth in an enlarged crop; it was not among the strip's five 31 s before the finish and passed the field in the straight",
+  "R07": "second read as 3 from red cap and red cloth; third (11) and second are close",
+  "R08": "second and third (3, 4) reach the line together; the set is clear",
+  "R09": "third (10) read from the plain sky-blue cap; its cloth was hidden; the strip of this race shows 10 and no 11",
+  "R10": "night race; second (11) and third (9) read from enlarged crops"
+ },
+ "excluded": {},
+ "observation": "On this day the running-order strip leaves the screen 30-37 s before the finish in every race."
+}

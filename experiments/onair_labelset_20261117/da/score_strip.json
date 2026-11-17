@@ -1,0 +1,54 @@
+{
+ "pairs": [
+  {
+   "D0_dir": "otherday2",
+   "DA_dir": "da/otherday2",
+   "frames": 157,
+   "D0": {
+    "statements": 181,
+    "right": 148,
+    "good_frames": 103
+   },
+   "DA": {
+    "statements": 185,
+    "right": 150,
+    "good_frames": 105
+   },
+   "improved": 3,
+   "worsened": 1
+  },
+  {
+   "D0_dir": "otherday3",
+   "DA_dir": "da/otherday3",
+   "frames": 133,
+   "D0": {
+    "statements": 201,
+    "right": 186,
+    "good_frames": 112
+   },
+   "DA": {
+    "statements": 207,
+    "right": 191,
+    "good_frames": 114
+   },
+   "improved": 2,
+   "worsened": 0
+  }
+ ],
+ "verdict": {
+  "kind": "strip",
+  "frames": 290,
+  "A_D0": 0.8743455497382199,
+  "A_DA": 0.8698979591836735,
+  "B_D0": 0.7413793103448276,
+  "B_DA": 0.7551724137931034,
+  "improved": 5,
+  "worsened": 1,
+  "sign_test_p": 0.21875,
+  "DA_better": false,
+  "DA_A_at_least_80": true,
+  "DA_B_at_least_60": true,
+  "goal_A_90": false,
+  "goal_B_80": false
+ }
+}

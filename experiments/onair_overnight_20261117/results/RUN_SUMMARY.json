@@ -1,0 +1,41 @@
+{
+  "time_utc": "2026-11-16T17:38:50.219286+00:00",
+  "stop_reason": "All preregistered A-F and three extra items processed; D unavailable and recorded. Final input-protocol correction complete. No remaining background job.",
+  "stages": {
+    "A": "complete",
+    "B": "complete",
+    "C": "complete",
+    "D": "deferred_missing_saved_time_aligned_official_labels",
+    "E": "complete_with_negative_results",
+    "F": "complete",
+    "extras": "3_complete",
+    "human_mask_protocol_repair": "complete_separate_post_result_control"
+  },
+  "vlm_requests": 349,
+  "vlm_failures": 0,
+  "vlm_retries": 0,
+  "request_breakdown": {
+    "core": 315,
+    "predeclared_resolution": 24,
+    "post_result_input_repair": 10
+  },
+  "vision_inferences": 315,
+  "vision_breakdown": {
+    "C_generic": 21,
+    "C_pose": 21,
+    "E_generic": 271,
+    "input_repair_generic_pose": 2
+  },
+  "downloaded_weights_bytes": 237034793,
+  "new_video_downloads": 0,
+  "paid_api_calls": 0,
+  "human_confirmed_colour_observations": 6,
+  "new_draft_colour_observations": 60,
+  "new_draft_known_colours": 56,
+  "human_control_identical_image_response_reuse": 18,
+  "primary_hashes_unchanged": true,
+  "final_verification_checks": 63,
+  "all_checks_passed": true,
+  "primary_results_preserved": true,
+  "no_future_scheduled_task": true
+}

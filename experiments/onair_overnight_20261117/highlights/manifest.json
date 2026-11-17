@@ -1,0 +1,237 @@
+[
+  {
+    "file": "highlights/01_yellow.jpg",
+    "samples": [
+      "R04_t050_s2"
+    ],
+    "caption": "노랑 초안: 넓은 영역의 빨강 판정이 수동 영역에서 노랑으로 바뀜",
+    "reference_status": "assistant_draft",
+    "outputs": [
+      {
+        "item": "R04_t050_s2_R0_27",
+        "raw": {
+          "color_class": "red"
+        },
+        "number": 3
+      },
+      {
+        "item": "R04_t050_s2_R0_35",
+        "raw": {
+          "color_class": "red"
+        },
+        "number": 3
+      },
+      {
+        "item": "R04_t050_s2_R1_pose",
+        "raw": {
+          "color_class": "red"
+        },
+        "number": 3
+      },
+      {
+        "item": "R04_t050_s2_R2_cluster",
+        "raw": {
+          "color_class": "red"
+        },
+        "number": 3
+      },
+      {
+        "item": "R04_t050_s2_U_manual",
+        "raw": {
+          "color_class": "yellow"
+        },
+        "number": 2
+      }
+    ]
+  },
+  {
+    "file": "highlights/02_green.jpg",
+    "samples": [
+      "R01_t030_s3"
+    ],
+    "caption": "초록 초안: 넓은 영역의 파랑 판정이 수동 영역에서 초록으로 바뀜",
+    "reference_status": "assistant_draft",
+    "outputs": [
+      {
+        "item": "R01_t030_s3_R0_27",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "R01_t030_s3_R0_35",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "R01_t030_s3_R1_pose",
+        "raw": {
+          "color_class": "green"
+        },
+        "number": 6
+      },
+      {
+        "item": "R01_t030_s3_R2_cluster",
+        "raw": {
+          "color_class": "green"
+        },
+        "number": 6
+      },
+      {
+        "item": "R01_t030_s3_U_manual",
+        "raw": {
+          "color_class": "green"
+        },
+        "number": 6
+      }
+    ]
+  },
+  {
+    "file": "highlights/03_human_sky.jpg",
+    "samples": [
+      "HUMAN_J"
+    ],
+    "caption": "사람 확인 10번: 마스킹 보정 후에도 파랑 5번으로 혼동",
+    "reference_status": "human_confirmed_colour_only",
+    "outputs": [
+      {
+        "item": "HUMAN_J_R0_27_masked_control",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "HUMAN_J_R0_35_masked_control",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "HUMAN_J_R1_pose_masked_control",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "HUMAN_J_R2_cluster_masked_control",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      },
+      {
+        "item": "HUMAN_J_U_manual_masked_control",
+        "raw": {
+          "color_class": "blue"
+        },
+        "number": 5
+      }
+    ]
+  },
+  {
+    "file": "highlights/04_human_stripes.jpg",
+    "samples": [
+      "HUMAN_L"
+    ],
+    "caption": "사람 확인 11번: 마스킹 보정에서도 수동 영역은 1번으로 악화",
+    "reference_status": "human_confirmed_colour_only",
+    "outputs": [
+      {
+        "item": "HUMAN_L_R0_27_masked_control",
+        "raw": {
+          "color_class": "sky_blue_white_stripes"
+        },
+        "number": 11
+      },
+      {
+        "item": "HUMAN_L_R0_35_masked_control",
+        "raw": {
+          "color_class": "sky_blue_white_stripes"
+        },
+        "number": 11
+      },
+      {
+        "item": "HUMAN_L_R1_pose_masked_control",
+        "raw": null,
+        "number": 0
+      },
+      {
+        "item": "HUMAN_L_R2_cluster_masked_control",
+        "raw": {
+          "color_class": "sky_blue"
+        },
+        "number": 10
+      },
+      {
+        "item": "HUMAN_L_U_manual_masked_control",
+        "raw": {
+          "color_class": "white"
+        },
+        "number": 1
+      }
+    ]
+  },
+  {
+    "file": "highlights/05_unresolved.jpg",
+    "samples": [
+      "R08_t080_s1"
+    ],
+    "caption": "초안도 미확인: 모델의 번호를 정답으로 삼지 않음",
+    "reference_status": "unresolved_draft",
+    "outputs": [
+      {
+        "item": "R08_t080_s1_R0_27",
+        "raw": {
+          "color_class": "unknown"
+        },
+        "number": 0
+      },
+      {
+        "item": "R08_t080_s1_R0_35",
+        "raw": {
+          "color_class": "unknown"
+        },
+        "number": 0
+      },
+      {
+        "item": "R08_t080_s1_R1_pose",
+        "raw": {
+          "color_class": "unknown"
+        },
+        "number": 0
+      },
+      {
+        "item": "R08_t080_s1_R2_cluster",
+        "raw": {
+          "color_class": "unknown"
+        },
+        "number": 0
+      },
+      {
+        "item": "R08_t080_s1_U_manual",
+        "raw": {
+          "color_class": "unknown"
+        },
+        "number": 0
+      }
+    ]
+  },
+  {
+    "file": "highlights/06_tracking.jpg",
+    "caption": "동일 화면 안에서 사람 트랙 ID가 바뀌며, 박스 비율 뷰 추정은 측면을 놓침",
+    "reference_status": "assistant geometry drafts, not MOT ground truth",
+    "model_outputs": "person track IDs from raw/tracking.jsonl; draft numbers used only for annotation"
+  },
+  {
+    "file": "highlights/07_resolution.jpg",
+    "caption": "사전 지정 첫 표본: 축소 후 모자 픽셀과 실제 출력 비교",
+    "sample": "R01_t030_s1",
+    "selection": "first preregistered sample, not best/worst outcome"
+  }
+]

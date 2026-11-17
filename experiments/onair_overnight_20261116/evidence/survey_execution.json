@@ -1,0 +1,24 @@
+{
+  "finished_at": "2026-11-16T14:59:19Z",
+  "decoded_frames": 3473,
+  "saved_frames": 115,
+  "cut_candidates": 7,
+  "elapsed_s": 13.550722802989185,
+  "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+  "python_tool": "OpenCV sequential decode; timestamps from ffprobe frame list",
+  "audio_used": false,
+  "mask": [
+    [
+      0,
+      0,
+      240,
+      110
+    ],
+    [
+      0,
+      610,
+      1280,
+      720
+    ]
+  ]
+}

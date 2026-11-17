@@ -1,0 +1,289 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/batch2/frames/R02_t048.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R02.json",
+ "riders": [
+  {
+   "no": 1,
+   "state": "guess",
+   "score": 0.7854,
+   "x": 517.2,
+   "h_px": 126.4,
+   "box": [
+    446.6,
+    191.7,
+    587.8,
+    318.0
+   ],
+   "colour": "white",
+   "qwen_number": 5,
+   "p_learned": 0.7854,
+   "sure_strict": false,
+   "detector_score": 0.969
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.0066,
+   "x": 806.8,
+   "h_px": 184.3,
+   "box": [
+    746.4,
+    366.9,
+    867.2,
+    551.2
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.0066,
+   "sure_strict": false,
+   "detector_score": 0.728
+  },
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.9991,
+   "x": 861.1,
+   "h_px": 136.9,
+   "box": [
+    817.2,
+    109.1,
+    904.9,
+    246.0
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.9991,
+   "sure_strict": true,
+   "detector_score": 0.911
+  },
+  {
+   "no": 7,
+   "state": "guess",
+   "score": 0.4739,
+   "x": 963.5,
+   "h_px": 199.5,
+   "box": [
+    928.6,
+    199.3,
+    998.3,
+    398.8
+   ],
+   "colour": "brown",
+   "qwen_number": 0,
+   "p_learned": 0.4739,
+   "sure_strict": false,
+   "detector_score": 0.537
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.9685,
+   "x": 1001.5,
+   "h_px": 127.1,
+   "box": [
+    958.9,
+    117.3,
+    1044.0,
+    244.5
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.9685,
+   "sure_strict": true,
+   "detector_score": 0.828
+  },
+  {
+   "no": 4,
+   "state": "guess",
+   "score": 0.1819,
+   "x": 1062.3,
+   "h_px": 178.0,
+   "box": [
+    1015.1,
+    182.5,
+    1109.4,
+    360.6
+   ],
+   "colour": "black",
+   "qwen_number": 0,
+   "p_learned": 0.1819,
+   "sure_strict": false,
+   "detector_score": 0.885
+  },
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.1854,
+   "x": 1080.1,
+   "h_px": 208.4,
+   "box": [
+    1016.8,
+    351.7,
+    1143.5,
+    560.1
+   ],
+   "colour": "sky blue",
+   "qwen_number": 0,
+   "p_learned": 0.1854,
+   "sure_strict": false,
+   "detector_score": 0.943
+  },
+  {
+   "no": 11,
+   "state": "guess",
+   "score": 0.002,
+   "x": 1181.0,
+   "h_px": 275.1,
+   "box": [
+    1115.0,
+    58.1,
+    1247.1,
+    333.1
+   ],
+   "colour": "sky blue/white stripes",
+   "qwen_number": 0,
+   "p_learned": 0.002,
+   "sure_strict": false,
+   "detector_score": 0.871
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.9748,
+   "x": 1193.0,
+   "h_px": 132.4,
+   "box": [
+    1139.8,
+    459.2,
+    1246.3,
+    591.6
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.9748,
+   "sure_strict": true,
+   "detector_score": 0.904
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.5521,
+   "x": 1371.6,
+   "h_px": 259.9,
+   "box": [
+    1306.2,
+    567.5,
+    1437.1,
+    827.5
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.5521,
+   "sure_strict": true,
+   "detector_score": 0.746
+  },
+  {
+   "no": 8,
+   "state": "guess",
+   "score": 0.9728,
+   "x": 1448.4,
+   "h_px": 76.1,
+   "box": [
+    1428.9,
+    775.5,
+    1468.0,
+    851.6
+   ],
+   "colour": "pink",
+   "qwen_number": 0,
+   "p_learned": 0.9728,
+   "sure_strict": false,
+   "detector_score": 0.764
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 224.9,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 224.2,
+   "error": null
+  },
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 224.3,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 218.0,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 226.2,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 228.7,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 228.2,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 272.2,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 226.5,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 216.5,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 221.7,
+   "error": null
+  }
+ ],
+ "total_ms": 2914.2
+}

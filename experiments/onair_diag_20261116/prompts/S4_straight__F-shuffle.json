@@ -1,0 +1,187 @@
+{
+  "scene": "S4_straight",
+  "condition": "F-shuffle",
+  "racecard_order": [
+    7,
+    3,
+    11,
+    2,
+    10,
+    6,
+    1,
+    8,
+    4,
+    9,
+    5
+  ],
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a live horse-race commentator. Describe what is happening at the end of the supplied sequence. The pictures, when present, are in chronological order. Racecard rows describe runner identities, not running order. Use visible cap colours or readable saddlecloth numbers to identify runners; the jacket is not the cap. Determine running direction from the sequence; screen left-to-right position or proximity to the camera alone is not a ranking rule. Give only the leading runners whose identities and order you can determine, up to three; a partial order is allowed. If no leader can be determined, use unclear. Do not force a complete ranking. First line: ORDER: followed by comma-separated horse numbers (maximum three) or unclear. Then give English commentary of at most two sentences and at most 40 words. The race distance is the total course length, not the distance remaining. Refer to a runner by number or the supplied English name."
+    },
+    {
+      "role": "user",
+      "content": "RACECARD (identity information only)\nNo.7 | Byeoksong (벽송) | cap: brown (maroon) | jockey: Kim Seong Hyeon\nNo.3 | Eunbit Yuhok (은빛유혹) | cap: red | jockey: Kim Jung Joon\nNo.11 | G Flex (지플렉스) | cap: sky blue and white vertical stripes | jockey: Seo Seung Un\nNo.2 | Raon Final (라온파이널) | cap: yellow | jockey: Choi Bum Hyun\nNo.10 | Love O Mine (러브오마인) | cap: sky blue | jockey: Kim Yong Geun\nNo.6 | Purple Sinhwa (퍼플신화) | cap: green | jockey: Kim Tae Hui\nNo.1 | Jeongwangseokhwa (전광석화) | cap: white | jockey: Da Silva\nNo.8 | Geosen Daero (거센대로) | cap: pink | jockey: Lee Hyeok\nNo.4 | Cyclone Star (사이클론스타) | cap: black | jockey: Song Jae Chul\nNo.9 | Duson Eutteum (두손으뜸) | cap: purple | jockey: Lim Da Bin\nNo.5 | Cheongsan Dolpung (청산돌풍) | cap: blue | jockey: Lim Gi Won\n\nVERIFIED BACKGROUND FACTS\n- The total race distance is 1200 metres.\n- Eleven runners are entered in this race.\n- The racecard gives each runner's number, name, cap colour and jockey.\n\nCall the race now."
+    }
+  ],
+  "images": [
+    {
+      "file": "frames/S4_straight/f001.jpg",
+      "sha256": "56432ed24bf332052c615ea68ac7ff57fdcc4eb8e858ac2b990a33060669998b",
+      "decoded_frame_index": 1439,
+      "target_video_seconds": 48.0,
+      "actual_pts_seconds": 48.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f002.jpg",
+      "sha256": "4edd153eeaa4e82254da82e8338a1e52e7e5878569a69078c6e7f7225069ad0a",
+      "decoded_frame_index": 1454,
+      "target_video_seconds": 48.5,
+      "actual_pts_seconds": 48.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f003.jpg",
+      "sha256": "f7314129cc518caed546ca36d437f2eddfb526eb8cdeb7861acdddaf02145e0a",
+      "decoded_frame_index": 1469,
+      "target_video_seconds": 49.0,
+      "actual_pts_seconds": 49.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f004.jpg",
+      "sha256": "fd6ac499b6280e9113d69e79114df159ac1e31d4d73657bb133c1a54b1a80c41",
+      "decoded_frame_index": 1484,
+      "target_video_seconds": 49.5,
+      "actual_pts_seconds": 49.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f005.jpg",
+      "sha256": "5cec425b64a3d2278af7bcae3a10188c359ba94b2d87767f605153f41febfa83",
+      "decoded_frame_index": 1499,
+      "target_video_seconds": 50.0,
+      "actual_pts_seconds": 50.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f006.jpg",
+      "sha256": "6e046b3ae26965749786b19016a87c985daca080f6f164f3fb6fe31bbae3f05b",
+      "decoded_frame_index": 1514,
+      "target_video_seconds": 50.5,
+      "actual_pts_seconds": 50.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f007.jpg",
+      "sha256": "38ffe97124091f4552c7975eb629e72fc640a09fdbbef1ca4786c1668d08f046",
+      "decoded_frame_index": 1529,
+      "target_video_seconds": 51.0,
+      "actual_pts_seconds": 51.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f008.jpg",
+      "sha256": "5b47be6e4bbdb668721c26b97addf42cde5ec518af21b9954a3088116a655dc8",
+      "decoded_frame_index": 1544,
+      "target_video_seconds": 51.5,
+      "actual_pts_seconds": 51.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f009.jpg",
+      "sha256": "d8b05121dd315c4b4167019dee0a97b07d75f72483b0135350418a126c6f1ffe",
+      "decoded_frame_index": 1559,
+      "target_video_seconds": 52.0,
+      "actual_pts_seconds": 52.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f010.jpg",
+      "sha256": "c1733cabf5383e692dbfc29d6ba193d904a54f43c9e60b0a79631d8e8eb7dd51",
+      "decoded_frame_index": 1574,
+      "target_video_seconds": 52.5,
+      "actual_pts_seconds": 52.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f011.jpg",
+      "sha256": "692c927fd672e41fa17f3ca90d63a68d6a260d1fe7660a42dd504869195643e4",
+      "decoded_frame_index": 1589,
+      "target_video_seconds": 53.0,
+      "actual_pts_seconds": 53.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f012.jpg",
+      "sha256": "5f2a1977bfd83c2c5c2f6377cdbe8740c9914ef30105b0dbf1fb27de5aefc7be",
+      "decoded_frame_index": 1604,
+      "target_video_seconds": 53.5,
+      "actual_pts_seconds": 53.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f013.jpg",
+      "sha256": "bf56b235c562ff27df7c790e481a1720aeea9339d939e81ff192812595a44559",
+      "decoded_frame_index": 1619,
+      "target_video_seconds": 54.0,
+      "actual_pts_seconds": 54.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f014.jpg",
+      "sha256": "ab22d162dcf631dd9a3800776032e9739646922c8401880672d1fa72657cb644",
+      "decoded_frame_index": 1634,
+      "target_video_seconds": 54.5,
+      "actual_pts_seconds": 54.5,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f015.jpg",
+      "sha256": "ba5b93fccd0174f4756ad874a9d9778e2bdec71f4deb6aa7772354a0c06603e1",
+      "decoded_frame_index": 1649,
+      "target_video_seconds": 55.0,
+      "actual_pts_seconds": 55.0,
+      "width": 768,
+      "height": 432
+    },
+    {
+      "file": "frames/S4_straight/f016.jpg",
+      "sha256": "a4d4d84e9444d8b1190be22565bebdcb8df43b7e15ec2de1e70a41fc6e44ae92",
+      "decoded_frame_index": 1664,
+      "target_video_seconds": 55.5,
+      "actual_pts_seconds": 55.5,
+      "width": 768,
+      "height": 432
+    }
+  ],
+  "image_count": 16,
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 32768,
+    "num_predict": 256,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "think": false,
+  "model": "qwen3.5:9b"
+}

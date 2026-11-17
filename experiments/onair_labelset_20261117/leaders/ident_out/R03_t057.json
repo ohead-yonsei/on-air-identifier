@@ -1,0 +1,145 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/batch2/frames/R03_t057.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R03.json",
+ "riders": [
+  {
+   "no": 6,
+   "state": "sure",
+   "score": 1.8869,
+   "x": 606.1,
+   "h_px": 259.1,
+   "box": [
+    529.8,
+    316.2,
+    682.3,
+    575.3
+   ],
+   "colour": "green",
+   "qwen_number": 6,
+   "p_learned": 0.8869,
+   "sure_strict": true,
+   "detector_score": 0.975
+  },
+  {
+   "no": 9,
+   "state": "guess",
+   "score": 0.7638,
+   "x": 828.7,
+   "h_px": 266.5,
+   "box": [
+    756.3,
+    356.1,
+    901.1,
+    622.6
+   ],
+   "colour": "purple",
+   "qwen_number": 0,
+   "p_learned": 0.7638,
+   "sure_strict": false,
+   "detector_score": 0.939
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.312,
+   "x": 1013.5,
+   "h_px": 196.1,
+   "box": [
+    952.9,
+    297.0,
+    1074.2,
+    493.1
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.312,
+   "sure_strict": true,
+   "detector_score": 0.984
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.8796,
+   "x": 1087.0,
+   "h_px": 205.6,
+   "box": [
+    1032.8,
+    434.8,
+    1141.2,
+    640.4
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.8796,
+   "sure_strict": true,
+   "detector_score": 0.956
+  },
+  {
+   "no": 4,
+   "state": "sure",
+   "score": 1.1291,
+   "x": 1144.9,
+   "h_px": 193.5,
+   "box": [
+    1086.1,
+    365.2,
+    1203.7,
+    558.7
+   ],
+   "colour": "black",
+   "qwen_number": 4,
+   "p_learned": 0.1291,
+   "sure_strict": true,
+   "detector_score": 0.583
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "green",
+   "number": 6,
+   "ms": 231.1,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 270.8,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 229.1,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 229.2,
+   "error": null
+  },
+  {
+   "colour": "black",
+   "number": 4,
+   "ms": 228.5,
+   "error": null
+  }
+ ],
+ "total_ms": 1403.5
+}

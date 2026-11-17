@@ -1,0 +1,3354 @@
+{
+ "day": "2026-11-14",
+ "created": "2026-11-17",
+ "status": "Numbers written by Claude from otherday/label/sheets/*.jpg and taken as confirmed under the user's standing instruction of 2026-11-17 (\"일단 다 초안대로\"); not reviewed item by item.",
+ "method": "Each upscaled rider crop was read by eye. Where a cap was ambiguous, the same silks in the other frame of the same race and the broadcaster's strip shown on the sheet were used. Boxes with no readable cap, two riders, or a second box on the same rider are null.",
+ "note": "These frames were already scored by the identifier before labelling (otherday/RESULT_KO.md); the labels were written from the pictures, not from the identifier output.",
+ "riders": [
+  {
+   "id": "R01_t038_p00",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    455.3,
+    295.8,
+    591.8,
+    521.4
+   ],
+   "height_px": 225.6,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p01",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    632.3,
+    379.8,
+    736.1,
+    602.7
+   ],
+   "height_px": 222.9,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p02",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    714.4,
+    434.0,
+    855.5,
+    693.7
+   ],
+   "height_px": 259.7,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p03",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    751.2,
+    257.3,
+    882.5,
+    476.1
+   ],
+   "height_px": 218.9,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p04",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    873.6,
+    380.5,
+    1000.5,
+    587.1
+   ],
+   "height_px": 206.7,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p05",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    900.9,
+    444.2,
+    1030.3,
+    673.2
+   ],
+   "height_px": 229.0,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p06",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    1007.4,
+    383.4,
+    1127.0,
+    683.0
+   ],
+   "height_px": 299.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p07",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    1139.4,
+    121.5,
+    1251.3,
+    257.2
+   ],
+   "height_px": 135.7,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p08",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    1138.8,
+    164.6,
+    1275.1,
+    350.5
+   ],
+   "height_px": 185.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p09",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    1171.5,
+    502.6,
+    1309.4,
+    756.7
+   ],
+   "height_px": 254.1,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t038_p10",
+   "race": "R01",
+   "frame": "R01_t038",
+   "pts": 38.0,
+   "person_box": [
+    1370.0,
+    333.4,
+    1517.9,
+    586.6
+   ],
+   "height_px": 253.2,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p00",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    409.8,
+    376.2,
+    526.7,
+    536.2
+   ],
+   "height_px": 159.9,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p01",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    444.1,
+    171.8,
+    528.5,
+    317.3
+   ],
+   "height_px": 145.5,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p02",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    559.3,
+    366.6,
+    649.8,
+    525.2
+   ],
+   "height_px": 158.6,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p03",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    842.4,
+    461.7,
+    952.9,
+    619.6
+   ],
+   "height_px": 157.9,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p04",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    899.6,
+    616.6,
+    1023.4,
+    767.9
+   ],
+   "height_px": 151.3,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p05",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    1010.0,
+    451.1,
+    1078.5,
+    546.6
+   ],
+   "height_px": 95.6,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p06",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    1039.0,
+    448.1,
+    1100.4,
+    551.0
+   ],
+   "height_px": 102.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p07",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    1107.5,
+    612.4,
+    1213.0,
+    776.4
+   ],
+   "height_px": 164.0,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p08",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    1215.8,
+    675.6,
+    1279.0,
+    791.9
+   ],
+   "height_px": 116.3,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R01_t056_p09",
+   "race": "R01",
+   "frame": "R01_t056",
+   "pts": 56.0,
+   "person_box": [
+    1373.1,
+    614.2,
+    1487.0,
+    759.0
+   ],
+   "height_px": 144.9,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p00",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    521.9,
+    626.3,
+    642.8,
+    784.0
+   ],
+   "height_px": 157.7,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p01",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    709.0,
+    261.5,
+    818.0,
+    434.4
+   ],
+   "height_px": 172.9,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p02",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    751.6,
+    584.1,
+    874.2,
+    779.8
+   ],
+   "height_px": 195.6,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p03",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    769.3,
+    485.2,
+    870.7,
+    645.5
+   ],
+   "height_px": 160.4,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p04",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    895.6,
+    304.8,
+    990.8,
+    515.4
+   ],
+   "height_px": 210.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p05",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    904.4,
+    386.0,
+    1018.3,
+    572.8
+   ],
+   "height_px": 186.9,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p06",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    962.9,
+    614.4,
+    1054.6,
+    785.6
+   ],
+   "height_px": 171.2,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p07",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    1101.0,
+    199.7,
+    1207.3,
+    360.7
+   ],
+   "height_px": 161.1,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p08",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    1116.1,
+    508.0,
+    1212.3,
+    667.6
+   ],
+   "height_px": 159.6,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p09",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    1158.9,
+    635.5,
+    1275.0,
+    807.3
+   ],
+   "height_px": 171.8,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t035_p10",
+   "race": "R02",
+   "frame": "R02_t035",
+   "pts": 35.0,
+   "person_box": [
+    1186.4,
+    326.1,
+    1284.2,
+    483.0
+   ],
+   "height_px": 156.9,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p00",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    268.4,
+    532.3,
+    377.6,
+    690.9
+   ],
+   "height_px": 158.6,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p01",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    476.0,
+    488.9,
+    581.4,
+    627.6
+   ],
+   "height_px": 138.7,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p02",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    585.4,
+    520.9,
+    689.9,
+    695.0
+   ],
+   "height_px": 174.2,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p03",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    676.8,
+    351.0,
+    773.6,
+    523.1
+   ],
+   "height_px": 172.1,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p04",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    974.2,
+    385.2,
+    1068.4,
+    549.6
+   ],
+   "height_px": 164.4,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p05",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1130.5,
+    315.9,
+    1225.6,
+    467.5
+   ],
+   "height_px": 151.6,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p06",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1436.0,
+    209.7,
+    1510.2,
+    345.9
+   ],
+   "height_px": 136.2,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p07",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1483.3,
+    169.4,
+    1580.9,
+    322.1
+   ],
+   "height_px": 152.7,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p08",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1522.9,
+    176.6,
+    1631.3,
+    306.4
+   ],
+   "height_px": 129.8,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p09",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1541.8,
+    248.3,
+    1644.3,
+    399.0
+   ],
+   "height_px": 150.7,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R02_t044_p10",
+   "race": "R02",
+   "frame": "R02_t044",
+   "pts": 44.0,
+   "person_box": [
+    1635.8,
+    191.2,
+    1736.5,
+    357.8
+   ],
+   "height_px": 166.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p00",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    437.8,
+    314.2,
+    559.0,
+    522.6
+   ],
+   "height_px": 208.4,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p01",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    504.2,
+    417.6,
+    650.4,
+    653.8
+   ],
+   "height_px": 236.1,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p02",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    638.2,
+    346.7,
+    762.2,
+    491.3
+   ],
+   "height_px": 144.5,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p03",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    634.2,
+    397.3,
+    767.3,
+    593.6
+   ],
+   "height_px": 196.4,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p04",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    672.9,
+    136.7,
+    819.1,
+    342.2
+   ],
+   "height_px": 205.5,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p05",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    760.4,
+    439.1,
+    911.6,
+    709.6
+   ],
+   "height_px": 270.5,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p06",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    798.9,
+    281.6,
+    912.6,
+    436.1
+   ],
+   "height_px": 154.5,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p07",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    884.5,
+    339.0,
+    1019.6,
+    592.5
+   ],
+   "height_px": 253.5,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p08",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    987.9,
+    455.0,
+    1144.1,
+    687.3
+   ],
+   "height_px": 232.3,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p09",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    1072.5,
+    252.8,
+    1232.1,
+    494.6
+   ],
+   "height_px": 241.8,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p10",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    1267.2,
+    548.6,
+    1413.5,
+    739.3
+   ],
+   "height_px": 190.7,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t039_p11",
+   "race": "R03",
+   "frame": "R03_t039",
+   "pts": 39.0,
+   "person_box": [
+    1397.8,
+    279.7,
+    1569.3,
+    582.9
+   ],
+   "height_px": 303.2,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p00",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    370.4,
+    557.4,
+    451.2,
+    725.4
+   ],
+   "height_px": 168.0,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p01",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    407.3,
+    561.6,
+    488.1,
+    745.1
+   ],
+   "height_px": 183.5,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p02",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    681.1,
+    480.7,
+    764.7,
+    598.4
+   ],
+   "height_px": 117.7,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p03",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    802.9,
+    487.0,
+    874.4,
+    631.5
+   ],
+   "height_px": 144.5,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p04",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    826.1,
+    454.7,
+    873.2,
+    552.3
+   ],
+   "height_px": 97.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p05",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    860.5,
+    415.1,
+    947.4,
+    545.1
+   ],
+   "height_px": 130.0,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p06",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    1097.5,
+    389.3,
+    1176.2,
+    530.0
+   ],
+   "height_px": 140.6,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p07",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    1215.7,
+    359.7,
+    1310.4,
+    480.3
+   ],
+   "height_px": 120.6,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p08",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    1274.2,
+    380.0,
+    1354.0,
+    532.2
+   ],
+   "height_px": 152.2,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p09",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    1375.1,
+    339.5,
+    1436.2,
+    465.4
+   ],
+   "height_px": 125.9,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R03_t054_p10",
+   "race": "R03",
+   "frame": "R03_t054",
+   "pts": 54.0,
+   "person_box": [
+    1634.9,
+    275.5,
+    1729.4,
+    455.5
+   ],
+   "height_px": 180.0,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p00",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    425.9,
+    423.6,
+    581.8,
+    618.7
+   ],
+   "height_px": 195.0,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p01",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    608.7,
+    342.0,
+    746.3,
+    599.0
+   ],
+   "height_px": 257.0,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p02",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    610.5,
+    225.6,
+    745.9,
+    491.1
+   ],
+   "height_px": 265.5,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p03",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    630.4,
+    445.6,
+    777.1,
+    650.2
+   ],
+   "height_px": 204.6,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p04",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    666.1,
+    493.0,
+    802.2,
+    734.9
+   ],
+   "height_px": 241.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p05",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    699.3,
+    541.7,
+    847.1,
+    765.0
+   ],
+   "height_px": 223.3,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p06",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    801.2,
+    322.3,
+    935.4,
+    664.7
+   ],
+   "height_px": 342.4,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p07",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    895.5,
+    416.0,
+    1024.5,
+    631.1
+   ],
+   "height_px": 215.2,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p08",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    1038.9,
+    600.1,
+    1182.9,
+    783.5
+   ],
+   "height_px": 183.4,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p09",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    1106.7,
+    311.9,
+    1225.9,
+    501.3
+   ],
+   "height_px": 189.4,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p10",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    1158.1,
+    491.8,
+    1265.5,
+    724.7
+   ],
+   "height_px": 232.9,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t032_p11",
+   "race": "R04",
+   "frame": "R04_t032",
+   "pts": 32.0,
+   "person_box": [
+    1242.0,
+    620.4,
+    1390.5,
+    798.3
+   ],
+   "height_px": 177.9,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p00",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    257.7,
+    524.3,
+    322.3,
+    740.7
+   ],
+   "height_px": 216.4,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p01",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    296.6,
+    481.6,
+    417.0,
+    581.0
+   ],
+   "height_px": 99.3,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p02",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    337.1,
+    521.4,
+    405.8,
+    643.4
+   ],
+   "height_px": 122.0,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p03",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    378.3,
+    521.1,
+    463.2,
+    638.8
+   ],
+   "height_px": 117.8,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p04",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    375.6,
+    572.1,
+    488.5,
+    756.7
+   ],
+   "height_px": 184.6,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p05",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    526.1,
+    401.3,
+    623.8,
+    550.6
+   ],
+   "height_px": 149.2,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p06",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    655.0,
+    496.8,
+    750.2,
+    657.1
+   ],
+   "height_px": 160.3,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p07",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    726.5,
+    420.0,
+    823.1,
+    588.5
+   ],
+   "height_px": 168.5,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p08",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    997.9,
+    406.4,
+    1091.5,
+    563.0
+   ],
+   "height_px": 156.6,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p09",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    1053.9,
+    402.7,
+    1141.4,
+    534.9
+   ],
+   "height_px": 132.2,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p10",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    1158.2,
+    324.7,
+    1257.4,
+    436.8
+   ],
+   "height_px": 112.1,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R04_t038_p11",
+   "race": "R04",
+   "frame": "R04_t038",
+   "pts": 38.0,
+   "person_box": [
+    1785.6,
+    281.9,
+    1880.1,
+    431.7
+   ],
+   "height_px": 149.8,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p00",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    351.1,
+    507.9,
+    521.0,
+    766.5
+   ],
+   "height_px": 258.6,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p01",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    550.0,
+    442.6,
+    701.0,
+    728.3
+   ],
+   "height_px": 285.7,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p02",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    717.3,
+    428.2,
+    892.8,
+    673.1
+   ],
+   "height_px": 244.9,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p03",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    781.3,
+    170.3,
+    929.0,
+    441.9
+   ],
+   "height_px": 271.6,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p04",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    939.2,
+    426.5,
+    1102.2,
+    649.7
+   ],
+   "height_px": 223.2,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p05",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    1049.4,
+    279.7,
+    1161.0,
+    416.1
+   ],
+   "height_px": 136.5,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p06",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    1057.3,
+    314.4,
+    1186.7,
+    743.8
+   ],
+   "height_px": 429.4,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p07",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    1154.5,
+    172.1,
+    1307.6,
+    435.2
+   ],
+   "height_px": 263.1,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p08",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    1337.2,
+    138.8,
+    1493.0,
+    390.5
+   ],
+   "height_px": 251.7,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t050_p09",
+   "race": "R05",
+   "frame": "R05_t050",
+   "pts": 50.0,
+   "person_box": [
+    1376.1,
+    377.9,
+    1536.4,
+    637.3
+   ],
+   "height_px": 259.4,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p00",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    444.2,
+    445.7,
+    563.8,
+    651.4
+   ],
+   "height_px": 205.7,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p01",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    486.3,
+    406.6,
+    615.9,
+    649.3
+   ],
+   "height_px": 242.7,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p02",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    746.1,
+    188.4,
+    873.2,
+    398.6
+   ],
+   "height_px": 210.1,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p03",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    824.4,
+    331.7,
+    949.0,
+    513.8
+   ],
+   "height_px": 182.1,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p04",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    878.6,
+    257.1,
+    969.9,
+    424.8
+   ],
+   "height_px": 167.7,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p05",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    918.3,
+    339.2,
+    1088.6,
+    644.4
+   ],
+   "height_px": 305.1,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p06",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    1027.0,
+    237.3,
+    1172.6,
+    495.9
+   ],
+   "height_px": 258.5,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p07",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    1064.3,
+    194.0,
+    1190.9,
+    429.5
+   ],
+   "height_px": 235.5,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p08",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    1070.1,
+    420.5,
+    1220.7,
+    658.8
+   ],
+   "height_px": 238.3,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R05_t080_p09",
+   "race": "R05",
+   "frame": "R05_t080",
+   "pts": 80.0,
+   "person_box": [
+    1301.6,
+    187.6,
+    1431.7,
+    429.5
+   ],
+   "height_px": 241.9,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p00",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    103.1,
+    216.4,
+    228.6,
+    432.0
+   ],
+   "height_px": 215.6,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p01",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    309.6,
+    306.1,
+    453.3,
+    507.7
+   ],
+   "height_px": 201.6,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p02",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    415.4,
+    396.2,
+    504.2,
+    568.4
+   ],
+   "height_px": 172.2,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p03",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    504.5,
+    226.3,
+    613.3,
+    422.3
+   ],
+   "height_px": 196.0,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p04",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    516.7,
+    373.9,
+    652.8,
+    583.3
+   ],
+   "height_px": 209.4,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p05",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    580.7,
+    243.3,
+    635.8,
+    345.3
+   ],
+   "height_px": 101.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p06",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    604.5,
+    290.1,
+    696.3,
+    468.8
+   ],
+   "height_px": 178.6,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p07",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    640.8,
+    353.5,
+    745.1,
+    563.8
+   ],
+   "height_px": 210.3,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p08",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    712.2,
+    361.0,
+    824.0,
+    584.5
+   ],
+   "height_px": 223.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p09",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    744.8,
+    403.9,
+    896.1,
+    592.3
+   ],
+   "height_px": 188.5,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p10",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    895.1,
+    341.6,
+    999.5,
+    465.9
+   ],
+   "height_px": 124.3,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p11",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    1040.0,
+    450.2,
+    1157.1,
+    614.3
+   ],
+   "height_px": 164.1,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p12",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    1203.9,
+    377.1,
+    1311.8,
+    580.6
+   ],
+   "height_px": 203.6,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t053_p13",
+   "race": "R06",
+   "frame": "R06_t053",
+   "pts": 53.0,
+   "person_box": [
+    1509.7,
+    453.9,
+    1616.4,
+    627.3
+   ],
+   "height_px": 173.4,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p00",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    267.0,
+    299.1,
+    399.5,
+    521.7
+   ],
+   "height_px": 222.6,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p01",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    395.4,
+    287.8,
+    520.9,
+    543.8
+   ],
+   "height_px": 256.0,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p02",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    575.6,
+    394.6,
+    666.7,
+    560.9
+   ],
+   "height_px": 166.3,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p03",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    681.3,
+    291.8,
+    770.6,
+    463.2
+   ],
+   "height_px": 171.4,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p04",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    758.1,
+    313.2,
+    851.7,
+    455.3
+   ],
+   "height_px": 142.1,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p05",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    801.7,
+    427.2,
+    927.7,
+    640.6
+   ],
+   "height_px": 213.4,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p06",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    926.7,
+    435.7,
+    963.8,
+    508.6
+   ],
+   "height_px": 72.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p07",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    967.7,
+    308.6,
+    1058.2,
+    465.0
+   ],
+   "height_px": 156.4,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p08",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    1007.7,
+    377.7,
+    1101.0,
+    541.8
+   ],
+   "height_px": 164.1,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p09",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    1243.6,
+    430.1,
+    1319.0,
+    614.8
+   ],
+   "height_px": 184.7,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R06_t065_p10",
+   "race": "R06",
+   "frame": "R06_t065",
+   "pts": 65.0,
+   "person_box": [
+    1281.1,
+    466.1,
+    1380.0,
+    648.4
+   ],
+   "height_px": 182.3,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p00",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    227.1,
+    209.4,
+    301.8,
+    315.4
+   ],
+   "height_px": 106.1,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p01",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    296.6,
+    301.7,
+    376.2,
+    394.9
+   ],
+   "height_px": 93.2,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p02",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    428.2,
+    252.0,
+    503.9,
+    353.8
+   ],
+   "height_px": 101.8,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p03",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    467.1,
+    326.1,
+    536.1,
+    428.4
+   ],
+   "height_px": 102.4,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p04",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    650.1,
+    384.1,
+    717.7,
+    487.8
+   ],
+   "height_px": 103.8,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p05",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    693.7,
+    400.3,
+    734.9,
+    484.9
+   ],
+   "height_px": 84.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p06",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    869.2,
+    437.9,
+    946.7,
+    534.2
+   ],
+   "height_px": 96.3,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p07",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1155.9,
+    533.9,
+    1247.0,
+    654.0
+   ],
+   "height_px": 120.2,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p08",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1289.6,
+    512.5,
+    1362.6,
+    625.6
+   ],
+   "height_px": 113.1,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p09",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1412.1,
+    564.0,
+    1500.4,
+    662.1
+   ],
+   "height_px": 98.1,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p10",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1547.2,
+    587.7,
+    1631.0,
+    729.5
+   ],
+   "height_px": 141.8,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p11",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1699.3,
+    619.4,
+    1772.2,
+    707.5
+   ],
+   "height_px": 88.1,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t032_p12",
+   "race": "R07",
+   "frame": "R07_t032",
+   "pts": 32.0,
+   "person_box": [
+    1747.3,
+    616.9,
+    1827.2,
+    710.6
+   ],
+   "height_px": 93.8,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p00",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    108.7,
+    274.8,
+    172.2,
+    358.6
+   ],
+   "height_px": 83.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p01",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    338.7,
+    292.6,
+    394.9,
+    377.2
+   ],
+   "height_px": 84.5,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p02",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    413.3,
+    275.8,
+    477.4,
+    350.8
+   ],
+   "height_px": 75.0,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p03",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    492.5,
+    335.4,
+    571.9,
+    411.9
+   ],
+   "height_px": 76.6,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p04",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    740.8,
+    375.5,
+    804.3,
+    461.4
+   ],
+   "height_px": 85.9,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p05",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    819.7,
+    347.7,
+    890.4,
+    430.4
+   ],
+   "height_px": 82.6,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p06",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1204.1,
+    417.4,
+    1268.2,
+    521.0
+   ],
+   "height_px": 103.6,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p07",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1400.9,
+    478.4,
+    1491.5,
+    578.6
+   ],
+   "height_px": 100.2,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p08",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1428.3,
+    479.7,
+    1534.4,
+    566.9
+   ],
+   "height_px": 87.2,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p09",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1525.1,
+    515.5,
+    1563.3,
+    658.3
+   ],
+   "height_px": 142.8,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p10",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1668.7,
+    563.1,
+    1730.6,
+    693.9
+   ],
+   "height_px": 130.7,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R07_t044_p11",
+   "race": "R07",
+   "frame": "R07_t044",
+   "pts": 44.0,
+   "person_box": [
+    1746.3,
+    526.6,
+    1798.9,
+    612.2
+   ],
+   "height_px": 85.6,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p00",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    365.5,
+    433.8,
+    522.1,
+    698.8
+   ],
+   "height_px": 265.0,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p01",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    536.5,
+    234.2,
+    670.0,
+    486.6
+   ],
+   "height_px": 252.5,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p02",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    536.2,
+    518.2,
+    688.6,
+    729.6
+   ],
+   "height_px": 211.4,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p03",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    690.4,
+    352.4,
+    849.9,
+    606.8
+   ],
+   "height_px": 254.3,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p04",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    723.1,
+    588.0,
+    868.7,
+    828.6
+   ],
+   "height_px": 240.6,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p05",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    867.8,
+    344.9,
+    1010.1,
+    609.1
+   ],
+   "height_px": 264.2,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p06",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    915.6,
+    586.6,
+    1060.6,
+    830.3
+   ],
+   "height_px": 243.6,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p07",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    1004.5,
+    286.9,
+    1136.7,
+    545.4
+   ],
+   "height_px": 258.5,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p08",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    1042.0,
+    176.9,
+    1182.9,
+    536.0
+   ],
+   "height_px": 359.1,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t074_p09",
+   "race": "R08",
+   "frame": "R08_t074",
+   "pts": 74.0,
+   "person_box": [
+    1123.6,
+    452.0,
+    1280.4,
+    680.4
+   ],
+   "height_px": 228.4,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p00",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    176.0,
+    273.2,
+    258.8,
+    372.4
+   ],
+   "height_px": 99.2,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p01",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    336.5,
+    421.8,
+    429.4,
+    526.1
+   ],
+   "height_px": 104.2,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p02",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    531.1,
+    426.8,
+    614.1,
+    526.7
+   ],
+   "height_px": 99.9,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p03",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    654.6,
+    510.1,
+    752.6,
+    637.1
+   ],
+   "height_px": 127.0,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p04",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    698.9,
+    509.2,
+    778.1,
+    629.2
+   ],
+   "height_px": 120.0,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p05",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    832.7,
+    599.7,
+    924.0,
+    742.1
+   ],
+   "height_px": 142.5,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p06",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    904.6,
+    541.0,
+    977.6,
+    614.9
+   ],
+   "height_px": 73.9,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p07",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    940.3,
+    540.0,
+    1024.9,
+    656.9
+   ],
+   "height_px": 116.9,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p08",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    1037.6,
+    626.4,
+    1130.4,
+    779.5
+   ],
+   "height_px": 153.1,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p09",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    1126.1,
+    569.1,
+    1214.5,
+    695.2
+   ],
+   "height_px": 126.1,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p10",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    1376.4,
+    648.2,
+    1528.0,
+    826.7
+   ],
+   "height_px": 178.5,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R08_t086_p11",
+   "race": "R08",
+   "frame": "R08_t086",
+   "pts": 86.0,
+   "person_box": [
+    1524.2,
+    705.6,
+    1572.3,
+    777.2
+   ],
+   "height_px": 71.6,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p00",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    554.8,
+    147.0,
+    677.7,
+    350.2
+   ],
+   "height_px": 203.2,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p01",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    619.1,
+    31.8,
+    749.2,
+    238.8
+   ],
+   "height_px": 207.0,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p02",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    794.9,
+    72.2,
+    921.2,
+    266.4
+   ],
+   "height_px": 194.3,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p03",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    829.9,
+    269.2,
+    955.6,
+    511.5
+   ],
+   "height_px": 242.3,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p04",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    832.0,
+    498.2,
+    976.0,
+    839.4
+   ],
+   "height_px": 341.2,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p05",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    957.0,
+    197.9,
+    1092.8,
+    413.4
+   ],
+   "height_px": 215.5,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p06",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    1010.2,
+    429.6,
+    1155.3,
+    658.0
+   ],
+   "height_px": 228.4,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p07",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    1074.3,
+    86.4,
+    1224.4,
+    353.7
+   ],
+   "height_px": 267.3,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t038_p08",
+   "race": "R09",
+   "frame": "R09_t038",
+   "pts": 38.0,
+   "person_box": [
+    1242.2,
+    440.7,
+    1375.8,
+    621.8
+   ],
+   "height_px": 181.1,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p00",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    444.1,
+    314.3,
+    557.9,
+    476.8
+   ],
+   "height_px": 162.5,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p01",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    487.0,
+    495.8,
+    619.9,
+    661.2
+   ],
+   "height_px": 165.4,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p02",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    685.0,
+    407.4,
+    784.4,
+    563.8
+   ],
+   "height_px": 156.4,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p03",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    762.7,
+    467.8,
+    843.1,
+    618.7
+   ],
+   "height_px": 150.9,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p04",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    753.7,
+    297.6,
+    854.6,
+    445.4
+   ],
+   "height_px": 147.8,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p05",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    815.8,
+    459.6,
+    886.3,
+    648.2
+   ],
+   "height_px": 188.7,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p06",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    947.3,
+    332.1,
+    1040.5,
+    499.7
+   ],
+   "height_px": 167.7,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p07",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    1007.6,
+    341.4,
+    1074.3,
+    459.2
+   ],
+   "height_px": 117.8,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p08",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    1111.6,
+    317.3,
+    1195.7,
+    462.2
+   ],
+   "height_px": 144.9,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p09",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    1325.6,
+    348.2,
+    1412.9,
+    495.2
+   ],
+   "height_px": 147.0,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R09_t059_p10",
+   "race": "R09",
+   "frame": "R09_t059",
+   "pts": 59.0,
+   "person_box": [
+    1621.2,
+    265.0,
+    1724.9,
+    436.0
+   ],
+   "height_px": 171.0,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p00",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    248.5,
+    458.2,
+    389.2,
+    677.9
+   ],
+   "height_px": 219.7,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p01",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    390.2,
+    406.4,
+    491.3,
+    560.3
+   ],
+   "height_px": 153.9,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p02",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    659.7,
+    466.4,
+    762.6,
+    638.3
+   ],
+   "height_px": 172.0,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p03",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    722.7,
+    359.4,
+    827.7,
+    490.1
+   ],
+   "height_px": 130.6,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p04",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    764.8,
+    234.9,
+    870.4,
+    518.7
+   ],
+   "height_px": 283.8,
+   "human_number": 8,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p05",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    938.7,
+    356.9,
+    1050.0,
+    529.7
+   ],
+   "height_px": 172.8,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p06",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    1015.4,
+    243.9,
+    1125.3,
+    415.4
+   ],
+   "height_px": 171.5,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p07",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    1156.5,
+    386.4,
+    1272.0,
+    568.4
+   ],
+   "height_px": 182.0,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p08",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    1383.3,
+    233.5,
+    1498.3,
+    399.0
+   ],
+   "height_px": 165.5,
+   "human_number": 2,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t026_p09",
+   "race": "R10",
+   "frame": "R10_t026",
+   "pts": 26.0,
+   "person_box": [
+    1513.5,
+    404.8,
+    1627.5,
+    598.3
+   ],
+   "height_px": 193.4,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p00",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    547.3,
+    305.6,
+    682.8,
+    526.0
+   ],
+   "height_px": 220.4,
+   "human_number": 10,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p01",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    746.8,
+    130.0,
+    861.7,
+    360.1
+   ],
+   "height_px": 230.1,
+   "human_number": 4,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p02",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    843.3,
+    193.2,
+    947.2,
+    347.8
+   ],
+   "height_px": 154.6,
+   "human_number": 6,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p03",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    898.5,
+    206.5,
+    970.3,
+    337.9
+   ],
+   "height_px": 131.4,
+   "human_number": null,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p04",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    900.6,
+    433.6,
+    1033.0,
+    678.4
+   ],
+   "height_px": 244.7,
+   "human_number": 9,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p05",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1025.0,
+    128.4,
+    1142.0,
+    299.2
+   ],
+   "height_px": 170.9,
+   "human_number": 5,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p06",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1100.8,
+    200.0,
+    1219.5,
+    364.0
+   ],
+   "height_px": 163.9,
+   "human_number": 3,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p07",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1101.8,
+    407.2,
+    1248.9,
+    691.6
+   ],
+   "height_px": 284.4,
+   "human_number": 11,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p08",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1169.7,
+    320.6,
+    1303.6,
+    544.3
+   ],
+   "height_px": 223.7,
+   "human_number": 7,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p09",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1269.2,
+    178.9,
+    1382.9,
+    412.0
+   ],
+   "height_px": 233.1,
+   "human_number": 1,
+   "duplicate_of": null
+  },
+  {
+   "id": "R10_t056_p10",
+   "race": "R10",
+   "frame": "R10_t056",
+   "pts": 56.0,
+   "person_box": [
+    1352.2,
+    99.8,
+    1488.5,
+    381.1
+   ],
+   "height_px": 281.3,
+   "human_number": 2,
+   "duplicate_of": null
+  }
+ ]
+}

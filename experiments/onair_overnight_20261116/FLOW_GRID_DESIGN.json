@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-11-16T15:26:36.364870+00:00",
+  "stage": "posthoc_flow_grid",
+  "trigger": "Initial0.5s homography flow produced5directions, including obvious reversals at34s/48s. High residual concentration did not guarantee correctness.",
+  "factors": {
+    "lookback_seconds": [
+      0.1,
+      0.5
+    ],
+    "background_model": [
+      "homography",
+      "partial_affine"
+    ]
+  },
+  "all_other_thresholds": "unchanged fromflow/config.json",
+  "cohort": "same8frames; exploratory only",
+  "selection_policy": "Evaluate all4combinations, do not hide failures or call best same-sample result validation. If extended, freeze choice and evaluate unused timestamps separately."
+}

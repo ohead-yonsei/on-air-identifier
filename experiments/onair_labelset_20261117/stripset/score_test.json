@@ -1,0 +1,63 @@
+{
+ "split": "test",
+ "frames_in_split": 74,
+ "variants": {
+  "D0": {
+   "frames": 74,
+   "hit1": 41,
+   "hit2": 34,
+   "hit3": 42,
+   "sure": 294,
+   "sure_in_top5": 167,
+   "sure_in_top3": 117,
+   "riders": 537,
+   "ms": 161360.40000000002,
+   "qwen_failures": 0,
+   "front_sure": 40,
+   "front_sure_is_1": 23,
+   "front_sure_in_top3": 37,
+   "front3_sure": 116,
+   "front3_sure_in_top3": 88,
+   "front3_sure_in_top5": 100,
+   "frames_with_sure_top3": 60,
+   "primary_top3_named_sure": 0.527027027027027,
+   "leader_named_sure": 0.5540540540540541,
+   "sure_in_top5_rate": 0.5680272108843537,
+   "riders_per_frame": 7.256756756756757,
+   "sure_per_frame": 3.972972972972973,
+   "ms_per_frame": 2180.545945945946
+  },
+  "D2": {
+   "frames": 74,
+   "hit1": 42,
+   "hit2": 36,
+   "hit3": 42,
+   "sure": 332,
+   "sure_in_top5": 178,
+   "sure_in_top3": 120,
+   "riders": 692,
+   "ms": 203819.69999999995,
+   "qwen_failures": 0,
+   "front_sure": 42,
+   "front_sure_is_1": 22,
+   "front_sure_in_top3": 36,
+   "front3_sure": 108,
+   "front3_sure_in_top3": 82,
+   "front3_sure_in_top5": 91,
+   "frames_with_sure_top3": 67,
+   "primary_top3_named_sure": 0.5405405405405406,
+   "leader_named_sure": 0.5675675675675675,
+   "sure_in_top5_rate": 0.536144578313253,
+   "riders_per_frame": 9.35135135135135,
+   "sure_per_frame": 4.486486486486487,
+   "ms_per_frame": 2754.3202702702697
+  }
+ },
+ "paired_vs_D0": {
+  "D2": {
+   "improved": 14,
+   "worsened": 11,
+   "sign_test_p": 0.6900379657745361
+  }
+ }
+}

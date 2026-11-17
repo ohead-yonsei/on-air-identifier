@@ -1,0 +1,813 @@
+{
+ "days": [
+  "otherday6",
+  "otherday7"
+ ],
+ "races": 20,
+ "pooled": {
+  "LEAD": {
+   "points": 295,
+   "in_first_two": 148,
+   "right": 140,
+   "statements": 149,
+   "in_first_three": 149
+  },
+  "HAND": {
+   "points": 295,
+   "in_first_two": 202,
+   "right": 171,
+   "statements": 215,
+   "in_first_three": 206
+  },
+  "PAIR": {
+   "candidate_pairs": 257,
+   "points": 295,
+   "points_with_wrong_pair": 12,
+   "right": 174,
+   "said": 187,
+   "points_with_pair": 158,
+   "scoreable": 187
+  },
+  "H0": {
+   "candidate_pairs": 257,
+   "points": 295,
+   "points_with_wrong_pair": 56,
+   "right": 192,
+   "said": 257,
+   "points_with_pair": 199,
+   "scoreable": 257
+  },
+  "H2": {
+   "candidate_pairs": 257,
+   "points": 295,
+   "points_with_wrong_pair": 19,
+   "right": 140,
+   "said": 160,
+   "points_with_pair": 129,
+   "scoreable": 160
+  }
+ },
+ "by_day": {
+  "otherday6": {
+   "results": {
+    "LEAD": {
+     "points": 160,
+     "statements": 78,
+     "right": 77,
+     "in_first_two": 78,
+     "in_first_three": 78
+    },
+    "HAND": {
+     "points": 160,
+     "statements": 111,
+     "right": 93,
+     "in_first_two": 104,
+     "in_first_three": 105
+    },
+    "PAIR": {
+     "points": 160,
+     "said": 110,
+     "scoreable": 110,
+     "right": 105,
+     "candidate_pairs": 161,
+     "points_with_pair": 87,
+     "points_with_wrong_pair": 4
+    },
+    "H0": {
+     "points": 160,
+     "said": 161,
+     "scoreable": 161,
+     "right": 118,
+     "candidate_pairs": 161,
+     "points_with_pair": 113,
+     "points_with_wrong_pair": 34
+    },
+    "H2": {
+     "points": 160,
+     "said": 98,
+     "scoreable": 98,
+     "right": 87,
+     "candidate_pairs": 161,
+     "points_with_pair": 75,
+     "points_with_wrong_pair": 10
+    }
+   },
+   "by_race": {
+    "R01": {
+     "LEAD": {
+      "points": 11,
+      "statements": 4,
+      "right": 4
+     },
+     "HAND": {
+      "points": 11,
+      "statements": 4,
+      "right": 3
+     },
+     "PAIR": {
+      "scoreable": 7,
+      "right": 7,
+      "said": 7
+     },
+     "H0": {
+      "scoreable": 13,
+      "right": 9,
+      "said": 13
+     },
+     "H2": {
+      "scoreable": 9,
+      "right": 8,
+      "said": 9
+     }
+    },
+    "R02": {
+     "LEAD": {
+      "points": 12,
+      "statements": 5,
+      "right": 5
+     },
+     "HAND": {
+      "points": 12,
+      "statements": 5,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 10,
+      "right": 8,
+      "said": 10
+     },
+     "H0": {
+      "scoreable": 16,
+      "right": 11,
+      "said": 16
+     },
+     "H2": {
+      "scoreable": 8,
+      "right": 6,
+      "said": 8
+     }
+    },
+    "R03": {
+     "LEAD": {
+      "points": 14,
+      "statements": 9,
+      "right": 9
+     },
+     "HAND": {
+      "points": 14,
+      "statements": 11,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 15,
+      "right": 15,
+      "said": 15
+     },
+     "H0": {
+      "scoreable": 21,
+      "right": 17,
+      "said": 21
+     },
+     "H2": {
+      "scoreable": 15,
+      "right": 12,
+      "said": 15
+     }
+    },
+    "R04": {
+     "LEAD": {
+      "points": 12,
+      "statements": 1,
+      "right": 1
+     },
+     "HAND": {
+      "points": 12,
+      "statements": 10,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 8,
+      "right": 8,
+      "said": 8
+     },
+     "H0": {
+      "scoreable": 14,
+      "right": 11,
+      "said": 14
+     },
+     "H2": {
+      "scoreable": 11,
+      "right": 10,
+      "said": 11
+     }
+    },
+    "R05": {
+     "LEAD": {
+      "points": 21,
+      "statements": 15,
+      "right": 15
+     },
+     "HAND": {
+      "points": 21,
+      "statements": 14,
+      "right": 14
+     },
+     "PAIR": {
+      "scoreable": 13,
+      "right": 13,
+      "said": 13
+     },
+     "H0": {
+      "scoreable": 16,
+      "right": 14,
+      "said": 16
+     },
+     "H2": {
+      "scoreable": 11,
+      "right": 10,
+      "said": 11
+     }
+    },
+    "R06": {
+     "LEAD": {
+      "points": 20,
+      "statements": 11,
+      "right": 11
+     },
+     "HAND": {
+      "points": 20,
+      "statements": 12,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 16,
+      "right": 15,
+      "said": 16
+     },
+     "H0": {
+      "scoreable": 21,
+      "right": 12,
+      "said": 21
+     },
+     "H2": {
+      "scoreable": 7,
+      "right": 6,
+      "said": 7
+     }
+    },
+    "R07": {
+     "LEAD": {
+      "points": 24,
+      "statements": 17,
+      "right": 17
+     },
+     "HAND": {
+      "points": 24,
+      "statements": 24,
+      "right": 24
+     },
+     "PAIR": {
+      "scoreable": 15,
+      "right": 15,
+      "said": 15
+     },
+     "H0": {
+      "scoreable": 15,
+      "right": 14,
+      "said": 15
+     },
+     "H2": {
+      "scoreable": 14,
+      "right": 14,
+      "said": 14
+     }
+    },
+    "R08": {
+     "LEAD": {
+      "points": 16,
+      "statements": 1,
+      "right": 1
+     },
+     "HAND": {
+      "points": 16,
+      "statements": 10,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 9,
+      "right": 8,
+      "said": 9
+     },
+     "H0": {
+      "scoreable": 17,
+      "right": 11,
+      "said": 17
+     },
+     "H2": {
+      "scoreable": 8,
+      "right": 6,
+      "said": 8
+     }
+    },
+    "R09": {
+     "LEAD": {
+      "points": 15,
+      "statements": 12,
+      "right": 12
+     },
+     "HAND": {
+      "points": 15,
+      "statements": 13,
+      "right": 13
+     },
+     "PAIR": {
+      "scoreable": 12,
+      "right": 12,
+      "said": 12
+     },
+     "H0": {
+      "scoreable": 16,
+      "right": 12,
+      "said": 16
+     },
+     "H2": {
+      "scoreable": 11,
+      "right": 11,
+      "said": 11
+     }
+    },
+    "R10": {
+     "LEAD": {
+      "points": 15,
+      "statements": 3,
+      "right": 2
+     },
+     "HAND": {
+      "points": 15,
+      "statements": 8,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 5,
+      "right": 4,
+      "said": 5
+     },
+     "H0": {
+      "scoreable": 12,
+      "right": 7,
+      "said": 12
+     },
+     "H2": {
+      "scoreable": 4,
+      "right": 4,
+      "said": 4
+     }
+    }
+   }
+  },
+  "otherday7": {
+   "results": {
+    "LEAD": {
+     "points": 135,
+     "statements": 71,
+     "right": 63,
+     "in_first_two": 70,
+     "in_first_three": 71
+    },
+    "HAND": {
+     "points": 135,
+     "statements": 104,
+     "right": 78,
+     "in_first_two": 98,
+     "in_first_three": 101
+    },
+    "PAIR": {
+     "points": 135,
+     "said": 77,
+     "scoreable": 77,
+     "right": 69,
+     "candidate_pairs": 96,
+     "points_with_pair": 71,
+     "points_with_wrong_pair": 8
+    },
+    "H0": {
+     "points": 135,
+     "said": 96,
+     "scoreable": 96,
+     "right": 74,
+     "candidate_pairs": 96,
+     "points_with_pair": 86,
+     "points_with_wrong_pair": 22
+    },
+    "H2": {
+     "points": 135,
+     "said": 62,
+     "scoreable": 62,
+     "right": 53,
+     "candidate_pairs": 96,
+     "points_with_pair": 54,
+     "points_with_wrong_pair": 9
+    }
+   },
+   "by_race": {
+    "R01": {
+     "LEAD": {
+      "points": 6,
+      "statements": 1,
+      "right": 1
+     },
+     "HAND": {
+      "points": 6,
+      "statements": 2,
+      "right": 1
+     },
+     "PAIR": {
+      "scoreable": 1,
+      "right": 1,
+      "said": 1
+     },
+     "H0": {
+      "scoreable": 2,
+      "right": 1,
+      "said": 2
+     },
+     "H2": {
+      "scoreable": 1,
+      "right": 1,
+      "said": 1
+     }
+    },
+    "R02": {
+     "LEAD": {
+      "points": 8,
+      "statements": 8,
+      "right": 8
+     },
+     "HAND": {
+      "points": 8,
+      "statements": 8,
+      "right": 8
+     },
+     "PAIR": {
+      "scoreable": 6,
+      "right": 6,
+      "said": 6
+     },
+     "H0": {
+      "scoreable": 6,
+      "right": 6,
+      "said": 6
+     },
+     "H2": {
+      "scoreable": 4,
+      "right": 4,
+      "said": 4
+     }
+    },
+    "R03": {
+     "LEAD": {
+      "points": 15,
+      "statements": 3,
+      "right": 1
+     },
+     "HAND": {
+      "points": 15,
+      "statements": 13,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 8,
+      "right": 3,
+      "said": 8
+     },
+     "H0": {
+      "scoreable": 13,
+      "right": 4,
+      "said": 13
+     },
+     "H2": {
+      "scoreable": 3,
+      "right": 1,
+      "said": 3
+     }
+    },
+    "R04": {
+     "LEAD": {
+      "points": 13,
+      "statements": 1,
+      "right": 1
+     },
+     "HAND": {
+      "points": 13,
+      "statements": 5,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 4,
+      "right": 4,
+      "said": 4
+     },
+     "H0": {
+      "scoreable": 6,
+      "right": 6,
+      "said": 6
+     },
+     "H2": {
+      "scoreable": 6,
+      "right": 6,
+      "said": 6
+     }
+    },
+    "R05": {
+     "LEAD": {
+      "points": 10,
+      "statements": 8,
+      "right": 7
+     },
+     "HAND": {
+      "points": 10,
+      "statements": 8,
+      "right": 5
+     },
+     "PAIR": {
+      "scoreable": 9,
+      "right": 9,
+      "said": 9
+     },
+     "H0": {
+      "scoreable": 12,
+      "right": 10,
+      "said": 12
+     },
+     "H2": {
+      "scoreable": 5,
+      "right": 5,
+      "said": 5
+     }
+    },
+    "R06": {
+     "LEAD": {
+      "points": 21,
+      "statements": 19,
+      "right": 15
+     },
+     "HAND": {
+      "points": 21,
+      "statements": 16,
+      "right": 11
+     },
+     "PAIR": {
+      "scoreable": 12,
+      "right": 11,
+      "said": 12
+     },
+     "H0": {
+      "scoreable": 13,
+      "right": 8,
+      "said": 13
+     },
+     "H2": {
+      "scoreable": 9,
+      "right": 6,
+      "said": 9
+     }
+    },
+    "R07": {
+     "LEAD": {
+      "points": 21,
+      "statements": 17,
+      "right": 16
+     },
+     "HAND": {
+      "points": 21,
+      "statements": 20,
+      "right": 19
+     },
+     "PAIR": {
+      "scoreable": 11,
+      "right": 11,
+      "said": 11
+     },
+     "H0": {
+      "scoreable": 13,
+      "right": 12,
+      "said": 13
+     },
+     "H2": {
+      "scoreable": 10,
+      "right": 10,
+      "said": 10
+     }
+    },
+    "R08": {
+     "LEAD": {
+      "points": 18,
+      "statements": 4,
+      "right": 4
+     },
+     "HAND": {
+      "points": 18,
+      "statements": 13,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 15,
+      "right": 14,
+      "said": 15
+     },
+     "H0": {
+      "scoreable": 16,
+      "right": 15,
+      "said": 16
+     },
+     "H2": {
+      "scoreable": 13,
+      "right": 12,
+      "said": 13
+     }
+    },
+    "R09": {
+     "LEAD": {
+      "points": 13,
+      "statements": 8,
+      "right": 8
+     },
+     "HAND": {
+      "points": 13,
+      "statements": 12,
+      "right": 12
+     },
+     "PAIR": {
+      "scoreable": 6,
+      "right": 6,
+      "said": 6
+     },
+     "H0": {
+      "scoreable": 7,
+      "right": 7,
+      "said": 7
+     },
+     "H2": {
+      "scoreable": 4,
+      "right": 4,
+      "said": 4
+     }
+    },
+    "R10": {
+     "LEAD": {
+      "points": 10,
+      "statements": 2,
+      "right": 2
+     },
+     "HAND": {
+      "points": 10,
+      "statements": 7,
+      "right": 5
+     },
+     "PAIR": {
+      "scoreable": 5,
+      "right": 4,
+      "said": 5
+     },
+     "H0": {
+      "scoreable": 8,
+      "right": 5,
+      "said": 8
+     },
+     "H2": {
+      "scoreable": 7,
+      "right": 4,
+      "said": 7
+     }
+    }
+   }
+  }
+ },
+ "verdict": {
+  "leader_usable": true,
+  "leader_precision": 0.9395973154362416,
+  "leader_precision_by_day": [
+   0.9871794871794872,
+   0.8873239436619719
+  ],
+  "leader_coverage": 0.4745762711864407,
+  "leader_precision_interval": [
+   0.8823529411764706,
+   0.9871794871794872
+  ],
+  "hand_precision": 0.7953488372093023,
+  "hand_coverage": 0.5796610169491525,
+  "leader_more_accurate_than_hand": true,
+  "leader_minus_hand_precision": 0.14424847822693931,
+  "leader_minus_hand_interval": [
+   0.07573169159360504,
+   0.2290043290043291
+  ],
+  "leader_points_gained": 18,
+  "leader_points_lost": 49,
+  "leader_points_sign_test_p": 0.00019429778641481447,
+  "wrong_leader_statements_were": {
+   "second": 8,
+   "third": 1
+  },
+  "pair_usable": true,
+  "pair_right": 0.93048128342246,
+  "pair_right_by_day": [
+   0.9545454545454546,
+   0.8961038961038961
+  ],
+  "pair_share_of_candidates_said": 0.7276264591439688,
+  "pair_right_interval": [
+   0.8633879781420765,
+   0.975
+  ],
+  "hand_all_pairs_right": 0.7470817120622568,
+  "hand_margin_right": 0.875,
+  "hand_margin_share_said": 0.622568093385214,
+  "pair_better_than_hand": true,
+  "pair_minus_hand_all_interval": [
+   0.13541730513842065,
+   0.23064262201230856
+  ],
+  "pair_minus_hand_margin_interval": [
+   0.003567643942069876,
+   0.1058683584456781
+  ]
+ },
+ "reference_only": {
+  "leader_tau": {
+   "0.3": {
+    "points": 295,
+    "in_first_two": 224,
+    "right": 198,
+    "statements": 230,
+    "in_first_three": 227
+   },
+   "0.4": {
+    "points": 295,
+    "in_first_two": 216,
+    "right": 194,
+    "statements": 220,
+    "in_first_three": 217
+   },
+   "0.5": {
+    "points": 295,
+    "in_first_two": 191,
+    "right": 176,
+    "statements": 195,
+    "in_first_three": 192
+   },
+   "0.6": {
+    "points": 295,
+    "in_first_two": 148,
+    "right": 140,
+    "statements": 149,
+    "in_first_three": 149
+   },
+   "0.7": {
+    "points": 295,
+    "in_first_two": 110,
+    "right": 103,
+    "statements": 110,
+    "in_first_three": 110
+   }
+  },
+  "pair_margin": {
+   "0.0": {
+    "candidate_pairs": 257,
+    "points": 295,
+    "right": 215,
+    "said": 257,
+    "scoreable": 257
+   },
+   "0.1": {
+    "candidate_pairs": 257,
+    "points": 295,
+    "right": 190,
+    "said": 216,
+    "scoreable": 216
+   },
+   "0.2": {
+    "candidate_pairs": 257,
+    "points": 295,
+    "right": 174,
+    "said": 187,
+    "scoreable": 187
+   },
+   "0.3": {
+    "candidate_pairs": 257,
+    "points": 295,
+    "right": 157,
+    "said": 167,
+    "scoreable": 167
+   },
+   "0.4": {
+    "candidate_pairs": 257,
+    "points": 295,
+    "right": 133,
+    "said": 140,
+    "scoreable": 140
+   }
+  }
+ }
+}

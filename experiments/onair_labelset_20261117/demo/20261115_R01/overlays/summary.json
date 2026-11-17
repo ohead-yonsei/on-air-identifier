@@ -1,0 +1,581 @@
+{
+ "video": "demo/20261115_R01/R01_hCscAHwkZkY.mp4",
+ "live_timer_segment": [
+  3,
+  76
+ ],
+ "start": 25,
+ "end": 76,
+ "seconds": 197.0,
+ "qwen_failures": 0,
+ "score_on_strip_points": {
+  "validated_points": 6,
+  "statements": 8,
+  "right": 8,
+  "points_with_right": 6,
+  "points_silent": 0,
+  "A": 1.0,
+  "B": 1.0
+ },
+ "points": [
+  {
+   "k": 0,
+   "t": 25.0,
+   "image": "overlay_000.jpg",
+   "statements": [],
+   "detail": [],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 5,
+   "sure": 3,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 1,
+   "t": 28.0,
+   "image": "overlay_001.jpg",
+   "statements": [],
+   "detail": [],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 11,
+   "sure": 2,
+   "detections": [
+    "D3",
+    "D3",
+    "D0"
+   ]
+  },
+  {
+   "k": 2,
+   "t": 31.0,
+   "image": "overlay_002.jpg",
+   "statements": [
+    3,
+    5
+   ],
+   "detail": [
+    {
+     "number": 3,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.754,
+     "p_cap": 0.942
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.7706,
+     "p_cap": 0.8234
+    }
+   ],
+   "strip": [
+    3,
+    5,
+    4,
+    6,
+    8
+   ],
+   "strip_on_screen": true,
+   "riders": 7,
+   "sure": 2,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ],
+   "right": [
+    3,
+    5
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 3,
+   "t": 34.0,
+   "image": "overlay_003.jpg",
+   "statements": [
+    3
+   ],
+   "detail": [
+    {
+     "number": 3,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.7382,
+     "p_cap": 0.9983
+    }
+   ],
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ],
+   "strip_on_screen": true,
+   "riders": 11,
+   "sure": 5,
+   "detections": [
+    "D3",
+    "D0",
+    "D3"
+   ],
+   "right": [
+    3
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 4,
+   "t": 37.0,
+   "image": "overlay_004.jpg",
+   "statements": [
+    3
+   ],
+   "detail": [
+    {
+     "number": 3,
+     "source": "carried"
+    }
+   ],
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ],
+   "strip_on_screen": true,
+   "riders": 11,
+   "sure": 10,
+   "detections": [
+    "D0",
+    "D3",
+    "D3"
+   ],
+   "right": [
+    3
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 5,
+   "t": 40.0,
+   "image": "overlay_005.jpg",
+   "statements": [
+    5
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9097,
+     "p_cap": 0.998
+    }
+   ],
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ],
+   "strip_on_screen": true,
+   "riders": 9,
+   "sure": 6,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ],
+   "right": [
+    5
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 6,
+   "t": 43.0,
+   "image": "overlay_006.jpg",
+   "statements": [
+    4
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9361,
+     "p_cap": 0.9992
+    }
+   ],
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ],
+   "strip_on_screen": true,
+   "riders": 8,
+   "sure": 6,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ],
+   "right": [
+    4
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 7,
+   "t": 46.0,
+   "image": "overlay_007.jpg",
+   "statements": [
+    4,
+    5
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9537,
+     "p_cap": 0.9995
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.8765,
+     "p_cap": 0.998
+    }
+   ],
+   "strip": [
+    4,
+    5,
+    8,
+    3,
+    6
+   ],
+   "strip_on_screen": true,
+   "riders": 7,
+   "sure": 7,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ],
+   "right": [
+    4,
+    5
+   ],
+   "in_places_4_5": [],
+   "not_on_strip": []
+  },
+  {
+   "k": 8,
+   "t": 49.0,
+   "image": "overlay_008.jpg",
+   "statements": [
+    4,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9536,
+     "p_cap": 0.9981
+    },
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.867,
+     "p_cap": 0.9946
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 8,
+   "sure": 7,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 9,
+   "t": 52.0,
+   "image": "overlay_009.jpg",
+   "statements": [
+    4,
+    5,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9189,
+     "p_cap": 0.9977
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9118,
+     "p_cap": 0.9975
+    },
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9189,
+     "p_cap": 0.9988
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 10,
+   "sure": 8,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 10,
+   "t": 55.0,
+   "image": "overlay_010.jpg",
+   "statements": [
+    4,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9359,
+     "p_cap": 0.9994
+    },
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9174,
+     "p_cap": 0.9965
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 8,
+   "sure": 6,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 11,
+   "t": 58.0,
+   "image": "overlay_011.jpg",
+   "statements": [
+    4,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9441,
+     "p_cap": 0.9969
+    },
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9294,
+     "p_cap": 0.9982
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 8,
+   "sure": 8,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 12,
+   "t": 61.0,
+   "image": "overlay_012.jpg",
+   "statements": [
+    4,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.8988,
+     "p_cap": 0.9991
+    },
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9317,
+     "p_cap": 0.9949
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 5,
+   "sure": 4,
+   "detections": [
+    "D0",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 13,
+   "t": 64.0,
+   "image": "overlay_013.jpg",
+   "statements": [
+    4,
+    8
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.8874,
+     "p_cap": 0.9998
+    },
+    {
+     "number": 8,
+     "source": "carried"
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 10,
+   "sure": 7,
+   "detections": [
+    "D3",
+    "D0",
+    "D0"
+   ]
+  },
+  {
+   "k": 14,
+   "t": 67.0,
+   "image": "overlay_014.jpg",
+   "statements": [
+    4
+   ],
+   "detail": [
+    {
+     "number": 4,
+     "source": "carried"
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 7,
+   "sure": 3,
+   "detections": [
+    "D3",
+    "D3",
+    "D0"
+   ]
+  },
+  {
+   "k": 15,
+   "t": 70.0,
+   "image": "overlay_015.jpg",
+   "statements": [
+    8
+   ],
+   "detail": [
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8596,
+     "p_cap": 0.9897
+    }
+   ],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 5,
+   "sure": 2,
+   "detections": [
+    "D3",
+    "D3",
+    "D3"
+   ]
+  },
+  {
+   "k": 16,
+   "t": 73.0,
+   "image": "overlay_016.jpg",
+   "statements": [],
+   "detail": [],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 3,
+   "sure": 0,
+   "detections": [
+    "D3",
+    "D3",
+    "D3"
+   ]
+  },
+  {
+   "k": 17,
+   "t": 76.0,
+   "image": "overlay_017.jpg",
+   "statements": [],
+   "detail": [],
+   "strip": null,
+   "strip_on_screen": false,
+   "riders": 0,
+   "sure": 0,
+   "detections": [
+    "D3",
+    "D3",
+    "D3"
+   ]
+  }
+ ]
+}

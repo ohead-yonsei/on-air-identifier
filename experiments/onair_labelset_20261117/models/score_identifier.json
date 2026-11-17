@@ -1,0 +1,29 @@
+{
+ "frames": 74,
+ "results": {
+  "9B": {
+   "statements": 69,
+   "in_top3": 62,
+   "A": 0.8985507246376812,
+   "A_top5": 0.927536231884058,
+   "frames_with_statement": 0.7027027027027027,
+   "B": 0.6351351351351351,
+   "ms_per_time_point": 5871.9121621621625,
+   "sure_share_of_riders": 0.5521311475409836
+  },
+  "27B": {
+   "statements": 80,
+   "in_top3": 69,
+   "A": 0.8625,
+   "A_top5": 0.8875,
+   "frames_with_statement": 0.7567567567567568,
+   "B": 0.6891891891891891,
+   "ms_per_time_point": 13551.327027027026,
+   "sure_share_of_riders": 0.6531147540983606
+  }
+ },
+ "improved_frames": 8,
+ "worsened_frames": 4,
+ "sign_test_p": 0.3876953125,
+ "better": false
+}

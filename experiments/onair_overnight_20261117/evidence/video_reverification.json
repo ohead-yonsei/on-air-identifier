@@ -1,0 +1,56 @@
+{
+  "time_utc": "2026-11-16T16:50:29.259958+00:00",
+  "checks": [
+    {
+      "race": "R01",
+      "passed": true,
+      "sha256": "fd6ee731ec86d3347d5a5afca0e039dab65589b0826e2fde331924a7212f2b66"
+    },
+    {
+      "race": "R02",
+      "passed": true,
+      "sha256": "94656872ef00cc71d8d9e2979d417fe472315fc7370a590fc9b71dbe31f8b57d"
+    },
+    {
+      "race": "R03",
+      "passed": true,
+      "sha256": "8304fb0d4f2fad050ddbd84e62d8ee491f03dfff22b7f46f1bce926b993cf878"
+    },
+    {
+      "race": "R04",
+      "passed": true,
+      "sha256": "03324749951b1e6f83b8adeec30fa401540240c91fa61bce7fb25c579bc6aa60"
+    },
+    {
+      "race": "R05",
+      "passed": true,
+      "sha256": "af7caba7e4a71fd6c00207456bb62af1e4eda8001751232fc6f2e6cab4466535"
+    },
+    {
+      "race": "R06",
+      "passed": true,
+      "sha256": "8416cefd779447f68d8c8e6df02e085c90a247e1a5736f6bab8688f8d74b2dc7"
+    },
+    {
+      "race": "R07",
+      "passed": true,
+      "sha256": "6a1d45816b5835d37ee21d0823c01ba83db5195f35a68362f9531faa7193b31b"
+    },
+    {
+      "race": "R08",
+      "passed": true,
+      "sha256": "b75c2a9209a256c671430ad75cd68c8979459051e1646119805e9e93ea3f0378"
+    },
+    {
+      "race": "R09",
+      "passed": true,
+      "sha256": "20e84ee453756341972963355192caf97de5c8bd9190bf55edc210534d7e9d58"
+    },
+    {
+      "race": "R10",
+      "passed": true,
+      "sha256": "239a5147934047d44081b038f5099c72550303a175536fd12b0d0197c925ccd8"
+    }
+  ],
+  "originals_unchanged": true
+}

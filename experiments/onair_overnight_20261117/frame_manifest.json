@@ -1,0 +1,737 @@
+[
+  {
+    "id": "R01_t030",
+    "race": "R01",
+    "target_pts": 30,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R01_IFg4OHM-wfA.mp4",
+    "source_sha256": "fd6ee731ec86d3347d5a5afca0e039dab65589b0826e2fde331924a7212f2b66",
+    "file": "frames/R01_t030.png",
+    "sha256": "d4c684e8305a31f2c6e28eb72dfef9fdf9a6668adfc27ab2fb0ebd626e8c7f01",
+    "decoded_index": 1800,
+    "actual_pts": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R01_t040",
+    "race": "R01",
+    "target_pts": 40,
+    "view": "corner_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R01_IFg4OHM-wfA.mp4",
+    "source_sha256": "fd6ee731ec86d3347d5a5afca0e039dab65589b0826e2fde331924a7212f2b66",
+    "file": "frames/R01_t040.png",
+    "sha256": "fe073e7376f8dbff881209388cd5301523a5e1a26708f74c794616e2c1e86e3e",
+    "decoded_index": 2400,
+    "actual_pts": 40.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R02_t030",
+    "race": "R02",
+    "target_pts": 30,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R02_3ykqUmFIjNs.mp4",
+    "source_sha256": "94656872ef00cc71d8d9e2979d417fe472315fc7370a590fc9b71dbe31f8b57d",
+    "file": "frames/R02_t030.png",
+    "sha256": "8b04b3c9e6542057810d56b2fd126a6e37d18585453a970d6486fe6ecb475f83",
+    "decoded_index": 1800,
+    "actual_pts": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R02_t020",
+    "race": "R02",
+    "target_pts": 20,
+    "view": "straight_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R02_3ykqUmFIjNs.mp4",
+    "source_sha256": "94656872ef00cc71d8d9e2979d417fe472315fc7370a590fc9b71dbe31f8b57d",
+    "file": "frames/R02_t020.png",
+    "sha256": "d7fdca1c6e75b0346b98488a89e70815d7b3405ee7b7342be76bac0b2637dd33",
+    "decoded_index": 1200,
+    "actual_pts": 20.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R03_t050",
+    "race": "R03",
+    "target_pts": 50,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R03_y0y-rVJzvJw.mp4",
+    "source_sha256": "8304fb0d4f2fad050ddbd84e62d8ee491f03dfff22b7f46f1bce926b993cf878",
+    "file": "frames/R03_t050.png",
+    "sha256": "a9fa785d1ccf85bb6873f94aa61e7b67d921a0efd1e8260fc7a0d54cf2382968",
+    "decoded_index": 3000,
+    "actual_pts": 50.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R03_t090",
+    "race": "R03",
+    "target_pts": 90,
+    "view": "corner_front",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R03_y0y-rVJzvJw.mp4",
+    "source_sha256": "8304fb0d4f2fad050ddbd84e62d8ee491f03dfff22b7f46f1bce926b993cf878",
+    "file": "frames/R03_t090.png",
+    "sha256": "24a7c73e0e70355d351c99a6e24265d7fb9e3421ca07fb9cfbb5428e6f54e437",
+    "decoded_index": 5400,
+    "actual_pts": 90.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R04_t050",
+    "race": "R04",
+    "target_pts": 50,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R04_TbzSIX66FkY.mp4",
+    "source_sha256": "03324749951b1e6f83b8adeec30fa401540240c91fa61bce7fb25c579bc6aa60",
+    "file": "frames/R04_t050.png",
+    "sha256": "bcb11d266b1a46d919276641a5c22f1d9e17eb8a3e15e5e8fc789b1c484369c9",
+    "decoded_index": 3000,
+    "actual_pts": 50.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R04_t020",
+    "race": "R04",
+    "target_pts": 20,
+    "view": "straight_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R04_TbzSIX66FkY.mp4",
+    "source_sha256": "03324749951b1e6f83b8adeec30fa401540240c91fa61bce7fb25c579bc6aa60",
+    "file": "frames/R04_t020.png",
+    "sha256": "4c7ac11a3b9e8b5ceb6981412341fcc331067aa1a305ed6eb0547d99ec210e92",
+    "decoded_index": 1200,
+    "actual_pts": 20.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R05_t040",
+    "race": "R05",
+    "target_pts": 40,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R05_nvwAmro525M.mp4",
+    "source_sha256": "af7caba7e4a71fd6c00207456bb62af1e4eda8001751232fc6f2e6cab4466535",
+    "file": "frames/R05_t040.png",
+    "sha256": "28657eee58d1983b0ccde2caadb9c88168e82a6fe407ddf152d007a390c354ba",
+    "decoded_index": 2400,
+    "actual_pts": 40.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R05_t030",
+    "race": "R05",
+    "target_pts": 30,
+    "view": "straight_front",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R05_nvwAmro525M.mp4",
+    "source_sha256": "af7caba7e4a71fd6c00207456bb62af1e4eda8001751232fc6f2e6cab4466535",
+    "file": "frames/R05_t030.png",
+    "sha256": "9902a33c4512dde3d00624ac5225866429045e4257b5425680b60015ee3d8f1c",
+    "decoded_index": 1800,
+    "actual_pts": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R06_t080",
+    "race": "R06",
+    "target_pts": 80,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R06_-3RgyWRsSmE.mp4",
+    "source_sha256": "8416cefd779447f68d8c8e6df02e085c90a247e1a5736f6bab8688f8d74b2dc7",
+    "file": "frames/R06_t080.png",
+    "sha256": "53ad87371543906755f0bf0724f7806e3f2edc10225e68c4f6174013818c0369",
+    "decoded_index": 4800,
+    "actual_pts": 80.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R06_t060",
+    "race": "R06",
+    "target_pts": 60,
+    "view": "corner_front",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R06_-3RgyWRsSmE.mp4",
+    "source_sha256": "8416cefd779447f68d8c8e6df02e085c90a247e1a5736f6bab8688f8d74b2dc7",
+    "file": "frames/R06_t060.png",
+    "sha256": "969770ef66b7fd8945ee7070c3de8dbdf1b5d3b789606a9d7ea620abc63c61f0",
+    "decoded_index": 3600,
+    "actual_pts": 60.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R07_t020",
+    "race": "R07",
+    "target_pts": 20,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R07_MotP61eW-3M.mp4",
+    "source_sha256": "6a1d45816b5835d37ee21d0823c01ba83db5195f35a68362f9531faa7193b31b",
+    "file": "frames/R07_t020.png",
+    "sha256": "952040ca5377a6f4816864c1519d43a8140101d18b91bf6ab6315bf7f3064f52",
+    "decoded_index": 1200,
+    "actual_pts": 20.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R07_t060",
+    "race": "R07",
+    "target_pts": 60,
+    "view": "corner_front",
+    "view_status": "assistant visual draft",
+    "split": "development",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R07_MotP61eW-3M.mp4",
+    "source_sha256": "6a1d45816b5835d37ee21d0823c01ba83db5195f35a68362f9531faa7193b31b",
+    "file": "frames/R07_t060.png",
+    "sha256": "1186af4566aea2bf90ae4ad543b49ef4bbf786379a2a9fea948df247e4d23cf8",
+    "decoded_index": 3600,
+    "actual_pts": 60.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R08_t080",
+    "race": "R08",
+    "target_pts": 80,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R08_H0A9wR3JIOs.mp4",
+    "source_sha256": "b75c2a9209a256c671430ad75cd68c8979459051e1646119805e9e93ea3f0378",
+    "file": "frames/R08_t080.png",
+    "sha256": "141f7ce3508d5260aa9ec2c53ec77502e11ae1c020daa3f90ff06af0224de221",
+    "decoded_index": 4800,
+    "actual_pts": 80.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R08_t070",
+    "race": "R08",
+    "target_pts": 70,
+    "view": "corner_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R08_H0A9wR3JIOs.mp4",
+    "source_sha256": "b75c2a9209a256c671430ad75cd68c8979459051e1646119805e9e93ea3f0378",
+    "file": "frames/R08_t070.png",
+    "sha256": "b39352a049f7b20c55135312079362dbdc946d8d35b2615961a7fa856fb6e2b7",
+    "decoded_index": 4200,
+    "actual_pts": 70.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R09_t030",
+    "race": "R09",
+    "target_pts": 30,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R09_wp1ZvMxaJd4.mp4",
+    "source_sha256": "20e84ee453756341972963355192caf97de5c8bd9190bf55edc210534d7e9d58",
+    "file": "frames/R09_t030.png",
+    "sha256": "92f89dee60a334177d644c24abe416d923e1b425ae43830dc74015b1df7855b4",
+    "decoded_index": 1800,
+    "actual_pts": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R09_t020",
+    "race": "R09",
+    "target_pts": 20,
+    "view": "straight_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R09_wp1ZvMxaJd4.mp4",
+    "source_sha256": "20e84ee453756341972963355192caf97de5c8bd9190bf55edc210534d7e9d58",
+    "file": "frames/R09_t020.png",
+    "sha256": "40fc712bdb45851c4ade1fb7bbb7a6f1a550e030aeb75db1025962760f978093",
+    "decoded_index": 1200,
+    "actual_pts": 20.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R10_t020",
+    "race": "R10",
+    "target_pts": 20,
+    "view": "side",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R10_SUW1c_aqQ7Y.mp4",
+    "source_sha256": "239a5147934047d44081b038f5099c72550303a175536fd12b0d0197c925ccd8",
+    "file": "frames/R10_t020.png",
+    "sha256": "1d8a8b3b9f4aaff3a48208af75b5ab29995aa3b87384117b82e6515df43d9b3f",
+    "decoded_index": 1200,
+    "actual_pts": 20.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "R10_t060",
+    "race": "R10",
+    "target_pts": 60,
+    "view": "straight_front",
+    "view_status": "assistant visual draft",
+    "split": "evaluation",
+    "source_video": "/home/ohead/ai-workspace/projects/onair_overnight_20261117/videos/R10_SUW1c_aqQ7Y.mp4",
+    "source_sha256": "239a5147934047d44081b038f5099c72550303a175536fd12b0d0197c925ccd8",
+    "file": "frames/R10_t060.png",
+    "sha256": "b362b3c7a8ad27125bf5985634e3f0ebaa8b569000bc4548329315dd5703e20a",
+    "decoded_index": 3600,
+    "actual_pts": 60.0,
+    "width": 1920,
+    "height": 1080,
+    "masks": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "id": "HUMAN_t038_5",
+    "race": "20261010_R10",
+    "split": "human_check",
+    "view": "corner_front",
+    "actual_pts": 38.5,
+    "target_pts": 38.5,
+    "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+    "source_image": "/home/ohead/ai-workspace/projects/onair_cap_silks_20261116/source_frames/t385.png",
+    "file": "frames/HUMAN_t038_5.png",
+    "sha256": "0e5af53f881c0d21362f5b572ee2ff57dec2d481e9cff2302e42c375aded6ac0",
+    "width": 1280,
+    "height": 720,
+    "masks": "unchanged exact previously reviewed source image"
+  }
+]

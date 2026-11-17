@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-16T11:36:05.050980+00:00",
+  "new_calls": 4,
+  "failures": 0,
+  "format_violations": 0,
+  "execution_order": [
+    "S2_bend",
+    "S1_early",
+    "S3_wide",
+    "S4_straight"
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 8073 MiB, 0 %",
+  "first_image_batches": 16,
+  "remaining_image_batches": 48
+}

@@ -1,0 +1,11 @@
+import json,pathlib
+from PIL import Image,ImageDraw
+r=pathlib.Path(__file__).resolve().parents[1]
+specs=json.loads((r/'scene_inputs.json').read_text())
+im=Image.new('RGB',(1536,924),'white');dr=ImageDraw.Draw(im)
+for i,s in enumerate(specs):
+ x=(i%2)*768;y=(i//2)*462
+ im.paste(Image.open(r/s['frames'][-1]['file']),(x,y));dr.text((x+5,y+435),s['scene']+' last input: '+str(s['frames'][-1]['actual_pts_seconds'])+' sec',fill='black')
+im.save(r/'evidence/representative_frames.jpg',quality=95)
+review={'status':'provisional visual audit by assistant, not expert human gold','created_before_reviewing_model_outputs':True,'source':'masked model-input frames; official checkpoint ranks not used as arbitrary-time gold','scenes':[{'scene':'S1_early','difficulty':'ambiguous','leader':None,'known':['split-screen start sequence, horses running','final leader/top3 not assigned as gold'],'reason':'small caps, overlapping runners, two camera views and a transition at end'},{'scene':'S2_bend','difficulty':'clear_leader','leader':9,'known':['purple-capped runner visibly ahead through side-to-bend sequence','white-capped No.1 follows leader; strict rank3 not certified','field is rounding a bend'],'reason':'cap colour and spatial lead agree over multiple input frames','unconfirmed':['exact gaps','remaining distance','full top3']},{'scene':'S3_wide','difficulty':'ambiguous_identity_partial','leader':None,'known':['one horse leads a stretched field','early frames support purple-capped leader9; final wide frames make individual identities and top3 harder'],'reason':'final five frames distant side view after camera cut; several cap regions only a few pixels','unconfirmed':['final top3','leader identity for quantitative scoring']},{'scene':'S4_straight','difficulty':'clear_leader','leader':9,'known':['purple-capped runner visibly in front along rail','white-capped1 and blue-capped5 behind; exact second/third not certified','field spread out; no turf surface'],'reason':'purple cap and sustained gap visible over multiple input frames','unconfirmed':['exact margin in lengths','remaining distance','strict second/third']}],'design_deviation':'both clear examples have leader9; distinct-leader requirement not met; sample is a single race; S2/S3 overlap 1 second'}
+(r/'visual_review_pre_inference.json').write_text(json.dumps(review,ensure_ascii=False,indent=2))

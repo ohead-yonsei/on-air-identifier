@@ -1,0 +1,26 @@
+{
+ "day": "2026-11-07",
+ "read_by": "Claude, from the slow-motion finish replay (finish/otherday2/arrivals, replay_crops, replay_compact), before the identifier was run on the finish-stretch frames. Not checked item by item by a person.",
+ "order": {
+  "R01": [7, 5, 4],
+  "R02": [2, 1, 4],
+  "R03": [2, 7, 1],
+  "R04": [6, 5, 9],
+  "R06": [6, 8, 5],
+  "R07": [8, 5, 6],
+  "R08": [9, 6, 8],
+  "R09": [4, 5, 8]
+ },
+ "notes": {
+  "R02": "second and third (1, 4) are close; the set is clear",
+  "R03": "third (1) had not reached the line in the last crop but was clear of the next horse; a riderless horse also ran",
+  "R04": "first two (6, 5) are close; 5 read from blue cap and blue cloth",
+  "R06": "second and third (8, 5) are close; the set is clear",
+  "R07": "second read as 5 from blue cap and blue cloth; the digit was hidden by the rider's leg",
+  "R09": "second and third (5, 8) are close; the set is clear"
+ },
+ "excluded": {
+  "R05": "third place: three horses reach the line together and the numbers of two are hidden",
+  "R10": "second place: the number of the horse could not be read"
+ }
+}

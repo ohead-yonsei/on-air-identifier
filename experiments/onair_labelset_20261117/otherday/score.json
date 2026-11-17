@@ -1,0 +1,154 @@
+{
+ "day": "2026-11-14",
+ "frames": 161,
+ "results": {
+  "OLD": {
+   "statements": 170,
+   "in_top3": 135,
+   "A": 0.7941176470588235,
+   "A_top5": 0.8352941176470589,
+   "B": 0.5962732919254659,
+   "by_race": {
+    "R01": {
+     "frames": 11,
+     "statements": 11,
+     "in_top3": 11,
+     "good": 9
+    },
+    "R02": {
+     "frames": 13,
+     "statements": 14,
+     "in_top3": 14,
+     "good": 8
+    },
+    "R03": {
+     "frames": 14,
+     "statements": 19,
+     "in_top3": 18,
+     "good": 12
+    },
+    "R04": {
+     "frames": 10,
+     "statements": 10,
+     "in_top3": 8,
+     "good": 7
+    },
+    "R05": {
+     "frames": 14,
+     "statements": 20,
+     "in_top3": 17,
+     "good": 11
+    },
+    "R06": {
+     "frames": 24,
+     "statements": 27,
+     "in_top3": 21,
+     "good": 15
+    },
+    "R07": {
+     "frames": 22,
+     "statements": 22,
+     "in_top3": 20,
+     "good": 12
+    },
+    "R08": {
+     "frames": 27,
+     "statements": 20,
+     "in_top3": 9,
+     "good": 9
+    },
+    "R09": {
+     "frames": 14,
+     "statements": 19,
+     "in_top3": 16,
+     "good": 12
+    },
+    "R10": {
+     "frames": 12,
+     "statements": 8,
+     "in_top3": 1,
+     "good": 1
+    }
+   }
+  },
+  "C2": {
+   "statements": 199,
+   "in_top3": 167,
+   "A": 0.8391959798994975,
+   "A_top5": 0.8743718592964824,
+   "B": 0.6956521739130435,
+   "by_race": {
+    "R01": {
+     "frames": 11,
+     "statements": 18,
+     "in_top3": 18,
+     "good": 11
+    },
+    "R02": {
+     "frames": 13,
+     "statements": 17,
+     "in_top3": 17,
+     "good": 11
+    },
+    "R03": {
+     "frames": 14,
+     "statements": 20,
+     "in_top3": 19,
+     "good": 12
+    },
+    "R04": {
+     "frames": 10,
+     "statements": 13,
+     "in_top3": 10,
+     "good": 8
+    },
+    "R05": {
+     "frames": 14,
+     "statements": 23,
+     "in_top3": 20,
+     "good": 12
+    },
+    "R06": {
+     "frames": 24,
+     "statements": 31,
+     "in_top3": 25,
+     "good": 17
+    },
+    "R07": {
+     "frames": 22,
+     "statements": 24,
+     "in_top3": 23,
+     "good": 14
+    },
+    "R08": {
+     "frames": 27,
+     "statements": 21,
+     "in_top3": 11,
+     "good": 10
+    },
+    "R09": {
+     "frames": 14,
+     "statements": 21,
+     "in_top3": 19,
+     "good": 13
+    },
+    "R10": {
+     "frames": 12,
+     "statements": 11,
+     "in_top3": 5,
+     "good": 4
+    }
+   }
+  }
+ },
+ "verdict": {
+  "A_at_least_85": false,
+  "B_at_least_60": true,
+  "goal_A_90": false,
+  "goal_B_80": false
+ },
+ "riders_per_frame": 7.763975155279503,
+ "sure_share": 0.7808,
+ "qwen_failures": 0,
+ "strip_numbers_above_11": 0
+}

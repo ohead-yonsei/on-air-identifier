@@ -1,0 +1,5 @@
+{
+  "issue": "Initial config metadata said foreground_corners_per_box=80; actual code uses up to800corners on unionofhorseboxes.",
+  "actual_algorithm_changed": false,
+  "correction": "Metadata renamed foreground_corners_union_mask=800 in final code; original config retained."
+}

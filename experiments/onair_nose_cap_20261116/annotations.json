@@ -1,0 +1,493 @@
+{
+  "coordinate_system": "1280x720 decoded source; x right, y down. Nose tip is approximate manually marked muzzle landmark, not subpixel/photo-finish ground truth.",
+  "annotation_author": "assistant visual inspection",
+  "association_review_status": "provisional; not yet confirmed by user",
+  "human_verified_cap_numbers": {
+    "t385": [
+      9,
+      1,
+      2,
+      10,
+      5,
+      11
+    ]
+  },
+  "leader_human_review": "User previously identified purple No.9 as leader in displayed 35.0s and 38.5s frames; two frames from one scene, not independent races.",
+  "frames": [
+    {
+      "id": "t35",
+      "pts": 35.0,
+      "decoded_index": 1049,
+      "view": "side-oblique",
+      "direction": [
+        -1,
+        0.5
+      ],
+      "excluded": [
+        {
+          "number": 2,
+          "reason": "Nose tip cannot be reliably separated from overlapping riders/horses; not annotated or scored."
+        }
+      ],
+      "caps": [
+        {
+          "id": "t35_c09",
+          "box": [
+            190,
+            412,
+            216,
+            439
+          ],
+          "center": [
+            203.0,
+            425.5
+          ],
+          "display_number": 9,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c01",
+          "box": [
+            273,
+            370,
+            295,
+            392
+          ],
+          "center": [
+            284.0,
+            381.0
+          ],
+          "display_number": 1,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c02",
+          "box": [
+            263,
+            348,
+            284,
+            370
+          ],
+          "center": [
+            273.5,
+            359.0
+          ],
+          "display_number": 2,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c10",
+          "box": [
+            216,
+            348,
+            239,
+            370
+          ],
+          "center": [
+            227.5,
+            359.0
+          ],
+          "display_number": 10,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c05",
+          "box": [
+            462,
+            337,
+            484,
+            359
+          ],
+          "center": [
+            473.0,
+            348.0
+          ],
+          "display_number": 5,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c11",
+          "box": [
+            525,
+            278,
+            546,
+            301
+          ],
+          "center": [
+            535.5,
+            289.5
+          ],
+          "display_number": 11,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c07",
+          "box": [
+            433,
+            322,
+            456,
+            345
+          ],
+          "center": [
+            444.5,
+            333.5
+          ],
+          "display_number": 7,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c06",
+          "box": [
+            892,
+            260,
+            914,
+            280
+          ],
+          "center": [
+            903.0,
+            270.0
+          ],
+          "display_number": 6,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c08",
+          "box": [
+            1074,
+            204,
+            1095,
+            225
+          ],
+          "center": [
+            1084.5,
+            214.5
+          ],
+          "display_number": 8,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c03",
+          "box": [
+            1152,
+            220,
+            1175,
+            243
+          ],
+          "center": [
+            1163.5,
+            231.5
+          ],
+          "display_number": 3,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t35_c04",
+          "box": [
+            1180,
+            193,
+            1203,
+            216
+          ],
+          "center": [
+            1191.5,
+            204.5
+          ],
+          "display_number": 4,
+          "number_status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t35_n01",
+          "point": [
+            183,
+            477
+          ],
+          "reference_cap_id": "t35_c09",
+          "reference_number": 9,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t35_n02",
+          "point": [
+            266,
+            441
+          ],
+          "reference_cap_id": "t35_c01",
+          "reference_number": 1,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t35_n03",
+          "point": [
+            211,
+            411
+          ],
+          "reference_cap_id": "t35_c10",
+          "reference_number": 10,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t35_n04",
+          "point": [
+            449,
+            418
+          ],
+          "reference_cap_id": "t35_c05",
+          "reference_number": 5,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t35_n05",
+          "point": [
+            509,
+            357
+          ],
+          "reference_cap_id": "t35_c11",
+          "reference_number": 11,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        }
+      ]
+    },
+    {
+      "id": "t385",
+      "pts": 38.5,
+      "decoded_index": 1154,
+      "view": "front-oblique",
+      "direction": [
+        0,
+        1
+      ],
+      "excluded": [],
+      "caps": [
+        {
+          "id": "t385_c09",
+          "box": [
+            691,
+            466,
+            725,
+            499
+          ],
+          "center": [
+            708.0,
+            482.5
+          ],
+          "display_number": 9,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c01",
+          "box": [
+            587,
+            389,
+            616,
+            413
+          ],
+          "center": [
+            601.5,
+            401.0
+          ],
+          "display_number": 1,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c02",
+          "box": [
+            475,
+            344,
+            501,
+            370
+          ],
+          "center": [
+            488.0,
+            357.0
+          ],
+          "display_number": 2,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c10",
+          "box": [
+            362,
+            354,
+            390,
+            386
+          ],
+          "center": [
+            376.0,
+            370.0
+          ],
+          "display_number": 10,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c05",
+          "box": [
+            682,
+            330,
+            707,
+            356
+          ],
+          "center": [
+            694.5,
+            343.0
+          ],
+          "display_number": 5,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c11",
+          "box": [
+            473,
+            209,
+            497,
+            233
+          ],
+          "center": [
+            485.0,
+            221.0
+          ],
+          "display_number": 11,
+          "number_status": "user confirmed"
+        },
+        {
+          "id": "t385_c07",
+          "box": [
+            559,
+            288,
+            584,
+            313
+          ],
+          "center": [
+            571.5,
+            300.5
+          ],
+          "display_number": 7,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t385_c06",
+          "box": [
+            788,
+            188,
+            812,
+            211
+          ],
+          "center": [
+            800.0,
+            199.5
+          ],
+          "display_number": 6,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t385_c08",
+          "box": [
+            729,
+            107,
+            753,
+            130
+          ],
+          "center": [
+            741.0,
+            118.5
+          ],
+          "display_number": 8,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t385_c03",
+          "box": [
+            805,
+            114,
+            830,
+            139
+          ],
+          "center": [
+            817.5,
+            126.5
+          ],
+          "display_number": 3,
+          "number_status": "assistant provisional"
+        },
+        {
+          "id": "t385_c04",
+          "box": [
+            846,
+            69,
+            866,
+            92
+          ],
+          "center": [
+            856.0,
+            80.5
+          ],
+          "display_number": 4,
+          "number_status": "assistant provisional"
+        }
+      ],
+      "noses": [
+        {
+          "id": "t385_n01",
+          "point": [
+            721,
+            577
+          ],
+          "reference_cap_id": "t385_c09",
+          "reference_number": 9,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t385_n02",
+          "point": [
+            607,
+            502
+          ],
+          "reference_cap_id": "t385_c01",
+          "reference_number": 1,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t385_n03",
+          "point": [
+            484,
+            454
+          ],
+          "reference_cap_id": "t385_c02",
+          "reference_number": 2,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t385_n04",
+          "point": [
+            384,
+            465
+          ],
+          "reference_cap_id": "t385_c10",
+          "reference_number": 10,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t385_n05",
+          "point": [
+            690,
+            439
+          ],
+          "reference_cap_id": "t385_c05",
+          "reference_number": 5,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        },
+        {
+          "id": "t385_n06",
+          "point": [
+            467,
+            314
+          ],
+          "reference_cap_id": "t385_c11",
+          "reference_number": 11,
+          "reference_status": "assistant visually traced same horse/head/neck/rider; provisional"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+[
+  {
+    "frame": "R03_t050",
+    "person": "p0",
+    "number": 8,
+    "cap": [
+      62,
+      6,
+      88,
+      28
+    ]
+  },
+  {
+    "frame": "R03_t050",
+    "person": "p3",
+    "number": 10,
+    "cap": [
+      51,
+      3,
+      80,
+      24
+    ]
+  },
+  {
+    "frame": "R03_t050",
+    "person": "p7",
+    "number": 11,
+    "cap": [
+      55,
+      5,
+      80,
+      31
+    ]
+  },
+  {
+    "frame": "R03_t090",
+    "person": "p1",
+    "number": 2,
+    "cap": [
+      67,
+      7,
+      124,
+      54
+    ],
+    "face": [
+      65,
+      55,
+      123,
+      80
+    ],
+    "torso": [
+      48,
+      82,
+      133,
+      109
+    ]
+  },
+  {
+    "frame": "R03_t090",
+    "person": "p2",
+    "number": 9,
+    "cap": [
+      38,
+      8,
+      105,
+      75
+    ],
+    "face": [
+      44,
+      75,
+      96,
+      101
+    ],
+    "torso": [
+      37,
+      102,
+      112,
+      143
+    ]
+  },
+  {
+    "frame": "R03_t090",
+    "person": "p11",
+    "number": 4,
+    "cap": [
+      12,
+      10,
+      66,
+      63
+    ],
+    "face": [
+      21,
+      64,
+      65,
+      89
+    ],
+    "torso": [
+      20,
+      90,
+      83,
+      122
+    ]
+  },
+  {
+    "frame": "R05_t040",
+    "person": "p1",
+    "number": 6,
+    "cap": [
+      43,
+      5,
+      72,
+      31
+    ]
+  },
+  {
+    "frame": "R05_t040",
+    "person": "p2",
+    "number": 5,
+    "cap": [
+      57,
+      3,
+      84,
+      29
+    ]
+  },
+  {
+    "frame": "R05_t040",
+    "person": "p12",
+    "number": 1,
+    "cap": [
+      67,
+      4,
+      99,
+      28
+    ],
+    "face": [
+      70,
+      29,
+      98,
+      48
+    ],
+    "torso": [
+      21,
+      23,
+      66,
+      57
+    ]
+  },
+  {
+    "frame": "R05_t030",
+    "person": "p6",
+    "number": 7,
+    "cap": [
+      51,
+      15,
+      96,
+      59
+    ],
+    "face": [
+      56,
+      60,
+      90,
+      80
+    ]
+  },
+  {
+    "frame": "R05_t030",
+    "person": "p10",
+    "number": 3,
+    "cap": [
+      50,
+      5,
+      98,
+      44
+    ],
+    "face": [
+      53,
+      45,
+      97,
+      61
+    ],
+    "torso": [
+      41,
+      62,
+      109,
+      97
+    ]
+  },
+  {
+    "frame": "R05_t030",
+    "person": "p1",
+    "number": 10,
+    "cap": [
+      57,
+      4,
+      109,
+      52
+    ],
+    "face": [
+      62,
+      53,
+      108,
+      70
+    ]
+  },
+  {
+    "frame": "R06_t080",
+    "person": "p0",
+    "number": 4,
+    "cap": [
+      44,
+      5,
+      63,
+      27
+    ]
+  },
+  {
+    "frame": "R06_t080",
+    "person": "p3",
+    "number": 8,
+    "cap": [
+      44,
+      5,
+      68,
+      29
+    ]
+  },
+  {
+    "frame": "R06_t080",
+    "person": "p8",
+    "number": 7,
+    "cap": [
+      7,
+      5,
+      25,
+      26
+    ],
+    "note": "Partial person detection; brown-cap draft, difficult small crop."
+  },
+  {
+    "frame": "R06_t060",
+    "person": "p2",
+    "number": 5,
+    "cap": [
+      40,
+      6,
+      77,
+      38
+    ],
+    "face": [
+      42,
+      39,
+      75,
+      59
+    ]
+  },
+  {
+    "frame": "R06_t060",
+    "person": "p6",
+    "number": 0,
+    "cap": [
+      29,
+      4,
+      66,
+      39
+    ],
+    "note": "White versus blue-white stripes is visually unresolved; not scored as correct/incorrect."
+  },
+  {
+    "frame": "R06_t060",
+    "person": "p10",
+    "number": 10,
+    "cap": [
+      24,
+      5,
+      54,
+      39
+    ],
+    "face": [
+      28,
+      40,
+      53,
+      57
+    ]
+  },
+  {
+    "frame": "R07_t020",
+    "person": "p1",
+    "number": 7,
+    "cap": [
+      11,
+      4,
+      35,
+      32
+    ],
+    "note": "Dark brown versus black is challenging; draft label requires review."
+  },
+  {
+    "frame": "R07_t020",
+    "person": "p2",
+    "number": 3,
+    "cap": [
+      6,
+      6,
+      32,
+      30
+    ]
+  },
+  {
+    "frame": "R07_t020",
+    "person": "p4",
+    "number": 0,
+    "cap": [
+      8,
+      4,
+      32,
+      25
+    ],
+    "note": "Sky blue highlight versus blue-white pattern unresolved; excluded from labelled agreement denominator."
+  },
+  {
+    "frame": "R07_t060",
+    "person": "p1",
+    "number": 7,
+    "cap": [
+      46,
+      3,
+      91,
+      42
+    ],
+    "face": [
+      47,
+      43,
+      87,
+      63
+    ],
+    "torso": [
+      35,
+      65,
+      105,
+      96
+    ]
+  },
+  {
+    "frame": "R07_t060",
+    "person": "p4",
+    "number": 11,
+    "cap": [
+      35,
+      7,
+      71,
+      44
+    ],
+    "face": [
+      37,
+      45,
+      71,
+      60
+    ]
+  },
+  {
+    "frame": "R07_t060",
+    "person": "p9",
+    "number": 5,
+    "cap": [
+      47,
+      4,
+      83,
+      41
+    ],
+    "face": [
+      48,
+      42,
+      83,
+      63
+    ]
+  },
+  {
+    "frame": "R01_t030",
+    "person": "p0",
+    "number": 7,
+    "cap": [
+      8,
+      4,
+      32,
+      25
+    ],
+    "note": "Dark brown draft; grey/black appearance needs review."
+  },
+  {
+    "frame": "R01_t030",
+    "person": "p7",
+    "number": 9,
+    "cap": [
+      15,
+      2,
+      43,
+      21
+    ]
+  },
+  {
+    "frame": "R01_t030",
+    "person": "p10",
+    "number": 6,
+    "cap": [
+      7,
+      3,
+      29,
+      22
+    ]
+  },
+  {
+    "frame": "R01_t040",
+    "person": "p2",
+    "number": 8,
+    "cap": [
+      79,
+      5,
+      120,
+      46
+    ],
+    "face": [
+      78,
+      47,
+      115,
+      64
+    ]
+  },
+  {
+    "frame": "R01_t040",
+    "person": "p4",
+    "number": 5,
+    "cap": [
+      109,
+      8,
+      152,
+      52
+    ],
+    "face": [
+      112,
+      53,
+      149,
+      72
+    ]
+  },
+  {
+    "frame": "R01_t040",
+    "person": "p8",
+    "number": 11,
+    "cap": [
+      55,
+      6,
+      94,
+      46
+    ],
+    "note": "Blue-white cap pattern draft; review shade versus stripe."
+  },
+  {
+    "frame": "R02_t030",
+    "person": "p2",
+    "number": 10,
+    "cap": [
+      8,
+      7,
+      35,
+      30
+    ],
+    "note": "Small desaturated sky-blue draft."
+  },
+  {
+    "frame": "R02_t030",
+    "person": "p1",
+    "number": 2,
+    "cap": [
+      6,
+      5,
+      33,
+      22
+    ]
+  },
+  {
+    "frame": "R02_t030",
+    "person": "p10",
+    "number": 8,
+    "cap": [
+      7,
+      5,
+      31,
+      28
+    ]
+  },
+  {
+    "frame": "R02_t020",
+    "person": "p4",
+    "number": 4,
+    "cap": [
+      30,
+      7,
+      65,
+      43
+    ],
+    "face": [
+      30,
+      44,
+      64,
+      60
+    ],
+    "torso": [
+      18,
+      61,
+      79,
+      98
+    ]
+  },
+  {
+    "frame": "R02_t020",
+    "person": "p7",
+    "number": 7,
+    "cap": [
+      41,
+      3,
+      76,
+      29
+    ],
+    "face": [
+      37,
+      30,
+      76,
+      53
+    ],
+    "note": "Brown versus black draft needs user review."
+  },
+  {
+    "frame": "R02_t020",
+    "person": "p9",
+    "number": 1,
+    "cap": [
+      39,
+      3,
+      77,
+      35
+    ],
+    "face": [
+      41,
+      36,
+      76,
+      55
+    ]
+  },
+  {
+    "frame": "R04_t050",
+    "person": "p2",
+    "number": 4,
+    "cap": [
+      56,
+      4,
+      79,
+      22
+    ]
+  },
+  {
+    "frame": "R04_t050",
+    "person": "p4",
+    "number": 2,
+    "cap": [
+      58,
+      6,
+      82,
+      23
+    ]
+  },
+  {
+    "frame": "R04_t050",
+    "person": "p6",
+    "number": 1,
+    "cap": [
+      61,
+      4,
+      83,
+      29
+    ]
+  },
+  {
+    "frame": "R04_t020",
+    "person": "p3",
+    "number": 3,
+    "cap": [
+      49,
+      4,
+      112,
+      70
+    ],
+    "face": [
+      55,
+      71,
+      109,
+      99
+    ],
+    "torso": [
+      52,
+      100,
+      125,
+      128
+    ]
+  },
+  {
+    "frame": "R04_t020",
+    "person": "p5",
+    "number": 6,
+    "cap": [
+      114,
+      17,
+      179,
+      88
+    ],
+    "face": [
+      119,
+      89,
+      174,
+      118
+    ]
+  },
+  {
+    "frame": "R04_t020",
+    "person": "p1",
+    "number": 8,
+    "cap": [
+      84,
+      10,
+      147,
+      70
+    ],
+    "face": [
+      84,
+      71,
+      139,
+      104
+    ],
+    "torso": [
+      67,
+      105,
+      154,
+      158
+    ]
+  },
+  {
+    "frame": "R08_t080",
+    "person": "p0",
+    "number": 0,
+    "cap": [
+      8,
+      11,
+      28,
+      32
+    ],
+    "note": "Small motion-blurred cap, red/brown appearance unresolved."
+  },
+  {
+    "frame": "R08_t080",
+    "person": "p2",
+    "number": 2,
+    "cap": [
+      10,
+      6,
+      28,
+      22
+    ]
+  },
+  {
+    "frame": "R08_t080",
+    "person": "p4",
+    "number": 5,
+    "cap": [
+      16,
+      5,
+      36,
+      22
+    ]
+  },
+  {
+    "frame": "R08_t070",
+    "person": "p14",
+    "number": 4,
+    "cap": [
+      10,
+      5,
+      42,
+      28
+    ],
+    "face": [
+      12,
+      29,
+      42,
+      44
+    ]
+  },
+  {
+    "frame": "R08_t070",
+    "person": "p9",
+    "number": 9,
+    "cap": [
+      22,
+      5,
+      55,
+      31
+    ],
+    "face": [
+      25,
+      32,
+      55,
+      45
+    ]
+  },
+  {
+    "frame": "R08_t070",
+    "person": "p7",
+    "number": 6,
+    "cap": [
+      26,
+      3,
+      57,
+      34
+    ],
+    "face": [
+      27,
+      35,
+      56,
+      52
+    ]
+  },
+  {
+    "frame": "R09_t030",
+    "person": "p0",
+    "number": 8,
+    "cap": [
+      41,
+      7,
+      61,
+      32
+    ]
+  },
+  {
+    "frame": "R09_t030",
+    "person": "p3",
+    "number": 3,
+    "cap": [
+      58,
+      5,
+      77,
+      24
+    ]
+  },
+  {
+    "frame": "R09_t030",
+    "person": "p7",
+    "number": 0,
+    "cap": [
+      57,
+      5,
+      73,
+      25
+    ],
+    "note": "Dark cap; black versus brown unresolved in this small side frame."
+  },
+  {
+    "frame": "R09_t020",
+    "person": "p2",
+    "number": 2,
+    "cap": [
+      57,
+      10,
+      106,
+      67
+    ]
+  },
+  {
+    "frame": "R09_t020",
+    "person": "p3",
+    "number": 7,
+    "cap": [
+      136,
+      4,
+      186,
+      44
+    ],
+    "face": [
+      138,
+      45,
+      181,
+      70
+    ]
+  },
+  {
+    "frame": "R09_t020",
+    "person": "p6",
+    "number": 1,
+    "cap": [
+      51,
+      5,
+      114,
+      55
+    ],
+    "face": [
+      56,
+      56,
+      109,
+      78
+    ]
+  },
+  {
+    "frame": "R10_t020",
+    "person": "p0",
+    "number": 10,
+    "cap": [
+      162,
+      5,
+      228,
+      73
+    ],
+    "face": [
+      164,
+      74,
+      223,
+      106
+    ]
+  },
+  {
+    "frame": "R10_t020",
+    "person": "p2",
+    "number": 7,
+    "cap": [
+      105,
+      4,
+      183,
+      62
+    ],
+    "face": [
+      119,
+      63,
+      172,
+      94
+    ],
+    "torso": [
+      56,
+      71,
+      122,
+      137
+    ]
+  },
+  {
+    "frame": "R10_t020",
+    "person": "p4",
+    "number": 3,
+    "cap": [
+      108,
+      5,
+      184,
+      65
+    ],
+    "face": [
+      111,
+      66,
+      177,
+      106
+    ],
+    "torso": [
+      50,
+      85,
+      110,
+      143
+    ]
+  },
+  {
+    "frame": "R10_t060",
+    "person": "p4",
+    "number": 11,
+    "cap": [
+      57,
+      7,
+      96,
+      44
+    ],
+    "note": "Blue-white stripe draft, shadow versus stripe requires review."
+  },
+  {
+    "frame": "R10_t060",
+    "person": "p5",
+    "number": 4,
+    "cap": [
+      23,
+      8,
+      55,
+      42
+    ],
+    "face": [
+      26,
+      43,
+      53,
+      59
+    ]
+  },
+  {
+    "frame": "R10_t060",
+    "person": "p7",
+    "number": 9,
+    "cap": [
+      33,
+      5,
+      69,
+      36
+    ],
+    "face": [
+      34,
+      37,
+      67,
+      52
+    ]
+  }
+]

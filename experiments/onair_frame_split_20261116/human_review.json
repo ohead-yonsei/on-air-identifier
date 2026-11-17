@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-16T11:35:14.976383+00:00",
+  "reviewer": "user",
+  "user_statement": "보라색(9번)이 선두네",
+  "scene": "S2_bend",
+  "confirmed_leader": 9,
+  "reviewed_input_frames": [
+    {
+      "file": "../onair_diag_20261116/frames/S2_bend/f009.jpg",
+      "pts_seconds": 35.0
+    },
+    {
+      "file": "../onair_diag_20261116/frames/S2_bend/f016.jpg",
+      "pts_seconds": 38.5
+    }
+  ],
+  "scope": "Leader identity in the two displayed masked model-input frames. Does not label rank2/rank3, full sequence, or any other scene.",
+  "implication": "Leader1 asserted in both original F and separated-frame F contradicts the user-confirmed final input frame."
+}

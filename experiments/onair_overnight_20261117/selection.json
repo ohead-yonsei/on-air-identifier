@@ -1,0 +1,367 @@
+{
+  "frames": [
+    {
+      "id": "R01_t030",
+      "race": "R01",
+      "target_pts": 30,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R01_t040",
+      "race": "R01",
+      "target_pts": 40,
+      "view": "corner_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R02_t030",
+      "race": "R02",
+      "target_pts": 30,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R02_t020",
+      "race": "R02",
+      "target_pts": 20,
+      "view": "straight_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R03_t050",
+      "race": "R03",
+      "target_pts": 50,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R03_t090",
+      "race": "R03",
+      "target_pts": 90,
+      "view": "corner_front",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R04_t050",
+      "race": "R04",
+      "target_pts": 50,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R04_t020",
+      "race": "R04",
+      "target_pts": 20,
+      "view": "straight_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R05_t040",
+      "race": "R05",
+      "target_pts": 40,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R05_t030",
+      "race": "R05",
+      "target_pts": 30,
+      "view": "straight_front",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R06_t080",
+      "race": "R06",
+      "target_pts": 80,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R06_t060",
+      "race": "R06",
+      "target_pts": 60,
+      "view": "corner_front",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R07_t020",
+      "race": "R07",
+      "target_pts": 20,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R07_t060",
+      "race": "R07",
+      "target_pts": 60,
+      "view": "corner_front",
+      "view_status": "assistant visual draft",
+      "split": "development"
+    },
+    {
+      "id": "R08_t080",
+      "race": "R08",
+      "target_pts": 80,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R08_t070",
+      "race": "R08",
+      "target_pts": 70,
+      "view": "corner_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R09_t030",
+      "race": "R09",
+      "target_pts": 30,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R09_t020",
+      "race": "R09",
+      "target_pts": 20,
+      "view": "straight_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R10_t020",
+      "race": "R10",
+      "target_pts": 20,
+      "view": "side",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    },
+    {
+      "id": "R10_t060",
+      "race": "R10",
+      "target_pts": 60,
+      "view": "straight_front",
+      "view_status": "assistant visual draft",
+      "split": "evaluation"
+    }
+  ],
+  "race_masks": {
+    "R01": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R02": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R03": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R04": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R05": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R06": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R07": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R08": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R09": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ],
+    "R10": [
+      [
+        0,
+        0,
+        360,
+        210
+      ],
+      [
+        1710,
+        0,
+        1920,
+        180
+      ],
+      [
+        0,
+        930,
+        1920,
+        1080
+      ]
+    ]
+  },
+  "selection_basis": "Two live frames per race; one side and one front/corner view, before classification. No post-finish closeups/replays. Mask race header, KRA logo, timer and running-order strip. Survey graphics not used as identity/rank labels."
+}

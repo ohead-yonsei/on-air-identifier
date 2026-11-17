@@ -1,0 +1,209 @@
+{
+ "day": "otherday5",
+ "results": {
+  "S0": {
+   "frames": 143,
+   "statements": 185,
+   "in_top3": 159,
+   "A": 0.8594594594594595,
+   "A_top5": 0.9351351351351351,
+   "B": 0.7622377622377622,
+   "by_race": {
+    "R02": {
+     "frames": 9,
+     "statements": 16,
+     "in_top3": 13,
+     "good": 8
+    },
+    "R03": {
+     "frames": 12,
+     "statements": 18,
+     "in_top3": 18,
+     "good": 12
+    },
+    "R04": {
+     "frames": 13,
+     "statements": 22,
+     "in_top3": 19,
+     "good": 12
+    },
+    "R05": {
+     "frames": 25,
+     "statements": 26,
+     "in_top3": 21,
+     "good": 14
+    },
+    "R06": {
+     "frames": 10,
+     "statements": 12,
+     "in_top3": 12,
+     "good": 9
+    },
+    "R07": {
+     "frames": 19,
+     "statements": 22,
+     "in_top3": 19,
+     "good": 14
+    },
+    "R08": {
+     "frames": 23,
+     "statements": 26,
+     "in_top3": 23,
+     "good": 15
+    },
+    "R09": {
+     "frames": 22,
+     "statements": 27,
+     "in_top3": 19,
+     "good": 15
+    },
+    "R10": {
+     "frames": 10,
+     "statements": 16,
+     "in_top3": 15,
+     "good": 10
+    }
+   }
+  },
+  "T1": {
+   "frames": 143,
+   "statements": 189,
+   "in_top3": 174,
+   "A": 0.9206349206349206,
+   "A_top5": 0.9629629629629629,
+   "B": 0.7692307692307693,
+   "by_race": {
+    "R02": {
+     "frames": 9,
+     "statements": 16,
+     "in_top3": 15,
+     "good": 9
+    },
+    "R03": {
+     "frames": 12,
+     "statements": 20,
+     "in_top3": 20,
+     "good": 11
+    },
+    "R04": {
+     "frames": 13,
+     "statements": 20,
+     "in_top3": 20,
+     "good": 13
+    },
+    "R05": {
+     "frames": 25,
+     "statements": 28,
+     "in_top3": 26,
+     "good": 16
+    },
+    "R06": {
+     "frames": 10,
+     "statements": 14,
+     "in_top3": 14,
+     "good": 8
+    },
+    "R07": {
+     "frames": 19,
+     "statements": 18,
+     "in_top3": 15,
+     "good": 11
+    },
+    "R08": {
+     "frames": 23,
+     "statements": 28,
+     "in_top3": 25,
+     "good": 15
+    },
+    "R09": {
+     "frames": 22,
+     "statements": 26,
+     "in_top3": 21,
+     "good": 17
+    },
+    "R10": {
+     "frames": 10,
+     "statements": 19,
+     "in_top3": 18,
+     "good": 10
+    }
+   }
+  },
+  "T1_D0": {
+   "frames": 143,
+   "statements": 184,
+   "in_top3": 168,
+   "A": 0.9130434782608695,
+   "A_top5": 0.967391304347826,
+   "B": 0.7552447552447552,
+   "by_race": {
+    "R02": {
+     "frames": 9,
+     "statements": 17,
+     "in_top3": 15,
+     "good": 9
+    },
+    "R03": {
+     "frames": 12,
+     "statements": 20,
+     "in_top3": 20,
+     "good": 11
+    },
+    "R04": {
+     "frames": 13,
+     "statements": 20,
+     "in_top3": 20,
+     "good": 13
+    },
+    "R05": {
+     "frames": 25,
+     "statements": 26,
+     "in_top3": 23,
+     "good": 16
+    },
+    "R06": {
+     "frames": 10,
+     "statements": 14,
+     "in_top3": 14,
+     "good": 8
+    },
+    "R07": {
+     "frames": 19,
+     "statements": 19,
+     "in_top3": 16,
+     "good": 12
+    },
+    "R08": {
+     "frames": 23,
+     "statements": 27,
+     "in_top3": 25,
+     "good": 15
+    },
+    "R09": {
+     "frames": 22,
+     "statements": 22,
+     "in_top3": 17,
+     "good": 14
+    },
+    "R10": {
+     "frames": 10,
+     "statements": 19,
+     "in_top3": 18,
+     "good": 10
+    }
+   }
+  }
+ },
+ "verdict": {
+  "T1_better": true,
+  "A_change": 0.06117546117546113,
+  "B_change": 0.006993006993007089,
+  "improved": 10,
+  "worsened": 9,
+  "sign_test_p": 1.0,
+  "T1_goal_A_90": true,
+  "T1_goal_B_80": false,
+  "S0_goal_A_90": false,
+  "S0_goal_B_80": false
+ }
+}

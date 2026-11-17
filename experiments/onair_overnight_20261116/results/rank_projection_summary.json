@@ -1,0 +1,51 @@
+[
+  {
+    "axis_source": "flow",
+    "n": 8,
+    "abstain": 3,
+    "nose_reference_agreement": 3,
+    "auto_box_reference_coverage": 3
+  },
+  {
+    "axis_source": "flow_01_affine",
+    "n": 8,
+    "abstain": 0,
+    "nose_reference_agreement": 5,
+    "auto_box_reference_coverage": 5
+  },
+  {
+    "axis_source": "flow_01_homography",
+    "n": 8,
+    "abstain": 0,
+    "nose_reference_agreement": 5,
+    "auto_box_reference_coverage": 5
+  },
+  {
+    "axis_source": "flow_05_affine",
+    "n": 8,
+    "abstain": 5,
+    "nose_reference_agreement": 2,
+    "auto_box_reference_coverage": 1
+  },
+  {
+    "axis_source": "manual_heuristic",
+    "n": 8,
+    "abstain": 0,
+    "nose_reference_agreement": 8,
+    "auto_box_reference_coverage": 8
+  },
+  {
+    "axis_source": "vlm27",
+    "n": 8,
+    "abstain": 0,
+    "nose_reference_agreement": 4,
+    "auto_box_reference_coverage": 4
+  },
+  {
+    "axis_source": "vlm9",
+    "n": 8,
+    "abstain": 0,
+    "nose_reference_agreement": 2,
+    "auto_box_reference_coverage": 2
+  }
+]

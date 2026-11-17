@@ -1,0 +1,30 @@
+[
+  {
+    "file": "highlights/01_same_shot_view_changes.jpg",
+    "claim": "Within one shot, view changes from profile through frontal to opposite profile. Arrows are manual heuristic axes, not calibrated motion."
+  },
+  {
+    "file": "highlights/02_roi_vs_tight_cap.jpg",
+    "claim": "Automatic broad rider-head ROI gives3/8purple; same classifier on posthoc manually tight crops gives8/8purple. Same purplehorse only; no11classaccuracy."
+  },
+  {
+    "file": "highlights/03_new_association_failures.jpg",
+    "claim": "Two new-frame nearest/gated errors; globaluniqueassignment resolves these under manual landmarks. References not user reviewed."
+  },
+  {
+    "file": "highlights/04_full_frame_localization.jpg",
+    "claim": "Both testedVLMs localize a nonleader horse at34s under current prompt; image output is raw normalized coordinates mapped tosource."
+  },
+  {
+    "file": "highlights/05_motion_is_not_rank_calibration.jpg",
+    "claim": "Even mirror-consistent0.1sflow plus simple screen projection disagrees with provisional leader on3/8frames. Not a validated ground-motion/rank estimator."
+  },
+  {
+    "file": "highlights/06_cut_vs_colour_change.jpg",
+    "claim": "Histogram/MADcutcandidates require verification; one candidate is an exposure/colour shift rather than a camera cut."
+  },
+  {
+    "file": "highlights/07_input_hazards.jpg",
+    "claim": "Compositeviews and floatingidentitylabels exist in source; these timestamps were excluded, not erased generatively."
+  }
+]

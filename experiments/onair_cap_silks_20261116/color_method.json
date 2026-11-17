@@ -1,0 +1,25 @@
+{
+  "method": "legacy HSV named-colour histogram and soft reference match",
+  "trained": false,
+  "test_set_tuning": false,
+  "FX": [
+    "brown",
+    "edge",
+    "rel47",
+    "small",
+    "unknown"
+  ],
+  "threshold": 0.4,
+  "margin_threshold": 0.08,
+  "fusion_weights": {
+    "cap": 0.6,
+    "silks": 0.4
+  },
+  "one_to_one_assignment": false,
+  "detector_used": false,
+  "threads": 1,
+  "machine": "x86_64",
+  "latency_scope": "in-memory crop colour features+classification; excludes detection, decoding, crop creation, file IO, reference loading, and RPC",
+  "timing_repetitions_per_case": 200,
+  "note": "Score is not a calibrated probability. The legacy stripe handling uses colour mixtures, not a trained geometric stripe recognizer."
+}

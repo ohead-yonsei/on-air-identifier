@@ -1,0 +1,6 @@
+{"stage": "initial sandbox SSH", "result": "failed", "error": "ssh: Could not resolve hostname [server-address-hidden]: -65563", "resolution": "same ai-desktop wrapper succeeded with authorized network execution", "record_type": "transcribed from tool output"}
+{"stage": "local review montage attempt", "result": "failed", "error": "ModuleNotFoundError: No module named 'PIL'", "resolution": "ran image preparation in existing server virtualenv; no installation", "record_type": "transcribed from tool output"}
+{"stage": "server file discovery", "result": "partial coverage", "error": "/media/root permission denied; /data absent", "resolution": "read accessible home, /mnt and /media contents; no privilege escalation to unrelated filesystem"}
+{"stage": "generation", "result": "16 successful HTTP 200 responses; no retries; no format violations"}
+{"stage": "followup separated image layout", "result": "request preview only; 0 generations; backend effect untested"}
+{"stage": "local py_compile disk-cache check", "result": "cache write blocked", "error": "PermissionError: macOS Python tried to write under /Users/ohead/Library/Caches/com.apple.python", "resolution": "compiled all experiment scripts in memory using compile(); passed; no cache directory changes", "record_type": "transcribed from tool output"}

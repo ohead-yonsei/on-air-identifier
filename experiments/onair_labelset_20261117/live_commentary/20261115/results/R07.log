@@ -1,0 +1,36 @@
+t   23.00  statements [1, 3]  strip absent (statements not validated here)
+t   26.00  statements []  strip on screen [1, 3, 4, 7, 8]
+t   29.00  statements []  strip on screen [1, 3, 4, 7, 8]
+t   32.00  statements [3]  strip absent (statements not validated here)
+t   35.00  statements [1, 3]  strip on screen [1, 3, 4, 7, 8]
+t   38.00  statements [3]  strip on screen [1, 3, 5, 4, 7]
+t   41.00  statements []  strip on screen [1, 3, 5, 4, 7]
+t   44.00  statements [3]  strip on screen [1, 3, 5, 4, 7]
+t   47.00  statements [1]  strip absent (statements not validated here)
+t   50.00  statements [1, 3]  strip on screen [1, 3, 5, 4, 7]
+t   53.00  statements [1]  strip on screen [1, 3, 4, 7, 5]
+t   56.00  statements []  strip on screen [1, 3, 4, 7, 5]
+t   59.00  statements [1, 3]  strip on screen [1, 3, 4, 5, 7]
+t   62.00  statements [1, 3]  strip on screen [1, 3, 4, 5, 7]
+t   65.00  statements [1, 3, 5]  strip on screen [1, 3, 4, 5, 7]
+t   68.00  statements [3, 4, 5]  strip on screen [1, 3, 4, 5, 7]
+t   71.00  statements [3, 4, 5]  strip on screen [1, 3, 4, 5, 7]
+t   74.00  statements [1, 3, 4]  strip on screen [1, 3, 4, 5, 7]
+t   77.00  statements [3, 4]  strip on screen [1, 3, 4, 5, 7]
+t   80.00  statements [3]  strip on screen [1, 3, 4, 7, 5]
+t   83.00  statements [1, 3]  strip on screen [1, 3, 4, 7, 5]
+t   86.00  statements [7]  strip on screen [1, 3, 4, 7, 5]
+t   89.00  statements []  strip on screen [1, 3, 4, 7, 5]
+t   92.00  statements [3, 4]  strip on screen [1, 3, 4, 7, 8]
+t   95.00  statements [1, 3]  strip absent (statements not validated here)
+t   98.00  statements [3, 4]  strip absent (statements not validated here)
+t  101.00  statements [1, 3]  strip absent (statements not validated here)
+t  104.00  statements [1, 3]  strip absent (statements not validated here)
+t  107.00  statements [1, 2, 3]  strip absent (statements not validated here)
+t  110.00  statements [1, 3]  strip absent (statements not validated here)
+t  113.00  statements [1]  strip absent (statements not validated here)
+t  116.00  statements [1]  strip absent (statements not validated here)
+t  119.00  statements [2, 3]  strip absent (statements not validated here)
+t  122.00  statements [8]  strip absent (statements not validated here)
+t  125.00  statements []  strip absent (statements not validated here)
+time points 35 qwen failures 0 seconds 364.0

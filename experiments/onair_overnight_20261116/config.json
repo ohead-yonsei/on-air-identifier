@@ -1,0 +1,44 @@
+{
+  "experiment": "onair_overnight_20261116",
+  "started_at_utc": "2026-11-16T14:58:52.325283+00:00",
+  "deadline_utc": "2026-11-17T00:00:00Z",
+  "review_time_kst": "2026-11-17 09:00",
+  "source_video": "/home/ohead/ai-workspace/projects/onair_diag_20261116/candidate_20261010_R10.mp4",
+  "source_sha256": "9475c34a814961b4f24cc95c5812ac855ce251bed83db6ffab2bffe0443f0489",
+  "model": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "endpoint": "http://127.0.0.1:11435",
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 16384,
+    "num_predict": 384,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1
+  },
+  "max_vlm_requests_including_failures": 160,
+  "max_retry_per_item": 1,
+  "max_detector_frames": 240,
+  "max_download_bytes": 700000000,
+  "graphics_masks_1280": [
+    [
+      0,
+      0,
+      240,
+      110
+    ],
+    [
+      0,
+      610,
+      1280,
+      720
+    ]
+  ],
+  "no_audio": true,
+  "ground_truth_policy": "Only prior six cap crops at38.5 and prior user leader confirmation are human-reviewed. All new visual annotations explicitly provisional. No official result/graphic used as arbitrary-time rank.",
+  "preservation": "New experiment folder only. No original modifications, no shared environment install, no service restart.",
+  "paid_external_api_calls": 0,
+  "Jev": "skipped at user request",
+  "termination": "stop at request cap, deadline, repeated failure, disk guard or pipeline completion; no idle GPU burn"
+}

@@ -1,0 +1,73 @@
+{
+ "frame": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/frames/R04_t087.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/models_loro/excl_R04.json",
+ "riders": [
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.9019,
+   "x": 1510.5,
+   "h_px": 76.9,
+   "box": [
+    1484.9,
+    664.6,
+    1536.2,
+    741.5
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.9019,
+   "sure_strict": true,
+   "detector_score": 0.897
+  },
+  {
+   "no": 2,
+   "state": "guess",
+   "score": 0.4682,
+   "x": 1566.7,
+   "h_px": 78.4,
+   "box": [
+    1537.0,
+    660.6,
+    1596.5,
+    739.0
+   ],
+   "colour": "yellow",
+   "qwen_number": 0,
+   "p_learned": 0.4682,
+   "sure_strict": false,
+   "detector_score": 0.936
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 212.8,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 271.7,
+   "error": null
+  }
+ ],
+ "total_ms": 578.7
+}

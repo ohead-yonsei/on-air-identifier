@@ -1,0 +1,42 @@
+{
+ "frames_with_strip": 38,
+ "Q1_vertical_rule": {
+  "pairs": 226,
+  "pairs_agree": 202,
+  "frames_with_2plus": 35,
+  "front_of_labelled_agree": 29
+ },
+ "Q2_coverage": {
+  "top1_total": 38,
+  "top1_labelled": 28,
+  "top2_total": 38,
+  "top2_labelled": 33,
+  "top3_total": 38,
+  "top3_labelled": 28
+ },
+ "Q3_identifier": {
+  "frames": 38,
+  "leader_sure": 27,
+  "leader_sure_strict": 18,
+  "leader_sure_lenient": 23,
+  "front3_sure": 64,
+  "front3_sure_in_top3": 47,
+  "front3_sure_in_top5": 57,
+  "front3_guess": 47,
+  "front3_guess_in_top3": 18,
+  "front3_guess_in_top5": 27,
+  "strip_top1_named_in_front3": 29,
+  "strip_top1_named_sure_in_front3": 24,
+  "strip_top2_named_in_front3": 20,
+  "strip_top2_named_sure_in_front3": 14,
+  "strip_top3_named_in_front3": 16,
+  "strip_top3_named_sure_in_front3": 9,
+  "front_box_has_human_number": 27,
+  "front_box_human_is_strip_first": 18,
+  "front_box_human_in_strip_top3": 25,
+  "front_box_number_matches_human": 20,
+  "leader_not_sure": 11,
+  "leader_not_sure_strict": 3,
+  "leader_not_sure_lenient": 7
+ }
+}

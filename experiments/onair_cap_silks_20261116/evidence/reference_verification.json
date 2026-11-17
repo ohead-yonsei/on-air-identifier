@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-11-16T12:10:53.067205+00:00",
+  "source_pdf": "evidence/card_pdf.pdf",
+  "source_url": "https://race.kra.co.kr/down/pdf/seoul/chulma/s_run_hr_261010_10.pdf",
+  "race": "Seoul 2026-10-10 race10",
+  "reviewed_rendered_pages": [
+    "evidence/card_page-1.png",
+    "evidence/card_page-2.png"
+  ],
+  "silks_numbers_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "result": "User-provided silk designs correspond to the numbered designs in the dated official racecard. The jersey registry contains only the isolated reference drawings and runner labels. No historical performance, rankings, or race outcomes were passed to the model.",
+  "cap_rule_source": "https://race.kra.co.kr/raceguide/RaceRefreeFAQDetailService.do?Act=06&Sub=10&ctntSeq=242&meet=",
+  "scope": "Cap numbers1-11 used in this race; does not treat old FAQ clothing-system description as current regulation."
+}

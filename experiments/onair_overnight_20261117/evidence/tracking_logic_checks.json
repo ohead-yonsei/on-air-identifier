@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-16T17:15:19.797695+00:00",
+  "checks": [
+    {
+      "name": "no_candidate_stays_unassigned",
+      "passed": true
+    },
+    {
+      "name": "one_person_not_assigned_twice",
+      "passed": true
+    },
+    {
+      "name": "stationary_id_is_preserved",
+      "passed": true
+    },
+    {
+      "name": "cut_resets_identity",
+      "passed": true
+    },
+    {
+      "name": "background_translation_applied_before_match",
+      "passed": true
+    },
+    {
+      "name": "missing_track_expires_after_three",
+      "passed": true
+    }
+  ],
+  "scope": "synthetic implementation invariants, not racing accuracy"
+}

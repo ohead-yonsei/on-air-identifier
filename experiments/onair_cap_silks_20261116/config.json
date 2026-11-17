@@ -1,0 +1,54 @@
+{
+  "conditions": {
+    "H": "helmet only",
+    "S": "silks only",
+    "HS": "same helmet pixels plus same silks pixels"
+  },
+  "sample_count": 12,
+  "source_frames": [
+    35.0,
+    38.5
+  ],
+  "candidate_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "max_vlm_calls": 36,
+  "repeat_inference": false,
+  "model": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "options": {
+    "temperature": 0,
+    "seed": 20261116,
+    "num_ctx": 16384,
+    "num_predict": 96,
+    "top_k": 20,
+    "top_p": 1,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "endpoint": "http://127.0.0.1:11435",
+  "query_canvas": [
+    336,
+    224
+  ],
+  "reference_registry": [
+    640,
+    540
+  ],
+  "cap_pixels_identical_between_H_and_HS": true,
+  "torso_pixels_identical_between_S_and_HS": true,
+  "scope": "Manual ROI identification, not detector/tracker/order accuracy. No trained classifier. All model calls independent. No ranked race outcomes or target labels in input.",
+  "reference_note": "User-provided 11 silk images mapped via official race owner identities. Historical results fields discarded. Verify against dated racecard and actual imagery.",
+  "timing_note": "Identical canvas size and same reference image across conditions controls visible information. This does not estimate savings from a smaller native-resolution deployment."
+}

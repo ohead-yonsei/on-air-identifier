@@ -1,0 +1,25 @@
+{
+  "race": "2026-10-10 Seoul Race 10",
+  "static_source_url": "https://race.kra.co.kr/raceScore/ScoretableDetailList.do?meet=1&realRcDate=20261010&realRcNo=10",
+  "extracted_fields": [
+    "runner number",
+    "Korean horse name",
+    "jockey identity",
+    "total distance"
+  ],
+  "excluded_fields": [
+    "finish rank",
+    "checkpoint ranks",
+    "checkpoint times",
+    "odds",
+    "winner",
+    "remaining distance",
+    "identifier outputs"
+  ],
+  "source_file": "evidence/kra_results_source.html",
+  "cap_source": "supplied ON-AIR_진행공유.md; checked against visible cap/saddlecloth pairs in original video; No.11 retains sky-blue/white stripes",
+  "English_name_note": "experiment transliteration aliases; official English spelling not verified",
+  "going_weather": "not provided: no pre-race provenance available",
+  "expert_gold": "unavailable",
+  "alignment_note": "source container PTS used. Race clock approximately video time minus6.4s based on visible clock in review frames, not certified and not used for scoring."
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "frame": "t35",
+    "median_ms": 0.019886,
+    "p95_ms": 0.020262449999999998,
+    "scope": "coordinate geometry only; no detection/image decode/cap recognition",
+    "jitter_match_by_reference_number": {
+      "11": 1.0,
+      "9": 1.0,
+      "1": 1.0,
+      "10": 1.0,
+      "5": 1.0
+    }
+  },
+  {
+    "frame": "t385",
+    "median_ms": 0.020579,
+    "p95_ms": 0.020833050000000002,
+    "scope": "coordinate geometry only; no detection/image decode/cap recognition",
+    "jitter_match_by_reference_number": {
+      "11": 1.0,
+      "1": 0.674,
+      "10": 1.0,
+      "2": 1.0,
+      "9": 1.0,
+      "5": 0.506
+    }
+  }
+]

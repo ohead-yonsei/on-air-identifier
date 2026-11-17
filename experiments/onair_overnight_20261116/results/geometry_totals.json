@@ -1,0 +1,32 @@
+{
+  "A_distance": {
+    "n": 22,
+    "agreement": 20,
+    "wrong": 2,
+    "abstain": 0
+  },
+  "B_view_gate": {
+    "n": 22,
+    "agreement": 20,
+    "wrong": 2,
+    "abstain": 0
+  },
+  "C_view_gate_unique": {
+    "n": 22,
+    "agreement": 22,
+    "wrong": 0,
+    "abstain": 0
+  },
+  "D_view_gate_abstain": {
+    "n": 22,
+    "agreement": 20,
+    "wrong": 2,
+    "abstain": 0
+  },
+  "E_cut_only_gate": {
+    "n": 22,
+    "agreement": 17,
+    "wrong": 4,
+    "abstain": 1
+  }
+}

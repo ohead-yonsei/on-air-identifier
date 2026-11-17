@@ -1,0 +1,10 @@
+{
+  "pid": 2062719,
+  "command": [
+    "/home/ohead/ai-workspace/.venv/bin/python",
+    "-u",
+    "-c",
+    "import sys,subprocess;sys.path.insert(0,\"code\");from common import wait_gpu;wait_gpu();subprocess.run([sys.executable,\"code/extras.py\"],check=True);subprocess.run([sys.executable,\"code/tracking.py\",\"--extras\"],check=True)"
+  ],
+  "time_utc": "2026-11-16T17:31:33.889828+00:00"
+}

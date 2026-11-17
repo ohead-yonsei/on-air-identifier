@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-11-16T15:37:42.613751+00:00",
+  "issue": "Frozen manual directions are heuristic screen axes used in association, not calibrated ground-truth motion vectors. On front/oblique curves, projected ground motion and apparent head/body orientation need not align.",
+  "policy": "Angle differences are agreement with a heuristic reference, not direction accuracy. Do not relabel the reference after seeing flow; preserve all vectors. Clear side-view left/right and synthetic mirror consistency can be evaluated separately.",
+  "frozen_reference_unchanged": true,
+  "mirror_check": "Additional automatic affine0.1s run on horizontally reflected current/past frames and reflected detector boxes. Compare to[-vx,vy]oforiginal, <=15degree tolerance fixed before this run. This measures equivariance, not real-world correctness."
+}

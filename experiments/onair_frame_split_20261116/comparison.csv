@@ -1,0 +1,19 @@
+﻿scene,baseline_order,followup_order,baseline_text,followup_text,baseline_seconds,followup_seconds,followup_load_seconds,baseline_prompt_tokens,followup_prompt_tokens,failure,format_issues,human_confirmed_leader,confirmed_wrong_leader_claims,review_status,review_note,order_body_leader_conflict,racecard_prefix_match
+S1_early,unclear,unclear,"ORDER: unclear
+
+The pack remains tightly bunched as they leave the start, with no single leader emerging from the tight group yet.","ORDER: unclear
+
+The pack is still bunched together as they leave the start, with no clear leader emerging yet.",2.226,3.537,0.053786552,3276,6211,False,,,,not human-verified,Both abstain on ORDER; no leader gold. Similar broad start context.,False,False
+S2_bend,"1,6,7","1,2,3","ORDER: 1, 6, 7
+
+Jeongwangseokhwa leads the pack, with Purple Sinhwa and Byeoksong close behind in a thrilling finish.","ORDER: 1, 2, 3
+
+The white-capped leader surges ahead, followed closely by the yellow and red runners. The pack tightens as they approach the final stretch.",66.943,8.459,4.795293392,3276,6211,False,,9,1,user-confirmed leader in frames at 35.0 and 38.5 seconds,"Both assert leader1, contradicting user-confirmed leader9. Ranks2/3 unverified.",False,True
+S3_wide,"10,11,5","10,11,5","ORDER: 10, 11, 5
+
+Love O Mine and G Flex lead the pack, with Cheongsan Dolpung close behind as they round the bend.","ORDER: 10, 11, 5
+Love O Mine leads the pack, followed closely by G Flex and Cheongsan Dolpung as they round the bend. The rest of the field trails behind in a tight bunch.",2.253,3.621,0.036229196,3276,6211,False,,,,not human-verified,ORDER unchanged; final leader identity unverified. No correctness score.,False,False
+S4_straight,"1,2,6","1,2,3","ORDER: 1, 2, 6
+
+Jeongwangseokhwa leads the pack, with Raon Final and Purple Sinhwa close behind as they round the bend.","ORDER: 1, 2, 3
+The yellow-capped Raon Final leads the pack, closely followed by the red-capped Eunbit Yuhok and the white-capped Jeongwangseokhwa as they navigate the final bend.",2.119,3.648,0.037454782,3276,6211,False,,,,not human-verified,ORDER leader1 versus body leader2: definite internal contradiction. Both conflict with provisional assistant leader9; no human gold.,True,True

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "card_pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 1459949,
+    "url": "https://race.kra.co.kr/down/pdf/seoul/chulma/s_run_hr_261010_10.pdf",
+    "silk_images": [],
+    "pdf_refs": []
+  },
+  {
+    "id": "owner9",
+    "status": 200,
+    "type": "text/html; charset=EUC-KR",
+    "bytes": 28139,
+    "url": "https://race.kra.co.kr/owner/posessStateSoyuHorsesState.do?owNo=010815&meet=1",
+    "silk_images": [
+      "<img src=\"/down/owner_cloth/seoul/010815a.jpg\" alt=\"복색 이미지\" width=\"90px\" height=\"70px\" />"
+    ],
+    "pdf_refs": []
+  },
+  {
+    "id": "card_html",
+    "status": 200,
+    "type": "text/html; charset=euc-kr",
+    "bytes": 297,
+    "url": "https://race.kra.co.kr/chulmainfo/ChulmaDetailInfoChulmapyo.do?Act=02&Sub=1&meet=1&rcNo=10&rcDate=20261010",
+    "silk_images": [],
+    "pdf_refs": []
+  }
+]

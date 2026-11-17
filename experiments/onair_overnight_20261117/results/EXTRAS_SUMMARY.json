@@ -1,0 +1,84 @@
+{
+  "resolution": {
+    "768": {
+      "vlm": [
+        8,
+        1,
+        3
+      ],
+      "hsv": [
+        7,
+        4,
+        1
+      ],
+      "labelled": 12,
+      "unresolved": 0
+    },
+    "1280": {
+      "vlm": [
+        8,
+        1,
+        3
+      ],
+      "hsv": [
+        7,
+        3,
+        2
+      ],
+      "labelled": 12,
+      "unresolved": 0
+    },
+    "1920": {
+      "vlm": [
+        7,
+        1,
+        4
+      ],
+      "hsv": [
+        7,
+        4,
+        1
+      ],
+      "labelled": 12,
+      "unresolved": 0
+    }
+  },
+  "jitter_rows": 96,
+  "changed_predictions": 11,
+  "median_iou": 0.9682539682539683,
+  "tracking": {
+    "no_warp": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 6,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 412,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 9,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 904,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine_dummy08": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 10,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 1814,
+      "not_MOT_ID_switch_ground_truth": true
+    },
+    "affine_dummy12": {
+      "sparse_same_shot_transitions": 10,
+      "sparse_person_id_changes": 8,
+      "cross_cut_transitions_excluded": 8,
+      "missing_reference_person": 0,
+      "new_tracks_over_sequence": 710,
+      "not_MOT_ID_switch_ground_truth": true
+    }
+  },
+  "selection_rule": "predeclared earliest selected frame, first two IDs in each evaluation race"
+}

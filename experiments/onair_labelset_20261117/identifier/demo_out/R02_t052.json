@@ -1,0 +1,240 @@
+{
+ "frame": "identifier/demo_frames/R02_t052.png",
+ "width": 1920,
+ "height": 1080,
+ "masks": "sep06",
+ "field": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "riders": [
+  {
+   "no": 6,
+   "state": "guess",
+   "score": 0.4951,
+   "x": 321.3,
+   "h_px": 261.1,
+   "box": [
+    259.9,
+    269.7,
+    382.7,
+    530.9
+   ],
+   "colour": "green",
+   "qwen_number": 0,
+   "p_learned": 0.4951,
+   "sure_strict": false,
+   "detector_score": 0.954
+  },
+  {
+   "no": 3,
+   "state": "sure",
+   "score": 1.9789,
+   "x": 543.0,
+   "h_px": 98.9,
+   "box": [
+    499.9,
+    333.6,
+    586.1,
+    432.5
+   ],
+   "colour": "red",
+   "qwen_number": 3,
+   "p_learned": 0.9789,
+   "sure_strict": true,
+   "detector_score": 0.929
+  },
+  {
+   "no": 5,
+   "state": "sure",
+   "score": 1.7829,
+   "x": 607.0,
+   "h_px": 153.5,
+   "box": [
+    561.1,
+    385.2,
+    652.8,
+    538.7
+   ],
+   "colour": "blue",
+   "qwen_number": 5,
+   "p_learned": 0.7829,
+   "sure_strict": true,
+   "detector_score": 0.965
+  },
+  {
+   "no": 10,
+   "state": "guess",
+   "score": 0.8099,
+   "x": 713.5,
+   "h_px": 131.5,
+   "box": [
+    677.8,
+    515.2,
+    749.3,
+    646.7
+   ],
+   "colour": "sky blue",
+   "qwen_number": 5,
+   "p_learned": 0.8099,
+   "sure_strict": false,
+   "detector_score": 0.9
+  },
+  {
+   "no": 7,
+   "state": "guess",
+   "score": 0.6643,
+   "x": 752.9,
+   "h_px": 180.6,
+   "box": [
+    695.0,
+    280.0,
+    810.8,
+    460.6
+   ],
+   "colour": "brown",
+   "qwen_number": 0,
+   "p_learned": 0.6643,
+   "sure_strict": false,
+   "detector_score": 0.73
+  },
+  {
+   "no": 4,
+   "state": "guess",
+   "score": 0.8779,
+   "x": 874.1,
+   "h_px": 169.3,
+   "box": [
+    826.7,
+    370.6,
+    921.5,
+    539.9
+   ],
+   "colour": "black",
+   "qwen_number": 0,
+   "p_learned": 0.8779,
+   "sure_strict": false,
+   "detector_score": 0.514
+  },
+  {
+   "no": 1,
+   "state": "sure",
+   "score": 1.9534,
+   "x": 1116.1,
+   "h_px": 141.3,
+   "box": [
+    1073.5,
+    501.4,
+    1158.7,
+    642.7
+   ],
+   "colour": "white",
+   "qwen_number": 1,
+   "p_learned": 0.9534,
+   "sure_strict": true,
+   "detector_score": 0.939
+  },
+  {
+   "no": 9,
+   "state": "sure",
+   "score": 1.9789,
+   "x": 1248.4,
+   "h_px": 143.9,
+   "box": [
+    1202.2,
+    648.7,
+    1294.6,
+    792.6
+   ],
+   "colour": "purple",
+   "qwen_number": 9,
+   "p_learned": 0.9789,
+   "sure_strict": true,
+   "detector_score": 0.983
+  },
+  {
+   "no": 2,
+   "state": "sure",
+   "score": 1.8953,
+   "x": 1336.0,
+   "h_px": 131.1,
+   "box": [
+    1288.2,
+    555.1,
+    1383.8,
+    686.1
+   ],
+   "colour": "yellow",
+   "qwen_number": 2,
+   "p_learned": 0.8953,
+   "sure_strict": true,
+   "detector_score": 0.949
+  }
+ ],
+ "qwen_calls": [
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 193.1,
+   "error": null
+  },
+  {
+   "colour": "red",
+   "number": 3,
+   "ms": 210.8,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 208.3,
+   "error": null
+  },
+  {
+   "colour": "blue",
+   "number": 5,
+   "ms": 204.9,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 212.0,
+   "error": null
+  },
+  {
+   "colour": "unknown",
+   "number": 0,
+   "ms": 249.1,
+   "error": null
+  },
+  {
+   "colour": "white",
+   "number": 1,
+   "ms": 211.9,
+   "error": null
+  },
+  {
+   "colour": "purple",
+   "number": 9,
+   "ms": 211.8,
+   "error": null
+  },
+  {
+   "colour": "yellow",
+   "number": 2,
+   "ms": 204.7,
+   "error": null
+  }
+ ],
+ "total_ms": 2089.7
+}

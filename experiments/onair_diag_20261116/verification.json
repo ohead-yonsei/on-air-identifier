@@ -1,0 +1,297 @@
+{
+  "passed": 73,
+  "checks": [
+    {
+      "check": "Exactly 16 unique scene/condition calls",
+      "passed": true
+    },
+    {
+      "check": "Single model digest / settings",
+      "passed": true
+    },
+    {
+      "check": "No failures or format violations",
+      "passed": true
+    },
+    {
+      "check": "S1_early image count 16/16/0/16",
+      "passed": true
+    },
+    {
+      "check": "S1_early F/no-video same literal text",
+      "passed": true
+    },
+    {
+      "check": "S1_early F/B same facts and card",
+      "passed": true
+    },
+    {
+      "check": "S1_early shuffle changes rows only",
+      "passed": true
+    },
+    {
+      "check": "S1_early every image within window",
+      "passed": true
+    },
+    {
+      "check": "S1_early 16 distinct frames",
+      "passed": true
+    },
+    {
+      "check": "S1_early F exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S1_early F two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S1_early F same input images",
+      "passed": true
+    },
+    {
+      "check": "S1_early F-shuffle exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S1_early F-shuffle two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S1_early F-shuffle same input images",
+      "passed": true
+    },
+    {
+      "check": "S1_early F-no-video exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S1_early F-no-video two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S1_early B exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S1_early B two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S1_early B same input images",
+      "passed": true
+    },
+    {
+      "check": "S2_bend image count 16/16/0/16",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F/no-video same literal text",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F/B same facts and card",
+      "passed": true
+    },
+    {
+      "check": "S2_bend shuffle changes rows only",
+      "passed": true
+    },
+    {
+      "check": "S2_bend every image within window",
+      "passed": true
+    },
+    {
+      "check": "S2_bend 16 distinct frames",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F same input images",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F-shuffle exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F-shuffle two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F-shuffle same input images",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F-no-video exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S2_bend F-no-video two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S2_bend B exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S2_bend B two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S2_bend B same input images",
+      "passed": true
+    },
+    {
+      "check": "S3_wide image count 16/16/0/16",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F/no-video same literal text",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F/B same facts and card",
+      "passed": true
+    },
+    {
+      "check": "S3_wide shuffle changes rows only",
+      "passed": true
+    },
+    {
+      "check": "S3_wide every image within window",
+      "passed": true
+    },
+    {
+      "check": "S3_wide 16 distinct frames",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F same input images",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F-shuffle exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F-shuffle two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F-shuffle same input images",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F-no-video exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S3_wide F-no-video two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S3_wide B exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S3_wide B two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S3_wide B same input images",
+      "passed": true
+    },
+    {
+      "check": "S4_straight image count 16/16/0/16",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F/no-video same literal text",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F/B same facts and card",
+      "passed": true
+    },
+    {
+      "check": "S4_straight shuffle changes rows only",
+      "passed": true
+    },
+    {
+      "check": "S4_straight every image within window",
+      "passed": true
+    },
+    {
+      "check": "S4_straight 16 distinct frames",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F same input images",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F-shuffle exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F-shuffle two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F-shuffle same input images",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F-no-video exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S4_straight F-no-video two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S4_straight B exact request reproducible",
+      "passed": true
+    },
+    {
+      "check": "S4_straight B two independent messages",
+      "passed": true
+    },
+    {
+      "check": "S4_straight B same input images",
+      "passed": true
+    },
+    {
+      "check": "Four no-video requests identical",
+      "passed": true
+    },
+    {
+      "check": "No stochastic repetitions / all 4 conditions complete",
+      "passed": true
+    }
+  ]
+}

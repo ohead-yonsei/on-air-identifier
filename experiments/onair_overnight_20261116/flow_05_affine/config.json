@@ -1,0 +1,22 @@
+{
+  "lookback_seconds": 0.5,
+  "background_corners": 500,
+  "foreground_corners_union_mask": 800,
+  "quality_level": 0.01,
+  "min_distance": 4,
+  "lk_window": 31,
+  "lk_pyramid_levels": 4,
+  "forward_backward_max_error_px": 1.5,
+  "homography_ransac_threshold_px": 3.0,
+  "min_background_inliers": 20,
+  "min_foreground_residual_px": 1.0,
+  "min_foreground_tracks": 10,
+  "min_direction_concentration": 0.5,
+  "detector_box_threshold": 0.5,
+  "source": "automatic generic horse boxes and two past/current frames only; no manual direction or identity input",
+  "scope": "exploratory direction estimate; background motion compensation is not metric track calibration",
+  "motion_model": "affine",
+  "tag": "flow_05_affine",
+  "frame_ids_override": "",
+  "posthoc": true
+}

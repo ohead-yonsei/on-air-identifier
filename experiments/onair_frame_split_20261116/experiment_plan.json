@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-16T11:33:25.939194+00:00",
+  "model": "qwen3.5:9b",
+  "max_additional_generations": 4,
+  "baseline_generations": 16,
+  "jev_generations": 0,
+  "conditions": [
+    "F"
+  ],
+  "scenes": [
+    "S1_early",
+    "S2_bend",
+    "S3_wide",
+    "S4_straight"
+  ],
+  "change": "Append CHRONOLOGICAL FRAMES with sixteen explicit [img] placeholders, each separated by a frame label and relative time. No other request field changes.",
+  "interpretation": "This tests the combined effect of explicit image separation and temporal labels, not separation alone. Sequential run and prompt-cache state do not support a controlled speed comparison.",
+  "labels": "Reuse pre-existing assistant provisional visual audit only. No expert gold. Two clear scenes both leader9.",
+  "original_source": "../onair_diag_20261116",
+  "server_output": "/home/ohead/ai-workspace/projects/onair_frame_split_20261116"
+}

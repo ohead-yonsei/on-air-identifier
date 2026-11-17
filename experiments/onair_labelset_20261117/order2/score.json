@@ -1,0 +1,158 @@
+{
+ "day": "otherday6",
+ "results": {
+  "T1": {
+   "frames": 160,
+   "statements": 252,
+   "in_top3": 228,
+   "A": 0.9047619047619048,
+   "A_top5": 0.9801587301587301,
+   "B": 0.9,
+   "by_race": {
+    "R01": {
+     "frames": 11,
+     "statements": 18,
+     "in_top3": 17,
+     "good": 10
+    },
+    "R02": {
+     "frames": 12,
+     "statements": 18,
+     "in_top3": 14,
+     "good": 10
+    },
+    "R03": {
+     "frames": 14,
+     "statements": 28,
+     "in_top3": 25,
+     "good": 14
+    },
+    "R04": {
+     "frames": 12,
+     "statements": 20,
+     "in_top3": 15,
+     "good": 11
+    },
+    "R05": {
+     "frames": 21,
+     "statements": 29,
+     "in_top3": 29,
+     "good": 21
+    },
+    "R06": {
+     "frames": 20,
+     "statements": 33,
+     "in_top3": 27,
+     "good": 16
+    },
+    "R07": {
+     "frames": 24,
+     "statements": 35,
+     "in_top3": 33,
+     "good": 24
+    },
+    "R08": {
+     "frames": 16,
+     "statements": 26,
+     "in_top3": 23,
+     "good": 12
+    },
+    "R09": {
+     "frames": 15,
+     "statements": 25,
+     "in_top3": 25,
+     "good": 14
+    },
+    "R10": {
+     "frames": 15,
+     "statements": 20,
+     "in_top3": 20,
+     "good": 12
+    }
+   }
+  },
+  "L1": {
+   "frames": 160,
+   "statements": 300,
+   "in_top3": 271,
+   "A": 0.9033333333333333,
+   "A_top5": 0.9933333333333333,
+   "B": 0.94375,
+   "by_race": {
+    "R01": {
+     "frames": 11,
+     "statements": 25,
+     "in_top3": 20,
+     "good": 10
+    },
+    "R02": {
+     "frames": 12,
+     "statements": 26,
+     "in_top3": 20,
+     "good": 12
+    },
+    "R03": {
+     "frames": 14,
+     "statements": 31,
+     "in_top3": 28,
+     "good": 14
+    },
+    "R04": {
+     "frames": 12,
+     "statements": 25,
+     "in_top3": 22,
+     "good": 12
+    },
+    "R05": {
+     "frames": 21,
+     "statements": 36,
+     "in_top3": 34,
+     "good": 21
+    },
+    "R06": {
+     "frames": 20,
+     "statements": 38,
+     "in_top3": 31,
+     "good": 19
+    },
+    "R07": {
+     "frames": 24,
+     "statements": 39,
+     "in_top3": 37,
+     "good": 24
+    },
+    "R08": {
+     "frames": 16,
+     "statements": 27,
+     "in_top3": 27,
+     "good": 12
+    },
+    "R09": {
+     "frames": 15,
+     "statements": 28,
+     "in_top3": 28,
+     "good": 14
+    },
+    "R10": {
+     "frames": 15,
+     "statements": 25,
+     "in_top3": 24,
+     "good": 13
+    }
+   }
+  }
+ },
+ "verdict": {
+  "L1_meets_both_goals": true,
+  "L1_goal_A_90": true,
+  "L1_goal_B_80": true,
+  "L1_better_than_T1": true,
+  "A_change": -0.0014285714285714457,
+  "B_change": 0.043749999999999956,
+  "improved": 7,
+  "worsened": 0,
+  "sign_test_p": 0.015625,
+  "T1_goal_A_90": true,
+  "T1_goal_B_80": true
+ }
+}

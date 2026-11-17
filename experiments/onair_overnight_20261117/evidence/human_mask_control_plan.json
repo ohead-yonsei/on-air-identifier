@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-11-16T17:35:27.545929+00:00",
+  "event": "human_check_full_frame_graphics_found",
+  "scope": "Original human-check full frame was copied unchanged and used by generic person detection and pose; actual VLM cap crops contain no graphics. September and temporal tracking frames were masked.",
+  "correction": "Separate masked 38.5s frame, rerun generic person and pose once, match common boxes by IoU>=0.5, same five frozen region methods and both classifiers. Reuse only byte-identical VLM crops; at most30 new calls. Original results immutable; report baseline separately.",
+  "code_sha256": "2a97a9ff4d7953263e047c3c6fa4a1ea91038415346babdbe41f388e209a99e6",
+  "plan_status": "post-result input-protocol repair, not a preregistered efficacy comparison"
+}

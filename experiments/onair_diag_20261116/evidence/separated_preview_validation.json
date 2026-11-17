@@ -1,0 +1,85 @@
+{
+  "status": "request construction checked only; zero new generations; not a backend runtime proof",
+  "checks": [
+    {
+      "file": "separated_preview/prompts/S3_wide__B.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S3_wide__F-shuffle.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S2_bend__F-shuffle.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S4_straight__F-shuffle.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S3_wide__F.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S2_bend__B.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S1_early__B.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S2_bend__F-no-video.json",
+      "placeholders": 0,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S4_straight__B.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S3_wide__F-no-video.json",
+      "placeholders": 0,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S4_straight__F-no-video.json",
+      "placeholders": 0,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S1_early__F-no-video.json",
+      "placeholders": 0,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S4_straight__F.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S1_early__F.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S1_early__F-shuffle.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    },
+    {
+      "file": "separated_preview/prompts/S2_bend__F.json",
+      "placeholders": 16,
+      "adjacent_image_markers": false
+    }
+  ]
+}

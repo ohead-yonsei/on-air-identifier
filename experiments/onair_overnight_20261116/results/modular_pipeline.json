@@ -1,0 +1,804 @@
+[
+  {
+    "item_id": "t031_manual_axis",
+    "frame": "t031",
+    "axis_source": "manual_axis",
+    "axis": [
+      1,
+      0.4
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        875.2074584960938,
+        434.63629150390625,
+        1000.740478515625,
+        551.987548828125
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9973419308662415
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        919.4029541015625,
+        416.4866638183594,
+        979.4127807617188,
+        488.7867736816406
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9852988719940186
+    },
+    "helmet_roi": [
+      919,
+      416,
+      980,
+      442
+    ],
+    "image": "modular/t031_manual_axis.png",
+    "image_sha256": "af229daf4e23d8064eef19cd0b71942841c0644e68b4f2fe09111d3ca176135d",
+    "status": "ok",
+    "predicted_number": 5,
+    "parsed": {
+      "color_class": "blue"
+    },
+    "classification_http_ms": 503.7407372146845,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t031_model9b_axis",
+    "frame": "t031",
+    "axis_source": "model9b_axis",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        117.30461120605469,
+        119.72457885742188,
+        189.571533203125,
+        220.98583984375
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9944120049476624
+    },
+    "person_candidates": 2,
+    "selected_person": {
+      "box": [
+        147.39881896972656,
+        109.72758483886719,
+        175.1424560546875,
+        165.81285095214844
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9707521200180054
+    },
+    "helmet_roi": [
+      147,
+      109,
+      176,
+      130
+    ],
+    "image": "modular/t031_model9b_axis.png",
+    "image_sha256": "59158fa3e7fbd2f71b8393550a6c3af90b20d9440613146b6f4e2a0cd9d43181",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 227.19801496714354,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t034_manual_axis",
+    "frame": "t034",
+    "axis_source": "manual_axis",
+    "axis": [
+      -1,
+      0.4
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        171.84075927734375,
+        422.5640563964844,
+        244.83969116210938,
+        525.9379272460938
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9880897402763367
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        191.43246459960938,
+        402.787109375,
+        238.69601440429688,
+        471.9183654785156
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.8767597675323486
+    },
+    "helmet_roi": [
+      191,
+      402,
+      239,
+      427
+    ],
+    "image": "modular/t034_manual_axis.png",
+    "image_sha256": "d31356623b4d6fe13a71cd8a9041e06eb984a8f621dc6821508fdc43cf7ae806",
+    "status": "ok",
+    "predicted_number": 5,
+    "parsed": {
+      "color_class": "blue"
+    },
+    "classification_http_ms": 222.56630845367908,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t034_model9b_axis",
+    "frame": "t034",
+    "axis_source": "model9b_axis",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        1155.3994140625,
+        284.98095703125,
+        1228.56591796875,
+        359.4280700683594
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.6605237722396851
+    },
+    "person_candidates": 3,
+    "selected_person": {
+      "box": [
+        1169.6331787109375,
+        255.60911560058594,
+        1202.8389892578125,
+        320.0035400390625
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.8440607786178589
+    },
+    "helmet_roi": [
+      1169,
+      255,
+      1203,
+      279
+    ],
+    "image": "modular/t034_model9b_axis.png",
+    "image_sha256": "88d40a80800b7986802eb5396788b7dae6222a8378a85bb9c7f5b66cac3738f2",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 222.85373508930206,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t037_manual_axis",
+    "frame": "t037",
+    "axis_source": "manual_axis",
+    "axis": [
+      -0.2,
+      1
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        420.3476257324219,
+        479.0940856933594,
+        513.84375,
+        607.4345703125
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9904001355171204
+    },
+    "person_candidates": 2,
+    "selected_person": {
+      "box": [
+        431.7049255371094,
+        430.35980224609375,
+        504.13494873046875,
+        546.4136962890625
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.6822385787963867
+    },
+    "helmet_roi": [
+      431,
+      430,
+      505,
+      471
+    ],
+    "image": "modular/t037_manual_axis.png",
+    "image_sha256": "0c1e62cccfc904dafdfdb43f03c74e0ba1c02fe637c92e074a71a7f68eedade3",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 220.44060565531254,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t037_model9b_axis",
+    "frame": "t037",
+    "axis_source": "model9b_axis",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        1018.0641479492188,
+        176.71885681152344,
+        1111.8203125,
+        280.6616516113281
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9674169421195984
+    },
+    "person_candidates": 2,
+    "selected_person": {
+      "box": [
+        1039.357666015625,
+        131.74940490722656,
+        1090.4140625,
+        234.31065368652344
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9980648159980774
+    },
+    "helmet_roi": [
+      1039,
+      131,
+      1091,
+      168
+    ],
+    "image": "modular/t037_model9b_axis.png",
+    "image_sha256": "472d7ad5065018a4eeac6889c6204e580ca5a549999405c58e60631541c3dd6c",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 229.26397062838078,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t040_manual_axis",
+    "frame": "t040",
+    "axis_source": "manual_axis",
+    "axis": [
+      0.3,
+      1
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        834.8470458984375,
+        483.2049865722656,
+        926.1338500976562,
+        612.4606323242188
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9857388734817505
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        851.150146484375,
+        461.28851318359375,
+        924.7108154296875,
+        566.9954833984375
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9118642807006836
+    },
+    "helmet_roi": [
+      851,
+      461,
+      925,
+      499
+    ],
+    "image": "modular/t040_manual_axis.png",
+    "image_sha256": "66b385dcec891ed2f0a9dcb46dac9d46bb8e035544ef63bacf7916caf81ef9d9",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 219.6093974635005,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t040_model9b_axis",
+    "frame": "t040",
+    "axis_source": "model9b_axis",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        329.54229736328125,
+        200.7480926513672,
+        404.2543029785156,
+        372.1353454589844
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9900188446044922
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        330.6039733886719,
+        196.7982635498047,
+        402.7529602050781,
+        290.7530822753906
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.8210676908493042
+    },
+    "helmet_roi": [
+      330,
+      196,
+      403,
+      230
+    ],
+    "image": "modular/t040_model9b_axis.png",
+    "image_sha256": "2202e7f98acfe7a4a970e0915b56bc2c48a54bbfba3c18649b86939ef9a6967c",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 259.92288812994957,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t042_manual_axis",
+    "frame": "t042",
+    "axis_source": "manual_axis",
+    "axis": [
+      1,
+      0.5
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        974.8159790039062,
+        497.2615051269531,
+        1119.65966796875,
+        610.8007202148438
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9986516833305359
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        1033.749755859375,
+        478.1618347167969,
+        1087.39892578125,
+        553.1251831054688
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9869110584259033
+    },
+    "helmet_roi": [
+      1033,
+      478,
+      1088,
+      505
+    ],
+    "image": "modular/t042_manual_axis.png",
+    "image_sha256": "5fe74931830e068b433922758bbcde0b16d122918d1749ceddc066a941432e08",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 226.30649711936712,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t042_model9b_axis",
+    "frame": "t042",
+    "axis_source": "model9b_axis",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        974.8159790039062,
+        497.2615051269531,
+        1119.65966796875,
+        610.8007202148438
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9986516833305359
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        1033.749755859375,
+        478.1618347167969,
+        1087.39892578125,
+        553.1251831054688
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9869110584259033
+    },
+    "helmet_roi": [
+      1033,
+      478,
+      1088,
+      505
+    ],
+    "image": "modular/t042_model9b_axis.png",
+    "image_sha256": "5fe74931830e068b433922758bbcde0b16d122918d1749ceddc066a941432e08",
+    "classification_reused_from": "t042_manual_axis",
+    "status": "ok",
+    "predicted_number": 0,
+    "parsed": {
+      "color_class": "unknown"
+    },
+    "classification_http_ms": 226.30649711936712,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t048_manual_axis",
+    "frame": "t048",
+    "axis_source": "manual_axis",
+    "axis": [
+      -0.2,
+      1
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        372.7521667480469,
+        413.503662109375,
+        450.05682373046875,
+        570.8995361328125
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9953994154930115
+    },
+    "person_candidates": 6,
+    "selected_person": {
+      "box": [
+        374.8475341796875,
+        378.40716552734375,
+        451.0052795410156,
+        504.4533996582031
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9489034414291382
+    },
+    "helmet_roi": [
+      374,
+      378,
+      452,
+      423
+    ],
+    "image": "modular/t048_manual_axis.png",
+    "image_sha256": "02a88d2a3dcc903153c21ecd4a51061d2d5fb46af838b4266d7c210480b2f6f2",
+    "status": "ok",
+    "predicted_number": 9,
+    "parsed": {
+      "color_class": "purple"
+    },
+    "classification_http_ms": 218.49572658538818,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": true
+  },
+  {
+    "item_id": "t048_model9b_axis",
+    "frame": "t048",
+    "axis_source": "model9b_axis",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        1055.6627197265625,
+        222.2734375,
+        1150.6812744140625,
+        351.1412353515625
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.647949755191803
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        1069.781982421875,
+        180.34434509277344,
+        1127.1036376953125,
+        261.27532958984375
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9851069450378418
+    },
+    "helmet_roi": [
+      1069,
+      180,
+      1128,
+      209
+    ],
+    "image": "modular/t048_model9b_axis.png",
+    "image_sha256": "bd1ecd91acf84d74349d0255d69f56cdfacd4eeaa5537f6e3a869bdc067ea0f6",
+    "status": "ok",
+    "predicted_number": 3,
+    "parsed": {
+      "color_class": "red"
+    },
+    "classification_http_ms": 191.43038894981146,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t052_manual_axis",
+    "frame": "t052",
+    "axis_source": "manual_axis",
+    "axis": [
+      0.2,
+      1
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        459.25933837890625,
+        442.30389404296875,
+        534.8856811523438,
+        584.485107421875
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9764654040336609
+    },
+    "person_candidates": 2,
+    "selected_person": {
+      "box": [
+        483.1412658691406,
+        398.5894470214844,
+        536.4467163085938,
+        466.1502990722656
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.7476925253868103
+    },
+    "helmet_roi": [
+      483,
+      398,
+      537,
+      423
+    ],
+    "image": "modular/t052_manual_axis.png",
+    "image_sha256": "0b012a4e4a7066d5b6215c9f751a6ef98c1df7e49205788b99815c87bf2f4465",
+    "status": "ok",
+    "predicted_number": 9,
+    "parsed": {
+      "color_class": "purple"
+    },
+    "classification_http_ms": 222.7378562092781,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": true
+  },
+  {
+    "item_id": "t052_model9b_axis",
+    "frame": "t052",
+    "axis_source": "model9b_axis",
+    "axis": [
+      -1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        194.6392059326172,
+        354.38897705078125,
+        277.1185302734375,
+        499.37060546875
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9957911968231201
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        207.8710479736328,
+        308.5870056152344,
+        270.4636535644531,
+        405.3576965332031
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9872745275497437
+    },
+    "helmet_roi": [
+      207,
+      308,
+      271,
+      343
+    ],
+    "image": "modular/t052_model9b_axis.png",
+    "image_sha256": "0af0b31e8d72aa08c379763108aa1b78e761883be978dbfe272bdfe9964c7ad9",
+    "status": "ok",
+    "predicted_number": 5,
+    "parsed": {
+      "color_class": "blue"
+    },
+    "classification_http_ms": 280.746147967875,
+    "selected_horse_contains_reference_leader_nose": false,
+    "roi_contains_reference_leader_cap_center": false,
+    "number_matches_reference_leader": false
+  },
+  {
+    "item_id": "t058_manual_axis",
+    "frame": "t058",
+    "axis_source": "manual_axis",
+    "axis": [
+      0.35,
+      1
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        1087.9530029296875,
+        389.975341796875,
+        1172.51513671875,
+        535.9968872070312
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9976885318756104
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        1102.364990234375,
+        375.0409240722656,
+        1167.7452392578125,
+        466.8170471191406
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9566404819488525
+    },
+    "helmet_roi": [
+      1102,
+      375,
+      1168,
+      408
+    ],
+    "image": "modular/t058_manual_axis.png",
+    "image_sha256": "b568d66d12f932be28534a0c23b340c2432f80024dfa83a513f6830ad0a562d8",
+    "status": "ok",
+    "predicted_number": 9,
+    "parsed": {
+      "color_class": "purple"
+    },
+    "classification_http_ms": 234.8260274156928,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": true
+  },
+  {
+    "item_id": "t058_model9b_axis",
+    "frame": "t058",
+    "axis_source": "model9b_axis",
+    "axis": [
+      1,
+      0
+    ],
+    "reference_status": "new frame visual draft; manual-axis arm is not fully automatic",
+    "selected_horse": {
+      "box": [
+        1087.9530029296875,
+        389.975341796875,
+        1172.51513671875,
+        535.9968872070312
+      ],
+      "label": 19,
+      "class": "horse",
+      "score": 0.9976885318756104
+    },
+    "person_candidates": 1,
+    "selected_person": {
+      "box": [
+        1102.364990234375,
+        375.0409240722656,
+        1167.7452392578125,
+        466.8170471191406
+      ],
+      "label": 1,
+      "class": "person",
+      "score": 0.9566404819488525
+    },
+    "helmet_roi": [
+      1102,
+      375,
+      1168,
+      408
+    ],
+    "image": "modular/t058_model9b_axis.png",
+    "image_sha256": "b568d66d12f932be28534a0c23b340c2432f80024dfa83a513f6830ad0a562d8",
+    "classification_reused_from": "t058_manual_axis",
+    "status": "ok",
+    "predicted_number": 9,
+    "parsed": {
+      "color_class": "purple"
+    },
+    "classification_http_ms": 234.8260274156928,
+    "selected_horse_contains_reference_leader_nose": true,
+    "roi_contains_reference_leader_cap_center": true,
+    "number_matches_reference_leader": true
+  }
+]

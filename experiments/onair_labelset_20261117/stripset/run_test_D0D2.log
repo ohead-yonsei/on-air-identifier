@@ -1,0 +1,11 @@
+D0 excl_R02 frames 9
+D0 excl_R04 frames 23
+D0 excl_R06 frames 13
+D0 excl_R08 frames 7
+D0 excl_R10 frames 22
+D2 excl_R02 frames 9
+D2 excl_R04 frames 23
+D2 excl_R06 frames 13
+D2 excl_R08 frames 7
+D2 excl_R10 frames 22
+done test ['D0', 'D2'] frames 74

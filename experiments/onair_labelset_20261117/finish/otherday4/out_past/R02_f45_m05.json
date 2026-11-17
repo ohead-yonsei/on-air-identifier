@@ -1,0 +1,1 @@
+{"frame": "R02_f45_m05", "variant": "D0", "model": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/identifier/model.json", "riders": [{"no": 5, "state": "sure", "score": 1.2838, "x": 1455.6, "h_px": 97.2, "box": [1416.4, 645.2, 1494.8, 742.3], "colour": "blue", "qwen_number": 5, "p_learned": 0.2838, "detector_score": 0.606}], "qwen_failures": 0, "total_ms": 260.9}

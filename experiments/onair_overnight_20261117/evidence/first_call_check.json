@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-16T17:11:42.182252+00:00",
+  "item": "R03_t050_s1_R0_27",
+  "http_status": 200,
+  "valid_schema": true,
+  "image_count": 1,
+  "actual_image_visually_checked": true,
+  "image_contains_review_labels": false,
+  "response": {
+    "color_class": "pink"
+  },
+  "request_count_so_far": 1,
+  "decision": "continue frozen development comparison; no parameter change"
+}
