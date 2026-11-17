@@ -1,0 +1,3163 @@
+{
+ "video": "/home/ohead/ai-workspace/projects/onair_labelset_20261117/live_commentary/20261115/videos/R08.mp4",
+ "live_timer_segment": [
+  1,
+  83
+ ],
+ "start": 23,
+ "end": 83,
+ "step": 3.0,
+ "points": [
+  {
+   "t": 23.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8823,
+     "p_cap": 0.9976
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.8719,
+     "p_cap": 0.9993
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 5
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 9,
+     "p_cap": 0.9523,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      278.7,
+      315.5,
+      407.8,
+      522.5
+     ],
+     "p_lead": 0.0506,
+     "p_first": 0.0265
+    },
+    {
+     "number": 11,
+     "p_cap": 0.0006,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      382.8,
+      384.9,
+      487.0,
+      554.9
+     ]
+    },
+    {
+     "number": 4,
+     "p_cap": 0.9954,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      480.2,
+      333.5,
+      597.4,
+      538.3
+     ],
+     "p_lead": 0.0347,
+     "p_first": 0.0102
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9993,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      638.2,
+      451.6,
+      799.2,
+      697.2
+     ],
+     "p_lead": 0.8719,
+     "taken": true,
+     "p_first": 0.0413
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9966,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      994.7,
+      465.0,
+      1136.4,
+      718.8
+     ],
+     "p_lead": 0.8618,
+     "taken": true,
+     "p_first": 0.228
+    },
+    {
+     "number": 3,
+     "p_cap": 0.8741,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      1134.1,
+      419.4,
+      1272.6,
+      632.0
+     ],
+     "p_lead": 0.3658,
+     "p_first": 0.0116
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9939,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1285.0,
+      430.4,
+      1424.7,
+      661.9
+     ],
+     "p_lead": 0.8227,
+     "p_first": 0.0319
+    },
+    {
+     "number": 1,
+     "p_cap": 0.0003,
+     "sure": false,
+     "qwen_number": 1,
+     "box": [
+      1434.2,
+      389.6,
+      1563.1,
+      605.6
+     ]
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "asked_t": 23.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 26.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.954,
+     "p_cap": 0.9968
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9204,
+     "p_cap": 0.995
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 5
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 9,
+     "p_cap": 0.821,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      305.8,
+      233.4,
+      434.8,
+      446.6
+     ],
+     "p_lead": 0.0428,
+     "p_first": 0.0259
+    },
+    {
+     "number": 6,
+     "p_cap": 0.995,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      471.9,
+      493.1,
+      598.3,
+      709.5
+     ],
+     "p_lead": 0.9204,
+     "taken": true,
+     "p_first": 0.0788
+    },
+    {
+     "number": 4,
+     "p_cap": 0.9335,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      539.9,
+      275.4,
+      656.2,
+      485.1
+     ],
+     "p_lead": 0.0333,
+     "p_first": 0.0072
+    },
+    {
+     "number": 8,
+     "p_cap": 0.0006,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      635.5,
+      381.5,
+      775.7,
+      622.7
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9968,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      875.9,
+      514.0,
+      1017.9,
+      751.0
+     ],
+     "p_lead": 0.954,
+     "taken": true,
+     "p_first": 0.4919
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9104,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      1039.6,
+      445.0,
+      1197.1,
+      685.8
+     ],
+     "p_lead": 0.3272,
+     "p_first": 0.0136
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9989,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1307.8,
+      443.7,
+      1444.7,
+      690.0
+     ],
+     "p_lead": 0.6406,
+     "p_first": 0.0376
+    },
+    {
+     "number": 1,
+     "p_cap": 0.1948,
+     "sure": false,
+     "qwen_number": 1,
+     "box": [
+      1420.8,
+      369.2,
+      1519.7,
+      528.5
+     ]
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.3677
+    }
+   ],
+   "asked_t": 26.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    3,
+    2,
+    6,
+    1
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 29.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9584,
+     "p_cap": 0.9963
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9463,
+     "p_cap": 0.991
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 8
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 7,
+     "p_cap": 0.4182,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      238.8,
+      203.0,
+      395.9,
+      418.7
+     ]
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9992,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      472.9,
+      541.9,
+      660.1,
+      806.4
+     ],
+     "p_lead": 0.908,
+     "taken": true,
+     "p_first": 0.0501
+    },
+    {
+     "number": 10,
+     "p_cap": 0.0,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      531.8,
+      183.3,
+      655.6,
+      396.7
+     ]
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9874,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      653.9,
+      396.7,
+      808.1,
+      660.7
+     ],
+     "p_lead": 0.0621,
+     "p_first": 0.0085
+    },
+    {
+     "number": 4,
+     "p_cap": 0.9998,
+     "sure": true,
+     "qwen_number": 4,
+     "box": [
+      871.6,
+      404.4,
+      978.0,
+      565.3
+     ],
+     "p_lead": 0.0184,
+     "p_first": 0.0091
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9816,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      928.3,
+      600.8,
+      1081.8,
+      842.9
+     ],
+     "p_lead": 0.9419,
+     "taken": true,
+     "p_first": 0.7011,
+     "leader_pick": true
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9744,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      993.8,
+      470.4,
+      1118.6,
+      687.0
+     ],
+     "p_lead": 0.5139,
+     "p_first": 0.0138
+    },
+    {
+     "number": 2,
+     "p_cap": 0.997,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1289.1,
+      466.1,
+      1449.6,
+      763.2
+     ],
+     "p_lead": 0.5056,
+     "p_first": 0.1032
+    },
+    {
+     "number": 1,
+     "p_cap": 0.0468,
+     "sure": false,
+     "qwen_number": 1,
+     "box": [
+      1425.4,
+      355.6,
+      1580.4,
+      603.5
+     ]
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.5195
+    }
+   ],
+   "asked_t": 29.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    3,
+    2,
+    6,
+    1
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 32.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9671,
+     "p_cap": 0.9999
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9732,
+     "p_cap": 0.9988
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 8,
+     "p_cap": 0.6247,
+     "sure": false,
+     "qwen_number": 9,
+     "box": [
+      487.1,
+      18.0,
+      598.2,
+      193.3
+     ]
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9972,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      588.5,
+      564.9,
+      729.3,
+      824.7
+     ],
+     "p_lead": 0.9163,
+     "taken": true,
+     "p_first": 0.0428
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9992,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      661.8,
+      358.7,
+      815.7,
+      598.8
+     ],
+     "p_lead": 0.035,
+     "p_first": 0.008
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9667,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      945.9,
+      462.8,
+      1073.9,
+      677.4
+     ],
+     "p_lead": 0.4687,
+     "p_first": 0.0124
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9999,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      998.9,
+      652.3,
+      1092.8,
+      851.2
+     ],
+     "p_lead": 0.9671,
+     "taken": true,
+     "p_first": 0.7575,
+     "leader_pick": true
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9981,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1161.8,
+      431.9,
+      1326.1,
+      703.5
+     ],
+     "p_lead": 0.7369,
+     "p_first": 0.0348
+    },
+    {
+     "number": 1,
+     "p_cap": 0.0007,
+     "sure": false,
+     "qwen_number": 1,
+     "box": [
+      1276.8,
+      284.4,
+      1397.8,
+      562.7
+     ]
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.5605
+    }
+   ],
+   "asked_t": 32.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 35.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8277,
+     "p_cap": 0.9991
+    },
+    {
+     "number": 5,
+     "source": "carried"
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 7
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 7,
+     "p_cap": 0.9689,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      357.5,
+      175.4,
+      446.6,
+      303.2
+     ],
+     "p_lead": 0.0219,
+     "p_first": 0.0182
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9918,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      663.9,
+      446.8,
+      737.8,
+      567.6
+     ],
+     "p_lead": 0.0183,
+     "p_first": 0.0072
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9643,
+     "sure": true,
+     "qwen_number": 1,
+     "box": [
+      914.4,
+      367.9,
+      991.3,
+      501.6
+     ],
+     "p_lead": 0.0183,
+     "p_first": 0.0057
+    },
+    {
+     "number": 6,
+     "p_cap": 0.0495,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      950.7,
+      498.1,
+      986.5,
+      577.9
+     ]
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9886,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      1037.3,
+      544.2,
+      1135.1,
+      684.6
+     ],
+     "p_lead": 0.4852,
+     "p_first": 0.0132
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9949,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      1198.2,
+      522.4,
+      1269.2,
+      618.4
+     ],
+     "p_lead": 0.1476,
+     "p_first": 0.0089
+    },
+    {
+     "number": 10,
+     "p_cap": 0.1777,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1403.9,
+      698.5,
+      1503.7,
+      926.1
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.2823,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      1431.8,
+      728.4,
+      1569.3,
+      927.2
+     ]
+    }
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.8155
+    }
+   ],
+   "asked_t": 35.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 38.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9328,
+     "p_cap": 0.9898
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9165,
+     "p_cap": 0.9998
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 7
+    },
+    {
+     "riders": 10,
+     "detection": "D3",
+     "sure": 6
+    },
+    {
+     "riders": 11,
+     "detection": "D3",
+     "sure": 4
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 5,
+     "p_cap": 0.9874,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      304.3,
+      607.4,
+      354.2,
+      693.0
+     ],
+     "p_lead": 0.927,
+     "taken": true,
+     "p_first": 0.7284,
+     "leader_pick": true
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9998,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      357.1,
+      581.8,
+      411.4,
+      672.6
+     ],
+     "p_lead": 0.9165,
+     "taken": true,
+     "p_first": 0.1477
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9703,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      764.1,
+      534.8,
+      823.8,
+      630.6
+     ],
+     "p_lead": 0.3872,
+     "p_first": 0.0123
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9952,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      801.4,
+      490.1,
+      861.4,
+      598.7
+     ],
+     "p_lead": 0.0799,
+     "p_first": 0.0091
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9989,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1157.2,
+      483.7,
+      1214.5,
+      576.1
+     ],
+     "p_lead": 0.0542,
+     "p_first": 0.0106
+    },
+    {
+     "number": 7,
+     "p_cap": 0.994,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1583.1,
+      417.5,
+      1637.7,
+      509.6
+     ],
+     "p_lead": 0.0329,
+     "p_first": 0.0125
+    },
+    {
+     "number": 8,
+     "p_cap": 0.9488,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1698.0,
+      392.7,
+      1751.2,
+      476.8
+     ],
+     "p_lead": 0.0484,
+     "p_first": 0.029
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.4558
+    }
+   ],
+   "asked_t": 38.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 41.0,
+   "statements": [
+    2,
+    6
+   ],
+   "detail": [
+    {
+     "number": 2,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.7531,
+     "p_cap": 0.9705
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9213,
+     "p_cap": 0.9992
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 8
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 7
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 6,
+     "p_cap": 0.9992,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      447.4,
+      585.6,
+      543.1,
+      721.3
+     ],
+     "p_lead": 0.9213,
+     "taken": true,
+     "p_first": 0.2577
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9771,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      540.1,
+      635.8,
+      648.2,
+      821.9
+     ],
+     "p_lead": 0.8943,
+     "taken": true,
+     "p_first": 0.5412
+    },
+    {
+     "number": 4,
+     "p_cap": 0.9976,
+     "sure": true,
+     "qwen_number": 4,
+     "box": [
+      713.6,
+      418.6,
+      804.1,
+      610.8
+     ],
+     "p_lead": 0.0378,
+     "p_first": 0.0091
+    },
+    {
+     "number": 3,
+     "p_cap": 0.8761,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      763.8,
+      459.7,
+      855.2,
+      610.9
+     ],
+     "p_lead": 0.1794,
+     "p_first": 0.0125
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9991,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      837.6,
+      359.9,
+      932.9,
+      500.6
+     ],
+     "p_lead": 0.016,
+     "p_first": 0.0086
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9902,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      901.3,
+      481.1,
+      998.2,
+      641.9
+     ],
+     "p_lead": 0.5439,
+     "p_first": 0.0227
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9946,
+     "sure": true,
+     "qwen_number": 1,
+     "box": [
+      1318.9,
+      373.9,
+      1401.8,
+      519.7
+     ],
+     "p_lead": 0.0213,
+     "p_first": 0.009
+    },
+    {
+     "number": 7,
+     "p_cap": 0.9991,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1599.3,
+      208.0,
+      1693.7,
+      364.9
+     ],
+     "p_lead": 0.0192,
+     "p_first": 0.0214
+    },
+    {
+     "number": 8,
+     "p_cap": 0.0582,
+     "sure": false,
+     "qwen_number": 9,
+     "box": [
+      1756.0,
+      180.4,
+      1871.5,
+      326.8
+     ]
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 2,
+     "gap": 0.283
+    }
+   ],
+   "asked_t": 41.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    3,
+    2,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 44.0,
+   "statements": [
+    6
+   ],
+   "detail": [
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9406,
+     "p_cap": 0.999
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 7
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 7
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 4,
+     "p_cap": 0.9908,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      607.6,
+      504.3,
+      681.1,
+      645.2
+     ],
+     "p_lead": 0.02,
+     "p_first": 0.0077
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9994,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      699.8,
+      417.7,
+      781.3,
+      529.0
+     ],
+     "p_lead": 0.0154,
+     "p_first": 0.0072
+    },
+    {
+     "number": 3,
+     "p_cap": 0.985,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      736.5,
+      544.9,
+      830.8,
+      667.2
+     ],
+     "p_lead": 0.0885,
+     "p_first": 0.009
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9177,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      804.8,
+      686.9,
+      882.7,
+      770.8
+     ],
+     "p_lead": 0.8327,
+     "taken": true,
+     "p_first": 0.0404
+    },
+    {
+     "number": 7,
+     "p_cap": 0.9998,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      817.4,
+      257.4,
+      887.8,
+      397.2
+     ],
+     "p_lead": 0.0163,
+     "p_first": 0.0067
+    },
+    {
+     "number": 1,
+     "p_cap": 0.035,
+     "sure": false,
+     "qwen_number": 1,
+     "box": [
+      916.8,
+      450.3,
+      1002.8,
+      590.5
+     ]
+    },
+    {
+     "number": 8,
+     "p_cap": 0.5055,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      954.7,
+      637.0,
+      1024.5,
+      824.4
+     ]
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9866,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      953.0,
+      566.5,
+      1028.5,
+      700.4
+     ],
+     "p_lead": 0.3362,
+     "p_first": 0.0195
+    },
+    {
+     "number": 11,
+     "p_cap": 0.8825,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      973.1,
+      768.1,
+      1085.2,
+      928.0
+     ],
+     "p_lead": 0.8222,
+     "taken": true,
+     "p_first": 0.7278,
+     "leader_pick": true
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "asked_t": 44.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 47.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9542,
+     "p_cap": 0.9972
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9105,
+     "p_cap": 0.9909
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 11,
+     "detection": "D3",
+     "sure": 7
+    },
+    {
+     "riders": 11,
+     "detection": "D0",
+     "sure": 8
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 8,
+     "p_cap": 0.9384,
+     "sure": true,
+     "qwen_number": 8,
+     "box": [
+      249.6,
+      310.9,
+      299.6,
+      381.4
+     ],
+     "p_lead": 0.025,
+     "p_first": 0.0286
+    },
+    {
+     "number": 7,
+     "p_cap": 0.7937,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      786.2,
+      574.8,
+      856.6,
+      652.5
+     ],
+     "p_lead": 0.0538,
+     "p_first": 0.0136
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9762,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      922.1,
+      598.4,
+      997.1,
+      711.0
+     ],
+     "p_lead": 0.0614,
+     "p_first": 0.0081
+    },
+    {
+     "number": 9,
+     "p_cap": 0.0002,
+     "sure": false,
+     "qwen_number": 9,
+     "box": [
+      1141.9,
+      617.6,
+      1208.7,
+      736.9
+     ]
+    },
+    {
+     "number": 2,
+     "p_cap": 0.0021,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1228.6,
+      711.3,
+      1305.3,
+      801.3
+     ]
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9909,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      1270.5,
+      710.8,
+      1354.8,
+      801.6
+     ],
+     "p_lead": 0.9105,
+     "taken": true,
+     "p_first": 0.0921
+    },
+    {
+     "number": 5,
+     "p_cap": 0.8585,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1454.8,
+      715.4,
+      1529.1,
+      831.3
+     ],
+     "p_lead": 0.8602,
+     "taken": true,
+     "p_first": 0.611,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.6596
+    }
+   ],
+   "asked_t": 47.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 50.0,
+   "statements": [
+    6
+   ],
+   "detail": [
+    {
+     "number": 6,
+     "source": "carried"
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 4
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 10,
+     "detection": "D0",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 5,
+     "p_cap": 0.7891,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      433.0,
+      486.5,
+      586.2,
+      716.7
+     ],
+     "p_lead": 0.7662,
+     "taken": true,
+     "p_first": 0.306
+    },
+    {
+     "number": 4,
+     "p_cap": 0.6765,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      529.2,
+      558.9,
+      620.5,
+      694.4
+     ]
+    },
+    {
+     "number": 8,
+     "p_cap": 0.121,
+     "sure": false,
+     "qwen_number": 8,
+     "box": [
+      736.0,
+      454.6,
+      788.7,
+      531.3
+     ]
+    },
+    {
+     "number": 2,
+     "p_cap": 0.0227,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      772.5,
+      437.3,
+      831.0,
+      532.5
+     ]
+    },
+    {
+     "number": 11,
+     "p_cap": 0.6152,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      797.7,
+      411.3,
+      882.8,
+      567.6
+     ]
+    },
+    {
+     "number": 3,
+     "p_cap": 0.8983,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      925.3,
+      403.2,
+      1027.7,
+      551.8
+     ],
+     "p_lead": 0.0713,
+     "p_first": 0.0133
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9984,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1413.5,
+      376.2,
+      1524.4,
+      562.3
+     ],
+     "p_lead": 0.0808,
+     "p_first": 0.0147
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9978,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      1519.4,
+      342.5,
+      1623.2,
+      497.2
+     ],
+     "p_lead": 0.0332,
+     "p_first": 0.0243
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "asked_t": 50.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 53.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9653,
+     "p_cap": 0.9968
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8755,
+     "p_cap": 0.968
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 6,
+     "p_cap": 0.9566,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      646.5,
+      376.6,
+      795.9,
+      663.1
+     ],
+     "p_lead": 0.818,
+     "taken": true,
+     "p_first": 0.0498
+    },
+    {
+     "number": 4,
+     "p_cap": 0.144,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      749.7,
+      385.1,
+      823.7,
+      572.2
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9968,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      815.0,
+      467.0,
+      935.1,
+      694.8
+     ],
+     "p_lead": 0.9653,
+     "taken": true,
+     "p_first": 0.7547,
+     "leader_pick": true
+    },
+    {
+     "number": 3,
+     "p_cap": 0.7052,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      1109.3,
+      292.8,
+      1295.4,
+      616.8
+     ],
+     "p_lead": 0.1594,
+     "p_first": 0.0086
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9995,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      1360.6,
+      153.1,
+      1472.4,
+      365.9
+     ],
+     "p_lead": 0.027,
+     "p_first": 0.0138
+    },
+    {
+     "number": 1,
+     "p_cap": 0.7969,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1518.9,
+      230.5,
+      1655.7,
+      506.2
+     ],
+     "p_lead": 0.0428,
+     "p_first": 0.0453
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.6708
+    }
+   ],
+   "asked_t": 53.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    3,
+    4
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 56.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9592,
+     "p_cap": 0.9996
+    },
+    {
+     "number": 6,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.7233,
+     "p_cap": 0.9966
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 5,
+     "detection": "D0",
+     "sure": 3
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 5
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 4,
+     "p_cap": 0.9984,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      298.2,
+      437.6,
+      413.3,
+      623.0
+     ],
+     "p_lead": 0.737,
+     "taken": true,
+     "p_first": 0.0738
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9801,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      415.1,
+      559.8,
+      511.6,
+      720.4
+     ],
+     "p_lead": 0.9142,
+     "taken": true,
+     "p_first": 0.5877
+    },
+    {
+     "number": 2,
+     "p_cap": 0.5792,
+     "sure": false,
+     "qwen_number": 2,
+     "box": [
+      593.5,
+      465.0,
+      668.2,
+      560.9
+     ]
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9979,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      631.5,
+      423.6,
+      708.4,
+      514.7
+     ],
+     "p_lead": 0.0601,
+     "p_first": 0.0088
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9991,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      814.4,
+      376.9,
+      891.2,
+      493.0
+     ],
+     "p_lead": 0.0271,
+     "p_first": 0.0086
+    },
+    {
+     "number": 10,
+     "p_cap": 0.3744,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      887.1,
+      430.4,
+      972.0,
+      561.2
+     ]
+    },
+    {
+     "number": 7,
+     "p_cap": 0.9988,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1372.9,
+      329.9,
+      1438.9,
+      432.1
+     ],
+     "p_lead": 0.0323,
+     "p_first": 0.0207
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.7142
+    }
+   ],
+   "asked_t": 56.0,
+   "strip_on_screen": true,
+   "strip": [
+    5,
+    6,
+    2,
+    4,
+    3
+   ],
+   "validated_segment": true
+  },
+  {
+   "t": 59.0,
+   "statements": [
+    5,
+    6
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9584,
+     "p_cap": 0.9975
+    },
+    {
+     "number": 6,
+     "source": "carried"
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 8
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 7
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 4,
+     "p_cap": 0.9974,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      290.6,
+      411.7,
+      397.6,
+      567.7
+     ],
+     "p_lead": 0.6189,
+     "p_first": 0.0362
+    },
+    {
+     "number": 7,
+     "p_cap": 0.2727,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      569.5,
+      218.0,
+      686.3,
+      511.9
+     ]
+    },
+    {
+     "number": 1,
+     "p_cap": 0.0057,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      642.2,
+      306.9,
+      741.0,
+      463.6
+     ]
+    },
+    {
+     "number": 6,
+     "p_cap": 0.6616,
+     "sure": false,
+     "qwen_number": 6,
+     "box": [
+      728.0,
+      444.8,
+      826.4,
+      606.9
+     ]
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9637,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      813.2,
+      365.0,
+      912.0,
+      528.6
+     ],
+     "p_lead": 0.0993,
+     "p_first": 0.0074
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9361,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      992.3,
+      180.6,
+      1104.9,
+      351.3
+     ],
+     "p_lead": 0.0355,
+     "p_first": 0.0074
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9506,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1087.2,
+      447.0,
+      1187.7,
+      608.8
+     ],
+     "p_lead": 0.8342,
+     "taken": true,
+     "p_first": 0.1133
+    },
+    {
+     "number": 11,
+     "p_cap": 0.5353,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      1276.4,
+      376.0,
+      1385.8,
+      456.6
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9987,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1532.2,
+      565.5,
+      1658.9,
+      773.4
+     ],
+     "p_lead": 0.9568,
+     "taken": true,
+     "p_first": 0.8415,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.8187
+    }
+   ],
+   "asked_t": 59.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 62.0,
+   "statements": [
+    2,
+    5
+   ],
+   "detail": [
+    {
+     "number": 2,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9031,
+     "p_cap": 0.9984
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9578,
+     "p_cap": 0.9999
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 7
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 9,
+     "detection": "D0",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 7,
+     "p_cap": 0.9994,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      91.4,
+      298.0,
+      170.5,
+      401.3
+     ],
+     "p_lead": 0.0262,
+     "p_first": 0.0157
+    },
+    {
+     "number": 11,
+     "p_cap": 0.2096,
+     "sure": false,
+     "qwen_number": 5,
+     "box": [
+      553.4,
+      390.1,
+      671.6,
+      602.4
+     ]
+    },
+    {
+     "number": 9,
+     "p_cap": 0.9993,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      599.1,
+      367.3,
+      692.3,
+      568.7
+     ],
+     "p_lead": 0.0498,
+     "p_first": 0.007
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9989,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      854.9,
+      451.7,
+      941.6,
+      592.5
+     ],
+     "p_lead": 0.3365,
+     "p_first": 0.0096
+    },
+    {
+     "number": 8,
+     "p_cap": 0.9976,
+     "sure": true,
+     "qwen_number": 8,
+     "box": [
+      953.3,
+      250.9,
+      1017.9,
+      359.8
+     ],
+     "p_lead": 0.0254,
+     "p_first": 0.0067
+    },
+    {
+     "number": 3,
+     "p_cap": 0.996,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      1046.0,
+      395.2,
+      1128.1,
+      522.8
+     ],
+     "p_lead": 0.0386,
+     "p_first": 0.0071
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9984,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1145.3,
+      487.2,
+      1226.1,
+      621.3
+     ],
+     "p_lead": 0.9031,
+     "taken": true,
+     "p_first": 0.1206
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9998,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1677.2,
+      566.5,
+      1765.1,
+      728.7
+     ],
+     "p_lead": 0.9571,
+     "taken": true,
+     "p_first": 0.8377,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.7807
+    }
+   ],
+   "asked_t": 62.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 65.0,
+   "statements": [
+    2,
+    5
+   ],
+   "detail": [
+    {
+     "number": 2,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8046,
+     "p_cap": 0.9963
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9532,
+     "p_cap": 0.9999
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 8
+    },
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 7
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 9,
+     "p_cap": 0.999,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      364.2,
+      335.6,
+      430.1,
+      439.8
+     ],
+     "p_lead": 0.0305,
+     "p_first": 0.0175
+    },
+    {
+     "number": 4,
+     "p_cap": 0.9984,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      453.1,
+      427.3,
+      517.0,
+      524.9
+     ],
+     "p_lead": 0.6636,
+     "p_first": 0.0107
+    },
+    {
+     "number": 6,
+     "p_cap": 0.9985,
+     "sure": true,
+     "qwen_number": 6,
+     "box": [
+      511.7,
+      400.6,
+      577.2,
+      497.5
+     ],
+     "p_lead": 0.2271,
+     "p_first": 0.007
+    },
+    {
+     "number": 8,
+     "p_cap": 0.9982,
+     "sure": true,
+     "qwen_number": 8,
+     "box": [
+      573.2,
+      216.3,
+      651.2,
+      311.5
+     ],
+     "p_lead": 0.0269,
+     "p_first": 0.0068
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9704,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      726.0,
+      355.8,
+      793.2,
+      478.1
+     ],
+     "p_lead": 0.0357,
+     "p_first": 0.0057
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9895,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      886.1,
+      343.3,
+      965.9,
+      452.0
+     ],
+     "p_lead": 0.0225,
+     "p_first": 0.0062
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9963,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      898.0,
+      472.2,
+      975.2,
+      569.3
+     ],
+     "p_lead": 0.8046,
+     "taken": true,
+     "p_first": 0.0766
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9999,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1486.0,
+      528.3,
+      1557.1,
+      636.5
+     ],
+     "p_lead": 0.9503,
+     "taken": true,
+     "p_first": 0.7027,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.6132
+    }
+   ],
+   "asked_t": 65.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 68.0,
+   "statements": [
+    2,
+    5
+   ],
+   "detail": [
+    {
+     "number": 2,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.8985,
+     "p_cap": 0.9998
+    },
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9457,
+     "p_cap": 0.9998
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 6
+    },
+    {
+     "riders": 7,
+     "detection": "D0",
+     "sure": 7
+    },
+    {
+     "riders": 8,
+     "detection": "D0",
+     "sure": 8
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 9,
+     "p_cap": 0.9997,
+     "sure": true,
+     "qwen_number": 9,
+     "box": [
+      368.1,
+      308.8,
+      441.4,
+      447.0
+     ],
+     "p_lead": 0.206,
+     "p_first": 0.0169
+    },
+    {
+     "number": 8,
+     "p_cap": 0.997,
+     "sure": true,
+     "qwen_number": 8,
+     "box": [
+      387.0,
+      165.1,
+      440.2,
+      244.9
+     ],
+     "p_lead": 0.0252,
+     "p_first": 0.0155
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9851,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      637.9,
+      302.9,
+      701.3,
+      385.8
+     ],
+     "p_lead": 0.0594,
+     "p_first": 0.0064
+    },
+    {
+     "number": 1,
+     "p_cap": 0.9995,
+     "sure": true,
+     "qwen_number": 1,
+     "box": [
+      745.6,
+      299.7,
+      807.3,
+      384.3
+     ],
+     "p_lead": 0.031,
+     "p_first": 0.0065
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9996,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      911.5,
+      468.1,
+      973.5,
+      566.6
+     ],
+     "p_lead": 0.8684,
+     "taken": true,
+     "p_first": 0.0428
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9991,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1571.0,
+      504.1,
+      1634.7,
+      618.0
+     ],
+     "p_lead": 0.9396,
+     "taken": true,
+     "p_first": 0.6966,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.5869
+    }
+   ],
+   "asked_t": 68.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 71.0,
+   "statements": [
+    2,
+    5
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.952,
+     "p_cap": 0.9997
+    },
+    {
+     "number": 2,
+     "source": "carried"
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 4,
+     "detection": "D0",
+     "sure": 4
+    },
+    {
+     "riders": 6,
+     "detection": "D0",
+     "sure": 5
+    },
+    {
+     "riders": 8,
+     "detection": "D3",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 3,
+     "p_cap": 0.9977,
+     "sure": true,
+     "qwen_number": 3,
+     "box": [
+      582.4,
+      338.3,
+      624.0,
+      413.8
+     ],
+     "p_lead": 0.1062,
+     "p_first": 0.0114
+    },
+    {
+     "number": 1,
+     "p_cap": 0.8093,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      975.2,
+      556.6,
+      1040.4,
+      635.5
+     ],
+     "p_lead": 0.7067,
+     "taken": true,
+     "p_first": 0.1048
+    },
+    {
+     "number": 2,
+     "p_cap": 0.9989,
+     "sure": true,
+     "qwen_number": 2,
+     "box": [
+      1018.8,
+      530.1,
+      1084.6,
+      619.6
+     ],
+     "p_lead": 0.2625,
+     "p_first": 0.0083
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9914,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1585.0,
+      542.2,
+      1622.9,
+      621.0
+     ],
+     "p_lead": 0.7904,
+     "taken": true,
+     "p_first": 0.4073
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.5795
+    }
+   ],
+   "asked_t": 71.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 74.0,
+   "statements": [
+    5
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 3,
+     "p_lead": 0.9395,
+     "p_cap": 0.9994
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 9,
+     "detection": "D3",
+     "sure": 3
+    },
+    {
+     "riders": 6,
+     "detection": "D3",
+     "sure": 4
+    },
+    {
+     "riders": 7,
+     "detection": "D3",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 7,
+     "p_cap": 0.1209,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      37.2,
+      208.6,
+      105.5,
+      274.1
+     ]
+    },
+    {
+     "number": 6,
+     "p_cap": 0.006,
+     "sure": false,
+     "qwen_number": 6,
+     "box": [
+      154.6,
+      352.0,
+      249.0,
+      456.4
+     ]
+    },
+    {
+     "number": 11,
+     "p_cap": 0.8946,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      463.6,
+      297.4,
+      564.8,
+      412.8
+     ],
+     "p_lead": 0.0355,
+     "p_first": 0.0048
+    },
+    {
+     "number": 9,
+     "p_cap": 0.1623,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      533.6,
+      361.2,
+      573.9,
+      430.1
+     ]
+    },
+    {
+     "number": 3,
+     "p_cap": 0.3369,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      543.1,
+      341.1,
+      578.5,
+      400.7
+     ]
+    },
+    {
+     "number": 4,
+     "p_cap": 0.8913,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      559.4,
+      451.7,
+      599.9,
+      513.7
+     ],
+     "p_lead": 0.6109,
+     "taken": true,
+     "p_first": 0.0188
+    },
+    {
+     "number": 8,
+     "p_cap": 0.4496,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      562.8,
+      362.3,
+      600.7,
+      439.4
+     ]
+    },
+    {
+     "number": 2,
+     "p_cap": 0.4273,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1279.7,
+      575.1,
+      1329.3,
+      633.6
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9978,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1594.5,
+      550.3,
+      1656.4,
+      632.9
+     ],
+     "p_lead": 0.9332,
+     "taken": true,
+     "p_first": 0.6395,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "asked_t": 74.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 77.0,
+   "statements": [
+    5
+   ],
+   "detail": [
+    {
+     "number": 5,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.9199,
+     "p_cap": 0.9965
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 5,
+     "detection": "D3",
+     "sure": 4
+    },
+    {
+     "riders": 7,
+     "detection": "D3",
+     "sure": 3
+    },
+    {
+     "riders": 7,
+     "detection": "D3",
+     "sure": 6
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 1,
+     "p_cap": 0.9895,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      211.8,
+      257.6,
+      244.8,
+      303.5
+     ],
+     "p_lead": 0.0563,
+     "p_first": 0.0299
+    },
+    {
+     "number": 3,
+     "p_cap": 0.9273,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      404.2,
+      321.4,
+      437.5,
+      377.1
+     ],
+     "p_lead": 0.1488,
+     "p_first": 0.0227
+    },
+    {
+     "number": 4,
+     "p_cap": 0.974,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      581.0,
+      439.0,
+      622.9,
+      502.2
+     ],
+     "p_lead": 0.229,
+     "p_first": 0.0094
+    },
+    {
+     "number": 9,
+     "p_cap": 0.0135,
+     "sure": false,
+     "qwen_number": 9,
+     "box": [
+      1447.1,
+      582.2,
+      1496.2,
+      656.1
+     ]
+    },
+    {
+     "number": 5,
+     "p_cap": 0.9156,
+     "sure": true,
+     "qwen_number": 5,
+     "box": [
+      1551.7,
+      516.7,
+      1595.9,
+      586.5
+     ],
+     "p_lead": 0.7566,
+     "taken": true,
+     "p_first": 0.6317,
+     "leader_pick": true
+    }
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "asked_t": 77.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 80.0,
+   "statements": [
+    5,
+    8
+   ],
+   "detail": [
+    {
+     "number": 8,
+     "source": "now",
+     "votes": 2,
+     "p_lead": 0.8494,
+     "p_cap": 0.9473
+    },
+    {
+     "number": 5,
+     "source": "carried"
+    }
+   ],
+   "pictures": [
+    {
+     "riders": 3,
+     "detection": "D3",
+     "sure": 1
+    },
+    {
+     "riders": 5,
+     "detection": "D3",
+     "sure": 2
+    },
+    {
+     "riders": 5,
+     "detection": "D3",
+     "sure": 0
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 11,
+     "p_cap": 0.5648,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1351.3,
+      498.7,
+      1462.7,
+      565.4
+     ]
+    },
+    {
+     "number": 8,
+     "p_cap": 0.9418,
+     "sure": true,
+     "qwen_number": 0,
+     "box": [
+      1469.5,
+      592.9,
+      1579.8,
+      656.7
+     ],
+     "p_lead": 0.717,
+     "taken": true,
+     "p_first": 0.0614
+    },
+    {
+     "number": 9,
+     "p_cap": 0.0197,
+     "sure": false,
+     "qwen_number": 9,
+     "box": [
+      1548.3,
+      581.8,
+      1586.9,
+      638.5
+     ]
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "asked_t": 80.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  },
+  {
+   "t": 83.0,
+   "statements": [],
+   "detail": [],
+   "pictures": [
+    {
+     "riders": 2,
+     "detection": "D3",
+     "sure": 0
+    },
+    {
+     "riders": 5,
+     "detection": "D3",
+     "sure": 0
+    },
+    {
+     "riders": 4,
+     "detection": "D3",
+     "sure": 2
+    }
+   ],
+   "riders_now": [
+    {
+     "number": 8,
+     "p_cap": 0.2494,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1130.6,
+      435.3,
+      1197.3,
+      526.0
+     ]
+    },
+    {
+     "number": 2,
+     "p_cap": 0.5024,
+     "sure": false,
+     "qwen_number": 0,
+     "box": [
+      1421.0,
+      468.5,
+      1586.5,
+      595.0
+     ]
+    }
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "asked_t": 83.0,
+   "strip_on_screen": false,
+   "strip": null,
+   "validated_segment": false
+  }
+ ],
+ "configuration": "L1",
+ "settings": {
+  "sure": 0.7,
+  "tau": 0.6,
+  "k": 2,
+  "min_riders_for_usual_detection": 4,
+  "order_rules": true,
+  "tau_leader": 0.6,
+  "margin_order": 0.2
+ },
+ "qwen_failures": 0,
+ "seconds": 226.2
+}

@@ -13,12 +13,18 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
      scores each sure rider. "leader": the top-scoring sure rider of a picture if its score is at least 0.6, when the same number is
      picked in 2 of the 3 pictures (or was the leader at both 3 s and 6 s earlier). "order": for two stated numbers, the one whose
      mean score over the 3 pictures is higher by at least 0.2 is said to be ahead. Neither changes the statements.
+  7. options added 2026-11-18 (night/RESULT_KO.md):
+     --fast        configuration F1: Qwen is never called for the riders; numbers come from the cap classifier alone
+     --fallback    where steps 4-5 state nothing, one number may be added: the number stated 3 s earlier if it is sure in a current
+                   picture; otherwise the sure rider with the highest leading-three probability, if that is at least 0.8
+     --leader-tau  threshold for "leader" (default 0.6)
+     --fast --fallback --leader-tau 0.5 together is configuration F2 (the candidate from the night of 2026-11-18)
 
 Tested only while the running-order strip is on screen (see order2/RESULT_KO.md, order2b/RESULT_KO.md). Where the strip is absent
 (about the last 30 s, and just after the start) the statements are not reliable; the output marks those time points.
 
 usage (on the server):
-  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--no-strip-check]
+  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--no-strip-check] [--fast] [--fallback] [--leader-tau 0.5]
   python identify_l1.py --day-dir otherday7 --out OUT.json [--races R01 R02]      # frames already extracted (manifest.json, frames/, frames_past/)
 """
 import argparse
@@ -55,13 +61,17 @@ from s3_classify import region as cap_region
 
 SURE, TAU, K, MIN_RIDERS = 0.7, 0.6, 2, 4
 TAU_LEADER, MARGIN_ORDER = 0.6, 0.2
+FALLBACK_SINGLE = 0.8      # --fallback: lowest leading-three probability at which a single rider is stated where nothing else is
 TIMER, STRIP = (70, 930, 360, 1055), (480, 955, 1920, 1045)   # at 1920x1080
 CNN_WEIGHTS, ORDER_MODEL, COLOUR_MODEL = ROOT / "cnn" / "models" / "all_two_days.pt", ROOT / "order2" / "l1_model.joblib", HERE / "model.json"
 LEADER_MODEL = ROOT / "leader" / "leader_model.joblib"
+FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / "night" / "leader_fast.joblib"   # --fast: no Qwen (night/DESIGN_KO.md)
 
 
 class LeadingGroupIdentifier:
-    def __init__(self, masks="sep06"):
+    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER):
+        self.fallback, self.tau_leader = fallback, tau_leader
+        self.fast = fast       # fast = configuration F1: Qwen is never called; models trained without the "Qwen agrees" feature
         self.masks = MASKS[masks]
         self.det = fasterrcnn_resnet50_fpn_v2(weights=FasterRCNN_ResNet50_FPN_V2_Weights.COCO_V1).eval().cuda()
         self.cm = ColourModel(str(COLOUR_MODEL))
@@ -70,8 +80,9 @@ class LeadingGroupIdentifier:
         net.load_state_dict(torch.load(CNN_WEIGHTS, map_location="cpu"))
         self.cnn = net.eval().cuda()
         self.tf = transforms.Compose([transforms.ToTensor(), transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
-        self.order = joblib.load(ORDER_MODEL)
-        self.leader = joblib.load(LEADER_MODEL) if LEADER_MODEL.exists() else None
+        self.order = joblib.load(FAST_ORDER_MODEL if fast else ORDER_MODEL)
+        lm = FAST_LEADER_MODEL if fast else LEADER_MODEL
+        self.leader = joblib.load(lm) if lm.exists() else None
         self.history = {}      # time -> set of numbers stated from that time's own pictures
         self.history_leader = {}   # time -> leader picked from that time's own pictures (or None)
         self.qwen_failures = 0
@@ -79,14 +90,23 @@ class LeadingGroupIdentifier:
     def picture(self, bgr):
         """One picture -> riders with number, cap probability and probability of being in the leading three."""
         qlog = []
-        rs = identify2.identify(bgr.copy(), self.det, self.cm, self.masks, "D0", qlog)
-        detection = "D0"
-        if len(rs) < MIN_RIDERS:
-            rs = identify2.identify(bgr.copy(), self.det, self.cm, self.masks, "D3", qlog)
-            detection = "D3"
+        if self.fast:
+            b = bgr.copy()
+            for x1, y1, x2, y2 in self.masks:
+                b[int(y1 * b.shape[0]):int(y2 * b.shape[0]), int(x1 * b.shape[1]):int(x2 * b.shape[1])] = 48
+            found, detection = identify2.find_riders(self.det, b, self.masks, "D0"), "D0"
+            if len(found) < MIN_RIDERS:
+                found, detection = identify2.find_riders(self.det, b, self.masks, "D3"), "D3"
+            rs = [{"box": [round(v, 1) for v in box], "qwen_number": 0} for box, _ in found]
+        else:
+            rs = identify2.identify(bgr.copy(), self.det, self.cm, self.masks, "D0", qlog)
+            detection = "D0"
+            if len(rs) < MIN_RIDERS:
+                rs = identify2.identify(bgr.copy(), self.det, self.cm, self.masks, "D3", qlog)
+                detection = "D3"
         self.qwen_failures += sum(q["error"] is not None for q in qlog)
         if not rs:
-            return [], detection, {}
+            return [], detection, {}, {}
         H, W = bgr.shape[:2]
         masked = bgr.copy()
         for x1, y1, x2, y2 in self.masks:
@@ -119,12 +139,16 @@ class LeadingGroupIdentifier:
             p = float(P[i, a[i]])
             f = [ry[i], rxr[i], rxl[i], rh[i], ry[i] / n, rxr[i] / n, rh[i] / n, n, yb[i] / 1080, cx[i] / 1920, h[i] / 1080, h[i] / h.max(),
                  (yb[i] - yb.mean()) / 1080, (cx[i] - cx.mean()) / 1920, cx.std() / 1920, yb.std() / 1080, corr, h.mean() / 1080, p, float(q[i] == a[i] + 1)]
+            if self.fast:
+                f = f[:-1]
             out.append({"number": a[i] + 1, "p_cap": round(p, 4), "sure": p >= SURE, "qwen_number": int(q[i]), "box": rs[i]["box"], "features": f})
         sure = [r for r in out if r["sure"]]
+        lead3 = {}             # number -> unrounded leading-three probability, sure riders only (for --fallback)
         if sure:
             pl = self.order.predict_proba(np.array([r["features"] for r in sure]))[:, 1]
             for r, v in zip(sure, pl):
                 r["p_lead"] = round(float(v), 4)
+                lead3[r["number"]] = float(v)
             for i in np.argsort(-pl)[:K]:
                 if pl[i] >= TAU:
                     sure[i]["taken"] = True
@@ -135,19 +159,21 @@ class LeadingGroupIdentifier:
                 r["p_first"] = round(float(v), 4)
                 first[r["number"]] = float(v)
             i = int(np.argmax(pf))
-            if pf[i] >= TAU_LEADER:
+            if pf[i] >= self.tau_leader:
                 sure[i]["leader_pick"] = True
         for r in out:
             del r["features"]
-        return out, detection, first
+        return out, detection, first, lead3
 
     def point(self, t, pictures, key=None):
         """One time point: the pictures at t, t-0.5 s and t-1.0 s (in that order) -> statements, with numbers carried from t-3 s and t-6 s.
         `key` separates races when several are processed by one object."""
         votes, best, per_picture, riders_now = Counter(), {}, [], None
-        lead_votes, first_scores = Counter(), {}
+        lead_votes, first_scores, top = Counter(), {}, {}
         for bgr in pictures:
-            riders, detection, first = self.picture(bgr)
+            riders, detection, first, lead3 = self.picture(bgr)
+            for num, v in lead3.items():
+                top[num] = max(top.get(num, 0.0), v)
             for num, v in first.items():
                 first_scores.setdefault(num, []).append(v)
             for r in riders:
@@ -165,8 +191,16 @@ class LeadingGroupIdentifier:
         self.history[(key, round(float(t), 3))] = now
         prev = [self._near(key, t - back) for back in (3.0, 6.0)]
         carried = (prev[0] & prev[1]) - now
-        detail = [{"number": n, "source": "now", "votes": votes[n], **best[n]} for n in sorted(now)] + [{"number": n, "source": "carried"} for n in sorted(carried)]
-        res = {"t": round(float(t), 3), "statements": sorted(now | carried), "detail": detail, "pictures": per_picture, "riders_now": riders_now or []}
+        added = set()
+        if self.fallback and not (now | carried):
+            added = prev[0] & set(top)                       # stated 3 s earlier and sure in a current picture
+            if not added and top:
+                n = max(top, key=top.get)
+                if top[n] >= FALLBACK_SINGLE:
+                    added = {n}
+        detail = [{"number": n, "source": "now", "votes": votes[n], **best[n]} for n in sorted(now)] + [{"number": n, "source": "carried"} for n in sorted(carried)] \
+            + [{"number": n, "source": "fallback", "p_lead": round(top[n], 4)} for n in sorted(added)]
+        res = {"t": round(float(t), 3), "statements": sorted(now | carried | added), "detail": detail, "pictures": per_picture, "riders_now": riders_now or []}
         if self.leader is not None:
             picked = [n for n, v in lead_votes.items() if v >= 2]
             lead = picked[0] if picked else None
@@ -296,14 +330,19 @@ def main():
     ap.add_argument("--step", type=float, default=3.0)
     ap.add_argument("--no-strip-check", action="store_true")
     ap.add_argument("--masks", default="sep06", choices=list(MASKS))
+    ap.add_argument("--fast", action="store_true", help="configuration F1: no Qwen for the riders (use with --no-strip-check to call no language model at all)")
+    ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number (held from 3 s earlier, or a single rider at 0.8 or more)")
+    ap.add_argument("--leader-tau", type=float, default=TAU_LEADER, help="threshold for the leader (0.6; configuration F2 uses 0.5)")
     a = ap.parse_args()
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
     wait_gpu()
     started = time.perf_counter()
-    ident = LeadingGroupIdentifier(a.masks)
+    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau)
+    name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
-    res.update(configuration="L1", settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
-                                              "order_rules": ident.leader is not None, "tau_leader": TAU_LEADER, "margin_order": MARGIN_ORDER},
+    res.update(configuration=name, settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
+                                              "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
+                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(res, indent=1))

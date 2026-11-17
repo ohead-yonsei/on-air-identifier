@@ -1,0 +1,26 @@
+{
+ "days": [
+  "da/otherday2",
+  "da/otherday3",
+  "da/otherday4",
+  "da/otherday5",
+  "da/otherday6",
+  "da/otherday7"
+ ],
+ "l1_six": {
+  "sure_riders": 15948,
+  "share_positive": 0.3224228743416102
+ },
+ "leader_six": {
+  "sure_riders": 15948,
+  "share_positive": 0.10622021570102834
+ },
+ "l1_fast_six": {
+  "sure_riders": 16742,
+  "share_positive": 0.32218372954246804
+ },
+ "leader_fast_six": {
+  "sure_riders": 16742,
+  "share_positive": 0.10470672560028671
+ }
+}

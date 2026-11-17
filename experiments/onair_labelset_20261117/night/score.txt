@@ -1,0 +1,26 @@
+otherday8 T1 A 0.952 B 0.897 (136 pts) L1 A 0.966 B 0.853 (136 pts) F1 A 0.941 B 0.890 (136 pts) L1x A 0.957 B 0.853 (136 pts) F1x A 0.959 B 0.875 (136 pts) L1h A 0.966 B 0.860 (136 pts) L1s A 0.963 B 0.912 (136 pts) | HAND 77/95 LEAD 68/74 LEAD50 80/88 F_LEAD 75/83 LEADx 71/79 | H0 84/100 PAIR 73/79 F_PAIR 75/83 PAIRx 73/80
+otherday9 T1 A 0.955 B 0.859 (128 pts) L1 A 0.938 B 0.898 (128 pts) F1 A 0.936 B 0.906 (128 pts) L1x A 0.952 B 0.906 (128 pts) F1x A 0.953 B 0.914 (128 pts) L1h A 0.938 B 0.906 (128 pts) L1s A 0.939 B 0.930 (128 pts) | HAND 74/93 LEAD 61/69 LEAD50 72/80 F_LEAD 62/69 LEADx 67/75 | H0 92/115 PAIR 87/92 F_PAIR 92/98 PAIRx 92/97
+otherday10 T1 A 0.941 B 0.790 (143 pts) L1 A 0.939 B 0.825 (143 pts) F1 A 0.930 B 0.832 (143 pts) L1x A 0.940 B 0.818 (143 pts) F1x A 0.924 B 0.832 (143 pts) L1h A 0.937 B 0.853 (143 pts) L1s A 0.930 B 0.881 (143 pts) | HAND 63/80 LEAD 49/62 LEAD50 61/75 F_LEAD 47/59 LEADx 51/62 | H0 72/91 PAIR 53/61 F_PAIR 61/65 PAIRx 52/59
+otherday11 T1 A 0.964 B 0.872 (172 pts) L1 A 0.959 B 0.872 (172 pts) F1 A 0.960 B 0.878 (172 pts) L1x A 0.959 B 0.843 (172 pts) F1x A 0.958 B 0.878 (172 pts) L1h A 0.960 B 0.895 (172 pts) L1s A 0.951 B 0.919 (172 pts) | HAND 87/121 LEAD 71/79 LEAD50 88/101 F_LEAD 69/78 LEADx 81/92 | H0 111/149 PAIR 94/104 F_PAIR 96/107 PAIRx 94/107
+pooled: {"T1": {"A": 0.954337899543379, "B": 0.8549222797927462, "statements": 876, "points": 579}, "L1": {"A": 0.9510117145899893, "B": 0.8618307426597582, "statements": 939, "points": 579}, "F1": {"A": 0.9431472081218274, "B": 0.8756476683937824, "statements": 985, "points": 579}, "L1x": {"A": 0.9522292993630573, "B": 0.853195164075993, "statements": 942, "points": 579}, "F1x": {"A": 0.9491869918699187, "B": 0.8739205526770294, "statements": 984, "points": 579}, "L1h": {"A": 0.950733752620545, "B": 0.8791018998272885, "statements": 954, "points": 579}, "L1s": {"A": 0.9458077709611452, "B": 0.9101899827288429, "statements": 978, "points": 579}, "HAND": {"precision": 0.7737789203084833, "coverage": 0.5198618307426598, "statements": 389, "right": 301}, "LEAD": {"precision": 0.8767605633802817, "coverage": 0.43005181347150256, "statements": 284, "right": 249}, "LEAD50": {"precision": 0.875, "coverage": 0.5198618307426598, "statements": 344, "right": 301}, "F_LEAD": {"precision": 0.8754325259515571, "coverage": 0.4369602763385147, "statements": 289, "right": 253}, "LEADx": {"precision": 0.8766233766233766, "coverage": 0.46632124352331605, "statements": 308, "right": 270}, "H0": {"right_share": 0.789010989010989, "scoreable": 455, "right": 359}, "PAIR": {"right_share": 0.9136904761904762, "scoreable": 336, "right": 307}, "F_PAIR": {"right_share": 0.9178470254957507, "scoreable": 353, "right": 324}, "PAIRx": {"right_share": 0.9067055393586005, "scoreable": 343, "right": 311}}
+intervals: {"L1_A": [0.9287894201424212, 0.9712301587301587], "L1_B": [0.8090452261306532, 0.9107468123861566], "F1_minus_L1_A": [-0.018017324861043016, 0.0027109648741211467], "F1_minus_L1_B": [-0.005033557046979942, 0.03472222222222221], "L1x_minus_L1_A": [-0.009069810955333657, 0.011494252873563204], "L1x_minus_L1_B": [-0.021311475409836134, 0.0017636684303351524], "F1x_minus_F1_B": [-0.009225092250922495, 0.005226480836237002], "LEADx_minus_LEAD": [-0.02047095503774199, 0.01857575757575758], "L1h_minus_L1_A": [-0.002708978328173406, 0.0012038945990279215], "L1h_minus_L1_B": [0.007619047619047525, 0.026690391459074703], "L1s_minus_L1_A": [-0.010510600936318282, -0.0006225131562058728], "L1s_minus_L1_B": [0.030188679245283012, 0.06796116504854377], "L1_minus_T1_B": [-0.01572327044025157, 0.030354131534570006], "LEAD": [0.8143459915611815, 0.9261744966442953], "LEAD50": [0.819935691318328, 0.9215116279069767], "LEAD_minus_HAND": [0.036519871106337365, 0.164727734871444], "PAIR": [0.8738170347003155, 0.9496644295302014], "PAIR_minus_H0": [0.0784579270494763, 0.17521415849141952]}
+verdict: {
+ "L1_meets_goals_pooled": true,
+ "L1_days_meeting_both": 4,
+ "days": 4,
+ "leader_usable": false,
+ "leader50_usable": true,
+ "leader_more_accurate_than_hand": true,
+ "pair_usable": true,
+ "fast_meets_goals_pooled": true,
+ "fast_not_worse_than_L1": true,
+ "fast_leader_usable": false,
+ "more_days_help_L1": false,
+ "more_days_help_F1": false,
+ "L1x_meets_goals_pooled": true,
+ "F1x_meets_goals_pooled": true,
+ "leaderx_usable": true,
+ "hold_helps": true,
+ "hold_then_single_helps": true,
+ "fast_pair_usable": true
+}

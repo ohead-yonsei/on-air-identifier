@@ -1,0 +1,36 @@
+{
+ "commentary": {
+  "points": 292,
+  "leader_mode": 148,
+  "leader_given": 49,
+  "points_with_strip": 120,
+  "numbers": 211,
+  "numbers_right": 204,
+  "points_with_wrong_number": 7,
+  "leader_claims": 42,
+  "leader_claims_right": 41,
+  "leader_claims_second": 1,
+  "leader_claims_third": 0,
+  "leader_claims_other": 0,
+  "leader_claims_no_reference": 7,
+  "follow_claims": 27,
+  "follow_claims_right": 27,
+  "sources": {
+   "model": 274,
+   "model_retry": 7,
+   "template": 11
+  }
+ },
+ "identifier": {
+  "strip_points": 140,
+  "leader_said": 46,
+  "leader_right": 44,
+  "leader_in_first_two": 45,
+  "pairs_said": 73,
+  "pairs_right": 67,
+  "numbers": 230,
+  "numbers_right": 223,
+  "points_good": 123
+ }
+}
+  wrong leader: {'race': 'R06', 'elapsed': 30.0, 'line': '출발 30초가 지났고, 약 900m 남으며 지금 선두는 2번입니다.', 'claimed': 2, 'strip': [9, 2, 6, 10, 8]}

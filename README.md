@@ -10,10 +10,11 @@
 
 | 무엇 | 결과 | 어디서 쟀나 |
 |---|---|---|
-| 말한 번호가 실제 상위 3두였던 비율 | 92.9% (520개 중 483개) | 처음 보는 경주일 이틀, 20개 경주 |
-| 맞는 번호를 하나 이상 말한 시점 | 94.6% (295개 중 279개) | 같은 이틀 |
-| "선두는 N번" | 94.0% (149번 중 140번), 시점의 절반에서 말함 | 같은 이틀 |
-| "a번이 b번보다 앞" | 93.0% (187번 중 174번) | 같은 이틀 |
+| 말한 번호가 실제 상위 3두였던 비율 | 94.3% (1459개 중 1376개) | 처음 보는 경주일 엿새, 60개 경주 |
+| 맞는 번호를 하나 이상 말한 시점 | 89.0% (874개 중 778개). 날에 따라 82~95% | 같은 엿새 |
+| "선두는 N번" | 87.5% (344번 중 301번). 처음 이틀에서는 94.0%였음 | 나중의 나흘, 선두 기준값 0.5 |
+| "a번이 b번보다 앞" | 91.4% (336번 중 307번). 처음 이틀에서는 93.0% | 나중의 나흘 |
+| Qwen 없이 분류기만 쓴 빠른 구성 | A 94.3%, B 87.6%. 시점당 8.3초 → 2.3초 | 나중의 나흘 |
 | 틀린 번호가 들어간 중계 문장 | 화면만 본 모델 138개 → 식별기를 쓴 중계 7개 (140개 시점) | 2026-11-15, 11개 경주 |
 
 - 숫자는 모두 **방송 순위 띠가 화면에 있는 구간**의 것입니다. 결승 직전 30초쯤은 띠가 없고, 모자색만으로는 번호를 믿을 수 없어 "확정 정보로 메우는 구간"으로 정했습니다.
@@ -29,6 +30,7 @@
 | [ON-AIR_진행공유.md](ON-AIR_진행공유.md) | 프로젝트 초기 공유 문서(식별기 v4까지) |
 | [identifier/README_KO.md](experiments/onair_labelset_20261117/identifier/README_KO.md) | 식별기 프로그램 사용법과 출력 |
 | [leader/RESULT_KO.md](experiments/onair_labelset_20261117/leader/RESULT_KO.md) | 선두권 안의 순서(선두, 앞뒤) |
+| [night/RESULT_KO.md](experiments/onair_labelset_20261117/night/RESULT_KO.md) | 새 경주일 나흘에서 다시 잰 것, Qwen 없는 빠른 구성, 빈 시점 메우기, 순서를 넣은 중계 |
 | [order2/RESULT_KO.md](experiments/onair_labelset_20261117/order2/RESULT_KO.md), [order2b/RESULT_KO.md](experiments/onair_labelset_20261117/order2b/RESULT_KO.md) | 지금 구성(L1)의 확인 결과 |
 | [live_commentary/RESULT_KO.md](experiments/onair_labelset_20261117/live_commentary/RESULT_KO.md) | 식별기를 써서 실제로 중계해 본 시연 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간이 왜 안 되는지 |
@@ -44,6 +46,7 @@ experiments/
     code/                              실험 코드
     order2/, order2b/, temporal/       지금 구성(L1)과 그 앞 단계(T1)의 시험
     leader/                            선두권 안의 순서
+    night/                             새 나흘에서 다시 재기, 빠른 구성, 빈 시점 메우기
     finish/, da/, confirm/, weak/      결승선 구간, 검출 바꾸기, 통하지 않은 시도
     commentary2/, live_commentary/     중계 비교 실험과 시연
     team_page/                         정리 페이지 원본 (build.py로 docs/index.html을 만듦)
@@ -54,11 +57,13 @@ experiments/
 
 ## 실행
 
-GPU 서버에서 실행합니다(RTX 3090에서 확인). Python 패키지(PyTorch, torchvision, OpenCV, scikit-learn)와 로컬 Ollama의 Qwen 9B가 필요합니다. 유료 API는 쓰지 않습니다.
+GPU 서버에서 실행합니다(RTX 3090에서 확인). Python 패키지(PyTorch, torchvision, OpenCV, scikit-learn)가 필요하고, 기본 구성은 로컬 Ollama의 Qwen 9B도 씁니다. 유료 API는 쓰지 않습니다.
 
 ```bash
 python experiments/onair_labelset_20261117/identifier/identify_l1.py --video 경주.mp4 --out 결과.json
 ```
+
+`--fast`를 붙이면 Qwen 없이 돕니다(시점당 2초쯤). `--fast --fallback --leader-tau 0.5`는 밤 실험에서 나온 묶음 구성(F2)이고, 묶은 상태로는 아직 새 날에서 확인하지 못했습니다.
 
 모델 파일(모자 분류기, 앞선 말 고르기 모델, 선두 모델)과 영상은 저장소에 없습니다. 학습 코드는 `code/`에 있습니다(`wk1_train_weak.py`, `or2_train_final.py`, `ld2_train_final.py` 등).
 

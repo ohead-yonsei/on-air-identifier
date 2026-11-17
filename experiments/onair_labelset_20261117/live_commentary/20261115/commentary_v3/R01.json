@@ -1,0 +1,514 @@
+{
+ "race": "R01",
+ "info": {
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "start_video_time": 13.2,
+  "facts_source": "race_facts.json (checked by eye)"
+ },
+ "expected_finish_seconds": 62.0,
+ "rows": [
+  {
+   "k": 0,
+   "t": 25.0,
+   "elapsed": 11.8,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 1,
+   "t": 28.0,
+   "elapsed": 14.8,
+   "phase": "경주 중반",
+   "mode": "confirmed",
+   "identifier": [],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1000m 경주 중반, 출발 후 15초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 2,
+   "t": 31.0,
+   "elapsed": 17.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    3,
+    5
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     5,
+     3
+    ]
+   ],
+   "allowed": [
+    3,
+    5
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "지금 선두권에는 3번과 5번이 있고, 출발 후 18초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [
+    3,
+    5
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    3,
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "k": 3,
+   "t": 34.0,
+   "elapsed": 20.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    3
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    3
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "출발 후 21초, 약 700m 남기고 선두권에는 3번이 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    3
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ]
+  },
+  {
+   "k": 4,
+   "t": 37.0,
+   "elapsed": 23.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    3
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    3
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "출발 후 24초, 약 600m 남기고 선두권에는 3번이 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    3
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ]
+  },
+  {
+   "k": 5,
+   "t": 40.0,
+   "elapsed": 26.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    5
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    5
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "출발 후 27초, 약 600m 남기고 선두권에는 5번이 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    5
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ]
+  },
+  {
+   "k": 6,
+   "t": 43.0,
+   "elapsed": 29.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    4
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    4
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "출발 후 30초, 약 500m 남기고 선두권에는 4번이 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    4
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    5,
+    4,
+    3,
+    8,
+    6
+   ]
+  },
+  {
+   "k": 7,
+   "t": 46.0,
+   "elapsed": 32.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    5
+   ],
+   "identifier_leader": 4,
+   "identifier_order": [
+    [
+     4,
+     5
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    4
+   ],
+   "line": "서울 1경주 후반, 출발 후 33초가 지났으며 약 500m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    4,
+    5,
+    8,
+    3,
+    6
+   ]
+  },
+  {
+   "k": 8,
+   "t": 49.0,
+   "elapsed": 35.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    8
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    4
+   ],
+   "line": "서울 1경주 후반, 출발 후 36초가 지났으며 약 400m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 9,
+   "t": 52.0,
+   "elapsed": 38.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    5,
+    8
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    4
+   ],
+   "line": "서울 1경주 후반, 출발 후 39초가 지났으며 약 400m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 10,
+   "t": 55.0,
+   "elapsed": 41.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    8
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 후반, 출발 후 42초가 지났으며 약 300m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 11,
+   "t": 58.0,
+   "elapsed": 44.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    8
+   ],
+   "identifier_leader": 4,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 후반, 출발 후 45초가 지났으며 약 300m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 12,
+   "t": 61.0,
+   "elapsed": 47.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    8
+   ],
+   "identifier_leader": 4,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 후반, 출발 후 48초가 지났으며 약 200m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 13,
+   "t": 64.0,
+   "elapsed": 50.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4,
+    8
+   ],
+   "identifier_leader": 4,
+   "identifier_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 후반, 출발 51초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 14,
+   "t": 67.0,
+   "elapsed": 53.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    4
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 후반, 출발 후 54초가 지났으며 약 100m 남았습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 15,
+   "t": 70.0,
+   "elapsed": 56.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [
+    8
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 결승선 직전, 출발 57초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 16,
+   "t": 73.0,
+   "elapsed": 59.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 결승선 직전, 출발 60초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 17,
+   "t": 76.0,
+   "elapsed": 62.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "서울 1경주 결승선 직전, 출발 63초가 지났습니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  }
+ ]
+}

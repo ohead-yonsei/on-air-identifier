@@ -1,0 +1,78 @@
+{
+ "days": [
+  "da/otherday2",
+  "da/otherday3",
+  "da/otherday4",
+  "da/otherday5"
+ ],
+ "sure_riders": 10530,
+ "features": [
+  "rank_y",
+  "rank_x_right",
+  "rank_x_left",
+  "rank_h",
+  "rank_y/n",
+  "rank_xr/n",
+  "rank_h/n",
+  "n",
+  "yb",
+  "cx",
+  "h",
+  "h/hmax",
+  "yb-mean",
+  "cx-mean",
+  "cx_std",
+  "yb_std",
+  "corr_xy",
+  "h_mean",
+  "p"
+ ],
+ "l1_fast": {
+  "share_positive": 0.3282051282051282,
+  "importance": {
+   "rank_y": 0.314,
+   "rank_x_right": 0.0016,
+   "rank_x_left": 0.0004,
+   "rank_h": 0.0042,
+   "rank_y/n": 0.2645,
+   "rank_xr/n": 0.002,
+   "rank_h/n": 0.0349,
+   "n": 0.0014,
+   "yb": 0.0176,
+   "cx": 0.0259,
+   "h": 0.0228,
+   "h/hmax": 0.0135,
+   "yb-mean": 0.2232,
+   "cx-mean": 0.01,
+   "cx_std": 0.0017,
+   "yb_std": 0.0259,
+   "corr_xy": 0.0029,
+   "h_mean": 0.0123,
+   "p": 0.0212
+  }
+ },
+ "leader_fast": {
+  "share_positive": 0.10208926875593542,
+  "importance": {
+   "rank_y": 0.3221,
+   "rank_x_right": 0.0283,
+   "rank_x_left": 0.0097,
+   "rank_h": 0.0224,
+   "rank_y/n": 0.2198,
+   "rank_xr/n": 0.0644,
+   "rank_h/n": 0.0213,
+   "n": 0.0012,
+   "yb": 0.0198,
+   "cx": 0.0373,
+   "h": 0.0204,
+   "h/hmax": 0.0343,
+   "yb-mean": 0.0634,
+   "cx-mean": 0.0161,
+   "cx_std": 0.0045,
+   "yb_std": 0.034,
+   "corr_xy": 0.0438,
+   "h_mean": 0.0276,
+   "p": 0.0097
+  }
+ }
+}

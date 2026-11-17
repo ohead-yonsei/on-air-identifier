@@ -1,0 +1,29 @@
+t   23.00  statements []  strip absent (statements not validated here)
+t   26.00  statements []  strip absent (statements not validated here)
+t   29.00  statements []  strip on screen [2, 9, 8, 6, 10]
+t   32.00  statements [9]  strip on screen [2, 9, 6, 8, 10]
+t   35.00  statements [2, 9]  strip on screen [2, 9, 6, 8, 10]
+t   38.00  statements [2, 9]  strip on screen [2, 9, 6, 10, 8]
+t   41.00  statements [2, 9]  strip on screen [2, 9, 6, 10, 8]
+t   44.00  statements [2, 9]  strip on screen [9, 2, 6, 10, 8]
+t   47.00  statements [2, 9]  strip on screen [9, 2, 10, 6, 8]
+t   50.00  statements [2, 9]  strip on screen [9, 2, 10, 6, 8]
+t   53.00  statements [2, 9]  strip on screen [9, 2, 10, 6, 8]
+t   56.00  statements [2, 9]  strip on screen [9, 2, 10, 6, 8]
+t   59.00  statements [2, 10]  strip on screen [9, 10, 2, 8, 6]
+t   62.00  statements [2, 9, 10]  strip on screen [9, 10, 2, 8, 6]
+t   65.00  statements [9, 10]  strip on screen [9, 10, 2, 8, 6]
+t   68.00  statements [9]  strip on screen [9, 10, 2, 8, 6]
+t   71.00  statements [9]  strip on screen [9, 10, 8, 2, 3]
+t   74.00  statements [9, 10]  strip absent (statements not validated here)
+t   77.00  statements [8, 9, 10]  strip absent (statements not validated here)
+t   80.00  statements [9, 10]  strip absent (statements not validated here)
+t   83.00  statements [9, 10]  strip absent (statements not validated here)
+t   86.00  statements [3, 9, 10]  strip absent (statements not validated here)
+t   89.00  statements [2, 9]  strip absent (statements not validated here)
+t   92.00  statements [3]  strip absent (statements not validated here)
+t   95.00  statements [5]  strip absent (statements not validated here)
+t   98.00  statements [5]  strip absent (statements not validated here)
+t  101.00  statements [5]  strip absent (statements not validated here)
+t  104.00  statements []  strip absent (statements not validated here)
+time points 28 qwen failures 0 seconds 308.2

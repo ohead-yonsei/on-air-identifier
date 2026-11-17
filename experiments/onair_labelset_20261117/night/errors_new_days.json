@@ -1,0 +1,218 @@
+{
+ "days": [
+  "otherday8",
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "per_day": {
+  "otherday8": {
+   "points": 136,
+   "good": 116
+  },
+  "otherday9": {
+   "points": 128,
+   "good": 115
+  },
+  "otherday10": {
+   "points": 143,
+   "good": 118
+  },
+  "otherday11": {
+   "points": 172,
+   "good": 150
+  }
+ },
+ "wrong_statements": {
+  "fourth or fifth on the strip": 42,
+  "not on the strip": 4
+ },
+ "missed_points": {
+  "said nothing": 72,
+  "said only wrong numbers": 8
+ },
+ "by_stated_number": {
+  "1": {
+   "stated": 116,
+   "right": 115,
+   "fourth or fifth on the strip": 1
+  },
+  "2": {
+   "stated": 134,
+   "right": 134
+  },
+  "3": {
+   "stated": 121,
+   "right": 114,
+   "fourth or fifth on the strip": 6,
+   "not on the strip": 1
+  },
+  "4": {
+   "stated": 94,
+   "right": 91,
+   "fourth or fifth on the strip": 3
+  },
+  "5": {
+   "stated": 66,
+   "right": 62,
+   "fourth or fifth on the strip": 3,
+   "not on the strip": 1
+  },
+  "6": {
+   "stated": 92,
+   "right": 86,
+   "fourth or fifth on the strip": 6
+  },
+  "7": {
+   "stated": 59,
+   "right": 55,
+   "fourth or fifth on the strip": 4
+  },
+  "8": {
+   "stated": 90,
+   "right": 87,
+   "fourth or fifth on the strip": 3
+  },
+  "9": {
+   "stated": 55,
+   "fourth or fifth on the strip": 12,
+   "right": 41,
+   "not on the strip": 2
+  },
+  "10": {
+   "stated": 88,
+   "fourth or fifth on the strip": 4,
+   "right": 84
+  },
+  "11": {
+   "stated": 24,
+   "right": 24
+  }
+ },
+ "by_rider_height": {
+  "under 60 px": {
+   "points": 58,
+   "good": 25,
+   "statements": 37,
+   "right": 34
+  },
+  "100-160 px": {
+   "points": 206,
+   "good": 193,
+   "statements": 373,
+   "right": 360
+  },
+  "160 px or more": {
+   "points": 227,
+   "good": 204,
+   "statements": 396,
+   "right": 375
+  },
+  "60-100 px": {
+   "points": 87,
+   "good": 77,
+   "statements": 133,
+   "right": 124
+  },
+  "no riders": {
+   "points": 1,
+   "good": 0,
+   "statements": 0,
+   "right": 0
+  }
+ },
+ "by_riders_found": {
+  "7-9": {
+   "points": 316,
+   "good": 290,
+   "statements": 557,
+   "right": 532
+  },
+  "10 or more": {
+   "points": 147,
+   "good": 128,
+   "statements": 242,
+   "right": 229
+  },
+  "4-6": {
+   "points": 101,
+   "good": 79,
+   "statements": 138,
+   "right": 130
+  },
+  "0-3": {
+   "points": 15,
+   "good": 2,
+   "statements": 2,
+   "right": 2
+  }
+ },
+ "by_true_leader_number": {
+  "1": {
+   "points": 121,
+   "good": 99,
+   "first_stated": 83,
+   "first_sure_in_a_picture": 106
+  },
+  "2": {
+   "points": 109,
+   "good": 93,
+   "first_stated": 68,
+   "first_sure_in_a_picture": 88
+  },
+  "3": {
+   "points": 78,
+   "good": 68,
+   "first_stated": 62,
+   "first_sure_in_a_picture": 65
+  },
+  "4": {
+   "points": 41,
+   "good": 39,
+   "first_stated": 27,
+   "first_sure_in_a_picture": 36
+  },
+  "5": {
+   "points": 45,
+   "good": 42,
+   "first_stated": 37,
+   "first_sure_in_a_picture": 40
+  },
+  "6": {
+   "points": 61,
+   "good": 53,
+   "first_stated": 48,
+   "first_sure_in_a_picture": 52
+  },
+  "7": {
+   "points": 34,
+   "good": 26,
+   "first_stated": 21,
+   "first_sure_in_a_picture": 27
+  },
+  "8": {
+   "points": 14,
+   "good": 13,
+   "first_stated": 12,
+   "first_sure_in_a_picture": 13
+  },
+  "9": {
+   "points": 9,
+   "good": 9,
+   "first_stated": 9,
+   "first_sure_in_a_picture": 9
+  },
+  "10": {
+   "points": 48,
+   "good": 43,
+   "first_stated": 28,
+   "first_sure_in_a_picture": 37
+  },
+  "11": {
+   "points": 19,
+   "good": 14,
+   "first_stated": 12,
+   "first_sure_in_a_picture": 18
+  }
+ }
+}

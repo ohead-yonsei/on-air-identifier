@@ -31,3 +31,6 @@ experiments/onair_cap_silks_20261116/evidence/card_pdf.txt
 __pycache__/
 .DS_Store
 .claude/
+
+# frame timestamp caches written next to identifier outputs
+*.pts.json
