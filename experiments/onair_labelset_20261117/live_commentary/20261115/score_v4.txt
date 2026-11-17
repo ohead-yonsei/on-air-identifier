@@ -1,0 +1,39 @@
+{
+ "commentary": {
+  "points": 292,
+  "leader_mode": 159,
+  "leader_given": 76,
+  "points_with_strip": 128,
+  "numbers": 220,
+  "numbers_right": 210,
+  "points_with_wrong_number": 10,
+  "leader_claims": 63,
+  "leader_claims_right": 59,
+  "leader_claims_second": 4,
+  "leader_claims_third": 0,
+  "leader_claims_other": 0,
+  "leader_claims_no_reference": 13,
+  "follow_claims": 40,
+  "follow_claims_right": 40,
+  "sources": {
+   "model": 272,
+   "model_retry": 9,
+   "template": 11
+  }
+ },
+ "identifier": {
+  "strip_points": 140,
+  "leader_said": 70,
+  "leader_right": 65,
+  "leader_in_first_two": 69,
+  "pairs_said": 82,
+  "pairs_right": 78,
+  "numbers": 247,
+  "numbers_right": 237,
+  "points_good": 131
+ }
+}
+  wrong leader: {'race': 'R06', 'elapsed': 27.0, 'line': '27초가 지났고, 지금 선두는 9번 (보라색 모자) 입니다.', 'claimed': 9, 'strip': [2, 9, 6, 10, 8]}
+  wrong leader: {'race': 'R06', 'elapsed': 30.0, 'line': '30초가 지났고, 지금 선두는 2번 (노란색 모자) 입니다.', 'claimed': 2, 'strip': [9, 2, 6, 10, 8]}
+  wrong leader: {'race': 'R06', 'elapsed': 33.0, 'line': '33초가 지났고, 지금 선두는 2번입니다.', 'claimed': 2, 'strip': [9, 2, 10, 6, 8]}
+  wrong leader: {'race': 'R10', 'elapsed': 52.3, 'line': '52초가 지났고, 지금 선두는 2번이며 약 800미터의 여정이 남았습니다.', 'claimed': 2, 'strip': [1, 2, 8, 3, 6]}

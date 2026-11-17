@@ -1,0 +1,294 @@
+R01  11.8s [leader   ] leader None follow False | 지금 선두권에는 3번(빨간색 모자) 이 있습니다.
+R01  14.8s [confirmed] leader None follow False | 조금 전까지 선두권은 3번이었습니다.
+R01  17.8s [leader   ] leader None follow False | 3번 (빨간색 모자) 은 지금 선두권으로 달리고 있습니다.
+R01  20.8s [leader   ] leader None follow False | 3번은 지금 선두권으로 달리고 있습니다.
+R01  23.8s [leader   ] leader None follow False | 선두권에는 빨간색 모자 3번이 달리고 있습니다.
+R01  26.8s [leader   ] leader None follow False | 5번은 지금 선두권으로 달리고 있습니다.
+R01  29.8s [leader   ] leader None follow False | 선두권에는 검정 모자 4번이 달리고 있습니다.
+R01  32.8s [confirmed] leader None follow False | 서울 1경주 1000m 후반구간, 출발 뒤 33초가 지났습니다.
+R01  35.8s [confirmed] leader None follow False | 서울 1경주 1000m 후반구간, 출발 뒤 36초가 지났습니다.
+R01  38.8s [confirmed] leader None follow False | 서울 1경주 후반구간, 출발 뒤 39초가 지났습니다.
+R01  41.8s [confirmed] leader None follow False | 서울 1000m 후반구간, 출발 뒤 42초가 지났습니다.
+R01  44.8s [confirmed] leader None follow False | 서울 1000m 후반구간, 출발 뒤 45초가 지났습니다.
+R01  47.8s [confirmed] leader None follow False | 서울 1000m 후반구간, 출발 뒤 48초가 지났습니다.
+R01  50.8s [confirmed] leader None follow False | 서울 1000m 후반구간, 출발 뒤 51초가 지났습니다.
+R01  53.8s [confirmed] leader None follow False | 서울 1000m 후반구간, 출발 뒤 54초가 지났습니다.
+R01  56.8s [confirmed] leader None follow False | 서울 1000m 결승선 직전, 출발 뒤 57초가 지났습니다.
+R01  59.8s [confirmed] leader None follow False | 서울 1000m 결승선 직전, 출발 뒤 60초가 지났습니다.
+R01  62.8s [confirmed] leader None follow False | 서울 1000m 결승선 직전, 출발 뒤 63초가 지났습니다.
+R02  12.3s [leader   ] leader None follow False | 지금 선두권에는 6번(초록색 모자) 이 있습니다.
+R02  15.3s [leader   ] leader None follow False | 5번과 6번이 선두권으로 약 1000m 를 남겨두고 있습니다.
+R02  18.3s [leader   ] leader 1 follow True | 지금 선두는 1번(흰색 모자) 이며, 뒤를 이어 5번과 6번이 따르고 있습니다.
+R02  21.3s [leader   ] leader None follow False | 5번과 6번이 선두권으로 약 900m 를 남겨두고 있습니다.
+R02  24.3s [leader   ] leader None follow False | 지금 선두권은 5번과 6번이며, 약 800m 를 남겨두고 있습니다.
+R02  27.3s [leader   ] leader None follow False | 지금 선두권은 1번과 6번이며, 약 800m 를 남겨두고 있습니다.
+R02  30.3s [leader   ] leader None follow False | 지금 선두권은 1번과 5번이며, 약 700m 를 남겨두고 있습니다.
+R02  33.3s [leader   ] leader None follow False | 지금 선두권은 1번과 5번이며, 약 700m 를 남겨두고 있습니다.
+R02  36.3s [leader   ] leader None follow False | 지금 선두권은 5번과 6번이며, 약 600m 를 남겨두고 있습니다.
+R02  39.3s [leader   ] leader 1 follow False | 지금 선두는 1번이며, 5번과 6번이 선두권에 함께 있습니다.
+R02  42.3s [leader   ] leader None follow False | 지금 선두권에는 1번과 6번이 있으며, 약 500m 를 남겨두고 있습니다.
+R02  45.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 45초가 지났습니다.
+R02  48.3s [confirmed] leader None follow False | 조금 전까지 선두권으로 확인된 1번과 6번이 서울 2경주 1200m 후반, 출발 뒤 48초가 지났습니다.
+R02  51.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 51초가 지났습니다. 약 400m 남았습니다.
+R02  54.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 54초가 지났습니다. 약 300m 남았습니다.
+R02  57.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 57초가 지났습니다. 약 300m 남았습니다.
+R02  60.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 60초가 지났습니다. 약 200m 남았습니다.
+R02  63.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 63초가 지났습니다. 약 200m 남았습니다.
+R02  66.3s [confirmed] leader None follow False | 서울 2경주 1200m 후반, 출발 뒤 66초가 지났습니다. 약 100m 남았습니다.
+R02  69.3s [confirmed] leader None follow False | 서울 2경주 1200m 결승선 직전, 출발 뒤 69초가 지났습니다. 약 100m 남았습니다.
+R02  72.3s [confirmed] leader None follow False | 서울 2경주 1200m 결승선 직전, 출발 뒤 72초가 지났습니다.
+R02  75.3s [confirmed] leader None follow False | 서울 2경주 1200m, 출발 뒤 75초가 지났습니다.
+R03  13.8s [leader   ] leader None follow False | 지금 선두권에는 3번과 6번이 있고, 약 1000m 가 남았습니다.
+R03  16.8s [leader   ] leader None follow False | 17초가 지났고, 선두권에는 6번과 11번이 있습니다.
+R03  19.8s [leader   ] leader 6 follow True | 지금 선두는 6번이며, 그 뒤를 9번이 따르고 있습니다.
+R03  22.8s [leader   ] leader 6 follow True | 지금 선두는 6번이며, 그 뒤를 11번이 따르고 있습니다.
+R03  25.8s [leader   ] leader 6 follow False | 지금 선두는 6번이며, 약 800m 남았습니다.
+R03  28.8s [leader   ] leader 6 follow False | 지금 선두는 6번이며, 선두권에 함께 있는 9번과 약 700m 남았습니다.
+R03  31.8s [leader   ] leader None follow False | 선두권에 있는 6번과 9번이 약 700m 남겨 경주를 이어갑니다.
+R03  34.8s [leader   ] leader 6 follow True | 지금 선두는 6번이며, 뒤를 따르는 9번과 약 600m 남았습니다.
+R03  37.8s [leader   ] leader None follow False | 선두권에 있는 6번과 9번이 약 600m 남겨 경주를 이어갑니다.
+R03  40.8s [leader   ] leader None follow False | 선두권에 있는 6번과 9번이 약 500m 남겨 경주를 이어갑니다.
+R03  43.8s [leader   ] leader None follow False | 지금 선두권에 있는 6번과 9번이 약 500m 남겨 경주를 이어갑니다.
+R03  46.8s [confirmed] leader None follow False | 47초가 지난 후반 구간, 조금 전까지 선두권으로 확인된 6번과 9번이 약 400m 남겨 경주를 이어갑니다.
+R03  49.8s [confirmed] leader None follow False | 47초가 지난 후반, 조금 전까지 선두권 6번과 9번이 약 400m 남아 경주를 이어갑니다.
+R03  52.8s [confirmed] leader None follow False | 53초가 지난 후반 구간, 조금 전까지 선두권으로 확인된 6번과 9번이 약 300m 남아 경주를 이어갑니다.
+R03  55.8s [confirmed] leader None follow False | 56초가 지났습니다, 후반 구간, 약 300m 남아 경주를 이어갑니다.
+R03  58.8s [confirmed] leader None follow False | 59초가 지났습니다, 서울 3경주 후반 구간, 약 300m 남아 경주를 이어갑니다.
+R03  61.8s [confirmed] leader None follow False | 62초가 지났습니다, 서울 3경주 후반 구간, 약 200m 남아 경주를 이어갑니다.
+R03  64.8s [confirmed] leader None follow False | 65초가 지났습니다, 서울 3경주 후반 구간, 약 200m 남아 경주를 이어갑니다.
+R03  67.8s [confirmed] leader None follow False | 68초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.
+R03  70.8s [confirmed] leader None follow False | 71초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.
+R03  73.8s [confirmed] leader None follow False | 74초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.
+R03  76.8s [confirmed] leader None follow False | 77초가 지났습니다, 서울 3경주 결승선 약 100m 남아 경주를 이어갑니다.
+R04  14.0s [leader   ] leader None follow False | 지금 선두권에는 2번(노란색 모자) 이 있습니다.
+R04  17.0s [leader   ] leader None follow False | 선두권에는 3번 (빨간색 모자) 이 있습니다.
+R04  20.0s [leader   ] leader None follow False | 남은 약 1000m 의 선두권에는 2번과 3번 이 있습니다.
+R04  23.0s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 뒤따르는 7번입니다.
+R04  26.0s [leader   ] leader None follow False | 남은 약 900m 의 선두권에는 3번과 7번 이 있습니다.
+R04  29.0s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤따르는 7번입니다.
+R04  32.0s [leader   ] leader None follow False | 남은 약 800m 의 선두권에는 3번, 7번, 9번 이 있습니다.
+R04  35.0s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤따르는 7번입니다.
+R04  38.0s [leader   ] leader 3 follow False | 지금 선두는 3번이며, 선두권에 함께 있는 7번입니다.
+R04  41.0s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤따르는 7번입니다.
+R04  44.0s [leader   ] leader 3 follow False | 지금 선두는 3번이며, 선두권에 함께 있는 1번과 7번입니다.
+R04  47.0s [leader   ] leader None follow False | 선두권에는 빨간색 모자 3번이 달리고 있습니다.
+R04  50.0s [leader   ] leader 7 follow True | 지금 선두는 7번이며, 뒤따르는 2번과 3번은 약 500m 남았습니다.
+R04  53.0s [confirmed] leader None follow False | 53초가 지났고, 후반 구간에서 약 500m 남았습니다.
+R04  56.0s [confirmed] leader None follow False | 서울 4경주 1300m 후반, 출발 뒤 56초가 지났고 약 400m 남았습니다.
+R04  59.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 59초가 지났고 약 400m 남았습니다.
+R04  62.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 62초가 지났고 약 300m 남았습니다.
+R04  65.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 65초가 지났고 약 300m 남았습니다.
+R04  68.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 68초가 지났고 약 200m 남았습니다.
+R04  71.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 71초가 지났고 약 200m 남았습니다.
+R04  74.0s [confirmed] leader None follow False | 서울 4경주 후반, 출발 뒤 74초가 지났고 약 100m 남았습니다.
+R04  77.0s [confirmed] leader None follow False | 서울 4경주 결승선 직전, 출발 뒤 77초가 지났습니다.
+R04  80.0s [confirmed] leader None follow False | 서울 4경주 결승선 직전, 출발 뒤 80초가 지났습니다.
+R04  83.0s [confirmed] leader None follow False | 서울 4경주 결승선 직전, 출발 뒤 83초가 지났습니다.
+R05   1.0s [confirmed] leader None follow False | 서울 5경주 1300m 출발 직후, 1초가 지났습니다.
+R05   4.0s [confirmed] leader None follow False | 서울 5경주 1300m 출발 후 4초가 지났습니다.
+R05   7.0s [confirmed] leader None follow False | 서울 5경주 1300m, 출발 직후 7초가 지났습니다.
+R05  10.0s [leader   ] leader None follow False | 10초가 지났고, 지금 선두권에는 8번(분홍색 모자)이 있습니다.
+R05  13.0s [leader   ] leader None follow False | 13초가 지났고, 지금 선두권에는 8번(분홍색 모자) 이 있습니다.
+R05  16.0s [leader   ] leader 8 follow True | 16초가 지났고, 지금 선두는 8번이며, 10번이 뒤따르고 있습니다.
+R05  19.0s [leader   ] leader None follow False | 19초가 지났고, 선두권에는 8번(분홍색 모자) 이 있습니다.
+R05  22.0s [leader   ] leader 8 follow True | 22초가 지났고, 지금 선두는 8번이며, 4번이 뒤따르고 있습니다.
+R05  25.0s [leader   ] leader None follow False | 25초가 지났고, 선두권에는 4번과 8번이 있습니다.
+R05  28.0s [leader   ] leader 8 follow True | 28초가 지났고, 지금 선두는 8번이며, 4번이 뒤따르고 있습니다.
+R05  31.0s [leader   ] leader 8 follow True | 31초가 지나고, 지금 선두는 8번이며, 약 800m 를 남겨두고 있습니다.
+R05  34.0s [leader   ] leader 8 follow True | 34초가 지났고, 지금 선두는 8번이며, 4번이 뒤따르고 있습니다.
+R05  37.0s [leader   ] leader 8 follow False | 37초가 지나고, 지금 선두는 8번이며, 약 700m 를 남겨두고 있습니다.
+R05  40.0s [leader   ] leader 8 follow True | 40초가 지났고, 지금 선두는 8번이며, 4번이 뒤따르고 있습니다.
+R05  43.0s [leader   ] leader 8 follow False | 43초가 지났고, 지금 선두는 8번이며, 약 600m 를 남겨두고 있습니다.
+R05  46.0s [leader   ] leader 8 follow False | 46초가 지났고, 지금 선두는 8번이며, 약 600m 를 남겨두고 있습니다.
+R05  49.0s [leader   ] leader None follow False | 49초가 지났고, 4번과 8번이 선두권이며 약 500m 를 남겨두고 있습니다.
+R05  52.0s [leader   ] leader 8 follow True | 52초가 지났고, 지금 선두는 8번이며 약 500m 를 남겨두고 있습니다.
+R05  55.0s [confirmed] leader None follow False | 55초가 지났고, 경주 후반 400m 를 남겨둔 서울 5경주입니다.
+R05  58.0s [confirmed] leader None follow False | 58초가 지났고, 서울 5경주 후반 약 400m 를 남겨둔 상태입니다.
+R05  61.0s [confirmed] leader None follow False | 61초가 지났고, 서울 5경주 후반 약 300m 를 남겨둔 상태이며, 조금 전까지 선두권으로 확인된 번호는 4번과 8번입니다.
+R05  64.0s [confirmed] leader None follow False | 64초가 지났고, 서울 5경주 후반 약 300m 를 남겨둔 상태입니다.
+R05  67.0s [confirmed] leader None follow False | 67초가 지났으며, 서울 5경주 후반 약 200m 를 남겨둔 상태입니다.
+R05  70.0s [confirmed] leader None follow False | 70초가 지났으며, 서울 5경주 후반 약 200m 를 남겨두었습니다.
+R05  73.0s [confirmed] leader None follow False | 73초가 지났으며, 서울 5경주 후반 약 200m 를 남겨두었습니다.
+R05  76.0s [confirmed] leader None follow False | 76초가 지났으며, 결승선 직전 서울 5경주 약 100m 를 남겨두었습니다.
+R05  79.0s [confirmed] leader None follow False | 79초가 지났으며, 결승선 직전 서울 5경주 약 100m 를 남겨두었습니다.
+R05  82.0s [confirmed] leader None follow False | 82초가 지났으며, 결승선 직전 서울 5경주 약 100m 를 남겨두었습니다.
+R05  85.0s [confirmed] leader None follow False | 85초가 지났으며, 결승선 통과 무렵 서울 5경주를 진행 중입니다.
+R06   9.0s [leader   ] leader None follow False | 9초가 지났고, 지금 선두권에는 1번(흰색 모자) 이 있어요.
+R06  12.0s [leader   ] leader None follow False | 12초가 지났고, 지금 선두권에는 1번(흰색 모자) 이 있어요.
+R06  15.0s [confirmed] leader None follow False | 서울 6경주 1400m 중반 구간에서 출발 뒤 15초가 지났고, 약 1200m 남았습니다.
+R06  18.0s [leader   ] leader None follow False | 18초가 지났고, 지금 선두권에는 9번(보라색 모자) 이 있어요.
+R06  21.0s [leader   ] leader None follow False | 21초가 지났고, 지금 선두권에는 2번과 9번이 있어요.
+R06  24.0s [leader   ] leader 2 follow False | 24초가 지났고, 지금 선두는 2번 (노란색 모자) 입니다.
+R06  27.0s [leader   ] leader 9 follow False | 27초가 지났고, 지금 선두는 9번 (보라색 모자) 입니다.
+R06  30.0s [leader   ] leader 2 follow False | 30초가 지났고, 지금 선두는 2번 (노란색 모자) 입니다.
+R06  33.0s [leader   ] leader 2 follow False | 33초가 지났고, 지금 선두는 2번입니다.
+R06  36.0s [leader   ] leader 9 follow True | 36초가 지났고, 지금 선두는 9번입니다.
+R06  39.0s [leader   ] leader 9 follow True | 39초가 지났고, 지금 선두는 9번이며 2번이 뒤따르고 있습니다.
+R06  42.0s [leader   ] leader 9 follow True | 42초가 지났고, 지금 선두는 9번이며 2번이 뒤따르고 있습니다.
+R06  45.0s [leader   ] leader None follow False | 45초가 지났고, 2번과 10번이 선두권에서 경쟁하고 있습니다.
+R06  48.0s [leader   ] leader 9 follow True | 48초가 지났고, 지금 선두는 9번이며 2번과 10번이 뒤따르고 있습니다.
+R06  51.0s [leader   ] leader None follow False | 51초가 지났고, 지금 선두권에는 9번과 10번이 있습니다.
+R06  54.0s [leader   ] leader None follow False | 선두권에는 보라색 모자 9번이 달리고 있습니다.
+R06  57.0s [leader   ] leader None follow False | 57초가 흘렀고, 선두권에는 9번과 10번이 달리고 있습니다.
+R06  60.0s [confirmed] leader None follow False | 60초가 흘렀고, 서울 6경주 1400m 후반에 약 500m 남았습니다.
+R06  63.0s [confirmed] leader None follow False | 63초가 흘렀고, 서울 6경주 후반에 약 400m 남았습니다.
+R06  66.0s [confirmed] leader None follow False | 66초가 흘렀고, 서울 6경주 후반에 약 400m 남았습니다.
+R06  69.0s [confirmed] leader None follow False | 69초가 흘렀고, 서울 6경주 후반에 약 300m 남았습니다.
+R06  72.0s [confirmed] leader None follow False | 72초가 흘렀고, 서울 6경주 후반에 약 300m 남았습니다.
+R06  75.0s [confirmed] leader None follow False | 75초가 흘렀고, 서울 6경주 후반에 약 200m 남았습니다.
+R06  78.0s [confirmed] leader None follow False | 78초가 흘렀고, 서울 6경주 후반에 약 200m 남았습니다.
+R06  81.0s [confirmed] leader None follow False | 81초가 흘렀고, 서울 6경주 결승선 직전 약 100m 남았습니다.
+R06  84.0s [confirmed] leader None follow False | 84초가 흘렀고, 결승선 직전 약 100m 남았습니다.
+R06  87.0s [confirmed] leader None follow False | 87초가 흘렀고, 서울 6경주 결승선 직전 약 100m 남았습니다.
+R06  90.0s [confirmed] leader None follow False | 90초가 흘렀고, 서울 6경주 결승선 통과 무렵입니다.
+R07   9.0s [leader   ] leader 1 follow True | 지금 선두는 1번이고, 뒤를 이어서 달리는 3번도 있습니다.
+R07  12.0s [leader   ] leader None follow False | 지금 선두권에 1번이 있고, 약 1500m 남았습니다.
+R07  15.0s [leader   ] leader None follow False | 지금 선두권에 1번이 있고, 약 1500m 남았습니다.
+R07  18.0s [leader   ] leader None follow False | 지금 선두권에 3번(빨간색 모자)이 있고, 약 1400m 남았습니다.
+R07  21.0s [leader   ] leader None follow False | 지금 선두권에 1번과 3번(빨간색 모자)이 있고, 약 1400m 남았습니다.
+R07  24.0s [leader   ] leader None follow False | 지금 선두권에 3번(빨간색 모자)이 있고, 약 1300m 남았습니다.
+R07  27.0s [leader   ] leader None follow False | 지금 선두권에 9번(보라색 모자)이 있고, 약 1300m 남았습니다.
+R07  30.0s [leader   ] leader 1 follow True | 지금 선두에 1번 (흰색 모자) 이 있고, 3번 (빨간색 모자) 이 뒤따릅니다.
+R07  33.0s [leader   ] leader 1 follow False | 지금 선두에 1번 (흰색 모자) 이 있고, 약 1200m 남았습니다.
+R07  36.0s [leader   ] leader 1 follow True | 지금 선두는 1번이고, 3번이 뒤따르며 약 1200m 남았습니다.
+R07  39.0s [leader   ] leader None follow False | 선두권에는 1번 (흰색 모자) 이 있으며, 약 1100m 남았습니다.
+R07  42.0s [confirmed] leader None follow False | 서울 7경주 1700m, 출발 뒤 42초가 지났습니다.
+R07  45.0s [leader   ] leader None follow False | 선두권에는 3번 (빨간색 모자) 이 있으며, 약 1000m 남았습니다.
+R07  48.0s [leader   ] leader 1 follow True | 지금 선두는 1번 (흰색 모자) 입니다. 뒤따르는 3번 (빨간색 모자) 이 있습니다.
+R07  51.0s [leader   ] leader None follow False | 선두권에는 1번, 3번, 5번이 있고 약 900m 남았습니다.
+R07  54.0s [leader   ] leader None follow False | 선두권에는 3번, 4번, 5번이 있고 약 900m 남았습니다.
+R07  57.0s [leader   ] leader None follow False | 지금 선두권에는 3번, 4번, 5번이 있고 약 800m 남았습니다.
+R07  60.0s [leader   ] leader 1 follow True | 지금 선두는 1번이며, 뒤따르는 말들이 약 800m 남았습니다.
+R07  63.0s [leader   ] leader None follow False | 지금 선두권에는 3번, 4번이 있고 약 700m 남았습니다.
+R07  66.0s [leader   ] leader None follow False | 지금 선두권에는 3번이 있고 약 700m 남았습니다.
+R07  69.0s [leader   ] leader None follow False | 지금 선두권에는 1번과 3번이 있고 약 700m 남았습니다.
+R07  72.0s [leader   ] leader None follow False | 지금 선두권에는 4번과 7번이 있고 약 600m 남았습니다.
+R07  75.0s [leader   ] leader None follow False | 선두권에는 검정 모자 4번이 달리고 있습니다.
+R07  78.0s [leader   ] leader None follow False | 지금 선두권에는 3번과 4번이 달려가고 있습니다.
+R07  81.0s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤에서는 1번과 4번이 추격하고 있습니다.
+R07  84.0s [confirmed] leader None follow False | 서울 7경주 1700m 후반 84초 지났으며, 약 400m 남았습니다.
+R07  87.0s [confirmed] leader None follow False | 서울 7경주 후반 87초 지났으며, 약 400m 남았습니다. 조금 전까지 선두권은 1번과 3번, 4번이었습니다.
+R07  90.0s [confirmed] leader None follow False | 서울 7경주 후반 90초 지났으며, 약 300m 남았습니다.
+R07  93.0s [confirmed] leader None follow False | 서울 7경주 후반 93초가 지나고, 약 300m 남았습니다.
+R07  96.0s [confirmed] leader None follow False | 서울 7경주 후반 96초가 지나, 약 200m 남았습니다.
+R07  99.0s [confirmed] leader None follow False | 서울 7경주 후반 99초가 지나, 약 200m 남았습니다.
+R07 102.0s [confirmed] leader None follow False | 서울 7경주 후반 102초가 지나, 약 200m 남았습니다.
+R07 105.0s [confirmed] leader None follow False | 서울 7경주 결승선 직전, 출발 뒤 105초가 지났습니다.
+R07 108.0s [confirmed] leader None follow False | 서울 7경주 결승선 직전, 출발 뒤 108초가 지났습니다.
+R07 111.0s [confirmed] leader None follow False | 서울 7경주, 출발 뒤 111초가 지났습니다.
+R08  12.0s [leader   ] leader None follow False | 지금 선두권에는 5번과 6번이 있습니다.
+R08  15.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번과 약 1000m를 남겨두고 있습니다.
+R08  18.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번과 약 900m 를 남겨두고 있습니다.
+R08  21.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번과 약 900m 를 남겨두고 있습니다.
+R08  24.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번과 약 800m 를 남겨두고 있습니다.
+R08  27.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번과 약 800m 를 남겨두고 있습니다.
+R08  30.0s [leader   ] leader None follow False | 지금 선두권에는 2번과 6번이 있으며, 약 700m 를 남기고 경주 중반입니다.
+R08  33.0s [leader   ] leader None follow False | 선두권에는 6번이 있으며, 약 700m 를 남기고 경주 중반입니다.
+R08  36.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 약 600m 를 남기고 있습니다.
+R08  39.0s [leader   ] leader None follow False | 선두권에는 6번이 있으며, 약 600m 를 남기고 경주 중반입니다.
+R08  42.0s [leader   ] leader 5 follow True | 지금 선두는 5번이며, 뒤따르는 6번이 약 500m 를 남겨 경주 중반입니다.
+R08  45.0s [confirmed] leader None follow False | 서울 8경주 1200m, 출발 후 45초가 지났고, 후반 구간입니다.
+R08  48.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 48초가 지났습니다. 후반 구간이며, 약 400m 를 남겨둔 상태입니다.
+R08  51.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 51초가 지났습니다. 후반 구간이며 약 400m 를 남겨두고 있습니다.
+R08  54.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 54초가 지났습니다. 후반 구간이며 약 300m 를 남겨두고 있습니다.
+R08  57.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 57초가 지났습니다. 후반 구간이며 약 300m 를 남겨두고 있습니다.
+R08  60.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 60초가 지났습니다. 후반 구간이며 약 200m 를 남겨두고 있습니다.
+R08  63.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 63초가 지났습니다. 후반 구간이며 약 200m 를 남겨두고 있습니다.
+R08  66.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 66초가 지났습니다. 후반 구간이며 약 100m 를 남겨두고 있습니다.
+R08  69.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 69초가 지났습니다. 결승선 직전이며 약 100m 를 남겨두고 있습니다.
+R08  72.0s [confirmed] leader None follow False | 서울 8경주, 출발 후 72초가 지났습니다. 결승선 직전이며 약 100m 를 남겨두고 있습니다.
+R09   4.9s [confirmed] leader None follow False | 서울 9경주, 출발 후 5초가 흘렀습니다.
+R09   7.9s [confirmed] leader None follow False | 서울 9경주, 출발 후 8초가 흘렀습니다.
+R09  10.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  13.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  16.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  19.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  22.9s [confirmed] leader None follow False | 서울 9경주 1800m 경주 중반, 출발 뒤 23초가 지났고 약 1500m 남았습니다.
+R09  25.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  28.9s [leader   ] leader None follow False | 선두권에는 노란색 모자 2번, 빨간색 모자 3번이 달리고 있습니다.
+R09  31.9s [leader   ] leader 3 follow True | 지금 선두는 3번이고, 곧이어 2번이 뒤따릅니다.
+R09  34.9s [leader   ] leader None follow False | 선두권에는 빨간색 모자 3번이 달리고 있습니다.
+R09  37.9s [leader   ] leader 3 follow False | 선두는 빨간색 모자 3번입니다.
+R09  40.9s [leader   ] leader 3 follow False | 지금 선두는 3번이며, 선두권에 함께 있는 것은 2번입니다.
+R09  43.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤를 따라가는 것이 2번입니다.
+R09  46.9s [leader   ] leader None follow False | 지금 선두권에는 2번과 3번이 있으며, 약 1100m 를 남겨두고 있습니다.
+R09  49.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 뒤를 따르는 말은 2번과 6번입니다.
+R09  52.9s [leader   ] leader None follow False | 지금 선두권에는 6번과 다른 말들이 있으며, 약 1000m 를 남겨두고 있습니다.
+R09  55.9s [leader   ] leader 3 follow True | 선두는 빨간색 모자 3번, 그 뒤를 2번이 따르고 있습니다.
+R09  58.9s [leader   ] leader 3 follow True | 선두는 빨간색 모자 3번이며, 노란색 모자 2번이 따르고 있습니다.
+R09  61.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 노란색 모자 2번이 따르고 있습니다.
+R09  64.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 노란색 모자 2번이 따르고 있습니다.
+R09  67.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 노란색 모자 2번이 따르고 있습니다.
+R09  70.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 노란색 모자 2번이 따르고 있습니다.
+R09  73.9s [leader   ] leader 3 follow False | 지금 선두는 3번이며, 남은 거리는 약 700m 입니다.
+R09  76.9s [leader   ] leader None follow False | 선두권에는 2번과 3번이, 남은 거리는 약 600m 입니다.
+R09  79.9s [leader   ] leader 3 follow True | 지금 선두는 3번이며, 2번이 뒤따르고 약 600m 남았습니다.
+R09  82.9s [leader   ] leader None follow False | 선두권에는 노란색 모자 2번이 달리고 있습니다.
+R09  85.9s [leader   ] leader None follow False | 선두권에 2번이, 약 500m 남았습니다.
+R09  88.9s [confirmed] leader None follow False | 서울 9경주 1800m 경주 후반에 출발 뒤 89초가 지났습니다.
+R09  91.9s [confirmed] leader None follow False | 서울 9경주 1800m 후반에 출발 뒤 92초가 지났습니다.
+R09  94.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 95초가 지났습니다.
+R09  97.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 98초가 지났습니다.
+R09 100.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 101초가 지났습니다.
+R09 103.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 104초가 지났습니다.
+R09 106.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 107초가 지났습니다.
+R09 109.9s [confirmed] leader None follow False | 서울 9경주 후반에 출발 뒤 107초가 지났습니다.
+R09 112.9s [confirmed] leader None follow False | 서울 9경주 결승선 직전, 출발 뒤 113초가 지났습니다.
+R09 115.9s [confirmed] leader None follow False | 서울 9경주 결승선 직전, 출발 뒤 116초가 지났습니다.
+R09 118.9s [confirmed] leader None follow False | 서울 9경주 결승선 직전, 출발 뒤 119초가 지났습니다.
+R10  16.3s [confirmed] leader None follow False | 서울 10경주 1600m, 경주 중반에 들어와 이제 약 1400m 남았습니다.
+R10  19.3s [leader   ] leader None follow False | 1번이 선두권에 있네요.
+R10  22.3s [confirmed] leader None follow False | 서울 10경주 1600m, 경주 중반에 들어와 이제 약 1300m 남았습니다.
+R10  25.3s [confirmed] leader None follow False | 출발 25초가 지난 서울 10경주 중반, 1번은 조금 전까지 선두권으로 확인됐습니다.
+R10  28.3s [confirmed] leader None follow False | 출발 28초가 지난 서울 10경주 중반, 이제 약 1200m 남았습니다.
+R10  31.3s [confirmed] leader None follow False | 출발 31초가 지난 서울 10경주 중반, 이제 약 1100m 남았습니다.
+R10  34.3s [leader   ] leader 1 follow True | 지금 선두는 1번, 뒤에는 2번이 따르고 있습니다.
+R10  37.3s [leader   ] leader None follow False | 37초가 지났고, 지금 선두권에는 2번과 3번이 있습니다.
+R10  40.3s [leader   ] leader None follow False | 40초가 지났고, 지금 선두권에는 2번이 있습니다.
+R10  43.3s [leader   ] leader 1 follow True | 43초가 지났고, 지금 선두는 1번이며, 뒤를 이은 2번과 370미터입니다.
+R10  46.3s [leader   ] leader None follow False | 46초가 지났고, 지금 선두권에는 2번과 약 900미터의 여정이 남았습니다.
+R10  49.3s [leader   ] leader 1 follow True | 49초가 지났고, 지금 선두는 1번이며, 뒤를 이은 2번과 약 900미터입니다.
+R10  52.3s [leader   ] leader 2 follow False | 52초가 지났고, 지금 선두는 2번이며 약 800미터의 여정이 남았습니다.
+R10  55.3s [leader   ] leader None follow False | 55초가 지났고, 지금 선두권의 1번과 2번은 약 800미터 남았습니다.
+R10  58.3s [leader   ] leader 1 follow True | 58초가 지났고, 지금 선두는 1번이며 2번과 8번이 따르고 있습니다.
+R10  61.3s [leader   ] leader 1 follow True | 61초가 지났고, 지금 선두는 1번이며 8번이 따르고 있습니다.
+R10  64.3s [leader   ] leader 1 follow True | 64초가 지나고 지금 선두는 1번이며 2번과 8번이 따르고 있습니다.
+R10  67.3s [leader   ] leader 1 follow False | 67초가 지났고, 지금 선두는 1번이며 8번은 선두권에 함께 있습니다.
+R10  70.3s [leader   ] leader None follow False | 70초가 지났고 지금 선두권에는 8번과 함께합니다.
+R10  73.3s [leader   ] leader 8 follow False | 73초가 지났고 지금 선두는 8번이며 약 500m 남았습니다.
+R10  76.3s [confirmed] leader None follow False | 8번은 조금 전까지 선두권으로 확인되었고, 76초가 지났습니다.
+R10  79.3s [confirmed] leader None follow False | 서울 10경주 1600m 후반 구간, 출발 뒤 79초가 지났습니다.
+R10  82.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 82초가 지났습니다.
+R10  85.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 85초가 지났습니다.
+R10  88.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 88초가 지났습니다.
+R10  91.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 91초가 지났습니다.
+R10  94.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 94초가 지났습니다.
+R10  97.3s [confirmed] leader None follow False | 서울 10경주 후반, 출발 뒤 97초가 지났습니다.
+R10 100.3s [confirmed] leader None follow False | 서울 10경주 결승선 직전, 출발 후 100초가 지났습니다.
+R11   3.1s [confirmed] leader None follow False | 서울 11경주 1200m 출발 직후 3초가 지났습니다.
+R11   6.1s [confirmed] leader None follow False | 서울 11경주 1200m 출발 후 6초가 지났습니다.
+R11   9.1s [leader   ] leader None follow False | 서울 11경주 중반 9초, 약 1100m 남고 선두권은 2번과 3번입니다.
+R11  12.1s [leader   ] leader None follow False | 12초가 지났고 약 1000m 남는 선두권은 3번과 5번입니다.
+R11  15.1s [leader   ] leader 3 follow False | 지금 선두는 3번입니다.
+R11  18.1s [leader   ] leader None follow False | 18초가 지났고 약 900m 남는 선두권은 3번입니다.
+R11  21.1s [leader   ] leader None follow False | 21초가 지났고, 약 900m 남는 선두권에 3번과 5번이 있습니다.
+R11  24.1s [leader   ] leader 3 follow True | 24초가 지났고, 약 800m 남는 선두는 3번입니다.
+R11  27.1s [leader   ] leader None follow False | 27초가 지났고, 약 800m 남는 선두권에는 3번과 5번이 있습니다.
+R11  30.1s [leader   ] leader None follow False | 선두권에는 빨간색 모자 3번이 달리고 있습니다.
+R11  33.1s [leader   ] leader None follow False | 3번, 5번과 10번이 선두권에서 달리고 있습니다.
+R11  36.1s [leader   ] leader 3 follow False | 지금 선두는 3번입니다.
+R11  39.1s [leader   ] leader None follow False | 3번과 5번이 선두권에서 달리고 있습니다.
+R11  42.1s [leader   ] leader None follow False | 지금 선두권에는 3번과 5번이 달려가고 있습니다.
+R11  45.1s [confirmed] leader None follow False | 출발 뒤 45초가 지났고, 지금 경주 후반에 약 500m 남았습니다.
+R11  48.1s [confirmed] leader None follow False | 출발 뒤 48초가 지났습니다.
+R11  51.1s [confirmed] leader None follow False | 출발 뒤 51초가 지났습니다.
+R11  54.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 54초가 지났습니다.
+R11  57.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 57초가 지났습니다.
+R11  60.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 60초가 지났습니다.
+R11  63.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 63초가 지났습니다. 지금 경주 후반, 약 200m 남았습니다.
+R11  66.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 66초가 지났습니다. 지금 경주 후반, 약 100m 남았습니다.
+R11  69.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 69초가 지났습니다. 지금 결승선 직전, 약 100m 남았습니다.
+R11  72.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 72초가 지났습니다. 지금 결승선 직전, 약 100m 남았습니다.
+R11  75.1s [confirmed] leader None follow False | 서울 11경주 1200m, 출발 뒤 75초가 지났습니다. 지금 결승선 직전입니다.
+races 11 [('R01', 18, 6, 0, 2), ('R02', 22, 11, 2, 0), ('R03', 22, 11, 5, 0), ('R04', 24, 13, 7, 1), ('R05', 29, 15, 10, 0), ('R06', 28, 16, 8, 1), ('R07', 35, 24, 7, 1), ('R08', 21, 11, 7, 0), ('R09', 39, 25, 18, 5), ('R10', 29, 15, 9, 0), ('R11', 25, 12, 3, 1)]
+done

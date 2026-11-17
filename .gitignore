@@ -34,3 +34,6 @@ __pycache__/
 
 # frame timestamp caches written next to identifier outputs
 *.pts.json
+
+# derived copy of results_f2 with the strip joined in (code/nc6_merge_strip.py)
+results_f2s/

@@ -1,0 +1,715 @@
+{
+ "race": "R03",
+ "info": {
+  "place": "서울",
+  "race": 3,
+  "distance": 1200,
+  "start_video_time": 9.2,
+  "facts_source": "race_facts.json (checked by eye)"
+ },
+ "expected_finish_seconds": 74.4,
+ "rows": [
+  {
+   "k": 0,
+   "t": 23.0,
+   "elapsed": 13.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    3,
+    6
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     6,
+     3
+    ]
+   ],
+   "allowed": [
+    3,
+    6
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "지금 선두권에는 3번과 6번이 있고, 약 1000m 가 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    3,
+    6
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 1,
+   "t": 26.0,
+   "elapsed": 16.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    11
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     6,
+     11
+    ]
+   ],
+   "allowed": [
+    6,
+    11
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "17초가 지났고, 선두권에는 6번과 11번이 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    11
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    6,
+    11,
+    3,
+    1,
+    4
+   ]
+  },
+  {
+   "k": 2,
+   "t": 29.0,
+   "elapsed": 19.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": 6,
+   "follow_allowed": true,
+   "recall": [],
+   "line": "지금 선두는 6번이며, 그 뒤를 9번이 따르고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [
+    6
+   ],
+   "says_follow": true,
+   "strip": [
+    6,
+    11,
+    3,
+    1,
+    4
+   ]
+  },
+  {
+   "k": 3,
+   "t": 32.0,
+   "elapsed": 22.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    11
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [
+    [
+     6,
+     11
+    ]
+   ],
+   "allowed": [
+    6,
+    11
+   ],
+   "leader_given": 6,
+   "follow_allowed": true,
+   "recall": [],
+   "line": "지금 선두는 6번이며, 그 뒤를 11번이 따르고 있습니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    11
+   ],
+   "leader_claims": [
+    6
+   ],
+   "says_follow": true,
+   "strip": [
+    6,
+    11,
+    3,
+    9,
+    4
+   ]
+  },
+  {
+   "k": 4,
+   "t": 35.0,
+   "elapsed": 25.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [],
+   "allowed": [
+    6
+   ],
+   "leader_given": 6,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "지금 선두는 6번이며, 약 800m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    6
+   ],
+   "leader_claims": [
+    6
+   ],
+   "says_follow": false,
+   "strip": [
+    6,
+    11,
+    3,
+    9,
+    4
+   ]
+  },
+  {
+   "k": 5,
+   "t": 38.0,
+   "elapsed": 28.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": 6,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "지금 선두는 6번이며, 선두권에 함께 있는 9번과 약 700m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [
+    6
+   ],
+   "says_follow": false,
+   "strip": [
+    6,
+    11,
+    9,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 6,
+   "t": 41.0,
+   "elapsed": 31.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "선두권에 있는 6번과 9번이 약 700m 남겨 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    6,
+    11,
+    9,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 7,
+   "t": 44.0,
+   "elapsed": 34.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": 6,
+   "follow_allowed": true,
+   "recall": [],
+   "line": "지금 선두는 6번이며, 뒤를 따르는 9번과 약 600m 남았습니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [
+    6
+   ],
+   "says_follow": true,
+   "strip": [
+    6,
+    9,
+    11,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 8,
+   "t": 47.0,
+   "elapsed": 37.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "선두권에 있는 6번과 9번이 약 600m 남겨 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    6,
+    9,
+    11,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 9,
+   "t": 50.0,
+   "elapsed": 40.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "선두권에 있는 6번과 9번이 약 500m 남겨 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    6,
+    9,
+    11,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 10,
+   "t": 53.0,
+   "elapsed": 43.8,
+   "phase": "경주 중반",
+   "mode": "leader",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [
+    6,
+    9
+   ],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "지금 선두권에 있는 6번과 9번이 약 500m 남겨 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": [
+    6,
+    9,
+    11,
+    3,
+    4
+   ]
+  },
+  {
+   "k": 11,
+   "t": 56.0,
+   "elapsed": 46.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    6,
+    9
+   ],
+   "line": "47초가 지난 후반 구간, 조금 전까지 선두권으로 확인된 6번과 9번이 약 400m 남겨 경주를 이어갑니다.",
+   "source": "model_retry",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 12,
+   "t": 59.0,
+   "elapsed": 49.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    6,
+    9
+   ],
+   "line": "47초가 지난 후반, 조금 전까지 선두권 6번과 9번이 약 400m 남아 경주를 이어갑니다.",
+   "source": "model_retry",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 13,
+   "t": 62.0,
+   "elapsed": 52.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [
+    6,
+    9
+   ],
+   "line": "53초가 지난 후반 구간, 조금 전까지 선두권으로 확인된 6번과 9번이 약 300m 남아 경주를 이어갑니다.",
+   "source": "model_retry",
+   "said_numbers": [
+    6,
+    9
+   ],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 14,
+   "t": 65.0,
+   "elapsed": 55.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [
+    [
+     6,
+     9
+    ]
+   ],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "56초가 지났습니다, 후반 구간, 약 300m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 15,
+   "t": 68.0,
+   "elapsed": 58.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": 6,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "59초가 지났습니다, 서울 3경주 후반 구간, 약 300m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 16,
+   "t": 71.0,
+   "elapsed": 61.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "62초가 지났습니다, 서울 3경주 후반 구간, 약 200m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 17,
+   "t": 74.0,
+   "elapsed": 64.8,
+   "phase": "경주 후반",
+   "mode": "confirmed",
+   "identifier": [
+    6,
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "65초가 지났습니다, 서울 3경주 후반 구간, 약 200m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 18,
+   "t": 77.0,
+   "elapsed": 67.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [
+    9
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "68초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 19,
+   "t": 80.0,
+   "elapsed": 70.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [
+    2
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "71초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 20,
+   "t": 83.0,
+   "elapsed": 73.8,
+   "phase": "결승선 직전",
+   "mode": "confirmed",
+   "identifier": [
+    2
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "74초가 지났습니다, 서울 3경주 결승선 직전 약 100m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  },
+  {
+   "k": 21,
+   "t": 86.0,
+   "elapsed": 76.8,
+   "phase": "결승선 통과 무렵",
+   "mode": "confirmed",
+   "identifier": [
+    2
+   ],
+   "identifier_leader": null,
+   "identifier_order": [],
+   "allowed": [],
+   "leader_given": null,
+   "follow_allowed": false,
+   "recall": [],
+   "line": "77초가 지났습니다, 서울 3경주 결승선 약 100m 남아 경주를 이어갑니다.",
+   "source": "model",
+   "said_numbers": [],
+   "leader_claims": [],
+   "says_follow": false,
+   "strip": null
+  }
+ ]
+}

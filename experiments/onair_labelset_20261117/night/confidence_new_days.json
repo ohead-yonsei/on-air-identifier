@@ -1,0 +1,203 @@
+{
+ "days": [
+  "otherday8",
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "note": "description made after the results were seen; nothing tuned",
+ "configurations": {
+  "L1": {
+   "statements_by_source": {
+    "carried from 3 s and 6 s earlier": {
+     "n": 124,
+     "right": 118
+    },
+    "fallback: held from 3 s earlier": {
+     "n": 15,
+     "right": 14
+    },
+    "fallback: single rider at 0.8 or more": {
+     "n": 24,
+     "right": 18
+    },
+    "now, picked in 2 of 3 pictures": {
+     "n": 416,
+     "right": 381
+    },
+    "now, picked in 3 of 3 pictures": {
+     "n": 399,
+     "right": 394
+    }
+   },
+   "statements_now_by_probability": {
+    "0.60-0.70": {
+     "n": 5,
+     "right": 3
+    },
+    "0.70-0.80": {
+     "n": 38,
+     "right": 33
+    },
+    "0.80-0.90": {
+     "n": 219,
+     "right": 192
+    },
+    "0.90-0.95": {
+     "n": 415,
+     "right": 409
+    },
+    "0.95-1.00": {
+     "n": 138,
+     "right": 138
+    }
+   },
+   "points_by_number_of_statements": {
+    "0": {
+     "n": 72,
+     "good": 0
+    },
+    "1": {
+     "n": 123,
+     "good": 116
+    },
+    "2": {
+     "n": 337,
+     "good": 336
+    },
+    "3 or more": {
+     "n": 47,
+     "good": 47
+    }
+   },
+   "leader_tau_0.5_by_score": {
+    "carried from 3 s and 6 s earlier": {
+     "n": 51,
+     "right": 48,
+     "in_first_two": 51
+    },
+    "now, top score 0.50-0.70": {
+     "n": 46,
+     "right": 37,
+     "in_first_two": 45
+    },
+    "now, top score 0.70-0.80": {
+     "n": 96,
+     "right": 77,
+     "in_first_two": 93
+    },
+    "now, top score 0.80-0.90": {
+     "n": 118,
+     "right": 110,
+     "in_first_two": 117
+    },
+    "now, top score 0.90-0.95": {
+     "n": 29,
+     "right": 26,
+     "in_first_two": 29
+    },
+    "now, top score 0.95-1.00": {
+     "n": 4,
+     "right": 3,
+     "in_first_two": 4
+    }
+   }
+  },
+  "F1": {
+   "statements_by_source": {
+    "carried from 3 s and 6 s earlier": {
+     "n": 128,
+     "right": 124
+    },
+    "fallback: held from 3 s earlier": {
+     "n": 13,
+     "right": 10
+    },
+    "fallback: single rider at 0.8 or more": {
+     "n": 13,
+     "right": 10
+    },
+    "now, picked in 2 of 3 pictures": {
+     "n": 404,
+     "right": 360
+    },
+    "now, picked in 3 of 3 pictures": {
+     "n": 453,
+     "right": 445
+    }
+   },
+   "statements_now_by_probability": {
+    "0.60-0.70": {
+     "n": 8,
+     "right": 7
+    },
+    "0.70-0.80": {
+     "n": 41,
+     "right": 32
+    },
+    "0.80-0.90": {
+     "n": 231,
+     "right": 198
+    },
+    "0.90-0.95": {
+     "n": 460,
+     "right": 452
+    },
+    "0.95-1.00": {
+     "n": 117,
+     "right": 116
+    }
+   },
+   "points_by_number_of_statements": {
+    "0": {
+     "n": 62,
+     "good": 0
+    },
+    "1": {
+     "n": 102,
+     "good": 93
+    },
+    "2": {
+     "n": 363,
+     "good": 362
+    },
+    "3 or more": {
+     "n": 52,
+     "good": 52
+    }
+   },
+   "leader_tau_0.5_by_score": {
+    "carried from 3 s and 6 s earlier": {
+     "n": 47,
+     "right": 45,
+     "in_first_two": 47
+    },
+    "now, top score 0.50-0.70": {
+     "n": 62,
+     "right": 49,
+     "in_first_two": 60
+    },
+    "now, top score 0.70-0.80": {
+     "n": 94,
+     "right": 78,
+     "in_first_two": 93
+    },
+    "now, top score 0.80-0.90": {
+     "n": 105,
+     "right": 98,
+     "in_first_two": 103
+    },
+    "now, top score 0.90-0.95": {
+     "n": 41,
+     "right": 38,
+     "in_first_two": 41
+    },
+    "now, top score 0.95-1.00": {
+     "n": 4,
+     "right": 3,
+     "in_first_two": 4
+    }
+   }
+  }
+ }
+}

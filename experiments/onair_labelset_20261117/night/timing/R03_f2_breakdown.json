@@ -1,0 +1,24 @@
+{
+ "video": "live_commentary/20261115/videos/R03.mp4",
+ "time_points": 22,
+ "seconds": {
+  "load": 1.72,
+  "grab": 17.14,
+  "detect": 5.25,
+  "point_total": 6.84
+ },
+ "per_time_point": {
+  "grab_3_pictures": 0.779,
+  "detection": 0.238,
+  "everything_else": 0.072,
+  "total_without_loading": 1.09,
+  "first_point": 1.517,
+  "median_point": 1.136
+ },
+ "sequential_decode": {
+  "frames": 3901,
+  "seconds": 7.36,
+  "video_seconds": 65.0,
+  "frames_per_second": 530.3
+ }
+}
