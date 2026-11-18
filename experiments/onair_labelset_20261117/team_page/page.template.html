@@ -92,7 +92,7 @@ svg .m { font-family: var(--mono); }
 <main>
 <!-- toc-wide -->
 <header id="top">
-  <p class="kicker">ON-AIR · 2026-11-18 · 팀 공유</p>
+  <p class="kicker">ON-AIR · 2026-11-19 · 팀 공유</p>
   <h1>중계 화면만 보고 선두권 말 번호 알아내기</h1>
   <p class="thesis">경마 중계 AI가 지어내는 말을 줄이려면, 믿을 수 있는 사실이 먼저 있어야 합니다. 이 작업은 그 사실 가운데 "지금 선두권에 몇 번 말이 있는가"를 화면에서 알아내는 식별기를 만들고, 그것으로 실제 중계를 해 본 기록입니다.</p>
   <div class="tiles">
@@ -118,7 +118,7 @@ svg .m { font-family: var(--mono); }
   <p class="lead">3초마다 화면 세 장을 보고 선두권 번호를 내는 프로그램입니다. 모두 로컬에서 돌고 유료 API는 쓰지 않았습니다.</p>
   <figure>
     <div class="scroll">
-    <svg viewBox="0 0 760 356" role="img" aria-label="화면 세 장에서 선두권 번호까지 다섯 단계를 거치고, 그 번호를 중계에 쓸지는 순위 띠가 화면에 있는지로 가른다" font-size="13">
+    <svg viewBox="0 0 760 356" role="img" aria-label="화면 세 장에서 선두권 번호까지 다섯 단계를 거치고, 확정된 번호가 있으면 그 번호로 중계하고 없으면 확정 정보로 메운다. 순위 띠는 쓰지 않는다" font-size="13">
       <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
       <g fill="none" stroke="currentColor" stroke-width="1.25" color="var(--quiet)">
         <path d="M184 76H208" marker-end="url(#ar)"/><path d="M368 76H392" marker-end="url(#ar)"/><path d="M552 76H576" marker-end="url(#ar)"/>
@@ -139,21 +139,21 @@ svg .m { font-family: var(--mono); }
         <text class="t b" x="656" y="172">4 말하기</text><text class="q" x="656" y="190" font-size="11.5">세 장 중 두 장 이상</text>
         <text class="t b" x="472" y="172">5 이어받기</text><text class="q" x="472" y="190" font-size="11.5">3초·6초 전 번호</text>
         <text class="t b" x="288" y="172">선두권 번호</text><text class="q" x="288" y="190" font-size="11.5">번호별 확률 포함</text>
-        <text class="t" x="104" y="172" font-size="12">순위 띠가</text><text class="t" x="104" y="188" font-size="12">화면에 있나</text>
-        <text class="t b" x="104" y="280">번호를 중계에 사용</text><text class="q" x="104" y="298" font-size="11.5">띠가 있는 구간</text>
-        <text class="t b" x="288" y="280">확정 정보로 메움</text><text class="q" x="288" y="298" font-size="11.5">마지막 30초쯤, 출발 직후</text>
+        <text class="t" x="104" y="172" font-size="12">확정된 번호가</text><text class="t" x="104" y="188" font-size="12">있나</text>
+        <text class="t b" x="104" y="280">번호를 중계에 사용</text><text class="q" x="104" y="298" font-size="11.5">선두권, 선두, 앞뒤 순서</text>
+        <text class="t b" x="288" y="280">확정 정보로 메움</text><text class="q" x="288" y="298" font-size="11.5">경주 정보, 경과 시간</text>
       </g>
       <text class="q" x="96" y="250" text-anchor="end" font-size="11.5">있음</text><text class="q" x="196" y="228" text-anchor="middle" font-size="11.5">없음</text>
     </svg>
     </div>
-    <figcaption>식별기의 흐름(v9와 v8 공통). v9는 2단계에서 모자 분류기만 쓰고, v8은 Qwen에게도 모자색을 묻습니다. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다.</figcaption>
+    <figcaption>식별기의 흐름(v9와 v8 공통). v9는 2단계에서 모자 분류기만 쓰고, v8은 Qwen에게도 모자색을 묻습니다. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다. <b>순위 띠는 이 흐름에 없습니다.</b> 띠는 3단계 모델을 학습할 때의 정답과 채점에만 썼고, 식별기에는 띠를 가린 화면을 줍니다.</figcaption>
   </figure>
   <ol>
     <li><b>기수 찾기.</b> 검출 모델(Faster R-CNN, 추가 학습 없음)로 말 위의 사람을 찾습니다. 한 화면에서 4명 미만이면 그 화면만 작은 기수용 설정으로 다시 찾습니다.</li>
     <li><b>번호 읽기.</b> 같은 모자 그림을 둘이 따로 읽습니다. 로컬 Qwen 9B는 모자색을 답하고, 모자 사진 598장으로 학습한 분류기(ResNet-18)는 1~11번에 확률을 줍니다. 분류기 확률에 Qwen이 답한 번호의 가산점을 더한 뒤, 한 화면에서 같은 번호가 두 번 나오지 않게 배정합니다. 배정된 번호의 분류기 확률이 0.7 이상이면 "확정"입니다. v9는 Qwen 없이 분류기만 씁니다.</li>
     <li><b>앞선 말 고르기.</b> 확정된 기수마다 상자의 위치와 크기를 보고 "상위 3두일 확률"을 냅니다. 이 모델은 방송의 순위 띠를 정답으로 삼아 학습했습니다.</li>
     <li><b>말하기.</b> 최근 세 장 가운데 두 장 이상에서 고른 번호를 말합니다.</li>
-    <li><b>이어받기.</b> 3초 전과 6초 전에 둘 다 말한 번호를 더합니다. 멀리서 찍어 지금 화면에서 못 읽는 순간을 메웁니다.</li>
+    <li><b>이어받기.</b> 지금 화면에서 못 읽었을 때, 3초 전과 6초 전에 둘 다 말한 번호를 한 번 더 말합니다. 멀리서 찍은 순간을 메우는 규칙입니다. 이어받은 번호를 다시 이어받지는 않아서, 가장 오래된 정보가 3초 전 것입니다. 안 쓴 경마일 2일에서 이어받은 번호 58개 중 57개가 실제 상위 3두였습니다(지금 화면에서 읽은 번호는 371개 중 349개).</li>
   </ol>
   <figure>
     <img src="img/overlay.jpg" width="960" height="540" alt="경주 화면 위에 식별기가 찾은 기수 상자와 번호가 그려져 있다. 앞선 두 기수는 파란 상자에 4번과 5번으로 표시돼 있다.">
@@ -219,7 +219,7 @@ svg .m { font-family: var(--mono); }
       <tr><td>v7</td><td>T1</td><td>"확정"은 분류기 확률 0.7 이상만. 작은 기수 검출과 이어받기 추가</td><td class="n">92.7%</td><td class="n">86.3%</td><td>안 쓴 경마일 3일, 438개 시점</td></tr>
       <tr class="hl"><td><b>v8</b></td><td>L1</td><td>앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 11월 18일까지의 기본값</td><td class="n">92.9%</td><td class="n">94.6%</td><td>안 쓴 경마일 2일(10월 5일, 3일), 295개 시점. 6일로 늘리면 94.3% / 89.0%</td></tr>
       <tr class="hl"><td><b>v9</b></td><td>F2</td><td>언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초. <b>프로그램의 기본값</b></td><td class="n">94.5%</td><td class="n">94.1%</td><td>안 쓴 다른 경마일 2일(8월 29일, 23일), 20개 경주, 253개 시점. 시험 방법은 미리 고정. 6일 874개 시점에서는 93.2% / 93.0% (그중 4일은 조각을 고를 때 본 날)</td></tr>
-      <tr><td>v10 (예정)</td><td>—</td><td>v9 + 공식 기록으로 배운 선두 모델 + 우승마 부르기. 실험 코드에만 있음</td><td class="n">—</td><td class="n">—</td><td><a href="#nostrip">띠 없는 구간</a>에서 조각별로 확인</td></tr>
+      <tr><td>v10</td><td>F2+finish</td><td>v9 + 결승 36초 전부터 공식 기록으로 배운 선두 모델 + 우승마 부르기. 프로그램의 선택 사항(<code>--v10</code>). 우승마 부르기는 새 날에서 기준 미달</td><td class="n">—</td><td class="n">—</td><td>띠 없이 경주 전체로 따로 쟀습니다: <a href="#finish3">아래</a></td></tr>
     </tbody>
   </table></div>
   <p>v5 이전은 기수 한 명 한 명의 번호를 내던 단계이고(v4는 이 작업 이전의 식별기), 코드 이름은 파일과 예전 기록에 남아 있는 이름입니다. v8을 고르는 데 쓰지 않은 세 번째 경마일(11월 15일, 중계 시연에 쓴 날)에서도 A 97.0%, B 87.9%였습니다. 그 뒤 새 경마일 4일에서 다시 쟀고, 거기서는 A 95.1%, B 86.2%였습니다(<a href="#night">아래</a>).</p>
@@ -348,6 +348,45 @@ svg .m { font-family: var(--mono); }
   <p class="note">위 숫자는 언어 모델을 쓰지 않는 v9의 것입니다. v8도 같은 3일에서 비슷했습니다(결승 36~15초 전 A 94.3% / B 99.0%, 마지막 12초 A 88.4% / B 82.5%). 정답은 0.1초 단위 기록 사이를 등속으로 이은 것이라, 붙어 달리는 말의 순서에서는 정답 쪽이 틀릴 수 있습니다.</p>
 </section>
 
+<section id="finish3">
+  <h2>v10을 통째로 시험하고, 선두를 못 말하는 이유를 찾기</h2>
+  <p class="lead">11월 19일 밤에 한 일입니다. v10은 v9에 결승 구간용 선두 모델과 우승마 부르기를 더한 것입니다. 한 번도 공식 기록으로 채점하지 않은 경마일에서 경주 처음부터 끝까지 띠 없이 돌렸고, 판정 기준은 돌리기 전에 고정했습니다.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>무엇</th><th class="num">결과</th><th>미리 정한 판정</th></tr></thead>
+    <tbody>
+      <tr><td>번호 문장, 띠 없이 경주 전체</td><td class="num"><b>A 95.5%, B 88.7%</b></td><td><span class="verdict y">충족</span> 안 쓴 경마일 2일(8월 29일, 23일), 12개 경주, 300개 시점</td></tr>
+      <tr><td>결승 36초 구간의 선두 (말했을 때)</td><td class="num"><b>93.6%</b> (v9 86.2%)</td><td><span class="verdict y">충족</span> 78번 중 73번. 차이 +1.6 ~ +14.5%p</td></tr>
+      <tr><td>경주 전체에서 선두를 맞게 말한 시점</td><td class="num">49.0% (v9 51.7%)</td><td><span class="verdict n">미충족</span> 더 정확하지만 덜 말함. 틀리게 말한 시점은 8.3% → 5.7%</td></tr>
+      <tr><td>우승마 부르기</td><td class="num">24개를 불러 18개 맞음</td><td><span class="verdict n">미충족</span> 새 경마일 4일. 기준은 90% 이상. 조건을 더 붙여도 9개 중 6개</td></tr>
+      <tr><td>선두에 한해 번호 확정 기준을 0.7 → 0.4</td><td class="num"><b>44.6% → 48.6%</b></td><td><span class="verdict y">충족</span> 또 다른 안 쓴 2일(8월 22일, 16일), 16개 경주. 틀리게 말한 시점 5.6% → 6.6%</td></tr>
+      <tr><td>경주 전체를 공식 기록으로 다시 학습한 선두 모델</td><td class="num">40.6% (v10 47.5%)</td><td><span class="verdict n">안 통함</span> 이미 본 날에서 탐색. 구간 정보를 입력에 넣어도 같음</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>결승 구간용 선두 모델은 정확도를 올리는 조각입니다.</b> 틀린 선두가 줄어듭니다. 다만 더 자주 말하게 해 주지는 않습니다.</li>
+    <li><b>우승마는 지금 부르면 안 됩니다.</b> 앞선 날들에서는 18개 중 17개가 맞았는데, 새 날에서는 다시 나오지 않았습니다.</li>
+    <li><b>틀린 이유는 순서가 아니라 번호였습니다.</b> 틀린 경주의 화면을 보니 맨 앞의 말은 옳게 골랐고, 그 기수의 모자를 다른 번호로 읽었습니다(10번을 3번이나 1번으로).</li>
+  </ul>
+  <h3>선두를 못 말하는 가장 큰 이유: 번호를 확정하지 못함</h3>
+  <p>실제 선두의 번호가 화면 세 장 중 두 장 이상에서 확정된 시점은 전체의 69%입니다. 나머지 31%에서는 순서를 아무리 잘 맞혀도 선두를 맞게 말할 수 없습니다. 번호별로 보면 약한 모자가 따로 있습니다.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>실제 선두의 번호</th><th class="num">시점</th><th class="num">번호가 확정된 시점</th><th class="num">선두를 맞게 말함</th><th class="num">틀리게 말함</th></tr></thead>
+    <tbody>
+      <tr><td>1~6, 8, 9번</td><td class="num">2,417</td><td class="num">68~80%</td><td class="num">36~54%</td><td class="num">3~11%</td></tr>
+      <tr class="hl"><td><b>7번</b> (갈색)</td><td class="num">121</td><td class="num"><b>47.9%</b></td><td class="num">28.9%</td><td class="num">14.9%</td></tr>
+      <tr class="hl"><td><b>10번</b> (하늘색)</td><td class="num">241</td><td class="num"><b>53.1%</b></td><td class="num">31.5%</td><td class="num">7.9%</td></tr>
+      <tr class="hl"><td><b>11번 이상</b> (하늘색 줄무늬)</td><td class="num">220</td><td class="num"><b>44.5%</b></td><td class="num">27.3%</td><td class="num">6.8%</td></tr>
+      <tr><td>전체</td><td class="num">2,999</td><td class="num">69.2%</td><td class="num">43.2%</td><td class="num">7.3%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">경마일 14일, 시계가 공식 기록과 맞는 경주의 시점입니다. 결과를 본 뒤에 나눠 본 것이고, 모델을 학습한 날도 섞여 있습니다. 우승마도 같습니다. 우승마가 1~9번인 90개 경주에서는 64개를 불러 57개가 맞았고, 10번 이상인 20개 경주에서는 8개를 불러 4개만 맞았습니다. 자세한 내용은 <code>finish3/RESULT_KO.md</code>.</p>
+  <ul>
+    <li><b>순서 모델을 바꾸는 방법은 모두 맞바꿈이었습니다.</b> 기준을 낮추면 더 말하지만 그만큼 더 틀립니다(선두 기준값 0.4: 맞게 +4.7%p, 틀리게 +3.1%p).</li>
+    <li><b>번호 쪽을 건드린 것만 통했습니다.</b> 선두에 한해 번호 확정 기준을 낮추면 맞게 +4.0%p, 틀리게 +1.0%p입니다. 아직 프로그램에는 넣지 않았습니다.</li>
+    <li><b>다음에 할 일이 분명해졌습니다.</b> 모자 분류기는 사진 598장으로 학습했습니다. 7번, 10번, 11번 이상 모자의 사진을 더 모아 다시 학습하는 것이 선두와 우승마를 함께 올릴 수 있는 길입니다.</li>
+  </ul>
+</section>
+
 <section>
   <h2>실제로 중계해 보기</h2>
   <p class="lead">2026-11-15 서울 11개 경주를 3초마다 한 문장씩 중계했습니다. 순위 띠가 없는 환경을 가정해, 중계 시스템은 띠를 보지 않았습니다.</p>
@@ -461,6 +500,8 @@ svg .m { font-family: var(--mono); }
   <ul>
     <li><b>날에 따라 B가 움직입니다.</b> 처음 확인한 2일은 94.6%, 그 뒤의 4일은 86.2%였고, 가장 낮은 날은 82.5%였습니다. 야간 경주만 골라 본 적은 없습니다.</li>
     <li><b>A는 여유가 크지 않습니다.</b> 10월 5일 하루만 보면 90.3%였습니다.</li>
+    <li><b>선두를 말하지 못하는 순간이 많습니다.</b> 띠 없이 경주 전체로 보면 선두를 맞게 말한 시점은 절반쯤이고, 실제 선두의 번호를 화면에서 확정하지 못하는 시점이 31%입니다. 7번, 10번, 11번 이상이 앞설 때 특히 그렇습니다.</li>
+    <li><b>우승마는 부르지 못합니다.</b> 새 경마일 4일에서 24개를 불러 18개만 맞았습니다.</li>
     <li><b>선두는 틀릴 때가 있습니다.</b> "선두는 N번"은 여덟 번에 한 번쯤 틀리고, 그때는 대개 2위 말을 선두라고 합니다.</li>
     <li><b>한 경마장, 한 방송사입니다.</b> 서울 경마장의 한국마사회 국제 채널 화면으로만 만들고 확인했습니다.</li>
     <li><b>기준이 순위 띠입니다.</b> 띠는 화면보다 조금 늦을 수 있고, 얼마나 늦는지는 재지 않았습니다. 3초 간격의 시점은 서로 닮았습니다.</li>
@@ -476,11 +517,12 @@ svg .m { font-family: var(--mono); }
   <div class="tablewrap"><table>
     <thead><tr><th>할 일</th><th>왜</th><th>필요한 것</th></tr></thead>
     <tbody>
+      <tr><td><b>모자 분류기를 7번, 10번, 11번 이상에서 보강</b></td><td>실제 선두가 이 번호일 때 번호가 확정되는 시점이 45~53%뿐입니다(다른 번호는 68~80%). 선두를 못 말하는 것과 우승마를 틀리게 부르는 것이 모두 여기서 나옵니다.</td><td>그 모자의 사진 라벨 (지금 598장)</td></tr>
+      <tr><td><b>선두용 번호 확정 기준 0.4를 프로그램에</b></td><td>새 날 2일에서 확인된 작은 개선입니다(선두를 맞게 말한 시점 +4.0%p, 틀리게 +1.0%p).</td><td>지금 있는 자료로 가능</td></tr>
       <tr><td><b>출전표 붙이기</b></td><td>"6번 ○○○"처럼 이름을 넣은 중계가 되고, 확정 정보 모드에서 말할 내용이 생깁니다. 프로젝트 가설을 문장 중계로 직접 시험할 수 있습니다.</td><td>한국마사회 출전표(말 이름, 기수)</td></tr>
       <tr><td><b>"믿어도 되는 순간" 신호 시험</b></td><td>지금은 "예상 결승 30초 전까지"라는 시계 규칙입니다. 기수 크기나 번호 확률 같은 식별기 자신의 출력으로 가르는 편이 나은지 봅니다.</td><td>지금 있는 데이터로 가능</td></tr>
-      <tr><td><b>먼 화면과 약한 모자색</b></td><td>남은 오류가 몰린 곳입니다. 작게 잡힌 기수와 보라·분홍 모자를 더 잘 읽게 합니다.</td><td>그 장면의 모자 라벨</td></tr>
       <tr><td><b>띠 없는 구간을 벤치마크 문항으로</b></td><td>출발 직후, 마지막 30초, 결승 순간을 공식 기록 정답으로 문항에 더합니다. 지금 초안은 띠가 있는 구간만 다룹니다.</td><td>지금 있는 자료로 가능</td></tr>
-      <tr><td><b>출발 직후와 결승 순간</b></td><td>띠 없이 경주 전체를 돌렸을 때 남은 약한 두 곳입니다.</td><td>그 장면에 맞춘 방법</td></tr>
+      <tr><td><b>출발 직후와 결승 순간, 구도 알아보기</b></td><td>띠 없이 경주 전체를 돌렸을 때 남은 약한 두 곳입니다. 경주 전체로 다시 학습하거나 구간 정보를 넣는 것은 통하지 않았습니다. 카메라 전환을 감지하거나 그림에서 진행 방향을 읽는 방법은 아직 해 보지 않았습니다.</td><td>그 장면에 맞춘 방법</td></tr>
       <tr><td><b>야간·해 질 녘 경주만 골라 확인</b></td><td>지금까지의 날은 규칙으로 뽑은 날이라 어려운 조건만 모아 본 적이 없습니다.</td><td>경주 영상 추가</td></tr>
       <tr><td><b>다른 경마장</b></td><td>"앞선 말 고르기" 모델은 서울 경마장의 카메라 배치를 배웠습니다. 부산경남, 제주에서는 다시 학습해야 합니다.</td><td>그 경마장의 영상</td></tr>
       <tr><td><b>벤치마크에 더 큰 모델과 문장 다듬기 넣기</b></td><td>기준선의 화면만 본 모델은 작은 로컬 모델 하나입니다. 우리 흐름의 문장은 틀에 넣은 것입니다.</td><td>팀 논의 (유료 모델을 쓸지)</td></tr>
@@ -495,7 +537,13 @@ svg .m { font-family: var(--mono); }
 python identifier/identify_l1.py --video 경주.mp4 --out 결과.json
 
 # v8 (11월 18일까지의 기본값): 기수마다 Qwen에게도 모자색을 물음
-python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8</pre>
+python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8
+
+# v10: v9 + 결승 36초 전부터 다른 선두 모델 + 우승마 부르기 (우승마는 아직 믿을 수 없음)
+python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v10
+
+# 순위 띠가 화면에 있는지도 함께 적기 (채점용. 번호를 정하는 데는 쓰지 않음)
+python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --strip-check</pre>
   <div class="tablewrap"><table>
     <thead><tr><th>파일 (experiments/onair_labelset_20261117/ 아래)</th><th>내용</th></tr></thead>
     <tbody>
@@ -506,6 +554,7 @@ python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8</pre>
       <tr><td><code>live_commentary/</code></td><td>실제 중계 시연. 문장 전체는 <code>20261115/commentary_v2/</code>에 있음</td></tr>
       <tr><td><code>commentary2/</code>, <code>finish/</code>, <code>da/</code>, <code>confirm/</code></td><td>중계 비교 실험, 결승선 구간(처음 시도)</td></tr>
       <tr><td><code>finish2/</code></td><td>띠 없는 구간을 공식 기록으로 다시 재기, 선두 모델, 우승마 부르기, 경주 전체</td></tr>
+      <tr><td><code>finish3/</code></td><td>v10을 통째로 새 날에서 시험, 선두를 못 말하는 이유, 번호별 약점</td></tr>
       <tr><td><code>benchmark/v0/</code> (저장소 맨 위)</td><td>벤치마크 초안: 문항, 정답, 채점기, 기준선</td></tr>
       <tr><td><code>ON-AIR_GOAL.md</code> (프로젝트 루트)</td><td>목표와 단계별 진행 기록 전체</td></tr>
     </tbody>

@@ -26,12 +26,22 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
      --no-fallback, --leader-tau X   change one part of the default
      The class LeadingGroupIdentifier keeps its old argument defaults (v8); the experiment scripts pass their configuration explicitly.
      Run scripts written before this change (night/run_chain*.sh, live_commentary/*/run_identify.sh) assumed the v8 default.
+  8. --v10 (added 2026-11-19, --video only; finish2/RESULT_KO.md): v9 plus two parts for the end of the race, where the strip-trained
+     leader model was never taught. Needs the race clock on screen: its last change, minus 0.2 s, is taken as the finish.
+     leader      at time points within 36 s of the finish the leader comes from a model learned on official passing times
+                 (finish2/models/fs_leader_all.joblib), with the same rule: picked in 2 of the 3 pictures, or carried when the two
+                 time points before (within that stretch) agree. Statements and order are unchanged.
+     winner      from the 31 pictures of the 6 s before the finish (5 a second): the number the strip-trained leader model picks most
+                 often, if in 5 pictures or more; otherwise no call. Written as "winner_call" in the output.
+     Nothing here reads the strip, the official result or the sound; the official times were used only to train the model.
 
-Tested only while the running-order strip is on screen (see order2/RESULT_KO.md, order2b/RESULT_KO.md). Where the strip is absent
-(about the last 30 s, and just after the start) the statements are not reliable; the output marks those time points.
+The statements never depend on the running-order strip. --strip-check (off by default since 2026-11-19) only reads the strip at every
+time point with the local Qwen and writes into the output whether it is on screen and what it shows, for scoring and for marking the
+stretch where the first tests were made (order2/RESULT_KO.md, order2b/RESULT_KO.md). Without it no language model is called at all
+(unless --v8). The stretches without the strip were measured with official passing times (finish2/RESULT_KO.md).
 
 usage (on the server):
-  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--no-strip-check] [--v8] [--no-fallback] [--leader-tau 0.5]
+  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--strip-check] [--v8] [--no-fallback] [--leader-tau 0.5] [--v10]
   python identify_l1.py --day-dir otherday7 --out OUT.json [--races R01 R02]      # frames already extracted (manifest.json, frames/, frames_past/)
 """
 import argparse
@@ -73,11 +83,16 @@ FALLBACK_SINGLE = 0.8      # --fallback: lowest leading-three probability at whi
 TIMER, STRIP = (70, 930, 360, 1055), (480, 955, 1920, 1045)   # at 1920x1080
 CNN_WEIGHTS, ORDER_MODEL, COLOUR_MODEL = ROOT / "cnn" / "models" / "all_two_days.pt", ROOT / "order2" / "l1_model.joblib", HERE / "model.json"
 LEADER_MODEL = ROOT / "leader" / "leader_model.joblib"
+FINISH_LEADER_MODEL = ROOT / "finish2" / "models" / "fs_leader_all.joblib"   # --v10: leader in the last stretch, learned on official times
+LATE_SECONDS, WINNER_SPAN, WINNER_NEED = 36.0, 6.0, 5                        # --v10: the stretch; winner call from the last 6 s, 5 pictures or more
 FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / "night" / "leader_fast.joblib"   # --fast: no Qwen (night/DESIGN_KO.md)
 
 
 class LeadingGroupIdentifier:
-    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER):
+    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False):
+        assert fast or not finish_leader, "the finish-stretch leader model uses the features of the fast configuration"
+        self.leader_fs = joblib.load(FINISH_LEADER_MODEL) if finish_leader else None
+        self.history_leader_fs = {}   # time -> leader picked by the finish-stretch model (late time points only)
         self.fallback, self.tau_leader = fallback, tau_leader
         self.fast = fast       # fast = configuration F1: Qwen is never called; models trained without the "Qwen agrees" feature
         self.masks = MASKS[masks]
@@ -169,15 +184,24 @@ class LeadingGroupIdentifier:
             i = int(np.argmax(pf))
             if pf[i] >= self.tau_leader:
                 sure[i]["leader_pick"] = True
+        if sure and self.leader_fs is not None:
+            pf = self.leader_fs.predict_proba(np.array([r["features"] for r in sure]))[:, 1]
+            for r, v in zip(sure, pf):
+                r["p_first_finish"] = round(float(v), 4)
+            i = int(np.argmax(pf))
+            if pf[i] >= self.tau_leader:
+                sure[i]["leader_pick_finish"] = True
         for r in out:
             del r["features"]
         return out, detection, first, lead3
 
-    def point(self, t, pictures, key=None):
+    def point(self, t, pictures, key=None, late=False):
         """One time point: the pictures at t, t-0.5 s and t-1.0 s (in that order) -> statements, with numbers carried from t-3 s and t-6 s.
-        `key` separates races when several are processed by one object."""
+        `key` separates races when several are processed by one object. late=True (v10): the time point is in the last stretch, and the
+        leader is taken from the finish-stretch model instead of the strip-trained one."""
         votes, best, per_picture, riders_now = Counter(), {}, [], None
         lead_votes, first_scores, top = Counter(), {}, {}
+        lead_votes_fs = Counter()
         for bgr in pictures:
             riders, detection, first, lead3 = self.picture(bgr)
             for num, v in lead3.items():
@@ -187,6 +211,8 @@ class LeadingGroupIdentifier:
             for r in riders:
                 if r.get("leader_pick"):
                     lead_votes[r["number"]] += 1
+                if r.get("leader_pick_finish"):
+                    lead_votes_fs[r["number"]] += 1
             if riders_now is None:
                 riders_now = riders      # the riders of the newest picture, kept for drawing and inspection
             per_picture.append({"riders": len(riders), "detection": detection, "sure": sum(r["sure"] for r in riders)})
@@ -226,7 +252,27 @@ class LeadingGroupIdentifier:
                         hi, lo = (a, b) if sc[a] > sc[b] else (b, a)
                         order.append({"ahead": hi, "behind": lo, "gap": round(sc[hi] - sc[lo], 4)})
             res.update(leader=lead, leader_source=source, order=order)
+            if late and self.leader_fs is not None:
+                now_fs = next((n for n, v in lead_votes_fs.most_common() if v >= 2), None)
+                self.history_leader_fs[(key, round(float(t), 3))] = now_fs
+                lead_fs, source_fs = now_fs, ("now" if now_fs is not None else None)
+                if lead_fs is None:
+                    a, b = (self._near(key, t - back, self.history_leader_fs, None) for back in (3.0, 6.0))
+                    if a is not None and a == b:
+                        lead_fs, source_fs = a, "carried"
+                res.update(leader=lead_fs, leader_source=source_fs, leader_model="finish stretch (official times)", leader_strip_model=lead)
         return res
+
+    def winner_call(self, pictures):
+        """v10: the pictures of the last seconds before the finish -> (number or None, how many pictures named each number).
+        Each picture names the strip-trained model's leader pick or nothing; the number named most often is called if in WINNER_NEED or more."""
+        count = Counter()
+        for bgr in pictures:
+            for r in self.picture(bgr)[0]:
+                if r.get("leader_pick"):
+                    count[r["number"]] += 1
+        top = count.most_common(1)
+        return (top[0][0] if top and top[0][1] >= WINNER_NEED else None), dict(count)
 
     def _near(self, key, t, store=None, default=None):
         store = self.history if store is None else store
@@ -241,6 +287,34 @@ def video_pts(path, cache):
     pts = [float(x["best_effort_timestamp_time"]) for x in json.loads(raw)["frames"]]
     cache.write_text(json.dumps(pts))
     return pts
+
+
+def race_clock(path):
+    """First and last change of the race clock's digits, in video seconds (as code/fn2_times.py and code/ls2_run.py): (S, F)."""
+    from fn2_times import series
+    fps, on, ch = series(path)
+    idx = np.where(on)[0]
+    if not len(idx):
+        return None, None
+    runs, cur = [], [idx[0], idx[0]]
+    for i in idx[1:]:
+        if i - cur[1] > 3 * fps:
+            runs.append(cur)
+            cur = [i, i]
+        cur[1] = i
+    runs.append(cur)
+    a, b = max(runs, key=lambda r: r[1] - r[0])
+    moving = np.where((ch[a:b + 1] > 0.01) & on[a:b + 1])[0] + a
+    tick = [i for k, i in enumerate(moving) if (k > 0 and i - moving[k - 1] <= 0.35 * fps) or (k + 1 < len(moving) and moving[k + 1] - i <= 0.35 * fps)]
+    if not tick:
+        return None, None
+    best, s0 = (tick[0], tick[0]), tick[0]
+    for k in range(1, len(tick)):
+        if tick[k] - tick[k - 1] > 1.0 * fps:
+            s0 = tick[k]
+        if tick[k] - s0 > best[1] - best[0]:
+            best = (s0, tick[k])
+    return round(float(best[0] / fps), 3), round(float(best[1] / fps), 3)
 
 
 def live_segment(grab, last_second):
@@ -268,7 +342,8 @@ def live_segment(grab, last_second):
 
 
 def run_video(a, ident):
-    from j1_strip_reader import read_strip
+    if a.strip_check:
+        from j1_strip_reader import read_strip
     path = Path(a.video)
     out_path = Path(a.out)
     pts = video_pts(path, out_path.with_suffix(".pts.json"))
@@ -281,6 +356,12 @@ def run_video(a, ident):
         ok, bgr = cap.read()
         return (bgr if ok else None), i
 
+    finish = None
+    if a.v10:
+        S, F = race_clock(path)
+        assert F is not None, "--v10 needs the race clock on screen"
+        finish = round(F - 0.2, 3)        # the last change of the digits comes about 0.2 s after the clock stops
+        print(f"race clock: first change {S}, last change {F}; finish taken as {finish}", flush=True)
     start, end = a.start, a.end
     live = (None, None)
     if start is None or end is None:
@@ -294,21 +375,30 @@ def run_video(a, ident):
         if bgr is None:
             break
         strip = None
-        if not a.no_strip_check:
+        if a.strip_check:
             x1, y1, x2, y2 = STRIP
             strip, _ = read_strip(bgr[y1:y2, x1:x2])
         pics = [bgr] + [grab(pts[i] - off)[0] for off in (0.5, 1.0)]
-        res = ident.point(pts[i], [p for p in pics if p is not None])
+        late = finish is not None and -1.0 <= finish - t <= LATE_SECONDS
+        res = ident.point(pts[i], [p for p in pics if p is not None], late=late)
         res["asked_t"] = t
-        if not a.no_strip_check:
+        if finish is not None:
+            res["to_finish"], res["late"] = round(finish - t, 2), late
+        if a.strip_check:
             res["strip_on_screen"] = strip is not None
             res["strip"] = strip
             res["validated_segment"] = strip is not None
         points.append(res)
-        print(f"t {res['t']:7.2f}  statements {res['statements']}" + ("" if a.no_strip_check else f"  strip {'on screen ' + str(strip) if strip else 'absent (statements not validated here)'}"), flush=True)
+        print(f"t {res['t']:7.2f}  statements {res['statements']}" + ("" if not a.strip_check else f"  strip {'on screen ' + str(strip) if strip else 'absent (statements not validated here)'}"), flush=True)
         t += a.step
+    extra = {}
+    if finish is not None:
+        number, count = ident.winner_call([b for b in (grab(finish - WINNER_SPAN + 0.2 * k)[0] for k in range(int(WINNER_SPAN * 5) + 1)) if b is not None])
+        extra = {"finish": {"clock_first_change": S, "clock_last_change": F, "finish": finish, "late_seconds": LATE_SECONDS},
+                 "winner_call": {"number": number, "pictures_naming_each": count, "span": WINNER_SPAN, "need": WINNER_NEED}}
+        print("winner call:", number, count, flush=True)
     cap.release()
-    return {"video": str(path), "live_timer_segment": live, "start": start, "end": end, "step": a.step, "points": points}
+    return {"video": str(path), "live_timer_segment": live, "start": start, "end": end, "step": a.step, "points": points, **extra}
 
 
 def run_day_dir(a, ident):
@@ -336,31 +426,38 @@ def main():
     ap.add_argument("--start", type=float)
     ap.add_argument("--end", type=float)
     ap.add_argument("--step", type=float, default=3.0)
-    ap.add_argument("--no-strip-check", action="store_true")
+    ap.add_argument("--strip-check", action="store_true", help="also read the running-order strip at every time point (local Qwen) and write it into the output; the statements do not use it")
+    ap.add_argument("--no-strip-check", action="store_true", help="accepted for old command lines; the strip check is off unless --strip-check is given")
     ap.add_argument("--masks", default="sep06", choices=list(MASKS))
     ap.add_argument("--v8", action="store_true", help="the default before 2026-11-18 (L1): Qwen for the riders, no fallback, leader threshold 0.6")
     ap.add_argument("--fast", action="store_true", help="no Qwen for the riders. On by default; only changes something together with --v8")
     ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number. On by default; only changes something together with --v8")
     ap.add_argument("--no-fallback", action="store_true", help="never add a number where nothing is stated")
+    ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
     a = ap.parse_args()
     a.fast = a.fast or not a.v8
     a.fallback = (a.fallback or not a.v8) and not a.no_fallback
     if a.leader_tau is None:
         a.leader_tau = TAU_LEADER if a.v8 else TAU_LEADER_V9
+    assert not a.v10 or (a.video and a.fast and a.fallback and a.leader_tau == TAU_LEADER_V9), "--v10 is v9 plus the finish parts: use it with --video and without --v8 / --no-fallback / --leader-tau"
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
     wait_gpu()
     started = time.perf_counter()
-    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau)
+    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
-    res.update(configuration=name, version={"F2": "v9", "L1": "v8"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
+    if a.v10:
+        name = "F2+finish"
+    res.update(configuration=name, version={"F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
                                               "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(res, indent=1))
     print("time points", len(res["points"]), "qwen failures", ident.qwen_failures, "seconds", res["seconds"])
+    if a.fast and not a.strip_check:
+        return              # no language model was called
     try:
         urllib.request.urlopen(urllib.request.Request(ENDPOINT + "/api/generate", data=json.dumps({"model": MODEL, "keep_alive": 0}).encode(),
                                                       headers={"Content-Type": "application/json"}), timeout=60).read()

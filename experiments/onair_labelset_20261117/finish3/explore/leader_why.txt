@@ -1,0 +1,40 @@
+scored otherday
+scored otherday2
+scored otherday3
+scored otherday4
+scored otherday5
+scored 20261115
+
+== dev: 52 races, 1419 time points
+  start       points  156: true leader readable in 102 (65.4%) -> right 25, wrong 9, silent 68 | not readable 54 -> right (carried) 1, wrong 1, silent 52
+  middle      points  587: true leader readable in 373 (63.5%) -> right 230, wrong 30, silent 113 | not readable 214 -> right (carried) 19, wrong 20, silent 175
+  finish      points  676: true leader readable in 462 (68.3%) -> right 252, wrong 28, silent 182 | not readable 214 -> right (carried) 32, wrong 20, silent 162
+  whole race  points 1419: true leader readable in 937 (66.0%) -> right 507, wrong 67, silent 363 | not readable 482 -> right (carried) 52, wrong 41, silent 389
+thr 0.5            whole race: right share 39.4%  wrong share 7.6%  when said 83.8% (559/667) | start 16.7/6.4  middle 42.4/8.5  finish 42.0/7.1
+thr 0.4            whole race: right share 44.0%  wrong share 10.5%  when said 80.7% (625/774) | start 22.4/11.5  middle 48.2/12.1  finish 45.4/8.9 | minus base: right [3.2, 6.2] wrong [1.8, 4.0]
+thr 0.3            whole race: right share 46.9%  wrong share 13.4%  when said 77.8% (666/856) | start 27.6/17.9  middle 50.6/14.1  finish 48.2/11.7 | minus base: right [5.6, 9.5] wrong [4.1, 7.4]
+thr 0.2            whole race: right share 50.2%  wrong share 16.1%  when said 75.7% (712/941) | start 34.0/19.9  middle 51.3/17.9  finish 53.0/13.8 | minus base: right [8.5, 13.2] wrong [6.9, 10.3]
+avg 0.5            whole race: right share 31.2%  wrong share 5.8%  when said 84.4% (443/525) | start 9.6/1.3  middle 26.9/6.3  finish 39.9/6.4 | minus base: right [-11.5, -5.6] wrong [-3.0, -0.7]
+avg 0.4            whole race: right share 39.0%  wrong share 8.1%  when said 82.8% (553/668) | start 14.1/5.1  middle 38.5/8.5  finish 45.1/8.4 | minus base: right [-2.5, 1.5] wrong [-0.8, 1.7]
+avg 0.3            whole race: right share 43.5%  wrong share 10.7%  when said 80.2% (617/769) | start 20.5/8.3  middle 44.5/10.6  finish 47.9/11.4 | minus base: right [2.0, 6.2] wrong [1.7, 4.5]
+union 0.5          whole race: right share 40.1%  wrong share 8.3%  when said 82.8% (569/687) | start 16.7/6.4  middle 43.4/9.5  finish 42.6/7.7 | minus base: right [0.3, 1.2] wrong [0.3, 1.2]
+union 0.4          whole race: right share 40.8%  wrong share 9.2%  when said 81.7% (579/709) | start 16.7/7.7  middle 43.6/10.1  finish 43.9/8.7 | minus base: right [0.8, 2.2] wrong [1.0, 2.2]
+union 0.3          whole race: right share 41.9%  wrong share 10.2%  when said 80.4% (595/740) | start 17.9/8.3  middle 44.1/10.7  finish 45.6/10.2 | minus base: right [1.6, 3.6] wrong [1.8, 3.5]
+one of three 0.5   whole race: right share 52.1%  wrong share 17.3%  when said 75.1% (740/986) | start 27.6/21.2  middle 55.4/18.7  finish 55.0/15.2 | minus base: right [10.6, 14.8] wrong [7.3, 12.3]
+
+== held: 43 races, 1154 time points
+  start       points  129: true leader readable in 88 (68.2%) -> right 24, wrong 7, silent 57 | not readable 41 -> right (carried) 0, wrong 1, silent 40
+  middle      points  466: true leader readable in 340 (73.0%) -> right 246, wrong 20, silent 74 | not readable 126 -> right (carried) 17, wrong 13, silent 96
+  finish      points  559: true leader readable in 415 (74.2%) -> right 244, wrong 30, silent 141 | not readable 144 -> right (carried) 17, wrong 17, silent 110
+  whole race  points 1154: true leader readable in 843 (73.1%) -> right 514, wrong 57, silent 272 | not readable 311 -> right (carried) 34, wrong 31, silent 246
+thr 0.5            whole race: right share 47.5%  wrong share 7.6%  when said 86.2% (548/636) | start 18.6/6.2  middle 56.4/7.1  finish 46.7/8.4
+thr 0.4            whole race: right share 52.2%  wrong share 10.7%  when said 83.0% (602/725) | start 22.5/11.6  middle 61.2/10.3  finish 51.5/10.7 | minus base: right [3.2, 6.3] wrong [1.9, 4.3]
+thr 0.3            whole race: right share 56.2%  wrong share 12.0%  when said 82.4% (648/786) | start 27.1/15.5  middle 64.6/10.9  finish 55.8/12.0 | minus base: right [6.7, 10.8] wrong [2.9, 5.8]
+thr 0.2            whole race: right share 57.6%  wrong share 15.2%  when said 79.2% (665/840) | start 31.0/21.7  middle 65.2/14.2  finish 57.4/14.5 | minus base: right [7.9, 12.4] wrong [5.9, 9.3]
+avg 0.5            whole race: right share 40.1%  wrong share 5.5%  when said 87.9% (463/527) | start 6.2/0.8  middle 44.4/4.1  finish 44.4/7.9 | minus base: right [-10.0, -4.8] wrong [-3.5, -0.8]
+avg 0.4            whole race: right share 46.3%  wrong share 7.6%  when said 85.9% (534/622) | start 10.1/2.3  middle 52.6/6.2  finish 49.4/10.0 | minus base: right [-3.1, 0.5] wrong [-1.2, 1.3]
+avg 0.3            whole race: right share 52.3%  wrong share 10.2%  when said 83.6% (603/721) | start 17.1/7.8  middle 59.9/8.6  finish 54.0/12.2 | minus base: right [2.8, 6.8] wrong [1.2, 4.1]
+union 0.5          whole race: right share 48.1%  wrong share 8.6%  when said 84.9% (555/654) | start 18.6/6.2  middle 57.1/7.7  finish 47.4/9.8 | minus base: right [0.1, 1.1] wrong [0.4, 1.5]
+union 0.4          whole race: right share 49.2%  wrong share 9.3%  when said 84.1% (568/675) | start 20.2/6.2  middle 57.7/8.6  finish 48.8/10.6 | minus base: right [1.0, 2.6] wrong [1.0, 2.4]
+union 0.3          whole race: right share 50.3%  wrong share 10.3%  when said 83.0% (581/700) | start 20.2/7.0  middle 58.4/9.0  finish 50.6/12.2 | minus base: right [1.9, 3.9] wrong [1.8, 3.7]
+one of three 0.5   whole race: right share 60.6%  wrong share 15.2%  when said 80.0% (699/874) | start 30.2/20.9  middle 70.0/12.7  finish 59.7/15.9 | minus base: right [10.7, 15.4] wrong [5.7, 9.4]

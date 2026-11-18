@@ -1,0 +1,224 @@
+{
+ "riders_readable": {
+  "points": 843,
+  "found_mean": 8.67,
+  "sure_mean": 7.56,
+  "field_mean": 10.74,
+  "found_under_half_field": 6.3,
+  "no_sure_rider": 0.2,
+  "one_or_two_sure": 0.9
+ },
+ "riders_unreadable": {
+  "points": 311,
+  "found_mean": 7.39,
+  "sure_mean": 5.28,
+  "field_mean": 10.62,
+  "found_under_half_field": 18.3,
+  "no_sure_rider": 3.2,
+  "one_or_two_sure": 14.8
+ },
+ "sure 0.7": {
+  "parts": {
+   "start": {
+    "points": 129,
+    "said": 32,
+    "right": 24,
+    "when_said": 75.0,
+    "when_said_lenient": 90.6,
+    "right_share": 18.6,
+    "wrong_share": 6.2,
+    "right_share_lenient": 22.5
+   },
+   "middle": {
+    "points": 466,
+    "said": 296,
+    "right": 263,
+    "when_said": 88.9,
+    "when_said_lenient": 98.6,
+    "right_share": 56.4,
+    "wrong_share": 7.1,
+    "right_share_lenient": 62.7
+   },
+   "finish": {
+    "points": 559,
+    "said": 308,
+    "right": 261,
+    "when_said": 84.7,
+    "when_said_lenient": 98.7,
+    "right_share": 46.7,
+    "wrong_share": 8.4,
+    "right_share_lenient": 54.4
+   },
+   "whole race": {
+    "points": 1154,
+    "said": 636,
+    "right": 548,
+    "when_said": 86.2,
+    "when_said_lenient": 98.3,
+    "right_share": 47.5,
+    "wrong_share": 7.6,
+    "right_share_lenient": 54.2
+   }
+  },
+  "readable_share": 73.1
+ },
+ "sure 0.6": {
+  "parts": {
+   "start": {
+    "points": 129,
+    "said": 32,
+    "right": 24,
+    "when_said": 75.0,
+    "when_said_lenient": 90.6,
+    "right_share": 18.6,
+    "wrong_share": 6.2,
+    "right_share_lenient": 22.5
+   },
+   "middle": {
+    "points": 466,
+    "said": 307,
+    "right": 272,
+    "when_said": 88.6,
+    "when_said_lenient": 98.0,
+    "right_share": 58.4,
+    "wrong_share": 7.5,
+    "right_share_lenient": 64.6
+   },
+   "finish": {
+    "points": 559,
+    "said": 311,
+    "right": 262,
+    "when_said": 84.2,
+    "when_said_lenient": 98.1,
+    "right_share": 46.9,
+    "wrong_share": 8.8,
+    "right_share_lenient": 54.6
+   },
+   "whole race": {
+    "points": 1154,
+    "said": 650,
+    "right": 558,
+    "when_said": 85.8,
+    "when_said_lenient": 97.7,
+    "right_share": 48.4,
+    "wrong_share": 8.0,
+    "right_share_lenient": 55.0
+   }
+  },
+  "readable_share": 75.6,
+  "right_share_minus_base": [
+   0.2,
+   1.5
+  ],
+  "wrong_share_minus_base": [
+   0.1,
+   0.7
+  ]
+ },
+ "sure 0.5": {
+  "parts": {
+   "start": {
+    "points": 129,
+    "said": 33,
+    "right": 24,
+    "when_said": 72.7,
+    "when_said_lenient": 87.9,
+    "right_share": 18.6,
+    "wrong_share": 7.0,
+    "right_share_lenient": 22.5
+   },
+   "middle": {
+    "points": 466,
+    "said": 316,
+    "right": 278,
+    "when_said": 88.0,
+    "when_said_lenient": 97.5,
+    "right_share": 59.7,
+    "wrong_share": 8.2,
+    "right_share_lenient": 66.1
+   },
+   "finish": {
+    "points": 559,
+    "said": 315,
+    "right": 267,
+    "when_said": 84.8,
+    "when_said_lenient": 98.1,
+    "right_share": 47.8,
+    "wrong_share": 8.6,
+    "right_share_lenient": 55.3
+   },
+   "whole race": {
+    "points": 1154,
+    "said": 664,
+    "right": 569,
+    "when_said": 85.7,
+    "when_said_lenient": 97.3,
+    "right_share": 49.3,
+    "wrong_share": 8.2,
+    "right_share_lenient": 56.0
+   }
+  },
+  "readable_share": 77.5,
+  "right_share_minus_base": [
+   0.9,
+   2.8
+  ],
+  "wrong_share_minus_base": [
+   0.1,
+   1.1
+  ]
+ },
+ "sure 0.4": {
+  "parts": {
+   "start": {
+    "points": 129,
+    "said": 33,
+    "right": 24,
+    "when_said": 72.7,
+    "when_said_lenient": 87.9,
+    "right_share": 18.6,
+    "wrong_share": 7.0,
+    "right_share_lenient": 22.5
+   },
+   "middle": {
+    "points": 466,
+    "said": 324,
+    "right": 285,
+    "when_said": 88.0,
+    "when_said_lenient": 97.2,
+    "right_share": 61.2,
+    "wrong_share": 8.4,
+    "right_share_lenient": 67.6
+   },
+   "finish": {
+    "points": 559,
+    "said": 320,
+    "right": 272,
+    "when_said": 85.0,
+    "when_said_lenient": 98.1,
+    "right_share": 48.7,
+    "wrong_share": 8.6,
+    "right_share_lenient": 56.2
+   },
+   "whole race": {
+    "points": 1154,
+    "said": 677,
+    "right": 581,
+    "when_said": 85.8,
+    "when_said_lenient": 97.2,
+    "right_share": 50.3,
+    "wrong_share": 8.3,
+    "right_share_lenient": 57.0
+   }
+  },
+  "readable_share": 79.2,
+  "right_share_minus_base": [
+   1.7,
+   4.1
+  ],
+  "wrong_share_minus_base": [
+   0.2,
+   1.2
+  ]
+ }
+}

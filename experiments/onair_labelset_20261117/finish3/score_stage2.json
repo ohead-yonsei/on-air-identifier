@@ -1,0 +1,787 @@
+{
+ "days": [
+  "otherday14",
+  "otherday15"
+ ],
+ "leader": {
+  "v10 (bar 0.7)": {
+   "parts": {
+    "start": {
+     "points": 48,
+     "said": 11,
+     "right": 6,
+     "when_said": 54.5,
+     "when_said_lenient": 81.8,
+     "right_share": 12.5,
+     "wrong_share": 10.4,
+     "right_share_lenient": 18.8
+    },
+    "middle": {
+     "points": 170,
+     "said": 101,
+     "right": 95,
+     "when_said": 94.1,
+     "when_said_lenient": 96.0,
+     "right_share": 55.9,
+     "wrong_share": 3.5,
+     "right_share_lenient": 57.1
+    },
+    "finish": {
+     "points": 208,
+     "said": 102,
+     "right": 89,
+     "when_said": 87.3,
+     "when_said_lenient": 93.1,
+     "right_share": 42.8,
+     "wrong_share": 6.2,
+     "right_share_lenient": 45.7
+    },
+    "whole race": {
+     "points": 426,
+     "said": 214,
+     "right": 190,
+     "when_said": 88.8,
+     "when_said_lenient": 93.9,
+     "right_share": 44.6,
+     "wrong_share": 5.6,
+     "right_share_lenient": 47.2
+    }
+   },
+   "readable_share": 69.2,
+   "by_day": {
+    "otherday14": {
+     "points": 186,
+     "said": 67,
+     "right": 55,
+     "when_said": 82.1,
+     "when_said_lenient": 89.6,
+     "right_share": 29.6,
+     "wrong_share": 6.5,
+     "right_share_lenient": 32.3
+    },
+    "otherday15": {
+     "points": 240,
+     "said": 147,
+     "right": 135,
+     "when_said": 91.8,
+     "when_said_lenient": 95.9,
+     "right_share": 56.2,
+     "wrong_share": 5.0,
+     "right_share_lenient": 58.8
+    }
+   }
+  },
+  "bar 0.4": {
+   "parts": {
+    "start": {
+     "points": 48,
+     "said": 12,
+     "right": 7,
+     "when_said": 58.3,
+     "when_said_lenient": 83.3,
+     "right_share": 14.6,
+     "wrong_share": 10.4,
+     "right_share_lenient": 20.8
+    },
+    "middle": {
+     "points": 170,
+     "said": 113,
+     "right": 106,
+     "when_said": 93.8,
+     "when_said_lenient": 95.6,
+     "right_share": 62.4,
+     "wrong_share": 4.1,
+     "right_share_lenient": 63.5
+    },
+    "finish": {
+     "points": 208,
+     "said": 110,
+     "right": 94,
+     "when_said": 85.5,
+     "when_said_lenient": 90.9,
+     "right_share": 45.2,
+     "wrong_share": 7.7,
+     "right_share_lenient": 48.1
+    },
+    "whole race": {
+     "points": 426,
+     "said": 235,
+     "right": 207,
+     "when_said": 88.1,
+     "when_said_lenient": 92.8,
+     "right_share": 48.6,
+     "wrong_share": 6.6,
+     "right_share_lenient": 51.2
+    }
+   },
+   "readable_share": 76.8,
+   "by_day": {
+    "otherday14": {
+     "points": 186,
+     "said": 81,
+     "right": 67,
+     "when_said": 82.7,
+     "when_said_lenient": 88.9,
+     "right_share": 36.0,
+     "wrong_share": 7.5,
+     "right_share_lenient": 38.7
+    },
+    "otherday15": {
+     "points": 240,
+     "said": 154,
+     "right": 140,
+     "when_said": 90.9,
+     "when_said_lenient": 94.8,
+     "right_share": 58.3,
+     "wrong_share": 5.8,
+     "right_share_lenient": 60.8
+    }
+   }
+  },
+  "difference": {
+   "right_share_interval": [
+    1.4,
+    6.8
+   ],
+   "wrong_share_interval": [
+    0.0,
+    2.1
+   ],
+   "right_share": 4.0,
+   "wrong_share": 1.0
+  },
+  "confirmed": true
+ },
+ "winner": {
+  "v10 rule (5 pictures)": {
+   "all": {
+    "races": 20,
+    "called": 13,
+    "right": 8,
+    "wrong_ranks": [
+     3,
+     7,
+     7,
+     9,
+     10
+    ]
+   },
+   "clock agrees": {
+    "races": 16,
+    "called": 11,
+    "right": 7,
+    "wrong_ranks": [
+     7,
+     7,
+     9,
+     10
+    ]
+   },
+   "calls": [
+    {
+     "day": "otherday14",
+     "race": "R01",
+     "call": null,
+     "rank": null,
+     "agree": false,
+     "strip": {},
+     "fs": {
+      "5": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R02",
+     "call": 5,
+     "rank": 9,
+     "agree": true,
+     "strip": {
+      "5": 5
+     },
+     "fs": {
+      "5": 6,
+      "1": 2,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R03",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 1
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R04",
+     "call": null,
+     "rank": null,
+     "agree": false,
+     "strip": {
+      "1": 1
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R05",
+     "call": 3,
+     "rank": 3,
+     "agree": false,
+     "strip": {
+      "3": 5,
+      "4": 3,
+      "2": 2
+     },
+     "fs": {
+      "4": 1,
+      "3": 1,
+      "2": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R06",
+     "call": 5,
+     "rank": 7,
+     "agree": true,
+     "strip": {
+      "5": 6,
+      "4": 3
+     },
+     "fs": {
+      "5": 5,
+      "4": 4
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R07",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 3
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R08",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "1": 3
+     },
+     "fs": {
+      "1": 3
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R09",
+     "call": 5,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "5": 5,
+      "11": 1
+     },
+     "fs": {
+      "5": 7,
+      "11": 2
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R10",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "5": 2,
+      "8": 1
+     },
+     "fs": {
+      "5": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R01",
+     "call": 3,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "3": 14,
+      "7": 1,
+      "9": 1
+     },
+     "fs": {
+      "3": 14,
+      "7": 1,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R02",
+     "call": 3,
+     "rank": 7,
+     "agree": true,
+     "strip": {
+      "3": 12,
+      "4": 1,
+      "10": 1
+     },
+     "fs": {
+      "3": 17,
+      "10": 1,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R03",
+     "call": 1,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "1": 8
+     },
+     "fs": {
+      "1": 12,
+      "9": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R04",
+     "call": 3,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "3": 16,
+      "8": 1,
+      "1": 1
+     },
+     "fs": {
+      "3": 16
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R05",
+     "call": 8,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "8": 5,
+      "5": 4,
+      "9": 4
+     },
+     "fs": {
+      "8": 13
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R06",
+     "call": 6,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "6": 8,
+      "5": 1,
+      "1": 1
+     },
+     "fs": {
+      "6": 8,
+      "5": 4,
+      "1": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R07",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 2
+     },
+     "fs": {
+      "3": 6
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R08",
+     "call": 5,
+     "rank": 1,
+     "agree": false,
+     "strip": {
+      "5": 8,
+      "9": 2
+     },
+     "fs": {
+      "5": 9,
+      "9": 1,
+      "1": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R09",
+     "call": 1,
+     "rank": 10,
+     "agree": true,
+     "strip": {
+      "1": 12,
+      "11": 3
+     },
+     "fs": {
+      "1": 13,
+      "11": 2
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R10",
+     "call": 1,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "1": 9,
+      "2": 1,
+      "5": 1
+     },
+     "fs": {
+      "1": 9,
+      "2": 1
+     }
+    }
+   ]
+  },
+  "guard (6 pictures and both models agree)": {
+   "all": {
+    "races": 20,
+    "called": 9,
+    "right": 6,
+    "wrong_ranks": [
+     7,
+     7,
+     10
+    ]
+   },
+   "clock agrees": {
+    "races": 16,
+    "called": 8,
+    "right": 5,
+    "wrong_ranks": [
+     7,
+     7,
+     10
+    ]
+   },
+   "calls": [
+    {
+     "day": "otherday14",
+     "race": "R01",
+     "call": null,
+     "rank": null,
+     "agree": false,
+     "strip": {},
+     "fs": {
+      "5": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R02",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "5": 5
+     },
+     "fs": {
+      "5": 6,
+      "1": 2,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R03",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 1
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R04",
+     "call": null,
+     "rank": null,
+     "agree": false,
+     "strip": {
+      "1": 1
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R05",
+     "call": null,
+     "rank": null,
+     "agree": false,
+     "strip": {
+      "3": 5,
+      "4": 3,
+      "2": 2
+     },
+     "fs": {
+      "4": 1,
+      "3": 1,
+      "2": 1
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R06",
+     "call": 5,
+     "rank": 7,
+     "agree": true,
+     "strip": {
+      "5": 6,
+      "4": 3
+     },
+     "fs": {
+      "5": 5,
+      "4": 4
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R07",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 3
+     },
+     "fs": {}
+    },
+    {
+     "day": "otherday14",
+     "race": "R08",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "1": 3
+     },
+     "fs": {
+      "1": 3
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R09",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "5": 5,
+      "11": 1
+     },
+     "fs": {
+      "5": 7,
+      "11": 2
+     }
+    },
+    {
+     "day": "otherday14",
+     "race": "R10",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "5": 2,
+      "8": 1
+     },
+     "fs": {
+      "5": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R01",
+     "call": 3,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "3": 14,
+      "7": 1,
+      "9": 1
+     },
+     "fs": {
+      "3": 14,
+      "7": 1,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R02",
+     "call": 3,
+     "rank": 7,
+     "agree": true,
+     "strip": {
+      "3": 12,
+      "4": 1,
+      "10": 1
+     },
+     "fs": {
+      "3": 17,
+      "10": 1,
+      "11": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R03",
+     "call": 1,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "1": 8
+     },
+     "fs": {
+      "1": 12,
+      "9": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R04",
+     "call": 3,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "3": 16,
+      "8": 1,
+      "1": 1
+     },
+     "fs": {
+      "3": 16
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R05",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "8": 5,
+      "5": 4,
+      "9": 4
+     },
+     "fs": {
+      "8": 13
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R06",
+     "call": 6,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "6": 8,
+      "5": 1,
+      "1": 1
+     },
+     "fs": {
+      "6": 8,
+      "5": 4,
+      "1": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R07",
+     "call": null,
+     "rank": null,
+     "agree": true,
+     "strip": {
+      "3": 2
+     },
+     "fs": {
+      "3": 6
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R08",
+     "call": 5,
+     "rank": 1,
+     "agree": false,
+     "strip": {
+      "5": 8,
+      "9": 2
+     },
+     "fs": {
+      "5": 9,
+      "9": 1,
+      "1": 1
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R09",
+     "call": 1,
+     "rank": 10,
+     "agree": true,
+     "strip": {
+      "1": 12,
+      "11": 3
+     },
+     "fs": {
+      "1": 13,
+      "11": 2
+     }
+    },
+    {
+     "day": "otherday15",
+     "race": "R10",
+     "call": 1,
+     "rank": 1,
+     "agree": true,
+     "strip": {
+      "1": 9,
+      "2": 1,
+      "5": 1
+     },
+     "fs": {
+      "1": 9,
+      "2": 1
+     }
+    }
+   ]
+  },
+  "confirmed": false
+ },
+ "races_run": 20,
+ "races_main": 16
+}

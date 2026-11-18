@@ -1,0 +1,1293 @@
+{
+ "dev": {
+  "v10 (base)": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 36,
+     "right": 26,
+     "when_said": 72.2,
+     "when_said_lenient": 97.2,
+     "right_share": 16.7,
+     "wrong_share": 6.4,
+     "right_share_lenient": 22.4
+    },
+    "middle": {
+     "points": 587,
+     "said": 299,
+     "right": 249,
+     "when_said": 83.3,
+     "when_said_lenient": 95.3,
+     "right_share": 42.4,
+     "wrong_share": 8.5,
+     "right_share_lenient": 48.6
+    },
+    "finish": {
+     "points": 676,
+     "said": 332,
+     "right": 284,
+     "when_said": 85.5,
+     "when_said_lenient": 94.9,
+     "right_share": 42.0,
+     "wrong_share": 7.1,
+     "right_share_lenient": 46.6
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 667,
+     "right": 559,
+     "when_said": 83.8,
+     "when_said_lenient": 95.2,
+     "right_share": 39.4,
+     "wrong_share": 7.6,
+     "right_share_lenient": 44.7
+    }
+   }
+  },
+  "v9 (strip model only)": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 36,
+     "right": 26,
+     "when_said": 72.2,
+     "when_said_lenient": 97.2,
+     "right_share": 16.7,
+     "wrong_share": 6.4,
+     "right_share_lenient": 22.4
+    },
+    "middle": {
+     "points": 587,
+     "said": 299,
+     "right": 249,
+     "when_said": 83.3,
+     "when_said_lenient": 95.3,
+     "right_share": 42.4,
+     "wrong_share": 8.5,
+     "right_share_lenient": 48.6
+    },
+    "finish": {
+     "points": 676,
+     "said": 387,
+     "right": 286,
+     "when_said": 73.9,
+     "when_said_lenient": 91.0,
+     "right_share": 42.3,
+     "wrong_share": 14.9,
+     "right_share_lenient": 52.1
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 722,
+     "right": 561,
+     "when_said": 77.7,
+     "when_said_lenient": 93.1,
+     "right_share": 39.5,
+     "wrong_share": 11.3,
+     "right_share_lenient": 47.4
+    }
+   },
+   "right_share_minus_base": [
+    -1.8,
+    2.1
+   ],
+   "wrong_share_minus_base": [
+    1.9,
+    5.9
+   ]
+  },
+  "W19 thr 0.3": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 91,
+     "right": 56,
+     "when_said": 61.5,
+     "when_said_lenient": 86.8,
+     "right_share": 35.9,
+     "wrong_share": 22.4,
+     "right_share_lenient": 50.6
+    },
+    "middle": {
+     "points": 587,
+     "said": 416,
+     "right": 289,
+     "when_said": 69.5,
+     "when_said_lenient": 88.2,
+     "right_share": 49.2,
+     "wrong_share": 21.6,
+     "right_share_lenient": 62.5
+    },
+    "finish": {
+     "points": 676,
+     "said": 532,
+     "right": 394,
+     "when_said": 74.1,
+     "when_said_lenient": 91.0,
+     "right_share": 58.3,
+     "wrong_share": 20.4,
+     "right_share_lenient": 71.6
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 1039,
+     "right": 739,
+     "when_said": 71.1,
+     "when_said_lenient": 89.5,
+     "right_share": 52.1,
+     "wrong_share": 21.1,
+     "right_share_lenient": 65.5
+    }
+   },
+   "right_share_minus_base": [
+    9.6,
+    15.7
+   ],
+   "wrong_share_minus_base": [
+    11.1,
+    16.0
+   ]
+  },
+  "W19 thr 0.4": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 73,
+     "right": 46,
+     "when_said": 63.0,
+     "when_said_lenient": 91.8,
+     "right_share": 29.5,
+     "wrong_share": 17.3,
+     "right_share_lenient": 42.9
+    },
+    "middle": {
+     "points": 587,
+     "said": 388,
+     "right": 283,
+     "when_said": 72.9,
+     "when_said_lenient": 91.0,
+     "right_share": 48.2,
+     "wrong_share": 17.9,
+     "right_share_lenient": 60.1
+    },
+    "finish": {
+     "points": 676,
+     "said": 509,
+     "right": 380,
+     "when_said": 74.7,
+     "when_said_lenient": 91.6,
+     "right_share": 56.2,
+     "wrong_share": 19.1,
+     "right_share_lenient": 68.9
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 970,
+     "right": 709,
+     "when_said": 73.1,
+     "when_said_lenient": 91.3,
+     "right_share": 50.0,
+     "wrong_share": 18.4,
+     "right_share_lenient": 62.4
+    }
+   },
+   "right_share_minus_base": [
+    7.6,
+    13.5
+   ],
+   "wrong_share_minus_base": [
+    8.6,
+    13.1
+   ]
+  },
+  "W19 thr 0.5": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 55,
+     "right": 37,
+     "when_said": 67.3,
+     "when_said_lenient": 92.7,
+     "right_share": 23.7,
+     "wrong_share": 11.5,
+     "right_share_lenient": 32.7
+    },
+    "middle": {
+     "points": 587,
+     "said": 348,
+     "right": 269,
+     "when_said": 77.3,
+     "when_said_lenient": 92.8,
+     "right_share": 45.8,
+     "wrong_share": 13.5,
+     "right_share_lenient": 55.0
+    },
+    "finish": {
+     "points": 676,
+     "said": 477,
+     "right": 367,
+     "when_said": 76.9,
+     "when_said_lenient": 92.9,
+     "right_share": 54.3,
+     "wrong_share": 16.3,
+     "right_share_lenient": 65.5
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 880,
+     "right": 673,
+     "when_said": 76.5,
+     "when_said_lenient": 92.8,
+     "right_share": 47.4,
+     "wrong_share": 14.6,
+     "right_share_lenient": 57.6
+    }
+   },
+   "right_share_minus_base": [
+    5.4,
+    10.7
+   ],
+   "wrong_share_minus_base": [
+    5.1,
+    8.9
+   ]
+  },
+  "W19 thr 0.6": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 41,
+     "right": 29,
+     "when_said": 70.7,
+     "when_said_lenient": 95.1,
+     "right_share": 18.6,
+     "wrong_share": 7.7,
+     "right_share_lenient": 25.0
+    },
+    "middle": {
+     "points": 587,
+     "said": 313,
+     "right": 246,
+     "when_said": 78.6,
+     "when_said_lenient": 92.3,
+     "right_share": 41.9,
+     "wrong_share": 11.4,
+     "right_share_lenient": 49.2
+    },
+    "finish": {
+     "points": 676,
+     "said": 434,
+     "right": 341,
+     "when_said": 78.6,
+     "when_said_lenient": 94.7,
+     "right_share": 50.4,
+     "wrong_share": 13.8,
+     "right_share_lenient": 60.8
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 788,
+     "right": 616,
+     "when_said": 78.2,
+     "when_said_lenient": 93.8,
+     "right_share": 43.4,
+     "wrong_share": 12.1,
+     "right_share_lenient": 52.1
+    }
+   },
+   "right_share_minus_base": [
+    1.5,
+    6.8
+   ],
+   "wrong_share_minus_base": [
+    2.6,
+    6.5
+   ]
+  },
+  "W19 thr 0.7": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 29,
+     "right": 22,
+     "when_said": 75.9,
+     "when_said_lenient": 96.6,
+     "right_share": 14.1,
+     "wrong_share": 4.5,
+     "right_share_lenient": 17.9
+    },
+    "middle": {
+     "points": 587,
+     "said": 270,
+     "right": 219,
+     "when_said": 81.1,
+     "when_said_lenient": 93.7,
+     "right_share": 37.3,
+     "wrong_share": 8.7,
+     "right_share_lenient": 43.1
+    },
+    "finish": {
+     "points": 676,
+     "said": 376,
+     "right": 304,
+     "when_said": 80.9,
+     "when_said_lenient": 96.0,
+     "right_share": 45.0,
+     "wrong_share": 10.7,
+     "right_share_lenient": 53.4
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 675,
+     "right": 545,
+     "when_said": 80.7,
+     "when_said_lenient": 95.1,
+     "right_share": 38.4,
+     "wrong_share": 9.2,
+     "right_share_lenient": 45.2
+    }
+   },
+   "right_share_minus_base": [
+    -3.8,
+    1.8
+   ],
+   "wrong_share_minus_base": [
+    -0.1,
+    3.3
+   ]
+  },
+  "W21 thr 0.3": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 99,
+     "right": 55,
+     "when_said": 55.6,
+     "when_said_lenient": 83.8,
+     "right_share": 35.3,
+     "wrong_share": 28.2,
+     "right_share_lenient": 53.2
+    },
+    "middle": {
+     "points": 587,
+     "said": 405,
+     "right": 286,
+     "when_said": 70.6,
+     "when_said_lenient": 88.9,
+     "right_share": 48.7,
+     "wrong_share": 20.3,
+     "right_share_lenient": 61.3
+    },
+    "finish": {
+     "points": 676,
+     "said": 532,
+     "right": 398,
+     "when_said": 74.8,
+     "when_said_lenient": 91.2,
+     "right_share": 58.9,
+     "wrong_share": 19.8,
+     "right_share_lenient": 71.7
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 1036,
+     "right": 739,
+     "when_said": 71.3,
+     "when_said_lenient": 89.6,
+     "right_share": 52.1,
+     "wrong_share": 20.9,
+     "right_share_lenient": 65.4
+    }
+   },
+   "right_share_minus_base": [
+    9.7,
+    15.6
+   ],
+   "wrong_share_minus_base": [
+    10.9,
+    15.8
+   ]
+  },
+  "W21 thr 0.4": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 88,
+     "right": 53,
+     "when_said": 60.2,
+     "when_said_lenient": 87.5,
+     "right_share": 34.0,
+     "wrong_share": 22.4,
+     "right_share_lenient": 49.4
+    },
+    "middle": {
+     "points": 587,
+     "said": 375,
+     "right": 279,
+     "when_said": 74.4,
+     "when_said_lenient": 92.0,
+     "right_share": 47.5,
+     "wrong_share": 16.4,
+     "right_share_lenient": 58.8
+    },
+    "finish": {
+     "points": 676,
+     "said": 503,
+     "right": 383,
+     "when_said": 76.1,
+     "when_said_lenient": 92.2,
+     "right_share": 56.7,
+     "wrong_share": 17.8,
+     "right_share_lenient": 68.6
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 966,
+     "right": 715,
+     "when_said": 74.0,
+     "when_said_lenient": 91.7,
+     "right_share": 50.4,
+     "wrong_share": 17.7,
+     "right_share_lenient": 62.4
+    }
+   },
+   "right_share_minus_base": [
+    8.1,
+    14.0
+   ],
+   "wrong_share_minus_base": [
+    7.9,
+    12.4
+   ]
+  },
+  "W21 thr 0.5": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 73,
+     "right": 44,
+     "when_said": 60.3,
+     "when_said_lenient": 87.7,
+     "right_share": 28.2,
+     "wrong_share": 18.6,
+     "right_share_lenient": 41.0
+    },
+    "middle": {
+     "points": 587,
+     "said": 348,
+     "right": 271,
+     "when_said": 77.9,
+     "when_said_lenient": 92.5,
+     "right_share": 46.2,
+     "wrong_share": 13.1,
+     "right_share_lenient": 54.9
+    },
+    "finish": {
+     "points": 676,
+     "said": 469,
+     "right": 368,
+     "when_said": 78.5,
+     "when_said_lenient": 93.4,
+     "right_share": 54.4,
+     "wrong_share": 14.9,
+     "right_share_lenient": 64.8
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 890,
+     "right": 683,
+     "when_said": 76.7,
+     "when_said_lenient": 92.6,
+     "right_share": 48.1,
+     "wrong_share": 14.6,
+     "right_share_lenient": 58.1
+    }
+   },
+   "right_share_minus_base": [
+    6.0,
+    11.6
+   ],
+   "wrong_share_minus_base": [
+    5.0,
+    9.1
+   ]
+  },
+  "W21 thr 0.6": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 48,
+     "right": 32,
+     "when_said": 66.7,
+     "when_said_lenient": 91.7,
+     "right_share": 20.5,
+     "wrong_share": 10.3,
+     "right_share_lenient": 28.2
+    },
+    "middle": {
+     "points": 587,
+     "said": 307,
+     "right": 243,
+     "when_said": 79.2,
+     "when_said_lenient": 92.5,
+     "right_share": 41.4,
+     "wrong_share": 10.9,
+     "right_share_lenient": 48.4
+    },
+    "finish": {
+     "points": 676,
+     "said": 431,
+     "right": 344,
+     "when_said": 79.8,
+     "when_said_lenient": 94.4,
+     "right_share": 50.9,
+     "wrong_share": 12.9,
+     "right_share_lenient": 60.2
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 786,
+     "right": 619,
+     "when_said": 78.8,
+     "when_said_lenient": 93.5,
+     "right_share": 43.6,
+     "wrong_share": 11.8,
+     "right_share_lenient": 51.8
+    }
+   },
+   "right_share_minus_base": [
+    1.5,
+    7.1
+   ],
+   "wrong_share_minus_base": [
+    2.3,
+    6.1
+   ]
+  },
+  "W21 thr 0.7": {
+   "parts": {
+    "start": {
+     "points": 156,
+     "said": 38,
+     "right": 29,
+     "when_said": 76.3,
+     "when_said_lenient": 97.4,
+     "right_share": 18.6,
+     "wrong_share": 5.8,
+     "right_share_lenient": 23.7
+    },
+    "middle": {
+     "points": 587,
+     "said": 265,
+     "right": 215,
+     "when_said": 81.1,
+     "when_said_lenient": 93.2,
+     "right_share": 36.6,
+     "wrong_share": 8.5,
+     "right_share_lenient": 42.1
+    },
+    "finish": {
+     "points": 676,
+     "said": 368,
+     "right": 303,
+     "when_said": 82.3,
+     "when_said_lenient": 95.9,
+     "right_share": 44.8,
+     "wrong_share": 9.6,
+     "right_share_lenient": 52.2
+    },
+    "whole race": {
+     "points": 1419,
+     "said": 671,
+     "right": 547,
+     "when_said": 81.5,
+     "when_said_lenient": 94.9,
+     "right_share": 38.5,
+     "wrong_share": 8.7,
+     "right_share_lenient": 44.9
+    }
+   },
+   "right_share_minus_base": [
+    -3.7,
+    2.0
+   ],
+   "wrong_share_minus_base": [
+    -0.5,
+    2.8
+   ]
+  }
+ },
+ "held": {
+  "v10 (base)": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 32,
+     "right": 24,
+     "when_said": 75.0,
+     "when_said_lenient": 90.6,
+     "right_share": 18.6,
+     "wrong_share": 6.2,
+     "right_share_lenient": 22.5
+    },
+    "middle": {
+     "points": 466,
+     "said": 296,
+     "right": 263,
+     "when_said": 88.9,
+     "when_said_lenient": 98.6,
+     "right_share": 56.4,
+     "wrong_share": 7.1,
+     "right_share_lenient": 62.7
+    },
+    "finish": {
+     "points": 559,
+     "said": 308,
+     "right": 261,
+     "when_said": 84.7,
+     "when_said_lenient": 98.7,
+     "right_share": 46.7,
+     "wrong_share": 8.4,
+     "right_share_lenient": 54.4
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 636,
+     "right": 548,
+     "when_said": 86.2,
+     "when_said_lenient": 98.3,
+     "right_share": 47.5,
+     "wrong_share": 7.6,
+     "right_share_lenient": 54.2
+    }
+   }
+  },
+  "v9 (strip model only)": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 32,
+     "right": 24,
+     "when_said": 75.0,
+     "when_said_lenient": 90.6,
+     "right_share": 18.6,
+     "wrong_share": 6.2,
+     "right_share_lenient": 22.5
+    },
+    "middle": {
+     "points": 466,
+     "said": 296,
+     "right": 263,
+     "when_said": 88.9,
+     "when_said_lenient": 98.6,
+     "right_share": 56.4,
+     "wrong_share": 7.1,
+     "right_share_lenient": 62.7
+    },
+    "finish": {
+     "points": 559,
+     "said": 351,
+     "right": 232,
+     "when_said": 66.1,
+     "when_said_lenient": 90.3,
+     "right_share": 41.5,
+     "wrong_share": 21.3,
+     "right_share_lenient": 56.7
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 679,
+     "right": 519,
+     "when_said": 76.4,
+     "when_said_lenient": 94.0,
+     "right_share": 45.0,
+     "wrong_share": 13.9,
+     "right_share_lenient": 55.3
+    }
+   },
+   "right_share_minus_base": [
+    -5.3,
+    0.4
+   ],
+   "wrong_share_minus_base": [
+    4.3,
+    8.4
+   ]
+  },
+  "W19 thr 0.3": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 67,
+     "right": 43,
+     "when_said": 64.2,
+     "when_said_lenient": 91.0,
+     "right_share": 33.3,
+     "wrong_share": 18.6,
+     "right_share_lenient": 47.3
+    },
+    "middle": {
+     "points": 466,
+     "said": 382,
+     "right": 308,
+     "when_said": 80.6,
+     "when_said_lenient": 95.0,
+     "right_share": 66.1,
+     "wrong_share": 15.9,
+     "right_share_lenient": 77.9
+    },
+    "finish": {
+     "points": 559,
+     "said": 481,
+     "right": 346,
+     "when_said": 71.9,
+     "when_said_lenient": 92.9,
+     "right_share": 61.9,
+     "wrong_share": 24.2,
+     "right_share_lenient": 80.0
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 930,
+     "right": 697,
+     "when_said": 74.9,
+     "when_said_lenient": 93.7,
+     "right_share": 60.4,
+     "wrong_share": 20.2,
+     "right_share_lenient": 75.5
+    }
+   },
+   "right_share_minus_base": [
+    10.1,
+    15.9
+   ],
+   "wrong_share_minus_base": [
+    9.7,
+    15.6
+   ]
+  },
+  "W19 thr 0.4": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 59,
+     "right": 38,
+     "when_said": 64.4,
+     "when_said_lenient": 93.2,
+     "right_share": 29.5,
+     "wrong_share": 16.3,
+     "right_share_lenient": 42.6
+    },
+    "middle": {
+     "points": 466,
+     "said": 366,
+     "right": 305,
+     "when_said": 83.3,
+     "when_said_lenient": 96.7,
+     "right_share": 65.5,
+     "wrong_share": 13.1,
+     "right_share_lenient": 76.0
+    },
+    "finish": {
+     "points": 559,
+     "said": 458,
+     "right": 336,
+     "when_said": 73.4,
+     "when_said_lenient": 94.1,
+     "right_share": 60.1,
+     "wrong_share": 21.8,
+     "right_share_lenient": 77.1
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 883,
+     "right": 679,
+     "when_said": 76.9,
+     "when_said_lenient": 95.1,
+     "right_share": 58.8,
+     "wrong_share": 17.7,
+     "right_share_lenient": 72.8
+    }
+   },
+   "right_share_minus_base": [
+    8.8,
+    14.2
+   ],
+   "wrong_share_minus_base": [
+    7.5,
+    12.8
+   ]
+  },
+  "W19 thr 0.5": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 46,
+     "right": 29,
+     "when_said": 63.0,
+     "when_said_lenient": 93.5,
+     "right_share": 22.5,
+     "wrong_share": 13.2,
+     "right_share_lenient": 33.3
+    },
+    "middle": {
+     "points": 466,
+     "said": 348,
+     "right": 298,
+     "when_said": 85.6,
+     "when_said_lenient": 98.3,
+     "right_share": 63.9,
+     "wrong_share": 10.7,
+     "right_share_lenient": 73.4
+    },
+    "finish": {
+     "points": 559,
+     "said": 431,
+     "right": 331,
+     "when_said": 76.8,
+     "when_said_lenient": 96.5,
+     "right_share": 59.2,
+     "wrong_share": 17.9,
+     "right_share_lenient": 74.4
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 825,
+     "right": 658,
+     "when_said": 79.8,
+     "when_said_lenient": 97.1,
+     "right_share": 57.0,
+     "wrong_share": 14.5,
+     "right_share_lenient": 69.4
+    }
+   },
+   "right_share_minus_base": [
+    7.2,
+    12.1
+   ],
+   "wrong_share_minus_base": [
+    4.8,
+    9.2
+   ]
+  },
+  "W19 thr 0.6": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 33,
+     "right": 23,
+     "when_said": 69.7,
+     "when_said_lenient": 97.0,
+     "right_share": 17.8,
+     "wrong_share": 7.8,
+     "right_share_lenient": 24.8
+    },
+    "middle": {
+     "points": 466,
+     "said": 330,
+     "right": 288,
+     "when_said": 87.3,
+     "when_said_lenient": 99.1,
+     "right_share": 61.8,
+     "wrong_share": 9.0,
+     "right_share_lenient": 70.2
+    },
+    "finish": {
+     "points": 559,
+     "said": 409,
+     "right": 323,
+     "when_said": 79.0,
+     "when_said_lenient": 98.0,
+     "right_share": 57.8,
+     "wrong_share": 15.4,
+     "right_share_lenient": 71.7
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 772,
+     "right": 634,
+     "when_said": 82.1,
+     "when_said_lenient": 98.4,
+     "right_share": 54.9,
+     "wrong_share": 12.0,
+     "right_share_lenient": 65.9
+    }
+   },
+   "right_share_minus_base": [
+    5.1,
+    10.1
+   ],
+   "wrong_share_minus_base": [
+    2.5,
+    6.4
+   ]
+  },
+  "W19 thr 0.7": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 22,
+     "right": 16,
+     "when_said": 72.7,
+     "when_said_lenient": 95.5,
+     "right_share": 12.4,
+     "wrong_share": 4.7,
+     "right_share_lenient": 16.3
+    },
+    "middle": {
+     "points": 466,
+     "said": 286,
+     "right": 254,
+     "when_said": 88.8,
+     "when_said_lenient": 99.7,
+     "right_share": 54.5,
+     "wrong_share": 6.9,
+     "right_share_lenient": 61.2
+    },
+    "finish": {
+     "points": 559,
+     "said": 365,
+     "right": 302,
+     "when_said": 82.7,
+     "when_said_lenient": 98.6,
+     "right_share": 54.0,
+     "wrong_share": 11.3,
+     "right_share_lenient": 64.4
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 673,
+     "right": 572,
+     "when_said": 85.0,
+     "when_said_lenient": 99.0,
+     "right_share": 49.6,
+     "wrong_share": 8.8,
+     "right_share_lenient": 57.7
+    }
+   },
+   "right_share_minus_base": [
+    -0.1,
+    4.3
+   ],
+   "wrong_share_minus_base": [
+    -0.4,
+    3.1
+   ]
+  },
+  "W21 thr 0.3": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 67,
+     "right": 44,
+     "when_said": 65.7,
+     "when_said_lenient": 92.5,
+     "right_share": 34.1,
+     "wrong_share": 17.8,
+     "right_share_lenient": 48.1
+    },
+    "middle": {
+     "points": 466,
+     "said": 380,
+     "right": 307,
+     "when_said": 80.8,
+     "when_said_lenient": 95.5,
+     "right_share": 65.9,
+     "wrong_share": 15.7,
+     "right_share_lenient": 77.9
+    },
+    "finish": {
+     "points": 559,
+     "said": 482,
+     "right": 347,
+     "when_said": 72.0,
+     "when_said_lenient": 92.9,
+     "right_share": 62.1,
+     "wrong_share": 24.2,
+     "right_share_lenient": 80.1
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 929,
+     "right": 698,
+     "when_said": 75.1,
+     "when_said_lenient": 94.0,
+     "right_share": 60.5,
+     "wrong_share": 20.0,
+     "right_share_lenient": 75.6
+    }
+   },
+   "right_share_minus_base": [
+    10.3,
+    15.7
+   ],
+   "wrong_share_minus_base": [
+    9.7,
+    15.3
+   ]
+  },
+  "W21 thr 0.4": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 62,
+     "right": 41,
+     "when_said": 66.1,
+     "when_said_lenient": 93.5,
+     "right_share": 31.8,
+     "wrong_share": 16.3,
+     "right_share_lenient": 45.0
+    },
+    "middle": {
+     "points": 466,
+     "said": 360,
+     "right": 301,
+     "when_said": 83.6,
+     "when_said_lenient": 97.5,
+     "right_share": 64.6,
+     "wrong_share": 12.7,
+     "right_share_lenient": 75.3
+    },
+    "finish": {
+     "points": 559,
+     "said": 459,
+     "right": 340,
+     "when_said": 74.1,
+     "when_said_lenient": 94.6,
+     "right_share": 60.8,
+     "wrong_share": 21.3,
+     "right_share_lenient": 77.6
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 881,
+     "right": 682,
+     "when_said": 77.4,
+     "when_said_lenient": 95.7,
+     "right_share": 59.1,
+     "wrong_share": 17.2,
+     "right_share_lenient": 73.1
+    }
+   },
+   "right_share_minus_base": [
+    9.0,
+    14.3
+   ],
+   "wrong_share_minus_base": [
+    7.1,
+    12.4
+   ]
+  },
+  "W21 thr 0.5": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 53,
+     "right": 34,
+     "when_said": 64.2,
+     "when_said_lenient": 94.3,
+     "right_share": 26.4,
+     "wrong_share": 14.7,
+     "right_share_lenient": 38.8
+    },
+    "middle": {
+     "points": 466,
+     "said": 346,
+     "right": 295,
+     "when_said": 85.3,
+     "when_said_lenient": 98.3,
+     "right_share": 63.3,
+     "wrong_share": 10.9,
+     "right_share_lenient": 73.0
+    },
+    "finish": {
+     "points": 559,
+     "said": 428,
+     "right": 330,
+     "when_said": 77.1,
+     "when_said_lenient": 96.7,
+     "right_share": 59.0,
+     "wrong_share": 17.5,
+     "right_share_lenient": 74.1
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 827,
+     "right": 659,
+     "when_said": 79.7,
+     "when_said_lenient": 97.2,
+     "right_share": 57.1,
+     "wrong_share": 14.6,
+     "right_share_lenient": 69.7
+    }
+   },
+   "right_share_minus_base": [
+    7.4,
+    12.0
+   ],
+   "wrong_share_minus_base": [
+    5.0,
+    9.1
+   ]
+  },
+  "W21 thr 0.6": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 41,
+     "right": 25,
+     "when_said": 61.0,
+     "when_said_lenient": 92.7,
+     "right_share": 19.4,
+     "wrong_share": 12.4,
+     "right_share_lenient": 29.5
+    },
+    "middle": {
+     "points": 466,
+     "said": 325,
+     "right": 286,
+     "when_said": 88.0,
+     "when_said_lenient": 99.1,
+     "right_share": 61.4,
+     "wrong_share": 8.4,
+     "right_share_lenient": 69.1
+    },
+    "finish": {
+     "points": 559,
+     "said": 404,
+     "right": 324,
+     "when_said": 80.2,
+     "when_said_lenient": 98.3,
+     "right_share": 58.0,
+     "wrong_share": 14.3,
+     "right_share_lenient": 71.0
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 770,
+     "right": 635,
+     "when_said": 82.5,
+     "when_said_lenient": 98.3,
+     "right_share": 55.0,
+     "wrong_share": 11.7,
+     "right_share_lenient": 65.6
+    }
+   },
+   "right_share_minus_base": [
+    5.5,
+    9.8
+   ],
+   "wrong_share_minus_base": [
+    2.4,
+    6.0
+   ]
+  },
+  "W21 thr 0.7": {
+   "parts": {
+    "start": {
+     "points": 129,
+     "said": 21,
+     "right": 16,
+     "when_said": 76.2,
+     "when_said_lenient": 95.2,
+     "right_share": 12.4,
+     "wrong_share": 3.9,
+     "right_share_lenient": 15.5
+    },
+    "middle": {
+     "points": 466,
+     "said": 274,
+     "right": 242,
+     "when_said": 88.3,
+     "when_said_lenient": 99.6,
+     "right_share": 51.9,
+     "wrong_share": 6.9,
+     "right_share_lenient": 58.6
+    },
+    "finish": {
+     "points": 559,
+     "said": 350,
+     "right": 292,
+     "when_said": 83.4,
+     "when_said_lenient": 98.9,
+     "right_share": 52.2,
+     "wrong_share": 10.4,
+     "right_share_lenient": 61.9
+    },
+    "whole race": {
+     "points": 1154,
+     "said": 645,
+     "right": 550,
+     "when_said": 85.3,
+     "when_said_lenient": 99.1,
+     "right_share": 47.7,
+     "wrong_share": 8.2,
+     "right_share_lenient": 55.4
+    }
+   },
+   "right_share_minus_base": [
+    -2.1,
+    2.7
+   ],
+   "wrong_share_minus_base": [
+    -0.6,
+    2.1
+   ]
+  }
+ },
+ "train": {
+  "without_otherday": {
+   "samples": 37497,
+   "positive": 4540
+  },
+  "without_otherday2": {
+   "samples": 38852,
+   "positive": 4553
+  },
+  "without_otherday3": {
+   "samples": 41400,
+   "positive": 5036
+  },
+  "without_otherday4": {
+   "samples": 38256,
+   "positive": 4848
+  },
+  "without_otherday5": {
+   "samples": 38014,
+   "positive": 4496
+  },
+  "without_20261115": {
+   "samples": 38376,
+   "positive": 4537
+  },
+  "all": {
+   "samples": 46479,
+   "positive": 5602
+  }
+ },
+ "importance_W21": [
+  0.0115,
+  0.0068,
+  0.0095,
+  0.0108,
+  0.6724,
+  0.0153,
+  0.0394,
+  0.0016,
+  0.034,
+  0.0455,
+  0.0116,
+  0.0085,
+  0.037,
+  0.0042,
+  0.0003,
+  0.0332,
+  0.0069,
+  0.0249,
+  0.017,
+  0.0029,
+  0.0067
+ ],
+ "chosen": null,
+ "goes_to_new_days": false
+}

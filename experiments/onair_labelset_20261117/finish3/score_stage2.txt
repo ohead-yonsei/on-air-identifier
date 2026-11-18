@@ -1,0 +1,6 @@
+v10 (bar 0.7)  16 races, 426 time points: true leader readable 69.2% | whole race right share 44.6%  wrong share 5.6%  when said 88.8% (190/214) | start 12.5/10.4  middle 55.9/3.5  finish 42.8/6.2 (when said 87.3)
+bar 0.4        16 races, 426 time points: true leader readable 76.8% | whole race right share 48.6%  wrong share 6.6%  when said 88.1% (207/235) | start 14.6/10.4  middle 62.4/4.1  finish 45.2/7.7 (when said 85.5)
+L: right share +4.0 points [1.4, 6.8], wrong share +1.0 points [0.0, 2.1] -> confirmed: True
+v10 rule (5 pictures)                      all 13/20 called, 8 right, wrong ranks [3, 7, 7, 9, 10] | clock agrees 11/16 called, 7 right, wrong ranks [7, 7, 9, 10]
+guard (6 pictures and both models agree)   all 9/20 called, 6 right, wrong ranks [7, 7, 10] | clock agrees 8/16 called, 5 right, wrong ranks [7, 7, 10]
+W: guard confirmed: False

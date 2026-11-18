@@ -22,7 +22,8 @@ cd ~/ai-workspace/projects/onair_labelset_20261117
 
 - 영상은 1920×1080 중계 화면이어야 한다(방송 그래픽 위치를 그 크기로 잡았다).
 - 시작과 끝을 주지 않으면 화면의 경주 타이머로 경주 구간을 찾고, 타이머가 나타난 뒤 22초부터 3초 간격으로 돈다. `--start 30 --end 90 --step 3`처럼 직접 줄 수도 있다.
-- 시점마다 순위 띠가 화면에 있는지도 확인한다(`--no-strip-check`로 끌 수 있다).
+- 순위 띠는 번호를 정하는 데 쓰지 않는다. `--strip-check`를 주면 시점마다 띠가 화면에 있는지와 띠의 번호를 출력에 함께 적는다(채점용, 로컬 Qwen 사용). 2026-11-19부터 기본으로 꺼져 있고, 예전 명령의 `--no-strip-check`는 그대로 받아들인다.
+- `--v10`(2026-11-19, `--video`에서만): v9에 더해, 화면 시계가 멈춘 순간을 결승으로 잡고 결승 36초 전부터는 공식 기록으로 배운 선두 모델(`../finish2/models/fs_leader_all.joblib`)을 쓰며, 결승 직전 6초의 화면 31장으로 우승마를 부른다(`winner_call`). 확인용 3일에서 프로그램 출력이 실험과 같은 수준이었다(결승 구간 선두 88.2%, `../finish2/program_v10_C.json`). **우승마 부르기는 새 날 4일에서 24개 중 18개만 맞아 믿을 수 없다**(`../finish3/RESULT_KO.md`).
 - 이미 뽑아 둔 프레임 폴더로도 돌릴 수 있다: `--day-dir otherday7 --races R01 R02`.
 
 ### v9의 세 조각 — 기본으로 모두 켜져 있다 (2026-11-18, `../night/RESULT_KO.md`)
@@ -74,7 +75,7 @@ cd ~/ai-workspace/projects/onair_labelset_20261117
 - `../cnn/models/all_two_days.pt` (모자 분류기), `../order2/l1_model.joblib` (앞선 말 고르기 모델) — 서버에만 있다
 - `../leader/leader_model.joblib` (선두 모델), v9(기본값)와 `--fast`일 때는 `../night/l1_fast.joblib`, `../night/leader_fast.joblib` — 서버에만 있다
 - `../code/s3_classify.py`, `../code/j1_strip_reader.py`
-- 로컬 Ollama의 Qwen 9B (`http://127.0.0.1:11435`) — v8(`--v8`)과 순위 띠 확인에만 쓴다. 기본값(v9)에 `--no-strip-check`를 주면 필요 없다
+- 로컬 Ollama의 Qwen 9B (`http://127.0.0.1:11435`) — v8(`--v8`)과 순위 띠 확인(`--strip-check`)에만 쓴다. 기본값(v9)에는 필요 없다
 
 ## 한계
 

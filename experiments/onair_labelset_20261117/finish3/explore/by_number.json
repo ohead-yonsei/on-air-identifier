@@ -1,0 +1,88 @@
+{
+ "leader_by_true_leader": {
+  "2": {
+   "points": 289,
+   "readable": 231,
+   "right": 148,
+   "wrong": 20
+  },
+  "all": {
+   "points": 2999,
+   "readable": 2075,
+   "right": 1297,
+   "wrong": 220
+  },
+  "4": {
+   "points": 217,
+   "readable": 147,
+   "right": 85,
+   "wrong": 24
+  },
+  "5": {
+   "points": 200,
+   "readable": 147,
+   "right": 72,
+   "wrong": 20
+  },
+  "1": {
+   "points": 431,
+   "readable": 301,
+   "right": 209,
+   "wrong": 12
+  },
+  "8": {
+   "points": 195,
+   "readable": 146,
+   "right": 105,
+   "wrong": 10
+  },
+  "11+": {
+   "points": 220,
+   "readable": 98,
+   "right": 60,
+   "wrong": 15
+  },
+  "6": {
+   "points": 485,
+   "readable": 364,
+   "right": 214,
+   "wrong": 43
+  },
+  "10": {
+   "points": 241,
+   "readable": 128,
+   "right": 76,
+   "wrong": 19
+  },
+  "9": {
+   "points": 263,
+   "readable": 192,
+   "right": 124,
+   "wrong": 16
+  },
+  "7": {
+   "points": 121,
+   "readable": 58,
+   "right": 35,
+   "wrong": 18
+  },
+  "3": {
+   "points": 337,
+   "readable": 263,
+   "right": 169,
+   "wrong": 23
+  }
+ },
+ "winner_by_true_winner": {
+  "1-9": {
+   "races": 90,
+   "called": 64,
+   "right": 57
+  },
+  "10 or more": {
+   "races": 20,
+   "called": 8,
+   "right": 4
+  }
+ }
+}

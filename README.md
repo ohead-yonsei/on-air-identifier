@@ -33,7 +33,7 @@
 | v7 | T1 | "확정"을 분류기 확률 0.7 이상으로만, 작은 기수 검출, 3초·6초 전 이어받기 | 지나간 것 (손 규칙 기준선) |
 | **v8** | L1 | 앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 선두와 앞뒤 순서도 냄 | 2026-11-18까지의 기본값. 지금은 `--v8`로 고름 |
 | **v9** | F2 | 언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초 | **프로그램의 기본값** (2026-11-18부터). 새 날 2일의 미리 고정한 확인을 통과. 벤치마크 기준선과 띠 없는 구간 측정에 씀 |
-| v10 (예정) | — | v9 + 공식 기록으로 배운 선두 모델 + 우승마 부르기 | 실험 코드에만 있음 (`finish2/`) |
+| v10 | F2+finish | v9 + 결승 36초 전부터 공식 기록으로 배운 선두 모델 + 우승마 부르기 | 프로그램의 선택 사항(`--v10`, 2026-11-19). 새 날에서 결승 구간 선두는 93.6%(v9 86.2%)였지만 우승마 부르기는 기준 미달(24개를 불러 18개 맞음) — `finish3/` |
 
 코드 이름은 파일 이름과 출력(`"configuration": "F2"` 등), 예전 실험 기록에 그대로 남아 있습니다. F1은 v8에서 언어 모델만 뺀 중간 단계입니다. 고정해 둔 설계 문서와 예전 결과 문서는 고치지 않았으므로 코드 이름이나 "아침의 식별기"(= v6) 같은 표현이 남아 있습니다.
 
@@ -52,6 +52,7 @@
 | [중계 스크립트 시연](https://ohead-yonsei.github.io/on-air-identifier/race-call-20261108-r11.html) (`docs/race-call-20261108-r11.html`), [설명](experiments/onair_labelset_20261117/live_script/README_KO.md) | 안 쓴 경주 하나를 띠 없이 화면만 보고 중계한 스크립트. 화면과 문장을 나란히 읽는 페이지 |
 | [live_commentary/RESULT_KO.md](experiments/onair_labelset_20261117/live_commentary/RESULT_KO.md) | 식별기를 써서 실제로 중계해 본 시연 |
 | [finish2/RESULT_KO.md](experiments/onair_labelset_20261117/finish2/RESULT_KO.md) | 띠 없는 구간을 공식 기록으로 다시 재기: 마지막 36초, 선두 모델, 우승마 부르기, 경주 전체 |
+| [finish3/RESULT_KO.md](experiments/onair_labelset_20261117/finish3/RESULT_KO.md) | v10을 통째로 새 날에서 시험(우승마 부르기 기준 미달), 선두를 못 말하는 이유(번호를 확정하지 못함, 7번·10번·11번 이상 모자가 약함), 선두용 번호 확정 기준 0.4 확인 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간의 처음 시도(결승 시각이 어긋나 있었음. finish2가 바로잡음) |
 
 ## 폴더
@@ -77,7 +78,7 @@ experiments/
 
 ## 실행
 
-GPU 서버에서 실행합니다(RTX 3090에서 확인). Python 패키지(PyTorch, torchvision, OpenCV, scikit-learn)가 필요하고, 기본 구성(v9)은 번호를 읽는 데 언어 모델을 쓰지 않습니다. 순위 띠가 화면에 있는지 표시하는 확인과 `--v8`만 로컬 Ollama의 Qwen 9B를 씁니다(`--no-strip-check`를 주면 언어 모델을 전혀 부르지 않습니다). 유료 API는 쓰지 않습니다.
+GPU 서버에서 실행합니다(RTX 3090에서 확인). Python 패키지(PyTorch, torchvision, OpenCV, scikit-learn)가 필요하고, 기본 구성(v9)은 번호를 읽는 데 언어 모델을 쓰지 않습니다. 순위 띠는 번호를 정하는 데 쓰지 않습니다. 띠가 화면에 있는지 함께 적는 확인(`--strip-check`, 채점용, 2026-11-19부터 기본으로 꺼짐)과 `--v8`만 로컬 Ollama의 Qwen 9B를 씁니다. 유료 API는 쓰지 않습니다.
 
 ```bash
 python experiments/onair_labelset_20261117/identifier/identify_l1.py --video 경주.mp4 --out 결과.json
