@@ -12,14 +12,30 @@
 |---|---|---|
 | 말한 번호가 실제 상위 3두였던 비율 | 94.3% (1459개 중 1376개) | 처음 보는 경주일 엿새, 60개 경주 |
 | 맞는 번호를 하나 이상 말한 시점 | 89.0% (874개 중 778개). 날에 따라 82~95% | 같은 엿새 |
-| "선두는 N번" | 87.5% (344번 중 301번). 처음 이틀에서는 94.0%였음 | 나중의 나흘, 선두 기준값 0.5 |
-| "a번이 b번보다 앞" | 91.4% (336번 중 307번). 처음 이틀에서는 93.0% | 나중의 나흘 |
-| Qwen 없이 분류기만 쓴 빠른 구성 | A 94.3%, B 87.6%. 시점당 8.3초 → 2.3초 | 나중의 나흘 |
+| "선두는 N번" | 87.5% (344번 중 301번). 10월 5일·3일에서는 94.0%였음 | 9월 19일~8월 30일의 나흘, 선두 기준값 0.5 |
+| "a번이 b번보다 앞" | 91.4% (336번 중 307번). 10월 5일·3일에서는 93.0% | 같은 나흘 |
+| Qwen 없이 분류기만 쓴 빠른 구성 | A 94.3%, B 87.6%. 시점당 8.3초 → 2.3초 | 같은 나흘 |
 | 틀린 번호가 들어간 중계 문장 | 화면만 본 모델 138개 → 식별기를 쓴 중계 7개 (140개 시점) | 2026-11-15, 11개 경주 |
 
 - 위 표의 숫자는 **방송 순위 띠가 화면에 있는 구간**의 것입니다. 띠가 없는 구간(출발 직후, 마지막 30초쯤)은 공식 경주 기록을 정답으로 따로 쟀습니다: 띠 없이 경주 전체를 돌리면 A 92.6%, B 89.9%(안 쓴 엿새, 43개 경주). 결승 3초 전까지는 띠 구간과 같은 수준이고, 약한 곳은 출발 직후와 결승 순간입니다([finish2/RESULT_KO.md](experiments/onair_labelset_20261117/finish2/RESULT_KO.md)).
 - 서울 경마장, 한국마사회 국제 채널(KRBC International) 화면에서만 만들고 확인했습니다.
 - 자세한 한계는 정리 페이지와 각 실험의 `RESULT_KO.md`에 있습니다.
+
+## 식별기 버전
+
+문서에서 식별기를 가리킬 때는 아래 버전 이름을 씁니다.
+
+| 버전 | 코드 이름 | 무엇이 달라졌나 | 상태 |
+|---|---|---|---|
+| v4 | — | 이 작업 이전의 식별기 (색 규칙). `ON-AIR_진행공유.md` | 지나간 것 |
+| v5 | — | 화면 한 장에서 기수마다 번호를 냄: 기수 검출 + 색 규칙 + Qwen | v6부터의 부품 |
+| v6 | S0 | 처음으로 "선두권 번호"를 냄: v5 + 모자색 분류기, 그림 3장 중 2장, 화면 아래쪽 두 상자 | 지나간 것 |
+| v7 | T1 | "확정"을 분류기 확률 0.7 이상으로만, 작은 기수 검출, 3초·6초 전 이어받기 | 지나간 것 (손 규칙 기준선) |
+| **v8** | L1 | 앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 선두와 앞뒤 순서도 냄 | **프로그램의 기본값** |
+| **v9** | F2 | 언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초 | 프로그램의 선택 사항. 벤치마크 기준선과 띠 없는 구간 측정에 씀 |
+| v10 (예정) | — | v9 + 공식 기록으로 배운 선두 모델 + 우승마 부르기 | 실험 코드에만 있음 (`finish2/`) |
+
+코드 이름은 파일 이름과 출력(`"configuration": "F2"` 등), 예전 실험 기록에 그대로 남아 있습니다. F1은 v8에서 언어 모델만 뺀 중간 단계입니다. 고정해 둔 설계 문서와 예전 결과 문서는 고치지 않았으므로 코드 이름이나 "아침의 식별기"(= v6) 같은 표현이 남아 있습니다.
 
 ## 어디부터 읽나
 
@@ -32,7 +48,7 @@
 | [identifier/README_KO.md](experiments/onair_labelset_20261117/identifier/README_KO.md) | 식별기 프로그램 사용법과 출력 |
 | [leader/RESULT_KO.md](experiments/onair_labelset_20261117/leader/RESULT_KO.md) | 선두권 안의 순서(선두, 앞뒤) |
 | [night/RESULT_KO.md](experiments/onair_labelset_20261117/night/RESULT_KO.md) | 새 경주일 나흘에서 다시 잰 것, Qwen 없는 빠른 구성, 빈 시점 메우기, 순서를 넣은 중계 |
-| [order2/RESULT_KO.md](experiments/onair_labelset_20261117/order2/RESULT_KO.md), [order2b/RESULT_KO.md](experiments/onair_labelset_20261117/order2b/RESULT_KO.md) | 지금 구성(L1)의 확인 결과 |
+| [order2/RESULT_KO.md](experiments/onair_labelset_20261117/order2/RESULT_KO.md), [order2b/RESULT_KO.md](experiments/onair_labelset_20261117/order2b/RESULT_KO.md) | v8(L1)의 확인 결과 |
 | [live_commentary/RESULT_KO.md](experiments/onair_labelset_20261117/live_commentary/RESULT_KO.md) | 식별기를 써서 실제로 중계해 본 시연 |
 | [finish2/RESULT_KO.md](experiments/onair_labelset_20261117/finish2/RESULT_KO.md) | 띠 없는 구간을 공식 기록으로 다시 재기: 마지막 36초, 선두 모델, 우승마 부르기, 경주 전체 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간의 처음 시도(결승 시각이 어긋나 있었음. finish2가 바로잡음) |
@@ -47,7 +63,7 @@ experiments/
   onair_labelset_20261117/             이 저장소의 중심. 라벨, 식별기, 실험 전부
     identifier/                        식별기 프로그램 (identify_l1.py)
     code/                              실험 코드
-    order2/, order2b/, temporal/       지금 구성(L1)과 그 앞 단계(T1)의 시험
+    order2/, order2b/, temporal/       v8(L1)과 v7(T1)의 시험
     leader/                            선두권 안의 순서
     night/                             새 나흘에서 다시 재기, 빠른 구성, 빈 시점 메우기
     finish/, da/, confirm/, weak/      결승선 구간, 검출 바꾸기, 통하지 않은 시도
@@ -66,7 +82,7 @@ GPU 서버에서 실행합니다(RTX 3090에서 확인). Python 패키지(PyTorc
 python experiments/onair_labelset_20261117/identifier/identify_l1.py --video 경주.mp4 --out 결과.json
 ```
 
-`--fast`를 붙이면 Qwen 없이 돕니다(시점당 2초쯤). `--fast --fallback --leader-tau 0.5`는 밤 실험에서 나온 묶음 구성(F2)이고, 묶은 상태로는 아직 새 날에서 확인하지 못했습니다.
+`--fast`를 붙이면 Qwen 없이 돕니다(시점당 2초쯤). `--fast --fallback --leader-tau 0.5`는 v9(코드 이름 F2)입니다. 벤치마크 시험용 엿새에서 A 93.2%, B 93.0%였고, 새 날 이틀로 미리 고정해 둔 확인 시험은 아직 하지 못했습니다.
 
 모델 파일(모자 분류기, 앞선 말 고르기 모델, 선두 모델)과 영상은 저장소에 없습니다. 학습 코드는 `code/`에 있습니다(`wk1_train_weak.py`, `or2_train_final.py`, `ld2_train_final.py` 등).
 

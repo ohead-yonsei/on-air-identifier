@@ -114,7 +114,7 @@ svg .m { font-family: var(--mono); }
       <text class="q" x="96" y="250" text-anchor="end" font-size="11.5">있음</text><text class="q" x="196" y="228" text-anchor="middle" font-size="11.5">없음</text>
     </svg>
     </div>
-    <figcaption>식별기 L1의 흐름. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다.</figcaption>
+    <figcaption>식별기 v8의 흐름. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다.</figcaption>
   </figure>
   <ol>
     <li><b>기수 찾기.</b> 검출 모델(Faster R-CNN, 추가 학습 없음)로 말 위의 사람을 찾습니다. 한 화면에서 4명 미만이면 그 화면만 작은 기수용 설정으로 다시 찾습니다.</li>
@@ -154,10 +154,10 @@ svg .m { font-family: var(--mono); }
 
 <section>
   <h2>식별기 결과</h2>
-  <p class="lead">아침의 식별기는 처음 보는 경주일에서 A 86.2%, B 75.1%였습니다. 두 번 바꾼 뒤 A 92.9%, B 94.6%가 됐습니다.</p>
+  <p class="lead">처음으로 선두권 번호를 낸 v6은 처음 보는 경주일에서 A 86.2%, B 75.1%였습니다. 두 번 바꾼 v8에서 A 92.9%, B 94.6%가 됐습니다.</p>
   <figure>
     <div class="scroll">
-    <svg viewBox="0 0 760 362" role="img" aria-label="구성별 A와 B. 아침의 식별기 A 86.2% B 75.1%, T1 A 92.7% B 86.3%, 최종 구성 L1 A 92.9% B 94.6%" font-size="12">
+    <svg viewBox="0 0 760 362" role="img" aria-label="버전별 A와 B. v6 A 86.2% B 75.1%, v7 A 92.7% B 86.3%, v8 A 92.9% B 94.6%" font-size="12">
       <g><circle cx="116" cy="26" r="5" fill="var(--s1)"/><text class="t" x="128" y="30">A: 말한 것 중 맞는 비율</text><circle cx="376" cy="26" r="5" fill="var(--s2)"/><text class="t" x="388" y="30">B: 맞는 말이 있는 시점</text></g>
       <g stroke="var(--line)"><line x1="110" x2="660" y1="90" y2="90"/><line x1="110" x2="660" y1="142.5" y2="142.5"/><line x1="110" x2="660" y1="195" y2="195"/><line x1="110" x2="660" y1="247.5" y2="247.5"/><line x1="110" x2="660" y1="300" y2="300"/></g>
       <g class="q m" text-anchor="end" font-size="11.5"><text class="q" x="100" y="94">100%</text><text class="q" x="100" y="146.5">90%</text><text class="q" x="100" y="199">80%</text><text class="q" x="100" y="251.5">70%</text><text class="q" x="100" y="304">60%</text></g>
@@ -166,28 +166,30 @@ svg .m { font-family: var(--mono); }
       <polyline points="190,162.5 390,128.3 590,127.3" fill="none" stroke="var(--s1)" stroke-width="2"/>
       <polyline points="190,220.7 390,161.9 590,118.3" fill="none" stroke="var(--s2)" stroke-width="2"/>
       <g stroke="var(--surface)" stroke-width="2">
-        <circle cx="190" cy="162.5" r="6" fill="var(--s1)"><title>아침의 식별기 S0, A 86.2%</title></circle><circle cx="390" cy="128.3" r="6" fill="var(--s1)"><title>T1, A 92.7%</title></circle><circle cx="590" cy="127.3" r="6" fill="var(--s1)"><title>최종 구성 L1, A 92.9%</title></circle>
-        <circle cx="190" cy="220.7" r="6" fill="var(--s2)"><title>아침의 식별기 S0, B 75.1%</title></circle><circle cx="390" cy="161.9" r="6" fill="var(--s2)"><title>T1, B 86.3%</title></circle><circle cx="590" cy="118.3" r="6" fill="var(--s2)"><title>최종 구성 L1, B 94.6%</title></circle>
+        <circle cx="190" cy="162.5" r="6" fill="var(--s1)"><title>v6, A 86.2%</title></circle><circle cx="390" cy="128.3" r="6" fill="var(--s1)"><title>v7, A 92.7%</title></circle><circle cx="590" cy="127.3" r="6" fill="var(--s1)"><title>v8, A 92.9%</title></circle>
+        <circle cx="190" cy="220.7" r="6" fill="var(--s2)"><title>v6, B 75.1%</title></circle><circle cx="390" cy="161.9" r="6" fill="var(--s2)"><title>v7, B 86.3%</title></circle><circle cx="590" cy="118.3" r="6" fill="var(--s2)"><title>v8, B 94.6%</title></circle>
       </g>
       <g class="m b" text-anchor="middle" font-size="12.5">
         <text class="t" x="190" y="186">A 86.2%</text><text class="t" x="190" y="244">B 75.1%</text>
         <text class="t" x="390" y="115">A 92.7%</text><text class="t" x="390" y="185">B 86.3%</text>
         <text class="t" x="590" y="104">B 94.6%</text><text class="t" x="603" y="132" text-anchor="start">A 92.9%</text>
       </g>
-      <g text-anchor="middle"><text class="t" x="190" y="326" font-size="12.5">아침의 식별기 (S0)</text><text class="q" x="190" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="390" y="326" font-size="12.5">T1</text><text class="q" x="390" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="590" y="326" font-size="12.5">최종 구성 (L1)</text><text class="q" x="590" y="344" font-size="11.5">새 경주일 두 날</text></g>
+      <g text-anchor="middle"><text class="t" x="190" y="326" font-size="12.5">v6</text><text class="q" x="190" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="390" y="326" font-size="12.5">v7</text><text class="q" x="390" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="590" y="326" font-size="12.5">v8 (기본값)</text><text class="q" x="590" y="344" font-size="11.5">새 경주일 두 날</text></g>
     </svg>
     </div>
-    <figcaption>각 구성을 고르는 데 쓰지 않은 경주일의 합계입니다. 순위 띠가 화면에 있는 구간에서 잰 값입니다.</figcaption>
+    <figcaption>각 버전을 고르는 데 쓰지 않은 경주일의 합계입니다. 순위 띠가 화면에 있는 구간에서 잰 값입니다.</figcaption>
   </figure>
   <div class="tablewrap"><table>
-    <thead><tr><th>구성</th><th>무엇을 바꿨나</th><th class="n">A</th><th class="n">B</th></tr></thead>
+    <thead><tr><th>버전</th><th>코드 이름</th><th>무엇을 바꿨나</th><th class="n">A</th><th class="n">B</th><th>어디서 쟀나</th></tr></thead>
     <tbody>
-      <tr><td>S0</td><td>아침의 식별기. Qwen이 말한 번호도 "확정"으로 인정. 앞선 말 = 화면 아래쪽 두 상자</td><td class="n">86.2%</td><td class="n">75.1%</td></tr>
-      <tr><td>T1</td><td>"확정"은 분류기 확률 0.7 이상만. 작은 기수 검출과 이어받기 추가</td><td class="n">92.7%</td><td class="n">86.3%</td></tr>
-      <tr class="hl"><td><b>L1</b></td><td>앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈</td><td class="n">92.9%</td><td class="n">94.6%</td></tr>
+      <tr><td>v6</td><td>S0</td><td>처음으로 "선두권 번호"를 냄. Qwen이 말한 번호도 "확정"으로 인정. 앞선 말 = 화면 아래쪽 두 상자</td><td class="n">86.2%</td><td class="n">75.1%</td><td>새 경주일 다섯 날</td></tr>
+      <tr><td>v7</td><td>T1</td><td>"확정"은 분류기 확률 0.7 이상만. 작은 기수 검출과 이어받기 추가</td><td class="n">92.7%</td><td class="n">86.3%</td><td>새 경주일 세 날</td></tr>
+      <tr class="hl"><td><b>v8</b></td><td>L1</td><td>앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 프로그램의 기본값</td><td class="n">92.9%</td><td class="n">94.6%</td><td>새 경주일 두 날 (엿새로는 94.3% / 89.0%)</td></tr>
+      <tr class="hl"><td><b>v9</b></td><td>F2</td><td>언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초</td><td class="n">93.2%</td><td class="n">93.0%</td><td>새 경주일 엿새, 874개 시점 (나흘은 조각을 고를 때 본 날)</td></tr>
+      <tr><td>v10 (예정)</td><td>—</td><td>v9 + 공식 기록으로 배운 선두 모델 + 우승마 부르기. 실험 코드에만 있음</td><td class="n">—</td><td class="n">—</td><td><a href="#nostrip">띠 없는 구간</a>에서 조각별로 확인</td></tr>
     </tbody>
   </table></div>
-  <p>L1을 고르는 데 쓰지 않은 세 번째 경주일(11월 15일, 중계 시연에 쓴 날)에서도 A 97.0%, B 87.9%였습니다. 그 뒤 새 경주일 나흘에서 다시 쟀고, 거기서는 A 95.1%, B 86.2%였습니다(<a href="#night">아래</a>).</p>
+  <p>v5 이전은 기수 한 명 한 명의 번호를 내던 단계이고(v4는 이 작업 이전의 식별기), 코드 이름은 파일과 예전 기록에 남아 있는 이름입니다. v8을 고르는 데 쓰지 않은 세 번째 경주일(11월 15일, 중계 시연에 쓴 날)에서도 A 97.0%, B 87.9%였습니다. 그 뒤 새 경주일 나흘에서 다시 쟀고, 거기서는 A 95.1%, B 86.2%였습니다(<a href="#night">아래</a>).</p>
 
   <h3>통한 것과 통하지 않은 것</h3>
   <p>숫자를 올린 변경은 다섯 가지였고, 그중 네 가지는 사람 라벨이 필요 없습니다. 이미 본 경주일에서 좋아 보였던 변경이 새 경주일에서 무너진 일이 다섯 번 있었습니다.</p>
@@ -230,7 +232,7 @@ svg .m { font-family: var(--mono); }
   <h2>새 경주일 나흘에서 다시 재기</h2>
   <p class="lead">위의 숫자는 경주일 이틀의 것이고, 그 이틀은 쉬운 날이었습니다. 그래서 한 번도 쓰지 않은 나흘(9월 19일, 12일, 5일, 8월 30일, 40개 경주, 579개 시점)에서 다시 쟀습니다. 날짜, 규칙, 판정 기준은 결과를 보기 전에 고정했습니다.</p>
   <div class="tablewrap"><table>
-    <thead><tr><th>무엇</th><th class="n">새 나흘</th><th class="n">앞의 이틀</th><th>미리 정한 판정</th></tr></thead>
+    <thead><tr><th>무엇</th><th class="n">새 나흘</th><th class="n">10월 5일·3일</th><th>미리 정한 판정</th></tr></thead>
     <tbody>
       <tr><td><b>A</b> 말한 번호가 상위 3두</td><td class="n"><b>95.1%</b> (939개 중 893개)</td><td class="n">92.9%</td><td><span class="verdict y">충족</span> 나흘 모두 90% 이상</td></tr>
       <tr><td><b>B</b> 맞는 번호가 있는 시점</td><td class="n"><b>86.2%</b> (579개 중 499개)</td><td class="n">94.6%</td><td><span class="verdict y">충족</span> 나흘 모두 80% 이상 (82.5~89.8%)</td></tr>
@@ -240,26 +242,26 @@ svg .m { font-family: var(--mono); }
     </tbody>
   </table></div>
   <ul>
-    <li><b>지금 구성은 새 날에서도 목표를 채웠습니다.</b> 다만 B는 8%p 낮습니다. 엿새를 합친 A 94.3%, B 89.0%가 더 믿을 만한 값입니다.</li>
+    <li><b>v8은 새 날에서도 목표를 채웠습니다.</b> 다만 B는 8%p 낮습니다. 엿새를 합친 A 94.3%, B 89.0%가 더 믿을 만한 값입니다.</li>
     <li><b>선두는 "88%쯤"으로 적어야 합니다.</b> 틀린 선두 문장은 거의 다 띠의 2위 말이었습니다(기준값 0.5에서 틀린 43개 중 38개). 선두 기준값은 0.5를 권합니다.</li>
-    <li><b>이 나흘에서는 학습한 "앞선 말 고르기"가 손 규칙보다 낫다고 할 수 없었습니다.</b> 손 규칙(T1)이 A 95.4%, B 85.5%였고, 차이는 오차 범위 안입니다.</li>
+    <li><b>이 나흘에서는 학습한 "앞선 말 고르기"가 손 규칙보다 낫다고 할 수 없었습니다.</b> 손 규칙(v7)이 A 95.4%, B 85.5%였고, 차이는 오차 범위 안입니다.</li>
   </ul>
 
   <h3>같은 나흘에서 확인한 개선 세 가지</h3>
   <div class="tablewrap"><table>
     <thead><tr><th>바꾼 것</th><th class="n">A</th><th class="n">B</th><th>결과</th></tr></thead>
     <tbody>
-      <tr><td>지금 구성 (L1)</td><td class="n">95.1%</td><td class="n">86.2%</td><td>기준</td></tr>
-      <tr><td><b>Qwen 빼기</b> (F1). 기수 번호를 분류기만으로 읽음</td><td class="n">94.3%</td><td class="n">87.6%</td><td><span class="verdict y">나쁘지 않음</span> 같은 경주에서 시점당 8.3초 → 2.3초</td></tr>
-      <tr><td><b>빈 시점 메우기</b> (L1s). 아무 말도 못 한 시점에만 번호 하나를 더함</td><td class="n">94.6%</td><td class="n"><b>91.0%</b></td><td><span class="verdict y">도움이 됨</span> 더한 39개 중 32개가 맞음</td></tr>
-      <tr><td>띠로 배우는 날을 엿새로 늘림 (L1x)</td><td class="n">95.2%</td><td class="n">85.3%</td><td><span class="verdict n">차이 없음</span></td></tr>
+      <tr><td>v8</td><td class="n">95.1%</td><td class="n">86.2%</td><td>기준</td></tr>
+      <tr><td><b>Qwen 빼기</b>. 기수 번호를 분류기만으로 읽음</td><td class="n">94.3%</td><td class="n">87.6%</td><td><span class="verdict y">나쁘지 않음</span> 같은 경주에서 시점당 8.3초 → 2.3초</td></tr>
+      <tr><td><b>빈 시점 메우기</b>. 아무 말도 못 한 시점에만 번호 하나를 더함</td><td class="n">94.6%</td><td class="n"><b>91.0%</b></td><td><span class="verdict y">도움이 됨</span> 더한 39개 중 32개가 맞음</td></tr>
+      <tr><td>띠로 배우는 날을 엿새로 늘림</td><td class="n">95.2%</td><td class="n">85.3%</td><td><span class="verdict n">차이 없음</span></td></tr>
     </tbody>
   </table></div>
   <ul>
     <li><b>식별기는 이제 언어 모델 없이 돕니다.</b> 모자 분류기가 이미 번호 읽기를 하고 있었습니다. 계산은 시점당 0.3초이고, 나머지는 영상 파일에서 그림을 찾아 꺼내는 시간입니다. 3초마다 한 번 말하는 실시간 중계에 쓸 수 있는 속도입니다(실제 방송 입력으로는 돌려 보지 않았습니다).</li>
     <li><b>식별기의 확률을 "얼마나 믿을지"로 쓸 수 있습니다.</b> 그림 3장 모두에서 뽑힌 번호는 399개 중 394개(98.7%)가 맞았고, 2장에서만 뽑힌 번호는 91.6%였습니다. 강한 문장은 단정해서, 약한 문장은 "~로 보입니다"로 말하게 할 수 있습니다(결과를 본 뒤 나눠 본 것).</li>
     <li><b>남은 오류는 먼 화면과 특정 모자색에 몰려 있습니다.</b> 기수가 60픽셀보다 작게 잡힌 시점은 58개 중 25개에서만 맞는 번호를 말했고, 보라색(9번)은 55번 중 41번만 맞았습니다(결과를 본 뒤 나눠 본 것).</li>
-    <li><b>세 가지를 묶은 구성(F2)은 아직 확인하지 못했습니다.</b> Qwen 빼기, 빈 시점 메우기, 선두 기준값 0.5를 함께 쓰는 구성을 프로그램에 넣었고 새 날 이틀에서 확인할 설계도 고정했지만, 영상을 받지 못해 채점하지 못했습니다. 이미 본 나흘에서 계산한 값은 A 93.9%, B 90.7%이고, 11월 15일을 이 구성으로 다시 돌린 값은 A 96.0%, B 93.6%, 선두 70번 중 65번입니다(둘 다 미리 고정한 시험이 아니라 참고값). 이 구성으로 중계를 다시 하면 "선두는 N번" 문장이 42개에서 63개로 늘고, 그중 59개가 맞았습니다.</li>
+    <li><b>앞의 둘과 선두 기준값 0.5를 묶은 것이 v9입니다.</b> 프로그램에 선택 사항으로 넣었습니다. 벤치마크 시험용 엿새의 874개 시점에서 A 93.2%, B 93.0%, 선두 90.1%였습니다(엿새 중 나흘은 조각을 고를 때 본 날). 새 날 이틀로 미리 고정해 둔 확인 시험은 영상을 받지 못해 아직 하지 못했습니다. v9로 중계를 다시 하면 "선두는 N번" 문장이 42개에서 63개로 늘고, 그중 59개가 맞았습니다(11월 15일, 참고값).</li>
   </ul>
   <p class="note">구간(경주 단위 다시 뽑기 95%): A 92.9~97.1%, B 80.9~91.1%, 선두(0.5) 82.0~92.2%, 앞뒤 87.4~95.0%. 순위 띠가 화면에 있는 구간만입니다. 자세한 내용은 <code>night/RESULT_KO.md</code>.</p>
 </section>
@@ -280,7 +282,7 @@ svg .m { font-family: var(--mono); }
       <text class="t b" x="172" y="116">A 93.7% · B 90.8%</text><text class="q" x="172" y="134" font-size="11.5">띠 기준으로 잰 값과 같은 수준</text>
       <text class="t b" x="478" y="116">A 93.3% · B 94.8%</text><text class="q" x="478" y="134" font-size="11.5">결승 3초 전까지 시점마다 B 91~100%</text>
       <text class="t b" x="736" y="116" text-anchor="end">B 55.8%</text><text class="q" x="736" y="134" font-size="11.5" text-anchor="end">결승 순간</text>
-      <text class="q" x="24" y="172" font-size="11.5">한 번도 쓰지 않은 경주일 엿새, 43개 경주, 1,154개 시점. 빠른 구성(F2), 공식 기록으로 채점. 경주 전체: A 92.6%, B 89.9%</text>
+      <text class="q" x="24" y="172" font-size="11.5">한 번도 쓰지 않은 경주일 엿새, 43개 경주, 1,154개 시점. 식별기 v9, 공식 기록으로 채점. 경주 전체: A 92.6%, B 89.9%</text>
     </svg>
     </div>
     <figcaption>띠 없이 경주 전체를 돌려 공식 기록으로 채점한 값. 길이는 대략입니다.</figcaption>
@@ -310,7 +312,7 @@ svg .m { font-family: var(--mono); }
     <li><b>띠가 없는 방송에서도 같은 방법을 쓸 수 있습니다.</b> 공식 기록은 어느 경마장에나 있으므로, 채점도 선두 모델의 학습도 띠 없이 됩니다.</li>
     <li><b>기수를 그림마다 따라가는 방법은 통하지 않았습니다.</b> 검출이 깜빡여 자주 끊겼습니다.</li>
   </ul>
-  <p class="note">기본 구성(L1)은 이 구간에서 아직 재지 못했습니다. 위 숫자는 언어 모델을 쓰지 않는 빠른 구성(F2)의 것입니다. 정답은 0.1초 단위 기록 사이를 등속으로 이은 것이라, 붙어 달리는 말의 순서에서는 정답 쪽이 틀릴 수 있습니다.</p>
+  <p class="note">v8은 이 구간에서 아직 재지 못했습니다. 위 숫자는 언어 모델을 쓰지 않는 v9의 것입니다. 정답은 0.1초 단위 기록 사이를 등속으로 이은 것이라, 붙어 달리는 말의 순서에서는 정답 쪽이 틀릴 수 있습니다.</p>
 </section>
 
 <section>
@@ -386,7 +388,7 @@ svg .m { font-family: var(--mono); }
       <tr><td>무작위로 세 번호</td><td class="num">874</td><td class="num">99.3%</td><td class="num">29.5%</td><td class="num">70.9%</td><td class="num">9.8%</td></tr>
       <tr><td>화면만 본 모델 (Qwen 9B), "누가 앞서 있는지 중계하라"</td><td class="num">874</td><td class="num">70.3%</td><td class="num">31.0%</td><td class="num">33.3%</td><td class="num">11.8%</td></tr>
       <tr><td>같은 모델, "확실할 때만 번호를 말하라"</td><td class="num">874</td><td class="num">2.5%</td><td class="num">46.4%</td><td class="num">2.7%</td><td class="num">19.2%</td></tr>
-      <tr><td><b>우리 흐름</b> (식별기 + 문장 틀)</td><td class="num">874</td><td class="num">11.8%</td><td class="num">93.2%</td><td class="num">93.0%</td><td class="num">90.1%</td></tr>
+      <tr><td><b>우리 흐름</b> (식별기 v9 + 문장 틀)</td><td class="num">874</td><td class="num">11.8%</td><td class="num">93.2%</td><td class="num">93.0%</td><td class="num">90.1%</td></tr>
     </tbody>
   </table></div>
   <ul>
@@ -419,7 +421,7 @@ svg .m { font-family: var(--mono); }
     <li><b>기준이 순위 띠입니다.</b> 띠는 화면보다 조금 늦을 수 있고, 얼마나 늦는지는 재지 않았습니다. 3초 간격의 시점은 서로 닮았습니다.</li>
     <li><b>사람이 항목별로 검수하지 않은 것이 있습니다.</b> 모자 라벨 일부와 결승 순서는 Claude가 화면을 보고 적었습니다.</li>
     <li><b>중계 시연은 하루치입니다.</b> "예상 결승 30초 전까지"라는 규칙은 처음 썼고 따로 시험하지 않았습니다. 띠가 없던 시점에 말한 번호는 채점할 기준이 없습니다.</li>
-    <li><b>기본 구성은 실시간이 아닙니다.</b> 시점 하나에 8초쯤 걸립니다. Qwen을 뺀 구성은 2.3초지만 아직 기본값이 아닙니다. 12번 이상의 말은 다루지 못합니다.</li>
+    <li><b>기본값인 v8은 실시간이 아닙니다.</b> 시점 하나에 8초쯤 걸립니다. v9는 2.3초지만 아직 기본값이 아닙니다. 12번 이상의 말은 다루지 못합니다.</li>
   </ul>
 </section>
 
@@ -431,7 +433,7 @@ svg .m { font-family: var(--mono); }
     <tbody>
       <tr><td><b>출전표 붙이기</b></td><td>"6번 ○○○"처럼 이름을 넣은 중계가 되고, 확정 정보 모드에서 말할 내용이 생깁니다. 프로젝트 가설을 문장 중계로 직접 시험할 수 있습니다.</td><td>한국마사회 출전표(말 이름, 기수)</td></tr>
       <tr><td><b>"믿어도 되는 순간" 신호 시험</b></td><td>지금은 "예상 결승 30초 전까지"라는 시계 규칙입니다. 기수 크기나 번호 확률 같은 식별기 자신의 출력으로 가르는 편이 나은지 봅니다.</td><td>지금 있는 데이터로 가능</td></tr>
-      <tr><td><b>묶은 구성(F2) 확인</b></td><td>Qwen 빼기, 빈 시점 메우기, 선두 기준값 0.5를 함께 쓴 구성을 새 날 이틀에서 확인합니다. 설계는 고정해 두었습니다.</td><td>경주 영상 이틀 치 (받기가 막혀 있음)</td></tr>
+      <tr><td><b>v9의 미리 고정한 확인</b></td><td>v9를 새 날 이틀에서 확인합니다. 설계는 고정해 두었습니다.</td><td>경주 영상 이틀 치 (받기가 막혀 있음)</td></tr>
       <tr><td><b>먼 화면과 약한 모자색</b></td><td>남은 오류가 몰린 곳입니다. 작게 잡힌 기수와 보라·분홍 모자를 더 잘 읽게 합니다.</td><td>그 장면의 모자 라벨</td></tr>
       <tr><td><b>띠 없는 구간을 벤치마크 문항으로</b></td><td>출발 직후, 마지막 30초, 결승 순간을 공식 기록 정답으로 문항에 더합니다. 지금 초안은 띠가 있는 구간만 다룹니다.</td><td>지금 있는 자료로 가능</td></tr>
       <tr><td><b>출발 직후와 결승 순간</b></td><td>띠 없이 경주 전체를 돌렸을 때 남은 약한 두 곳입니다.</td><td>그 장면에 맞춘 방법</td></tr>
@@ -447,13 +449,13 @@ svg .m { font-family: var(--mono); }
   <p>식별기는 프로그램 하나로 돕니다. GPU 서버의 프로젝트 폴더에서 실행합니다.</p>
   <pre>python identifier/identify_l1.py --video 경주.mp4 --out 결과.json
 
-# Qwen 없이 빠르게 + 빈 시점 메우기 + 선두 기준값 0.5 (묶은 구성 F2, 새 날 확인 전)
+# Qwen 없이 빠르게 + 빈 시점 메우기 + 선두 기준값 0.5 (v9)
 python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --fast --fallback --leader-tau 0.5</pre>
   <div class="tablewrap"><table>
     <thead><tr><th>파일 (experiments/onair_labelset_20261117/ 아래)</th><th>내용</th></tr></thead>
     <tbody>
       <tr><td><code>identifier/identify_l1.py</code>, <code>identifier/README_KO.md</code></td><td>식별기와 사용법</td></tr>
-      <tr><td><code>order2/</code>, <code>order2b/</code>, <code>temporal/</code></td><td>최종 구성과 그 앞 단계의 확인 결과</td></tr>
+      <tr><td><code>order2/</code>, <code>order2b/</code>, <code>temporal/</code></td><td>v8과 v7의 확인 결과</td></tr>
       <tr><td><code>leader/</code></td><td>선두권 안의 순서(선두, 앞뒤)</td></tr>
       <tr><td><code>night/</code></td><td>새 경주일 나흘에서 다시 잰 것, Qwen 없는 구성, 빈 시점 메우기, 순서를 넣은 중계</td></tr>
       <tr><td><code>live_commentary/</code></td><td>실제 중계 시연. 문장 전체는 <code>20261115/commentary_v2/</code>에 있음</td></tr>
