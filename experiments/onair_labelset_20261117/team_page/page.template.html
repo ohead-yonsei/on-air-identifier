@@ -55,13 +55,43 @@ tr.hl td { background: var(--accent-soft); }
 code { font: 13.5px var(--mono); background: var(--tint); padding: 1px 5px; border-radius: 3px; }
 pre { background: var(--tint); border-radius: 6px; padding: 12px 14px; overflow-x: auto; font: 13.5px/1.6 var(--mono); margin: 12px 0 0; }
 footer { color: var(--quiet); font-size: 13.5px; border-top: 1px solid var(--line); padding-top: 18px; }
+/* Table of contents: a fixed sidebar at the left edge on wide screens; a folded list under the header on narrow ones. build.py fills both from the h2 headings. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+section, header { scroll-margin-top: 20px; }
+.toc { display: none; }
+.toc ol, .toc-m ol { list-style: none; padding: 0; margin: 0; counter-reset: toc; }
+.toc li, .toc-m li { margin: 0; counter-increment: toc; }
+.toc a, .toc-m a { display: flex; gap: 10px; color: var(--ink); text-decoration: none; line-height: 1.45; }
+.toc a::before, .toc-m a::before { content: counter(toc, decimal-leading-zero); font: 500 12px/1.75 var(--mono); color: var(--quiet); flex: none; }
+.toc-m { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 18px; }
+.toc-m summary { font: 600 15px/1.5 var(--display); cursor: pointer; }
+.toc-m ol { margin-top: 8px; }
+.toc-m a { padding: 7px 0; font-size: 15px; }
+@media (min-width: 1180px) {
+  body { padding-left: 296px; }
+  .toc-m { display: none; }
+  .toc { display: flex; flex-direction: column; gap: 14px; position: fixed; left: 0; top: 0; bottom: 0; width: 272px; overflow-y: auto;
+         background: var(--surface); border-right: 1px solid var(--line); padding: 30px 14px 24px 18px; }
+  .toc .toc-top { font: 600 16px/1.4 var(--display); color: var(--ink); text-decoration: none; padding: 0 10px; display: block; }
+  .toc .toc-top::before { content: none; }
+  .toc .toc-kicker { font: 500 12px/1.4 var(--mono); color: var(--accent); letter-spacing: .04em; margin: 0; padding: 0 10px; }
+  .toc ol a { padding: 7px 10px; border-radius: 4px; font-size: 14.5px; border-left: 3px solid transparent; }
+  .toc ol a:hover { background: var(--tint); }
+  .toc ol a.on { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-left-color: var(--accent); }
+  .toc ol a.on::before { color: var(--accent); }
+  .toc .toc-more { margin: auto 0 0; padding: 14px 10px 0; border-top: 1px solid var(--line); font-size: 13.5px; display: flex; flex-direction: column; gap: 6px; }
+  .toc .toc-more a { color: var(--accent); display: block; }
+  .toc .toc-more a::before { content: none; }
+}
 svg text { font-family: var(--body); }
 svg .t { fill: var(--ink); } svg .q { fill: var(--quiet); } svg .b { font-weight: 700; }
 svg .m { font-family: var(--mono); }
 </style>
 
 <main>
-<header>
+<!-- toc-wide -->
+<header id="top">
   <p class="kicker">ON-AIR · 2026-11-18 · 팀 공유</p>
   <h1>중계 화면만 보고 선두권 말 번호 알아내기</h1>
   <p class="thesis">경마 중계 AI가 지어내는 말을 줄이려면, 믿을 수 있는 사실이 먼저 있어야 합니다. 이 작업은 그 사실 가운데 "지금 선두권에 몇 번 말이 있는가"를 화면에서 알아내는 식별기를 만들고, 그것으로 실제 중계를 해 본 기록입니다.</p>
@@ -71,6 +101,8 @@ svg .m { font-family: var(--mono); }
     <div class="tile"><div class="v">138 → 7</div><div class="k">틀린 번호가 들어간 중계 문장</div><div class="d">140개 시점 가운데. 화면만 본 모델 대 식별기를 쓴 중계</div></div>
   </div>
 </header>
+
+<!-- toc-narrow -->
 
 <section>
   <h2>왜 이 작업을 했나</h2>
@@ -483,4 +515,20 @@ python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8</pre>
 </section>
 
 <footer>화면 캡처는 한국마사회 국제 채널(KRBC International) 영상에서 가져온 것으로, 연구 내용을 설명하는 데만 썼습니다. 숫자의 출처는 각 실험 폴더의 <code>RESULT_KO.md</code>입니다.</footer>
+<script>
+/* Marks the section being read in the sidebar. The page works the same without it. */
+(function () {
+  var links = [].slice.call(document.querySelectorAll('.toc ol a'));
+  var secs = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+  if (!links.length || secs.indexOf(null) >= 0) return;
+  function update() {
+    var y = window.scrollY + window.innerHeight * 0.3, cur = -1;
+    secs.forEach(function (s, i) { if (s.getBoundingClientRect().top + window.scrollY <= y) cur = i; });
+    links.forEach(function (a, i) { a.classList.toggle('on', i === cur); });
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
 </main>

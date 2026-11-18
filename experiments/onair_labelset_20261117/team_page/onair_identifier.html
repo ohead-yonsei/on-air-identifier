@@ -55,13 +55,43 @@ tr.hl td { background: var(--accent-soft); }
 code { font: 13.5px var(--mono); background: var(--tint); padding: 1px 5px; border-radius: 3px; }
 pre { background: var(--tint); border-radius: 6px; padding: 12px 14px; overflow-x: auto; font: 13.5px/1.6 var(--mono); margin: 12px 0 0; }
 footer { color: var(--quiet); font-size: 13.5px; border-top: 1px solid var(--line); padding-top: 18px; }
+/* Table of contents: a fixed sidebar at the left edge on wide screens; a folded list under the header on narrow ones. build.py fills both from the h2 headings. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+section, header { scroll-margin-top: 20px; }
+.toc { display: none; }
+.toc ol, .toc-m ol { list-style: none; padding: 0; margin: 0; counter-reset: toc; }
+.toc li, .toc-m li { margin: 0; counter-increment: toc; }
+.toc a, .toc-m a { display: flex; gap: 10px; color: var(--ink); text-decoration: none; line-height: 1.45; }
+.toc a::before, .toc-m a::before { content: counter(toc, decimal-leading-zero); font: 500 12px/1.75 var(--mono); color: var(--quiet); flex: none; }
+.toc-m { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 18px; }
+.toc-m summary { font: 600 15px/1.5 var(--display); cursor: pointer; }
+.toc-m ol { margin-top: 8px; }
+.toc-m a { padding: 7px 0; font-size: 15px; }
+@media (min-width: 1180px) {
+  body { padding-left: 296px; }
+  .toc-m { display: none; }
+  .toc { display: flex; flex-direction: column; gap: 14px; position: fixed; left: 0; top: 0; bottom: 0; width: 272px; overflow-y: auto;
+         background: var(--surface); border-right: 1px solid var(--line); padding: 30px 14px 24px 18px; }
+  .toc .toc-top { font: 600 16px/1.4 var(--display); color: var(--ink); text-decoration: none; padding: 0 10px; display: block; }
+  .toc .toc-top::before { content: none; }
+  .toc .toc-kicker { font: 500 12px/1.4 var(--mono); color: var(--accent); letter-spacing: .04em; margin: 0; padding: 0 10px; }
+  .toc ol a { padding: 7px 10px; border-radius: 4px; font-size: 14.5px; border-left: 3px solid transparent; }
+  .toc ol a:hover { background: var(--tint); }
+  .toc ol a.on { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-left-color: var(--accent); }
+  .toc ol a.on::before { color: var(--accent); }
+  .toc .toc-more { margin: auto 0 0; padding: 14px 10px 0; border-top: 1px solid var(--line); font-size: 13.5px; display: flex; flex-direction: column; gap: 6px; }
+  .toc .toc-more a { color: var(--accent); display: block; }
+  .toc .toc-more a::before { content: none; }
+}
 svg text { font-family: var(--body); }
 svg .t { fill: var(--ink); } svg .q { fill: var(--quiet); } svg .b { font-weight: 700; }
 svg .m { font-family: var(--mono); }
 </style>
 
 <main>
-<header>
+<nav class="toc" aria-label="목차"><p class="toc-kicker">ON-AIR · 팀 공유</p><a class="toc-top" href="#top">선두권 말 번호 알아내기</a><ol><li><a href="#s1">왜 이 작업을 했나</a></li><li><a href="#s2">무엇을 만들었나</a></li><li><a href="#s3">어떻게 쟀나</a></li><li><a href="#s4">식별기 결과</a></li><li><a href="#s5">선두권 안의 순서</a></li><li><a href="#night">새 경마일 4일에서 다시 재기</a></li><li><a href="#nostrip">띠가 없는 구간을 다시 재기</a></li><li><a href="#s8">실제로 중계해 보기</a></li><li><a href="#benchmark">벤치마크 초안 v0</a></li><li><a href="#s10">이 결과가 뜻하는 것</a></li><li><a href="#s11">한계</a></li><li><a href="#s12">더 해볼 것</a></li><li><a href="#s13">쓰는 법과 파일</a></li></ol><p class="toc-more"><a href="https://ohead-yonsei.github.io/on-air-identifier/race-call-20261108-r11.html">중계 예시 페이지 →</a><a href="https://github.com/ohead-yonsei/on-air-identifier">코드와 문서 (GitHub) →</a></p></nav>
+<header id="top">
   <p class="kicker">ON-AIR · 2026-11-18 · 팀 공유</p>
   <h1>중계 화면만 보고 선두권 말 번호 알아내기</h1>
   <p class="thesis">경마 중계 AI가 지어내는 말을 줄이려면, 믿을 수 있는 사실이 먼저 있어야 합니다. 이 작업은 그 사실 가운데 "지금 선두권에 몇 번 말이 있는가"를 화면에서 알아내는 식별기를 만들고, 그것으로 실제 중계를 해 본 기록입니다.</p>
@@ -72,7 +102,9 @@ svg .m { font-family: var(--mono); }
   </div>
 </header>
 
-<section>
+<details class="toc-m"><summary>목차 (13개 구간)</summary><ol><li><a href="#s1">왜 이 작업을 했나</a></li><li><a href="#s2">무엇을 만들었나</a></li><li><a href="#s3">어떻게 쟀나</a></li><li><a href="#s4">식별기 결과</a></li><li><a href="#s5">선두권 안의 순서</a></li><li><a href="#night">새 경마일 4일에서 다시 재기</a></li><li><a href="#nostrip">띠가 없는 구간을 다시 재기</a></li><li><a href="#s8">실제로 중계해 보기</a></li><li><a href="#benchmark">벤치마크 초안 v0</a></li><li><a href="#s10">이 결과가 뜻하는 것</a></li><li><a href="#s11">한계</a></li><li><a href="#s12">더 해볼 것</a></li><li><a href="#s13">쓰는 법과 파일</a></li></ol></details>
+
+<section id="s1">
   <h2>왜 이 작업을 했나</h2>
   <p>ON-AIR 프로젝트의 가설은 "어려운 순간에 말 이름을 틀리게 말하는 대신 확정 정보로 메우면 할루시네이션이 줄어드는가"입니다. 이 가설을 시험하려면 두 가지가 필요합니다. 믿을 수 있는 사실, 그리고 그 사실을 믿어도 되는 순간과 안 되는 순간을 가르는 방법입니다.</p>
   <p>경마에서는 기수의 모자색이 말 번호를 알려 줍니다. 그래서 화면에서 모자색을 읽어 "선두권에 있는 번호"를 내는 식별기를 만들었습니다. 처음에는 모든 기수를 알아내려 했지만, 중계에서 가장 중요한 것은 선두권이라는 판단으로 "앞선 세 마리"에 집중했습니다.</p>
@@ -81,7 +113,7 @@ svg .m { font-family: var(--mono); }
   </ul>
 </section>
 
-<section>
+<section id="s2">
   <h2>무엇을 만들었나</h2>
   <p class="lead">3초마다 화면 세 장을 보고 선두권 번호를 내는 프로그램입니다. 모두 로컬에서 돌고 유료 API는 쓰지 않았습니다.</p>
   <figure>
@@ -129,7 +161,7 @@ svg .m { font-family: var(--mono); }
   </figure>
 </section>
 
-<section>
+<section id="s3">
   <h2>어떻게 쟀나</h2>
   <p class="lead">정답은 방송 화면 아래의 순위 띠에서 가져왔습니다. 사람이 라벨을 적지 않아도 경주 영상만 있으면 채점할 수 있습니다.</p>
   <figure>
@@ -152,7 +184,7 @@ svg .m { font-family: var(--mono); }
   <p>A는 "말한 것이 얼마나 맞는가", B는 "얼마나 자주 말할 수 있는가"입니다. 조심스럽게 말하면 A는 오르고 B는 내려서, 둘을 함께 봐야 합니다. C는 식별기가 중계의 틀린 말을 실제로 줄이는지 보는 비교입니다. 처음 보는 날의 띠 구간 138장에서 틀린 말이 267개에서 27개로 줄었습니다(v6 때 잰 값, 번호 목록으로 받아서 셈).</p>
 </section>
 
-<section>
+<section id="s4">
   <h2>식별기 결과</h2>
   <p class="lead">처음으로 선두권 번호를 낸 v6은 시험에서 A 86.2%, B 75.1%였습니다. 두 번 바꾼 v8에서 A 92.9%, B 94.6%가 됐고, 언어 모델을 뺀 v9는 A 94.5%, B 94.1%였습니다. 시험은 늘 <b>그 버전을 만들 때 한 번도 쓰지 않은 경마일</b>의 경주로 했습니다. 경마일은 경마가 열린 하루이고, 서울은 하루에 10~11개 경주가 있습니다. 예를 들어 "안 쓴 경마일 2일"은 처음 보는 2일 치 경주 20개 전부로 시험했다는 뜻입니다.</p>
   <figure>
@@ -210,7 +242,7 @@ svg .m { font-family: var(--mono); }
   </table></div>
 </section>
 
-<section>
+<section id="s5">
   <h2>선두권 안의 순서</h2>
   <p class="lead">식별기는 "선두권에 6번과 9번이 있다"까지만 말했습니다. 누가 앞인지도 말할 수 있도록, 순위 띠의 첫 번호를 정답 삼아 "이 기수가 선두인가"를 같은 방식으로 배우게 했습니다. 사람 라벨은 쓰지 않았습니다.</p>
   <div class="tablewrap"><table>
@@ -316,7 +348,7 @@ svg .m { font-family: var(--mono); }
   <p class="note">위 숫자는 언어 모델을 쓰지 않는 v9의 것입니다. v8도 같은 3일에서 비슷했습니다(결승 36~15초 전 A 94.3% / B 99.0%, 마지막 12초 A 88.4% / B 82.5%). 정답은 0.1초 단위 기록 사이를 등속으로 이은 것이라, 붙어 달리는 말의 순서에서는 정답 쪽이 틀릴 수 있습니다.</p>
 </section>
 
-<section>
+<section id="s8">
   <h2>실제로 중계해 보기</h2>
   <p class="lead">2026-11-15 서울 11개 경주를 3초마다 한 문장씩 중계했습니다. 순위 띠가 없는 환경을 가정해, 중계 시스템은 띠를 보지 않았습니다.</p>
   <ul>
@@ -412,7 +444,7 @@ svg .m { font-family: var(--mono); }
   <p class="note">초안의 한계: 띠가 있는 구간만 다룹니다(출발 직후, 마지막 30초, 결승 순간은 위의 공식 기록 정답으로 더할 예정). 정답은 모델이 띠를 읽은 것이고 문항별 검수는 하지 않았습니다. 번호만 채점합니다. 우리 흐름의 문장은 정해진 틀에 넣은 것입니다. 화면만 본 모델은 로컬의 작은 모델 하나뿐입니다. 자세한 내용은 저장소의 <code>benchmark/v0/README_KO.md</code>에 있습니다.</p>
 </section>
 
-<section>
+<section id="s10">
   <h2>이 결과가 뜻하는 것</h2>
   <ul>
     <li><b>가설을 뒷받침하는 숫자가 나왔습니다.</b> 틀리게 말하는 대신 확정 정보로 메우면, 틀린 번호가 들어간 문장이 140개 중 138개에서 7개로 줄었습니다. 맞는 번호가 들어간 문장은 오히려 88개에서 119개로 늘었습니다.</li>
@@ -424,7 +456,7 @@ svg .m { font-family: var(--mono); }
   </ul>
 </section>
 
-<section>
+<section id="s11">
   <h2>한계</h2>
   <ul>
     <li><b>날에 따라 B가 움직입니다.</b> 처음 확인한 2일은 94.6%, 그 뒤의 4일은 86.2%였고, 가장 낮은 날은 82.5%였습니다. 야간 경주만 골라 본 적은 없습니다.</li>
@@ -438,7 +470,7 @@ svg .m { font-family: var(--mono); }
   </ul>
 </section>
 
-<section>
+<section id="s12">
   <h2>더 해볼 것</h2>
   <p class="lead">효과가 클 것으로 보이는 순서입니다.</p>
   <div class="tablewrap"><table>
@@ -456,7 +488,7 @@ svg .m { font-family: var(--mono); }
   </table></div>
 </section>
 
-<section>
+<section id="s13">
   <h2>쓰는 법과 파일</h2>
   <p>식별기는 프로그램 하나로 돕니다. GPU 서버의 프로젝트 폴더에서 실행합니다.</p>
   <pre># v9 (기본값): Qwen 없이 빠르게 + 빈 시점 메우기 + 선두 기준값 0.5
@@ -483,4 +515,20 @@ python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8</pre>
 </section>
 
 <footer>화면 캡처는 한국마사회 국제 채널(KRBC International) 영상에서 가져온 것으로, 연구 내용을 설명하는 데만 썼습니다. 숫자의 출처는 각 실험 폴더의 <code>RESULT_KO.md</code>입니다.</footer>
+<script>
+/* Marks the section being read in the sidebar. The page works the same without it. */
+(function () {
+  var links = [].slice.call(document.querySelectorAll('.toc ol a'));
+  var secs = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+  if (!links.length || secs.indexOf(null) >= 0) return;
+  function update() {
+    var y = window.scrollY + window.innerHeight * 0.3, cur = -1;
+    secs.forEach(function (s, i) { if (s.getBoundingClientRect().top + window.scrollY <= y) cur = i; });
+    links.forEach(function (a, i) { a.classList.toggle('on', i === cur); });
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
 </main>
