@@ -1,0 +1,1747 @@
+{
+ "days": [
+  "otherday12",
+  "otherday13"
+ ],
+ "races": 20,
+ "pooled": {
+  "L1": {
+   "A": 0.9635922330097088,
+   "B": 0.9011857707509882,
+   "statements": 412,
+   "in_top3": 397,
+   "points": 253,
+   "good_points": 228
+  },
+  "F1": {
+   "A": 0.9463869463869464,
+   "B": 0.9090909090909091,
+   "statements": 429,
+   "in_top3": 406,
+   "points": 253,
+   "good_points": 230
+  },
+  "F2": {
+   "A": 0.9453302961275627,
+   "B": 0.9407114624505929,
+   "statements": 439,
+   "in_top3": 415,
+   "points": 253,
+   "good_points": 238
+  },
+  "L1s": {
+   "A": 0.9647058823529412,
+   "B": 0.9446640316205533,
+   "statements": 425,
+   "in_top3": 410,
+   "points": 253,
+   "good_points": 239
+  },
+  "HAND": {
+   "precision": 0.7430167597765364,
+   "coverage": 0.525691699604743,
+   "statements": 179,
+   "right": 133,
+   "points": 253
+  },
+  "LEAD": {
+   "precision": 0.9285714285714286,
+   "coverage": 0.4624505928853755,
+   "statements": 126,
+   "right": 117,
+   "points": 253
+  },
+  "LEAD50": {
+   "precision": 0.9150326797385621,
+   "coverage": 0.5533596837944664,
+   "statements": 153,
+   "right": 140,
+   "points": 253
+  },
+  "F_LEAD": {
+   "precision": 0.9473684210526315,
+   "coverage": 0.4980237154150198,
+   "statements": 133,
+   "right": 126,
+   "points": 253
+  },
+  "F_LEAD50": {
+   "precision": 0.930379746835443,
+   "coverage": 0.5810276679841897,
+   "statements": 158,
+   "right": 147,
+   "points": 253
+  },
+  "PAIR": {
+   "right_share": 0.9440559440559441,
+   "scoreable": 143,
+   "right": 135
+  },
+  "F_PAIR": {
+   "right_share": 0.9615384615384616,
+   "scoreable": 156,
+   "right": 150
+  },
+  "F2_PAIR": {
+   "right_share": 0.9617834394904459,
+   "scoreable": 157,
+   "right": 151
+  }
+ },
+ "by_day": {
+  "otherday12": {
+   "L1": {
+    "A": 0.9819004524886877,
+    "B": 0.9185185185185185,
+    "statements": 221,
+    "in_top3": 217,
+    "points": 135,
+    "good_points": 124
+   },
+   "F1": {
+    "A": 0.9642857142857143,
+    "B": 0.9259259259259259,
+    "statements": 224,
+    "in_top3": 216,
+    "points": 135,
+    "good_points": 125
+   },
+   "F2": {
+    "A": 0.9646017699115044,
+    "B": 0.9407407407407408,
+    "statements": 226,
+    "in_top3": 218,
+    "points": 135,
+    "good_points": 127
+   },
+   "L1s": {
+    "A": 0.9823008849557522,
+    "B": 0.9481481481481482,
+    "statements": 226,
+    "in_top3": 222,
+    "points": 135,
+    "good_points": 128
+   },
+   "HAND": {
+    "precision": 0.6818181818181818,
+    "coverage": 0.4444444444444444,
+    "statements": 88,
+    "right": 60,
+    "points": 135
+   },
+   "LEAD": {
+    "precision": 0.8983050847457628,
+    "coverage": 0.3925925925925926,
+    "statements": 59,
+    "right": 53,
+    "points": 135
+   },
+   "LEAD50": {
+    "precision": 0.8961038961038961,
+    "coverage": 0.5111111111111111,
+    "statements": 77,
+    "right": 69,
+    "points": 135
+   },
+   "F_LEAD": {
+    "precision": 0.9393939393939394,
+    "coverage": 0.45925925925925926,
+    "statements": 66,
+    "right": 62,
+    "points": 135
+   },
+   "F_LEAD50": {
+    "precision": 0.927710843373494,
+    "coverage": 0.5703703703703704,
+    "statements": 83,
+    "right": 77,
+    "points": 135
+   },
+   "PAIR": {
+    "right_share": 0.961038961038961,
+    "scoreable": 77,
+    "right": 74
+   },
+   "F_PAIR": {
+    "right_share": 0.9620253164556962,
+    "scoreable": 79,
+    "right": 76
+   },
+   "F2_PAIR": {
+    "right_share": 0.9620253164556962,
+    "scoreable": 79,
+    "right": 76
+   }
+  },
+  "otherday13": {
+   "L1": {
+    "A": 0.9424083769633508,
+    "B": 0.8813559322033898,
+    "statements": 191,
+    "in_top3": 180,
+    "points": 118,
+    "good_points": 104
+   },
+   "F1": {
+    "A": 0.926829268292683,
+    "B": 0.8898305084745762,
+    "statements": 205,
+    "in_top3": 190,
+    "points": 118,
+    "good_points": 105
+   },
+   "F2": {
+    "A": 0.9248826291079812,
+    "B": 0.940677966101695,
+    "statements": 213,
+    "in_top3": 197,
+    "points": 118,
+    "good_points": 111
+   },
+   "L1s": {
+    "A": 0.9447236180904522,
+    "B": 0.940677966101695,
+    "statements": 199,
+    "in_top3": 188,
+    "points": 118,
+    "good_points": 111
+   },
+   "HAND": {
+    "precision": 0.8021978021978022,
+    "coverage": 0.6186440677966102,
+    "statements": 91,
+    "right": 73,
+    "points": 118
+   },
+   "LEAD": {
+    "precision": 0.9552238805970149,
+    "coverage": 0.5423728813559322,
+    "statements": 67,
+    "right": 64,
+    "points": 118
+   },
+   "LEAD50": {
+    "precision": 0.9342105263157895,
+    "coverage": 0.6016949152542372,
+    "statements": 76,
+    "right": 71,
+    "points": 118
+   },
+   "F_LEAD": {
+    "precision": 0.9552238805970149,
+    "coverage": 0.5423728813559322,
+    "statements": 67,
+    "right": 64,
+    "points": 118
+   },
+   "F_LEAD50": {
+    "precision": 0.9333333333333333,
+    "coverage": 0.5932203389830508,
+    "statements": 75,
+    "right": 70,
+    "points": 118
+   },
+   "PAIR": {
+    "right_share": 0.9242424242424242,
+    "scoreable": 66,
+    "right": 61
+   },
+   "F_PAIR": {
+    "right_share": 0.961038961038961,
+    "scoreable": 77,
+    "right": 74
+   },
+   "F2_PAIR": {
+    "right_share": 0.9615384615384616,
+    "scoreable": 78,
+    "right": 75
+   }
+  }
+ },
+ "intervals": {
+  "F2_A": [
+   0.9181818181818182,
+   0.9682539682539683
+  ],
+  "F2_B": [
+   0.9127272727272727,
+   0.972972972972973
+  ],
+  "F2_minus_F1_A": [
+   -0.005101483472067514,
+   0.0016127680965147828
+  ],
+  "F2_minus_F1_B": [
+   0.010869565217391242,
+   0.0535714285714286
+  ],
+  "F2_minus_L1_A": [
+   -0.030031612223393123,
+   -0.0068204201800169395
+  ],
+  "F2_minus_L1_B": [
+   0.017667844522968212,
+   0.06467661691542292
+  ],
+  "F_LEAD50": [
+   0.8633093525179856,
+   0.98125
+  ],
+  "F_LEAD50_minus_HAND": [
+   0.10021754894851342,
+   0.2693017127799736
+  ],
+  "F2_PAIR": [
+   0.9281437125748503,
+   0.9887005649717514
+  ]
+ },
+ "verdict": {
+  "F2_meets_goals_pooled": true,
+  "F2_days_meeting_both": 2,
+  "days": 2,
+  "F2_not_worse_than_L1": true,
+  "fallback_helps_fast": true,
+  "fast_leader50_usable": true,
+  "F2_pair_usable": true,
+  "F2_recommended_as_default": true
+ },
+ "fallback_added_on_F2": {
+  "added": 10,
+  "added_right": 9
+ },
+ "detail": {
+  "otherday12": {
+   "results": {
+    "L1": {
+     "statements": 221,
+     "in_top3": 217,
+     "points": 135,
+     "good_points": 124
+    },
+    "F1": {
+     "statements": 224,
+     "in_top3": 216,
+     "points": 135,
+     "good_points": 125
+    },
+    "F2": {
+     "statements": 226,
+     "in_top3": 218,
+     "points": 135,
+     "good_points": 127
+    },
+    "L1s": {
+     "statements": 226,
+     "in_top3": 222,
+     "points": 135,
+     "good_points": 128
+    },
+    "HAND": {
+     "points": 135,
+     "statements": 88,
+     "right": 60,
+     "in_first_two": 82,
+     "in_first_three": 85
+    },
+    "LEAD": {
+     "points": 135,
+     "statements": 59,
+     "right": 53,
+     "in_first_two": 59,
+     "in_first_three": 59
+    },
+    "LEAD50": {
+     "points": 135,
+     "statements": 77,
+     "right": 69,
+     "in_first_two": 75,
+     "in_first_three": 77
+    },
+    "F_LEAD": {
+     "points": 135,
+     "statements": 66,
+     "right": 62,
+     "in_first_two": 66,
+     "in_first_three": 66
+    },
+    "F_LEAD50": {
+     "points": 135,
+     "statements": 83,
+     "right": 77,
+     "in_first_two": 83,
+     "in_first_three": 83
+    },
+    "PAIR": {
+     "points": 135,
+     "said": 77,
+     "scoreable": 77,
+     "right": 74,
+     "candidate_pairs": 98
+    },
+    "F_PAIR": {
+     "points": 135,
+     "said": 79,
+     "scoreable": 79,
+     "right": 76,
+     "candidate_pairs": 101
+    },
+    "F2_PAIR": {
+     "points": 135,
+     "said": 79,
+     "scoreable": 79,
+     "right": 76,
+     "candidate_pairs": 101
+    }
+   },
+   "by_race": {
+    "R01": {
+     "L1": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 7,
+      "good_points": 5
+     },
+     "F1": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 7,
+      "good_points": 5
+     },
+     "F2": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 7,
+      "good_points": 5
+     },
+     "L1s": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 7,
+      "good_points": 5
+     },
+     "HAND": {
+      "points": 5,
+      "statements": 5,
+      "right": 5
+     },
+     "LEAD": {
+      "points": 5,
+      "statements": 1,
+      "right": 1
+     },
+     "LEAD50": {
+      "points": 5,
+      "statements": 1,
+      "right": 1
+     },
+     "F_LEAD": {
+      "points": 5,
+      "statements": 2,
+      "right": 2
+     },
+     "F_LEAD50": {
+      "points": 5,
+      "statements": 2,
+      "right": 2
+     },
+     "PAIR": {
+      "scoreable": 2,
+      "right": 2
+     },
+     "F_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     },
+     "F2_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     }
+    },
+    "R02": {
+     "L1": {
+      "points": 9,
+      "statements": 19,
+      "in_top3": 17,
+      "good_points": 9
+     },
+     "F1": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 17,
+      "good_points": 9
+     },
+     "F2": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 17,
+      "good_points": 9
+     },
+     "L1s": {
+      "points": 9,
+      "statements": 19,
+      "in_top3": 17,
+      "good_points": 9
+     },
+     "HAND": {
+      "points": 9,
+      "statements": 9,
+      "right": 9
+     },
+     "LEAD": {
+      "points": 9,
+      "statements": 7,
+      "right": 7
+     },
+     "LEAD50": {
+      "points": 9,
+      "statements": 7,
+      "right": 7
+     },
+     "F_LEAD": {
+      "points": 9,
+      "statements": 8,
+      "right": 8
+     },
+     "F_LEAD50": {
+      "points": 9,
+      "statements": 9,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 8,
+      "right": 8
+     },
+     "F_PAIR": {
+      "scoreable": 9,
+      "right": 9
+     },
+     "F2_PAIR": {
+      "scoreable": 9,
+      "right": 9
+     }
+    },
+    "R03": {
+     "L1": {
+      "points": 12,
+      "statements": 20,
+      "in_top3": 20,
+      "good_points": 10
+     },
+     "F1": {
+      "points": 12,
+      "statements": 20,
+      "in_top3": 20,
+      "good_points": 10
+     },
+     "F2": {
+      "points": 12,
+      "statements": 21,
+      "in_top3": 21,
+      "good_points": 11
+     },
+     "L1s": {
+      "points": 12,
+      "statements": 21,
+      "in_top3": 21,
+      "good_points": 11
+     },
+     "HAND": {
+      "points": 12,
+      "statements": 11,
+      "right": 8
+     },
+     "LEAD": {
+      "points": 12,
+      "statements": 8,
+      "right": 8
+     },
+     "LEAD50": {
+      "points": 12,
+      "statements": 8,
+      "right": 8
+     },
+     "F_LEAD": {
+      "points": 12,
+      "statements": 9,
+      "right": 9
+     },
+     "F_LEAD50": {
+      "points": 12,
+      "statements": 10,
+      "right": 10
+     },
+     "PAIR": {
+      "scoreable": 7,
+      "right": 7
+     },
+     "F_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     },
+     "F2_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     }
+    },
+    "R04": {
+     "L1": {
+      "points": 22,
+      "statements": 37,
+      "in_top3": 37,
+      "good_points": 20
+     },
+     "F1": {
+      "points": 22,
+      "statements": 39,
+      "in_top3": 38,
+      "good_points": 21
+     },
+     "F2": {
+      "points": 22,
+      "statements": 39,
+      "in_top3": 38,
+      "good_points": 21
+     },
+     "L1s": {
+      "points": 22,
+      "statements": 38,
+      "in_top3": 38,
+      "good_points": 21
+     },
+     "HAND": {
+      "points": 22,
+      "statements": 17,
+      "right": 10
+     },
+     "LEAD": {
+      "points": 22,
+      "statements": 10,
+      "right": 10
+     },
+     "LEAD50": {
+      "points": 22,
+      "statements": 16,
+      "right": 15
+     },
+     "F_LEAD": {
+      "points": 22,
+      "statements": 11,
+      "right": 11
+     },
+     "F_LEAD50": {
+      "points": 22,
+      "statements": 13,
+      "right": 13
+     },
+     "PAIR": {
+      "scoreable": 12,
+      "right": 11
+     },
+     "F_PAIR": {
+      "scoreable": 12,
+      "right": 11
+     },
+     "F2_PAIR": {
+      "scoreable": 12,
+      "right": 11
+     }
+    },
+    "R05": {
+     "L1": {
+      "points": 10,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 10
+     },
+     "F1": {
+      "points": 10,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 10
+     },
+     "F2": {
+      "points": 10,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 10
+     },
+     "L1s": {
+      "points": 10,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 10
+     },
+     "HAND": {
+      "points": 10,
+      "statements": 8,
+      "right": 7
+     },
+     "LEAD": {
+      "points": 10,
+      "statements": 8,
+      "right": 8
+     },
+     "LEAD50": {
+      "points": 10,
+      "statements": 9,
+      "right": 8
+     },
+     "F_LEAD": {
+      "points": 10,
+      "statements": 8,
+      "right": 8
+     },
+     "F_LEAD50": {
+      "points": 10,
+      "statements": 9,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 9,
+      "right": 8
+     },
+     "F_PAIR": {
+      "scoreable": 9,
+      "right": 8
+     },
+     "F2_PAIR": {
+      "scoreable": 9,
+      "right": 8
+     }
+    },
+    "R06": {
+     "L1": {
+      "points": 12,
+      "statements": 18,
+      "in_top3": 18,
+      "good_points": 11
+     },
+     "F1": {
+      "points": 12,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 12
+     },
+     "F2": {
+      "points": 12,
+      "statements": 19,
+      "in_top3": 19,
+      "good_points": 12
+     },
+     "L1s": {
+      "points": 12,
+      "statements": 20,
+      "in_top3": 20,
+      "good_points": 12
+     },
+     "HAND": {
+      "points": 12,
+      "statements": 7,
+      "right": 6
+     },
+     "LEAD": {
+      "points": 12,
+      "statements": 2,
+      "right": 2
+     },
+     "LEAD50": {
+      "points": 12,
+      "statements": 5,
+      "right": 5
+     },
+     "F_LEAD": {
+      "points": 12,
+      "statements": 3,
+      "right": 3
+     },
+     "F_LEAD50": {
+      "points": 12,
+      "statements": 3,
+      "right": 3
+     },
+     "PAIR": {
+      "scoreable": 6,
+      "right": 6
+     },
+     "F_PAIR": {
+      "scoreable": 6,
+      "right": 6
+     },
+     "F2_PAIR": {
+      "scoreable": 6,
+      "right": 6
+     }
+    },
+    "R07": {
+     "L1": {
+      "points": 19,
+      "statements": 30,
+      "in_top3": 29,
+      "good_points": 16
+     },
+     "F1": {
+      "points": 19,
+      "statements": 29,
+      "in_top3": 27,
+      "good_points": 16
+     },
+     "F2": {
+      "points": 19,
+      "statements": 29,
+      "in_top3": 27,
+      "good_points": 16
+     },
+     "L1s": {
+      "points": 19,
+      "statements": 31,
+      "in_top3": 30,
+      "good_points": 17
+     },
+     "HAND": {
+      "points": 19,
+      "statements": 9,
+      "right": 5
+     },
+     "LEAD": {
+      "points": 19,
+      "statements": 2,
+      "right": 2
+     },
+     "LEAD50": {
+      "points": 19,
+      "statements": 7,
+      "right": 7
+     },
+     "F_LEAD": {
+      "points": 19,
+      "statements": 2,
+      "right": 2
+     },
+     "F_LEAD50": {
+      "points": 19,
+      "statements": 8,
+      "right": 8
+     },
+     "PAIR": {
+      "scoreable": 12,
+      "right": 12
+     },
+     "F_PAIR": {
+      "scoreable": 12,
+      "right": 12
+     },
+     "F2_PAIR": {
+      "scoreable": 12,
+      "right": 12
+     }
+    },
+    "R08": {
+     "L1": {
+      "points": 23,
+      "statements": 31,
+      "in_top3": 31,
+      "good_points": 20
+     },
+     "F1": {
+      "points": 23,
+      "statements": 34,
+      "in_top3": 34,
+      "good_points": 20
+     },
+     "F2": {
+      "points": 23,
+      "statements": 34,
+      "in_top3": 34,
+      "good_points": 20
+     },
+     "L1s": {
+      "points": 23,
+      "statements": 31,
+      "in_top3": 31,
+      "good_points": 20
+     },
+     "HAND": {
+      "points": 23,
+      "statements": 11,
+      "right": 4
+     },
+     "LEAD": {
+      "points": 23,
+      "statements": 11,
+      "right": 8
+     },
+     "LEAD50": {
+      "points": 23,
+      "statements": 11,
+      "right": 8
+     },
+     "F_LEAD": {
+      "points": 23,
+      "statements": 14,
+      "right": 11
+     },
+     "F_LEAD50": {
+      "points": 23,
+      "statements": 15,
+      "right": 12
+     },
+     "PAIR": {
+      "scoreable": 10,
+      "right": 9
+     },
+     "F_PAIR": {
+      "scoreable": 11,
+      "right": 10
+     },
+     "F2_PAIR": {
+      "scoreable": 11,
+      "right": 10
+     }
+    },
+    "R09": {
+     "L1": {
+      "points": 10,
+      "statements": 15,
+      "in_top3": 15,
+      "good_points": 10
+     },
+     "F1": {
+      "points": 10,
+      "statements": 14,
+      "in_top3": 13,
+      "good_points": 9
+     },
+     "F2": {
+      "points": 10,
+      "statements": 15,
+      "in_top3": 14,
+      "good_points": 10
+     },
+     "L1s": {
+      "points": 10,
+      "statements": 15,
+      "in_top3": 15,
+      "good_points": 10
+     },
+     "HAND": {
+      "points": 10,
+      "statements": 6,
+      "right": 2
+     },
+     "LEAD": {
+      "points": 10,
+      "statements": 5,
+      "right": 2
+     },
+     "LEAD50": {
+      "points": 10,
+      "statements": 5,
+      "right": 2
+     },
+     "F_LEAD": {
+      "points": 10,
+      "statements": 3,
+      "right": 2
+     },
+     "F_LEAD50": {
+      "points": 10,
+      "statements": 5,
+      "right": 2
+     },
+     "PAIR": {
+      "scoreable": 1,
+      "right": 1
+     },
+     "F_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     },
+     "F2_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     }
+    },
+    "R10": {
+     "L1": {
+      "points": 13,
+      "statements": 25,
+      "in_top3": 24,
+      "good_points": 13
+     },
+     "F1": {
+      "points": 13,
+      "statements": 23,
+      "in_top3": 22,
+      "good_points": 13
+     },
+     "F2": {
+      "points": 13,
+      "statements": 23,
+      "in_top3": 22,
+      "good_points": 13
+     },
+     "L1s": {
+      "points": 13,
+      "statements": 25,
+      "in_top3": 24,
+      "good_points": 13
+     },
+     "HAND": {
+      "points": 13,
+      "statements": 5,
+      "right": 4
+     },
+     "LEAD": {
+      "points": 13,
+      "statements": 5,
+      "right": 5
+     },
+     "LEAD50": {
+      "points": 13,
+      "statements": 8,
+      "right": 8
+     },
+     "F_LEAD": {
+      "points": 13,
+      "statements": 6,
+      "right": 6
+     },
+     "F_LEAD50": {
+      "points": 13,
+      "statements": 9,
+      "right": 9
+     },
+     "PAIR": {
+      "scoreable": 10,
+      "right": 10
+     },
+     "F_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     },
+     "F2_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     }
+    }
+   }
+  },
+  "otherday13": {
+   "results": {
+    "L1": {
+     "statements": 191,
+     "in_top3": 180,
+     "points": 118,
+     "good_points": 104
+    },
+    "F1": {
+     "statements": 205,
+     "in_top3": 190,
+     "points": 118,
+     "good_points": 105
+    },
+    "F2": {
+     "statements": 213,
+     "in_top3": 197,
+     "points": 118,
+     "good_points": 111
+    },
+    "L1s": {
+     "statements": 199,
+     "in_top3": 188,
+     "points": 118,
+     "good_points": 111
+    },
+    "HAND": {
+     "points": 118,
+     "statements": 91,
+     "right": 73,
+     "in_first_two": 85,
+     "in_first_three": 87
+    },
+    "LEAD": {
+     "points": 118,
+     "statements": 67,
+     "right": 64,
+     "in_first_two": 65,
+     "in_first_three": 66
+    },
+    "LEAD50": {
+     "points": 118,
+     "statements": 76,
+     "right": 71,
+     "in_first_two": 74,
+     "in_first_three": 75
+    },
+    "F_LEAD": {
+     "points": 118,
+     "statements": 67,
+     "right": 64,
+     "in_first_two": 65,
+     "in_first_three": 66
+    },
+    "F_LEAD50": {
+     "points": 118,
+     "statements": 75,
+     "right": 70,
+     "in_first_two": 72,
+     "in_first_three": 73
+    },
+    "PAIR": {
+     "points": 118,
+     "said": 66,
+     "scoreable": 66,
+     "right": 61,
+     "candidate_pairs": 85
+    },
+    "F_PAIR": {
+     "points": 118,
+     "said": 77,
+     "scoreable": 77,
+     "right": 74,
+     "candidate_pairs": 100
+    },
+    "F2_PAIR": {
+     "points": 118,
+     "said": 78,
+     "scoreable": 78,
+     "right": 75,
+     "candidate_pairs": 101
+    }
+   },
+   "by_race": {
+    "R01": {
+     "L1": {
+      "points": 5,
+      "statements": 8,
+      "in_top3": 7,
+      "good_points": 4
+     },
+     "F1": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 6,
+      "good_points": 3
+     },
+     "F2": {
+      "points": 5,
+      "statements": 8,
+      "in_top3": 7,
+      "good_points": 4
+     },
+     "L1s": {
+      "points": 5,
+      "statements": 8,
+      "in_top3": 7,
+      "good_points": 4
+     },
+     "HAND": {
+      "points": 5,
+      "statements": 2,
+      "right": 1
+     },
+     "LEAD": {
+      "points": 5,
+      "statements": 0,
+      "right": 0
+     },
+     "LEAD50": {
+      "points": 5,
+      "statements": 1,
+      "right": 1
+     },
+     "F_LEAD": {
+      "points": 5,
+      "statements": 0,
+      "right": 0
+     },
+     "F_LEAD50": {
+      "points": 5,
+      "statements": 0,
+      "right": 0
+     },
+     "PAIR": {
+      "scoreable": 2,
+      "right": 1
+     },
+     "F_PAIR": {
+      "scoreable": 3,
+      "right": 2
+     },
+     "F2_PAIR": {
+      "scoreable": 3,
+      "right": 2
+     }
+    },
+    "R02": {
+     "L1": {
+      "points": 5,
+      "statements": 5,
+      "in_top3": 4,
+      "good_points": 2
+     },
+     "F1": {
+      "points": 5,
+      "statements": 6,
+      "in_top3": 5,
+      "good_points": 3
+     },
+     "F2": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 6,
+      "good_points": 4
+     },
+     "L1s": {
+      "points": 5,
+      "statements": 7,
+      "in_top3": 6,
+      "good_points": 4
+     },
+     "HAND": {
+      "points": 5,
+      "statements": 2,
+      "right": 1
+     },
+     "LEAD": {
+      "points": 5,
+      "statements": 1,
+      "right": 1
+     },
+     "LEAD50": {
+      "points": 5,
+      "statements": 1,
+      "right": 1
+     },
+     "F_LEAD": {
+      "points": 5,
+      "statements": 2,
+      "right": 2
+     },
+     "F_LEAD50": {
+      "points": 5,
+      "statements": 2,
+      "right": 2
+     },
+     "PAIR": {
+      "scoreable": 2,
+      "right": 2
+     },
+     "F_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     },
+     "F2_PAIR": {
+      "scoreable": 2,
+      "right": 2
+     }
+    },
+    "R03": {
+     "L1": {
+      "points": 13,
+      "statements": 23,
+      "in_top3": 23,
+      "good_points": 12
+     },
+     "F1": {
+      "points": 13,
+      "statements": 25,
+      "in_top3": 25,
+      "good_points": 13
+     },
+     "F2": {
+      "points": 13,
+      "statements": 25,
+      "in_top3": 25,
+      "good_points": 13
+     },
+     "L1s": {
+      "points": 13,
+      "statements": 24,
+      "in_top3": 24,
+      "good_points": 13
+     },
+     "HAND": {
+      "points": 13,
+      "statements": 12,
+      "right": 12
+     },
+     "LEAD": {
+      "points": 13,
+      "statements": 10,
+      "right": 10
+     },
+     "LEAD50": {
+      "points": 13,
+      "statements": 11,
+      "right": 11
+     },
+     "F_LEAD": {
+      "points": 13,
+      "statements": 11,
+      "right": 11
+     },
+     "F_LEAD50": {
+      "points": 13,
+      "statements": 11,
+      "right": 11
+     },
+     "PAIR": {
+      "scoreable": 10,
+      "right": 10
+     },
+     "F_PAIR": {
+      "scoreable": 11,
+      "right": 11
+     },
+     "F2_PAIR": {
+      "scoreable": 11,
+      "right": 11
+     }
+    },
+    "R04": {
+     "L1": {
+      "points": 11,
+      "statements": 18,
+      "in_top3": 17,
+      "good_points": 11
+     },
+     "F1": {
+      "points": 11,
+      "statements": 23,
+      "in_top3": 20,
+      "good_points": 11
+     },
+     "F2": {
+      "points": 11,
+      "statements": 23,
+      "in_top3": 20,
+      "good_points": 11
+     },
+     "L1s": {
+      "points": 11,
+      "statements": 18,
+      "in_top3": 17,
+      "good_points": 11
+     },
+     "HAND": {
+      "points": 11,
+      "statements": 11,
+      "right": 10
+     },
+     "LEAD": {
+      "points": 11,
+      "statements": 6,
+      "right": 6
+     },
+     "LEAD50": {
+      "points": 11,
+      "statements": 7,
+      "right": 7
+     },
+     "F_LEAD": {
+      "points": 11,
+      "statements": 6,
+      "right": 6
+     },
+     "F_LEAD50": {
+      "points": 11,
+      "statements": 6,
+      "right": 6
+     },
+     "PAIR": {
+      "scoreable": 5,
+      "right": 5
+     },
+     "F_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     },
+     "F2_PAIR": {
+      "scoreable": 8,
+      "right": 8
+     }
+    },
+    "R05": {
+     "L1": {
+      "points": 12,
+      "statements": 20,
+      "in_top3": 20,
+      "good_points": 12
+     },
+     "F1": {
+      "points": 12,
+      "statements": 21,
+      "in_top3": 21,
+      "good_points": 12
+     },
+     "F2": {
+      "points": 12,
+      "statements": 21,
+      "in_top3": 21,
+      "good_points": 12
+     },
+     "L1s": {
+      "points": 12,
+      "statements": 20,
+      "in_top3": 20,
+      "good_points": 12
+     },
+     "HAND": {
+      "points": 12,
+      "statements": 12,
+      "right": 12
+     },
+     "LEAD": {
+      "points": 12,
+      "statements": 11,
+      "right": 11
+     },
+     "LEAD50": {
+      "points": 12,
+      "statements": 12,
+      "right": 12
+     },
+     "F_LEAD": {
+      "points": 12,
+      "statements": 11,
+      "right": 11
+     },
+     "F_LEAD50": {
+      "points": 12,
+      "statements": 11,
+      "right": 11
+     },
+     "PAIR": {
+      "scoreable": 8,
+      "right": 8
+     },
+     "F_PAIR": {
+      "scoreable": 9,
+      "right": 9
+     },
+     "F2_PAIR": {
+      "scoreable": 9,
+      "right": 9
+     }
+    },
+    "R06": {
+     "L1": {
+      "points": 8,
+      "statements": 16,
+      "in_top3": 12,
+      "good_points": 7
+     },
+     "F1": {
+      "points": 8,
+      "statements": 17,
+      "in_top3": 13,
+      "good_points": 8
+     },
+     "F2": {
+      "points": 8,
+      "statements": 17,
+      "in_top3": 13,
+      "good_points": 8
+     },
+     "L1s": {
+      "points": 8,
+      "statements": 16,
+      "in_top3": 12,
+      "good_points": 7
+     },
+     "HAND": {
+      "points": 8,
+      "statements": 7,
+      "right": 3
+     },
+     "LEAD": {
+      "points": 8,
+      "statements": 2,
+      "right": 0
+     },
+     "LEAD50": {
+      "points": 8,
+      "statements": 2,
+      "right": 0
+     },
+     "F_LEAD": {
+      "points": 8,
+      "statements": 2,
+      "right": 0
+     },
+     "F_LEAD50": {
+      "points": 8,
+      "statements": 3,
+      "right": 1
+     },
+     "PAIR": {
+      "scoreable": 7,
+      "right": 4
+     },
+     "F_PAIR": {
+      "scoreable": 7,
+      "right": 5
+     },
+     "F2_PAIR": {
+      "scoreable": 7,
+      "right": 5
+     }
+    },
+    "R07": {
+     "L1": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 19,
+      "good_points": 9
+     },
+     "F1": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 19,
+      "good_points": 9
+     },
+     "F2": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 19,
+      "good_points": 9
+     },
+     "L1s": {
+      "points": 9,
+      "statements": 20,
+      "in_top3": 19,
+      "good_points": 9
+     },
+     "HAND": {
+      "points": 9,
+      "statements": 4,
+      "right": 2
+     },
+     "LEAD": {
+      "points": 9,
+      "statements": 1,
+      "right": 1
+     },
+     "LEAD50": {
+      "points": 9,
+      "statements": 4,
+      "right": 3
+     },
+     "F_LEAD": {
+      "points": 9,
+      "statements": 1,
+      "right": 1
+     },
+     "F_LEAD50": {
+      "points": 9,
+      "statements": 5,
+      "right": 4
+     },
+     "PAIR": {
+      "scoreable": 6,
+      "right": 5
+     },
+     "F_PAIR": {
+      "scoreable": 5,
+      "right": 5
+     },
+     "F2_PAIR": {
+      "scoreable": 5,
+      "right": 5
+     }
+    },
+    "R08": {
+     "L1": {
+      "points": 22,
+      "statements": 31,
+      "in_top3": 30,
+      "good_points": 19
+     },
+     "F1": {
+      "points": 22,
+      "statements": 33,
+      "in_top3": 31,
+      "good_points": 18
+     },
+     "F2": {
+      "points": 22,
+      "statements": 36,
+      "in_top3": 33,
+      "good_points": 20
+     },
+     "L1s": {
+      "points": 22,
+      "statements": 33,
+      "in_top3": 32,
+      "good_points": 21
+     },
+     "HAND": {
+      "points": 22,
+      "statements": 18,
+      "right": 18
+     },
+     "LEAD": {
+      "points": 22,
+      "statements": 18,
+      "right": 18
+     },
+     "LEAD50": {
+      "points": 22,
+      "statements": 19,
+      "right": 19
+     },
+     "F_LEAD": {
+      "points": 22,
+      "statements": 18,
+      "right": 18
+     },
+     "F_LEAD50": {
+      "points": 22,
+      "statements": 19,
+      "right": 18
+     },
+     "PAIR": {
+      "scoreable": 10,
+      "right": 10
+     },
+     "F_PAIR": {
+      "scoreable": 12,
+      "right": 12
+     },
+     "F2_PAIR": {
+      "scoreable": 12,
+      "right": 12
+     }
+    },
+    "R09": {
+     "L1": {
+      "points": 24,
+      "statements": 34,
+      "in_top3": 33,
+      "good_points": 19
+     },
+     "F1": {
+      "points": 24,
+      "statements": 35,
+      "in_top3": 34,
+      "good_points": 19
+     },
+     "F2": {
+      "points": 24,
+      "statements": 38,
+      "in_top3": 37,
+      "good_points": 21
+     },
+     "L1s": {
+      "points": 24,
+      "statements": 37,
+      "in_top3": 36,
+      "good_points": 21
+     },
+     "HAND": {
+      "points": 24,
+      "statements": 18,
+      "right": 13
+     },
+     "LEAD": {
+      "points": 24,
+      "statements": 16,
+      "right": 16
+     },
+     "LEAD50": {
+      "points": 24,
+      "statements": 16,
+      "right": 16
+     },
+     "F_LEAD": {
+      "points": 24,
+      "statements": 14,
+      "right": 14
+     },
+     "F_LEAD50": {
+      "points": 24,
+      "statements": 16,
+      "right": 16
+     },
+     "PAIR": {
+      "scoreable": 13,
+      "right": 13
+     },
+     "F_PAIR": {
+      "scoreable": 13,
+      "right": 13
+     },
+     "F2_PAIR": {
+      "scoreable": 14,
+      "right": 14
+     }
+    },
+    "R10": {
+     "L1": {
+      "points": 9,
+      "statements": 16,
+      "in_top3": 15,
+      "good_points": 9
+     },
+     "F1": {
+      "points": 9,
+      "statements": 18,
+      "in_top3": 16,
+      "good_points": 9
+     },
+     "F2": {
+      "points": 9,
+      "statements": 18,
+      "in_top3": 16,
+      "good_points": 9
+     },
+     "L1s": {
+      "points": 9,
+      "statements": 16,
+      "in_top3": 15,
+      "good_points": 9
+     },
+     "HAND": {
+      "points": 9,
+      "statements": 5,
+      "right": 1
+     },
+     "LEAD": {
+      "points": 9,
+      "statements": 2,
+      "right": 1
+     },
+     "LEAD50": {
+      "points": 9,
+      "statements": 3,
+      "right": 1
+     },
+     "F_LEAD": {
+      "points": 9,
+      "statements": 2,
+      "right": 1
+     },
+     "F_LEAD50": {
+      "points": 9,
+      "statements": 2,
+      "right": 1
+     },
+     "PAIR": {
+      "scoreable": 3,
+      "right": 3
+     },
+     "F_PAIR": {
+      "scoreable": 7,
+      "right": 7
+     },
+     "F2_PAIR": {
+      "scoreable": 7,
+      "right": 7
+     }
+    }
+   }
+  }
+ }
+}

@@ -14,6 +14,8 @@
 
 위 2, 4, 5를 한데 묶은 구성(F2)은 프로그램에 넣었지만 **묶은 상태로는 새 날에서 확인하지 못했다.** 확인용 이틀의 영상을 받으려 할 때 유튜브가 로봇 확인을 요구해 멈췄다([confirm2/DESIGN_KO.md](confirm2/DESIGN_KO.md)).
 
+> **덧붙임 (2026-11-18 저녁):** 받기가 다시 되어 이 확인을 잠근 그대로 돌렸다. F2는 새 날 이틀에서 판정을 모두 채웠다 → [confirm2/RESULT_KO.md](confirm2/RESULT_KO.md). 아래 본문은 아침에 쓴 그대로 둔다.
+
 ## 무엇을 했는가
 
 - 새 날: 2026-09-19, 09-12, 09-05, 08-30. 재생목록에서 한 번도 쓰지 않은 가장 최근의 10개 경주짜리 서울 경마일을 내용을 보기 전에 규칙으로 정했다. 영상 40개, 띠가 화면에 있던 시점 579개.
@@ -229,14 +231,14 @@ F2가 메우기로 더한 번호는 4개였고 그중 3개가 맞았다. 아무 
 - 보완 규칙(L1h, L1s)은 이미 본 엿새의 오류를 나눠 본 뒤에 만든 것이다. 새 나흘의 값은 잠근 뒤에 잰 것이다.
 - 속도는 한 경주에서 한두 번 잰 대략의 값이다.
 - 중계 시연은 하루, 모델 하나, 프롬프트 한 가지다. 선두 문장은 정규식으로 찾았다. L1의 번호 문장은 이 날을 이미 채점한 적이 있다.
-- F2는 새 날에서 확인하지 못했다.
+- F2는 새 날에서 확인하지 못했다. (2026-11-18 저녁에 확인함: [confirm2/RESULT_KO.md](confirm2/RESULT_KO.md))
 
 ## 파일
 
 - `DESIGN_KO.md`, `DESIGN_LOCK.sha256`, `DAYS_LOCK.sha256`, `EVENTS.jsonl`
 - `score.json`, `score.txt` — 새 나흘의 채점. `errors_new_days.json`, `errors_seen_days.json` — 오류 나눠 보기
 - `check/` — 프로그램 확인. `timing/` — 속도. `confidence_new_days.json` — 문장별 신호. `DEMO_F2_KO.md` — F2 중계 시연의 사전 기록. `fast_train.json`, `six_train.json` — 모델 학습 기록
-- `confirm2/` — F2 확인 설계(잠금, 채점 전), `explore_seen_days.json`
+- `confirm2/` — F2 확인 설계(잠금), `RESULT_KO.md`와 `score.json`(2026-11-18 저녁 채점), `explore_seen_days.json`
 - `../live_commentary/20261115/commentary_v3/`, `score_v3.json`, `commentary_v4/`, `score_v4.json`(F2), `score_programs.json`, `results_order/`, `results_fast/`, `results_f2/`
 - 코드: `../code/nt_*.py`, `nt_day.sh`, `nq_*.py`(F1), `nf_*.py`(보완 규칙), `nt3_score.py`(채점), `nt6_errors.py`, `nt7_tables.py`, `cl5_commentary_order.py`, `cl6_score_order.py`, `nc2_score.py`, `nc4_check_f2.py`, `nc5_score_day_programs.py`, `nc6_merge_strip.py`, `cl7_commentary_f2.py`, `cl8_score_f2.py`, `nd1_confidence.py`, `nd2_timing.py`
 - 서버에만: 영상, 프레임, 모델 파일(`*.joblib`)

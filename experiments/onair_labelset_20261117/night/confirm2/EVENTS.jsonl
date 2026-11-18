@@ -1,1 +1,3 @@
 {"time": "2026-11-18T05:36:15+09:00", "event": "design locked", "what": "F2 confirmation on otherday12 and otherday13; no video of those days could be downloaded (YouTube bot check, not worked around), so nothing of those days has been seen or scored"}
+{"time": "2026-11-18T21:15:43+09:00", "event": "run started", "what": "downloads work again (no bot check since 2026-11-18 afternoon); night/run_chain3.sh started unchanged, lock files verified before the start"}
+{"time": "2026-11-18T22:27:28+09:00", "event": "scored", "what": "both days downloaded (20 videos; one HTTP 403 on 8/23 R06 went through on the second attempt) and processed; code/nc2_score.py run once, output night/confirm2/score.json and score.txt; lock files still match"}

@@ -1,0 +1,17 @@
+otherday12 L1 A 0.982 B 0.919 F1 A 0.964 B 0.926 F2 A 0.965 B 0.941 L1s A 0.982 B 0.948 (135 pts) | HAND 60/88 LEAD 53/59 LEAD50 69/77 F_LEAD 62/66 F_LEAD50 77/83 | PAIR 74/77 F_PAIR 76/79 F2_PAIR 76/79
+otherday13 L1 A 0.942 B 0.881 F1 A 0.927 B 0.890 F2 A 0.925 B 0.941 L1s A 0.945 B 0.941 (118 pts) | HAND 73/91 LEAD 64/67 LEAD50 71/76 F_LEAD 64/67 F_LEAD50 70/75 | PAIR 61/66 F_PAIR 74/77 F2_PAIR 75/78
+pooled: L1 A 397/412=0.964 B 228/253=0.901 F1 A 406/429=0.946 B 230/253=0.909 F2 A 415/439=0.945 B 238/253=0.941 L1s A 410/425=0.965 B 239/253=0.945
+        HAND 133/179=0.743 cov 0.526 LEAD 117/126=0.929 cov 0.462 LEAD50 140/153=0.915 cov 0.553 F_LEAD 126/133=0.947 cov 0.498 F_LEAD50 147/158=0.930 cov 0.581
+        PAIR 135/143=0.944 F_PAIR 150/156=0.962 F2_PAIR 151/157=0.962
+fallback added on F2: {'added': 10, 'added_right': 9}
+intervals: {"F2_A": [0.9182, 0.9683], "F2_B": [0.9127, 0.973], "F2_minus_F1_A": [-0.0051, 0.0016], "F2_minus_F1_B": [0.0109, 0.0536], "F2_minus_L1_A": [-0.03, -0.0068], "F2_minus_L1_B": [0.0177, 0.0647], "F_LEAD50": [0.8633, 0.9812], "F_LEAD50_minus_HAND": [0.1002, 0.2693], "F2_PAIR": [0.9281, 0.9887]}
+verdict: {
+ "F2_meets_goals_pooled": true,
+ "F2_days_meeting_both": 2,
+ "days": 2,
+ "F2_not_worse_than_L1": true,
+ "fallback_helps_fast": true,
+ "fast_leader50_usable": true,
+ "F2_pair_usable": true,
+ "F2_recommended_as_default": true
+}
