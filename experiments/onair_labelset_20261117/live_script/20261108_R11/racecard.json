@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-08",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "혁무상"
+  },
+  {
+   "number": 2,
+   "name": "용비태양"
+  },
+  {
+   "number": 3,
+   "name": "울트라삭스"
+  },
+  {
+   "number": 4,
+   "name": "벌교의스타"
+  },
+  {
+   "number": 5,
+   "name": "글로벌파워"
+  },
+  {
+   "number": 6,
+   "name": "내길의위너"
+  },
+  {
+   "number": 7,
+   "name": "송암스카이"
+  },
+  {
+   "number": 8,
+   "name": "관악산스카이"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

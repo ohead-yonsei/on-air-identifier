@@ -63,7 +63,7 @@ M과 C의 엿새는 식별기를 만들 때 한 번도 쓰지 않은 날이다. 
 - 결승 3초 전까지는 시점마다 B가 91~100%다.
 - 결승 순간이 무너지는 까닭: 카메라가 결승선에서 멈춰 말이 흐려지고, 선두 기수의 모자가 그림마다 읽혔다 안 읽혔다 한다.
 - v9에서 "빈 시점 메우기"를 빼면 엿새 합계 마지막 12초가 A 89.1% / B 85.6%다.
-- v8(L1)은 측정용 사흘에서 재는 중이었으나 다른 실행에 순서를 내주어 아직 끝나지 않았다(판정 3·4 미정).
+- v8(L1)도 측정용 사흘에서 쟀다(24개 경주): 결승 36~15초 전 A 94.3%(364/386) / B 99.0%, 마지막 12초 A 88.4%(152/172) / B 82.5%(99/120), 결승 순간 B 45.8%. 설계 1의 판정 3·4(넉넉한 정답)는 충족이다(넉넉 99.5% / 100%, 93.6% / 82.5%). 엄격한 값으로는 v9와 마찬가지로 마지막 12초의 A가 90%에 못 미친다. v9와 견주면 앞부분은 같고, 마지막 12초에서 말하는 양이 적다(B 82.5% 대 90.0%).
 
 ## 결과 2 — 공식 기록으로 배운 선두 모델
 
@@ -135,13 +135,13 @@ M과 C의 엿새는 식별기를 만들 때 한 번도 쓰지 않은 날이다. 
 - 우승마 규칙은 135가지 조합 가운데 개발용 날에서 고른 것이다. 확인용에서 14개 모두 맞은 것은 표본이 작아 "늘 맞는다"는 뜻이 아니다. 개발용에서는 89%였다.
 - 촘촘한 규칙과 새 선두 모델은 "결승까지 36초쯤 남았다"는 것을 알아야 켤 수 있다. 여기서는 공식 기록으로 그 시각을 정했다. 실제로는 거리와 경과 시간으로 어림해야 한다(시연 중계가 이미 쓰는 방식).
 - 기수를 그림마다 따라가는 방법은 효과가 없었다(검출이 깜빡여 자주 끊김). 결승 순간의 흐린 그림 자체는 풀지 못했다.
-- v8(L1)의 측정은 끝나지 않았다. 이 문서의 숫자는 v9(F2)의 것이다.
+- v8(L1)은 측정용 사흘의 마지막 36초에서만 쟀다. 선두 모델, 우승마 부르기, 경주 전체의 숫자는 v9(F2)의 것이다.
 - 11번 이상은 모자색이 같아 구분하지 못한다. 실제 방송 입력으로 돌려 본 것이 아니다.
 
 ## 파일
 
 - `DESIGN_KO.md`, `DESIGN_LOCK.sha256`, `DESIGN2_KO.md`, `DESIGN2_LOCK.sha256`, `EVENTS.jsonl`, `lock_check_before_M.txt`, `lock2_check_before_C.txt`
 - `official/`(공식 기록, 번호와 시각만), `times/`(화면 시계의 시작과 멈춤)
-- 점수: `score_M_F2.json`, `score_C_F2.json`, `score_MC_F2.json`(마지막 36초), `score_C_P3.json`, `compare_C_P3_P3l.json`(선두 모델), `winner_C_dense.json`, `winner_C_3s.json`(우승마), `score_whole_MC.json`, `score_whole_M.json`, `score_whole_C.json`(경주 전체), `explore/`(개발용 날에서 본 것)
+- 점수: `score_M_F2.json`, `score_M_L1.json`, `score_C_F2.json`, `score_MC_F2.json`(마지막 36초), `score_C_P3.json`, `compare_C_P3_P3l.json`(선두 모델), `winner_C_dense.json`, `winner_C_3s.json`(우승마), `score_whole_MC.json`, `score_whole_M.json`, `score_whole_C.json`(경주 전체), `explore/`(개발용 날에서 본 것)
 - 코드: `../code/fn1_official.py`, `fn2_times.py`, `fn_common.py`, `fn3_run.py`, `fn4_score.py`, `fn6_dense.py`, `fn_tracks.py`, `fn7_method.py`, `fn8_train_fs.py`, `fn9_winner.py`, `fn10_whole.py`, `fn11_score_whole.py`, `fn12_compare.py`, `fn5_sheet.py`
 - 서버에만: 실행 출력(`runs/`, `whole/`, `dense/`), 선두 모델 파일(`models/`), 영상

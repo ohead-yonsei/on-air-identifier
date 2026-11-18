@@ -1,0 +1,1693 @@
+{
+ "racecard": {
+  "date": "2026-11-08",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "혁무상"
+   },
+   {
+    "number": 2,
+    "name": "용비태양"
+   },
+   {
+    "number": 3,
+    "name": "울트라삭스"
+   },
+   {
+    "number": 4,
+    "name": "벌교의스타"
+   },
+   {
+    "number": 5,
+    "name": "글로벌파워"
+   },
+   {
+    "number": 6,
+    "name": "내길의위너"
+   },
+   {
+    "number": 7,
+    "name": "송암스카이"
+   },
+   {
+    "number": 8,
+    "name": "관악산스카이"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "model": "qwen3.8:27b-q4_K_M",
+ "system": "당신은 한국 경마 실황 캐스터다. 주어진 '사실'만으로 지금 장면을 한 문장(길어야 두 문장, 60자 안쪽)으로 중계한다.\n\n지킬 것\n- 사실에 없는 것은 말하지 않는다. 말 사이의 거리, 접전 여부, 기수, 순위(몇 위)는 모른다.\n- 말은 반드시 '번호+번 이름' 꼴로 부른다. '말할 수 있는 말'에 없는 말은 부르지 않는다.\n- 선두는 사실에 '선두'가 있을 때만, 그 말에 대해서만 말한다. 선두가 없으면 '앞서 있다', '이끈다' 같은 말도 쓰지 않고 '선두권'이라고만 한다.\n- '뒤따른다', '추격한다'는 사실에 '선두를 뒤따르고 있음'이 있을 때만 쓴다.\n- 거리와 시간은 사실에 숫자가 주어졌을 때만 말한다.\n- 주로의 위치(코너, 직선주로)는 모른다. 말하지 않는다.\n- 결승선 통과, 우승, 누가 누구를 이겼다는 말은 사실에 '결승선을 통과했다'가 있을 때만 한다.\n- 구간 이름(초반, 중반, 막판)을 그대로 읽지 않는다. 말투에만 반영한다: 앞쪽은 차분하게, 뒤쪽은 짧고 힘 있게.\n- 앞선 문장과 같은 틀을 되풀이하지 않는다.\n\n말투 예시 ([ ] 안은 사실로 바꿔 쓴다. 그대로 베끼지 말고 섞어 쓴다)\n- 선두가 그대로일 때: \"[선두], 여전히 레이스를 이끕니다.\" / \"[선두]가 선두를 지키며 달려갑니다.\" / \"앞에서는 계속 [선두].\"\n- 선두 뒤에 다른 말이 있을 때(뒤따르고 있음): \"[선두]가 이끌고, 그 뒤를 [말]이 따릅니다.\" / \"선두 [선두], 뒤에는 [말].\"\n- 선두는 모르고 선두권만 알 때: \"선두권에는 [말], [말]이 보입니다.\" / \"[말]과 [말], 선두권에서 달립니다.\"\n- 새 말이 선두권에 보일 때: \"[말]도 선두권에 올라옵니다.\" / \"[말]이 선두권에 모습을 드러냅니다.\"\n- 선두가 바뀌었을 때: \"선두가 바뀝니다! [새 선두]가 앞으로 나섭니다.\" / \"[새 선두], [전 선두]를 넘어 선두로!\"\n- 거리가 주어졌을 때: \"결승선까지 [거리].\" / \"이제 [거리] 남았습니다.\"\n- 선두권을 확인하지 못했을 때: \"결승선까지 [거리], 승부는 아직 알 수 없습니다.\" / \"[경주] 달려가고 있습니다.\"\n- 결승선, 우승마를 불렀을 때: \"결승선 통과! [우승마], 가장 먼저 들어옵니다!\" / \"[우승마] 우승!\"\n- 결승선, 우승마를 못 불렀을 때: \"결승선을 통과합니다! 우승마는 공식 결과를 기다려 보겠습니다.\"\n\nJSON으로만 답한다.",
+ "rows": [
+  {
+   "k": 0,
+   "t": 11.867,
+   "elapsed": 3.0,
+   "frame": "t003.jpg",
+   "mode": "confirmed",
+   "phase": "출발 직후",
+   "facts": [
+    "경주: 서울 11경주 1400m, 8두 출전",
+    "말투: 출발 직후",
+    "방금 출발했다. 어느 말이 앞서는지는 아직 확인하지 않았다.",
+    "말할 수 있는 말: 없음"
+   ],
+   "given": {
+    "leader": null,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1400
+   },
+   "line": "서울 11경주 1400m, 8두가 출발했습니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "서울 11경주 1400m, 8두가 출발했습니다.",
+     "rejected": null,
+     "seconds": 1.26
+    }
+   ],
+   "identifier": {
+    "statements": [],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": null,
+    "order": []
+   }
+  },
+  {
+   "k": 1,
+   "t": 14.867,
+   "elapsed": 6.0,
+   "frame": "t006.jpg",
+   "mode": "confirmed",
+   "phase": "출발 직후",
+   "facts": [
+    "경주: 서울 11경주 1400m, 8두 출전",
+    "말투: 출발 직후",
+    "출발 직후 자리를 잡는 구간이다. 어느 말이 앞서는지는 아직 확인하지 않았다.",
+    "말할 수 있는 말: 없음"
+   ],
+   "given": {
+    "leader": null,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1400
+   },
+   "line": "출발 직후, 8두가 자리를 잡아가는 모습입니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "출발 직후, 8두가 자리를 잡아가는 모습입니다.",
+     "rejected": null,
+     "seconds": 1.37
+    }
+   ],
+   "identifier": {
+    "statements": [],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": null,
+    "order": []
+   }
+  },
+  {
+   "k": 2,
+   "t": 17.867,
+   "elapsed": 9.0,
+   "frame": "t009.jpg",
+   "mode": "confirmed",
+   "phase": "출발 직후",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 출발 직후",
+    "선두: 확인되지 않음",
+    "지금은 선두권을 확인하지 못했다. 어떤 말도 부르지 않는다.",
+    "말할 수 있는 말: 없음"
+   ],
+   "given": {
+    "leader": null,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1400
+   },
+   "line": "경주가 본격적으로 시작됩니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "경주가 본격적으로 시작됩니다.",
+     "rejected": null,
+     "seconds": 1.09
+    }
+   ],
+   "identifier": {
+    "statements": [],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 3,
+   "t": 20.867,
+   "elapsed": 12.0,
+   "frame": "t012.jpg",
+   "mode": "ranking",
+   "phase": "초반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 초반",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양 (앞뒤 순서는 모름)",
+    "변화: 2번 용비태양가 선두권에 새로 보인다",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2
+    ],
+    "change": null,
+    "new": [
+     2
+    ],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1400
+   },
+   "line": "2번 용비태양, 선두권에 모습을 드러냅니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "2번 용비태양, 선두권에 모습을 드러냅니다.",
+     "rejected": null,
+     "seconds": 1.25
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 4,
+   "t": 23.867,
+   "elapsed": 15.0,
+   "frame": "t015.jpg",
+   "mode": "ranking",
+   "phase": "초반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 초반",
+    "거리: 결승선까지 약 1200m",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": true,
+    "mark": 1200
+   },
+   "line": "결승선까지 약 1200m, 2번 용비태양이 선두권에서 달립니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "결승선까지 약 1200m, 2번 용비태양이 선두권에서 달립니다.",
+     "rejected": null,
+     "seconds": 1.68
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 5,
+   "t": 26.867,
+   "elapsed": 18.0,
+   "frame": "t018.jpg",
+   "mode": "confirmed",
+   "phase": "초반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 초반",
+    "거리: 결승선까지 약 1200m",
+    "선두: 확인되지 않음",
+    "지금은 선두권을 확인하지 못했다. 어떤 말도 부르지 않는다.",
+    "말할 수 있는 말: 없음"
+   ],
+   "given": {
+    "leader": null,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [],
+    "follow_ok": false,
+    "say_distance": true,
+    "mark": 1200
+   },
+   "line": "서울 11경주, 레이스가 계속됩니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "서울 11경주, 레이스가 계속됩니다.",
+     "rejected": null,
+     "seconds": 1.36
+    }
+   ],
+   "identifier": {
+    "statements": [],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 6,
+   "t": 29.867,
+   "elapsed": 21.0,
+   "frame": "t021.jpg",
+   "mode": "ranking",
+   "phase": "초반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 초반",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1200
+   },
+   "line": "2번 용비태양, 여전히 앞쪽에 있습니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "2번 용비태양, 여전히 앞서며 달립니다.",
+     "rejected": "a leader word without a given leader",
+     "seconds": 1.34
+    },
+    {
+     "line": "2번 용비태양, 여전히 앞쪽에 있습니다.",
+     "rejected": null,
+     "seconds": 0.65
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 7,
+   "t": 32.867,
+   "elapsed": 24.0,
+   "frame": "t024.jpg",
+   "mode": "ranking",
+   "phase": "초반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 초반",
+    "선두: 2번 용비태양",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1200
+   },
+   "line": "2번 용비태양, 레이스의 흐름을 그대로 잡고 있습니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "2번 용비태양, 레이스의 흐름을 그대로 잡고 있습니다.",
+     "rejected": null,
+     "seconds": 1.49
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 8,
+   "t": 35.867,
+   "elapsed": 27.0,
+   "frame": "t027.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "거리: 결승선까지 약 1000m",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": true,
+    "mark": 1000
+   },
+   "line": "1000m 남짓, 2번 용비태양의 선두권 질주가 이어집니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "1000m 남짓, 2번 용비태양의 선두권 질주가 이어집니다.",
+     "rejected": null,
+     "seconds": 1.55
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 9,
+   "t": 38.867,
+   "elapsed": 30.0,
+   "frame": "t030.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 2번 용비태양",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1000
+   },
+   "line": "2번 용비태양, 흔들림 없는 질주로 선두를 지킵니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "2번 용비태양, 흔들림 없는 질주로 선두를 지킵니다.",
+     "rejected": null,
+     "seconds": 1.4
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 10,
+   "t": 41.867,
+   "elapsed": 33.0,
+   "frame": "t033.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 2번 용비태양",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1000
+   },
+   "line": "2번 용비태양, 여전히 레이스를 이끕니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "2번 용비태양, 여전히 레이스를 이끕니다.",
+     "rejected": null,
+     "seconds": 1.4
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 11,
+   "t": 44.867,
+   "elapsed": 36.0,
+   "frame": "t036.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 2번 용비태양",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 1000
+   },
+   "line": "2번 용비태양, 끝까지 선두를 지키며 달려갑니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "2번 용비태양, 독주 체제 유지합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.38
+    },
+    {
+     "line": "2번 용비태양, 단독으로 앞서며 경주를 리드합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 0.73
+    },
+    {
+     "line": "2번 용비태양, 끝까지 선두를 지키며 달려갑니다.",
+     "rejected": null,
+     "seconds": 0.85
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 12,
+   "t": 47.867,
+   "elapsed": 39.0,
+   "frame": "t039.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "거리: 결승선까지 약 800m",
+    "선두: 2번 용비태양",
+    "선두권의 다른 말: 7번 송암스카이 (선두를 뒤따르고 있음)",
+    "변화: 7번 송암스카이가 선두권에 새로 보인다",
+    "말할 수 있는 말: 2번 용비태양, 7번 송암스카이"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [
+     7
+    ],
+    "change": null,
+    "new": [
+     7
+    ],
+    "winner": null,
+    "allowed": [
+     2,
+     7
+    ],
+    "follow_ok": true,
+    "say_distance": true,
+    "mark": 800
+   },
+   "line": "7번 송암스카이가 선두권에 모습을 드러냅니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "7번 송암스카이가 선두권에 모습을 드러냅니다.",
+     "rejected": null,
+     "seconds": 1.47
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     7
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 7,
+      "gap": 0.6658
+     }
+    ]
+   }
+  },
+  {
+   "k": 13,
+   "t": 50.867,
+   "elapsed": 42.0,
+   "frame": "t042.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 2번 용비태양",
+    "선두권의 다른 말: 7번 송암스카이 (선두를 뒤따르고 있음)",
+    "말할 수 있는 말: 2번 용비태양, 7번 송암스카이"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [
+     7
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     7
+    ],
+    "follow_ok": true,
+    "say_distance": false,
+    "mark": 800
+   },
+   "line": "2번 용비태양이 앞서고, 7번 송암스카이가 뒤를 잇습니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "2번 용비태양이 앞서 달리고, 7번 송암스카이가 바짝 추격합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.56
+    },
+    {
+     "line": "2번 용비태양이 앞서고, 7번 송암스카이가 곧바로 뒤를 따릅니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.04
+    },
+    {
+     "line": "2번 용비태양이 앞서고, 7번 송암스카이가 뒤를 잇습니다.",
+     "rejected": null,
+     "seconds": 0.88
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     7
+    ],
+    "leader": 2,
+    "leader_source": "carried",
+    "leader_model": "strip-trained (v9)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 7,
+      "gap": 0.4939
+     }
+    ]
+   }
+  },
+  {
+   "k": 14,
+   "t": 53.867,
+   "elapsed": 45.0,
+   "frame": "t045.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 7번 송암스카이 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양, 7번 송암스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     7
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     7
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 800
+   },
+   "line": "선두권에 2번 용비태양, 7번 송암스카이가 보입니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "두 말, 선두권에서 치열하게 달립니다.",
+     "rejected": "no number in a ranking sentence",
+     "seconds": 1.37
+    },
+    {
+     "line": "두 마리, 선두권에서 치열하게 달립니다.",
+     "rejected": "no number in a ranking sentence",
+     "seconds": 0.62
+    },
+    {
+     "line": "두 필이 나란히, 레이스를 뜨겁게 달굽니다.",
+     "rejected": "no number in a ranking sentence",
+     "seconds": 0.71
+    },
+    {
+     "line": "2번 용비태양과 7번 송암스카이, 여전히 선두권에서 치열하게 맞붙고 있습니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.09
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     7
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "strip-trained (v9)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 7,
+      "gap": 0.5085
+     }
+    ]
+   }
+  },
+  {
+   "k": 15,
+   "t": 56.867,
+   "elapsed": 48.0,
+   "frame": "t048.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "선두: 2번 용비태양",
+    "선두권의 다른 말: 7번 송암스카이 (선두를 뒤따르고 있음)",
+    "말할 수 있는 말: 2번 용비태양, 7번 송암스카이"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [
+     7
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     7
+    ],
+    "follow_ok": true,
+    "say_distance": false,
+    "mark": 800
+   },
+   "line": "선두는 2번 용비태양, 그 뒤를 7번 송암스카이가 따릅니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "2번 용비태양이 선두를 지키고, 7번 송암스카이가 바짝 뒤를 쫓습니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.65
+    },
+    {
+     "line": "2번 용비태양이 여전히 선두를 지키고, 7번 송암스카이가 바짝 추격합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.11
+    },
+    {
+     "line": "2번 용비태양이 선두를 지키고, 7번 송암스카이가 바짝 추격합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.1
+    },
+    {
+     "line": "2번 용비태양이 선두를 지키고, 7번 송암스카이가 뒤를 바짝 쫓습니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.19
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     7
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 7,
+      "gap": 0.738
+     }
+    ]
+   }
+  },
+  {
+   "k": 16,
+   "t": 59.867,
+   "elapsed": 51.0,
+   "frame": "t051.jpg",
+   "mode": "ranking",
+   "phase": "중반",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 중반",
+    "거리: 결승선까지 약 600m",
+    "선두: 2번 용비태양",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": 2,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": true,
+    "mark": 600
+   },
+   "line": "2번 용비태양, 결승선까지 약 600m 남았습니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "2번 용비태양, 결승선까지 약 600m 남았습니다.",
+     "rejected": null,
+     "seconds": 1.29
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": 2,
+    "leader_source": "now",
+    "leader_model": "strip-trained (v9)",
+    "order": []
+   }
+  },
+  {
+   "k": 17,
+   "t": 62.867,
+   "elapsed": 54.0,
+   "frame": "t054.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 600
+   },
+   "line": "선두권에 2번 용비태양이 보입니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "2번 용비태양, 막판까지 선두권에서 달립니다!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 1.47
+    },
+    {
+     "line": "막판, 2번 용비태양이 전력 질주합니다!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 0.81
+    },
+    {
+     "line": "2번 용비태양, 막판 스퍼트를 겁니다!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 0.66
+    },
+    {
+     "line": "막판! 2번 용비태양, 힘차게 직선으로!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 0.86
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": []
+   }
+  },
+  {
+   "k": 18,
+   "t": 65.867,
+   "elapsed": 57.0,
+   "frame": "t057.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "변화: 8번 관악산스카이가 선두권에 새로 보인다",
+    "말할 수 있는 말: 2번 용비태양, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     8
+    ],
+    "change": null,
+    "new": [
+     8
+    ],
+    "winner": null,
+    "allowed": [
+     2,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 600
+   },
+   "line": "8번 관악산스카이가 선두권에 모습을 드러냅니다.",
+   "source": "model",
+   "tries": [
+    {
+     "line": "8번 관악산스카이가 선두권에 모습을 드러냅니다.",
+     "rejected": null,
+     "seconds": 1.17
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 8,
+      "gap": 0.773
+     }
+    ]
+   }
+  },
+  {
+   "k": 19,
+   "t": 68.867,
+   "elapsed": 60.0,
+   "frame": "t060.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     8
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 600
+   },
+   "line": "선두권에 2번 용비태양, 8번 관악산스카이가 보입니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "2번 용비태양과 8번 관악산스카이, 막판까지 팽팽하게 붙어 있습니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.69
+    },
+    {
+     "line": "2번 용비태양과 8번 관악산스카이, 막판까지 팽팽합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 0.91
+    },
+    {
+     "line": "2번 용비태양과 8번 관악산스카이, 막판 승부가 뜨겁습니다!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 0.9
+    },
+    {
+     "line": "2번 용비태양, 8번 관악산스카이. 두 말이 선두권에서 치열하게 다투고 있습니다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.03
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 8,
+      "gap": 0.3566
+     }
+    ]
+   }
+  },
+  {
+   "k": 20,
+   "t": 71.867,
+   "elapsed": 63.0,
+   "frame": "t063.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     8
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 600
+   },
+   "line": "선두권에 2번 용비태양, 8번 관악산스카이가 보입니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "2번 용비태양, 8번 관악산스카이! 막판 치열한 승부!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.38
+    },
+    {
+     "line": "2번 용비태양과 8번 관악산스카이, 마지막까지 바짝 추격합니다.",
+     "rejected": "following words without a known order",
+     "seconds": 1.01
+    },
+    {
+     "line": "2번 용비태양, 8번 관악산스카이 결승 직전!",
+     "rejected": "a time or a phase name read out",
+     "seconds": 0.78
+    },
+    {
+     "line": "2번 용비태양, 8번 관악산스카이. 막판까지 선두권에서 치열한 경쟁을 벌입니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.18
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 8,
+      "gap": 0.4791
+     }
+    ]
+   }
+  },
+  {
+   "k": 21,
+   "t": 74.867,
+   "elapsed": 66.0,
+   "frame": "t066.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "거리: 결승선까지 약 400m",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 2번 용비태양, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     8
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     2,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": true,
+    "mark": 400
+   },
+   "line": "400m! 2번 용비태양과 8번 관악산스카이의 승부!",
+   "source": "model",
+   "tries": [
+    {
+     "line": "400m! 2번 용비태양과 8번 관악산스카이의 승부!",
+     "rejected": null,
+     "seconds": 1.42
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 8,
+      "gap": 0.279
+     }
+    ]
+   }
+  },
+  {
+   "k": 22,
+   "t": 77.867,
+   "elapsed": 69.0,
+   "frame": "t069.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 2번 용비태양, 6번 내길의위너, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "변화: 6번 내길의위너가 선두권에 새로 보인다",
+    "말할 수 있는 말: 2번 용비태양, 6번 내길의위너, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     2,
+     6,
+     8
+    ],
+    "change": null,
+    "new": [
+     6
+    ],
+    "winner": null,
+    "allowed": [
+     2,
+     6,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 400
+   },
+   "line": "6번 내길의위너, 선두권에 올라옵니다!",
+   "source": "model",
+   "tries": [
+    {
+     "line": "6번 내길의위너, 선두권에 올라옵니다!",
+     "rejected": null,
+     "seconds": 1.3
+    }
+   ],
+   "identifier": {
+    "statements": [
+     2,
+     6,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 2,
+      "behind": 6,
+      "gap": 0.4613
+     },
+     {
+      "ahead": 2,
+      "behind": 8,
+      "gap": 0.4211
+     }
+    ]
+   }
+  },
+  {
+   "k": 23,
+   "t": 80.867,
+   "elapsed": 72.0,
+   "frame": "t072.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 8번 관악산스카이",
+    "선두권의 다른 말: 6번 내길의위너 (선두를 뒤따르고 있음)",
+    "말할 수 있는 말: 6번 내길의위너, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": 8,
+    "group": [
+     6
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     6,
+     8
+    ],
+    "follow_ok": true,
+    "say_distance": false,
+    "mark": 400
+   },
+   "line": "선두는 8번 관악산스카이, 그 뒤를 6번 내길의위너가 따릅니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 바짝 추격합니다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.73
+    },
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 뒤를 바짝 쫓는다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.14
+    },
+    {
+     "line": "8번 관악산스카이가 선두! 뒤를 6번 내길의위너가 바짝 쫓는다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.03
+    },
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 바짝 뒤따릅니다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.05
+    }
+   ],
+   "identifier": {
+    "statements": [
+     6,
+     8
+    ],
+    "leader": 8,
+    "leader_source": "now",
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 8,
+      "behind": 6,
+      "gap": 0.5117
+     }
+    ]
+   }
+  },
+  {
+   "k": 24,
+   "t": 83.867,
+   "elapsed": 75.0,
+   "frame": "t075.jpg",
+   "mode": "ranking",
+   "phase": "막판",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 막판",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 6번 내길의위너, 8번 관악산스카이 (앞뒤 순서는 모름)",
+    "말할 수 있는 말: 6번 내길의위너, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     6,
+     8
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     6,
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 400
+   },
+   "line": "선두권에 6번 내길의위너, 8번 관악산스카이가 보입니다.",
+   "source": "template",
+   "tries": [
+    {
+     "line": "6번 내길의위너와 8번 관악산스카이, 막판까지 선두권에서 치열하게 붙어 있습니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.68
+    },
+    {
+     "line": "6번 내길의위너와 8번 관악산스카이, 막판까지 치열한 승부!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.09
+    },
+    {
+     "line": "두 마리의 말, 막판까지 치열하게 붙어 있습니다.",
+     "rejected": "no number in a ranking sentence",
+     "seconds": 0.68
+    },
+    {
+     "line": "선두권에서는 6번 내길의위너와 8번 관악산스카이가 치열하게 전개됩니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.1
+    }
+   ],
+   "identifier": {
+    "statements": [
+     6,
+     8
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 8,
+      "behind": 6,
+      "gap": 0.4558
+     }
+    ]
+   }
+  },
+  {
+   "k": 25,
+   "t": 86.867,
+   "elapsed": 78.0,
+   "frame": "t078.jpg",
+   "mode": "ranking",
+   "phase": "결승선 직전",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 결승선 직전",
+    "거리: 결승선까지 약 200m",
+    "선두: 8번 관악산스카이",
+    "선두권의 다른 말: 6번 내길의위너 (선두를 뒤따르고 있음)",
+    "말할 수 있는 말: 6번 내길의위너, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": 8,
+    "group": [
+     6
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     6,
+     8
+    ],
+    "follow_ok": true,
+    "say_distance": true,
+    "mark": 200
+   },
+   "line": "8번 관악산스카이, 결승선까지 약 200m를 남겨놓고 있습니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 바짝 추격합니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.53
+    },
+    {
+     "line": "8번 관악산스카이, 결승선까지 약 200m를 남겨놓고 있습니다.",
+     "rejected": null,
+     "seconds": 0.98
+    }
+   ],
+   "identifier": {
+    "statements": [
+     6,
+     8
+    ],
+    "leader": 8,
+    "leader_source": "now",
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 8,
+      "behind": 6,
+      "gap": 0.7847
+     }
+    ]
+   }
+  },
+  {
+   "k": 26,
+   "t": 89.867,
+   "elapsed": 81.0,
+   "frame": "t081.jpg",
+   "mode": "ranking",
+   "phase": "결승선 직전",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 결승선 직전",
+    "선두: 확인되지 않음",
+    "선두권의 다른 말: 4번 벌교의스타, 6번 내길의위너 (앞뒤 순서는 모름)",
+    "변화: 4번 벌교의스타가 선두권에 새로 보인다",
+    "말할 수 있는 말: 4번 벌교의스타, 6번 내길의위너"
+   ],
+   "given": {
+    "leader": null,
+    "group": [
+     4,
+     6
+    ],
+    "change": null,
+    "new": [
+     4
+    ],
+    "winner": null,
+    "allowed": [
+     4,
+     6
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 200
+   },
+   "line": "4번 벌교의스타도 선두권에 모습을 드러냅니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "결승선 직전, 4번 벌교의스타가 선두권에 새로 모습을 드러냅니다.",
+     "rejected": "the checking model: 결승선 직전",
+     "seconds": 1.71
+    },
+    {
+     "line": "4번 벌교의스타도 선두권에 모습을 드러냅니다.",
+     "rejected": null,
+     "seconds": 1.01
+    }
+   ],
+   "identifier": {
+    "statements": [
+     4,
+     6
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": []
+   }
+  },
+  {
+   "k": 27,
+   "t": 92.867,
+   "elapsed": 84.0,
+   "frame": "t084.jpg",
+   "mode": "ranking",
+   "phase": "결승선 직전",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 결승선 직전",
+    "선두: 8번 관악산스카이",
+    "선두권의 다른 말: 6번 내길의위너 (선두를 뒤따르고 있음)",
+    "말할 수 있는 말: 6번 내길의위너, 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": 8,
+    "group": [
+     6
+    ],
+    "change": null,
+    "new": [],
+    "winner": null,
+    "allowed": [
+     6,
+     8
+    ],
+    "follow_ok": true,
+    "say_distance": false,
+    "mark": 200
+   },
+   "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 뒤를 잇습니다.",
+   "source": "model, asked again",
+   "tries": [
+    {
+     "line": "8번 관악산스카이가 앞서고, 6번 내길의위너가 바짝 추격합니다!",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.66
+    },
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 바짝 뒤따릅니다.",
+     "rejected": "a word about gaps or a duel",
+     "seconds": 1.03
+    },
+    {
+     "line": "8번 관악산스카이가 선두를 지키고, 6번 내길의위너가 뒤를 잇습니다.",
+     "rejected": null,
+     "seconds": 1.1
+    }
+   ],
+   "identifier": {
+    "statements": [
+     6,
+     8
+    ],
+    "leader": 8,
+    "leader_source": "now",
+    "leader_model": "learned from official times (v10 piece)",
+    "order": [
+     {
+      "ahead": 8,
+      "behind": 6,
+      "gap": 0.6453
+     }
+    ]
+   }
+  },
+  {
+   "k": 28,
+   "t": 96.25,
+   "elapsed": 87.4,
+   "frame": "t087.jpg",
+   "mode": "finish",
+   "phase": "결승",
+   "facts": [
+    "경주: 서울 11경주 1400m",
+    "말투: 결승",
+    "결승선을 통과했다. 화면으로 판단한 우승마: 8번 관악산스카이",
+    "말할 수 있는 말: 8번 관악산스카이"
+   ],
+   "given": {
+    "leader": null,
+    "group": [],
+    "change": null,
+    "new": [],
+    "winner": 8,
+    "allowed": [
+     8
+    ],
+    "follow_ok": false,
+    "say_distance": false,
+    "mark": 200
+   },
+   "line": "결승선 통과! 8번 관악산스카이가 가장 먼저 들어옵니다!",
+   "source": "model",
+   "tries": [
+    {
+     "line": "결승선 통과! 8번 관악산스카이가 가장 먼저 들어옵니다!",
+     "rejected": null,
+     "seconds": 1.47
+    }
+   ],
+   "identifier": {
+    "statements": [
+     4,
+     6
+    ],
+    "leader": null,
+    "leader_source": null,
+    "leader_model": "learned from official times (v10 piece)",
+    "order": []
+   }
+  }
+ ],
+ "made": "2026-11-18T16:49:25",
+ "model_calls": 59,
+ "seconds_per_call_median": 1.17
+}

@@ -1,0 +1,34 @@
+[2026-11-18T16:23:11+09:00] single attempt, with audio: vkJ2az4nXkc (Seoul) 2026.11.08 R11 — chosen by rule before viewing: the last race of the most recent race day never used in this project
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vkJ2az4nXkc
+[youtube] vkJ2az4nXkc: Downloading webpage
+[youtube] vkJ2az4nXkc: Downloading tv samsung player API JSON
+[youtube] vkJ2az4nXkc: Downloading visionos player API JSON
+[youtube] vkJ2az4nXkc: Downloading player b559f50c-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] vkJ2az4nXkc: Downloading m3u8 information
+[info] vkJ2az4nXkc: Downloading 1 format(s): 299+140-7
+[info] Writing video metadata as JSON to: live_script/20261108_R11/videos/R11_vkJ2az4nXkc.info.json
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+[2026-11-18T16:23:27+09:00] second try, picture only, the format string that worked before
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vkJ2az4nXkc
+[youtube] vkJ2az4nXkc: Downloading webpage
+[youtube] vkJ2az4nXkc: Downloading tv samsung player API JSON
+[youtube] vkJ2az4nXkc: Downloading visionos player API JSON
+[youtube] vkJ2az4nXkc: Downloading player b559f50c-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] vkJ2az4nXkc: Downloading m3u8 information
+[info] vkJ2az4nXkc: Downloading 1 format(s): 299
+[download] Destination: live_script/20261108_R11/videos/R11_vkJ2az4nXkc.video.mp4
+[download] Download completed
+[2026-11-18T16:23:43+09:00] sound only, one try
+[youtube] Extracting URL: https://www.youtube.com/watch?v=vkJ2az4nXkc
+[youtube] vkJ2az4nXkc: Downloading webpage
+[youtube] vkJ2az4nXkc: Downloading tv samsung player API JSON
+[youtube] vkJ2az4nXkc: Downloading visionos player API JSON
+[youtube] vkJ2az4nXkc: Downloading player b559f50c-main
+[youtube] [jsc:node] Solving JS challenges using node
+[youtube] vkJ2az4nXkc: Downloading m3u8 information
+[info] vkJ2az4nXkc: Downloading 1 format(s): 140-7
+[download] Destination: live_script/20261108_R11/videos/R11_vkJ2az4nXkc.audio.m4a
+[download] Download completed
+[FixupM4a] Correcting container of "live_script/20261108_R11/videos/R11_vkJ2az4nXkc.audio.m4a"
