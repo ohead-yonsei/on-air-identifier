@@ -1,0 +1,767 @@
+{
+ "name": "V10L",
+ "days": [
+  "otherday14",
+  "otherday15"
+ ],
+ "races": 16,
+ "races_run": 16,
+ "parts": {
+  "start": {
+   "points": 48,
+   "said": 56,
+   "right": 43,
+   "right_lenient": 48,
+   "points_good": 30,
+   "points_silent": 8,
+   "A": 76.8,
+   "B": 62.5,
+   "A_lenient": 85.7,
+   "lead_said": 12,
+   "lead_right": 7,
+   "lead_wrong": 5,
+   "lead_when_said": 58.3,
+   "lead_when_said_lenient": 83.3,
+   "lead_right_share": 14.6,
+   "lead_wrong_share": 10.4,
+   "lead_right_share_lenient": 20.8,
+   "base_said": 12,
+   "base_right": 7,
+   "base_wrong": 5,
+   "base_when_said": 58.3,
+   "base_when_said_lenient": 83.3,
+   "base_right_share": 14.6,
+   "base_wrong_share": 10.4,
+   "base_right_share_lenient": 20.8,
+   "interval": {
+    "A": [
+     59.6,
+     90.9
+    ],
+    "B": [
+     45.8,
+     79.2
+    ],
+    "lead_when_said": [
+     20.0,
+     100.0
+    ],
+    "lead_right_share": [
+     4.2,
+     27.1
+    ],
+    "lead_wrong_share": [
+     0.0,
+     25.0
+    ],
+    "base_when_said": [
+     20.0,
+     100.0
+    ],
+    "base_right_share": [
+     4.2,
+     27.1
+    ],
+    "base_wrong_share": [
+     0.0,
+     25.0
+    ],
+    "lead_when_said_minus_base_when_said": [
+     0.0,
+     0.0
+    ],
+    "lead_right_share_minus_base_right_share": [
+     0.0,
+     0.0
+    ],
+    "lead_wrong_share_minus_base_wrong_share": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "middle": {
+   "points": 170,
+   "said": 287,
+   "right": 265,
+   "right_lenient": 282,
+   "points_good": 160,
+   "points_silent": 7,
+   "A": 92.3,
+   "B": 94.1,
+   "A_lenient": 98.3,
+   "lead_said": 113,
+   "lead_right": 106,
+   "lead_wrong": 7,
+   "lead_when_said": 93.8,
+   "lead_when_said_lenient": 95.6,
+   "lead_right_share": 62.4,
+   "lead_wrong_share": 4.1,
+   "lead_right_share_lenient": 63.5,
+   "base_said": 113,
+   "base_right": 106,
+   "base_wrong": 7,
+   "base_when_said": 93.8,
+   "base_when_said_lenient": 95.6,
+   "base_right_share": 62.4,
+   "base_wrong_share": 4.1,
+   "base_right_share_lenient": 63.5,
+   "interval": {
+    "A": [
+     87.8,
+     96.6
+    ],
+    "B": [
+     89.8,
+     97.9
+    ],
+    "lead_when_said": [
+     87.8,
+     98.3
+    ],
+    "lead_right_share": [
+     51.1,
+     73.9
+    ],
+    "lead_wrong_share": [
+     1.2,
+     7.6
+    ],
+    "base_when_said": [
+     87.8,
+     98.3
+    ],
+    "base_right_share": [
+     51.1,
+     73.9
+    ],
+    "base_wrong_share": [
+     1.2,
+     7.6
+    ],
+    "lead_when_said_minus_base_when_said": [
+     0.0,
+     0.0
+    ],
+    "lead_right_share_minus_base_right_share": [
+     0.0,
+     0.0
+    ],
+    "lead_wrong_share_minus_base_wrong_share": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "finish": {
+   "points": 208,
+   "said": 339,
+   "right": 313,
+   "right_lenient": 316,
+   "points_good": 184,
+   "points_silent": 10,
+   "A": 92.3,
+   "B": 88.5,
+   "A_lenient": 93.2,
+   "lead_said": 110,
+   "lead_right": 94,
+   "lead_wrong": 16,
+   "lead_when_said": 85.5,
+   "lead_when_said_lenient": 90.9,
+   "lead_right_share": 45.2,
+   "lead_wrong_share": 7.7,
+   "lead_right_share_lenient": 48.1,
+   "base_said": 136,
+   "base_right": 102,
+   "base_wrong": 34,
+   "base_when_said": 75.0,
+   "base_when_said_lenient": 86.0,
+   "base_right_share": 49.0,
+   "base_wrong_share": 16.3,
+   "base_right_share_lenient": 56.2,
+   "interval": {
+    "A": [
+     87.6,
+     95.7
+    ],
+    "B": [
+     83.7,
+     93.3
+    ],
+    "lead_when_said": [
+     71.5,
+     95.4
+    ],
+    "lead_right_share": [
+     34.6,
+     55.3
+    ],
+    "lead_wrong_share": [
+     2.4,
+     14.9
+    ],
+    "base_when_said": [
+     62.9,
+     86.6
+    ],
+    "base_right_share": [
+     37.5,
+     59.6
+    ],
+    "base_wrong_share": [
+     8.2,
+     25.0
+    ],
+    "lead_when_said_minus_base_when_said": [
+     1.3,
+     19.3
+    ],
+    "lead_right_share_minus_base_right_share": [
+     -8.2,
+     0.5
+    ],
+    "lead_wrong_share_minus_base_wrong_share": [
+     -14.9,
+     -2.4
+    ]
+   }
+  },
+  "whole race": {
+   "points": 426,
+   "said": 682,
+   "right": 621,
+   "right_lenient": 646,
+   "points_good": 374,
+   "points_silent": 25,
+   "A": 91.1,
+   "B": 87.8,
+   "A_lenient": 94.7,
+   "lead_said": 235,
+   "lead_right": 207,
+   "lead_wrong": 28,
+   "lead_when_said": 88.1,
+   "lead_when_said_lenient": 92.8,
+   "lead_right_share": 48.6,
+   "lead_wrong_share": 6.6,
+   "lead_right_share_lenient": 51.2,
+   "base_said": 261,
+   "base_right": 215,
+   "base_wrong": 46,
+   "base_when_said": 82.4,
+   "base_when_said_lenient": 90.0,
+   "base_right_share": 50.5,
+   "base_wrong_share": 10.8,
+   "base_right_share_lenient": 55.2,
+   "interval": {
+    "A": [
+     87.7,
+     94.1
+    ],
+    "B": [
+     83.8,
+     91.5
+    ],
+    "lead_when_said": [
+     80.1,
+     94.1
+    ],
+    "lead_right_share": [
+     41.0,
+     55.9
+    ],
+    "lead_wrong_share": [
+     3.3,
+     10.7
+    ],
+    "base_when_said": [
+     75.1,
+     88.9
+    ],
+    "base_right_share": [
+     42.3,
+     58.3
+    ],
+    "base_wrong_share": [
+     6.7,
+     15.0
+    ],
+    "lead_when_said_minus_base_when_said": [
+     1.0,
+     10.4
+    ],
+    "lead_right_share_minus_base_right_share": [
+     -4.0,
+     0.2
+    ],
+    "lead_wrong_share_minus_base_wrong_share": [
+     -7.3,
+     -1.2
+    ]
+   }
+  },
+  "whole race without the finish moment": {
+   "points": 410,
+   "said": 673,
+   "right": 615,
+   "right_lenient": 639,
+   "points_good": 368,
+   "points_silent": 18,
+   "A": 91.4,
+   "B": 89.8,
+   "A_lenient": 94.9,
+   "lead_said": 230,
+   "lead_right": 202,
+   "lead_wrong": 28,
+   "lead_when_said": 87.8,
+   "lead_when_said_lenient": 92.6,
+   "lead_right_share": 49.3,
+   "lead_wrong_share": 6.8,
+   "lead_right_share_lenient": 52.0,
+   "base_said": 257,
+   "base_right": 211,
+   "base_wrong": 46,
+   "base_when_said": 82.1,
+   "base_when_said_lenient": 89.9,
+   "base_right_share": 51.5,
+   "base_wrong_share": 11.2,
+   "base_right_share_lenient": 56.3,
+   "interval": {
+    "A": [
+     87.8,
+     94.6
+    ],
+    "B": [
+     86.0,
+     93.1
+    ],
+    "lead_when_said": [
+     79.7,
+     93.9
+    ],
+    "lead_right_share": [
+     41.7,
+     56.5
+    ],
+    "lead_wrong_share": [
+     3.4,
+     11.1
+    ],
+    "base_when_said": [
+     74.7,
+     88.7
+    ],
+    "base_right_share": [
+     43.4,
+     59.4
+    ],
+    "base_wrong_share": [
+     6.9,
+     15.6
+    ],
+    "lead_when_said_minus_base_when_said": [
+     0.9,
+     10.6
+    ],
+    "lead_right_share_minus_base_right_share": [
+     -4.5,
+     0.0
+    ],
+    "lead_wrong_share_minus_base_wrong_share": [
+     -7.6,
+     -1.2
+    ]
+   }
+  }
+ },
+ "every_race_run": {
+  "start": {
+   "points": 48,
+   "said": 56,
+   "right": 43,
+   "right_lenient": 48,
+   "points_good": 30,
+   "points_silent": 8,
+   "A": 76.8,
+   "B": 62.5,
+   "A_lenient": 85.7,
+   "lead_said": 12,
+   "lead_right": 7,
+   "lead_wrong": 5,
+   "lead_when_said": 58.3,
+   "lead_when_said_lenient": 83.3,
+   "lead_right_share": 14.6,
+   "lead_wrong_share": 10.4,
+   "lead_right_share_lenient": 20.8,
+   "base_said": 12,
+   "base_right": 7,
+   "base_wrong": 5,
+   "base_when_said": 58.3,
+   "base_when_said_lenient": 83.3,
+   "base_right_share": 14.6,
+   "base_wrong_share": 10.4,
+   "base_right_share_lenient": 20.8
+  },
+  "middle": {
+   "points": 170,
+   "said": 287,
+   "right": 265,
+   "right_lenient": 282,
+   "points_good": 160,
+   "points_silent": 7,
+   "A": 92.3,
+   "B": 94.1,
+   "A_lenient": 98.3,
+   "lead_said": 113,
+   "lead_right": 106,
+   "lead_wrong": 7,
+   "lead_when_said": 93.8,
+   "lead_when_said_lenient": 95.6,
+   "lead_right_share": 62.4,
+   "lead_wrong_share": 4.1,
+   "lead_right_share_lenient": 63.5,
+   "base_said": 113,
+   "base_right": 106,
+   "base_wrong": 7,
+   "base_when_said": 93.8,
+   "base_when_said_lenient": 95.6,
+   "base_right_share": 62.4,
+   "base_wrong_share": 4.1,
+   "base_right_share_lenient": 63.5
+  },
+  "finish": {
+   "points": 208,
+   "said": 339,
+   "right": 313,
+   "right_lenient": 316,
+   "points_good": 184,
+   "points_silent": 10,
+   "A": 92.3,
+   "B": 88.5,
+   "A_lenient": 93.2,
+   "lead_said": 110,
+   "lead_right": 94,
+   "lead_wrong": 16,
+   "lead_when_said": 85.5,
+   "lead_when_said_lenient": 90.9,
+   "lead_right_share": 45.2,
+   "lead_wrong_share": 7.7,
+   "lead_right_share_lenient": 48.1,
+   "base_said": 136,
+   "base_right": 102,
+   "base_wrong": 34,
+   "base_when_said": 75.0,
+   "base_when_said_lenient": 86.0,
+   "base_right_share": 49.0,
+   "base_wrong_share": 16.3,
+   "base_right_share_lenient": 56.2
+  },
+  "whole race": {
+   "points": 426,
+   "said": 682,
+   "right": 621,
+   "right_lenient": 646,
+   "points_good": 374,
+   "points_silent": 25,
+   "A": 91.1,
+   "B": 87.8,
+   "A_lenient": 94.7,
+   "lead_said": 235,
+   "lead_right": 207,
+   "lead_wrong": 28,
+   "lead_when_said": 88.1,
+   "lead_when_said_lenient": 92.8,
+   "lead_right_share": 48.6,
+   "lead_wrong_share": 6.6,
+   "lead_right_share_lenient": 51.2,
+   "base_said": 261,
+   "base_right": 215,
+   "base_wrong": 46,
+   "base_when_said": 82.4,
+   "base_when_said_lenient": 90.0,
+   "base_right_share": 50.5,
+   "base_wrong_share": 10.8,
+   "base_right_share_lenient": 55.2
+  },
+  "whole race without the finish moment": {
+   "points": 410,
+   "said": 673,
+   "right": 615,
+   "right_lenient": 639,
+   "points_good": 368,
+   "points_silent": 18,
+   "A": 91.4,
+   "B": 89.8,
+   "A_lenient": 94.9,
+   "lead_said": 230,
+   "lead_right": 202,
+   "lead_wrong": 28,
+   "lead_when_said": 87.8,
+   "lead_when_said_lenient": 92.6,
+   "lead_right_share": 49.3,
+   "lead_wrong_share": 6.8,
+   "lead_right_share_lenient": 52.0,
+   "base_said": 257,
+   "base_right": 211,
+   "base_wrong": 46,
+   "base_when_said": 82.1,
+   "base_when_said_lenient": 89.9,
+   "base_right_share": 51.5,
+   "base_wrong_share": 11.2,
+   "base_right_share_lenient": 56.3
+  }
+ },
+ "by_day": {
+  "otherday14": {
+   "start": {
+    "points": 21,
+    "A": 69.6,
+    "B": 52.4,
+    "lead_said": 5,
+    "lead_right": 2,
+    "lead_when_said": 40.0,
+    "lead_right_share": 9.5,
+    "lead_wrong_share": 14.3,
+    "base_when_said": 40.0,
+    "base_right_share": 9.5
+   },
+   "middle": {
+    "points": 74,
+    "A": 93.1,
+    "B": 97.3,
+    "lead_said": 41,
+    "lead_right": 38,
+    "lead_when_said": 92.7,
+    "lead_right_share": 51.4,
+    "lead_wrong_share": 4.1,
+    "base_when_said": 92.7,
+    "base_right_share": 51.4
+   },
+   "finish": {
+    "points": 91,
+    "A": 89.1,
+    "B": 84.6,
+    "lead_said": 35,
+    "lead_right": 27,
+    "lead_when_said": 77.1,
+    "lead_right_share": 29.7,
+    "lead_wrong_share": 8.8,
+    "base_when_said": 60.4,
+    "base_right_share": 31.9
+   },
+   "whole race": {
+    "points": 186,
+    "A": 89.2,
+    "B": 86.0,
+    "lead_said": 81,
+    "lead_right": 67,
+    "lead_when_said": 82.7,
+    "lead_right_share": 36.0,
+    "lead_wrong_share": 7.5,
+    "base_when_said": 73.4,
+    "base_right_share": 37.1
+   },
+   "whole race without the finish moment": {
+    "points": 179,
+    "A": 89.8,
+    "B": 89.4,
+    "lead_said": 80,
+    "lead_right": 66,
+    "lead_when_said": 82.5,
+    "lead_right_share": 36.9,
+    "lead_wrong_share": 7.8,
+    "base_when_said": 73.1,
+    "base_right_share": 38.0
+   }
+  },
+  "otherday15": {
+   "start": {
+    "points": 27,
+    "A": 81.8,
+    "B": 70.4,
+    "lead_said": 7,
+    "lead_right": 5,
+    "lead_when_said": 71.4,
+    "lead_right_share": 18.5,
+    "lead_wrong_share": 7.4,
+    "base_when_said": 71.4,
+    "base_right_share": 18.5
+   },
+   "middle": {
+    "points": 96,
+    "A": 91.8,
+    "B": 91.7,
+    "lead_said": 72,
+    "lead_right": 68,
+    "lead_when_said": 94.4,
+    "lead_right_share": 70.8,
+    "lead_wrong_share": 4.2,
+    "base_when_said": 94.4,
+    "base_right_share": 70.8
+   },
+   "finish": {
+    "points": 117,
+    "A": 94.5,
+    "B": 91.5,
+    "lead_said": 75,
+    "lead_right": 67,
+    "lead_when_said": 89.3,
+    "lead_right_share": 57.3,
+    "lead_wrong_share": 6.8,
+    "base_when_said": 83.0,
+    "base_right_share": 62.4
+   },
+   "whole race": {
+    "points": 240,
+    "A": 92.3,
+    "B": 89.2,
+    "lead_said": 154,
+    "lead_right": 140,
+    "lead_when_said": 90.9,
+    "lead_right_share": 58.3,
+    "lead_wrong_share": 5.8,
+    "base_when_said": 87.4,
+    "base_right_share": 60.8
+   },
+   "whole race without the finish moment": {
+    "points": 231,
+    "A": 92.5,
+    "B": 90.0,
+    "lead_said": 150,
+    "lead_right": 136,
+    "lead_when_said": 90.7,
+    "lead_right_share": 58.9,
+    "lead_wrong_share": 6.1,
+    "base_when_said": 87.2,
+    "base_right_share": 61.9
+   }
+  }
+ },
+ "winner": {
+  "official_anchor": {
+   "main": {
+    "races": 16,
+    "called": 0,
+    "right": 0,
+    "rank_of_called": []
+   },
+   "every_race_run": {
+    "races": 16,
+    "called": 0,
+    "right": 0,
+    "rank_of_called": []
+   }
+  },
+  "clock_stop": {
+   "main": {
+    "races": 16,
+    "called": 0,
+    "right": 0,
+    "rank_of_called": []
+   },
+   "every_race_run": {
+    "races": 16,
+    "called": 0,
+    "right": 0,
+    "rank_of_called": []
+   }
+  }
+ },
+ "race_rows": [
+  {
+   "day": "otherday14",
+   "race": "R02",
+   "agree": true,
+   "winner": 10
+  },
+  {
+   "day": "otherday14",
+   "race": "R03",
+   "agree": true,
+   "winner": 10
+  },
+  {
+   "day": "otherday14",
+   "race": "R06",
+   "agree": true,
+   "winner": 4
+  },
+  {
+   "day": "otherday14",
+   "race": "R07",
+   "agree": true,
+   "winner": 6
+  },
+  {
+   "day": "otherday14",
+   "race": "R08",
+   "agree": true,
+   "winner": 1
+  },
+  {
+   "day": "otherday14",
+   "race": "R09",
+   "agree": true,
+   "winner": 5
+  },
+  {
+   "day": "otherday14",
+   "race": "R10",
+   "agree": true,
+   "winner": 11
+  },
+  {
+   "day": "otherday15",
+   "race": "R01",
+   "agree": true,
+   "winner": 3
+  },
+  {
+   "day": "otherday15",
+   "race": "R02",
+   "agree": true,
+   "winner": 10
+  },
+  {
+   "day": "otherday15",
+   "race": "R03",
+   "agree": true,
+   "winner": 1
+  },
+  {
+   "day": "otherday15",
+   "race": "R04",
+   "agree": true,
+   "winner": 3
+  },
+  {
+   "day": "otherday15",
+   "race": "R05",
+   "agree": true,
+   "winner": 8
+  },
+  {
+   "day": "otherday15",
+   "race": "R06",
+   "agree": true,
+   "winner": 6
+  },
+  {
+   "day": "otherday15",
+   "race": "R07",
+   "agree": true,
+   "winner": 6
+  },
+  {
+   "day": "otherday15",
+   "race": "R09",
+   "agree": true,
+   "winner": 10
+  },
+  {
+   "day": "otherday15",
+   "race": "R10",
+   "agree": true,
+   "winner": 1
+  }
+ ]
+}

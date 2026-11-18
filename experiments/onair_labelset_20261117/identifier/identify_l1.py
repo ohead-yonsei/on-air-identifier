@@ -34,6 +34,10 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
      winner      from the 31 pictures of the 6 s before the finish (5 a second): the number the strip-trained leader model picks most
                  often, if in 5 pictures or more; otherwise no call. Written as "winner_call" in the output.
      Nothing here reads the strip, the official result or the sound; the official times were used only to train the model.
+     On new days the winner call did not hold (24 calls, 18 right; finish3/RESULT_KO.md): do not rely on it.
+  9. --leader-sure X (added 2026-11-19, finish3/RESULT_KO.md): for the leader statement only, a rider counts when its cap probability is
+     X or more (default 0.7, the bar used everywhere else). 0.4 was confirmed on two unused days with v10: the leader is named right
+     at more time points (44.6 % -> 48.6 %) and wrong at slightly more (5.6 % -> 6.6 %). Statements and order are unchanged.
 
 The statements never depend on the running-order strip. --strip-check (off by default since 2026-11-19) only reads the strip at every
 time point with the local Qwen and writes into the output whether it is on screen and what it shows, for scoring and for marking the
@@ -89,7 +93,8 @@ FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / 
 
 
 class LeadingGroupIdentifier:
-    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False):
+    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False, leader_sure=None):
+        self.leader_sure = SURE if leader_sure is None else leader_sure      # bar for a rider's number, for the leader statement only
         assert fast or not finish_leader, "the finish-stretch leader model uses the features of the fast configuration"
         self.leader_fs = joblib.load(FINISH_LEADER_MODEL) if finish_leader else None
         self.history_leader_fs = {}   # time -> leader picked by the finish-stretch model (late time points only)
@@ -164,7 +169,7 @@ class LeadingGroupIdentifier:
                  (yb[i] - yb.mean()) / 1080, (cx[i] - cx.mean()) / 1920, cx.std() / 1920, yb.std() / 1080, corr, h.mean() / 1080, p, float(q[i] == a[i] + 1)]
             if self.fast:
                 f = f[:-1]
-            out.append({"number": a[i] + 1, "p_cap": round(p, 4), "sure": p >= SURE, "qwen_number": int(q[i]), "box": rs[i]["box"], "features": f})
+            out.append({"number": a[i] + 1, "p_cap": round(p, 4), "sure": p >= SURE, "qwen_number": int(q[i]), "box": rs[i]["box"], "features": f, "_p": p})
         sure = [r for r in out if r["sure"]]
         lead3 = {}             # number -> unrounded leading-three probability, sure riders only (for --fallback)
         if sure:
@@ -176,23 +181,25 @@ class LeadingGroupIdentifier:
                 if pl[i] >= TAU:
                     sure[i]["taken"] = True
         first = {}             # number -> unrounded leader-model score, sure riders only
-        if sure and self.leader is not None:
-            pf = self.leader.predict_proba(np.array([r["features"] for r in sure]))[:, 1]
-            for r, v in zip(sure, pf):
+        cand = sure if self.leader_sure >= SURE else [r for r in out if r["_p"] >= self.leader_sure]     # riders the leader may be picked from
+        if cand and self.leader is not None:
+            pf = self.leader.predict_proba(np.array([r["features"] for r in cand]))[:, 1]
+            for r, v in zip(cand, pf):
                 r["p_first"] = round(float(v), 4)
-                first[r["number"]] = float(v)
+                if r["sure"]:
+                    first[r["number"]] = float(v)
             i = int(np.argmax(pf))
             if pf[i] >= self.tau_leader:
-                sure[i]["leader_pick"] = True
-        if sure and self.leader_fs is not None:
-            pf = self.leader_fs.predict_proba(np.array([r["features"] for r in sure]))[:, 1]
-            for r, v in zip(sure, pf):
+                cand[i]["leader_pick"] = True
+        if cand and self.leader_fs is not None:
+            pf = self.leader_fs.predict_proba(np.array([r["features"] for r in cand]))[:, 1]
+            for r, v in zip(cand, pf):
                 r["p_first_finish"] = round(float(v), 4)
             i = int(np.argmax(pf))
             if pf[i] >= self.tau_leader:
-                sure[i]["leader_pick_finish"] = True
+                cand[i]["leader_pick_finish"] = True
         for r in out:
-            del r["features"]
+            del r["features"], r["_p"]
         return out, detection, first, lead3
 
     def point(self, t, pictures, key=None, late=False):
@@ -433,6 +440,7 @@ def main():
     ap.add_argument("--fast", action="store_true", help="no Qwen for the riders. On by default; only changes something together with --v8")
     ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number. On by default; only changes something together with --v8")
     ap.add_argument("--no-fallback", action="store_true", help="never add a number where nothing is stated")
+    ap.add_argument("--leader-sure", type=float, default=None, help="for the leader statement only: lowest cap probability at which a rider counts (default 0.7; 0.4 confirmed on unused days)")
     ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
     a = ap.parse_args()
@@ -444,14 +452,15 @@ def main():
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
     wait_gpu()
     started = time.perf_counter()
-    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10)
+    assert a.leader_sure is None or a.fast, "--leader-sure was tested with the fast configuration only (not with --v8)"
+    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
     if a.v10:
         name = "F2+finish"
     res.update(configuration=name, version={"F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
-                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE},
+                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(res, indent=1))
