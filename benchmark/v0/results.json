@@ -68,76 +68,76 @@
   }
  },
  "vlm_qwen9b_free": {
-  "items": 300,
-  "items_with_a_number": 297,
-  "numbers": 341,
-  "numbers_right": 107,
-  "numbers_fourth_or_fifth": 52,
-  "numbers_not_in_race": 0,
-  "items_with_wrong_number": 210,
-  "items_with_right_number": 102,
-  "leader_claims": 290,
-  "leader_right": 31,
-  "leader_second": 25,
-  "items_with_leader_claim": 290,
-  "hallucination": 70.0,
-  "A": 31.4,
-  "B": 34.0,
-  "leader": 10.7,
-  "leader_coverage": 96.7,
+  "items": 874,
+  "items_with_a_number": 869,
+  "numbers": 981,
+  "numbers_right": 304,
+  "numbers_fourth_or_fifth": 157,
+  "numbers_not_in_race": 3,
+  "items_with_wrong_number": 614,
+  "items_with_right_number": 291,
+  "leader_claims": 849,
+  "leader_right": 100,
+  "leader_second": 78,
+  "items_with_leader_claim": 849,
+  "hallucination": 70.3,
+  "A": 31.0,
+  "B": 33.3,
+  "leader": 11.8,
+  "leader_coverage": 97.1,
   "interval": {
    "hallucination": [
-    63.9,
-    76.2
+    65.0,
+    75.1
    ],
    "A": [
-    25.8,
-    37.0
+    26.6,
+    35.8
    ],
    "B": [
-    27.9,
-    40.0
+    28.6,
+    38.5
    ],
    "leader": [
-    6.6,
+    8.7,
     15.2
    ]
   }
  },
  "vlm_qwen9b_careful": {
-  "items": 300,
-  "items_with_a_number": 16,
-  "numbers": 28,
-  "numbers_right": 14,
-  "numbers_fourth_or_fifth": 4,
+  "items": 874,
+  "items_with_a_number": 35,
+  "numbers": 56,
+  "numbers_right": 26,
+  "numbers_fourth_or_fifth": 11,
   "numbers_not_in_race": 0,
-  "items_with_wrong_number": 9,
-  "items_with_right_number": 13,
-  "leader_claims": 14,
-  "leader_right": 2,
-  "leader_second": 3,
-  "items_with_leader_claim": 14,
-  "hallucination": 3.0,
-  "A": 50.0,
-  "B": 4.3,
-  "leader": 14.3,
-  "leader_coverage": 4.7,
+  "items_with_wrong_number": 22,
+  "items_with_right_number": 24,
+  "leader_claims": 26,
+  "leader_right": 5,
+  "leader_second": 4,
+  "items_with_leader_claim": 26,
+  "hallucination": 2.5,
+  "A": 46.4,
+  "B": 2.7,
+  "leader": 19.2,
+  "leader_coverage": 3.0,
   "interval": {
    "hallucination": [
-    0.7,
-    5.7
+    1.2,
+    4.1
    ],
    "A": [
-    38.0,
-    76.0
+    34.1,
+    61.7
    ],
    "B": [
-    1.7,
-    7.6
+    1.3,
+    4.5
    ],
    "leader": [
-    0.0,
-    42.9
+    3.8,
+    38.5
    ]
   }
  },

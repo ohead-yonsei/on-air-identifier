@@ -29,7 +29,8 @@ for name, label in ROWS:
     iv = lambda k: "" if s["interval"][k] is None else f" ({s['interval'][k][0]:.0f}~{s['interval'][k][1]:.0f})"
     lead = "—" if not s["leader_claims"] else f"{pc(s['leader'])} ({s['leader_right']} / {s['leader_claims']})"
     lines.append(f"| {label} | {s['items']} | {pc(s['hallucination'])}{iv('hallucination')} | {pc(s['A'])}{iv('A')} ({s['numbers_right']} / {s['numbers']}) | {pc(s['B'])}{iv('B')} | {lead} |")
-table = "\n".join(lines) + "\n\n괄호 안의 범위는 경주 단위로 다시 뽑은 95% 구간이다. 문항 수가 874보다 적은 줄은 아직 다 돌리지 못해 무작위로 뽑힌 일부만 채점한 것이다."
+partial = any(v["items"] < max(x["items"] for x in res.values()) for v in res.values())
+table = "\n".join(lines) + "\n\n괄호 안의 범위는 경주 단위로 다시 뽑은 95% 구간이다." + (" 문항 수가 적은 줄은 아직 다 돌리지 못해 무작위로 뽑힌 일부만 채점한 것이다." if partial else "")
 (HERE / "results.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
 readme = (HERE / "README_KO.md").read_text()
 if "RESULTS_TABLE" in readme:

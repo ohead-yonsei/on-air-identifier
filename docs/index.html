@@ -391,8 +391,8 @@ svg .m { font-family: var(--mono); }
     <tbody>
       <tr><td>번호를 말하지 않기</td><td class="num">874</td><td class="num">0.0%</td><td class="num">—</td><td class="num">0.0%</td><td class="num">—</td></tr>
       <tr><td>무작위로 세 번호</td><td class="num">874</td><td class="num">99.3%</td><td class="num">29.5%</td><td class="num">70.9%</td><td class="num">9.8%</td></tr>
-      <tr><td>화면만 본 모델 (Qwen 9B), "누가 앞서 있는지 중계하라"</td><td class="num">300</td><td class="num">70.0%</td><td class="num">31.4%</td><td class="num">34.0%</td><td class="num">10.7%</td></tr>
-      <tr><td>같은 모델, "확실할 때만 번호를 말하라"</td><td class="num">300</td><td class="num">3.0%</td><td class="num">50.0%</td><td class="num">4.3%</td><td class="num">14.3%</td></tr>
+      <tr><td>화면만 본 모델 (Qwen 9B), "누가 앞서 있는지 중계하라"</td><td class="num">874</td><td class="num">70.3%</td><td class="num">31.0%</td><td class="num">33.3%</td><td class="num">11.8%</td></tr>
+      <tr><td>같은 모델, "확실할 때만 번호를 말하라"</td><td class="num">874</td><td class="num">2.5%</td><td class="num">46.4%</td><td class="num">2.7%</td><td class="num">19.2%</td></tr>
       <tr><td><b>우리 흐름</b> (식별기 + 문장 틀)</td><td class="num">874</td><td class="num">11.8%</td><td class="num">93.2%</td><td class="num">93.0%</td><td class="num">90.1%</td></tr>
     </tbody>
   </table></div>
@@ -401,7 +401,7 @@ svg .m { font-family: var(--mono); }
     <li><b>"확실할 때만"이라고 하면 거의 말을 하지 않습니다.</b> 거의 틀리지 않지만 중계가 되지 않습니다.</li>
     <li><b>식별기를 앞에 두면 둘 다 됩니다.</b> 그래도 틀린 번호가 든 문장이 12% 남고, 대부분 띠의 4~5위 말입니다.</li>
   </ul>
-  <p class="note">초안의 한계: 띠가 있는 구간만 다룹니다(출발 직후, 마지막 30초, 결승 순간은 위의 공식 기록 정답으로 더할 예정). 정답은 모델이 띠를 읽은 것이고 문항별 검수는 하지 않았습니다. 번호만 채점합니다. 우리 흐름의 문장은 정해진 틀에 넣은 것입니다. 화면만 본 모델은 로컬의 작은 모델 하나뿐이고, 문항 수가 874보다 적은 줄은 무작위로 뽑힌 일부만 채점한 것입니다. 자세한 내용은 저장소의 <code>benchmark/v0/README_KO.md</code>에 있습니다.</p>
+  <p class="note">초안의 한계: 띠가 있는 구간만 다룹니다(출발 직후, 마지막 30초, 결승 순간은 위의 공식 기록 정답으로 더할 예정). 정답은 모델이 띠를 읽은 것이고 문항별 검수는 하지 않았습니다. 번호만 채점합니다. 우리 흐름의 문장은 정해진 틀에 넣은 것입니다. 화면만 본 모델은 로컬의 작은 모델 하나뿐입니다. 자세한 내용은 저장소의 <code>benchmark/v0/README_KO.md</code>에 있습니다.</p>
 </section>
 
 <section>
