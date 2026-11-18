@@ -1,0 +1,156 @@
+{
+ "R01": {
+  "file": "R01.mp4",
+  "fps": 60.0,
+  "frames": 6472,
+  "clock_on": [
+   2.283,
+   76.7
+  ],
+  "S": 13.233,
+  "F": 74.45,
+  "running": 61.217,
+  "clock_on_after_F": 2.25,
+  "ticks": 623
+ },
+ "R02": {
+  "file": "R02.mp4",
+  "fps": 60.0,
+  "frames": 7250,
+  "clock_on": [
+   0.033,
+   87.117
+  ],
+  "S": 10.8,
+  "F": 84.317,
+  "running": 73.517,
+  "clock_on_after_F": 2.8,
+  "ticks": 744
+ },
+ "R03": {
+  "file": "R03.mp4",
+  "fps": 60.0,
+  "frames": 7237,
+  "clock_on": [
+   0.033,
+   87.217
+  ],
+  "S": 9.233,
+  "F": 84.617,
+  "running": 75.383,
+  "clock_on_after_F": 2.6,
+  "ticks": 761
+ },
+ "R04": {
+  "file": "R04.mp4",
+  "fps": 60.0,
+  "frames": 7055,
+  "clock_on": [
+   0.033,
+   94.183
+  ],
+  "S": 9.067,
+  "F": 91.667,
+  "running": 82.6,
+  "clock_on_after_F": 2.52,
+  "ticks": 839
+ },
+ "R05": {
+  "file": "R05.mp4",
+  "fps": 60.0,
+  "frames": 9383,
+  "clock_on": [
+   0.033,
+   125.533
+  ],
+  "S": 40.033,
+  "F": 121.383,
+  "running": 81.35,
+  "clock_on_after_F": 4.15,
+  "ticks": 824
+ },
+ "R06": {
+  "file": "R06.mp4",
+  "fps": 60.0,
+  "frames": 8309,
+  "clock_on": [
+   0.033,
+   105.367
+  ],
+  "S": 13.967,
+  "F": 101.967,
+  "running": 88.0,
+  "clock_on_after_F": 3.4,
+  "ticks": 893
+ },
+ "R07": {
+  "file": "R07.mp4",
+  "fps": 60.0,
+  "frames": 9174,
+  "clock_on": [
+   0.033,
+   127.333
+  ],
+  "S": 14.067,
+  "F": 123.967,
+  "running": 109.9,
+  "clock_on_after_F": 3.37,
+  "ticks": 1110
+ },
+ "R08": {
+  "file": "R08.mp4",
+  "fps": 60.0,
+  "frames": 7229,
+  "clock_on": [
+   0.033,
+   83.267
+  ],
+  "S": 11.167,
+  "F": 82.767,
+  "running": 71.6,
+  "clock_on_after_F": 0.5,
+  "ticks": 720
+ },
+ "R09": {
+  "file": "R09.mp4",
+  "fps": 60.0,
+  "frames": 10024,
+  "clock_on": [
+   0.033,
+   137.917
+  ],
+  "S": 18.133,
+  "F": 134.967,
+  "running": 116.833,
+  "clock_on_after_F": 2.95,
+  "ticks": 1180
+ },
+ "R10": {
+  "file": "R10.mp4",
+  "fps": 60.0,
+  "frames": 8572,
+  "clock_on": [
+   0.033,
+   109.75
+  ],
+  "S": 6.717,
+  "F": 106.2,
+  "running": 99.483,
+  "clock_on_after_F": 3.55,
+  "ticks": 1003
+ },
+ "R11": {
+  "file": "R11.mp4",
+  "fps": 60.0,
+  "frames": 7432,
+  "clock_on": [
+   0.033,
+   123.5
+  ],
+  "S": 19.967,
+  "F": 93.8,
+  "running": 73.833,
+  "clock_on_after_F": 29.7,
+  "ticks": 744
+ }
+}

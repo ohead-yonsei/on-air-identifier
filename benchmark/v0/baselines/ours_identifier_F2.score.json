@@ -1,0 +1,41 @@
+{
+ "items": 874,
+ "items_with_a_number": 829,
+ "numbers": 1568,
+ "numbers_right": 1461,
+ "numbers_fourth_or_fifth": 89,
+ "numbers_not_in_race": 5,
+ "items_with_wrong_number": 103,
+ "items_with_right_number": 813,
+ "leader_claims": 553,
+ "leader_right": 498,
+ "leader_second": 47,
+ "items_with_leader_claim": 553,
+ "hallucination": 11.8,
+ "A": 93.2,
+ "B": 93.0,
+ "leader": 90.1,
+ "leader_coverage": 63.3,
+ "interval": {
+  "hallucination": [
+   8.7,
+   15.1
+  ],
+  "A": [
+   91.2,
+   95.0
+  ],
+  "B": [
+   90.5,
+   95.5
+  ],
+  "leader": [
+   85.9,
+   93.5
+  ]
+ },
+ "split": "test",
+ "races": 60,
+ "predictions": "benchmark/v0/baselines/ours_identifier_F2.jsonl",
+ "items_without_a_line": 0
+}

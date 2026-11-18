@@ -25,6 +25,7 @@
 
 | 파일 | 내용 |
 |---|---|
+| [benchmark/v0/README_KO.md](benchmark/v0/README_KO.md) | **벤치마크 초안 v0**: 띠를 가린 화면으로 중계 한 문장을 시키고 띠의 순위로 채점. 문항 1,606개, 채점기, 기준선 |
 | [정리 페이지](https://ohead-yonsei.github.io/on-air-identifier/) (`docs/index.html`) | 왜 했나, 무엇을 만들었나, 결과, 뜻, 한계, 더 해볼 것 |
 | [ON-AIR_GOAL.md](ON-AIR_GOAL.md) | 목표, 판정 기준, 단계별 진행 기록 전체 |
 | [ON-AIR_진행공유.md](ON-AIR_진행공유.md) | 프로젝트 초기 공유 문서(식별기 v4까지) |
@@ -39,6 +40,7 @@
 
 ```
 docs/                                  정리 페이지 (GitHub Pages)
+benchmark/v0/                          벤치마크 초안 (문항, 정답, 채점기, 기준선)
 ON-AIR_GOAL.md                         목표와 진행 기록
 experiments/
   onair_labelset_20261117/             이 저장소의 중심. 라벨, 식별기, 실험 전부

@@ -1,0 +1,3099 @@
+{
+ "strip_box": [
+  480,
+  955,
+  1920,
+  1045
+ ],
+ "races": {
+  "20261114_R01": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "s2JoDMm_NcY",
+    "title": "(Seoul) 2026.11.14 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R02": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "nFtU713c_Mg",
+    "title": "(Seoul) 2026.11.14 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R03": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "CaxsBfmFoSY",
+    "title": "(Seoul) 2026.11.14 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R04": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "HSVVvjQuteo",
+    "title": "(Seoul) 2026.11.14 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R05": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "z7Jn1vHkqt0",
+    "title": "(Seoul) 2026.11.14 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R06": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "xq6O9_diVKU",
+    "title": "(Seoul) 2026.11.14 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R07": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "bV_MgEFHcoI",
+    "title": "(Seoul) 2026.11.14 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R08": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 2000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "7E51FOkROp0",
+    "title": "(Seoul) 2026.11.14 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R09": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "wOjSX1x58Zk",
+    "title": "(Seoul) 2026.11.14 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261114_R10": {
+   "date": "2026-11-14",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "Dw1zgTNM1Jg",
+    "title": "(Seoul) 2026.11.14 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday"
+  },
+  "20261107_R01": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "rV180CCYYts",
+    "title": "(Seoul) 2026.11.07 R1 Class 6 (1000M) Special Weight A",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R02": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "_8AQUiZ0k7c",
+    "title": "(Seoul) 2026.11.07 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R03": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   "video": {
+    "youtube_id": "dP71RHHIHBA",
+    "title": "(Seoul) 2026.11.07 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R04": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "n9Gdr-BcDC4",
+    "title": "(Seoul) 2026.11.07 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R05": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "video": {
+    "youtube_id": "ONcJgaLOUCc",
+    "title": "(Seoul) 2026.11.07 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R06": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "WhN5fnXfqIU",
+    "title": "(Seoul) 2026.11.07 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R07": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "iWZzS9UNxvA",
+    "title": "(Seoul) 2026.11.07 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R08": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "I4rJq3DdLVk",
+    "title": "(Seoul) 2026.11.07 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R09": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "video": {
+    "youtube_id": "pw8ngGqwR30",
+    "title": "(Seoul) 2026.11.07 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261107_R10": {
+   "date": "2026-11-07",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "z1qqI3j7hKo",
+    "title": "(Seoul) 2026.11.07 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday2"
+  },
+  "20261024_R01": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "4nuxFFvPLm0",
+    "title": "(Seoul) 2026.10.24 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R02": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "DZfM7vExjv8",
+    "title": "(Seoul) 2026.10.24 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R03": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "1ztCNm-e_f8",
+    "title": "(Seoul) 2026.10.24 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R04": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "iCcCk_QVeIM",
+    "title": "(Seoul) 2026.10.24 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R05": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "oYY9hKLniT8",
+    "title": "(Seoul) 2026.10.24 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R06": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "3IwQU2RRdEM",
+    "title": "(Seoul) 2026.10.24 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R07": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "vqmkUGMorL4",
+    "title": "(Seoul) 2026.10.24 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R08": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "Q4Iw2m_AEl8",
+    "title": "(Seoul) 2026.10.24 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R09": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "c0AwkHNDF7I",
+    "title": "(Seoul) 2026.10.24 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261024_R10": {
+   "date": "2026-10-24",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "1rYiK01X7Jc",
+    "title": "(Seoul) 2026.10.24 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday3"
+  },
+  "20261017_R01": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "DAs39WotM6k",
+    "title": "(Seoul) 2026.10.17 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R02": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "TwIHF_u2_sE",
+    "title": "(Seoul) 2026.10.17 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R03": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "h3N7JDizJ7Q",
+    "title": "(Seoul) 2026.10.17 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R04": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "mnDtw4sOCjg",
+    "title": "(Seoul) 2026.10.17 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R05": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "90pj9a4PD3w",
+    "title": "(Seoul) 2026.10.17 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R06": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "K44TxKLSrJE",
+    "title": "(Seoul) 2026.10.17 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R07": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "fi4WsJ37udY",
+    "title": "(Seoul) 2026.10.17 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R08": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "pJdUxKzlv7U",
+    "title": "(Seoul) 2026.10.17 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R09": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "WN_W6REhINg",
+    "title": "(Seoul) 2026.10.17 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261017_R10": {
+   "date": "2026-10-17",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "ztlFKrQzNLA",
+    "title": "(Seoul) 2026.10.17 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday4"
+  },
+  "20261010_R02": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "_Odhnar0HpM",
+    "title": "(Seoul) 2026.10.10 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R03": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "Cpop4U8bEdQ",
+    "title": "(Seoul) 2026.10.10 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R04": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "PE2PSwi-x30",
+    "title": "(Seoul) 2026.10.10 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R05": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "sdeK6-wOsms",
+    "title": "(Seoul) 2026.10.10 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R06": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "vdNQVjL8Qms",
+    "title": "(Seoul) 2026.10.10 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R07": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1600,
+   "runners": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "v31yY4c38zM",
+    "title": "(Seoul) 2026.10.10 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R08": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "t70qLFCR4fI",
+    "title": "(Seoul) 2026.10.10 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R09": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "_sM4lg5OWE0",
+    "title": "(Seoul) 2026.10.10 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261010_R10": {
+   "date": "2026-10-10",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "l933kKjv5tM",
+    "title": "(Seoul) 2026.10.10 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "dev",
+   "source_folder": "otherday5"
+  },
+  "20261005_R01": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "XI4Yc-V56s4",
+    "title": "(Seoul) 2026.10.05 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R02": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "HukMXDxnJLs",
+    "title": "(Seoul) 2026.10.05 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R03": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "2gARviXfM7A",
+    "title": "(Seoul) 2026.10.05 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R04": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "SXdDFPCofDQ",
+    "title": "(Seoul) 2026.10.05 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R05": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "9QOBonW4Hg8",
+    "title": "(Seoul) 2026.10.05 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R06": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "xX7V0LNr1Sw",
+    "title": "(Seoul) 2026.10.05 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R07": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "pGhgSXatyNk",
+    "title": "(Seoul) 2026.10.05 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R08": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "KMWsJE52C_g",
+    "title": "(Seoul) 2026.10.05 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R09": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "MaTud4ETTiY",
+    "title": "(Seoul) 2026.10.05 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261005_R10": {
+   "date": "2026-10-05",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "tGJFBLJzfZk",
+    "title": "(Seoul) 2026.10.05 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday6"
+  },
+  "20261003_R01": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "f7Veww3JQIg",
+    "title": "(Seoul) 2026.10.03 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R02": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "6O1JsCbxKjY",
+    "title": "(Seoul) 2026.10.03 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R03": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "6eSy9Uu3ExA",
+    "title": "(Seoul) 2026.10.03 R3 Class 6 (1400M) Special Weight A / Jockey Kim Tae-hui 100th career winner",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R04": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "HyNPxJmqdO0",
+    "title": "(Seoul) 2026.10.03 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R05": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "3tyrW_BcrA4",
+    "title": "(Seoul) 2026.10.03 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R06": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "x8TWJGo6KF4",
+    "title": "(Seoul) 2026.10.03 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R07": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "QUzby9az7r0",
+    "title": "(Seoul) 2026.10.03 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R08": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "WTxUbtL6OFk",
+    "title": "(Seoul) 2026.10.03 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R09": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "9J-SKpuKg6E",
+    "title": "(Seoul) 2026.10.03 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20261003_R10": {
+   "date": "2026-10-03",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "FCVim_5qDiQ",
+    "title": "(Seoul) 2026.10.03 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday7"
+  },
+  "20260919_R01": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "wuArEV0JA74",
+    "title": "(Seoul) 2026.09.19 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R02": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "PoNeT80cx48",
+    "title": "(Seoul) 2026.09.19 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R03": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "-SVSuNSz2bA",
+    "title": "(Seoul) 2026.09.19 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R04": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "-9pjepdJ1lk",
+    "title": "(Seoul) 2026.09.19 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R05": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "ZbkJco2ONf4",
+    "title": "(Seoul) 2026.09.19 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R06": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "MXQoz9CTwpo",
+    "title": "(Seoul) 2026.09.19 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R07": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "TAkZovpYwnA",
+    "title": "(Seoul) 2026.09.19 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R08": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "qMpCD6mTTLI",
+    "title": "(Seoul) 2026.09.19 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R09": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "1RZQoq4bz6Q",
+    "title": "(Seoul) 2026.09.19 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260919_R10": {
+   "date": "2026-09-19",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "N2siHZKcKFo",
+    "title": "(Seoul) 2026.09.19 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday8"
+  },
+  "20260912_R01": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1000,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "FpxPPc8sAVw",
+    "title": "(Seoul) 2026.09.12 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R02": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "oQg9ovKlOOw",
+    "title": "(Seoul) 2026.09.12 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R03": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "I-oVf--aBR8",
+    "title": "(Seoul) 2026.09.12 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R04": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1300,
+   "runners": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "5ANlJxDzl_4",
+    "title": "(Seoul) 2026.09.12 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R05": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "CFGWcjTBKV4",
+    "title": "(Seoul) 2026.09.12 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R06": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "vyxmT5CPllA",
+    "title": "(Seoul) 2026.09.12 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R07": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "dKw_lKNCE2E",
+    "title": "(Seoul) 2026.09.12 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R08": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1600,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "Ai1_N6WpIcs",
+    "title": "(Seoul) 2026.09.12 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R09": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1200,
+   "runners": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "XjuA4_Vvscw",
+    "title": "(Seoul) 2026.09.12 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260912_R10": {
+   "date": "2026-09-12",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "7YOwuSAPKO8",
+    "title": "(Seoul) 2026.09.12 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday9"
+  },
+  "20260905_R01": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "video": {
+    "youtube_id": "VKoabSBUbMM",
+    "title": "(Seoul) 2026.09.05 R1 Class Open (1200M) Special Weight B / France Galop Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R02": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "video": {
+    "youtube_id": "CprobjQc4xk",
+    "title": "(Seoul) 2026.09.05 R2 Class Open (1200M) Special Weight B / SPPL (Singapore) Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60000/1001"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R03": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "N_-LkTNXf5U",
+    "title": "(Seoul) 2026.09.05 R3 Class Open (1700M) Special Weight B / Race Coast KZN Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R04": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "pN7AH10kU0M",
+    "title": "(Seoul) 2026.09.05 R4 Class Open (1400M) Special Weight B / Selangor Turf Club Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R05": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "video": {
+    "youtube_id": "OvQmqHgzVAA",
+    "title": "(Seoul) 2026.09.05 R5 Class Open (1800M) Special Weight A / JRA Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R06": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "a9r2vhERfLw",
+    "title": "(Seoul) 2026.09.05 R6 Class 3 (1800M) Handicap / Sky Racing Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R07": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "EV1UX6oOlZw",
+    "title": "(Seoul) 2026.09.05 R7 Class Open (1200M) Special Weight B / OSAF Trophy",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R08": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "zngcHmqmD1I",
+    "title": "(Seoul) 2026.09.05 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R09": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "8w2XlAH9inE",
+    "title": "(Seoul) 2026.09.05 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260905_R10": {
+   "date": "2026-09-05",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "algmlIcTkE4",
+    "title": "(Seoul) 2026.09.05 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday10"
+  },
+  "20260830_R01": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 1,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "VQ0HsW_T_eM",
+    "title": "(Seoul) 2026.08.30 R1",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R02": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 2,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "ktOknyR0Xjo",
+    "title": "(Seoul) 2026.08.30 R2",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R03": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 3,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "WkTg9cKwBxY",
+    "title": "(Seoul) 2026.08.30 R3",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R04": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 4,
+   "distance_m": 1300,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "ervf6HG9B8Y",
+    "title": "(Seoul) 2026.08.30 R4",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R05": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 5,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+   ],
+   "video": {
+    "youtube_id": "geBhCfUSvBI",
+    "title": "(Seoul) 2026.08.30 R5",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R06": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 6,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "video": {
+    "youtube_id": "Q-aFE0ulJfg",
+    "title": "(Seoul) 2026.08.30 R6",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R07": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 7,
+   "distance_m": 1700,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "MDJR3uqAUk0",
+    "title": "(Seoul) 2026.08.30 R7",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R08": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 8,
+   "distance_m": 1800,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "TYyv4Lo3vVA",
+    "title": "(Seoul) 2026.08.30 R8",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R09": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 9,
+   "distance_m": 1400,
+   "runners": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "video": {
+    "youtube_id": "Q4PHBxIqG7Y",
+    "title": "(Seoul) 2026.08.30 R9",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  },
+  "20260830_R10": {
+   "date": "2026-08-30",
+   "place": "Seoul",
+   "race": 10,
+   "distance_m": 1200,
+   "runners": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10
+   ],
+   "video": {
+    "youtube_id": "sI_UT4L3zrI",
+    "title": "(Seoul) 2026.08.30 R10",
+    "channel": "KRBC International",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1"
+   },
+   "split": "test",
+   "source_folder": "otherday11"
+  }
+ }
+}

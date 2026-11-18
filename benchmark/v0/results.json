@@ -1,0 +1,181 @@
+{
+ "confirmed_only": {
+  "items": 874,
+  "items_with_a_number": 0,
+  "numbers": 0,
+  "numbers_right": 0,
+  "numbers_fourth_or_fifth": 0,
+  "numbers_not_in_race": 0,
+  "items_with_wrong_number": 0,
+  "items_with_right_number": 0,
+  "leader_claims": 0,
+  "leader_right": 0,
+  "leader_second": 0,
+  "items_with_leader_claim": 0,
+  "hallucination": 0.0,
+  "A": null,
+  "B": 0.0,
+  "leader": null,
+  "leader_coverage": 0.0,
+  "interval": {
+   "hallucination": [
+    0.0,
+    0.0
+   ],
+   "A": null,
+   "B": [
+    0.0,
+    0.0
+   ],
+   "leader": null
+  }
+ },
+ "random_three": {
+  "items": 874,
+  "items_with_a_number": 874,
+  "numbers": 2622,
+  "numbers_right": 773,
+  "numbers_fourth_or_fifth": 495,
+  "numbers_not_in_race": 0,
+  "items_with_wrong_number": 868,
+  "items_with_right_number": 620,
+  "leader_claims": 874,
+  "leader_right": 86,
+  "leader_second": 85,
+  "items_with_leader_claim": 874,
+  "hallucination": 99.3,
+  "A": 29.5,
+  "B": 70.9,
+  "leader": 9.8,
+  "leader_coverage": 100.0,
+  "interval": {
+   "hallucination": [
+    98.7,
+    99.9
+   ],
+   "A": [
+    28.2,
+    30.8
+   ],
+   "B": [
+    68.3,
+    73.6
+   ],
+   "leader": [
+    8.1,
+    11.6
+   ]
+  }
+ },
+ "vlm_qwen9b_free": {
+  "items": 300,
+  "items_with_a_number": 297,
+  "numbers": 341,
+  "numbers_right": 107,
+  "numbers_fourth_or_fifth": 52,
+  "numbers_not_in_race": 0,
+  "items_with_wrong_number": 210,
+  "items_with_right_number": 102,
+  "leader_claims": 290,
+  "leader_right": 31,
+  "leader_second": 25,
+  "items_with_leader_claim": 290,
+  "hallucination": 70.0,
+  "A": 31.4,
+  "B": 34.0,
+  "leader": 10.7,
+  "leader_coverage": 96.7,
+  "interval": {
+   "hallucination": [
+    63.9,
+    76.2
+   ],
+   "A": [
+    25.8,
+    37.0
+   ],
+   "B": [
+    27.9,
+    40.0
+   ],
+   "leader": [
+    6.6,
+    15.2
+   ]
+  }
+ },
+ "vlm_qwen9b_careful": {
+  "items": 300,
+  "items_with_a_number": 16,
+  "numbers": 28,
+  "numbers_right": 14,
+  "numbers_fourth_or_fifth": 4,
+  "numbers_not_in_race": 0,
+  "items_with_wrong_number": 9,
+  "items_with_right_number": 13,
+  "leader_claims": 14,
+  "leader_right": 2,
+  "leader_second": 3,
+  "items_with_leader_claim": 14,
+  "hallucination": 3.0,
+  "A": 50.0,
+  "B": 4.3,
+  "leader": 14.3,
+  "leader_coverage": 4.7,
+  "interval": {
+   "hallucination": [
+    0.7,
+    5.7
+   ],
+   "A": [
+    38.0,
+    76.0
+   ],
+   "B": [
+    1.7,
+    7.6
+   ],
+   "leader": [
+    0.0,
+    42.9
+   ]
+  }
+ },
+ "ours_identifier_F2": {
+  "items": 874,
+  "items_with_a_number": 829,
+  "numbers": 1568,
+  "numbers_right": 1461,
+  "numbers_fourth_or_fifth": 89,
+  "numbers_not_in_race": 5,
+  "items_with_wrong_number": 103,
+  "items_with_right_number": 813,
+  "leader_claims": 553,
+  "leader_right": 498,
+  "leader_second": 47,
+  "items_with_leader_claim": 553,
+  "hallucination": 11.8,
+  "A": 93.2,
+  "B": 93.0,
+  "leader": 90.1,
+  "leader_coverage": 63.3,
+  "interval": {
+   "hallucination": [
+    8.7,
+    15.1
+   ],
+   "A": [
+    91.2,
+    95.0
+   ],
+   "B": [
+    90.5,
+    95.5
+   ],
+   "leader": [
+    85.9,
+    93.5
+   ]
+  }
+ }
+}

@@ -1,0 +1,2952 @@
+{
+ "day": "otherday5",
+ "date": "2026-10-10",
+ "place": "Seoul",
+ "source": "Korea Racing Authority public result sheets (race.kra.co.kr), numbers only",
+ "races": {
+  "R01": {
+   "distance": 1000,
+   "horses": [
+    {
+     "number": 1,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 2,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 3,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 4,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 5,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 6,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 7,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 8,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 9,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 10,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    },
+    {
+     "number": 11,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    }
+   ],
+   "leader_time_at": {}
+  },
+  "R02": {
+   "distance": 1200,
+   "horses": [
+    {
+     "number": 6,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": null,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 13.7,
+      "C1": null,
+      "C2": null,
+      "C3": 24.4,
+      "G3F": 35.6,
+      "C4": 41.6,
+      "G1F": 59.8,
+      "finish": 73.1
+     },
+     "last_3f": 37.5,
+     "last_1f": 13.3
+    },
+    {
+     "number": 1,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": null,
+      "C3": 4,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 24.8,
+      "G3F": 36.1,
+      "C4": 42.1,
+      "G1F": 60.5,
+      "finish": 73.8
+     },
+     "last_3f": 37.7,
+     "last_1f": 13.3
+    },
+    {
+     "number": 3,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": null,
+      "C3": 7,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": null,
+      "C2": null,
+      "C3": 25.6,
+      "G3F": 37.3,
+      "C4": 43.3,
+      "G1F": 61.2,
+      "finish": 73.8
+     },
+     "last_3f": 36.5,
+     "last_1f": 12.6
+    },
+    {
+     "number": 9,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": null,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": null,
+      "C3": 24.5,
+      "G3F": 35.9,
+      "C4": 41.9,
+      "G1F": 60.5,
+      "finish": 74.5
+     },
+     "last_3f": 38.6,
+     "last_1f": 14.0
+    },
+    {
+     "number": 7,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": null,
+      "C3": 3,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": null,
+      "C3": 24.7,
+      "G3F": 36.3,
+      "C4": 42.3,
+      "G1F": 60.9,
+      "finish": 74.7
+     },
+     "last_3f": 38.4,
+     "last_1f": 13.8
+    },
+    {
+     "number": 5,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": null,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 5,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": null,
+      "C3": 25.1,
+      "G3F": 37.1,
+      "C4": 43.0,
+      "G1F": 61.5,
+      "finish": 74.8
+     },
+     "last_3f": 37.7,
+     "last_1f": 13.3
+    },
+    {
+     "number": 8,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": null,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 6,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": null,
+      "C3": 24.9,
+      "G3F": 36.9,
+      "C4": 43.0,
+      "G1F": 61.8,
+      "finish": 74.9
+     },
+     "last_3f": 38.0,
+     "last_1f": 13.1
+    },
+    {
+     "number": 4,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": null,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 8,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": null,
+      "C3": 25.7,
+      "G3F": 37.7,
+      "C4": 43.9,
+      "G1F": 62.6,
+      "finish": 75.7
+     },
+     "last_3f": 38.0,
+     "last_1f": 13.1
+    },
+    {
+     "number": 2,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": null,
+      "C2": null,
+      "C3": 11,
+      "G3F": 11,
+      "C4": 10,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 15.4,
+      "C1": null,
+      "C2": null,
+      "C3": 27.1,
+      "G3F": 39.0,
+      "C4": 45.0,
+      "G1F": 63.2,
+      "finish": 75.8
+     },
+     "last_3f": 36.8,
+     "last_1f": 12.6
+    },
+    {
+     "number": 10,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": null,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 9,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 14.5,
+      "C1": null,
+      "C2": null,
+      "C3": 26.0,
+      "G3F": 37.9,
+      "C4": 44.2,
+      "G1F": 63.9,
+      "finish": 77.7
+     },
+     "last_3f": 39.8,
+     "last_1f": 13.8
+    },
+    {
+     "number": 11,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": null,
+      "C2": null,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 11,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 15.2,
+      "C1": null,
+      "C2": null,
+      "C3": 26.9,
+      "G3F": 38.9,
+      "C4": 45.0,
+      "G1F": 63.9,
+      "finish": 78.0
+     },
+     "last_3f": 39.1,
+     "last_1f": 14.1
+    }
+   ],
+   "leader_time_at": {
+    "200": 13.7,
+    "400": 24.4,
+    "600": 35.6,
+    "800": 47.6,
+    "1000": 59.8,
+    "1200": 73.1
+   }
+  },
+  "R03": {
+   "distance": 1300,
+   "horses": [
+    {
+     "number": 9,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": null,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 13.6,
+      "C1": null,
+      "C2": null,
+      "C3": 31.1,
+      "G3F": 43.4,
+      "C4": 49.8,
+      "G1F": 68.0,
+      "finish": 80.9
+     },
+     "last_3f": 37.5,
+     "last_1f": 12.9
+    },
+    {
+     "number": 4,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": null,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 4,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 13.7,
+      "C1": null,
+      "C2": null,
+      "C3": 31.3,
+      "G3F": 43.6,
+      "C4": 50.0,
+      "G1F": 68.9,
+      "finish": 82.9
+     },
+     "last_3f": 39.3,
+     "last_1f": 14.0
+    },
+    {
+     "number": 6,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": null,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 2,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 13.7,
+      "C1": null,
+      "C2": null,
+      "C3": 31.3,
+      "G3F": 43.6,
+      "C4": 49.9,
+      "G1F": 68.9,
+      "finish": 83.0
+     },
+     "last_3f": 39.4,
+     "last_1f": 14.1
+    },
+    {
+     "number": 10,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": null,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 3,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 31.5,
+      "G3F": 43.7,
+      "C4": 49.9,
+      "G1F": 69.0,
+      "finish": 83.5
+     },
+     "last_3f": 39.8,
+     "last_1f": 14.5
+    },
+    {
+     "number": 7,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": null,
+      "C2": null,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 7,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": null,
+      "C2": null,
+      "C3": 32.2,
+      "G3F": 44.8,
+      "C4": 51.0,
+      "G1F": 69.6,
+      "finish": 83.6
+     },
+     "last_3f": 38.8,
+     "last_1f": 14.0
+    },
+    {
+     "number": 3,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": null,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": null,
+      "C2": null,
+      "C3": 32.0,
+      "G3F": 44.4,
+      "C4": 50.9,
+      "G1F": 69.9,
+      "finish": 83.6
+     },
+     "last_3f": 39.2,
+     "last_1f": 13.7
+    },
+    {
+     "number": 5,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": null,
+      "C3": 8,
+      "G3F": 7,
+      "C4": 8,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": null,
+      "C3": 32.2,
+      "G3F": 44.7,
+      "C4": 51.1,
+      "G1F": 70.9,
+      "finish": 84.9
+     },
+     "last_3f": 40.2,
+     "last_1f": 14.0
+    },
+    {
+     "number": 11,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": null,
+      "C3": 7,
+      "G3F": 8,
+      "C4": 9,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": null,
+      "C2": null,
+      "C3": 32.0,
+      "G3F": 44.7,
+      "C4": 51.4,
+      "G1F": 71.5,
+      "finish": 85.4
+     },
+     "last_3f": 40.7,
+     "last_1f": 13.9
+    },
+    {
+     "number": 2,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": null,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": null,
+      "C2": null,
+      "C3": 31.8,
+      "G3F": 44.2,
+      "C4": 50.8,
+      "G1F": 71.4,
+      "finish": 86.5
+     },
+     "last_3f": 42.3,
+     "last_1f": 15.1
+    },
+    {
+     "number": 1,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": null,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": null,
+      "C2": null,
+      "C3": 32.6,
+      "G3F": 45.0,
+      "C4": 51.7,
+      "G1F": 72.3,
+      "finish": 87.4
+     },
+     "last_3f": 42.4,
+     "last_1f": 15.1
+    },
+    {
+     "number": 8,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": null,
+      "C2": null,
+      "C3": 11,
+      "G3F": 11,
+      "C4": 11,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": null,
+      "C2": null,
+      "C3": 32.9,
+      "G3F": 45.4,
+      "C4": 52.2,
+      "G1F": 72.9,
+      "finish": 87.6
+     },
+     "last_3f": 42.2,
+     "last_1f": 14.7
+    }
+   ],
+   "leader_time_at": {
+    "100": 8.1,
+    "300": 19.3,
+    "500": 31.1,
+    "700": 43.4,
+    "900": 56.0,
+    "1100": 68.0,
+    "1300": 80.9
+   }
+  },
+  "R04": {
+   "distance": 1400,
+   "horses": [
+    {
+     "number": 11,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": null,
+      "C3": 6,
+      "G3F": 5,
+      "C4": 6,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": null,
+      "C3": 37.3,
+      "G3F": 49.6,
+      "C4": 55.9,
+      "G1F": 75.1,
+      "finish": 89.0
+     },
+     "last_3f": 39.4,
+     "last_1f": 13.9
+    },
+    {
+     "number": 8,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": null,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": null,
+      "C3": 36.9,
+      "G3F": 49.2,
+      "C4": 55.6,
+      "G1F": 75.0,
+      "finish": 89.2
+     },
+     "last_3f": 40.0,
+     "last_1f": 14.2
+    },
+    {
+     "number": 5,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": null,
+      "C3": 5,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": null,
+      "C2": null,
+      "C3": 37.3,
+      "G3F": 49.9,
+      "C4": 56.2,
+      "G1F": 75.6,
+      "finish": 89.3
+     },
+     "last_3f": 39.4,
+     "last_1f": 13.7
+    },
+    {
+     "number": 1,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": null,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 2,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": null,
+      "C3": 37.2,
+      "G3F": 49.4,
+      "C4": 55.7,
+      "G1F": 75.0,
+      "finish": 89.4
+     },
+     "last_3f": 40.0,
+     "last_1f": 14.4
+    },
+    {
+     "number": 7,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": null,
+      "C2": null,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 8,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 15.5,
+      "C1": null,
+      "C2": null,
+      "C3": 38.4,
+      "G3F": 50.4,
+      "C4": 56.5,
+      "G1F": 75.5,
+      "finish": 89.5
+     },
+     "last_3f": 39.1,
+     "last_1f": 14.0
+    },
+    {
+     "number": 2,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": null,
+      "C3": 7,
+      "G3F": 6,
+      "C4": 5,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": null,
+      "C2": null,
+      "C3": 37.5,
+      "G3F": 49.7,
+      "C4": 55.9,
+      "G1F": 75.3,
+      "finish": 89.7
+     },
+     "last_3f": 40.0,
+     "last_1f": 14.4
+    },
+    {
+     "number": 3,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": null,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 9,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 15.1,
+      "C1": null,
+      "C2": null,
+      "C3": 37.8,
+      "G3F": 50.2,
+      "C4": 56.5,
+      "G1F": 76.3,
+      "finish": 90.5
+     },
+     "last_3f": 40.3,
+     "last_1f": 14.2
+    },
+    {
+     "number": 9,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": null,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 3,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 37.0,
+      "G3F": 49.3,
+      "C4": 55.7,
+      "G1F": 75.9,
+      "finish": 90.8
+     },
+     "last_3f": 41.5,
+     "last_1f": 14.9
+    },
+    {
+     "number": 10,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": null,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 4,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 37.0,
+      "G3F": 49.3,
+      "C4": 55.7,
+      "G1F": 76.3,
+      "finish": 92.6
+     },
+     "last_3f": 43.3,
+     "last_1f": 16.3
+    },
+    {
+     "number": 6,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": null,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 15.3,
+      "C1": null,
+      "C2": null,
+      "C3": 41.1,
+      "G3F": 54.3,
+      "C4": 61.0,
+      "G1F": 81.6,
+      "finish": 97.6
+     },
+     "last_3f": 43.3,
+     "last_1f": 16.0
+    },
+    {
+     "number": 4,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": null,
+      "C2": null,
+      "C3": 11,
+      "G3F": 11,
+      "C4": 11,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 16.5,
+      "C1": null,
+      "C2": null,
+      "C3": 53.0,
+      "G3F": 72.5,
+      "C4": 83.6,
+      "G1F": 112.0,
+      "finish": 127.0
+     },
+     "last_3f": 54.5,
+     "last_1f": 15.0
+    }
+   ],
+   "leader_time_at": {
+    "200": 13.8,
+    "400": 25.2,
+    "600": 36.9,
+    "800": 49.2,
+    "1000": 62.0,
+    "1200": 75.0,
+    "1400": 89.0
+   }
+  },
+  "R05": {
+   "distance": 1800,
+   "horses": [
+    {
+     "number": 3,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": 7,
+      "C2": 7,
+      "C3": 7,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 15.1,
+      "C1": 21.2,
+      "C2": 34.5,
+      "C3": 72.8,
+      "G3F": 80.6,
+      "C4": 88.1,
+      "G1F": 106.2,
+      "finish": 118.5
+     },
+     "last_3f": 37.9,
+     "last_1f": 12.3
+    },
+    {
+     "number": 1,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": 3,
+      "C2": 3,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": 20.5,
+      "C2": 33.7,
+      "C3": 72.3,
+      "G3F": 80.1,
+      "C4": 87.4,
+      "G1F": 106.3,
+      "finish": 119.1
+     },
+     "last_3f": 39.0,
+     "last_1f": 12.8
+    },
+    {
+     "number": 9,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": 1,
+      "C2": 1,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": 20.3,
+      "C2": 33.4,
+      "C3": 72.1,
+      "G3F": 79.9,
+      "C4": 87.2,
+      "G1F": 106.3,
+      "finish": 119.4
+     },
+     "last_3f": 39.5,
+     "last_1f": 13.1
+    },
+    {
+     "number": 5,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": 4,
+      "C2": 4,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 14.7,
+      "C1": 20.6,
+      "C2": 33.9,
+      "C3": 72.3,
+      "G3F": 80.1,
+      "C4": 87.5,
+      "G1F": 106.4,
+      "finish": 120.2
+     },
+     "last_3f": 40.1,
+     "last_1f": 13.8
+    },
+    {
+     "number": 10,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": 20.4,
+      "C2": 33.5,
+      "C3": 72.2,
+      "G3F": 80.0,
+      "C4": 87.3,
+      "G1F": 106.4,
+      "finish": 120.3
+     },
+     "last_3f": 40.3,
+     "last_1f": 13.9
+    },
+    {
+     "number": 11,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": 8,
+      "C2": 8,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 8,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 15.1,
+      "C1": 21.4,
+      "C2": 34.8,
+      "C3": 73.3,
+      "G3F": 81.0,
+      "C4": 88.4,
+      "G1F": 107.3,
+      "finish": 120.7
+     },
+     "last_3f": 39.7,
+     "last_1f": 13.4
+    },
+    {
+     "number": 8,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": 11,
+      "C2": 11,
+      "C3": 11,
+      "G3F": 11,
+      "C4": 11,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 16.1,
+      "C1": 22.4,
+      "C2": 35.9,
+      "C3": 74.3,
+      "G3F": 82.0,
+      "C4": 89.1,
+      "G1F": 107.7,
+      "finish": 120.7
+     },
+     "last_3f": 38.7,
+     "last_1f": 13.0
+    },
+    {
+     "number": 4,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": 5,
+      "C2": 6,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.9,
+      "C1": 20.9,
+      "C2": 34.1,
+      "C3": 72.6,
+      "G3F": 80.4,
+      "C4": 87.8,
+      "G1F": 107.1,
+      "finish": 120.9
+     },
+     "last_3f": 40.5,
+     "last_1f": 13.8
+    },
+    {
+     "number": 2,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": 6,
+      "C2": 5,
+      "C3": 6,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 15.0,
+      "C1": 21.0,
+      "C2": 34.1,
+      "C3": 72.8,
+      "G3F": 80.7,
+      "C4": 88.2,
+      "G1F": 107.3,
+      "finish": 121.2
+     },
+     "last_3f": 40.5,
+     "last_1f": 13.9
+    },
+    {
+     "number": 7,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": 10,
+      "C2": 10,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 15.6,
+      "C1": 21.9,
+      "C2": 35.1,
+      "C3": 73.3,
+      "G3F": 81.1,
+      "C4": 88.6,
+      "G1F": 107.7,
+      "finish": 121.4
+     },
+     "last_3f": 40.3,
+     "last_1f": 13.7
+    },
+    {
+     "number": 6,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": 9,
+      "C2": 9,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 9,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 15.5,
+      "C1": 21.8,
+      "C2": 35.1,
+      "C3": 73.3,
+      "G3F": 81.0,
+      "C4": 88.5,
+      "G1F": 107.8,
+      "finish": 121.7
+     },
+     "last_3f": 40.7,
+     "last_1f": 13.9
+    }
+   ],
+   "leader_time_at": {
+    "200": 14.3,
+    "400": 26.6,
+    "600": 40.4,
+    "800": 53.8,
+    "1000": 67.0,
+    "1200": 79.9,
+    "1400": 93.4,
+    "1600": 106.2,
+    "1800": 118.5
+   }
+  },
+  "R06": {
+   "distance": 1200,
+   "horses": [
+    {
+     "number": 1,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": null,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 25.0,
+      "G3F": 36.5,
+      "C4": 42.5,
+      "G1F": 61.3,
+      "finish": 74.8
+     },
+     "last_3f": 38.3,
+     "last_1f": 13.5
+    },
+    {
+     "number": 3,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": null,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 4,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": null,
+      "C3": 25.2,
+      "G3F": 37.0,
+      "C4": 43.0,
+      "G1F": 61.7,
+      "finish": 75.1
+     },
+     "last_3f": 38.1,
+     "last_1f": 13.4
+    },
+    {
+     "number": 2,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": null,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 3,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": null,
+      "C3": 25.3,
+      "G3F": 37.1,
+      "C4": 43.0,
+      "G1F": 61.8,
+      "finish": 75.5
+     },
+     "last_3f": 38.4,
+     "last_1f": 13.7
+    },
+    {
+     "number": 11,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": null,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 24.8,
+      "G3F": 36.2,
+      "C4": 42.3,
+      "G1F": 61.5,
+      "finish": 75.8
+     },
+     "last_3f": 39.6,
+     "last_1f": 14.3
+    },
+    {
+     "number": 6,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": null,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": null,
+      "C2": null,
+      "C3": 25.4,
+      "G3F": 37.3,
+      "C4": 43.4,
+      "G1F": 62.3,
+      "finish": 75.8
+     },
+     "last_3f": 38.5,
+     "last_1f": 13.5
+    },
+    {
+     "number": 8,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": null,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 8,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": null,
+      "C2": null,
+      "C3": 26.2,
+      "G3F": 38.2,
+      "C4": 44.3,
+      "G1F": 62.8,
+      "finish": 75.9
+     },
+     "last_3f": 37.7,
+     "last_1f": 13.1
+    },
+    {
+     "number": 10,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": null,
+      "C3": 7,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": null,
+      "C2": null,
+      "C3": 26.0,
+      "G3F": 37.7,
+      "C4": 43.9,
+      "G1F": 63.1,
+      "finish": 76.5
+     },
+     "last_3f": 38.8,
+     "last_1f": 13.4
+    },
+    {
+     "number": 7,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": null,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 15.3,
+      "C1": null,
+      "C2": null,
+      "C3": 26.9,
+      "G3F": 39.0,
+      "C4": 45.5,
+      "G1F": 63.8,
+      "finish": 76.5
+     },
+     "last_3f": 37.5,
+     "last_1f": 12.7
+    },
+    {
+     "number": 4,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": null,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": null,
+      "C3": 25.4,
+      "G3F": 37.3,
+      "C4": 43.4,
+      "G1F": 62.6,
+      "finish": 77.1
+     },
+     "last_3f": 39.8,
+     "last_1f": 14.5
+    },
+    {
+     "number": 9,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": null,
+      "C2": null,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 9,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 15.4,
+      "C1": null,
+      "C2": null,
+      "C3": 26.5,
+      "G3F": 38.6,
+      "C4": 44.8,
+      "G1F": 63.3,
+      "finish": 77.2
+     },
+     "last_3f": 38.6,
+     "last_1f": 13.9
+    },
+    {
+     "number": 5,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    }
+   ],
+   "leader_time_at": {
+    "200": 13.9,
+    "400": 24.8,
+    "600": 36.2,
+    "800": 48.5,
+    "1000": 61.3,
+    "1200": 74.8
+   }
+  },
+  "R07": {
+   "distance": 1600,
+   "horses": [
+    {
+     "number": 5,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": 2,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": 13.8,
+      "C3": 49.9,
+      "G3F": 62.1,
+      "C4": 68.4,
+      "G1F": 86.9,
+      "finish": 100.6
+     },
+     "last_3f": 38.5,
+     "last_1f": 13.7
+    },
+    {
+     "number": 9,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": 8,
+      "C3": 8,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 14.5,
+      "C1": null,
+      "C2": 14.5,
+      "C3": 50.7,
+      "G3F": 62.7,
+      "C4": 68.9,
+      "G1F": 87.7,
+      "finish": 100.9
+     },
+     "last_3f": 38.2,
+     "last_1f": 13.2
+    },
+    {
+     "number": 6,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": 3,
+      "C3": 5,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": 13.9,
+      "C3": 50.2,
+      "G3F": 62.3,
+      "C4": 68.5,
+      "G1F": 87.4,
+      "finish": 101.0
+     },
+     "last_3f": 38.7,
+     "last_1f": 13.6
+    },
+    {
+     "number": 2,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": 1,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 13.7,
+      "C1": null,
+      "C2": 13.7,
+      "C3": 49.8,
+      "G3F": 62.0,
+      "C4": 68.3,
+      "G1F": 87.1,
+      "finish": 101.1
+     },
+     "last_3f": 39.1,
+     "last_1f": 14.0
+    },
+    {
+     "number": 3,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": 6,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": 14.3,
+      "C3": 50.4,
+      "G3F": 62.7,
+      "C4": 68.9,
+      "G1F": 87.9,
+      "finish": 101.7
+     },
+     "last_3f": 39.0,
+     "last_1f": 13.8
+    },
+    {
+     "number": 4,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": 9,
+      "C3": 9,
+      "G3F": 8,
+      "C4": 8,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": null,
+      "C2": 14.6,
+      "C3": 50.8,
+      "G3F": 63.0,
+      "C4": 69.2,
+      "G1F": 88.2,
+      "finish": 101.8
+     },
+     "last_3f": 38.8,
+     "last_1f": 13.6
+    },
+    {
+     "number": 8,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": 4,
+      "C3": 3,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": 14.0,
+      "C3": 50.0,
+      "G3F": 62.3,
+      "C4": 68.6,
+      "G1F": 88.1,
+      "finish": 102.2
+     },
+     "last_3f": 39.9,
+     "last_1f": 14.1
+    },
+    {
+     "number": 10,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": 5,
+      "C3": 4,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": null,
+      "C2": 14.1,
+      "C3": 50.1,
+      "G3F": 62.4,
+      "C4": 68.7,
+      "G1F": 88.5,
+      "finish": 103.0
+     },
+     "last_3f": 40.6,
+     "last_1f": 14.5
+    },
+    {
+     "number": 7,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": 7,
+      "C3": 7,
+      "G3F": 9,
+      "C4": 9,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": 14.3,
+      "C3": 50.5,
+      "G3F": 63.0,
+      "C4": 69.4,
+      "G1F": 89.1,
+      "finish": 103.6
+     },
+     "last_3f": 40.6,
+     "last_1f": 14.5
+    },
+    {
+     "number": 1,
+     "rank": null,
+     "rank_text": "",
+     "pass_rank": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null
+     },
+     "time": {
+      "S1F": null,
+      "C1": null,
+      "C2": null,
+      "C3": null,
+      "G3F": null,
+      "C4": null,
+      "G1F": null,
+      "finish": null
+     },
+     "last_3f": null,
+     "last_1f": null
+    }
+   ],
+   "leader_time_at": {
+    "200": 13.7,
+    "400": 25.5,
+    "600": 37.5,
+    "800": 49.8,
+    "1000": 62.0,
+    "1200": 74.5,
+    "1400": 86.9,
+    "1600": 100.6
+   }
+  },
+  "R08": {
+   "distance": 1800,
+   "horses": [
+    {
+     "number": 6,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": 1,
+      "C2": 1,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": 19.9,
+      "C2": 32.6,
+      "C3": 69.6,
+      "G3F": 77.6,
+      "C4": 84.9,
+      "G1F": 103.9,
+      "finish": 117.4
+     },
+     "last_3f": 39.8,
+     "last_1f": 13.5
+    },
+    {
+     "number": 5,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": 20.1,
+      "C2": 32.8,
+      "C3": 69.7,
+      "G3F": 77.7,
+      "C4": 84.9,
+      "G1F": 103.9,
+      "finish": 118.0
+     },
+     "last_3f": 40.3,
+     "last_1f": 14.1
+    },
+    {
+     "number": 9,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": 8,
+      "C2": 7,
+      "C3": 7,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 15.2,
+      "C1": 21.2,
+      "C2": 33.9,
+      "C3": 70.9,
+      "G3F": 78.9,
+      "C4": 86.0,
+      "G1F": 105.1,
+      "finish": 118.3
+     },
+     "last_3f": 39.4,
+     "last_1f": 13.2
+    },
+    {
+     "number": 10,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": 9,
+      "C2": 9,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 8,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 15.5,
+      "C1": 21.8,
+      "C2": 34.6,
+      "C3": 71.2,
+      "G3F": 79.1,
+      "C4": 86.1,
+      "G1F": 105.2,
+      "finish": 118.6
+     },
+     "last_3f": 39.5,
+     "last_1f": 13.4
+    },
+    {
+     "number": 3,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": 6,
+      "C2": 6,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.7,
+      "C1": 20.7,
+      "C2": 33.4,
+      "C3": 69.9,
+      "G3F": 77.8,
+      "C4": 85.0,
+      "G1F": 104.0,
+      "finish": 118.7
+     },
+     "last_3f": 40.9,
+     "last_1f": 14.7
+    },
+    {
+     "number": 7,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": 7,
+      "C2": 8,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 9,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 15.0,
+      "C1": 21.0,
+      "C2": 34.0,
+      "C3": 71.0,
+      "G3F": 78.9,
+      "C4": 86.1,
+      "G1F": 105.3,
+      "finish": 118.8
+     },
+     "last_3f": 39.9,
+     "last_1f": 13.5
+    },
+    {
+     "number": 1,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": 3,
+      "C2": 3,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": 20.2,
+      "C2": 32.9,
+      "C3": 70.5,
+      "G3F": 78.7,
+      "C4": 86.0,
+      "G1F": 105.4,
+      "finish": 120.2
+     },
+     "last_3f": 41.5,
+     "last_1f": 14.8
+    },
+    {
+     "number": 8,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": 5,
+      "C2": 4,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.5,
+      "C1": 20.4,
+      "C2": 33.1,
+      "C3": 70.2,
+      "G3F": 78.2,
+      "C4": 85.5,
+      "G1F": 105.7,
+      "finish": 120.5
+     },
+     "last_3f": 42.3,
+     "last_1f": 14.8
+    },
+    {
+     "number": 2,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": 4,
+      "C2": 5,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 14.5,
+      "C1": 20.4,
+      "C2": 33.2,
+      "C3": 70.3,
+      "G3F": 78.2,
+      "C4": 85.5,
+      "G1F": 106.4,
+      "finish": 122.6
+     },
+     "last_3f": 44.4,
+     "last_1f": 16.2
+    },
+    {
+     "number": 4,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": 10,
+      "C2": 10,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 15.9,
+      "C1": 22.3,
+      "C2": 35.4,
+      "C3": 72.5,
+      "G3F": 80.7,
+      "C4": 88.0,
+      "G1F": 108.2,
+      "finish": 122.9
+     },
+     "last_3f": 42.2,
+     "last_1f": 14.7
+    }
+   ],
+   "leader_time_at": {
+    "200": 14.2,
+    "400": 26.1,
+    "600": 39.1,
+    "800": 51.9,
+    "1000": 64.9,
+    "1200": 77.6,
+    "1400": 90.9,
+    "1600": 103.9,
+    "1800": 117.4
+   }
+  },
+  "R09": {
+   "distance": 1800,
+   "horses": [
+    {
+     "number": 7,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": 9,
+      "C2": 9,
+      "C3": 8,
+      "G3F": 8,
+      "C4": 8,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 15.0,
+      "C1": 21.0,
+      "C2": 33.6,
+      "C3": 69.7,
+      "G3F": 77.2,
+      "C4": 84.6,
+      "G1F": 103.1,
+      "finish": 116.4
+     },
+     "last_3f": 39.2,
+     "last_1f": 13.3
+    },
+    {
+     "number": 1,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": 1,
+      "C2": 1,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": 19.6,
+      "C2": 31.9,
+      "C3": 68.3,
+      "G3F": 75.8,
+      "C4": 82.9,
+      "G1F": 102.3,
+      "finish": 116.4
+     },
+     "last_3f": 40.6,
+     "last_1f": 14.1
+    },
+    {
+     "number": 4,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": 4,
+      "C2": 4,
+      "C3": 4,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": 19.7,
+      "C2": 32.2,
+      "C3": 68.7,
+      "G3F": 76.2,
+      "C4": 83.6,
+      "G1F": 103.0,
+      "finish": 116.9
+     },
+     "last_3f": 40.7,
+     "last_1f": 13.9
+    },
+    {
+     "number": 10,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": 2,
+      "C2": 3,
+      "C3": 3,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": 19.6,
+      "C2": 32.0,
+      "C3": 68.4,
+      "G3F": 75.8,
+      "C4": 83.0,
+      "G1F": 102.8,
+      "finish": 117.0
+     },
+     "last_3f": 41.2,
+     "last_1f": 14.2
+    },
+    {
+     "number": 3,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": 3,
+      "C2": 2,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 14.2,
+      "C1": 19.7,
+      "C2": 32.0,
+      "C3": 68.3,
+      "G3F": 75.8,
+      "C4": 83.0,
+      "G1F": 102.4,
+      "finish": 117.0
+     },
+     "last_3f": 41.2,
+     "last_1f": 14.6
+    },
+    {
+     "number": 8,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": 7,
+      "C2": 5,
+      "C3": 5,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 14.7,
+      "C1": 20.6,
+      "C2": 32.8,
+      "C3": 69.1,
+      "G3F": 76.7,
+      "C4": 84.1,
+      "G1F": 103.1,
+      "finish": 117.0
+     },
+     "last_3f": 40.3,
+     "last_1f": 13.9
+    },
+    {
+     "number": 6,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": 10,
+      "C2": 10,
+      "C3": 9,
+      "G3F": 9,
+      "C4": 9,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 15.2,
+      "C1": 21.2,
+      "C2": 34.0,
+      "C3": 70.0,
+      "G3F": 77.4,
+      "C4": 84.8,
+      "G1F": 103.9,
+      "finish": 117.4
+     },
+     "last_3f": 40.0,
+     "last_1f": 13.5
+    },
+    {
+     "number": 9,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": 6,
+      "C2": 7,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": 20.5,
+      "C2": 33.0,
+      "C3": 69.4,
+      "G3F": 76.9,
+      "C4": 84.3,
+      "G1F": 103.5,
+      "finish": 117.4
+     },
+     "last_3f": 40.5,
+     "last_1f": 13.9
+    },
+    {
+     "number": 11,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": 5,
+      "C2": 6,
+      "C3": 7,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.4,
+      "C1": 20.4,
+      "C2": 32.9,
+      "C3": 69.5,
+      "G3F": 77.0,
+      "C4": 84.5,
+      "G1F": 103.6,
+      "finish": 117.4
+     },
+     "last_3f": 40.4,
+     "last_1f": 13.8
+    },
+    {
+     "number": 2,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": 11,
+      "C2": 11,
+      "C3": 11,
+      "G3F": 11,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 15.2,
+      "C1": 21.4,
+      "C2": 34.4,
+      "C3": 70.7,
+      "G3F": 78.3,
+      "C4": 85.4,
+      "G1F": 104.0,
+      "finish": 117.6
+     },
+     "last_3f": 39.3,
+     "last_1f": 13.6
+    },
+    {
+     "number": 5,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": 8,
+      "C2": 8,
+      "C3": 10,
+      "G3F": 10,
+      "C4": 11,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 14.9,
+      "C1": 20.9,
+      "C2": 33.6,
+      "C3": 70.5,
+      "G3F": 78.2,
+      "C4": 85.8,
+      "G1F": 106.4,
+      "finish": 122.5
+     },
+     "last_3f": 44.3,
+     "last_1f": 16.1
+    }
+   ],
+   "leader_time_at": {
+    "200": 14.0,
+    "400": 25.5,
+    "600": 38.4,
+    "800": 51.0,
+    "1000": 63.7,
+    "1200": 75.8,
+    "1400": 88.9,
+    "1600": 102.3,
+    "1800": 116.4
+   }
+  },
+  "R10": {
+   "distance": 1200,
+   "horses": [
+    {
+     "number": 9,
+     "rank": 1,
+     "rank_text": "1",
+     "pass_rank": {
+      "S1F": 1,
+      "C1": null,
+      "C2": null,
+      "C3": 1,
+      "G3F": 1,
+      "C4": 1,
+      "G1F": 1
+     },
+     "time": {
+      "S1F": 13.6,
+      "C1": null,
+      "C2": null,
+      "C3": 24.3,
+      "G3F": 35.7,
+      "C4": 41.8,
+      "G1F": 60.0,
+      "finish": 73.3
+     },
+     "last_3f": 37.6,
+     "last_1f": 13.3
+    },
+    {
+     "number": 11,
+     "rank": 2,
+     "rank_text": "2",
+     "pass_rank": {
+      "S1F": 7,
+      "C1": null,
+      "C2": null,
+      "C3": 7,
+      "G3F": 8,
+      "C4": 8,
+      "G1F": 3
+     },
+     "time": {
+      "S1F": 14.3,
+      "C1": null,
+      "C2": null,
+      "C3": 25.1,
+      "G3F": 37.1,
+      "C4": 43.3,
+      "G1F": 61.3,
+      "finish": 74.0
+     },
+     "last_3f": 36.9,
+     "last_1f": 12.7
+    },
+    {
+     "number": 8,
+     "rank": 3,
+     "rank_text": "3",
+     "pass_rank": {
+      "S1F": 11,
+      "C1": null,
+      "C2": null,
+      "C3": 11,
+      "G3F": 9,
+      "C4": 9,
+      "G1F": 6
+     },
+     "time": {
+      "S1F": 15.1,
+      "C1": null,
+      "C2": null,
+      "C3": 26.0,
+      "G3F": 37.5,
+      "C4": 43.7,
+      "G1F": 61.6,
+      "finish": 74.1
+     },
+     "last_3f": 36.6,
+     "last_1f": 12.5
+    },
+    {
+     "number": 5,
+     "rank": 4,
+     "rank_text": "4",
+     "pass_rank": {
+      "S1F": 5,
+      "C1": null,
+      "C2": null,
+      "C3": 5,
+      "G3F": 3,
+      "C4": 3,
+      "G1F": 2
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": null,
+      "C2": null,
+      "C3": 24.8,
+      "G3F": 36.3,
+      "C4": 42.4,
+      "G1F": 61.0,
+      "finish": 74.7
+     },
+     "last_3f": 38.4,
+     "last_1f": 13.7
+    },
+    {
+     "number": 6,
+     "rank": 5,
+     "rank_text": "5",
+     "pass_rank": {
+      "S1F": 9,
+      "C1": null,
+      "C2": null,
+      "C3": 8,
+      "G3F": 7,
+      "C4": 7,
+      "G1F": 8
+     },
+     "time": {
+      "S1F": 14.6,
+      "C1": null,
+      "C2": null,
+      "C3": 25.5,
+      "G3F": 37.1,
+      "C4": 43.3,
+      "G1F": 61.8,
+      "finish": 74.8
+     },
+     "last_3f": 37.7,
+     "last_1f": 13.0
+    },
+    {
+     "number": 3,
+     "rank": 6,
+     "rank_text": "6",
+     "pass_rank": {
+      "S1F": 8,
+      "C1": null,
+      "C2": null,
+      "C3": 9,
+      "G3F": 10,
+      "C4": 10,
+      "G1F": 10
+     },
+     "time": {
+      "S1F": 14.5,
+      "C1": null,
+      "C2": null,
+      "C3": 25.8,
+      "G3F": 37.6,
+      "C4": 44.0,
+      "G1F": 62.1,
+      "finish": 75.0
+     },
+     "last_3f": 37.4,
+     "last_1f": 12.9
+    },
+    {
+     "number": 2,
+     "rank": 7,
+     "rank_text": "7",
+     "pass_rank": {
+      "S1F": 3,
+      "C1": null,
+      "C2": null,
+      "C3": 3,
+      "G3F": 4,
+      "C4": 4,
+      "G1F": 5
+     },
+     "time": {
+      "S1F": 13.9,
+      "C1": null,
+      "C2": null,
+      "C3": 24.6,
+      "G3F": 36.3,
+      "C4": 42.5,
+      "G1F": 61.6,
+      "finish": 75.6
+     },
+     "last_3f": 39.3,
+     "last_1f": 14.0
+    },
+    {
+     "number": 7,
+     "rank": 8,
+     "rank_text": "8",
+     "pass_rank": {
+      "S1F": 6,
+      "C1": null,
+      "C2": null,
+      "C3": 6,
+      "G3F": 6,
+      "C4": 6,
+      "G1F": 9
+     },
+     "time": {
+      "S1F": 14.1,
+      "C1": null,
+      "C2": null,
+      "C3": 24.9,
+      "G3F": 36.8,
+      "C4": 43.1,
+      "G1F": 61.8,
+      "finish": 75.7
+     },
+     "last_3f": 38.9,
+     "last_1f": 13.9
+    },
+    {
+     "number": 10,
+     "rank": 9,
+     "rank_text": "9",
+     "pass_rank": {
+      "S1F": 4,
+      "C1": null,
+      "C2": null,
+      "C3": 4,
+      "G3F": 5,
+      "C4": 5,
+      "G1F": 7
+     },
+     "time": {
+      "S1F": 14.0,
+      "C1": null,
+      "C2": null,
+      "C3": 24.7,
+      "G3F": 36.3,
+      "C4": 42.5,
+      "G1F": 61.7,
+      "finish": 75.7
+     },
+     "last_3f": 39.4,
+     "last_1f": 14.0
+    },
+    {
+     "number": 4,
+     "rank": 10,
+     "rank_text": "10",
+     "pass_rank": {
+      "S1F": 10,
+      "C1": null,
+      "C2": null,
+      "C3": 10,
+      "G3F": 11,
+      "C4": 11,
+      "G1F": 11
+     },
+     "time": {
+      "S1F": 15.0,
+      "C1": null,
+      "C2": null,
+      "C3": 25.9,
+      "G3F": 37.8,
+      "C4": 44.0,
+      "G1F": 62.4,
+      "finish": 76.1
+     },
+     "last_3f": 38.3,
+     "last_1f": 13.7
+    },
+    {
+     "number": 1,
+     "rank": 11,
+     "rank_text": "11",
+     "pass_rank": {
+      "S1F": 2,
+      "C1": null,
+      "C2": null,
+      "C3": 2,
+      "G3F": 2,
+      "C4": 2,
+      "G1F": 4
+     },
+     "time": {
+      "S1F": 13.8,
+      "C1": null,
+      "C2": null,
+      "C3": 24.5,
+      "G3F": 36.1,
+      "C4": 42.1,
+      "G1F": 61.6,
+      "finish": 76.9
+     },
+     "last_3f": 40.8,
+     "last_1f": 15.3
+    }
+   ],
+   "leader_time_at": {
+    "200": 13.6,
+    "400": 24.3,
+    "600": 35.7,
+    "800": 47.8,
+    "1000": 60.0,
+    "1200": 73.3
+   }
+  }
+ }
+}

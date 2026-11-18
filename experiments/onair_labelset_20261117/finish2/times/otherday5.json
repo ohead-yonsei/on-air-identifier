@@ -1,0 +1,131 @@
+{
+ "R01": {
+  "error": "no clock"
+ },
+ "R02": {
+  "file": "R02__Odhnar0HpM.mp4",
+  "fps": 60.0,
+  "frames": 6996,
+  "clock_on": [
+   0.033,
+   87.417
+  ],
+  "S": 11.5,
+  "F": 84.633,
+  "running": 73.133,
+  "clock_on_after_F": 2.78,
+  "ticks": 740
+ },
+ "R03": {
+  "file": "R03_Cpop4U8bEdQ.mp4",
+  "fps": 60.0,
+  "frames": 7966,
+  "clock_on": [
+   0.033,
+   95.817
+  ],
+  "S": 13.2,
+  "F": 94.1,
+  "running": 80.9,
+  "clock_on_after_F": 1.72,
+  "ticks": 820
+ },
+ "R04": {
+  "file": "R04_PE2PSwi-x30.mp4",
+  "fps": 60.0,
+  "frames": 7828,
+  "clock_on": [
+   0.033,
+   100.983
+  ],
+  "S": 10.033,
+  "F": 99.433,
+  "running": 89.4,
+  "clock_on_after_F": 1.55,
+  "ticks": 901
+ },
+ "R05": {
+  "file": "R05_sdeK6-wOsms.mp4",
+  "fps": 60.0,
+  "frames": 8962,
+  "clock_on": [
+   0.033,
+   129.75
+  ],
+  "S": 6.5,
+  "F": 125.367,
+  "running": 118.867,
+  "clock_on_after_F": 4.38,
+  "ticks": 1200
+ },
+ "R06": {
+  "file": "R06_vdNQVjL8Qms.mp4",
+  "fps": 60.0,
+  "frames": 6858,
+  "clock_on": [
+   0.033,
+   83.75
+  ],
+  "S": 5.467,
+  "F": 80.267,
+  "running": 74.8,
+  "clock_on_after_F": 3.48,
+  "ticks": 750
+ },
+ "R07": {
+  "file": "R07_v31yY4c38zM.mp4",
+  "fps": 60.0,
+  "frames": 8196,
+  "clock_on": [
+   0.033,
+   109.75
+  ],
+  "S": 5.833,
+  "F": 106.433,
+  "running": 100.6,
+  "clock_on_after_F": 3.32,
+  "ticks": 1013
+ },
+ "R08": {
+  "file": "R08_t70qLFCR4fI.mp4",
+  "fps": 60.0,
+  "frames": 9270,
+  "clock_on": [
+   0.033,
+   123.017
+  ],
+  "S": 1.7,
+  "F": 119.167,
+  "running": 117.467,
+  "clock_on_after_F": 3.85,
+  "ticks": 1189
+ },
+ "R09": {
+  "file": "R09__sM4lg5OWE0.mp4",
+  "fps": 60.0,
+  "frames": 9308,
+  "clock_on": [
+   0.033,
+   124.383
+  ],
+  "S": 5.1,
+  "F": 121.5,
+  "running": 116.4,
+  "clock_on_after_F": 2.88,
+  "ticks": 1174
+ },
+ "R10": {
+  "file": "R10_l933kKjv5tM.mp4",
+  "fps": 60.0,
+  "frames": 6948,
+  "clock_on": [
+   0.033,
+   82.883
+  ],
+  "S": 6.567,
+  "F": 79.967,
+  "running": 73.4,
+  "clock_on_after_F": 2.92,
+  "ticks": 740
+ }
+}
