@@ -49,6 +49,7 @@
 | [leader/RESULT_KO.md](experiments/onair_labelset_20261117/leader/RESULT_KO.md) | 선두권 안의 순서(선두, 앞뒤) |
 | [night/RESULT_KO.md](experiments/onair_labelset_20261117/night/RESULT_KO.md) | 새 경주일 나흘에서 다시 잰 것, Qwen 없는 빠른 구성, 빈 시점 메우기, 순서를 넣은 중계 |
 | [order2/RESULT_KO.md](experiments/onair_labelset_20261117/order2/RESULT_KO.md), [order2b/RESULT_KO.md](experiments/onair_labelset_20261117/order2b/RESULT_KO.md) | v8(L1)의 확인 결과 |
+| [중계 스크립트 시연](https://ohead-yonsei.github.io/on-air-identifier/race-call-20261108-r11.html) (`docs/race-call-20261108-r11.html`), [설명](experiments/onair_labelset_20261117/live_script/README_KO.md) | 안 쓴 경주 하나를 띠 없이 화면만 보고 중계한 스크립트. 화면과 문장을 나란히 읽는 페이지 |
 | [live_commentary/RESULT_KO.md](experiments/onair_labelset_20261117/live_commentary/RESULT_KO.md) | 식별기를 써서 실제로 중계해 본 시연 |
 | [finish2/RESULT_KO.md](experiments/onair_labelset_20261117/finish2/RESULT_KO.md) | 띠 없는 구간을 공식 기록으로 다시 재기: 마지막 36초, 선두 모델, 우승마 부르기, 경주 전체 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간의 처음 시도(결승 시각이 어긋나 있었음. finish2가 바로잡음) |

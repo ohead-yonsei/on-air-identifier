@@ -13,4 +13,4 @@
 - `20261108_R11/racecard.json` 출전표(번호, 말 이름, 거리) — 중계 쪽이 읽는 유일한 경주 정보
 - `20261108_R11/ident.json` 식별기 출력, `script.json` 스크립트(문장마다 준 사실, 걸러진 문장과 이유), `score.json` 공식 기록 대조, `official.json` 공식 기록(번호와 시각만)
 - 코드: `../code/ls1_racecard.py`, `ls2_run.py`, `ls3_script.py`, `ls4_score.py`, `ls5_page.py`
-- 그림과 페이지(`frames/`, `commentary.html`)와 영상은 저장소에 넣지 않았다. 페이지는 비공개 아티팩트로 올려 두었다.
+- 읽는 페이지: https://ohead-yonsei.github.io/on-air-identifier/race-call-20261108-r11.html (저장소의 `docs/race-call-20261108-r11.html`. 방송 화면 29장이 들어 있고, 사용자가 2026-11-18에 공개를 정했다). 낱장 그림(`frames/`)과 영상은 저장소에 넣지 않았다.

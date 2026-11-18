@@ -87,7 +87,7 @@ page = f'''<title>서울 11경주 AI 중계</title>
   --sans:"Noto Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; --serif:"Noto Serif KR","Apple SD Gothic Neo",serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#0c131f; --panel:#131d2c; --ink:#e7edf6; --quiet:#94a4bb; --line:#26344b; --accent:#74a9ff; --tint:#172438; --ok:#55c891; --near:#e2b955; --bad:#ff8f85; color-scheme:dark }} }}
 :root[data-theme="dark"] {{ --bg:#0c131f; --panel:#131d2c; --ink:#e7edf6; --quiet:#94a4bb; --line:#26344b; --accent:#74a9ff; --tint:#172438; --ok:#55c891; --near:#e2b955; --bad:#ff8f85; color-scheme:dark }}
-body {{ background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.7; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:36px 64px; }}
+body {{ background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.7; word-break:keep-all; overflow-wrap:break-word; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:36px 64px; }}
 main {{ max-width:980px; margin:0 auto; display:flex; flex-direction:column; gap:36px; }}
 h1 {{ font-family:var(--serif); font-size:clamp(26px,4.4vw,38px); line-height:1.3; margin:6px 0 12px; text-wrap:balance; }}
 h2 {{ font-size:19px; margin:0 0 10px; }}
@@ -164,4 +164,11 @@ details ul {{ margin:6px 0 0; padding-left:1.2em; display:flex; flex-direction:c
 </main>
 '''
 (D / "commentary.html").write_text(page, encoding="utf-8")
+# the same page as a complete document for the public site (the user approved publishing this page with its pictures, 2026-11-18)
+head, body = page.split("<main>", 1)
+site = ROOT.parents[1] / "docs" / f"race-call-{card['date'].replace('-', '')}-r{card['race']}.html"
+site.write_text('<!doctype html>\n<html lang="ko">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n' + head
+                + "<style>body{margin:0}img{max-width:100%}a{color:var(--accent)}</style>\n</head>\n<body>\n<main>\n"
+                + '<p class="q" style="font-size:13.5px"><a href="./">ON-AIR 정리 페이지</a>의 시연입니다.</p>' + body + "</body>\n</html>\n", encoding="utf-8")
+print("wrote", site)
 print("wrote", D / "commentary.html", round(len(page) / 1e6, 2), "MB;", tot)
