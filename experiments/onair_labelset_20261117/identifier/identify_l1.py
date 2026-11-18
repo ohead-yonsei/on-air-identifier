@@ -1,10 +1,11 @@
-"""ON-AIR leading-group identifier, configuration L1, as one program.
+"""ON-AIR leading-group identifier as one program. Default since 2026-11-18: v9 (code name F2). --v8 gives the earlier default (L1).
 
 From a race broadcast it says, every few seconds, which horse numbers are in the leading group (the front three), using only the picture:
   1. riders: Faster R-CNN, person on a horse; if fewer than 4 are found in a picture, that picture is detected again with the
      small-rider settings (lower score, smaller height, zoom)
-  2. numbers: Qwen 9B names the cap colour, a cap classifier (ResNet-18 trained on 598 hand-labelled caps) scores numbers 1-11,
-     one-to-one assignment within the picture; a number is "sure" when the classifier gives it at least 0.7
+  2. numbers: a cap classifier (ResNet-18 trained on 598 hand-labelled caps) scores numbers 1-11, one-to-one assignment within the
+     picture; a number is "sure" when the classifier gives it at least 0.7. v8 only: Qwen 9B also names the cap colour of the same
+     cap, and the number of that colour gets +1.0 on the classifier's scores before the assignment
   3. front of the field: a small model, trained with the broadcast's running-order strip as the answer, gives each sure rider a
      probability of being in the leading three from the position and size of its box; up to 2 riders with at least 0.6 are taken
   4. a number is stated when it is taken in at least 2 of the 3 most recent pictures (now, 0.5 s ago, 1.0 s ago)
@@ -13,18 +14,24 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
      scores each sure rider. "leader": the top-scoring sure rider of a picture if its score is at least 0.6, when the same number is
      picked in 2 of the 3 pictures (or was the leader at both 3 s and 6 s earlier). "order": for two stated numbers, the one whose
      mean score over the 3 pictures is higher by at least 0.2 is said to be ahead. Neither changes the statements.
-  7. options added 2026-11-18 (night/RESULT_KO.md):
-     --fast        configuration F1: Qwen is never called for the riders; numbers come from the cap classifier alone
-     --fallback    where steps 4-5 state nothing, one number may be added: the number stated 3 s earlier if it is sure in a current
+  7. the three parts of v9 (night/RESULT_KO.md), all on by default:
+     fast          Qwen is never called for the riders; numbers come from the cap classifier alone (code name F1)
+     fallback      where steps 4-5 state nothing, one number may be added: the number stated 3 s earlier if it is sure in a current
                    picture; otherwise the sure rider with the highest leading-three probability, if that is at least 0.8
-     --leader-tau  threshold for "leader" (default 0.6)
-     --fast --fallback --leader-tau 0.5 together is configuration F2 (the candidate from the night of 2026-11-18)
+     leader 0.5    threshold for "leader" (step 6 describes v8's 0.6)
+     Together they are v9 (code name F2), confirmed on two unused days on 2026-11-18 (night/confirm2/RESULT_KO.md): on those days
+     v9 states more (B 94.1 % against 90.1 %) and is a little less precise than v8 (A 94.5 % against 96.4 %).
+     --v8          the default before 2026-11-18 (code name L1): Qwen for the riders, no fallback, leader threshold 0.6.
+                   With --v8, --fast and --fallback switch single parts on as they did before (--v8 --fast = F1).
+     --no-fallback, --leader-tau X   change one part of the default
+     The class LeadingGroupIdentifier keeps its old argument defaults (v8); the experiment scripts pass their configuration explicitly.
+     Run scripts written before this change (night/run_chain*.sh, live_commentary/*/run_identify.sh) assumed the v8 default.
 
 Tested only while the running-order strip is on screen (see order2/RESULT_KO.md, order2b/RESULT_KO.md). Where the strip is absent
 (about the last 30 s, and just after the start) the statements are not reliable; the output marks those time points.
 
 usage (on the server):
-  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--no-strip-check] [--fast] [--fallback] [--leader-tau 0.5]
+  python identify_l1.py --video RACE.mp4 --out OUT.json [--start S --end E] [--step 3] [--no-strip-check] [--v8] [--no-fallback] [--leader-tau 0.5]
   python identify_l1.py --day-dir otherday7 --out OUT.json [--races R01 R02]      # frames already extracted (manifest.json, frames/, frames_past/)
 """
 import argparse
@@ -60,7 +67,8 @@ from identify import ENDPOINT, MASKS, MODEL, ColourModel, wait_gpu
 from s3_classify import region as cap_region
 
 SURE, TAU, K, MIN_RIDERS = 0.7, 0.6, 2, 4
-TAU_LEADER, MARGIN_ORDER = 0.6, 0.2
+TAU_LEADER, MARGIN_ORDER = 0.6, 0.2      # TAU_LEADER is v8's leader threshold
+TAU_LEADER_V9 = 0.5                      # v9's leader threshold, the command-line default since 2026-11-18
 FALLBACK_SINGLE = 0.8      # --fallback: lowest leading-three probability at which a single rider is stated where nothing else is
 TIMER, STRIP = (70, 930, 360, 1055), (480, 955, 1920, 1045)   # at 1920x1080
 CNN_WEIGHTS, ORDER_MODEL, COLOUR_MODEL = ROOT / "cnn" / "models" / "all_two_days.pt", ROOT / "order2" / "l1_model.joblib", HERE / "model.json"
@@ -330,17 +338,23 @@ def main():
     ap.add_argument("--step", type=float, default=3.0)
     ap.add_argument("--no-strip-check", action="store_true")
     ap.add_argument("--masks", default="sep06", choices=list(MASKS))
-    ap.add_argument("--fast", action="store_true", help="configuration F1: no Qwen for the riders (use with --no-strip-check to call no language model at all)")
-    ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number (held from 3 s earlier, or a single rider at 0.8 or more)")
-    ap.add_argument("--leader-tau", type=float, default=TAU_LEADER, help="threshold for the leader (0.6; configuration F2 uses 0.5)")
+    ap.add_argument("--v8", action="store_true", help="the default before 2026-11-18 (L1): Qwen for the riders, no fallback, leader threshold 0.6")
+    ap.add_argument("--fast", action="store_true", help="no Qwen for the riders. On by default; only changes something together with --v8")
+    ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number. On by default; only changes something together with --v8")
+    ap.add_argument("--no-fallback", action="store_true", help="never add a number where nothing is stated")
+    ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
     a = ap.parse_args()
+    a.fast = a.fast or not a.v8
+    a.fallback = (a.fallback or not a.v8) and not a.no_fallback
+    if a.leader_tau is None:
+        a.leader_tau = TAU_LEADER if a.v8 else TAU_LEADER_V9
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
     wait_gpu()
     started = time.perf_counter()
     ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
-    res.update(configuration=name, settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
+    res.update(configuration=name, version={"F2": "v9", "L1": "v8"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
                                               "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))

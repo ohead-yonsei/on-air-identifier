@@ -1,0 +1,5 @@
+[2026-11-18T23:00:32+09:00] chain6 start
+[2026-11-18T23:01:20+09:00] default vs earlier F2 output: configuration new F2 (version v9) old F2; time points compared 118; identical 118; not in old 0
+[2026-11-18T23:01:20+09:00] default vs scoring script: otherday13: time points 118; identical statements 118, identical leader 118, identical order 118; points with a fallback number 7, identical fallback numbers 118; program seconds 44.0
+[2026-11-18T23:05:17+09:00] --v8 vs earlier default output: configuration new L1 (version v8) old L1; time points compared 29; identical 29; not in old 0
+[2026-11-18T23:05:17+09:00] chain6 done

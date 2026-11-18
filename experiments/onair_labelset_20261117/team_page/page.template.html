@@ -102,7 +102,7 @@ svg .m { font-family: var(--mono); }
       <g text-anchor="middle">
         <text class="t b" x="104" y="72">화면 세 장</text><text class="q" x="104" y="90" font-size="11.5">지금, 0.5초 전, 1.0초 전</text>
         <text class="t b" x="288" y="72">1 기수 찾기</text><text class="q" x="288" y="90" font-size="11.5">말 위의 사람 검출</text>
-        <text class="t b" x="472" y="72">2 번호 읽기</text><text class="q" x="472" y="90" font-size="11.5">Qwen + 모자 분류기</text>
+        <text class="t b" x="472" y="72">2 번호 읽기</text><text class="q" x="472" y="90" font-size="11.5">모자 분류기 (v8: +Qwen)</text>
         <text class="t b" x="656" y="72">3 앞선 말 고르기</text><text class="q" x="656" y="90" font-size="11.5">띠로 학습한 모델</text>
         <text class="t b" x="656" y="172">4 말하기</text><text class="q" x="656" y="190" font-size="11.5">세 장 중 두 장 이상</text>
         <text class="t b" x="472" y="172">5 이어받기</text><text class="q" x="472" y="190" font-size="11.5">3초·6초 전 번호</text>
@@ -114,7 +114,7 @@ svg .m { font-family: var(--mono); }
       <text class="q" x="96" y="250" text-anchor="end" font-size="11.5">있음</text><text class="q" x="196" y="228" text-anchor="middle" font-size="11.5">없음</text>
     </svg>
     </div>
-    <figcaption>식별기 v8의 흐름. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다.</figcaption>
+    <figcaption>식별기의 흐름(v9와 v8 공통). v9는 2단계에서 모자 분류기만 쓰고, v8은 Qwen에게도 모자색을 묻습니다. 윗줄은 화면 한 장마다 하는 일이고, 아랫줄은 여러 장을 묶어 말할 번호를 정하는 단계입니다.</figcaption>
   </figure>
   <ol>
     <li><b>기수 찾기.</b> 검출 모델(Faster R-CNN, 추가 학습 없음)로 말 위의 사람을 찾습니다. 한 화면에서 4명 미만이면 그 화면만 작은 기수용 설정으로 다시 찾습니다.</li>
@@ -174,7 +174,7 @@ svg .m { font-family: var(--mono); }
         <text class="t" x="390" y="115">A 92.7%</text><text class="t" x="390" y="185">B 86.3%</text>
         <text class="t" x="590" y="104">B 94.6%</text><text class="t" x="603" y="132" text-anchor="start">A 92.9%</text>
       </g>
-      <g text-anchor="middle"><text class="t" x="190" y="326" font-size="12.5">v6</text><text class="q" x="190" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="390" y="326" font-size="12.5">v7</text><text class="q" x="390" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="590" y="326" font-size="12.5">v8 (기본값)</text><text class="q" x="590" y="344" font-size="11.5">새 경주일 두 날</text></g>
+      <g text-anchor="middle"><text class="t" x="190" y="326" font-size="12.5">v6</text><text class="q" x="190" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="390" y="326" font-size="12.5">v7</text><text class="q" x="390" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="590" y="326" font-size="12.5">v8</text><text class="q" x="590" y="344" font-size="11.5">새 경주일 두 날</text></g>
     </svg>
     </div>
     <figcaption>각 버전을 고르는 데 쓰지 않은 경주일의 합계입니다. 순위 띠가 화면에 있는 구간에서 잰 값입니다.</figcaption>
@@ -184,8 +184,8 @@ svg .m { font-family: var(--mono); }
     <tbody>
       <tr><td>v6</td><td>S0</td><td>처음으로 "선두권 번호"를 냄. Qwen이 말한 번호도 "확정"으로 인정. 앞선 말 = 화면 아래쪽 두 상자</td><td class="n">86.2%</td><td class="n">75.1%</td><td>새 경주일 다섯 날</td></tr>
       <tr><td>v7</td><td>T1</td><td>"확정"은 분류기 확률 0.7 이상만. 작은 기수 검출과 이어받기 추가</td><td class="n">92.7%</td><td class="n">86.3%</td><td>새 경주일 세 날</td></tr>
-      <tr class="hl"><td><b>v8</b></td><td>L1</td><td>앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 프로그램의 기본값</td><td class="n">92.9%</td><td class="n">94.6%</td><td>새 경주일 두 날 (엿새로는 94.3% / 89.0%)</td></tr>
-      <tr class="hl"><td><b>v9</b></td><td>F2</td><td>언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초</td><td class="n">94.5%</td><td class="n">94.1%</td><td>미리 고정한 확인: 새 경주일 이틀(8/29, 8/23), 253개 시점. 엿새 874개 시점에서는 93.2% / 93.0% (나흘은 조각을 고를 때 본 날)</td></tr>
+      <tr class="hl"><td><b>v8</b></td><td>L1</td><td>앞선 말 고르기를 순위 띠로 학습한 모델로 바꿈. 11월 18일까지의 기본값</td><td class="n">92.9%</td><td class="n">94.6%</td><td>새 경주일 두 날 (엿새로는 94.3% / 89.0%)</td></tr>
+      <tr class="hl"><td><b>v9</b></td><td>F2</td><td>언어 모델(Qwen)을 뺌 + 빈 시점 메우기 + 선두 기준값 0.5. 시점당 8초 → 2초. <b>프로그램의 기본값</b></td><td class="n">94.5%</td><td class="n">94.1%</td><td>미리 고정한 확인: 새 경주일 이틀(8/29, 8/23), 253개 시점. 엿새 874개 시점에서는 93.2% / 93.0% (나흘은 조각을 고를 때 본 날)</td></tr>
       <tr><td>v10 (예정)</td><td>—</td><td>v9 + 공식 기록으로 배운 선두 모델 + 우승마 부르기. 실험 코드에만 있음</td><td class="n">—</td><td class="n">—</td><td><a href="#nostrip">띠 없는 구간</a>에서 조각별로 확인</td></tr>
     </tbody>
   </table></div>
@@ -261,7 +261,7 @@ svg .m { font-family: var(--mono); }
     <li><b>식별기는 이제 언어 모델 없이 돕니다.</b> 모자 분류기가 이미 번호 읽기를 하고 있었습니다. 계산은 시점당 0.3초이고, 나머지는 영상 파일에서 그림을 찾아 꺼내는 시간입니다. 3초마다 한 번 말하는 실시간 중계에 쓸 수 있는 속도입니다(실제 방송 입력으로는 돌려 보지 않았습니다).</li>
     <li><b>식별기의 확률을 "얼마나 믿을지"로 쓸 수 있습니다.</b> 그림 3장 모두에서 뽑힌 번호는 399개 중 394개(98.7%)가 맞았고, 2장에서만 뽑힌 번호는 91.6%였습니다. 강한 문장은 단정해서, 약한 문장은 "~로 보입니다"로 말하게 할 수 있습니다(결과를 본 뒤 나눠 본 것).</li>
     <li><b>남은 오류는 먼 화면과 특정 모자색에 몰려 있습니다.</b> 기수가 60픽셀보다 작게 잡힌 시점은 58개 중 25개에서만 맞는 번호를 말했고, 보라색(9번)은 55번 중 41번만 맞았습니다(결과를 본 뒤 나눠 본 것).</li>
-    <li><b>앞의 둘과 선두 기준값 0.5를 묶은 것이 v9입니다.</b> 프로그램에 선택 사항으로 넣었습니다. 벤치마크 시험용 엿새의 874개 시점에서 A 93.2%, B 93.0%, 선두 90.1%였습니다(엿새 중 나흘은 조각을 고를 때 본 날). 새 날 이틀(8/29, 8/23, 20개 경주, 253개 시점)로 미리 고정해 둔 확인 시험에서 A 94.5%, B 94.1%, 선두 93.0%, 앞뒤 96.2%였고 미리 정한 판정을 모두 채웠습니다(v8은 같은 이틀에서 A 96.4%, B 90.1%. v9가 A는 1.8%p 낮고 B는 4.0%p 높습니다). v9로 중계를 다시 하면 "선두는 N번" 문장이 42개에서 63개로 늘고, 그중 59개가 맞았습니다(11월 15일, 참고값).</li>
+    <li><b>앞의 둘과 선두 기준값 0.5를 묶은 것이 v9입니다.</b> 11월 18일부터 프로그램의 기본값입니다. 벤치마크 시험용 엿새의 874개 시점에서 A 93.2%, B 93.0%, 선두 90.1%였습니다(엿새 중 나흘은 조각을 고를 때 본 날). 새 날 이틀(8/29, 8/23, 20개 경주, 253개 시점)로 미리 고정해 둔 확인 시험에서 A 94.5%, B 94.1%, 선두 93.0%, 앞뒤 96.2%였고 미리 정한 판정을 모두 채웠습니다(v8은 같은 이틀에서 A 96.4%, B 90.1%. v9가 A는 1.8%p 낮고 B는 4.0%p 높습니다). v9로 중계를 다시 하면 "선두는 N번" 문장이 42개에서 63개로 늘고, 그중 59개가 맞았습니다(11월 15일, 참고값).</li>
   </ul>
   <p class="note">구간(경주 단위 다시 뽑기 95%): A 92.9~97.1%, B 80.9~91.1%, 선두(0.5) 82.0~92.2%, 앞뒤 87.4~95.0%. 순위 띠가 화면에 있는 구간만입니다. 자세한 내용은 <code>night/RESULT_KO.md</code>.</p>
 </section>
@@ -422,7 +422,7 @@ svg .m { font-family: var(--mono); }
     <li><b>기준이 순위 띠입니다.</b> 띠는 화면보다 조금 늦을 수 있고, 얼마나 늦는지는 재지 않았습니다. 3초 간격의 시점은 서로 닮았습니다.</li>
     <li><b>사람이 항목별로 검수하지 않은 것이 있습니다.</b> 모자 라벨 일부와 결승 순서는 Claude가 화면을 보고 적었습니다.</li>
     <li><b>중계 시연은 하루치입니다.</b> "예상 결승 30초 전까지"라는 규칙은 처음 썼고 따로 시험하지 않았습니다. 띠가 없던 시점에 말한 번호는 채점할 기준이 없습니다.</li>
-    <li><b>기본값인 v8은 실시간이 아닙니다.</b> 시점 하나에 8초쯤 걸립니다. v9는 2.3초이고 새 날 이틀의 확인도 통과했지만, 프로그램의 기본값은 아직 v8입니다. 12번 이상의 말은 다루지 못합니다.</li>
+    <li><b>기본값인 v9도 아직 실시간 프로그램은 아닙니다.</b> 계산은 시점당 0.4초이지만 영상 파일에서 그림을 꺼내는 시간까지 넣으면 2.3초입니다(v8은 8초쯤). 같은 이틀에서 v9는 v8보다 A가 1.8%p 낮았습니다. 12번 이상의 말은 다루지 못합니다.</li>
   </ul>
 </section>
 
@@ -434,7 +434,6 @@ svg .m { font-family: var(--mono); }
     <tbody>
       <tr><td><b>출전표 붙이기</b></td><td>"6번 ○○○"처럼 이름을 넣은 중계가 되고, 확정 정보 모드에서 말할 내용이 생깁니다. 프로젝트 가설을 문장 중계로 직접 시험할 수 있습니다.</td><td>한국마사회 출전표(말 이름, 기수)</td></tr>
       <tr><td><b>"믿어도 되는 순간" 신호 시험</b></td><td>지금은 "예상 결승 30초 전까지"라는 시계 규칙입니다. 기수 크기나 번호 확률 같은 식별기 자신의 출력으로 가르는 편이 나은지 봅니다.</td><td>지금 있는 데이터로 가능</td></tr>
-      <tr><td><b>v9를 기본값으로</b></td><td>새 날 이틀의 확인을 통과했습니다. 기본값을 v8에서 v9로 바꿀지 정합니다(A는 1.8%p 낮고, B는 4.0%p 높고, 시점당 8.3초 → 2.3초).</td><td>결정만 필요</td></tr>
       <tr><td><b>먼 화면과 약한 모자색</b></td><td>남은 오류가 몰린 곳입니다. 작게 잡힌 기수와 보라·분홍 모자를 더 잘 읽게 합니다.</td><td>그 장면의 모자 라벨</td></tr>
       <tr><td><b>띠 없는 구간을 벤치마크 문항으로</b></td><td>출발 직후, 마지막 30초, 결승 순간을 공식 기록 정답으로 문항에 더합니다. 지금 초안은 띠가 있는 구간만 다룹니다.</td><td>지금 있는 자료로 가능</td></tr>
       <tr><td><b>출발 직후와 결승 순간</b></td><td>띠 없이 경주 전체를 돌렸을 때 남은 약한 두 곳입니다.</td><td>그 장면에 맞춘 방법</td></tr>
@@ -448,10 +447,11 @@ svg .m { font-family: var(--mono); }
 <section>
   <h2>쓰는 법과 파일</h2>
   <p>식별기는 프로그램 하나로 돕니다. GPU 서버의 프로젝트 폴더에서 실행합니다.</p>
-  <pre>python identifier/identify_l1.py --video 경주.mp4 --out 결과.json
+  <pre># v9 (기본값): Qwen 없이 빠르게 + 빈 시점 메우기 + 선두 기준값 0.5
+python identifier/identify_l1.py --video 경주.mp4 --out 결과.json
 
-# Qwen 없이 빠르게 + 빈 시점 메우기 + 선두 기준값 0.5 (v9)
-python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --fast --fallback --leader-tau 0.5</pre>
+# v8 (11월 18일까지의 기본값): 기수마다 Qwen에게도 모자색을 물음
+python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --v8</pre>
   <div class="tablewrap"><table>
     <thead><tr><th>파일 (experiments/onair_labelset_20261117/ 아래)</th><th>내용</th></tr></thead>
     <tbody>
