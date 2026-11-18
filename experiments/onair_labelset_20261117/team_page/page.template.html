@@ -380,8 +380,19 @@ svg .m { font-family: var(--mono); }
   <ul>
     <li><b>문항:</b> 띠가 화면에 있는 순간 1,606개(서울 열하루, 109개 경주). 시험용 874개는 식별기를 만들 때 쓰지 않은 엿새입니다.</li>
     <li><b>입력과 출력:</b> 띠를 가린 그림 3장과 경주 정보를 주고, 한국어 중계 한 문장을 받습니다. 말은 "N번"으로 부릅니다.</li>
-    <li><b>정답과 채점:</b> 그 순간 띠의 1~5위가 정답입니다. 문장에 나온 번호가 1~3위가 아니면 틀린 번호로 셉니다. 틀린 문장의 비율과 말한 양을 함께 봅니다.</li>
+    <li><b>정답과 채점:</b> 그 순간 띠의 1~5위가 정답입니다. 문장에 나온 번호가 1~3위가 아니면 틀린 번호로 셉니다. 대표 지표는 <b>선두(띠의 1위)를 맞게 말한 문항과 틀리게 말한 문항의 비율</b>입니다. 둘 다 전체 874문항이 분모라서, 말하지 않으면 점수가 없고 찍으면 틀린 쪽이 올라갑니다.</li>
   </ul>
+  <div class="tablewrap"><table>
+    <thead><tr><th>기준선 (시험용 874문항)</th><th class="num">선두를 맞게 말함 ↑</th><th class="num">선두를 틀리게 말함 ↓</th><th class="num">선두를 말하지 않음</th></tr></thead>
+    <tbody>
+      <tr><td>번호를 말하지 않기 (확정 정보만)</td><td class="num">0.0%</td><td class="num">0.0%</td><td class="num">100.0%</td></tr>
+      <tr><td>무작위로 세 번호</td><td class="num">9.8%</td><td class="num">90.2%</td><td class="num">0.0%</td></tr>
+      <tr><td>화면만 본 모델 (Qwen 9B), "누가 앞서 있는지 중계하라"</td><td class="num">11.4%</td><td class="num">85.7%</td><td class="num">2.9%</td></tr>
+      <tr><td>같은 모델, "확실할 때만 번호를 말하라"</td><td class="num">0.6%</td><td class="num">2.4%</td><td class="num">97.0%</td></tr>
+      <tr><td><b>우리 흐름</b> (식별기 v9 + 문장 틀)</td><td class="num">57.0%</td><td class="num">6.3%</td><td class="num">36.7%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">대표 지표입니다. 확정 정보만 말하면 틀린 문장은 0%이지만 선두를 맞게 말한 문항도 0%입니다. 우리 흐름은 말했을 때 90.1%가 맞지만, 세 번에 한 번은 선두를 말하지 않아 전체로는 57.0%입니다. 아래는 번호 전체를 보는 보조 지표입니다.</p>
   <div class="tablewrap"><table>
     <thead><tr><th>기준선 (시험용)</th><th class="num">문항</th><th class="num">틀린 문장 ↓</th><th class="num">번호 정확도 A ↑</th><th class="num">말한 양 B ↑</th><th class="num">선두 주장</th></tr></thead>
     <tbody>

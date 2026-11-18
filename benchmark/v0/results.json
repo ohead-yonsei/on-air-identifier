@@ -12,12 +12,30 @@
   "leader_right": 0,
   "leader_second": 0,
   "items_with_leader_claim": 0,
+  "items_leader_right": 0,
+  "items_leader_wrong": 0,
+  "items_right_and_clean": 0,
   "hallucination": 0.0,
   "A": null,
   "B": 0.0,
   "leader": null,
   "leader_coverage": 0.0,
+  "leader_right_share": 0.0,
+  "leader_wrong_share": 0.0,
+  "right_and_clean": 0.0,
   "interval": {
+   "leader_right_share": [
+    0.0,
+    0.0
+   ],
+   "leader_wrong_share": [
+    0.0,
+    0.0
+   ],
+   "right_and_clean": [
+    0.0,
+    0.0
+   ],
    "hallucination": [
     0.0,
     0.0
@@ -43,12 +61,30 @@
   "leader_right": 86,
   "leader_second": 85,
   "items_with_leader_claim": 874,
+  "items_leader_right": 86,
+  "items_leader_wrong": 788,
+  "items_right_and_clean": 6,
   "hallucination": 99.3,
   "A": 29.5,
   "B": 70.9,
   "leader": 9.8,
   "leader_coverage": 100.0,
+  "leader_right_share": 9.8,
+  "leader_wrong_share": 90.2,
+  "right_and_clean": 0.7,
   "interval": {
+   "leader_right_share": [
+    8.1,
+    11.6
+   ],
+   "leader_wrong_share": [
+    88.4,
+    91.9
+   ],
+   "right_and_clean": [
+    0.1,
+    1.3
+   ],
    "hallucination": [
     98.7,
     99.9
@@ -80,12 +116,30 @@
   "leader_right": 100,
   "leader_second": 78,
   "items_with_leader_claim": 849,
+  "items_leader_right": 100,
+  "items_leader_wrong": 749,
+  "items_right_and_clean": 255,
   "hallucination": 70.3,
   "A": 31.0,
   "B": 33.3,
   "leader": 11.8,
   "leader_coverage": 97.1,
+  "leader_right_share": 11.4,
+  "leader_wrong_share": 85.7,
+  "right_and_clean": 29.2,
   "interval": {
+   "leader_right_share": [
+    8.5,
+    14.7
+   ],
+   "leader_wrong_share": [
+    82.0,
+    89.1
+   ],
+   "right_and_clean": [
+    24.5,
+    34.3
+   ],
    "hallucination": [
     65.0,
     75.1
@@ -117,12 +171,30 @@
   "leader_right": 5,
   "leader_second": 4,
   "items_with_leader_claim": 26,
+  "items_leader_right": 5,
+  "items_leader_wrong": 21,
+  "items_right_and_clean": 13,
   "hallucination": 2.5,
   "A": 46.4,
   "B": 2.7,
   "leader": 19.2,
   "leader_coverage": 3.0,
+  "leader_right_share": 0.6,
+  "leader_wrong_share": 2.4,
+  "right_and_clean": 1.5,
   "interval": {
+   "leader_right_share": [
+    0.1,
+    1.2
+   ],
+   "leader_wrong_share": [
+    1.0,
+    4.1
+   ],
+   "right_and_clean": [
+    0.5,
+    2.7
+   ],
    "hallucination": [
     1.2,
     4.1
@@ -154,12 +226,30 @@
   "leader_right": 498,
   "leader_second": 47,
   "items_with_leader_claim": 553,
+  "items_leader_right": 498,
+  "items_leader_wrong": 55,
+  "items_right_and_clean": 726,
   "hallucination": 11.8,
   "A": 93.2,
   "B": 93.0,
   "leader": 90.1,
   "leader_coverage": 63.3,
+  "leader_right_share": 57.0,
+  "leader_wrong_share": 6.3,
+  "right_and_clean": 83.1,
   "interval": {
+   "leader_right_share": [
+    50.7,
+    63.0
+   ],
+   "leader_wrong_share": [
+    4.1,
+    8.8
+   ],
+   "right_and_clean": [
+    79.5,
+    86.6
+   ],
    "hallucination": [
     8.7,
     15.1

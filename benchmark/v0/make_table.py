@@ -18,19 +18,23 @@ ROWS = [("confirmed_only", "번호를 말하지 않기 (확정 정보만)"), ("r
         ("ours_identifier_F2", "**우리 흐름** (식별기 v9 + 정해진 문장 틀)")]
 pc = lambda v: "—" if v is None else f"{v:.1f}%"
 res, lines = {}, ["| 기준선 | 문항 | 틀린 문장 비율 ↓ | A 번호 정확도 ↑ | B 말한 양 ↑ | 선두 주장 (맞음 / 말함) |", "|---|---|---|---|---|---|"]
+head = ["| 기준선 | 선두를 맞게 말함 ↑ | 선두를 틀리게 말함 ↓ | 선두를 말하지 않음 | 맞는 번호가 있고 틀린 번호는 없음 ↑ |", "|---|---|---|---|---|"]
 for name, label in ROWS:
     f = HERE / "baselines" / f"{name}.jsonl"
     if not f.exists():
         continue
     rs = [r for r in score.rows(f, "test") if r["answered"]]
     s = score.summarise(rs)
-    s["interval"] = {k: score.interval(rs, k) for k in ("hallucination", "A", "B", "leader")}
+    s["interval"] = {k: score.interval(rs, k) for k in score.KEYS}
     res[name] = s
     iv = lambda k: "" if s["interval"][k] is None else f" ({s['interval'][k][0]:.0f}~{s['interval'][k][1]:.0f})"
     lead = "—" if not s["leader_claims"] else f"{pc(s['leader'])} ({s['leader_right']} / {s['leader_claims']})"
+    none = s["items"] - s["items_leader_right"] - s["items_leader_wrong"]
+    head.append(f"| {label} | {pc(s['leader_right_share'])}{iv('leader_right_share')} ({s['items_leader_right']}) | {pc(s['leader_wrong_share'])}{iv('leader_wrong_share')} ({s['items_leader_wrong']}) "
+                f"| {pc(100 * none / s['items'])} ({none}) | {pc(s['right_and_clean'])}{iv('right_and_clean')} ({s['items_right_and_clean']}) |")
     lines.append(f"| {label} | {s['items']} | {pc(s['hallucination'])}{iv('hallucination')} | {pc(s['A'])}{iv('A')} ({s['numbers_right']} / {s['numbers']}) | {pc(s['B'])}{iv('B')} | {lead} |")
 partial = any(v["items"] < max(x["items"] for x in res.values()) for v in res.values())
-table = "\n".join(lines) + "\n\n괄호 안의 범위는 경주 단위로 다시 뽑은 95% 구간이다." + (" 문항 수가 적은 줄은 아직 다 돌리지 못해 무작위로 뽑힌 일부만 채점한 것이다." if partial else "")
+table = "**대표 지표** (874문항 가운데 그런 문항의 비율과 개수)\n\n" + "\n".join(head) + "\n\n**보조 지표**\n\n" + "\n".join(lines) + "\n\n괄호 안의 범위는 경주 단위로 다시 뽑은 95% 구간이다." + (" 문항 수가 적은 줄은 아직 다 돌리지 못해 무작위로 뽑힌 일부만 채점한 것이다." if partial else "")
 (HERE / "results.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
 readme = (HERE / "README_KO.md").read_text()
 if "RESULTS_TABLE" in readme:

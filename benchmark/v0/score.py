@@ -6,7 +6,13 @@ Horses are referred to by number, written like "4번". Optional fields override 
 "numbers": [..] (the numbers the sentence puts in the leading group), "leader": n or null (the number it calls the leader).
 Items without a line count as "said nothing".
 
-What is counted (the answer is the running-order strip at that moment):
+Headline pair (added 2026-11-18; a system that only ever says safe things scores 0 on the first, a system that guesses scores high on the second):
+  leader right      items whose sentence names a leader, and every leader it names is the strip's first / all items   (higher is better)
+  leader wrong      items whose sentence names a leader that is not the strip's first / all items                     (lower is better)
+  The rest of the items carry no leader claim.
+Also added: right and clean = items with at least one right number and no wrong number / all items (higher is better).
+
+What else is counted (the answer is the running-order strip at that moment):
   wrong number      a stated number that is not among the strip's first three
   hallucination     share of items whose sentence contains at least one wrong number             (lower is better)
   A (precision)     stated numbers that are among the first three / all stated numbers           (higher is better)
@@ -61,10 +67,18 @@ def summarise(rs):
          "numbers_fourth_or_fifth": sum(r["near"] for r in rs), "numbers_not_in_race": sum(r["absent"] for r in rs),
          "items_with_wrong_number": sum(r["said"] > r["right"] for r in rs), "items_with_right_number": sum(r["right"] > 0 for r in rs),
          "leader_claims": sum(r["lead"] for r in rs), "leader_right": sum(r["lead_right"] for r in rs), "leader_second": sum(r["lead_second"] for r in rs),
-         "items_with_leader_claim": sum(r["lead"] > 0 for r in rs)}
+         "items_with_leader_claim": sum(r["lead"] > 0 for r in rs),
+         "items_leader_right": sum(r["lead"] > 0 and r["lead_right"] == r["lead"] for r in rs),
+         "items_leader_wrong": sum(r["lead"] > r["lead_right"] for r in rs),
+         "items_right_and_clean": sum(r["right"] > 0 and r["said"] == r["right"] for r in rs)}
     s.update(hallucination=pct(s["items_with_wrong_number"], n), A=pct(s["numbers_right"], said), B=pct(s["items_with_right_number"], n),
-             leader=pct(s["leader_right"], s["leader_claims"]), leader_coverage=pct(s["items_with_leader_claim"], n))
+             leader=pct(s["leader_right"], s["leader_claims"]), leader_coverage=pct(s["items_with_leader_claim"], n),
+             leader_right_share=pct(s["items_leader_right"], n), leader_wrong_share=pct(s["items_leader_wrong"], n),
+             right_and_clean=pct(s["items_right_and_clean"], n))
     return s
+
+
+KEYS = ("leader_right_share", "leader_wrong_share", "right_and_clean", "hallucination", "A", "B", "leader")
 
 
 def interval(rs, key, n=2000, seed=20261118):
@@ -90,9 +104,12 @@ def main():
     if a.only_answered:
         rs = [r for r in rs if r["answered"]]
     s = summarise(rs)
-    s["interval"] = {k: interval(rs, k) for k in ("hallucination", "A", "B", "leader")}
+    s["interval"] = {k: interval(rs, k) for k in KEYS}
     s.update(split=a.split, races=len({r["race"] for r in rs}), predictions=a.predictions, items_without_a_line=sum(not r["answered"] for r in rs))
     print(f"{a.predictions}  [{a.split}: {s['races']} races, {s['items']} items, {s['items_without_a_line']} without a line]")
+    print(f"  LEADER RIGHT  items naming the strip's first  {s['leader_right_share']}%  ({s['items_leader_right']}/{s['items']})  {s['interval']['leader_right_share']}")
+    print(f"  LEADER WRONG  items naming another leader   {s['leader_wrong_share']}%  ({s['items_leader_wrong']}/{s['items']})  {s['interval']['leader_wrong_share']}")
+    print(f"  right and clean (a right number, no wrong)  {s['right_and_clean']}%  ({s['items_right_and_clean']}/{s['items']})  {s['interval']['right_and_clean']}")
     print(f"  hallucination (items with a wrong number)  {s['hallucination']}%  ({s['items_with_wrong_number']}/{s['items']})  {s['interval']['hallucination']}")
     print(f"  A  right numbers / stated numbers          {s['A']}%  ({s['numbers_right']}/{s['numbers']})  {s['interval']['A']}")
     print(f"  B  items with a right number               {s['B']}%  ({s['items_with_right_number']}/{s['items']})  {s['interval']['B']}")
