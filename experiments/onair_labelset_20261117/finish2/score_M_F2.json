@@ -1,0 +1,963 @@
+{
+ "days": [
+  "otherday6",
+  "otherday7",
+  "otherday8"
+ ],
+ "configs": {
+  "F2": {
+   "races": 24,
+   "races_run": 30,
+   "every_race_run": {
+    "far": {
+     "points": 240,
+     "said": 486,
+     "right": 459,
+     "leader_said": 169,
+     "leader_right": 108,
+     "A": 94.4,
+     "A_lenient": 98.4,
+     "B": 99.2,
+     "B_lenient": 100.0,
+     "leader": 63.9
+    },
+    "last": {
+     "points": 150,
+     "said": 247,
+     "right": 215,
+     "leader_said": 70,
+     "leader_right": 51,
+     "A": 87.0,
+     "A_lenient": 93.9,
+     "B": 90.7,
+     "B_lenient": 92.7,
+     "leader": 72.9
+    },
+    "all": {
+     "points": 390,
+     "said": 733,
+     "right": 674,
+     "leader_said": 239,
+     "leader_right": 159,
+     "A": 92.0,
+     "A_lenient": 96.9,
+     "B": 95.9,
+     "B_lenient": 97.2,
+     "leader": 66.5
+    }
+   },
+   "far": {
+    "points": 192,
+    "said": 395,
+    "right": 375,
+    "right_lenient": 392,
+    "points_good": 190,
+    "points_good_lenient": 192,
+    "points_silent": 0,
+    "points_only_wrong": 2,
+    "leader_said": 133,
+    "leader_right": 84,
+    "leader_right_lenient": 120,
+    "leader_rank": {
+     "1": 84,
+     "2": 36,
+     "3": 10
+    },
+    "mean_lenient_size": 3.84,
+    "mean_front_size": 1.95,
+    "A": 94.9,
+    "A_lenient": 99.2,
+    "B": 99.0,
+    "B_lenient": 100.0,
+    "leader": 63.2,
+    "leader_lenient": 90.2,
+    "leader_coverage": 69.3,
+    "interval": {
+     "A": [
+      91.8,
+      97.7
+     ],
+     "B": [
+      97.4,
+      100.0
+     ],
+     "leader": [
+      49.2,
+      75.6
+     ],
+     "A_lenient": [
+      98.4,
+      100.0
+     ],
+     "B_lenient": [
+      100.0,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 64,
+      "said": 131,
+      "right": 118,
+      "leader_said": 39,
+      "leader_right": 22,
+      "A": 90.1,
+      "A_lenient": 99.2,
+      "B": 96.9,
+      "B_lenient": 100.0,
+      "leader": 56.4
+     },
+     "otherday7": {
+      "points": 64,
+      "said": 132,
+      "right": 128,
+      "leader_said": 49,
+      "leader_right": 34,
+      "A": 97.0,
+      "A_lenient": 99.2,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 69.4
+     },
+     "otherday8": {
+      "points": 64,
+      "said": 132,
+      "right": 129,
+      "leader_said": 45,
+      "leader_right": 28,
+      "A": 97.7,
+      "A_lenient": 99.2,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 62.2
+     }
+    }
+   },
+   "last": {
+    "points": 120,
+    "said": 198,
+    "right": 175,
+    "right_lenient": 188,
+    "points_good": 108,
+    "points_good_lenient": 110,
+    "points_silent": 4,
+    "points_only_wrong": 8,
+    "leader_said": 60,
+    "leader_right": 44,
+    "leader_right_lenient": 54,
+    "leader_rank": {
+     "1": 44,
+     "2": 14,
+     "3": 1
+    },
+    "mean_lenient_size": 4.04,
+    "mean_front_size": 1.67,
+    "A": 88.4,
+    "A_lenient": 94.9,
+    "B": 90.0,
+    "B_lenient": 91.7,
+    "leader": 73.3,
+    "leader_lenient": 90.0,
+    "leader_coverage": 50.0,
+    "interval": {
+     "A": [
+      84.1,
+      92.3
+     ],
+     "B": [
+      85.0,
+      95.0
+     ],
+     "leader": [
+      56.7,
+      88.5
+     ],
+     "A_lenient": [
+      91.3,
+      98.0
+     ],
+     "B_lenient": [
+      86.7,
+      95.8
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 40,
+      "said": 70,
+      "right": 58,
+      "leader_said": 17,
+      "leader_right": 14,
+      "A": 82.9,
+      "A_lenient": 92.9,
+      "B": 90.0,
+      "B_lenient": 92.5,
+      "leader": 82.4
+     },
+     "otherday7": {
+      "points": 40,
+      "said": 71,
+      "right": 66,
+      "leader_said": 20,
+      "leader_right": 10,
+      "A": 93.0,
+      "A_lenient": 100.0,
+      "B": 95.0,
+      "B_lenient": 97.5,
+      "leader": 50.0
+     },
+     "otherday8": {
+      "points": 40,
+      "said": 57,
+      "right": 51,
+      "leader_said": 23,
+      "leader_right": 20,
+      "A": 89.5,
+      "A_lenient": 91.2,
+      "B": 85.0,
+      "B_lenient": 85.0,
+      "leader": 87.0
+     }
+    }
+   },
+   "all": {
+    "points": 312,
+    "said": 593,
+    "right": 550,
+    "right_lenient": 580,
+    "points_good": 298,
+    "points_good_lenient": 302,
+    "points_silent": 4,
+    "points_only_wrong": 10,
+    "leader_said": 193,
+    "leader_right": 128,
+    "leader_right_lenient": 174,
+    "leader_rank": {
+     "1": 128,
+     "2": 50,
+     "3": 11
+    },
+    "mean_lenient_size": 3.92,
+    "mean_front_size": 1.84,
+    "A": 92.7,
+    "A_lenient": 97.8,
+    "B": 95.5,
+    "B_lenient": 96.8,
+    "leader": 66.3,
+    "leader_lenient": 90.2,
+    "leader_coverage": 61.9,
+    "interval": {
+     "A": [
+      89.7,
+      95.4
+     ],
+     "B": [
+      93.6,
+      97.4
+     ],
+     "leader": [
+      55.2,
+      77.3
+     ],
+     "A_lenient": [
+      96.4,
+      99.0
+     ],
+     "B_lenient": [
+      94.9,
+      98.4
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 104,
+      "said": 201,
+      "right": 176,
+      "leader_said": 56,
+      "leader_right": 36,
+      "A": 87.6,
+      "A_lenient": 97.0,
+      "B": 94.2,
+      "B_lenient": 97.1,
+      "leader": 64.3
+     },
+     "otherday7": {
+      "points": 104,
+      "said": 203,
+      "right": 194,
+      "leader_said": 69,
+      "leader_right": 44,
+      "A": 95.6,
+      "A_lenient": 99.5,
+      "B": 98.1,
+      "B_lenient": 99.0,
+      "leader": 63.8
+     },
+     "otherday8": {
+      "points": 104,
+      "said": 189,
+      "right": 180,
+      "leader_said": 68,
+      "leader_right": 48,
+      "A": 95.2,
+      "A_lenient": 96.8,
+      "B": 94.2,
+      "B_lenient": 94.2,
+      "leader": 70.6
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 24,
+     "said": 50,
+     "right": 48,
+     "points_silent": 0,
+     "leader_said": 12,
+     "leader_right": 11,
+     "A": 96.0,
+     "A_lenient": 98.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 24,
+     "said": 47,
+     "right": 47,
+     "points_silent": 0,
+     "leader_said": 9,
+     "leader_right": 8,
+     "A": 100.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 24,
+     "said": 50,
+     "right": 49,
+     "points_silent": 0,
+     "leader_said": 16,
+     "leader_right": 13,
+     "A": 98.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 24,
+     "said": 44,
+     "right": 41,
+     "points_silent": 0,
+     "leader_said": 14,
+     "leader_right": 11,
+     "A": 93.2,
+     "A_lenient": 100.0,
+     "B": 95.8,
+     "B_lenient": 100.0
+    },
+    "24": {
+     "points": 24,
+     "said": 48,
+     "right": 44,
+     "points_silent": 0,
+     "leader_said": 22,
+     "leader_right": 13,
+     "A": 91.7,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 24,
+     "said": 52,
+     "right": 49,
+     "points_silent": 0,
+     "leader_said": 21,
+     "leader_right": 11,
+     "A": 94.2,
+     "A_lenient": 100.0,
+     "B": 95.8,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 24,
+     "said": 50,
+     "right": 46,
+     "points_silent": 0,
+     "leader_said": 20,
+     "leader_right": 9,
+     "A": 92.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 24,
+     "said": 54,
+     "right": 51,
+     "points_silent": 0,
+     "leader_said": 19,
+     "leader_right": 8,
+     "A": 94.4,
+     "A_lenient": 96.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 24,
+     "said": 51,
+     "right": 47,
+     "points_silent": 0,
+     "leader_said": 17,
+     "leader_right": 10,
+     "A": 92.2,
+     "A_lenient": 98.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 24,
+     "said": 49,
+     "right": 45,
+     "points_silent": 0,
+     "leader_said": 15,
+     "leader_right": 12,
+     "A": 91.8,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "6": {
+     "points": 24,
+     "said": 39,
+     "right": 37,
+     "points_silent": 0,
+     "leader_said": 15,
+     "leader_right": 12,
+     "A": 94.9,
+     "A_lenient": 97.4,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "3": {
+     "points": 24,
+     "said": 32,
+     "right": 29,
+     "points_silent": 2,
+     "leader_said": 10,
+     "leader_right": 8,
+     "A": 90.6,
+     "A_lenient": 96.9,
+     "B": 91.7,
+     "B_lenient": 91.7
+    },
+    "0": {
+     "points": 24,
+     "said": 27,
+     "right": 17,
+     "points_silent": 2,
+     "leader_said": 3,
+     "leader_right": 2,
+     "A": 63.0,
+     "A_lenient": 74.1,
+     "B": 58.3,
+     "B_lenient": 66.7
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 24,
+     "said_something": 22,
+     "winner_among_said": 15,
+     "leader_said": 10,
+     "leader_is_winner": 8
+    },
+    "0": {
+     "races": 24,
+     "said_something": 22,
+     "winner_among_said": 6,
+     "leader_said": 3,
+     "leader_is_winner": 2
+    }
+   }
+  },
+  "F2=nofallback": {
+   "races": 24,
+   "races_run": 30,
+   "every_race_run": {
+    "far": {
+     "points": 240,
+     "said": 485,
+     "right": 458,
+     "leader_said": 169,
+     "leader_right": 108,
+     "A": 94.4,
+     "A_lenient": 98.4,
+     "B": 98.8,
+     "B_lenient": 99.6,
+     "leader": 63.9
+    },
+    "last": {
+     "points": 150,
+     "said": 241,
+     "right": 211,
+     "leader_said": 70,
+     "leader_right": 51,
+     "A": 87.6,
+     "A_lenient": 94.2,
+     "B": 88.0,
+     "B_lenient": 89.3,
+     "leader": 72.9
+    },
+    "all": {
+     "points": 390,
+     "said": 726,
+     "right": 669,
+     "leader_said": 239,
+     "leader_right": 159,
+     "A": 92.1,
+     "A_lenient": 97.0,
+     "B": 94.6,
+     "B_lenient": 95.6,
+     "leader": 66.5
+    }
+   },
+   "far": {
+    "points": 192,
+    "said": 395,
+    "right": 375,
+    "right_lenient": 392,
+    "points_good": 190,
+    "points_good_lenient": 192,
+    "points_silent": 0,
+    "points_only_wrong": 2,
+    "leader_said": 133,
+    "leader_right": 84,
+    "leader_right_lenient": 120,
+    "leader_rank": {
+     "1": 84,
+     "2": 36,
+     "3": 10
+    },
+    "mean_lenient_size": 3.84,
+    "mean_front_size": 1.95,
+    "A": 94.9,
+    "A_lenient": 99.2,
+    "B": 99.0,
+    "B_lenient": 100.0,
+    "leader": 63.2,
+    "leader_lenient": 90.2,
+    "leader_coverage": 69.3,
+    "interval": {
+     "A": [
+      91.8,
+      97.7
+     ],
+     "B": [
+      97.4,
+      100.0
+     ],
+     "leader": [
+      49.2,
+      75.6
+     ],
+     "A_lenient": [
+      98.4,
+      100.0
+     ],
+     "B_lenient": [
+      100.0,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 64,
+      "said": 131,
+      "right": 118,
+      "leader_said": 39,
+      "leader_right": 22,
+      "A": 90.1,
+      "A_lenient": 99.2,
+      "B": 96.9,
+      "B_lenient": 100.0,
+      "leader": 56.4
+     },
+     "otherday7": {
+      "points": 64,
+      "said": 132,
+      "right": 128,
+      "leader_said": 49,
+      "leader_right": 34,
+      "A": 97.0,
+      "A_lenient": 99.2,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 69.4
+     },
+     "otherday8": {
+      "points": 64,
+      "said": 132,
+      "right": 129,
+      "leader_said": 45,
+      "leader_right": 28,
+      "A": 97.7,
+      "A_lenient": 99.2,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 62.2
+     }
+    }
+   },
+   "last": {
+    "points": 120,
+    "said": 193,
+    "right": 172,
+    "right_lenient": 184,
+    "points_good": 105,
+    "points_good_lenient": 106,
+    "points_silent": 9,
+    "points_only_wrong": 6,
+    "leader_said": 60,
+    "leader_right": 44,
+    "leader_right_lenient": 54,
+    "leader_rank": {
+     "1": 44,
+     "2": 14,
+     "3": 1
+    },
+    "mean_lenient_size": 4.04,
+    "mean_front_size": 1.67,
+    "A": 89.1,
+    "A_lenient": 95.3,
+    "B": 87.5,
+    "B_lenient": 88.3,
+    "leader": 73.3,
+    "leader_lenient": 90.0,
+    "leader_coverage": 50.0,
+    "interval": {
+     "A": [
+      84.6,
+      93.2
+     ],
+     "B": [
+      82.5,
+      92.5
+     ],
+     "leader": [
+      56.7,
+      88.5
+     ],
+     "A_lenient": [
+      91.5,
+      98.5
+     ],
+     "B_lenient": [
+      83.3,
+      93.3
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 40,
+      "said": 69,
+      "right": 57,
+      "leader_said": 17,
+      "leader_right": 14,
+      "A": 82.6,
+      "A_lenient": 92.8,
+      "B": 87.5,
+      "B_lenient": 90.0,
+      "leader": 82.4
+     },
+     "otherday7": {
+      "points": 40,
+      "said": 68,
+      "right": 64,
+      "leader_said": 20,
+      "leader_right": 10,
+      "A": 94.1,
+      "A_lenient": 100.0,
+      "B": 90.0,
+      "B_lenient": 90.0,
+      "leader": 50.0
+     },
+     "otherday8": {
+      "points": 40,
+      "said": 56,
+      "right": 51,
+      "leader_said": 23,
+      "leader_right": 20,
+      "A": 91.1,
+      "A_lenient": 92.9,
+      "B": 85.0,
+      "B_lenient": 85.0,
+      "leader": 87.0
+     }
+    }
+   },
+   "all": {
+    "points": 312,
+    "said": 588,
+    "right": 547,
+    "right_lenient": 576,
+    "points_good": 295,
+    "points_good_lenient": 298,
+    "points_silent": 9,
+    "points_only_wrong": 8,
+    "leader_said": 193,
+    "leader_right": 128,
+    "leader_right_lenient": 174,
+    "leader_rank": {
+     "1": 128,
+     "2": 50,
+     "3": 11
+    },
+    "mean_lenient_size": 3.92,
+    "mean_front_size": 1.84,
+    "A": 93.0,
+    "A_lenient": 98.0,
+    "B": 94.6,
+    "B_lenient": 95.5,
+    "leader": 66.3,
+    "leader_lenient": 90.2,
+    "leader_coverage": 61.9,
+    "interval": {
+     "A": [
+      89.8,
+      95.8
+     ],
+     "B": [
+      92.6,
+      96.5
+     ],
+     "leader": [
+      55.2,
+      77.3
+     ],
+     "A_lenient": [
+      96.6,
+      99.1
+     ],
+     "B_lenient": [
+      93.6,
+      97.4
+     ]
+    },
+    "by_day": {
+     "otherday6": {
+      "points": 104,
+      "said": 200,
+      "right": 175,
+      "leader_said": 56,
+      "leader_right": 36,
+      "A": 87.5,
+      "A_lenient": 97.0,
+      "B": 93.3,
+      "B_lenient": 96.2,
+      "leader": 64.3
+     },
+     "otherday7": {
+      "points": 104,
+      "said": 200,
+      "right": 192,
+      "leader_said": 69,
+      "leader_right": 44,
+      "A": 96.0,
+      "A_lenient": 99.5,
+      "B": 96.2,
+      "B_lenient": 96.2,
+      "leader": 63.8
+     },
+     "otherday8": {
+      "points": 104,
+      "said": 188,
+      "right": 180,
+      "leader_said": 68,
+      "leader_right": 48,
+      "A": 95.7,
+      "A_lenient": 97.3,
+      "B": 94.2,
+      "B_lenient": 94.2,
+      "leader": 70.6
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 24,
+     "said": 50,
+     "right": 48,
+     "points_silent": 0,
+     "leader_said": 12,
+     "leader_right": 11,
+     "A": 96.0,
+     "A_lenient": 98.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 24,
+     "said": 47,
+     "right": 47,
+     "points_silent": 0,
+     "leader_said": 9,
+     "leader_right": 8,
+     "A": 100.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 24,
+     "said": 50,
+     "right": 49,
+     "points_silent": 0,
+     "leader_said": 16,
+     "leader_right": 13,
+     "A": 98.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 24,
+     "said": 44,
+     "right": 41,
+     "points_silent": 0,
+     "leader_said": 14,
+     "leader_right": 11,
+     "A": 93.2,
+     "A_lenient": 100.0,
+     "B": 95.8,
+     "B_lenient": 100.0
+    },
+    "24": {
+     "points": 24,
+     "said": 48,
+     "right": 44,
+     "points_silent": 0,
+     "leader_said": 22,
+     "leader_right": 13,
+     "A": 91.7,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 24,
+     "said": 52,
+     "right": 49,
+     "points_silent": 0,
+     "leader_said": 21,
+     "leader_right": 11,
+     "A": 94.2,
+     "A_lenient": 100.0,
+     "B": 95.8,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 24,
+     "said": 50,
+     "right": 46,
+     "points_silent": 0,
+     "leader_said": 20,
+     "leader_right": 9,
+     "A": 92.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 24,
+     "said": 54,
+     "right": 51,
+     "points_silent": 0,
+     "leader_said": 19,
+     "leader_right": 8,
+     "A": 94.4,
+     "A_lenient": 96.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 24,
+     "said": 51,
+     "right": 47,
+     "points_silent": 0,
+     "leader_said": 17,
+     "leader_right": 10,
+     "A": 92.2,
+     "A_lenient": 98.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 24,
+     "said": 49,
+     "right": 45,
+     "points_silent": 0,
+     "leader_said": 15,
+     "leader_right": 12,
+     "A": 91.8,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "6": {
+     "points": 24,
+     "said": 39,
+     "right": 37,
+     "points_silent": 0,
+     "leader_said": 15,
+     "leader_right": 12,
+     "A": 94.9,
+     "A_lenient": 97.4,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "3": {
+     "points": 24,
+     "said": 32,
+     "right": 29,
+     "points_silent": 2,
+     "leader_said": 10,
+     "leader_right": 8,
+     "A": 90.6,
+     "A_lenient": 96.9,
+     "B": 91.7,
+     "B_lenient": 91.7
+    },
+    "0": {
+     "points": 24,
+     "said": 22,
+     "right": 14,
+     "points_silent": 7,
+     "leader_said": 3,
+     "leader_right": 2,
+     "A": 63.6,
+     "A_lenient": 72.7,
+     "B": 45.8,
+     "B_lenient": 50.0
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 24,
+     "said_something": 22,
+     "winner_among_said": 15,
+     "leader_said": 10,
+     "leader_is_winner": 8
+    },
+    "0": {
+     "races": 24,
+     "said_something": 17,
+     "winner_among_said": 5,
+     "leader_said": 3,
+     "leader_is_winner": 2
+    }
+   }
+  }
+ }
+}

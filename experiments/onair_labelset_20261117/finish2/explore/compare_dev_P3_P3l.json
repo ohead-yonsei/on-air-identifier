@@ -1,0 +1,69 @@
+{
+ "days": [
+  "otherday",
+  "otherday2",
+  "otherday3",
+  "otherday4",
+  "otherday5",
+  "20261115"
+ ],
+ "races": 52,
+ "base": "P3",
+ "new": "P3l",
+ "point": {
+  "P3": {
+   "leader": 71.7,
+   "leader_lenient": 89.9,
+   "A": 91.6,
+   "B": 93.5,
+   "leader_said": 375,
+   "leader_right": 269,
+   "said": 1192,
+   "right": 1092,
+   "points": 676,
+   "points_good": 632
+  },
+  "P3l": {
+   "leader": 86.5,
+   "leader_lenient": 96.1,
+   "A": 91.6,
+   "B": 93.5,
+   "leader_said": 334,
+   "leader_right": 289,
+   "said": 1192,
+   "right": 1092,
+   "points": 676,
+   "points_good": 632
+  }
+ },
+ "difference": {
+  "leader": {
+   "value": 14.8,
+   "interval": [
+    8.2,
+    21.6
+   ]
+  },
+  "leader_lenient": {
+   "value": 6.2,
+   "interval": [
+    1.9,
+    10.6
+   ]
+  },
+  "A": {
+   "value": 0.0,
+   "interval": [
+    0.0,
+    0.0
+   ]
+  },
+  "B": {
+   "value": 0.0,
+   "interval": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

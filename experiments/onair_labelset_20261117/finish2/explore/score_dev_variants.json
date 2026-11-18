@@ -1,0 +1,4107 @@
+{
+ "days": [
+  "otherday",
+  "otherday2",
+  "otherday3",
+  "otherday4",
+  "otherday5",
+  "20261115"
+ ],
+ "configs": {
+  "F2": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 936,
+     "right": 889,
+     "leader_said": 311,
+     "leader_right": 218,
+     "A": 95.0,
+     "A_lenient": 98.5,
+     "B": 99.4,
+     "B_lenient": 99.4,
+     "leader": 70.1
+    },
+    "last": {
+     "points": 300,
+     "said": 458,
+     "right": 396,
+     "leader_said": 140,
+     "leader_right": 113,
+     "A": 86.5,
+     "A_lenient": 91.9,
+     "B": 84.3,
+     "B_lenient": 87.0,
+     "leader": 80.7
+    },
+    "all": {
+     "points": 780,
+     "said": 1394,
+     "right": 1285,
+     "leader_said": 451,
+     "leader_right": 331,
+     "A": 92.2,
+     "A_lenient": 96.3,
+     "B": 93.6,
+     "B_lenient": 94.6,
+     "leader": 73.4
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 804,
+    "right": 758,
+    "right_lenient": 790,
+    "points_good": 413,
+    "points_good_lenient": 413,
+    "points_silent": 1,
+    "points_only_wrong": 2,
+    "leader_said": 263,
+    "leader_right": 186,
+    "leader_right_lenient": 243,
+    "leader_rank": {
+     "1": 186,
+     "2": 63,
+     "3": 10
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 94.3,
+    "A_lenient": 98.3,
+    "B": 99.3,
+    "B_lenient": 99.3,
+    "leader": 70.7,
+    "leader_lenient": 92.4,
+    "leader_coverage": 63.2,
+    "interval": {
+     "A": [
+      92.1,
+      96.3
+     ],
+     "B": [
+      98.1,
+      100.0
+     ],
+     "leader": [
+      60.8,
+      79.2
+     ],
+     "A_lenient": [
+      97.1,
+      99.2
+     ],
+     "B_lenient": [
+      98.1,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 145,
+      "right": 140,
+      "leader_said": 48,
+      "leader_right": 28,
+      "A": 96.6,
+      "A_lenient": 99.3,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 58.3
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 131,
+      "right": 122,
+      "leader_said": 50,
+      "leader_right": 42,
+      "A": 93.1,
+      "A_lenient": 97.7,
+      "B": 97.2,
+      "B_lenient": 97.2,
+      "leader": 84.0
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 90,
+      "right": 82,
+      "leader_said": 29,
+      "leader_right": 17,
+      "A": 91.1,
+      "A_lenient": 94.4,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 58.6
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 142,
+      "right": 135,
+      "leader_said": 35,
+      "leader_right": 17,
+      "A": 95.1,
+      "A_lenient": 98.6,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 48.6
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 142,
+      "right": 131,
+      "leader_said": 53,
+      "leader_right": 46,
+      "A": 92.3,
+      "A_lenient": 100.0,
+      "B": 98.6,
+      "B_lenient": 98.6,
+      "leader": 86.8
+     },
+     "20261115": {
+      "points": 80,
+      "said": 154,
+      "right": 148,
+      "leader_said": 48,
+      "leader_right": 36,
+      "A": 96.1,
+      "A_lenient": 98.1,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 75.0
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 395,
+    "right": 343,
+    "right_lenient": 363,
+    "points_good": 219,
+    "points_good_lenient": 226,
+    "points_silent": 22,
+    "points_only_wrong": 19,
+    "leader_said": 124,
+    "leader_right": 100,
+    "leader_right_lenient": 109,
+    "leader_rank": {
+     "1": 100,
+     "2": 18,
+     "3": 2
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 86.8,
+    "A_lenient": 91.9,
+    "B": 84.2,
+    "B_lenient": 86.9,
+    "leader": 80.6,
+    "leader_lenient": 87.9,
+    "leader_coverage": 47.7,
+    "interval": {
+     "A": [
+      81.7,
+      91.4
+     ],
+     "B": [
+      79.6,
+      88.8
+     ],
+     "leader": [
+      70.9,
+      89.8
+     ],
+     "A_lenient": [
+      87.7,
+      95.7
+     ],
+     "B_lenient": [
+      82.7,
+      91.2
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 62,
+      "right": 57,
+      "leader_said": 25,
+      "leader_right": 22,
+      "A": 91.9,
+      "A_lenient": 95.2,
+      "B": 80.0,
+      "B_lenient": 80.0,
+      "leader": 88.0
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 65,
+      "right": 55,
+      "leader_said": 20,
+      "leader_right": 19,
+      "A": 84.6,
+      "A_lenient": 95.4,
+      "B": 91.1,
+      "B_lenient": 95.6,
+      "leader": 95.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 48,
+      "right": 38,
+      "leader_said": 12,
+      "leader_right": 8,
+      "A": 79.2,
+      "A_lenient": 79.2,
+      "B": 90.0,
+      "B_lenient": 90.0,
+      "leader": 66.7
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 67,
+      "right": 54,
+      "leader_said": 15,
+      "leader_right": 10,
+      "A": 80.6,
+      "A_lenient": 89.6,
+      "B": 77.8,
+      "B_lenient": 84.4,
+      "leader": 66.7
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 77,
+      "right": 68,
+      "leader_said": 25,
+      "leader_right": 22,
+      "A": 88.3,
+      "A_lenient": 92.2,
+      "B": 84.4,
+      "B_lenient": 88.9,
+      "leader": 88.0
+     },
+     "20261115": {
+      "points": 50,
+      "said": 76,
+      "right": 71,
+      "leader_said": 27,
+      "leader_right": 19,
+      "A": 93.4,
+      "A_lenient": 96.1,
+      "B": 84.0,
+      "B_lenient": 84.0,
+      "leader": 70.4
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1199,
+    "right": 1101,
+    "right_lenient": 1153,
+    "points_good": 632,
+    "points_good_lenient": 639,
+    "points_silent": 23,
+    "points_only_wrong": 21,
+    "leader_said": 387,
+    "leader_right": 286,
+    "leader_right_lenient": 352,
+    "leader_rank": {
+     "1": 286,
+     "2": 81,
+     "3": 12
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 91.8,
+    "A_lenient": 96.2,
+    "B": 93.5,
+    "B_lenient": 94.5,
+    "leader": 73.9,
+    "leader_lenient": 91.0,
+    "leader_coverage": 57.2,
+    "interval": {
+     "A": [
+      89.4,
+      94.0
+     ],
+     "B": [
+      91.6,
+      95.4
+     ],
+     "leader": [
+      66.3,
+      81.0
+     ],
+     "A_lenient": [
+      94.3,
+      97.7
+     ],
+     "B_lenient": [
+      92.8,
+      96.2
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 207,
+      "right": 197,
+      "leader_said": 73,
+      "leader_right": 50,
+      "A": 95.2,
+      "A_lenient": 98.1,
+      "B": 92.3,
+      "B_lenient": 92.3,
+      "leader": 68.5
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 196,
+      "right": 177,
+      "leader_said": 70,
+      "leader_right": 61,
+      "A": 90.3,
+      "A_lenient": 96.9,
+      "B": 94.9,
+      "B_lenient": 96.6,
+      "leader": 87.1
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 138,
+      "right": 120,
+      "leader_said": 41,
+      "leader_right": 25,
+      "A": 87.0,
+      "A_lenient": 89.1,
+      "B": 96.2,
+      "B_lenient": 96.2,
+      "leader": 61.0
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 209,
+      "right": 189,
+      "leader_said": 50,
+      "leader_right": 27,
+      "A": 90.4,
+      "A_lenient": 95.7,
+      "B": 91.5,
+      "B_lenient": 94.0,
+      "leader": 54.0
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 219,
+      "right": 199,
+      "leader_said": 78,
+      "leader_right": 68,
+      "A": 90.9,
+      "A_lenient": 97.3,
+      "B": 93.2,
+      "B_lenient": 94.9,
+      "leader": 87.2
+     },
+     "20261115": {
+      "points": 130,
+      "said": 230,
+      "right": 219,
+      "leader_said": 75,
+      "leader_right": 55,
+      "A": 95.2,
+      "A_lenient": 97.4,
+      "B": 93.8,
+      "B_lenient": 93.8,
+      "leader": 73.3
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 95,
+     "right": 91,
+     "points_silent": 1,
+     "leader_said": 27,
+     "leader_right": 19,
+     "A": 95.8,
+     "A_lenient": 100.0,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "33": {
+     "points": 52,
+     "said": 101,
+     "right": 98,
+     "points_silent": 0,
+     "leader_said": 24,
+     "leader_right": 20,
+     "A": 97.0,
+     "A_lenient": 99.0,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "30": {
+     "points": 52,
+     "said": 101,
+     "right": 96,
+     "points_silent": 0,
+     "leader_said": 27,
+     "leader_right": 17,
+     "A": 95.0,
+     "A_lenient": 99.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 52,
+     "said": 98,
+     "right": 88,
+     "points_silent": 0,
+     "leader_said": 33,
+     "leader_right": 25,
+     "A": 89.8,
+     "A_lenient": 99.0,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "24": {
+     "points": 52,
+     "said": 99,
+     "right": 91,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 22,
+     "A": 91.9,
+     "A_lenient": 97.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 52,
+     "said": 110,
+     "right": 102,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 26,
+     "A": 92.7,
+     "A_lenient": 97.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 52,
+     "said": 99,
+     "right": 96,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 28,
+     "A": 97.0,
+     "A_lenient": 97.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 52,
+     "said": 101,
+     "right": 96,
+     "points_silent": 0,
+     "leader_said": 39,
+     "leader_right": 29,
+     "A": 95.0,
+     "A_lenient": 98.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 105,
+     "right": 94,
+     "points_silent": 0,
+     "leader_said": 35,
+     "leader_right": 27,
+     "A": 89.5,
+     "A_lenient": 95.2,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 88,
+     "right": 81,
+     "points_silent": 2,
+     "leader_said": 32,
+     "leader_right": 23,
+     "A": 92.0,
+     "A_lenient": 96.6,
+     "B": 92.3,
+     "B_lenient": 96.2
+    },
+    "6": {
+     "points": 52,
+     "said": 85,
+     "right": 78,
+     "points_silent": 1,
+     "leader_said": 29,
+     "leader_right": 24,
+     "A": 91.8,
+     "A_lenient": 94.1,
+     "B": 96.2,
+     "B_lenient": 96.2
+    },
+    "3": {
+     "points": 52,
+     "said": 69,
+     "right": 60,
+     "points_silent": 4,
+     "leader_said": 20,
+     "leader_right": 19,
+     "A": 87.0,
+     "A_lenient": 92.8,
+     "B": 86.5,
+     "B_lenient": 88.5
+    },
+    "0": {
+     "points": 52,
+     "said": 48,
+     "right": 30,
+     "points_silent": 15,
+     "leader_said": 8,
+     "leader_right": 7,
+     "A": 62.5,
+     "A_lenient": 70.8,
+     "B": 48.1,
+     "B_lenient": 53.8
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 48,
+     "winner_among_said": 30,
+     "leader_said": 20,
+     "leader_is_winner": 19
+    },
+    "0": {
+     "races": 52,
+     "said_something": 37,
+     "winner_among_said": 16,
+     "leader_said": 8,
+     "leader_is_winner": 7
+    }
+   }
+  },
+  "P3": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 943,
+     "right": 889,
+     "leader_said": 313,
+     "leader_right": 216,
+     "A": 94.3,
+     "A_lenient": 98.2,
+     "B": 99.0,
+     "B_lenient": 99.6,
+     "leader": 69.0
+    },
+    "last": {
+     "points": 300,
+     "said": 448,
+     "right": 391,
+     "leader_said": 132,
+     "leader_right": 102,
+     "A": 87.3,
+     "A_lenient": 93.8,
+     "B": 85.7,
+     "B_lenient": 88.0,
+     "leader": 77.3
+    },
+    "all": {
+     "points": 780,
+     "said": 1391,
+     "right": 1280,
+     "leader_said": 445,
+     "leader_right": 318,
+     "A": 92.0,
+     "A_lenient": 96.8,
+     "B": 93.8,
+     "B_lenient": 95.1,
+     "leader": 71.5
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 806,
+    "right": 753,
+    "right_lenient": 789,
+    "points_good": 411,
+    "points_good_lenient": 414,
+    "points_silent": 2,
+    "points_only_wrong": 3,
+    "leader_said": 260,
+    "leader_right": 180,
+    "leader_right_lenient": 239,
+    "leader_rank": {
+     "1": 180,
+     "2": 67,
+     "3": 11
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 93.4,
+    "A_lenient": 97.9,
+    "B": 98.8,
+    "B_lenient": 99.5,
+    "leader": 69.2,
+    "leader_lenient": 91.9,
+    "leader_coverage": 62.5,
+    "interval": {
+     "A": [
+      91.0,
+      95.6
+     ],
+     "B": [
+      97.4,
+      99.8
+     ],
+     "leader": [
+      58.0,
+      79.1
+     ],
+     "A_lenient": [
+      96.5,
+      98.9
+     ],
+     "B_lenient": [
+      98.6,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 148,
+      "right": 141,
+      "leader_said": 51,
+      "leader_right": 25,
+      "A": 95.3,
+      "A_lenient": 98.0,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 49.0
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 123,
+      "right": 116,
+      "leader_said": 47,
+      "leader_right": 39,
+      "A": 94.3,
+      "A_lenient": 100.0,
+      "B": 97.2,
+      "B_lenient": 97.2,
+      "leader": 83.0
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 92,
+      "right": 84,
+      "leader_said": 26,
+      "leader_right": 17,
+      "A": 91.3,
+      "A_lenient": 92.4,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 65.4
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 139,
+      "right": 132,
+      "leader_said": 31,
+      "leader_right": 16,
+      "A": 95.0,
+      "A_lenient": 97.8,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 51.6
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 151,
+      "right": 135,
+      "leader_said": 51,
+      "leader_right": 43,
+      "A": 89.4,
+      "A_lenient": 98.7,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 84.3
+     },
+     "20261115": {
+      "points": 80,
+      "said": 153,
+      "right": 145,
+      "leader_said": 54,
+      "leader_right": 40,
+      "A": 94.8,
+      "A_lenient": 98.7,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 74.1
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 386,
+    "right": 339,
+    "right_lenient": 362,
+    "points_good": 221,
+    "points_good_lenient": 227,
+    "points_silent": 22,
+    "points_only_wrong": 17,
+    "leader_said": 115,
+    "leader_right": 89,
+    "leader_right_lenient": 98,
+    "leader_rank": {
+     "1": 89,
+     "2": 20,
+     "3": 2
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 87.8,
+    "A_lenient": 93.8,
+    "B": 85.0,
+    "B_lenient": 87.3,
+    "leader": 77.4,
+    "leader_lenient": 85.2,
+    "leader_coverage": 44.2,
+    "interval": {
+     "A": [
+      83.2,
+      92.2
+     ],
+     "B": [
+      80.4,
+      89.6
+     ],
+     "leader": [
+      66.1,
+      87.0
+     ],
+     "A_lenient": [
+      90.2,
+      97.0
+     ],
+     "B_lenient": [
+      83.1,
+      91.5
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 63,
+      "right": 58,
+      "leader_said": 18,
+      "leader_right": 14,
+      "A": 92.1,
+      "A_lenient": 95.2,
+      "B": 82.2,
+      "B_lenient": 82.2,
+      "leader": 77.8
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 66,
+      "right": 55,
+      "leader_said": 16,
+      "leader_right": 16,
+      "A": 83.3,
+      "A_lenient": 95.5,
+      "B": 86.7,
+      "B_lenient": 91.1,
+      "leader": 100.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 49,
+      "right": 41,
+      "leader_said": 14,
+      "leader_right": 11,
+      "A": 83.7,
+      "A_lenient": 83.7,
+      "B": 93.3,
+      "B_lenient": 93.3,
+      "leader": 78.6
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 61,
+      "right": 51,
+      "leader_said": 14,
+      "leader_right": 9,
+      "A": 83.6,
+      "A_lenient": 91.8,
+      "B": 80.0,
+      "B_lenient": 84.4,
+      "leader": 64.3
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 67,
+      "right": 60,
+      "leader_said": 30,
+      "leader_right": 24,
+      "A": 89.6,
+      "A_lenient": 94.0,
+      "B": 82.2,
+      "B_lenient": 86.7,
+      "leader": 80.0
+     },
+     "20261115": {
+      "points": 50,
+      "said": 80,
+      "right": 74,
+      "leader_said": 23,
+      "leader_right": 15,
+      "A": 92.5,
+      "A_lenient": 98.8,
+      "B": 88.0,
+      "B_lenient": 88.0,
+      "leader": 65.2
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1192,
+    "right": 1092,
+    "right_lenient": 1151,
+    "points_good": 632,
+    "points_good_lenient": 641,
+    "points_silent": 24,
+    "points_only_wrong": 20,
+    "leader_said": 375,
+    "leader_right": 269,
+    "leader_right_lenient": 337,
+    "leader_rank": {
+     "1": 269,
+     "2": 87,
+     "3": 13
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 91.6,
+    "A_lenient": 96.6,
+    "B": 93.5,
+    "B_lenient": 94.8,
+    "leader": 71.7,
+    "leader_lenient": 89.9,
+    "leader_coverage": 55.5,
+    "interval": {
+     "A": [
+      89.1,
+      93.8
+     ],
+     "B": [
+      91.4,
+      95.6
+     ],
+     "leader": [
+      63.2,
+      79.7
+     ],
+     "A_lenient": [
+      94.7,
+      98.0
+     ],
+     "B_lenient": [
+      92.8,
+      96.7
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 211,
+      "right": 199,
+      "leader_said": 69,
+      "leader_right": 39,
+      "A": 94.3,
+      "A_lenient": 97.2,
+      "B": 92.3,
+      "B_lenient": 93.2,
+      "leader": 56.5
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 189,
+      "right": 171,
+      "leader_said": 63,
+      "leader_right": 55,
+      "A": 90.5,
+      "A_lenient": 98.4,
+      "B": 93.2,
+      "B_lenient": 94.9,
+      "leader": 87.3
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 141,
+      "right": 125,
+      "leader_said": 40,
+      "leader_right": 28,
+      "A": 88.7,
+      "A_lenient": 89.4,
+      "B": 97.4,
+      "B_lenient": 97.4,
+      "leader": 70.0
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 200,
+      "right": 183,
+      "leader_said": 45,
+      "leader_right": 25,
+      "A": 91.5,
+      "A_lenient": 96.0,
+      "B": 91.5,
+      "B_lenient": 94.0,
+      "leader": 55.6
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 218,
+      "right": 195,
+      "leader_said": 81,
+      "leader_right": 67,
+      "A": 89.4,
+      "A_lenient": 97.2,
+      "B": 92.3,
+      "B_lenient": 94.9,
+      "leader": 82.7
+     },
+     "20261115": {
+      "points": 130,
+      "said": 233,
+      "right": 219,
+      "leader_said": 77,
+      "leader_right": 55,
+      "A": 94.0,
+      "A_lenient": 98.7,
+      "B": 95.4,
+      "B_lenient": 95.4,
+      "leader": 71.4
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 96,
+     "right": 91,
+     "points_silent": 1,
+     "leader_said": 28,
+     "leader_right": 22,
+     "A": 94.8,
+     "A_lenient": 100.0,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "33": {
+     "points": 52,
+     "said": 99,
+     "right": 94,
+     "points_silent": 0,
+     "leader_said": 23,
+     "leader_right": 17,
+     "A": 94.9,
+     "A_lenient": 99.0,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 52,
+     "said": 103,
+     "right": 99,
+     "points_silent": 0,
+     "leader_said": 27,
+     "leader_right": 18,
+     "A": 96.1,
+     "A_lenient": 99.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 52,
+     "said": 94,
+     "right": 83,
+     "points_silent": 1,
+     "leader_said": 31,
+     "leader_right": 22,
+     "A": 88.3,
+     "A_lenient": 97.9,
+     "B": 96.2,
+     "B_lenient": 98.1
+    },
+    "24": {
+     "points": 52,
+     "said": 102,
+     "right": 95,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 22,
+     "A": 93.1,
+     "A_lenient": 97.1,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 52,
+     "said": 108,
+     "right": 101,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 26,
+     "A": 93.5,
+     "A_lenient": 98.1,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 52,
+     "said": 102,
+     "right": 97,
+     "points_silent": 0,
+     "leader_said": 40,
+     "leader_right": 28,
+     "A": 95.1,
+     "A_lenient": 96.1,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 52,
+     "said": 102,
+     "right": 93,
+     "points_silent": 0,
+     "leader_said": 36,
+     "leader_right": 25,
+     "A": 91.2,
+     "A_lenient": 96.1,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 100,
+     "right": 89,
+     "points_silent": 0,
+     "leader_said": 36,
+     "leader_right": 26,
+     "A": 89.0,
+     "A_lenient": 96.0,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 89,
+     "right": 82,
+     "points_silent": 1,
+     "leader_said": 30,
+     "leader_right": 22,
+     "A": 92.1,
+     "A_lenient": 97.8,
+     "B": 94.2,
+     "B_lenient": 98.1
+    },
+    "6": {
+     "points": 52,
+     "said": 83,
+     "right": 74,
+     "points_silent": 1,
+     "leader_said": 23,
+     "leader_right": 19,
+     "A": 89.2,
+     "A_lenient": 94.0,
+     "B": 94.2,
+     "B_lenient": 94.2
+    },
+    "3": {
+     "points": 52,
+     "said": 67,
+     "right": 60,
+     "points_silent": 4,
+     "leader_said": 17,
+     "leader_right": 16,
+     "A": 89.6,
+     "A_lenient": 95.5,
+     "B": 84.6,
+     "B_lenient": 86.5
+    },
+    "0": {
+     "points": 52,
+     "said": 47,
+     "right": 34,
+     "points_silent": 16,
+     "leader_said": 9,
+     "leader_right": 6,
+     "A": 72.3,
+     "A_lenient": 78.7,
+     "B": 53.8,
+     "B_lenient": 57.7
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 48,
+     "winner_among_said": 31,
+     "leader_said": 17,
+     "leader_is_winner": 16
+    },
+    "0": {
+     "races": 52,
+     "said_something": 36,
+     "winner_among_said": 17,
+     "leader_said": 9,
+     "leader_is_winner": 6
+    }
+   }
+  },
+  "P6": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 1016,
+     "right": 950,
+     "leader_said": 343,
+     "leader_right": 236,
+     "A": 93.5,
+     "A_lenient": 97.7,
+     "B": 99.6,
+     "B_lenient": 99.8,
+     "leader": 68.8
+    },
+    "last": {
+     "points": 300,
+     "said": 471,
+     "right": 414,
+     "leader_said": 149,
+     "leader_right": 119,
+     "A": 87.9,
+     "A_lenient": 93.2,
+     "B": 88.0,
+     "B_lenient": 89.3,
+     "leader": 79.9
+    },
+    "all": {
+     "points": 780,
+     "said": 1487,
+     "right": 1364,
+     "leader_said": 492,
+     "leader_right": 355,
+     "A": 91.7,
+     "A_lenient": 96.3,
+     "B": 95.1,
+     "B_lenient": 95.8,
+     "leader": 72.2
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 874,
+    "right": 810,
+    "right_lenient": 852,
+    "points_good": 414,
+    "points_good_lenient": 415,
+    "points_silent": 0,
+    "points_only_wrong": 2,
+    "leader_said": 290,
+    "leader_right": 201,
+    "leader_right_lenient": 266,
+    "leader_rank": {
+     "1": 201,
+     "2": 76,
+     "3": 10
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 92.7,
+    "A_lenient": 97.5,
+    "B": 99.5,
+    "B_lenient": 99.8,
+    "leader": 69.3,
+    "leader_lenient": 91.7,
+    "leader_coverage": 69.7,
+    "interval": {
+     "A": [
+      90.2,
+      94.9
+     ],
+     "B": [
+      98.8,
+      100.0
+     ],
+     "leader": [
+      58.3,
+      79.0
+     ],
+     "A_lenient": [
+      96.1,
+      98.6
+     ],
+     "B_lenient": [
+      99.3,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 157,
+      "right": 152,
+      "leader_said": 57,
+      "leader_right": 29,
+      "A": 96.8,
+      "A_lenient": 99.4,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 50.9
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 142,
+      "right": 130,
+      "leader_said": 47,
+      "leader_right": 40,
+      "A": 91.5,
+      "A_lenient": 97.2,
+      "B": 98.6,
+      "B_lenient": 98.6,
+      "leader": 85.1
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 102,
+      "right": 92,
+      "leader_said": 36,
+      "leader_right": 20,
+      "A": 90.2,
+      "A_lenient": 93.1,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 55.6
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 149,
+      "right": 139,
+      "leader_said": 36,
+      "leader_right": 20,
+      "A": 93.3,
+      "A_lenient": 98.0,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 55.6
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 157,
+      "right": 141,
+      "leader_said": 55,
+      "leader_right": 47,
+      "A": 89.8,
+      "A_lenient": 98.7,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 85.5
+     },
+     "20261115": {
+      "points": 80,
+      "said": 167,
+      "right": 156,
+      "leader_said": 59,
+      "leader_right": 45,
+      "A": 93.4,
+      "A_lenient": 97.0,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 76.3
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 407,
+    "right": 358,
+    "right_lenient": 379,
+    "points_good": 226,
+    "points_good_lenient": 229,
+    "points_silent": 19,
+    "points_only_wrong": 15,
+    "leader_said": 132,
+    "leader_right": 105,
+    "leader_right_lenient": 114,
+    "leader_rank": {
+     "1": 105,
+     "2": 17,
+     "3": 3
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 88.0,
+    "A_lenient": 93.1,
+    "B": 86.9,
+    "B_lenient": 88.1,
+    "leader": 79.5,
+    "leader_lenient": 86.4,
+    "leader_coverage": 50.8,
+    "interval": {
+     "A": [
+      83.6,
+      92.1
+     ],
+     "B": [
+      82.7,
+      91.2
+     ],
+     "leader": [
+      70.0,
+      88.2
+     ],
+     "A_lenient": [
+      89.3,
+      96.5
+     ],
+     "B_lenient": [
+      84.2,
+      92.3
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 75,
+      "right": 69,
+      "leader_said": 21,
+      "leader_right": 17,
+      "A": 92.0,
+      "A_lenient": 96.0,
+      "B": 84.4,
+      "B_lenient": 84.4,
+      "leader": 81.0
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 67,
+      "right": 59,
+      "leader_said": 22,
+      "leader_right": 22,
+      "A": 88.1,
+      "A_lenient": 98.5,
+      "B": 95.6,
+      "B_lenient": 97.8,
+      "leader": 100.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 45,
+      "right": 37,
+      "leader_said": 17,
+      "leader_right": 11,
+      "A": 82.2,
+      "A_lenient": 82.2,
+      "B": 90.0,
+      "B_lenient": 90.0,
+      "leader": 64.7
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 69,
+      "right": 56,
+      "leader_said": 16,
+      "leader_right": 11,
+      "A": 81.2,
+      "A_lenient": 88.4,
+      "B": 82.2,
+      "B_lenient": 84.4,
+      "leader": 68.8
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 72,
+      "right": 62,
+      "leader_said": 30,
+      "leader_right": 25,
+      "A": 86.1,
+      "A_lenient": 90.3,
+      "B": 82.2,
+      "B_lenient": 84.4,
+      "leader": 83.3
+     },
+     "20261115": {
+      "points": 50,
+      "said": 79,
+      "right": 75,
+      "leader_said": 26,
+      "leader_right": 19,
+      "A": 94.9,
+      "A_lenient": 98.7,
+      "B": 88.0,
+      "B_lenient": 88.0,
+      "leader": 73.1
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1281,
+    "right": 1168,
+    "right_lenient": 1231,
+    "points_good": 640,
+    "points_good_lenient": 644,
+    "points_silent": 19,
+    "points_only_wrong": 17,
+    "leader_said": 422,
+    "leader_right": 306,
+    "leader_right_lenient": 380,
+    "leader_rank": {
+     "1": 306,
+     "2": 93,
+     "3": 13
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 91.2,
+    "A_lenient": 96.1,
+    "B": 94.7,
+    "B_lenient": 95.3,
+    "leader": 72.5,
+    "leader_lenient": 90.0,
+    "leader_coverage": 62.4,
+    "interval": {
+     "A": [
+      88.8,
+      93.3
+     ],
+     "B": [
+      93.2,
+      96.3
+     ],
+     "leader": [
+      63.9,
+      80.3
+     ],
+     "A_lenient": [
+      94.2,
+      97.6
+     ],
+     "B_lenient": [
+      93.8,
+      96.9
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 232,
+      "right": 221,
+      "leader_said": 78,
+      "leader_right": 46,
+      "A": 95.3,
+      "A_lenient": 98.3,
+      "B": 94.0,
+      "B_lenient": 94.0,
+      "leader": 59.0
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 209,
+      "right": 189,
+      "leader_said": 69,
+      "leader_right": 62,
+      "A": 90.4,
+      "A_lenient": 97.6,
+      "B": 97.4,
+      "B_lenient": 98.3,
+      "leader": 89.9
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 147,
+      "right": 129,
+      "leader_said": 53,
+      "leader_right": 31,
+      "A": 87.8,
+      "A_lenient": 89.8,
+      "B": 96.2,
+      "B_lenient": 96.2,
+      "leader": 58.5
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 218,
+      "right": 195,
+      "leader_said": 52,
+      "leader_right": 31,
+      "A": 89.4,
+      "A_lenient": 95.0,
+      "B": 93.2,
+      "B_lenient": 94.0,
+      "leader": 59.6
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 229,
+      "right": 203,
+      "leader_said": 85,
+      "leader_right": 72,
+      "A": 88.6,
+      "A_lenient": 96.1,
+      "B": 92.3,
+      "B_lenient": 94.0,
+      "leader": 84.7
+     },
+     "20261115": {
+      "points": 130,
+      "said": 246,
+      "right": 231,
+      "leader_said": 85,
+      "leader_right": 64,
+      "A": 93.9,
+      "A_lenient": 97.6,
+      "B": 95.4,
+      "B_lenient": 95.4,
+      "leader": 75.3
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 100,
+     "right": 95,
+     "points_silent": 0,
+     "leader_said": 30,
+     "leader_right": 24,
+     "A": 95.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 52,
+     "said": 110,
+     "right": 104,
+     "points_silent": 0,
+     "leader_said": 27,
+     "leader_right": 20,
+     "A": 94.5,
+     "A_lenient": 98.2,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 52,
+     "said": 108,
+     "right": 104,
+     "points_silent": 0,
+     "leader_said": 31,
+     "leader_right": 19,
+     "A": 96.3,
+     "A_lenient": 99.1,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 52,
+     "said": 107,
+     "right": 93,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 29,
+     "A": 86.9,
+     "A_lenient": 97.2,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "24": {
+     "points": 52,
+     "said": 111,
+     "right": 103,
+     "points_silent": 0,
+     "leader_said": 41,
+     "leader_right": 26,
+     "A": 92.8,
+     "A_lenient": 98.2,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 52,
+     "said": 117,
+     "right": 107,
+     "points_silent": 0,
+     "leader_said": 41,
+     "leader_right": 29,
+     "A": 91.5,
+     "A_lenient": 95.7,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 52,
+     "said": 112,
+     "right": 104,
+     "points_silent": 0,
+     "leader_said": 41,
+     "leader_right": 29,
+     "A": 92.9,
+     "A_lenient": 94.6,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 52,
+     "said": 109,
+     "right": 100,
+     "points_silent": 0,
+     "leader_said": 41,
+     "leader_right": 25,
+     "A": 91.7,
+     "A_lenient": 97.2,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 108,
+     "right": 97,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 27,
+     "A": 89.8,
+     "A_lenient": 96.3,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 94,
+     "right": 85,
+     "points_silent": 0,
+     "leader_said": 32,
+     "leader_right": 24,
+     "A": 90.4,
+     "A_lenient": 94.7,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "6": {
+     "points": 52,
+     "said": 85,
+     "right": 79,
+     "points_silent": 1,
+     "leader_said": 30,
+     "leader_right": 25,
+     "A": 92.9,
+     "A_lenient": 95.3,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "3": {
+     "points": 52,
+     "said": 70,
+     "right": 61,
+     "points_silent": 4,
+     "leader_said": 21,
+     "leader_right": 21,
+     "A": 87.1,
+     "A_lenient": 92.9,
+     "B": 84.6,
+     "B_lenient": 84.6
+    },
+    "0": {
+     "points": 52,
+     "said": 50,
+     "right": 36,
+     "points_silent": 14,
+     "leader_said": 11,
+     "leader_right": 8,
+     "A": 72.0,
+     "A_lenient": 80.0,
+     "B": 55.8,
+     "B_lenient": 59.6
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 48,
+     "winner_among_said": 28,
+     "leader_said": 21,
+     "leader_is_winner": 20
+    },
+    "0": {
+     "races": 52,
+     "said_something": 38,
+     "winner_among_said": 20,
+     "leader_said": 11,
+     "leader_is_winner": 8
+    }
+   }
+  },
+  "M3c": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 837,
+     "right": 757,
+     "leader_said": 248,
+     "leader_right": 164,
+     "A": 90.4,
+     "A_lenient": 94.0,
+     "B": 93.3,
+     "B_lenient": 94.6,
+     "leader": 66.1
+    },
+    "last": {
+     "points": 300,
+     "said": 475,
+     "right": 411,
+     "leader_said": 156,
+     "leader_right": 125,
+     "A": 86.5,
+     "A_lenient": 91.8,
+     "B": 88.0,
+     "B_lenient": 90.7,
+     "leader": 80.1
+    },
+    "all": {
+     "points": 780,
+     "said": 1312,
+     "right": 1168,
+     "leader_said": 404,
+     "leader_right": 289,
+     "A": 89.0,
+     "A_lenient": 93.2,
+     "B": 91.3,
+     "B_lenient": 93.1,
+     "leader": 71.5
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 713,
+    "right": 647,
+    "right_lenient": 674,
+    "points_good": 389,
+    "points_good_lenient": 394,
+    "points_silent": 12,
+    "points_only_wrong": 15,
+    "leader_said": 210,
+    "leader_right": 141,
+    "leader_right_lenient": 184,
+    "leader_rank": {
+     "1": 141,
+     "2": 51,
+     "3": 10
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 90.7,
+    "A_lenient": 94.5,
+    "B": 93.5,
+    "B_lenient": 94.7,
+    "leader": 67.1,
+    "leader_lenient": 87.6,
+    "leader_coverage": 50.5,
+    "interval": {
+     "A": [
+      87.5,
+      93.4
+     ],
+     "B": [
+      90.4,
+      96.2
+     ],
+     "leader": [
+      57.2,
+      76.7
+     ],
+     "A_lenient": [
+      92.5,
+      96.3
+     ],
+     "B_lenient": [
+      91.8,
+      97.1
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 129,
+      "right": 119,
+      "leader_said": 42,
+      "leader_right": 20,
+      "A": 92.2,
+      "A_lenient": 95.3,
+      "B": 95.8,
+      "B_lenient": 95.8,
+      "leader": 47.6
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 112,
+      "right": 101,
+      "leader_said": 39,
+      "leader_right": 32,
+      "A": 90.2,
+      "A_lenient": 93.8,
+      "B": 90.3,
+      "B_lenient": 93.1,
+      "leader": 82.1
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 82,
+      "right": 74,
+      "leader_said": 24,
+      "leader_right": 15,
+      "A": 90.2,
+      "A_lenient": 92.7,
+      "B": 95.8,
+      "B_lenient": 95.8,
+      "leader": 62.5
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 121,
+      "right": 114,
+      "leader_said": 20,
+      "leader_right": 11,
+      "A": 94.2,
+      "A_lenient": 95.9,
+      "B": 93.1,
+      "B_lenient": 93.1,
+      "leader": 55.0
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 129,
+      "right": 116,
+      "leader_said": 45,
+      "leader_right": 35,
+      "A": 89.9,
+      "A_lenient": 97.7,
+      "B": 94.4,
+      "B_lenient": 97.2,
+      "leader": 77.8
+     },
+     "20261115": {
+      "points": 80,
+      "said": 140,
+      "right": 123,
+      "leader_said": 40,
+      "leader_right": 28,
+      "A": 87.9,
+      "A_lenient": 91.4,
+      "B": 92.5,
+      "B_lenient": 93.8,
+      "leader": 70.0
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 415,
+    "right": 358,
+    "right_lenient": 380,
+    "points_good": 227,
+    "points_good_lenient": 234,
+    "points_silent": 17,
+    "points_only_wrong": 16,
+    "leader_said": 138,
+    "leader_right": 111,
+    "leader_right_lenient": 120,
+    "leader_rank": {
+     "1": 111,
+     "2": 17,
+     "3": 3
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 86.3,
+    "A_lenient": 91.6,
+    "B": 87.3,
+    "B_lenient": 90.0,
+    "leader": 80.4,
+    "leader_lenient": 87.0,
+    "leader_coverage": 53.1,
+    "interval": {
+     "A": [
+      80.9,
+      91.1
+     ],
+     "B": [
+      82.7,
+      91.9
+     ],
+     "leader": [
+      70.4,
+      89.6
+     ],
+     "A_lenient": [
+      87.2,
+      95.4
+     ],
+     "B_lenient": [
+      86.2,
+      94.2
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 67,
+      "right": 61,
+      "leader_said": 30,
+      "leader_right": 24,
+      "A": 91.0,
+      "A_lenient": 94.0,
+      "B": 84.4,
+      "B_lenient": 84.4,
+      "leader": 80.0
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 71,
+      "right": 59,
+      "leader_said": 22,
+      "leader_right": 22,
+      "A": 83.1,
+      "A_lenient": 90.1,
+      "B": 93.3,
+      "B_lenient": 93.3,
+      "leader": 100.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 52,
+      "right": 42,
+      "leader_said": 13,
+      "leader_right": 8,
+      "A": 80.8,
+      "A_lenient": 80.8,
+      "B": 90.0,
+      "B_lenient": 90.0,
+      "leader": 61.5
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 68,
+      "right": 59,
+      "leader_said": 17,
+      "leader_right": 10,
+      "A": 86.8,
+      "A_lenient": 91.2,
+      "B": 84.4,
+      "B_lenient": 88.9,
+      "leader": 58.8
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 75,
+      "right": 65,
+      "leader_said": 28,
+      "leader_right": 27,
+      "A": 86.7,
+      "A_lenient": 93.3,
+      "B": 84.4,
+      "B_lenient": 88.9,
+      "leader": 96.4
+     },
+     "20261115": {
+      "points": 50,
+      "said": 82,
+      "right": 72,
+      "leader_said": 28,
+      "leader_right": 20,
+      "A": 87.8,
+      "A_lenient": 96.3,
+      "B": 88.0,
+      "B_lenient": 94.0,
+      "leader": 71.4
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1128,
+    "right": 1005,
+    "right_lenient": 1054,
+    "points_good": 616,
+    "points_good_lenient": 628,
+    "points_silent": 29,
+    "points_only_wrong": 31,
+    "leader_said": 348,
+    "leader_right": 252,
+    "leader_right_lenient": 304,
+    "leader_rank": {
+     "1": 252,
+     "2": 68,
+     "3": 13
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 89.1,
+    "A_lenient": 93.4,
+    "B": 91.1,
+    "B_lenient": 92.9,
+    "leader": 72.4,
+    "leader_lenient": 87.4,
+    "leader_coverage": 51.5,
+    "interval": {
+     "A": [
+      86.0,
+      92.0
+     ],
+     "B": [
+      88.3,
+      93.8
+     ],
+     "leader": [
+      64.0,
+      80.3
+     ],
+     "A_lenient": [
+      91.2,
+      95.5
+     ],
+     "B_lenient": [
+      90.4,
+      95.3
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 196,
+      "right": 180,
+      "leader_said": 72,
+      "leader_right": 44,
+      "A": 91.8,
+      "A_lenient": 94.9,
+      "B": 91.5,
+      "B_lenient": 91.5,
+      "leader": 61.1
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 183,
+      "right": 160,
+      "leader_said": 61,
+      "leader_right": 54,
+      "A": 87.4,
+      "A_lenient": 92.3,
+      "B": 91.5,
+      "B_lenient": 93.2,
+      "leader": 88.5
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 134,
+      "right": 116,
+      "leader_said": 37,
+      "leader_right": 23,
+      "A": 86.6,
+      "A_lenient": 88.1,
+      "B": 93.6,
+      "B_lenient": 93.6,
+      "leader": 62.2
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 189,
+      "right": 173,
+      "leader_said": 37,
+      "leader_right": 21,
+      "A": 91.5,
+      "A_lenient": 94.2,
+      "B": 89.7,
+      "B_lenient": 91.5,
+      "leader": 56.8
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 204,
+      "right": 181,
+      "leader_said": 73,
+      "leader_right": 62,
+      "A": 88.7,
+      "A_lenient": 96.1,
+      "B": 90.6,
+      "B_lenient": 94.0,
+      "leader": 84.9
+     },
+     "20261115": {
+      "points": 130,
+      "said": 222,
+      "right": 195,
+      "leader_said": 68,
+      "leader_right": 48,
+      "A": 87.8,
+      "A_lenient": 93.2,
+      "B": 90.8,
+      "B_lenient": 93.8,
+      "leader": 70.6
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 95,
+     "right": 91,
+     "points_silent": 1,
+     "leader_said": 30,
+     "leader_right": 25,
+     "A": 95.8,
+     "A_lenient": 100.0,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "33": {
+     "points": 52,
+     "said": 102,
+     "right": 95,
+     "points_silent": 1,
+     "leader_said": 21,
+     "leader_right": 16,
+     "A": 93.1,
+     "A_lenient": 95.1,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "30": {
+     "points": 52,
+     "said": 80,
+     "right": 71,
+     "points_silent": 2,
+     "leader_said": 18,
+     "leader_right": 8,
+     "A": 88.8,
+     "A_lenient": 92.5,
+     "B": 92.3,
+     "B_lenient": 92.3
+    },
+    "27": {
+     "points": 52,
+     "said": 74,
+     "right": 64,
+     "points_silent": 4,
+     "leader_said": 17,
+     "leader_right": 12,
+     "A": 86.5,
+     "A_lenient": 93.2,
+     "B": 82.7,
+     "B_lenient": 88.5
+    },
+    "24": {
+     "points": 52,
+     "said": 76,
+     "right": 63,
+     "points_silent": 4,
+     "leader_said": 19,
+     "leader_right": 8,
+     "A": 82.9,
+     "A_lenient": 88.2,
+     "B": 82.7,
+     "B_lenient": 84.6
+    },
+    "21": {
+     "points": 52,
+     "said": 90,
+     "right": 82,
+     "points_silent": 0,
+     "leader_said": 31,
+     "leader_right": 21,
+     "A": 91.1,
+     "A_lenient": 93.3,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "18": {
+     "points": 52,
+     "said": 98,
+     "right": 89,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 25,
+     "A": 90.8,
+     "A_lenient": 92.9,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "15": {
+     "points": 52,
+     "said": 98,
+     "right": 92,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 26,
+     "A": 93.9,
+     "A_lenient": 99.0,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 97,
+     "right": 85,
+     "points_silent": 0,
+     "leader_said": 36,
+     "leader_right": 26,
+     "A": 87.6,
+     "A_lenient": 95.9,
+     "B": 96.2,
+     "B_lenient": 96.2
+    },
+    "9": {
+     "points": 52,
+     "said": 103,
+     "right": 88,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 26,
+     "A": 85.4,
+     "A_lenient": 93.2,
+     "B": 92.3,
+     "B_lenient": 98.1
+    },
+    "6": {
+     "points": 52,
+     "said": 86,
+     "right": 78,
+     "points_silent": 0,
+     "leader_said": 31,
+     "leader_right": 27,
+     "A": 90.7,
+     "A_lenient": 91.9,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "3": {
+     "points": 52,
+     "said": 74,
+     "right": 65,
+     "points_silent": 4,
+     "leader_said": 24,
+     "leader_right": 22,
+     "A": 87.8,
+     "A_lenient": 90.5,
+     "B": 88.5,
+     "B_lenient": 90.4
+    },
+    "0": {
+     "points": 52,
+     "said": 55,
+     "right": 42,
+     "points_silent": 13,
+     "leader_said": 10,
+     "leader_right": 10,
+     "A": 76.4,
+     "A_lenient": 81.8,
+     "B": 61.5,
+     "B_lenient": 65.4
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 48,
+     "winner_among_said": 32,
+     "leader_said": 24,
+     "leader_is_winner": 22
+    },
+    "0": {
+     "races": 52,
+     "said_something": 39,
+     "winner_among_said": 22,
+     "leader_said": 10,
+     "leader_is_winner": 10
+    }
+   }
+  },
+  "M6c": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 902,
+     "right": 805,
+     "leader_said": 266,
+     "leader_right": 173,
+     "A": 89.2,
+     "A_lenient": 93.5,
+     "B": 94.0,
+     "B_lenient": 95.0,
+     "leader": 65.0
+    },
+    "last": {
+     "points": 300,
+     "said": 515,
+     "right": 440,
+     "leader_said": 175,
+     "leader_right": 133,
+     "A": 85.4,
+     "A_lenient": 91.3,
+     "B": 91.3,
+     "B_lenient": 93.3,
+     "leader": 76.0
+    },
+    "all": {
+     "points": 780,
+     "said": 1417,
+     "right": 1245,
+     "leader_said": 441,
+     "leader_right": 306,
+     "A": 87.9,
+     "A_lenient": 92.7,
+     "B": 92.9,
+     "B_lenient": 94.4,
+     "leader": 69.4
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 776,
+    "right": 695,
+    "right_lenient": 729,
+    "points_good": 393,
+    "points_good_lenient": 397,
+    "points_silent": 6,
+    "points_only_wrong": 17,
+    "leader_said": 224,
+    "leader_right": 147,
+    "leader_right_lenient": 189,
+    "leader_rank": {
+     "1": 147,
+     "2": 55,
+     "3": 8
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 89.6,
+    "A_lenient": 93.9,
+    "B": 94.5,
+    "B_lenient": 95.4,
+    "leader": 65.6,
+    "leader_lenient": 84.4,
+    "leader_coverage": 53.8,
+    "interval": {
+     "A": [
+      86.7,
+      92.3
+     ],
+     "B": [
+      92.1,
+      96.6
+     ],
+     "leader": [
+      55.3,
+      75.3
+     ],
+     "A_lenient": [
+      92.0,
+      95.7
+     ],
+     "B_lenient": [
+      93.3,
+      97.4
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 135,
+      "right": 125,
+      "leader_said": 45,
+      "leader_right": 22,
+      "A": 92.6,
+      "A_lenient": 94.8,
+      "B": 95.8,
+      "B_lenient": 95.8,
+      "leader": 48.9
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 120,
+      "right": 109,
+      "leader_said": 40,
+      "leader_right": 34,
+      "A": 90.8,
+      "A_lenient": 95.0,
+      "B": 95.8,
+      "B_lenient": 95.8,
+      "leader": 85.0
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 91,
+      "right": 77,
+      "leader_said": 27,
+      "leader_right": 14,
+      "A": 84.6,
+      "A_lenient": 90.1,
+      "B": 93.8,
+      "B_lenient": 95.8,
+      "leader": 51.9
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 134,
+      "right": 121,
+      "leader_said": 21,
+      "leader_right": 12,
+      "A": 90.3,
+      "A_lenient": 94.0,
+      "B": 94.4,
+      "B_lenient": 95.8,
+      "leader": 57.1
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 150,
+      "right": 135,
+      "leader_said": 50,
+      "leader_right": 36,
+      "A": 90.0,
+      "A_lenient": 97.3,
+      "B": 95.8,
+      "B_lenient": 97.2,
+      "leader": 72.0
+     },
+     "20261115": {
+      "points": 80,
+      "said": 146,
+      "right": 128,
+      "leader_said": 41,
+      "leader_right": 29,
+      "A": 87.7,
+      "A_lenient": 91.1,
+      "B": 91.2,
+      "B_lenient": 92.5,
+      "leader": 70.7
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 447,
+    "right": 380,
+    "right_lenient": 407,
+    "points_good": 234,
+    "points_good_lenient": 240,
+    "points_silent": 12,
+    "points_only_wrong": 14,
+    "leader_said": 158,
+    "leader_right": 119,
+    "leader_right_lenient": 130,
+    "leader_rank": {
+     "1": 119,
+     "2": 25,
+     "3": 5
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 85.0,
+    "A_lenient": 91.1,
+    "B": 90.0,
+    "B_lenient": 92.3,
+    "leader": 75.3,
+    "leader_lenient": 82.3,
+    "leader_coverage": 60.8,
+    "interval": {
+     "A": [
+      80.1,
+      89.7
+     ],
+     "B": [
+      85.8,
+      93.8
+     ],
+     "leader": [
+      65.2,
+      85.0
+     ],
+     "A_lenient": [
+      87.2,
+      94.6
+     ],
+     "B_lenient": [
+      88.8,
+      95.4
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 79,
+      "right": 74,
+      "leader_said": 32,
+      "leader_right": 24,
+      "A": 93.7,
+      "A_lenient": 97.5,
+      "B": 91.1,
+      "B_lenient": 91.1,
+      "leader": 75.0
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 77,
+      "right": 63,
+      "leader_said": 26,
+      "leader_right": 25,
+      "A": 81.8,
+      "A_lenient": 90.9,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 96.2
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 49,
+      "right": 39,
+      "leader_said": 16,
+      "leader_right": 10,
+      "A": 79.6,
+      "A_lenient": 79.6,
+      "B": 93.3,
+      "B_lenient": 93.3,
+      "leader": 62.5
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 80,
+      "right": 66,
+      "leader_said": 20,
+      "leader_right": 12,
+      "A": 82.5,
+      "A_lenient": 88.8,
+      "B": 84.4,
+      "B_lenient": 86.7,
+      "leader": 60.0
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 79,
+      "right": 67,
+      "leader_said": 34,
+      "leader_right": 27,
+      "A": 84.8,
+      "A_lenient": 91.1,
+      "B": 86.7,
+      "B_lenient": 91.1,
+      "leader": 79.4
+     },
+     "20261115": {
+      "points": 50,
+      "said": 83,
+      "right": 71,
+      "leader_said": 30,
+      "leader_right": 21,
+      "A": 85.5,
+      "A_lenient": 94.0,
+      "B": 86.0,
+      "B_lenient": 92.0,
+      "leader": 70.0
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1223,
+    "right": 1075,
+    "right_lenient": 1136,
+    "points_good": 627,
+    "points_good_lenient": 637,
+    "points_silent": 18,
+    "points_only_wrong": 31,
+    "leader_said": 382,
+    "leader_right": 266,
+    "leader_right_lenient": 319,
+    "leader_rank": {
+     "1": 266,
+     "2": 80,
+     "3": 13
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 87.9,
+    "A_lenient": 92.9,
+    "B": 92.8,
+    "B_lenient": 94.2,
+    "leader": 69.6,
+    "leader_lenient": 83.5,
+    "leader_coverage": 56.5,
+    "interval": {
+     "A": [
+      85.1,
+      90.6
+     ],
+     "B": [
+      90.7,
+      94.8
+     ],
+     "leader": [
+      61.5,
+      77.7
+     ],
+     "A_lenient": [
+      90.7,
+      94.8
+     ],
+     "B_lenient": [
+      92.3,
+      96.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 214,
+      "right": 199,
+      "leader_said": 77,
+      "leader_right": 46,
+      "A": 93.0,
+      "A_lenient": 95.8,
+      "B": 94.0,
+      "B_lenient": 94.0,
+      "leader": 59.7
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 197,
+      "right": 172,
+      "leader_said": 66,
+      "leader_right": 59,
+      "A": 87.3,
+      "A_lenient": 93.4,
+      "B": 97.4,
+      "B_lenient": 97.4,
+      "leader": 89.4
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 140,
+      "right": 116,
+      "leader_said": 43,
+      "leader_right": 24,
+      "A": 82.9,
+      "A_lenient": 86.4,
+      "B": 93.6,
+      "B_lenient": 94.9,
+      "leader": 55.8
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 214,
+      "right": 187,
+      "leader_said": 41,
+      "leader_right": 24,
+      "A": 87.4,
+      "A_lenient": 92.1,
+      "B": 90.6,
+      "B_lenient": 92.3,
+      "leader": 58.5
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 229,
+      "right": 202,
+      "leader_said": 84,
+      "leader_right": 63,
+      "A": 88.2,
+      "A_lenient": 95.2,
+      "B": 92.3,
+      "B_lenient": 94.9,
+      "leader": 75.0
+     },
+     "20261115": {
+      "points": 130,
+      "said": 229,
+      "right": 199,
+      "leader_said": 71,
+      "leader_right": 50,
+      "A": 86.9,
+      "A_lenient": 92.1,
+      "B": 89.2,
+      "B_lenient": 92.3,
+      "leader": 70.4
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 101,
+     "right": 96,
+     "points_silent": 0,
+     "leader_said": 31,
+     "leader_right": 25,
+     "A": 95.0,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 52,
+     "said": 108,
+     "right": 101,
+     "points_silent": 0,
+     "leader_said": 22,
+     "leader_right": 17,
+     "A": 93.5,
+     "A_lenient": 95.4,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 52,
+     "said": 94,
+     "right": 80,
+     "points_silent": 1,
+     "leader_said": 22,
+     "leader_right": 10,
+     "A": 85.1,
+     "A_lenient": 88.3,
+     "B": 92.3,
+     "B_lenient": 92.3
+    },
+    "27": {
+     "points": 52,
+     "said": 85,
+     "right": 72,
+     "points_silent": 2,
+     "leader_said": 20,
+     "leader_right": 15,
+     "A": 84.7,
+     "A_lenient": 91.8,
+     "B": 86.5,
+     "B_lenient": 90.4
+    },
+    "24": {
+     "points": 52,
+     "said": 84,
+     "right": 70,
+     "points_silent": 3,
+     "leader_said": 23,
+     "leader_right": 9,
+     "A": 83.3,
+     "A_lenient": 89.3,
+     "B": 84.6,
+     "B_lenient": 86.5
+    },
+    "21": {
+     "points": 52,
+     "said": 99,
+     "right": 89,
+     "points_silent": 0,
+     "leader_said": 32,
+     "leader_right": 21,
+     "A": 89.9,
+     "A_lenient": 93.9,
+     "B": 96.2,
+     "B_lenient": 96.2
+    },
+    "18": {
+     "points": 52,
+     "said": 101,
+     "right": 91,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 26,
+     "A": 90.1,
+     "A_lenient": 94.1,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "15": {
+     "points": 52,
+     "said": 104,
+     "right": 96,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 24,
+     "A": 92.3,
+     "A_lenient": 97.1,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 108,
+     "right": 91,
+     "points_silent": 0,
+     "leader_said": 39,
+     "leader_right": 26,
+     "A": 84.3,
+     "A_lenient": 94.4,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 103,
+     "right": 88,
+     "points_silent": 0,
+     "leader_said": 39,
+     "leader_right": 27,
+     "A": 85.4,
+     "A_lenient": 92.2,
+     "B": 94.2,
+     "B_lenient": 98.1
+    },
+    "6": {
+     "points": 52,
+     "said": 93,
+     "right": 83,
+     "points_silent": 0,
+     "leader_said": 34,
+     "leader_right": 27,
+     "A": 89.2,
+     "A_lenient": 92.5,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "3": {
+     "points": 52,
+     "said": 80,
+     "right": 71,
+     "points_silent": 2,
+     "leader_said": 30,
+     "leader_right": 26,
+     "A": 88.8,
+     "A_lenient": 91.2,
+     "B": 90.4,
+     "B_lenient": 92.3
+    },
+    "0": {
+     "points": 52,
+     "said": 63,
+     "right": 47,
+     "points_silent": 10,
+     "leader_said": 16,
+     "leader_right": 13,
+     "A": 74.6,
+     "A_lenient": 81.0,
+     "B": 67.3,
+     "B_lenient": 71.2
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 50,
+     "winner_among_said": 36,
+     "leader_said": 30,
+     "leader_is_winner": 26
+    },
+    "0": {
+     "races": 52,
+     "said_something": 42,
+     "winner_among_said": 21,
+     "leader_said": 16,
+     "leader_is_winner": 13
+    }
+   }
+  },
+  "P3f": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 995,
+     "right": 928,
+     "leader_said": 237,
+     "leader_right": 199,
+     "A": 93.3,
+     "A_lenient": 98.1,
+     "B": 99.2,
+     "B_lenient": 99.8,
+     "leader": 84.0
+    },
+    "last": {
+     "points": 300,
+     "said": 526,
+     "right": 446,
+     "leader_said": 145,
+     "leader_right": 133,
+     "A": 84.8,
+     "A_lenient": 91.3,
+     "B": 89.0,
+     "B_lenient": 90.3,
+     "leader": 91.7
+    },
+    "all": {
+     "points": 780,
+     "said": 1521,
+     "right": 1374,
+     "leader_said": 382,
+     "leader_right": 332,
+     "A": 90.3,
+     "A_lenient": 95.7,
+     "B": 95.3,
+     "B_lenient": 96.2,
+     "leader": 86.9
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 857,
+    "right": 795,
+    "right_lenient": 838,
+    "points_good": 412,
+    "points_good_lenient": 415,
+    "points_silent": 0,
+    "points_only_wrong": 4,
+    "leader_said": 204,
+    "leader_right": 170,
+    "leader_right_lenient": 199,
+    "leader_rank": {
+     "1": 170,
+     "2": 30,
+     "3": 4
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 92.8,
+    "A_lenient": 97.8,
+    "B": 99.0,
+    "B_lenient": 99.8,
+    "leader": 83.3,
+    "leader_lenient": 97.5,
+    "leader_coverage": 49.0,
+    "interval": {
+     "A": [
+      90.0,
+      95.1
+     ],
+     "B": [
+      97.8,
+      100.0
+     ],
+     "leader": [
+      76.4,
+      89.2
+     ],
+     "A_lenient": [
+      96.4,
+      98.9
+     ],
+     "B_lenient": [
+      99.3,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 154,
+      "right": 140,
+      "leader_said": 33,
+      "leader_right": 26,
+      "A": 90.9,
+      "A_lenient": 96.8,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 78.8
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 134,
+      "right": 129,
+      "leader_said": 35,
+      "leader_right": 33,
+      "A": 96.3,
+      "A_lenient": 100.0,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 94.3
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 95,
+      "right": 86,
+      "leader_said": 28,
+      "leader_right": 21,
+      "A": 90.5,
+      "A_lenient": 92.6,
+      "B": 95.8,
+      "B_lenient": 97.9,
+      "leader": 75.0
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 148,
+      "right": 141,
+      "leader_said": 25,
+      "leader_right": 17,
+      "A": 95.3,
+      "A_lenient": 98.6,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 68.0
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 157,
+      "right": 141,
+      "leader_said": 39,
+      "leader_right": 36,
+      "A": 89.8,
+      "A_lenient": 98.1,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 92.3
+     },
+     "20261115": {
+      "points": 80,
+      "said": 169,
+      "right": 158,
+      "leader_said": 44,
+      "leader_right": 37,
+      "A": 93.5,
+      "A_lenient": 98.8,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 84.1
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 455,
+    "right": 385,
+    "right_lenient": 414,
+    "points_good": 229,
+    "points_good_lenient": 233,
+    "points_silent": 10,
+    "points_only_wrong": 21,
+    "leader_said": 130,
+    "leader_right": 119,
+    "leader_right_lenient": 122,
+    "leader_rank": {
+     "1": 119,
+     "2": 5,
+     "3": 1
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 84.6,
+    "A_lenient": 91.0,
+    "B": 88.1,
+    "B_lenient": 89.6,
+    "leader": 91.5,
+    "leader_lenient": 93.8,
+    "leader_coverage": 50.0,
+    "interval": {
+     "A": [
+      80.3,
+      88.8
+     ],
+     "B": [
+      83.8,
+      92.3
+     ],
+     "leader": [
+      85.7,
+      96.4
+     ],
+     "A_lenient": [
+      87.0,
+      94.5
+     ],
+     "B_lenient": [
+      85.4,
+      93.8
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 71,
+      "right": 65,
+      "leader_said": 24,
+      "leader_right": 23,
+      "A": 91.5,
+      "A_lenient": 93.0,
+      "B": 82.2,
+      "B_lenient": 82.2,
+      "leader": 95.8
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 77,
+      "right": 62,
+      "leader_said": 23,
+      "leader_right": 23,
+      "A": 80.5,
+      "A_lenient": 92.2,
+      "B": 88.9,
+      "B_lenient": 93.3,
+      "leader": 100.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 57,
+      "right": 45,
+      "leader_said": 13,
+      "leader_right": 10,
+      "A": 78.9,
+      "A_lenient": 78.9,
+      "B": 96.7,
+      "B_lenient": 96.7,
+      "leader": 76.9
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 76,
+      "right": 59,
+      "leader_said": 15,
+      "leader_right": 11,
+      "A": 77.6,
+      "A_lenient": 88.2,
+      "B": 84.4,
+      "B_lenient": 86.7,
+      "leader": 73.3
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 82,
+      "right": 71,
+      "leader_said": 33,
+      "leader_right": 32,
+      "A": 86.6,
+      "A_lenient": 92.7,
+      "B": 86.7,
+      "B_lenient": 88.9,
+      "leader": 97.0
+     },
+     "20261115": {
+      "points": 50,
+      "said": 92,
+      "right": 83,
+      "leader_said": 22,
+      "leader_right": 20,
+      "A": 90.2,
+      "A_lenient": 96.7,
+      "B": 92.0,
+      "B_lenient": 92.0,
+      "leader": 90.9
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1312,
+    "right": 1180,
+    "right_lenient": 1252,
+    "points_good": 641,
+    "points_good_lenient": 648,
+    "points_silent": 10,
+    "points_only_wrong": 25,
+    "leader_said": 334,
+    "leader_right": 289,
+    "leader_right_lenient": 321,
+    "leader_rank": {
+     "1": 289,
+     "2": 35,
+     "3": 5
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 89.9,
+    "A_lenient": 95.4,
+    "B": 94.8,
+    "B_lenient": 95.9,
+    "leader": 86.5,
+    "leader_lenient": 96.1,
+    "leader_coverage": 49.4,
+    "interval": {
+     "A": [
+      87.5,
+      92.1
+     ],
+     "B": [
+      93.0,
+      96.7
+     ],
+     "leader": [
+      81.7,
+      90.9
+     ],
+     "A_lenient": [
+      93.4,
+      97.0
+     ],
+     "B_lenient": [
+      94.2,
+      97.6
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 225,
+      "right": 205,
+      "leader_said": 57,
+      "leader_right": 49,
+      "A": 91.1,
+      "A_lenient": 95.6,
+      "B": 92.3,
+      "B_lenient": 93.2,
+      "leader": 86.0
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 211,
+      "right": 191,
+      "leader_said": 58,
+      "leader_right": 56,
+      "A": 90.5,
+      "A_lenient": 97.2,
+      "B": 95.7,
+      "B_lenient": 97.4,
+      "leader": 96.6
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 152,
+      "right": 131,
+      "leader_said": 41,
+      "leader_right": 31,
+      "A": 86.2,
+      "A_lenient": 87.5,
+      "B": 96.2,
+      "B_lenient": 97.4,
+      "leader": 75.6
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 224,
+      "right": 200,
+      "leader_said": 40,
+      "leader_right": 28,
+      "A": 89.3,
+      "A_lenient": 95.1,
+      "B": 94.0,
+      "B_lenient": 94.9,
+      "leader": 70.0
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 239,
+      "right": 212,
+      "leader_said": 72,
+      "leader_right": 68,
+      "A": 88.7,
+      "A_lenient": 96.2,
+      "B": 94.0,
+      "B_lenient": 95.7,
+      "leader": 94.4
+     },
+     "20261115": {
+      "points": 130,
+      "said": 261,
+      "right": 241,
+      "leader_said": 66,
+      "leader_right": 57,
+      "A": 92.3,
+      "A_lenient": 98.1,
+      "B": 96.9,
+      "B_lenient": 96.9,
+      "leader": 86.4
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 98,
+     "right": 93,
+     "points_silent": 0,
+     "leader_said": 25,
+     "leader_right": 18,
+     "A": 94.9,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 52,
+     "said": 103,
+     "right": 95,
+     "points_silent": 0,
+     "leader_said": 10,
+     "leader_right": 9,
+     "A": 92.2,
+     "A_lenient": 98.1,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 52,
+     "said": 114,
+     "right": 109,
+     "points_silent": 0,
+     "leader_said": 17,
+     "leader_right": 14,
+     "A": 95.6,
+     "A_lenient": 100.0,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 52,
+     "said": 103,
+     "right": 88,
+     "points_silent": 0,
+     "leader_said": 22,
+     "leader_right": 19,
+     "A": 85.4,
+     "A_lenient": 96.1,
+     "B": 98.1,
+     "B_lenient": 98.1
+    },
+    "24": {
+     "points": 52,
+     "said": 110,
+     "right": 103,
+     "points_silent": 0,
+     "leader_said": 32,
+     "leader_right": 26,
+     "A": 93.6,
+     "A_lenient": 97.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 52,
+     "said": 112,
+     "right": 104,
+     "points_silent": 0,
+     "leader_said": 32,
+     "leader_right": 28,
+     "A": 92.9,
+     "A_lenient": 98.2,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 52,
+     "said": 107,
+     "right": 101,
+     "points_silent": 0,
+     "leader_said": 35,
+     "leader_right": 32,
+     "A": 94.4,
+     "A_lenient": 95.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 52,
+     "said": 110,
+     "right": 102,
+     "points_silent": 0,
+     "leader_said": 31,
+     "leader_right": 24,
+     "A": 92.7,
+     "A_lenient": 97.3,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 109,
+     "right": 98,
+     "points_silent": 0,
+     "leader_said": 36,
+     "leader_right": 33,
+     "A": 89.9,
+     "A_lenient": 97.2,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 100,
+     "right": 90,
+     "points_silent": 0,
+     "leader_said": 30,
+     "leader_right": 27,
+     "A": 90.0,
+     "A_lenient": 97.0,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "6": {
+     "points": 52,
+     "said": 95,
+     "right": 84,
+     "points_silent": 0,
+     "leader_said": 30,
+     "leader_right": 28,
+     "A": 88.4,
+     "A_lenient": 93.7,
+     "B": 96.2,
+     "B_lenient": 96.2
+    },
+    "3": {
+     "points": 52,
+     "said": 83,
+     "right": 70,
+     "points_silent": 3,
+     "leader_said": 20,
+     "leader_right": 19,
+     "A": 84.3,
+     "A_lenient": 89.2,
+     "B": 82.7,
+     "B_lenient": 82.7
+    },
+    "0": {
+     "points": 52,
+     "said": 68,
+     "right": 43,
+     "points_silent": 7,
+     "leader_said": 14,
+     "leader_right": 12,
+     "A": 63.2,
+     "A_lenient": 70.6,
+     "B": 63.5,
+     "B_lenient": 69.2
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 49,
+     "winner_among_said": 27,
+     "leader_said": 20,
+     "leader_is_winner": 19
+    },
+    "0": {
+     "races": 52,
+     "said_something": 45,
+     "winner_among_said": 20,
+     "leader_said": 14,
+     "leader_is_winner": 12
+    }
+   }
+  },
+  "P6f": {
+   "races": 52,
+   "races_run": 60,
+   "every_race_run": {
+    "far": {
+     "points": 480,
+     "said": 1074,
+     "right": 996,
+     "leader_said": 254,
+     "leader_right": 214,
+     "A": 92.7,
+     "A_lenient": 97.9,
+     "B": 99.4,
+     "B_lenient": 100.0,
+     "leader": 84.3
+    },
+    "last": {
+     "points": 300,
+     "said": 568,
+     "right": 480,
+     "leader_said": 161,
+     "leader_right": 145,
+     "A": 84.5,
+     "A_lenient": 90.5,
+     "B": 91.7,
+     "B_lenient": 93.0,
+     "leader": 90.1
+    },
+    "all": {
+     "points": 780,
+     "said": 1642,
+     "right": 1476,
+     "leader_said": 415,
+     "leader_right": 359,
+     "A": 89.9,
+     "A_lenient": 95.3,
+     "B": 96.4,
+     "B_lenient": 97.3,
+     "leader": 86.5
+    }
+   },
+   "far": {
+    "points": 416,
+    "said": 929,
+    "right": 854,
+    "right_lenient": 907,
+    "points_good": 413,
+    "points_good_lenient": 416,
+    "points_silent": 0,
+    "points_only_wrong": 3,
+    "leader_said": 221,
+    "leader_right": 186,
+    "leader_right_lenient": 215,
+    "leader_rank": {
+     "1": 186,
+     "2": 30,
+     "3": 4
+    },
+    "mean_lenient_size": 3.79,
+    "mean_front_size": 1.95,
+    "A": 91.9,
+    "A_lenient": 97.6,
+    "B": 99.3,
+    "B_lenient": 100.0,
+    "leader": 84.2,
+    "leader_lenient": 97.3,
+    "leader_coverage": 53.1,
+    "interval": {
+     "A": [
+      89.1,
+      94.4
+     ],
+     "B": [
+      98.3,
+      100.0
+     ],
+     "leader": [
+      76.8,
+      90.3
+     ],
+     "A_lenient": [
+      96.4,
+      98.7
+     ],
+     "B_lenient": [
+      100.0,
+      100.0
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 72,
+      "said": 167,
+      "right": 155,
+      "leader_said": 37,
+      "leader_right": 30,
+      "A": 92.8,
+      "A_lenient": 98.8,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 81.1
+     },
+     "otherday2": {
+      "points": 72,
+      "said": 152,
+      "right": 143,
+      "leader_said": 38,
+      "leader_right": 36,
+      "A": 94.1,
+      "A_lenient": 98.0,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 94.7
+     },
+     "otherday3": {
+      "points": 48,
+      "said": 104,
+      "right": 92,
+      "leader_said": 32,
+      "leader_right": 22,
+      "A": 88.5,
+      "A_lenient": 93.3,
+      "B": 97.9,
+      "B_lenient": 100.0,
+      "leader": 68.8
+     },
+     "otherday4": {
+      "points": 72,
+      "said": 154,
+      "right": 144,
+      "leader_said": 26,
+      "leader_right": 19,
+      "A": 93.5,
+      "A_lenient": 98.1,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 73.1
+     },
+     "otherday5": {
+      "points": 72,
+      "said": 171,
+      "right": 154,
+      "leader_said": 44,
+      "leader_right": 40,
+      "A": 90.1,
+      "A_lenient": 98.8,
+      "B": 98.6,
+      "B_lenient": 100.0,
+      "leader": 90.9
+     },
+     "20261115": {
+      "points": 80,
+      "said": 181,
+      "right": 166,
+      "leader_said": 44,
+      "leader_right": 39,
+      "A": 91.7,
+      "A_lenient": 97.2,
+      "B": 100.0,
+      "B_lenient": 100.0,
+      "leader": 88.6
+     }
+    }
+   },
+   "last": {
+    "points": 260,
+    "said": 490,
+    "right": 414,
+    "right_lenient": 443,
+    "points_good": 237,
+    "points_good_lenient": 241,
+    "points_silent": 5,
+    "points_only_wrong": 18,
+    "leader_said": 144,
+    "leader_right": 128,
+    "leader_right_lenient": 134,
+    "leader_rank": {
+     "1": 128,
+     "2": 6,
+     "3": 2
+    },
+    "mean_lenient_size": 3.68,
+    "mean_front_size": 1.34,
+    "A": 84.5,
+    "A_lenient": 90.4,
+    "B": 91.2,
+    "B_lenient": 92.7,
+    "leader": 88.9,
+    "leader_lenient": 93.1,
+    "leader_coverage": 55.4,
+    "interval": {
+     "A": [
+      80.6,
+      88.4
+     ],
+     "B": [
+      87.7,
+      94.6
+     ],
+     "leader": [
+      80.9,
+      95.5
+     ],
+     "A_lenient": [
+      86.6,
+      93.9
+     ],
+     "B_lenient": [
+      89.2,
+      96.2
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 45,
+      "said": 76,
+      "right": 70,
+      "leader_said": 28,
+      "leader_right": 26,
+      "A": 92.1,
+      "A_lenient": 93.4,
+      "B": 86.7,
+      "B_lenient": 86.7,
+      "leader": 92.9
+     },
+     "otherday2": {
+      "points": 45,
+      "said": 85,
+      "right": 70,
+      "leader_said": 25,
+      "leader_right": 25,
+      "A": 82.4,
+      "A_lenient": 91.8,
+      "B": 95.6,
+      "B_lenient": 97.8,
+      "leader": 100.0
+     },
+     "otherday3": {
+      "points": 30,
+      "said": 58,
+      "right": 44,
+      "leader_said": 16,
+      "leader_right": 10,
+      "A": 75.9,
+      "A_lenient": 75.9,
+      "B": 93.3,
+      "B_lenient": 93.3,
+      "leader": 62.5
+     },
+     "otherday4": {
+      "points": 45,
+      "said": 82,
+      "right": 65,
+      "leader_said": 17,
+      "leader_right": 12,
+      "A": 79.3,
+      "A_lenient": 89.0,
+      "B": 86.7,
+      "B_lenient": 91.1,
+      "leader": 70.6
+     },
+     "otherday5": {
+      "points": 45,
+      "said": 93,
+      "right": 77,
+      "leader_said": 30,
+      "leader_right": 29,
+      "A": 82.8,
+      "A_lenient": 89.2,
+      "B": 88.9,
+      "B_lenient": 91.1,
+      "leader": 96.7
+     },
+     "20261115": {
+      "points": 50,
+      "said": 96,
+      "right": 88,
+      "leader_said": 28,
+      "leader_right": 26,
+      "A": 91.7,
+      "A_lenient": 97.9,
+      "B": 96.0,
+      "B_lenient": 96.0,
+      "leader": 92.9
+     }
+    }
+   },
+   "all": {
+    "points": 676,
+    "said": 1419,
+    "right": 1268,
+    "right_lenient": 1350,
+    "points_good": 650,
+    "points_good_lenient": 657,
+    "points_silent": 5,
+    "points_only_wrong": 21,
+    "leader_said": 365,
+    "leader_right": 314,
+    "leader_right_lenient": 349,
+    "leader_rank": {
+     "1": 314,
+     "2": 36,
+     "3": 6
+    },
+    "mean_lenient_size": 3.75,
+    "mean_front_size": 1.71,
+    "A": 89.4,
+    "A_lenient": 95.1,
+    "B": 96.2,
+    "B_lenient": 97.2,
+    "leader": 86.0,
+    "leader_lenient": 95.6,
+    "leader_coverage": 54.0,
+    "interval": {
+     "A": [
+      86.9,
+      91.5
+     ],
+     "B": [
+      94.7,
+      97.6
+     ],
+     "leader": [
+      79.8,
+      91.4
+     ],
+     "A_lenient": [
+      93.3,
+      96.7
+     ],
+     "B_lenient": [
+      95.9,
+      98.5
+     ]
+    },
+    "by_day": {
+     "otherday": {
+      "points": 117,
+      "said": 243,
+      "right": 225,
+      "leader_said": 65,
+      "leader_right": 56,
+      "A": 92.6,
+      "A_lenient": 97.1,
+      "B": 94.0,
+      "B_lenient": 94.9,
+      "leader": 86.2
+     },
+     "otherday2": {
+      "points": 117,
+      "said": 237,
+      "right": 213,
+      "leader_said": 63,
+      "leader_right": 61,
+      "A": 89.9,
+      "A_lenient": 95.8,
+      "B": 98.3,
+      "B_lenient": 99.1,
+      "leader": 96.8
+     },
+     "otherday3": {
+      "points": 78,
+      "said": 162,
+      "right": 136,
+      "leader_said": 48,
+      "leader_right": 32,
+      "A": 84.0,
+      "A_lenient": 87.0,
+      "B": 96.2,
+      "B_lenient": 97.4,
+      "leader": 66.7
+     },
+     "otherday4": {
+      "points": 117,
+      "said": 236,
+      "right": 209,
+      "leader_said": 43,
+      "leader_right": 31,
+      "A": 88.6,
+      "A_lenient": 94.9,
+      "B": 94.9,
+      "B_lenient": 96.6,
+      "leader": 72.1
+     },
+     "otherday5": {
+      "points": 117,
+      "said": 264,
+      "right": 231,
+      "leader_said": 74,
+      "leader_right": 69,
+      "A": 87.5,
+      "A_lenient": 95.5,
+      "B": 94.9,
+      "B_lenient": 96.6,
+      "leader": 93.2
+     },
+     "20261115": {
+      "points": 130,
+      "said": 277,
+      "right": 254,
+      "leader_said": 72,
+      "leader_right": 65,
+      "A": 91.7,
+      "A_lenient": 97.5,
+      "B": 98.5,
+      "B_lenient": 98.5,
+      "leader": 90.3
+     }
+    }
+   },
+   "by_tau": {
+    "36": {
+     "points": 52,
+     "said": 110,
+     "right": 102,
+     "points_silent": 0,
+     "leader_said": 24,
+     "leader_right": 18,
+     "A": 92.7,
+     "A_lenient": 100.0,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "33": {
+     "points": 52,
+     "said": 117,
+     "right": 106,
+     "points_silent": 0,
+     "leader_said": 11,
+     "leader_right": 10,
+     "A": 90.6,
+     "A_lenient": 98.3,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "30": {
+     "points": 52,
+     "said": 123,
+     "right": 115,
+     "points_silent": 0,
+     "leader_said": 18,
+     "leader_right": 14,
+     "A": 93.5,
+     "A_lenient": 99.2,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "27": {
+     "points": 52,
+     "said": 114,
+     "right": 99,
+     "points_silent": 0,
+     "leader_said": 24,
+     "leader_right": 22,
+     "A": 86.8,
+     "A_lenient": 96.5,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "24": {
+     "points": 52,
+     "said": 113,
+     "right": 106,
+     "points_silent": 0,
+     "leader_said": 34,
+     "leader_right": 29,
+     "A": 93.8,
+     "A_lenient": 97.3,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "21": {
+     "points": 52,
+     "said": 121,
+     "right": 111,
+     "points_silent": 0,
+     "leader_said": 35,
+     "leader_right": 30,
+     "A": 91.7,
+     "A_lenient": 96.7,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "18": {
+     "points": 52,
+     "said": 113,
+     "right": 106,
+     "points_silent": 0,
+     "leader_said": 37,
+     "leader_right": 32,
+     "A": 93.8,
+     "A_lenient": 94.7,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "15": {
+     "points": 52,
+     "said": 118,
+     "right": 109,
+     "points_silent": 0,
+     "leader_said": 38,
+     "leader_right": 31,
+     "A": 92.4,
+     "A_lenient": 98.3,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "12": {
+     "points": 52,
+     "said": 113,
+     "right": 102,
+     "points_silent": 0,
+     "leader_said": 39,
+     "leader_right": 35,
+     "A": 90.3,
+     "A_lenient": 96.5,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "9": {
+     "points": 52,
+     "said": 112,
+     "right": 98,
+     "points_silent": 0,
+     "leader_said": 36,
+     "leader_right": 31,
+     "A": 87.5,
+     "A_lenient": 93.8,
+     "B": 98.1,
+     "B_lenient": 100.0
+    },
+    "6": {
+     "points": 52,
+     "said": 97,
+     "right": 87,
+     "points_silent": 0,
+     "leader_said": 33,
+     "leader_right": 29,
+     "A": 89.7,
+     "A_lenient": 94.8,
+     "B": 100.0,
+     "B_lenient": 100.0
+    },
+    "3": {
+     "points": 52,
+     "said": 89,
+     "right": 74,
+     "points_silent": 3,
+     "leader_said": 23,
+     "leader_right": 22,
+     "A": 83.1,
+     "A_lenient": 88.8,
+     "B": 86.5,
+     "B_lenient": 86.5
+    },
+    "0": {
+     "points": 52,
+     "said": 79,
+     "right": 53,
+     "points_silent": 2,
+     "leader_said": 13,
+     "leader_right": 11,
+     "A": 67.1,
+     "A_lenient": 73.4,
+     "B": 71.2,
+     "B_lenient": 76.9
+    }
+   },
+   "winner_call": {
+    "3": {
+     "races": 52,
+     "said_something": 49,
+     "winner_among_said": 29,
+     "leader_said": 23,
+     "leader_is_winner": 21
+    },
+    "0": {
+     "races": 52,
+     "said_something": 50,
+     "winner_among_said": 24,
+     "leader_said": 13,
+     "leader_is_winner": 11
+    }
+   }
+  }
+ }
+}

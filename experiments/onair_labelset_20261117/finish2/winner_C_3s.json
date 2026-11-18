@@ -1,0 +1,365 @@
+{
+ "rule": "3s",
+ "days": [
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "main": {
+  "races": 19,
+  "called": 10,
+  "right": 10,
+  "rows": [
+   {
+    "day": "otherday9",
+    "race": "R01",
+    "call": 3,
+    "rank_of_call": 1,
+    "winner": 3
+   },
+   {
+    "day": "otherday9",
+    "race": "R02",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R03",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 11
+   },
+   {
+    "day": "otherday9",
+    "race": "R08",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R10",
+    "call": 2,
+    "rank_of_call": 1,
+    "winner": 2
+   },
+   {
+    "day": "otherday10",
+    "race": "R02",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 2
+   },
+   {
+    "day": "otherday10",
+    "race": "R03",
+    "call": 4,
+    "rank_of_call": 1,
+    "winner": 4
+   },
+   {
+    "day": "otherday10",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 8
+   },
+   {
+    "day": "otherday10",
+    "race": "R06",
+    "call": 4,
+    "rank_of_call": 1,
+    "winner": 4
+   },
+   {
+    "day": "otherday10",
+    "race": "R08",
+    "call": 9,
+    "rank_of_call": 1,
+    "winner": 9
+   },
+   {
+    "day": "otherday10",
+    "race": "R09",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 11
+   },
+   {
+    "day": "otherday10",
+    "race": "R10",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R01",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 3
+   },
+   {
+    "day": "otherday11",
+    "race": "R04",
+    "call": 2,
+    "rank_of_call": 1,
+    "winner": 2
+   },
+   {
+    "day": "otherday11",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R06",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 2
+   },
+   {
+    "day": "otherday11",
+    "race": "R09",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R10",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 5
+   }
+  ]
+ },
+ "every_race_run": {
+  "races": 30,
+  "called": 14,
+  "right": 13,
+  "rows": [
+   {
+    "day": "otherday9",
+    "race": "R01",
+    "call": 3,
+    "rank_of_call": 1,
+    "winner": 3
+   },
+   {
+    "day": "otherday9",
+    "race": "R02",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R03",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R04",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 10
+   },
+   {
+    "day": "otherday9",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 11
+   },
+   {
+    "day": "otherday9",
+    "race": "R06",
+    "call": 2,
+    "rank_of_call": 1,
+    "winner": 2
+   },
+   {
+    "day": "otherday9",
+    "race": "R07",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 7
+   },
+   {
+    "day": "otherday9",
+    "race": "R08",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday9",
+    "race": "R09",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 2
+   },
+   {
+    "day": "otherday9",
+    "race": "R10",
+    "call": 2,
+    "rank_of_call": 1,
+    "winner": 2
+   },
+   {
+    "day": "otherday10",
+    "race": "R01",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 7
+   },
+   {
+    "day": "otherday10",
+    "race": "R02",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 2
+   },
+   {
+    "day": "otherday10",
+    "race": "R03",
+    "call": 4,
+    "rank_of_call": 1,
+    "winner": 4
+   },
+   {
+    "day": "otherday10",
+    "race": "R04",
+    "call": 8,
+    "rank_of_call": 1,
+    "winner": 8
+   },
+   {
+    "day": "otherday10",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 8
+   },
+   {
+    "day": "otherday10",
+    "race": "R06",
+    "call": 4,
+    "rank_of_call": 1,
+    "winner": 4
+   },
+   {
+    "day": "otherday10",
+    "race": "R07",
+    "call": 2,
+    "rank_of_call": 2,
+    "winner": 1
+   },
+   {
+    "day": "otherday10",
+    "race": "R08",
+    "call": 9,
+    "rank_of_call": 1,
+    "winner": 9
+   },
+   {
+    "day": "otherday10",
+    "race": "R09",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 11
+   },
+   {
+    "day": "otherday10",
+    "race": "R10",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R01",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 3
+   },
+   {
+    "day": "otherday11",
+    "race": "R02",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 10
+   },
+   {
+    "day": "otherday11",
+    "race": "R03",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 4
+   },
+   {
+    "day": "otherday11",
+    "race": "R04",
+    "call": 2,
+    "rank_of_call": 1,
+    "winner": 2
+   },
+   {
+    "day": "otherday11",
+    "race": "R05",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R06",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 2
+   },
+   {
+    "day": "otherday11",
+    "race": "R07",
+    "call": 8,
+    "rank_of_call": 1,
+    "winner": 8
+   },
+   {
+    "day": "otherday11",
+    "race": "R08",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 1
+   },
+   {
+    "day": "otherday11",
+    "race": "R09",
+    "call": 6,
+    "rank_of_call": 1,
+    "winner": 6
+   },
+   {
+    "day": "otherday11",
+    "race": "R10",
+    "call": null,
+    "rank_of_call": null,
+    "winner": 5
+   }
+  ]
+ }
+}

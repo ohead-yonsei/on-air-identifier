@@ -1,0 +1,66 @@
+{
+ "days": [
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "races": 19,
+ "base": "P3",
+ "new": "P3l",
+ "point": {
+  "P3": {
+   "leader": 66.0,
+   "leader_lenient": 90.7,
+   "A": 94.6,
+   "B": 95.5,
+   "leader_said": 150,
+   "leader_right": 99,
+   "said": 459,
+   "right": 434,
+   "points": 247,
+   "points_good": 236
+  },
+  "P3l": {
+   "leader": 88.6,
+   "leader_lenient": 98.6,
+   "A": 94.6,
+   "B": 95.5,
+   "leader_said": 140,
+   "leader_right": 124,
+   "said": 459,
+   "right": 434,
+   "points": 247,
+   "points_good": 236
+  }
+ },
+ "difference": {
+  "leader": {
+   "value": 22.6,
+   "interval": [
+    12.2,
+    33.5
+   ]
+  },
+  "leader_lenient": {
+   "value": 7.9,
+   "interval": [
+    2.0,
+    15.0
+   ]
+  },
+  "A": {
+   "value": 0.0,
+   "interval": [
+    0.0,
+    0.0
+   ]
+  },
+  "B": {
+   "value": 0.0,
+   "interval": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

@@ -1,0 +1,1802 @@
+[
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 13,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 13,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 13,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 13,
+  "right": 12
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 12,
+  "right": 11
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 12,
+  "right": 11
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 12,
+  "right": 11
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 12,
+  "right": 11
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 12,
+  "right": 11
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 6,
+  "right": 6
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 6,
+  "right": 6
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 6,
+  "right": 6
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 4,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 3,
+  "right": 3
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 3,
+  "right": 3
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 3,
+  "right": 3
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 2,
+  "right": 2
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 2,
+  "right": 2
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 2,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 1,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 48,
+  "right": 36
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 49,
+  "right": 36
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 41,
+  "right": 34
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 44,
+  "right": 34
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 42,
+  "right": 33
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 36,
+  "right": 32
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 38,
+  "right": 32
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 35,
+  "right": 31
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 34,
+  "right": 30
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 40,
+  "right": 30
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 41,
+  "right": 30
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 41,
+  "right": 30
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 44,
+  "right": 29
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 37,
+  "right": 29
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 33,
+  "right": 28
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 37,
+  "right": 28
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 38,
+  "right": 28
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 37,
+  "right": 28
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 37,
+  "right": 28
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 37,
+  "right": 28
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 40,
+  "right": 27
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 36,
+  "right": 27
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 32,
+  "right": 27
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 37,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 31,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 29,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 29,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 36,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 33,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 32,
+  "right": 26
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 33,
+  "right": 26
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 31,
+  "right": 26
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 30,
+  "right": 25
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 30,
+  "right": 25
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 29,
+  "right": 24
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 29,
+  "right": 24
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 29,
+  "right": 24
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 32,
+  "right": 23
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 29,
+  "right": 23
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 34,
+  "right": 23
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 30,
+  "right": 22
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 32,
+  "right": 22
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 32,
+  "right": 21
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 30,
+  "right": 21
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 24,
+  "right": 21
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 26,
+  "right": 21
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 26,
+  "right": 21
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 30,
+  "right": 20
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 24,
+  "right": 20
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 23,
+  "right": 20
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 25,
+  "right": 20
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 25,
+  "right": 19
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 26,
+  "right": 19
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 24,
+  "right": 19
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 6.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 22,
+  "right": 19
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 25,
+  "right": 18
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 22,
+  "right": 18
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 21,
+  "right": 18
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 23,
+  "right": 18
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 23,
+  "right": 18
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 23,
+  "right": 18
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 24,
+  "right": 17
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 23,
+  "right": 17
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 25,
+  "right": 17
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 21,
+  "right": 17
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 24,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 23,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 22,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 19,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 18,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 18,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 24,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 22,
+  "right": 16
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 19,
+  "right": 16
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 4.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 19,
+  "right": 16
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 19,
+  "right": 15
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 21,
+  "right": 15
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 20,
+  "right": 15
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 24,
+  "right": 14
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 18,
+  "right": 14
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 4.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 16,
+  "right": 14
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 18,
+  "right": 14
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 19,
+  "right": 14
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 19,
+  "right": 14
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 23,
+  "right": 13
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 19,
+  "right": 13
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 19,
+  "right": 12
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 18,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 17,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 16,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 15,
+  "right": 12
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 17,
+  "right": 12
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 16,
+  "right": 11
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 13,
+  "right": 10
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 13,
+  "right": 10
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 12,
+  "right": 10
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 13,
+  "right": 9
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 13,
+  "right": 9
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 13,
+  "right": 9
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 13,
+  "right": 9
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 13,
+  "right": 9
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 12,
+  "right": 8
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 11,
+  "right": 8
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 11,
+  "right": 8
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 11,
+  "right": 8
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 11,
+  "right": 7
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 11,
+  "right": 7
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 11,
+  "right": 7
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 12,
+  "right": 7
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 11,
+  "right": 7
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 10,
+  "right": 7
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 7,
+  "right": 6
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 7,
+  "right": 6
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 3.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 7,
+  "right": 6
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 7,
+  "right": 5
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 7,
+  "right": 5
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 7,
+  "right": 5
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 7,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 7,
+  "right": 4
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 2.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 7,
+  "right": 4
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 7,
+  "right": 3
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 7,
+  "right": 3
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 4,
+  "right": 3
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 4,
+  "right": 3
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 2.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 4,
+  "right": 3
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 11,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 11,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 11,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 5,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 5,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 5,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 5,
+  "right": 2
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 3,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 3,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "fs",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 3,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 5,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 5,
+  "right": 1
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 2,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 5,
+  "right": 1
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "P",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 3,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 3,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 3,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 3,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "strip",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 1.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 2.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ },
+ {
+  "memory": "M",
+  "models": "fs",
+  "span": 1.0,
+  "need": 5,
+  "ratio": 3.0,
+  "races": 52,
+  "called": 0,
+  "right": 0
+ }
+]

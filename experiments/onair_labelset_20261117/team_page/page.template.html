@@ -264,33 +264,53 @@ svg .m { font-family: var(--mono); }
   <p class="note">구간(경주 단위 다시 뽑기 95%): A 92.9~97.1%, B 80.9~91.1%, 선두(0.5) 82.0~92.2%, 앞뒤 87.4~95.0%. 순위 띠가 화면에 있는 구간만입니다. 자세한 내용은 <code>night/RESULT_KO.md</code>.</p>
 </section>
 
-<section>
-  <h2>띠가 없는 구간</h2>
-  <p class="lead">결승선 직전에서는 모자색만으로 번호를 믿을 수 없습니다. 그래서 이 구간은 식별기 번호를 중계에 쓰지 않고 확정 정보로 메우는 구간으로 정했습니다.</p>
+<section id="nostrip">
+  <h2>띠가 없는 구간을 다시 재기</h2>
+  <p class="lead">처음에는 "결승선 직전에서는 모자색만으로 번호를 믿을 수 없다"고 결론지었습니다. 그 측정에는 정답이 없었고 결승 시각도 0.3~7초 늦게 잡혀 있었습니다. 공식 경주 기록으로 정답을 만들어 다시 재니, 띠가 사라진 뒤에도 결승 3초 전까지는 띠가 있는 구간과 같은 수준이었습니다.</p>
   <figure>
     <div class="scroll">
-    <svg viewBox="0 0 760 222" role="img" aria-label="경주 한 번을 네 구간으로 나눈 그림. 순위 띠가 화면에 있는 가운데 구간에서만 식별기 번호를 쓰고, 마지막 30초쯤은 확정 정보로 메운다" font-size="12">
-      <g class="q" font-size="11.5"><text class="q" x="24" y="34">출발</text><text class="q" x="504" y="34" text-anchor="middle">결승 30초 전</text><text class="q" x="674" y="34" text-anchor="middle">6초 전</text><text class="q" x="736" y="34" text-anchor="end">결승</text></g>
-      <rect x="24" y="44" width="140" height="48" rx="6" fill="none" stroke="var(--quiet)" stroke-width="1.25"/>
-      <rect x="164" y="44" width="340" height="48" rx="6" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2"/>
-      <rect x="504" y="44" width="170" height="48" rx="6" fill="var(--tint)" stroke="var(--quiet)" stroke-width="1.25"/>
+    <svg viewBox="0 0 760 190" role="img" aria-label="경주 한 번을 네 구간으로 나눈 그림. 출발 직후는 맞는 번호를 말한 시점이 65퍼센트, 중반은 91퍼센트, 마지막 36초는 95퍼센트, 결승 순간은 56퍼센트" font-size="12">
+      <g class="q" font-size="11.5"><text class="q" x="24" y="34">출발 9초 뒤</text><text class="q" x="164" y="34" text-anchor="middle">18초</text><text class="q" x="470" y="34" text-anchor="middle">결승 36초 전</text><text class="q" x="736" y="34" text-anchor="end">결승</text></g>
+      <rect x="24" y="44" width="140" height="48" rx="6" fill="var(--tint)" stroke="var(--quiet)" stroke-width="1.25"/>
+      <rect x="164" y="44" width="306" height="48" rx="6" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2"/>
+      <rect x="470" y="44" width="204" height="48" rx="6" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2"/>
       <rect x="674" y="44" width="62" height="48" rx="6" fill="var(--tint)" stroke="var(--quiet)" stroke-width="1.25"/>
-      <g text-anchor="middle" font-size="13"><text class="t b" x="94" y="73">출발 직후</text><text class="t b" x="334" y="73">순위 띠가 화면에 있는 구간</text><text class="t b" x="589" y="73">띠 없음</text><text class="t b" x="705" y="73">6초</text></g>
-      <text class="t" x="24" y="116">시험하지 않음</text><text class="q" x="24" y="134" font-size="11.5">타이머가 뜬 뒤 22초</text>
-      <text class="t b" x="172" y="116">식별기 번호를 중계에 사용</text><text class="t" x="172" y="134" font-size="11.5">A 92.9%, B 94.6% (새 경주일 두 날 합계)</text><text class="q" x="172" y="152" font-size="11.5">띠 자체도 선두 다섯 마리를 알려 줌</text>
-      <text class="t b" x="512" y="116">확정 정보로 메우는 구간</text><text class="t" x="512" y="134" font-size="11.5">띠는 결승 30~37초 전에 사라짐</text><text class="t" x="512" y="152" font-size="11.5">마지막 6초: 맞는 비율 56~72%</text><text class="q" x="512" y="170" font-size="11.5">30초 전~6초 전: 재지 못함</text>
+      <g text-anchor="middle" font-size="13"><text class="t b" x="94" y="73">출발 직후</text><text class="t b" x="317" y="73">중반 (띠가 화면에 있음)</text><text class="t b" x="572" y="73">마지막 36초 (띠 없음)</text><text class="t b" x="705" y="73">결승</text></g>
+      <text class="t b" x="24" y="116">A 81.5% · B 65.1%</text><text class="q" x="24" y="134" font-size="11.5">말을 적게 함</text>
+      <text class="t b" x="172" y="116">A 93.7% · B 90.8%</text><text class="q" x="172" y="134" font-size="11.5">띠 기준으로 잰 값과 같은 수준</text>
+      <text class="t b" x="478" y="116">A 93.3% · B 94.8%</text><text class="q" x="478" y="134" font-size="11.5">결승 3초 전까지 시점마다 B 91~100%</text>
+      <text class="t b" x="736" y="116" text-anchor="end">B 55.8%</text><text class="q" x="736" y="134" font-size="11.5" text-anchor="end">결승 순간</text>
+      <text class="q" x="24" y="172" font-size="11.5">한 번도 쓰지 않은 경주일 엿새, 43개 경주, 1,154개 시점. 빠른 구성(F2), 공식 기록으로 채점. 경주 전체: A 92.6%, B 89.9%</text>
     </svg>
     </div>
-    <figcaption>경주 한 번의 구간 나누기. 길이는 대략입니다.</figcaption>
+    <figcaption>띠 없이 경주 전체를 돌려 공식 기록으로 채점한 값. 길이는 대략입니다.</figcaption>
   </figure>
-  <figure><img src="img/finish.jpg" width="960" height="540" alt="결승 직전의 먼 화면. 순위 띠가 없고 기수들이 아주 작게 보인다."><figcaption>결승 12m 전 화면. 띠가 없고, 기수의 모자가 10픽셀 안팎입니다.</figcaption></figure>
-  <figure><img src="img/replay.jpg" width="960" height="437" alt="느린 재생 화면. 흰 세로선이 결승선이고 말의 번호판에 10이 적혀 있다."><figcaption>같은 경주의 느린 재생 화면. 번호판(10번)이 읽힙니다. 결승 순서 기준은 이런 화면에서 만들었습니다.</figcaption></figure>
+  <figure><img src="img/finish.jpg" width="960" height="540" alt="결승 직전의 먼 화면. 순위 띠가 없고 기수들이 아주 작게 보인다."><figcaption>결승 12m 전 화면. 띠가 없고, 기수의 모자가 10픽셀 안팎입니다. 결승 순간에는 카메라가 멈춰 말이 흐려집니다.</figcaption></figure>
+  <figure><img src="img/replay.jpg" width="960" height="437" alt="느린 재생 화면. 흰 세로선이 결승선이고 말의 번호판에 10이 적혀 있다."><figcaption>같은 경주의 느린 재생 화면. 처음에는 이런 화면에서 결승 순서를 읽어 정답으로 삼았습니다. 공식 기록과 대조하면 25개 경주 모두 1~3위의 구성이 같았습니다.</figcaption></figure>
+  <h3>정답을 어떻게 만들었나</h3>
   <ul>
-    <li><b>아침의 식별기는 이 구간에서 거의 말을 못 합니다.</b> 맞는 말이 있는 시점이 5~25%였습니다.</li>
-    <li><b>작은 기수를 잡게 하면 말은 하지만 절반쯤 틀립니다.</b> 처음 보는 두 경주일에서 A 56~72%, B 33~43%였습니다. 검출 바꾸기, 순서 규칙 바꾸기, 해상도를 낮춘 학습 모두 통하지 않았습니다.</li>
-    <li><b>띠가 사라진 뒤 30초 사이에 순위가 많이 바뀝니다.</b> 띠가 사라질 때 상위 5두에 없던 말이 우승한 경주도 있었습니다.</li>
+    <li><b>공식 경주 기록을 씁니다.</b> 한국마사회 공개 성적표에 말마다 결승 600m 전, 4코너, 200m 전, 결승의 통과 시각이 있습니다. 이것을 이어 어느 순간에나 순서를 계산합니다. 열두 날 121개 경주를 받았고 번호와 시각만 남겼습니다.</li>
+    <li><b>띠와 대조하면 97.9%가 맞습니다.</b> 띠가 화면에 있는 630장에서 띠의 1~3위가 계산한 순서(3m 안은 같은 것으로 봄)와 맞은 비율입니다.</li>
+    <li><b>영상 시각은 화면 시계로 맞춥니다.</b> 앞선 실험은 시계 둘레의 배경까지 함께 봐서 결승 시각이 30개 경주에서 0.3~7.2초 늦었습니다. "마지막 6초는 5~25%"라는 예전 숫자는 그래서 지나치게 나빴습니다.</li>
   </ul>
-  <p class="note">결승 직전은 중계에서 가장 중요한 순간인데, 화면만으로는 번호를 믿을 수 없습니다. 프로젝트 가설이 말하는 "틀리게 말하는 대신 확정 정보로 메워야 하는 어려운 구간"의 실제 예입니다.</p>
+  <h3>확인한 것 (설계와 판정을 미리 고정)</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>무엇</th><th class="num">결과</th><th>미리 정한 판정</th></tr></thead>
+    <tbody>
+      <tr><td>결승 36~15초 전의 번호 문장</td><td class="num"><b>A 95.8%, B 99.1%</b></td><td><span class="verdict y">충족</span> 측정용·확인용 사흘 모두</td></tr>
+      <tr><td>마지막 12초의 번호 문장</td><td class="num">A 88.2%, B 87.9%</td><td><span class="verdict n">미충족</span> A가 90%에 조금 못 미침</td></tr>
+      <tr><td>"선두는 N번" — 공식 기록으로 선두 모델을 다시 학습</td><td class="num"><b>66.0% → 88.6%</b></td><td><span class="verdict y">충족</span> 확인용 사흘, +22.6%p (범위 +12~+34)</td></tr>
+      <tr><td>우승마 부르기 — 마지막 6초의 그림 31장을 투표</td><td class="num"><b>19경주 중 14경주에서 부르고 14경주 맞음</b></td><td><span class="verdict y">충족</span> 30경주 전체로는 18개 부르고 17개 맞음</td></tr>
+      <tr><td>띠 없이 경주 전체</td><td class="num">A 92.6%, B 89.9%</td><td><span class="verdict n">미충족</span> 합계는 넘지만 하루의 A가 89.6%. 결승 순간을 빼면 엿새 모두 충족</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>남은 구멍은 두 순간입니다.</b> 출발 직후 9~18초(말을 적게 함)와 결승 순간(그림이 흐려짐)입니다.</li>
+    <li><b>우승마를 부르지 못한 경주에서는 확정 정보로 메웁니다.</b> "결승선 통과"만 말하고 우승마는 공식 결과로 말하면 됩니다.</li>
+    <li><b>띠가 없는 방송에서도 같은 방법을 쓸 수 있습니다.</b> 공식 기록은 어느 경마장에나 있으므로, 채점도 선두 모델의 학습도 띠 없이 됩니다.</li>
+    <li><b>기수를 그림마다 따라가는 방법은 통하지 않았습니다.</b> 검출이 깜빡여 자주 끊겼습니다.</li>
+  </ul>
+  <p class="note">기본 구성(L1)은 이 구간에서 아직 재지 못했습니다. 위 숫자는 언어 모델을 쓰지 않는 빠른 구성(F2)의 것입니다. 정답은 0.1초 단위 기록 사이를 등속으로 이은 것이라, 붙어 달리는 말의 순서에서는 정답 쪽이 틀릴 수 있습니다.</p>
 </section>
 
 <section>
@@ -351,6 +371,32 @@ svg .m { font-family: var(--mono); }
   <p>문장 예(9경주, 띠 3, 2, 1, 7, 6): "지금 선두는 3번으로, 뒤에는 2번이 따르고 있습니다." 선두를 말할 수 있던 시점은 선두 중계 148개 중 49개였고, 나머지는 전처럼 "선두권에는 2번과 3번"까지만 말했습니다.</p>
 </section>
 
+<section id="benchmark">
+  <h2>벤치마크 초안 v0</h2>
+  <p class="lead">재려는 흐름은 세 줄입니다. AI가 띠 없이 화면만 보고 중계한다. 순위를 확실히 알 때는 순위를 말한다. 확실하지 않을 때는 확정 정보로 말한다. 이것을 재는 첫 묶음을 만들었습니다.</p>
+  <ul>
+    <li><b>문항:</b> 띠가 화면에 있는 순간 1,606개(서울 열하루, 109개 경주). 시험용 874개는 식별기를 만들 때 쓰지 않은 엿새입니다.</li>
+    <li><b>입력과 출력:</b> 띠를 가린 그림 3장과 경주 정보를 주고, 한국어 중계 한 문장을 받습니다. 말은 "N번"으로 부릅니다.</li>
+    <li><b>정답과 채점:</b> 그 순간 띠의 1~5위가 정답입니다. 문장에 나온 번호가 1~3위가 아니면 틀린 번호로 셉니다. 틀린 문장의 비율과 말한 양을 함께 봅니다.</li>
+  </ul>
+  <div class="tablewrap"><table>
+    <thead><tr><th>기준선 (시험용)</th><th class="num">문항</th><th class="num">틀린 문장 ↓</th><th class="num">번호 정확도 A ↑</th><th class="num">말한 양 B ↑</th><th class="num">선두 주장</th></tr></thead>
+    <tbody>
+      <tr><td>번호를 말하지 않기</td><td class="num">874</td><td class="num">0.0%</td><td class="num">—</td><td class="num">0.0%</td><td class="num">—</td></tr>
+      <tr><td>무작위로 세 번호</td><td class="num">874</td><td class="num">99.3%</td><td class="num">29.5%</td><td class="num">70.9%</td><td class="num">9.8%</td></tr>
+      <tr><td>화면만 본 모델 (Qwen 9B), "누가 앞서 있는지 중계하라"</td><td class="num">300</td><td class="num">70.0%</td><td class="num">31.4%</td><td class="num">34.0%</td><td class="num">10.7%</td></tr>
+      <tr><td>같은 모델, "확실할 때만 번호를 말하라"</td><td class="num">300</td><td class="num">3.0%</td><td class="num">50.0%</td><td class="num">4.3%</td><td class="num">14.3%</td></tr>
+      <tr><td><b>우리 흐름</b> (식별기 + 문장 틀)</td><td class="num">874</td><td class="num">11.8%</td><td class="num">93.2%</td><td class="num">93.0%</td><td class="num">90.1%</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>화면만 본 작은 모델은 무작위 수준입니다.</b> 자유롭게 시키면 10문장 중 7문장에 틀린 번호가 들어갑니다.</li>
+    <li><b>"확실할 때만"이라고 하면 거의 말을 하지 않습니다.</b> 거의 틀리지 않지만 중계가 되지 않습니다.</li>
+    <li><b>식별기를 앞에 두면 둘 다 됩니다.</b> 그래도 틀린 번호가 든 문장이 12% 남고, 대부분 띠의 4~5위 말입니다.</li>
+  </ul>
+  <p class="note">초안의 한계: 띠가 있는 구간만 다룹니다(출발 직후, 마지막 30초, 결승 순간은 위의 공식 기록 정답으로 더할 예정). 정답은 모델이 띠를 읽은 것이고 문항별 검수는 하지 않았습니다. 번호만 채점합니다. 우리 흐름의 문장은 정해진 틀에 넣은 것입니다. 화면만 본 모델은 로컬의 작은 모델 하나뿐이고, 문항 수가 874보다 적은 줄은 무작위로 뽑힌 일부만 채점한 것입니다. 자세한 내용은 저장소의 <code>benchmark/v0/README_KO.md</code>에 있습니다.</p>
+</section>
+
 <section>
   <h2>이 결과가 뜻하는 것</h2>
   <ul>
@@ -359,7 +405,7 @@ svg .m { font-family: var(--mono); }
     <li><b>사람 라벨 없이 늘릴 수 있는 방법이 가장 효과가 컸습니다.</b> 순위 띠가 채점 기준이 됐고 "앞선 말 고르기"의 학습 정답이 됐습니다. 사람이 적은 라벨은 598개에서 멈췄습니다.</li>
     <li><b>언어 모델의 답을 그대로 "확정"으로 쓰면 안 됩니다.</b> Qwen은 번호를 배정하는 점수에만 쓰고, 확정 여부는 학습한 분류기의 확률로 정했을 때 정확도가 6%p 올랐습니다. 그 뒤 Qwen을 아예 빼도 결과가 같았습니다.</li>
     <li><b>"확정 정보"의 출처가 중요합니다.</b> 경주 거리와 출발 시각을 모델이 화면에서 읽게 했더니 11개 경주 중 2개에서 틀렸습니다. 출전표와 출발 신호에서 받아야 합니다.</li>
-    <li><b>어디가 어려운지 숫자로 알게 됐습니다.</b> 결승 직전의 먼 화면이 그 구간입니다. 벤치마크에서 "어려운 구간"을 정의할 때 쓸 수 있습니다.</li>
+    <li><b>어디가 어려운지 숫자로 알게 됐습니다.</b> 출발 직후와 결승 순간이 그 구간입니다. 결승 직전의 먼 화면은 결승 3초 전까지는 생각보다 잘 됐습니다. 벤치마크에서 "어려운 구간"을 정의할 때 쓸 수 있습니다.</li>
   </ul>
 </section>
 
@@ -387,10 +433,11 @@ svg .m { font-family: var(--mono); }
       <tr><td><b>"믿어도 되는 순간" 신호 시험</b></td><td>지금은 "예상 결승 30초 전까지"라는 시계 규칙입니다. 기수 크기나 번호 확률 같은 식별기 자신의 출력으로 가르는 편이 나은지 봅니다.</td><td>지금 있는 데이터로 가능</td></tr>
       <tr><td><b>묶은 구성(F2) 확인</b></td><td>Qwen 빼기, 빈 시점 메우기, 선두 기준값 0.5를 함께 쓴 구성을 새 날 이틀에서 확인합니다. 설계는 고정해 두었습니다.</td><td>경주 영상 이틀 치 (받기가 막혀 있음)</td></tr>
       <tr><td><b>먼 화면과 약한 모자색</b></td><td>남은 오류가 몰린 곳입니다. 작게 잡힌 기수와 보라·분홍 모자를 더 잘 읽게 합니다.</td><td>그 장면의 모자 라벨</td></tr>
-      <tr><td><b>마지막 30초의 기준 만들기</b></td><td>띠가 사라진 뒤부터 결승 6초 전까지는 잴 기준이 없습니다.</td><td>공식 구간 기록 또는 사람 라벨</td></tr>
+      <tr><td><b>띠 없는 구간을 벤치마크 문항으로</b></td><td>출발 직후, 마지막 30초, 결승 순간을 공식 기록 정답으로 문항에 더합니다. 지금 초안은 띠가 있는 구간만 다룹니다.</td><td>지금 있는 자료로 가능</td></tr>
+      <tr><td><b>출발 직후와 결승 순간</b></td><td>띠 없이 경주 전체를 돌렸을 때 남은 약한 두 곳입니다.</td><td>그 장면에 맞춘 방법</td></tr>
       <tr><td><b>야간·해 질 녘 경주만 골라 확인</b></td><td>지금까지의 날은 규칙으로 뽑은 날이라 어려운 조건만 모아 본 적이 없습니다.</td><td>경주 영상 추가</td></tr>
       <tr><td><b>다른 경마장</b></td><td>"앞선 말 고르기" 모델은 서울 경마장의 카메라 배치를 배웠습니다. 부산경남, 제주에서는 다시 학습해야 합니다.</td><td>그 경마장의 영상</td></tr>
-      <tr><td><b>벤치마크 채점기로 쓰기</b></td><td>순위 띠로 틀린 진술을 자동으로 세는 방법을 ON-AIR 벤치마크의 지표로 쓸 수 있습니다.</td><td>팀 논의</td></tr>
+      <tr><td><b>벤치마크에 더 큰 모델과 문장 다듬기 넣기</b></td><td>기준선의 화면만 본 모델은 작은 로컬 모델 하나입니다. 우리 흐름의 문장은 틀에 넣은 것입니다.</td><td>팀 논의 (유료 모델을 쓸지)</td></tr>
     </tbody>
   </table></div>
 </section>
@@ -410,7 +457,9 @@ python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --fast --f
       <tr><td><code>leader/</code></td><td>선두권 안의 순서(선두, 앞뒤)</td></tr>
       <tr><td><code>night/</code></td><td>새 경주일 나흘에서 다시 잰 것, Qwen 없는 구성, 빈 시점 메우기, 순서를 넣은 중계</td></tr>
       <tr><td><code>live_commentary/</code></td><td>실제 중계 시연. 문장 전체는 <code>20261115/commentary_v2/</code>에 있음</td></tr>
-      <tr><td><code>commentary2/</code>, <code>finish/</code>, <code>da/</code>, <code>confirm/</code></td><td>중계 비교 실험, 결승선 구간</td></tr>
+      <tr><td><code>commentary2/</code>, <code>finish/</code>, <code>da/</code>, <code>confirm/</code></td><td>중계 비교 실험, 결승선 구간(처음 시도)</td></tr>
+      <tr><td><code>finish2/</code></td><td>띠 없는 구간을 공식 기록으로 다시 재기, 선두 모델, 우승마 부르기, 경주 전체</td></tr>
+      <tr><td><code>benchmark/v0/</code> (저장소 맨 위)</td><td>벤치마크 초안: 문항, 정답, 채점기, 기준선</td></tr>
       <tr><td><code>ON-AIR_GOAL.md</code> (프로젝트 루트)</td><td>목표와 단계별 진행 기록 전체</td></tr>
     </tbody>
   </table></div>

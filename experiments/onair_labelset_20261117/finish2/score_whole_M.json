@@ -1,0 +1,421 @@
+{
+ "days": [
+  "otherday6",
+  "otherday7",
+  "otherday8"
+ ],
+ "races": 24,
+ "races_run": 30,
+ "parts": {
+  "start": {
+   "points": 72,
+   "said": 81,
+   "right": 67,
+   "right_lenient": 75,
+   "points_good": 48,
+   "points_good_lenient": 51,
+   "points_silent": 17,
+   "leader_said": 20,
+   "leader_right": 17,
+   "leader_right_lenient": 19,
+   "A": 82.7,
+   "B": 66.7,
+   "A_lenient": 92.6,
+   "B_lenient": 70.8,
+   "leader": 85.0,
+   "leader_lenient": 95.0,
+   "interval": {
+    "A": [
+     71.4,
+     91.9
+    ],
+    "B": [
+     50.0,
+     80.6
+    ],
+    "leader": [
+     66.7,
+     100.0
+    ]
+   }
+  },
+  "middle": {
+   "points": 266,
+   "said": 468,
+   "right": 441,
+   "right_lenient": 457,
+   "points_good": 243,
+   "points_good_lenient": 246,
+   "points_silent": 17,
+   "leader_said": 186,
+   "leader_right": 162,
+   "leader_right_lenient": 185,
+   "A": 94.2,
+   "B": 91.4,
+   "A_lenient": 97.6,
+   "B_lenient": 92.5,
+   "leader": 87.1,
+   "leader_lenient": 99.5,
+   "interval": {
+    "A": [
+     91.2,
+     96.9
+    ],
+    "B": [
+     86.4,
+     96.1
+    ],
+    "leader": [
+     74.2,
+     96.3
+    ]
+   }
+  },
+  "finish": {
+   "points": 312,
+   "said": 593,
+   "right": 550,
+   "right_lenient": 580,
+   "points_good": 298,
+   "points_good_lenient": 302,
+   "points_silent": 4,
+   "leader_said": 193,
+   "leader_right": 128,
+   "leader_right_lenient": 174,
+   "A": 92.7,
+   "B": 95.5,
+   "A_lenient": 97.8,
+   "B_lenient": 96.8,
+   "leader": 66.3,
+   "leader_lenient": 90.2,
+   "interval": {
+    "A": [
+     89.7,
+     95.4
+    ],
+    "B": [
+     93.6,
+     97.4
+    ],
+    "leader": [
+     55.2,
+     77.3
+    ]
+   }
+  },
+  "whole race": {
+   "points": 650,
+   "said": 1142,
+   "right": 1058,
+   "right_lenient": 1112,
+   "points_good": 589,
+   "points_good_lenient": 599,
+   "points_silent": 38,
+   "leader_said": 399,
+   "leader_right": 307,
+   "leader_right_lenient": 378,
+   "A": 92.6,
+   "B": 90.6,
+   "A_lenient": 97.4,
+   "B_lenient": 92.2,
+   "leader": 76.9,
+   "leader_lenient": 94.7,
+   "interval": {
+    "A": [
+     89.9,
+     94.9
+    ],
+    "B": [
+     87.1,
+     93.8
+    ],
+    "leader": [
+     66.7,
+     85.0
+    ]
+   }
+  },
+  "whole race without the finish moment": {
+   "points": 626,
+   "said": 1115,
+   "right": 1041,
+   "right_lenient": 1092,
+   "points_good": 575,
+   "points_good_lenient": 583,
+   "points_silent": 36,
+   "leader_said": 396,
+   "leader_right": 305,
+   "leader_right_lenient": 376,
+   "A": 93.4,
+   "B": 91.9,
+   "A_lenient": 97.9,
+   "B_lenient": 93.1,
+   "leader": 77.0,
+   "leader_lenient": 94.9,
+   "interval": {
+    "A": [
+     90.6,
+     95.7
+    ],
+    "B": [
+     88.3,
+     95.2
+    ],
+    "leader": [
+     66.5,
+     85.1
+    ]
+   }
+  }
+ },
+ "every_race_run": {
+  "start": {
+   "points": 90,
+   "said": 104,
+   "right": 88,
+   "right_lenient": 97,
+   "points_good": 63,
+   "points_good_lenient": 66,
+   "points_silent": 20,
+   "leader_said": 27,
+   "leader_right": 24,
+   "leader_right_lenient": 26,
+   "A": 84.6,
+   "B": 70.0,
+   "A_lenient": 93.3,
+   "B_lenient": 73.3,
+   "leader": 88.9,
+   "leader_lenient": 96.3
+  },
+  "middle": {
+   "points": 346,
+   "said": 614,
+   "right": 579,
+   "right_lenient": 597,
+   "points_good": 319,
+   "points_good_lenient": 323,
+   "points_silent": 19,
+   "leader_said": 242,
+   "leader_right": 210,
+   "leader_right_lenient": 241,
+   "A": 94.3,
+   "B": 92.2,
+   "A_lenient": 97.2,
+   "B_lenient": 93.4,
+   "leader": 86.8,
+   "leader_lenient": 99.6
+  },
+  "finish": {
+   "points": 390,
+   "said": 733,
+   "right": 674,
+   "right_lenient": 710,
+   "points_good": 374,
+   "points_good_lenient": 379,
+   "points_silent": 5,
+   "leader_said": 239,
+   "leader_right": 159,
+   "leader_right_lenient": 215,
+   "A": 92.0,
+   "B": 95.9,
+   "A_lenient": 96.9,
+   "B_lenient": 97.2,
+   "leader": 66.5,
+   "leader_lenient": 90.0
+  },
+  "whole race": {
+   "points": 826,
+   "said": 1451,
+   "right": 1341,
+   "right_lenient": 1404,
+   "points_good": 756,
+   "points_good_lenient": 768,
+   "points_silent": 44,
+   "leader_said": 508,
+   "leader_right": 393,
+   "leader_right_lenient": 482,
+   "A": 92.4,
+   "B": 91.5,
+   "A_lenient": 96.8,
+   "B_lenient": 93.0,
+   "leader": 77.4,
+   "leader_lenient": 94.9
+  },
+  "whole race without the finish moment": {
+   "points": 796,
+   "said": 1416,
+   "right": 1319,
+   "right_lenient": 1378,
+   "points_good": 737,
+   "points_good_lenient": 747,
+   "points_silent": 41,
+   "leader_said": 504,
+   "leader_right": 391,
+   "leader_right_lenient": 479,
+   "A": 93.1,
+   "B": 92.6,
+   "A_lenient": 97.3,
+   "B_lenient": 93.8,
+   "leader": 77.6,
+   "leader_lenient": 95.0
+  }
+ },
+ "by_day": {
+  "otherday6": {
+   "start": {
+    "points": 24,
+    "said": 21,
+    "right": 17,
+    "leader_said": 7,
+    "leader_right": 6,
+    "A": 81.0,
+    "B": 54.2,
+    "leader": 85.7
+   },
+   "middle": {
+    "points": 105,
+    "said": 190,
+    "right": 176,
+    "leader_said": 76,
+    "leader_right": 60,
+    "A": 92.6,
+    "B": 93.3,
+    "leader": 78.9
+   },
+   "finish": {
+    "points": 104,
+    "said": 201,
+    "right": 176,
+    "leader_said": 56,
+    "leader_right": 36,
+    "A": 87.6,
+    "B": 94.2,
+    "leader": 64.3
+   },
+   "whole race": {
+    "points": 233,
+    "said": 412,
+    "right": 369,
+    "leader_said": 139,
+    "leader_right": 102,
+    "A": 89.6,
+    "B": 89.7,
+    "leader": 73.4
+   },
+   "whole race without the finish moment": {
+    "points": 225,
+    "said": 402,
+    "right": 364,
+    "leader_said": 138,
+    "leader_right": 101,
+    "A": 90.5,
+    "B": 91.1,
+    "leader": 73.2
+   }
+  },
+  "otherday7": {
+   "start": {
+    "points": 24,
+    "said": 37,
+    "right": 33,
+    "leader_said": 7,
+    "leader_right": 6,
+    "A": 89.2,
+    "B": 91.7,
+    "leader": 85.7
+   },
+   "middle": {
+    "points": 79,
+    "said": 143,
+    "right": 138,
+    "leader_said": 51,
+    "leader_right": 49,
+    "A": 96.5,
+    "B": 94.9,
+    "leader": 96.1
+   },
+   "finish": {
+    "points": 104,
+    "said": 203,
+    "right": 194,
+    "leader_said": 69,
+    "leader_right": 44,
+    "A": 95.6,
+    "B": 98.1,
+    "leader": 63.8
+   },
+   "whole race": {
+    "points": 207,
+    "said": 383,
+    "right": 365,
+    "leader_said": 127,
+    "leader_right": 99,
+    "A": 95.3,
+    "B": 96.1,
+    "leader": 78.0
+   },
+   "whole race without the finish moment": {
+    "points": 199,
+    "said": 374,
+    "right": 357,
+    "leader_said": 126,
+    "leader_right": 99,
+    "A": 95.5,
+    "B": 96.5,
+    "leader": 78.6
+   }
+  },
+  "otherday8": {
+   "start": {
+    "points": 24,
+    "said": 23,
+    "right": 17,
+    "leader_said": 6,
+    "leader_right": 5,
+    "A": 73.9,
+    "B": 54.2,
+    "leader": 83.3
+   },
+   "middle": {
+    "points": 82,
+    "said": 135,
+    "right": 127,
+    "leader_said": 59,
+    "leader_right": 53,
+    "A": 94.1,
+    "B": 85.4,
+    "leader": 89.8
+   },
+   "finish": {
+    "points": 104,
+    "said": 189,
+    "right": 180,
+    "leader_said": 68,
+    "leader_right": 48,
+    "A": 95.2,
+    "B": 94.2,
+    "leader": 70.6
+   },
+   "whole race": {
+    "points": 210,
+    "said": 347,
+    "right": 324,
+    "leader_said": 133,
+    "leader_right": 106,
+    "A": 93.4,
+    "B": 86.2,
+    "leader": 79.7
+   },
+   "whole race without the finish moment": {
+    "points": 202,
+    "said": 339,
+    "right": 320,
+    "leader_said": 132,
+    "leader_right": 105,
+    "A": 94.4,
+    "B": 88.1,
+    "leader": 79.5
+   }
+  }
+ }
+}
