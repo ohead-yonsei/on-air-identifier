@@ -153,38 +153,39 @@ svg .m { font-family: var(--mono); }
     <tbody>
       <tr><td><b>A</b></td><td>식별기가 "N번이 선두권에 있다"고 말한 것 중 실제 상위 3두인 비율</td><td>90% 이상</td></tr>
       <tr><td><b>B</b></td><td>맞는 번호를 하나 이상 말한 시점의 비율</td><td>80% 이상</td></tr>
-      <tr><td><b>C</b></td><td>그 번호를 중계 모델에 준 경우와 안 준 경우의 틀린 진술 수</td><td>측정</td></tr>
+      <tr><td><b>C</b></td><td>같은 화면을 중계 모델에게 두 가지로 보여 줬을 때 나오는 틀린 말의 수: 화면만 보여 준 경우와, 식별기가 확정한 번호를 함께 준 경우</td><td>기준 없이 비교</td></tr>
     </tbody>
   </table></div>
-  <p>A는 "말한 것이 얼마나 맞는가", B는 "얼마나 자주 말할 수 있는가"입니다. 조심스럽게 말하면 A는 오르고 B는 내려서, 둘을 함께 봐야 합니다.</p>
+  <p>A는 "말한 것이 얼마나 맞는가", B는 "얼마나 자주 말할 수 있는가"입니다. 조심스럽게 말하면 A는 오르고 B는 내려서, 둘을 함께 봐야 합니다. C는 식별기가 중계의 틀린 말을 실제로 줄이는지 보는 비교입니다. 처음 보는 날의 띠 구간 138장에서 틀린 말이 267개에서 27개로 줄었습니다(v6 때 잰 값, 번호 목록으로 받아서 셈).</p>
 </section>
 
 <section>
   <h2>식별기 결과</h2>
-  <p class="lead">처음으로 선두권 번호를 낸 v6은 처음 보는 경주일에서 A 86.2%, B 75.1%였습니다. 두 번 바꾼 v8에서 A 92.9%, B 94.6%가 됐습니다.</p>
+  <p class="lead">처음으로 선두권 번호를 낸 v6은 처음 보는 경주일에서 A 86.2%, B 75.1%였습니다. 두 번 바꾼 v8에서 A 92.9%, B 94.6%가 됐고, 언어 모델을 뺀 v9는 또 다른 새 경주일 이틀에서 A 94.5%, B 94.1%였습니다.</p>
   <figure>
     <div class="scroll">
-    <svg viewBox="0 0 760 362" role="img" aria-label="버전별 A와 B. v6 A 86.2% B 75.1%, v7 A 92.7% B 86.3%, v8 A 92.9% B 94.6%" font-size="12">
+    <svg viewBox="0 0 760 362" role="img" aria-label="버전별 A와 B. v6 A 86.2% B 75.1%, v7 A 92.7% B 86.3%, v8 A 92.9% B 94.6%, v9 A 94.5% B 94.1%" font-size="12">
       <g><circle cx="116" cy="26" r="5" fill="var(--s1)"/><text class="t" x="128" y="30">A: 말한 것 중 맞는 비율</text><circle cx="376" cy="26" r="5" fill="var(--s2)"/><text class="t" x="388" y="30">B: 맞는 말이 있는 시점</text></g>
       <g stroke="var(--line)"><line x1="110" x2="660" y1="90" y2="90"/><line x1="110" x2="660" y1="142.5" y2="142.5"/><line x1="110" x2="660" y1="195" y2="195"/><line x1="110" x2="660" y1="247.5" y2="247.5"/><line x1="110" x2="660" y1="300" y2="300"/></g>
       <g class="q m" text-anchor="end" font-size="11.5"><text class="q" x="100" y="94">100%</text><text class="q" x="100" y="146.5">90%</text><text class="q" x="100" y="199">80%</text><text class="q" x="100" y="251.5">70%</text><text class="q" x="100" y="304">60%</text></g>
       <g stroke="var(--quiet)" stroke-width="1.25" stroke-dasharray="5 4"><line x1="110" x2="660" y1="142.5" y2="142.5"/><line x1="110" x2="660" y1="195" y2="195"/></g>
       <text class="q" x="668" y="146.5" font-size="11.5">A 목표 90%</text><text class="q" x="668" y="199" font-size="11.5">B 목표 80%</text>
-      <polyline points="190,162.5 390,128.3 590,127.3" fill="none" stroke="var(--s1)" stroke-width="2"/>
-      <polyline points="190,220.7 390,161.9 590,118.3" fill="none" stroke="var(--s2)" stroke-width="2"/>
+      <polyline points="165,162.5 315,128.3 465,127.3 610,118.9" fill="none" stroke="var(--s1)" stroke-width="2"/>
+      <polyline points="165,220.7 315,161.9 465,118.3 620,121" fill="none" stroke="var(--s2)" stroke-width="2"/>
       <g stroke="var(--surface)" stroke-width="2">
-        <circle cx="190" cy="162.5" r="6" fill="var(--s1)"><title>v6, A 86.2%</title></circle><circle cx="390" cy="128.3" r="6" fill="var(--s1)"><title>v7, A 92.7%</title></circle><circle cx="590" cy="127.3" r="6" fill="var(--s1)"><title>v8, A 92.9%</title></circle>
-        <circle cx="190" cy="220.7" r="6" fill="var(--s2)"><title>v6, B 75.1%</title></circle><circle cx="390" cy="161.9" r="6" fill="var(--s2)"><title>v7, B 86.3%</title></circle><circle cx="590" cy="118.3" r="6" fill="var(--s2)"><title>v8, B 94.6%</title></circle>
+        <circle cx="165" cy="162.5" r="6" fill="var(--s1)"><title>v6, A 86.2%</title></circle><circle cx="315" cy="128.3" r="6" fill="var(--s1)"><title>v7, A 92.7%</title></circle><circle cx="465" cy="127.3" r="6" fill="var(--s1)"><title>v8, A 92.9%</title></circle><circle cx="610" cy="118.9" r="6" fill="var(--s1)"><title>v9, A 94.5%</title></circle>
+        <circle cx="165" cy="220.7" r="6" fill="var(--s2)"><title>v6, B 75.1%</title></circle><circle cx="315" cy="161.9" r="6" fill="var(--s2)"><title>v7, B 86.3%</title></circle><circle cx="465" cy="118.3" r="6" fill="var(--s2)"><title>v8, B 94.6%</title></circle><circle cx="620" cy="121" r="6" fill="var(--s2)"><title>v9, B 94.1%</title></circle>
       </g>
       <g class="m b" text-anchor="middle" font-size="12.5">
-        <text class="t" x="190" y="186">A 86.2%</text><text class="t" x="190" y="244">B 75.1%</text>
-        <text class="t" x="390" y="115">A 92.7%</text><text class="t" x="390" y="185">B 86.3%</text>
-        <text class="t" x="590" y="104">B 94.6%</text><text class="t" x="603" y="132" text-anchor="start">A 92.9%</text>
+        <text class="t" x="165" y="186">A 86.2%</text><text class="t" x="165" y="244">B 75.1%</text>
+        <text class="t" x="315" y="115">A 92.7%</text><text class="t" x="315" y="185">B 86.3%</text>
+        <text class="t" x="465" y="104">B 94.6%</text><text class="t" x="465" y="158">A 92.9%</text>
+        <text class="t" x="606" y="104">A 94.5%</text><text class="t" x="632" y="125" text-anchor="start">B 94.1%</text>
       </g>
-      <g text-anchor="middle"><text class="t" x="190" y="326" font-size="12.5">v6</text><text class="q" x="190" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="390" y="326" font-size="12.5">v7</text><text class="q" x="390" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="590" y="326" font-size="12.5">v8</text><text class="q" x="590" y="344" font-size="11.5">새 경주일 두 날</text></g>
+      <g text-anchor="middle"><text class="t" x="165" y="326" font-size="12.5">v6</text><text class="q" x="165" y="344" font-size="11.5">새 경주일 다섯 날</text><text class="t" x="315" y="326" font-size="12.5">v7</text><text class="q" x="315" y="344" font-size="11.5">새 경주일 세 날</text><text class="t" x="465" y="326" font-size="12.5">v8</text><text class="q" x="465" y="344" font-size="11.5">새 경주일 두 날</text><text class="t" x="615" y="326" font-size="12.5">v9 (기본값)</text><text class="q" x="615" y="344" font-size="11.5">또 다른 새 두 날</text></g>
     </svg>
     </div>
-    <figcaption>각 버전을 고르는 데 쓰지 않은 경주일의 합계입니다. 순위 띠가 화면에 있는 구간에서 잰 값입니다.</figcaption>
+    <figcaption>각 버전을 고르는 데 쓰지 않은 경주일의 합계입니다. 순위 띠가 화면에 있는 구간에서 잰 값입니다. 버전마다 잰 날이 달라서 점끼리 바로 비교할 수는 없습니다. v9를 잰 이틀(8/29, 8/23)에서 v8은 A 96.4%, B 90.1%였습니다.</figcaption>
   </figure>
   <div class="tablewrap"><table>
     <thead><tr><th>버전</th><th>코드 이름</th><th>무엇을 바꿨나</th><th class="n">A</th><th class="n">B</th><th>어디서 쟀나</th></tr></thead>
