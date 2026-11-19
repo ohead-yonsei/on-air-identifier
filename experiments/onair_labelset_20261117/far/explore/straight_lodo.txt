@@ -1,0 +1,25 @@
+training rows per window: {6.0: 16247, 12.0: 36516} share leader: {6.0: 0.129, 12.0: 0.122}
+day done 20261115
+day done otherday
+day done otherday2
+day done otherday3
+day done otherday4
+day done otherday5
+day done otherday9
+day done otherday10
+day done otherday11
+day done otherday14
+day done otherday15
+day done otherday16
+day done otherday17
+day done otherday18
+day done otherday19
+straight 6s                  all 104+9w of 150 | days that trained the classifier 42+3w of 60 | the other nine 62+6w of 90 | 15:7+0w ay:8+0w y2:9+0w y3:6+1w y4:6+0w y5:6+2w y9:6+1w 10:9+0w 11:7+0w 14:5+1w 15:7+0w 16:7+0w 17:7+1w 18:6+3w 19:8+0w
+straight 6s or strip         all 105+10w of 150 | days that trained the classifier 43+3w of 60 | the other nine 62+7w of 90 | 15:7+0w ay:8+0w y2:9+0w y3:7+1w y4:6+0w y5:6+2w y9:6+1w 10:9+0w 11:8+0w 14:5+1w 15:7+0w 16:6+1w 17:7+1w 18:6+3w 19:8+0w
+straight 6s need 7           all 98+5w of 150 | days that trained the classifier 39+1w of 60 | the other nine 59+4w of 90 | 15:7+0w ay:7+0w y2:8+0w y3:6+0w y4:6+0w y5:5+1w y9:6+1w 10:8+0w 11:7+0w 14:5+0w 15:6+0w 16:6+0w 17:7+0w 18:6+3w 19:8+0w
+straight 6s tau 0.6          all 100+10w of 150 | days that trained the classifier 40+3w of 60 | the other nine 60+7w of 90 | 15:7+0w ay:8+0w y2:8+1w y3:6+1w y4:6+0w y5:5+1w y9:6+1w 10:8+0w 11:8+0w 14:5+1w 15:7+1w 16:6+0w 17:6+1w 18:6+3w 19:8+0w
+straight 12s                 all 102+8w of 150 | days that trained the classifier 41+2w of 60 | the other nine 61+6w of 90 | 15:7+0w ay:8+0w y2:8+0w y3:6+0w y4:6+0w y5:6+2w y9:6+1w 10:8+0w 11:8+0w 14:5+0w 15:7+1w 16:7+1w 17:7+1w 18:5+2w 19:8+0w
+straight 12s or strip        all 102+7w of 150 | days that trained the classifier 42+2w of 60 | the other nine 60+5w of 90 | 15:8+0w ay:8+0w y2:8+0w y3:6+0w y4:6+0w y5:6+2w y9:6+1w 10:8+0w 11:8+0w 14:5+0w 15:7+0w 16:6+1w 17:7+1w 18:5+2w 19:8+0w
+straight 12s need 7          all 91+4w of 150 | days that trained the classifier 36+1w of 60 | the other nine 55+3w of 90 | 15:6+0w ay:7+0w y2:6+0w y3:6+0w y4:6+0w y5:5+1w y9:6+1w 10:7+0w 11:6+0w 14:5+0w 15:6+0w 16:6+0w 17:6+0w 18:5+2w 19:8+0w
+straight 12s tau 0.6         all 97+7w of 150 | days that trained the classifier 39+2w of 60 | the other nine 58+5w of 90 | 15:6+0w ay:8+0w y2:7+0w y3:6+0w y4:6+0w y5:6+2w y9:5+1w 10:8+0w 11:8+0w 14:5+0w 15:7+1w 16:6+0w 17:6+1w 18:5+2w 19:8+0w
+strip (current)              all 86+2w of 150 | days that trained the classifier 35+1w of 60 | the other nine 51+1w of 90 | 15:5+0w ay:5+0w y2:8+0w y3:6+0w y4:5+0w y5:6+1w y9:7+0w 10:8+0w 11:4+0w 14:4+0w 15:7+0w 16:5+0w 17:6+0w 18:2+1w 19:8+0w

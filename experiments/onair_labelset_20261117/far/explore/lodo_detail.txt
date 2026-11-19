@@ -1,0 +1,15 @@
+otherday3 R10 agree win 11 call 4 rank 2 votes {4: 5, 7: 2, 1: 1} need7 call None strip cand None seen/front 1 1
+otherday5 R06 agree win 1 call 2 rank 3 votes {2: 16, 1: 2} need7 call 2 strip cand 2 seen/front 9 8
+otherday5 R09 agree win 7 call 1 rank 2 votes {1: 6, 7: 5} need7 call None strip cand None seen/front 8 6
+otherday9 R03 agree win 6 call 4 rank 2 votes {4: 13, 6: 4, 7: 1} need7 call 4 strip cand 6 seen/front 4 2
+otherday14 R07 agree win 6 call 3 rank 2 votes {3: 6} need7 call None strip cand None seen/front 9 7
+otherday17 R03 agree win 10 call 11 rank None votes {11: 6, 10: 4, 1: 2} need7 call None strip cand None seen/front 2 2
+otherday18 R01 agree win 1 call 7 rank 9 votes {7: 10, 11: 1, 2: 1} need7 call 7 strip cand None seen/front 5 5
+otherday18 R04 nc win 6 call 2 rank 5 votes {2: 11, 1: 1} need7 call 2 strip cand None seen/front 3 2
+otherday18 R08 nc win 7 call 9 rank 2 votes {9: 25, 7: 1, 1: 1} need7 call 9 strip cand 9 seen/front 11 9
+need5                              right 104 wrong 9 none 37
+need7                              right 98 wrong 5 none 47
+need5 ratio2                       right 100 wrong 7 none 43
+need7 ratio1.5                     right 96 wrong 5 none 49
+need5, strip must not disagree     right 102 wrong 8 none 40
+need7, strip must not disagree     right 96 wrong 4 none 50

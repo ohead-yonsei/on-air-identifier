@@ -1,0 +1,18 @@
+model  need 5 with the condition | nine 90: 51+1w | three 30: 14+1w | trained 90: 57+1w
+model  need 5 no condition       | nine 90: 58+8w | three 30: 16+3w | trained 90: 65+7w
+model  need 7 with the condition | nine 90: 42+1w | three 30: 10+1w | trained 90: 51+1w
+model  need 7 no condition       | nine 90: 47+5w | three 30: 10+2w | trained 90: 57+4w
+model  need 9 with the condition | nine 90: 34+1w | three 30: 7+1w | trained 90: 43+1w
+model  need 9 no condition       | nine 90: 35+5w | three 30: 7+1w | trained 90: 49+2w
+geo    need 5 with the condition | nine 90: 60+6w | three 30: 15+5w | trained 90: 63+7w
+geo    need 5 no condition       | nine 90: 63+24w | three 30: 16+13w | trained 90: 72+17w
+geo    need 7 with the condition | nine 90: 60+6w | three 30: 15+5w | trained 90: 63+6w
+geo    need 7 no condition       | nine 90: 63+22w | three 30: 16+13w | trained 90: 72+15w
+geo    need 9 with the condition | nine 90: 56+5w | three 30: 13+3w | trained 90: 60+4w
+geo    need 9 no condition       | nine 90: 59+17w | three 30: 14+9w | trained 90: 68+11w
+either need 5 with the condition | nine 90: 60+6w | three 30: 15+5w | trained 90: 66+6w
+either need 5 no condition       | nine 90: 64+23w | three 30: 16+13w | trained 90: 75+14w
+either need 7 with the condition | nine 90: 60+6w | three 30: 15+5w | trained 90: 66+5w
+either need 7 no condition       | nine 90: 64+21w | three 30: 16+13w | trained 90: 75+13w
+either need 9 with the condition | nine 90: 56+5w | three 30: 13+3w | trained 90: 62+4w
+either need 9 no condition       | nine 90: 60+16w | three 30: 14+9w | trained 90: 71+10w

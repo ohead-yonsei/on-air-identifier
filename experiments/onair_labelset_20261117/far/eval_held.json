@@ -1,0 +1,1146 @@
+{
+ "days": [
+  "otherday16",
+  "otherday17",
+  "otherday18",
+  "otherday19",
+  "otherday20",
+  "otherday21",
+  "otherday22"
+ ],
+ "new": "C",
+ "winner": {
+  "A": {
+   "right": 35,
+   "none": 33,
+   "wrong": 2
+  },
+  "C": {
+   "right": 38,
+   "none": 26,
+   "wrong": 6
+  }
+ },
+ "rows": [
+  {
+   "day": "otherday16",
+   "race": "R01",
+   "winner": 5,
+   "clock_agrees": true,
+   "A": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   },
+   "C": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R02",
+   "winner": 5,
+   "clock_agrees": false,
+   "A": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   },
+   "C": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R03",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R04",
+   "winner": 11,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 11,
+    "kind": "none"
+   },
+   "C": {
+    "call": 11,
+    "candidate": 11,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R05",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 7,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": 7,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R06",
+   "winner": 7,
+   "clock_agrees": false,
+   "A": {
+    "call": 7,
+    "candidate": 7,
+    "kind": "right"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R07",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 4,
+    "kind": "none"
+   },
+   "C": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R08",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   },
+   "C": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R09",
+   "winner": 3,
+   "clock_agrees": true,
+   "A": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   },
+   "C": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday16",
+   "race": "R10",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 2,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": 2,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R01",
+   "winner": 7,
+   "clock_agrees": true,
+   "A": {
+    "call": 7,
+    "candidate": 7,
+    "kind": "right"
+   },
+   "C": {
+    "call": 7,
+    "candidate": 7,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R02",
+   "winner": 2,
+   "clock_agrees": true,
+   "A": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   },
+   "C": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R03",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R04",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 3,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R05",
+   "winner": 3,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R06",
+   "winner": 9,
+   "clock_agrees": true,
+   "A": {
+    "call": 9,
+    "candidate": 9,
+    "kind": "right"
+   },
+   "C": {
+    "call": 9,
+    "candidate": 9,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R07",
+   "winner": 5,
+   "clock_agrees": false,
+   "A": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   },
+   "C": {
+    "call": 5,
+    "candidate": 5,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R08",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R09",
+   "winner": 3,
+   "clock_agrees": true,
+   "A": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   },
+   "C": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday17",
+   "race": "R10",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R01",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R02",
+   "winner": 3,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R03",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R04",
+   "winner": 6,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R05",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   },
+   "C": {
+    "call": null,
+    "candidate": 4,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R06",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "right"
+   },
+   "C": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R07",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R08",
+   "winner": 7,
+   "clock_agrees": false,
+   "A": {
+    "call": 9,
+    "candidate": 9,
+    "kind": "wrong"
+   },
+   "C": {
+    "call": null,
+    "candidate": 9,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R09",
+   "winner": 9,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 9,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": 9,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday18",
+   "race": "R10",
+   "winner": 3,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R01",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R02",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R03",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R04",
+   "winner": 3,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": 3,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": 3,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R05",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R06",
+   "winner": 11,
+   "clock_agrees": true,
+   "A": {
+    "call": 11,
+    "candidate": 11,
+    "kind": "right"
+   },
+   "C": {
+    "call": 11,
+    "candidate": 11,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R07",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R08",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R09",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday19",
+   "race": "R10",
+   "winner": 2,
+   "clock_agrees": true,
+   "A": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   },
+   "C": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R01",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R02",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "wrong"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R03",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   },
+   "C": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R04",
+   "winner": 3,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R05",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "right"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R06",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R07",
+   "winner": 11,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R08",
+   "winner": 5,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "wrong"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R09",
+   "winner": 9,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday20",
+   "race": "R10",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R01",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R02",
+   "winner": 7,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 7,
+    "kind": "none"
+   },
+   "C": {
+    "call": 7,
+    "candidate": 7,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R03",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R04",
+   "winner": 1,
+   "clock_agrees": true,
+   "A": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "right"
+   },
+   "C": {
+    "call": null,
+    "candidate": 1,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R05",
+   "winner": 8,
+   "clock_agrees": false,
+   "A": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   },
+   "C": {
+    "call": 8,
+    "candidate": 8,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R06",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   },
+   "C": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R07",
+   "winner": 10,
+   "clock_agrees": false,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R08",
+   "winner": 2,
+   "clock_agrees": true,
+   "A": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   },
+   "C": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R09",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday21",
+   "race": "R10",
+   "winner": 10,
+   "clock_agrees": true,
+   "A": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R01",
+   "winner": 8,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 6,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": 6,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R02",
+   "winner": 5,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R03",
+   "winner": 3,
+   "clock_agrees": false,
+   "A": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   },
+   "C": {
+    "call": 3,
+    "candidate": 3,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R04",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R05",
+   "winner": 4,
+   "clock_agrees": true,
+   "A": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   },
+   "C": {
+    "call": 4,
+    "candidate": 4,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R06",
+   "winner": 11,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": null,
+    "kind": "none"
+   },
+   "C": {
+    "call": 10,
+    "candidate": 10,
+    "kind": "wrong"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R07",
+   "winner": 8,
+   "clock_agrees": false,
+   "A": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "wrong"
+   },
+   "C": {
+    "call": 1,
+    "candidate": 1,
+    "kind": "wrong"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R08",
+   "winner": 4,
+   "clock_agrees": false,
+   "A": {
+    "call": null,
+    "candidate": 9,
+    "kind": "none"
+   },
+   "C": {
+    "call": 9,
+    "candidate": 9,
+    "kind": "wrong"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R09",
+   "winner": 6,
+   "clock_agrees": true,
+   "A": {
+    "call": null,
+    "candidate": 6,
+    "kind": "none"
+   },
+   "C": {
+    "call": 6,
+    "candidate": 6,
+    "kind": "right"
+   }
+  },
+  {
+   "day": "otherday22",
+   "race": "R10",
+   "winner": 9,
+   "clock_agrees": true,
+   "A": {
+    "call": 9,
+    "candidate": 9,
+    "kind": "right"
+   },
+   "C": {
+    "call": 2,
+    "candidate": 2,
+    "kind": "wrong"
+   }
+  }
+ ]
+}

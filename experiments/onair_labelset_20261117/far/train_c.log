@@ -1,0 +1,11 @@
+hand labels 598 (x3) + mined labels 851 from ['far/mine', 'caps2/mine2', 'caps2/mine'] (eps 0.1) = 2645 items per epoch; mined by class [(1, 100), (2, 76), (3, 100), (4, 61), (5, 78), (6, 89), (7, 117), (8, 34), (9, 53), (10, 75), (11, 68)]
+/home/ohead/ai-workspace/projects/onair_labelset_20261117/code/h3_train_caps.py:84: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  tot += float(loss) * len(b)
+epoch 5 loss 0.2296
+epoch 10 loss 0.1797
+epoch 15 loss 0.1059
+epoch 20 loss 0.0809
+epoch 25 loss 0.0746
+epoch 30 loss 0.0736
+saved caps_far_c.pt

@@ -1,0 +1,22 @@
+  otherday20 R01 agree win 8 | current None | need5 3 need7 3 | votes {3: 7, 8: 5, 7: 2} rank of call 3
+  otherday20 R04 agree win 3 | current None | need5 3 need7 3 | votes {3: 11} rank of call 1
+  otherday20 R06 agree win 4 | current None | need5 4 need7 None | votes {4: 5, 7: 1, 2: 1} rank of call 1
+  otherday20 R07 agree win 11 | current None | need5 1 need7 1 | votes {1: 9, 11: 4, 7: 1} rank of call 11
+  otherday20 R10 agree win 6 | current None | need5 10 need7 None | votes {10: 5, 6: 4, 2: 3} rank of call 4
+  otherday21 R08 agree win 2 | current 2 | need5 2 need7 None | votes {2: 6, 4: 3, 9: 2} rank of call 1
+  otherday21 R09 agree win 8 | current None | need5 2 need7 2 | votes {2: 15} rank of call 2
+  otherday22 R01 agree win 8 | current None | need5 8 need7 8 | votes {8: 22, 6: 1} rank of call 1
+  otherday22 R10 agree win 9 | current 9 | need5 None need7 None | votes {2: 16, 9: 11, 3: 1} rank of call None
+three days of the winner test    strip (current)    right 14 wrong 1 none 15
+three days of the winner test    straight need 5    right 16 wrong 5 none 9
+three days of the winner test    straight need 7    right 14 wrong 4 none 12
+  otherday6 R03 nc win 11 | current None | need5 4 need7 4 | votes {4: 8, 2: 4} rank of call 2
+  otherday6 R04 agree win 4 | current 4 | need5 4 need7 None | votes {4: 5, 7: 2, 11: 1} rank of call 1
+  otherday6 R08 agree win 9 | current None | need5 6 need7 6 | votes {6: 9, 3: 2} rank of call 2
+  otherday6 R10 agree win 9 | current 9 | need5 8 need7 8 | votes {8: 7, 9: 4, 7: 1} rank of call 2
+  otherday7 R03 agree win 11 | current None | need5 7 need7 7 | votes {7: 8, 10: 1, 6: 1} rank of call 10
+  otherday7 R05 agree win 2 | current None | need5 2 need7 2 | votes {2: 28, 7: 1} rank of call 1
+  otherday7 R08 agree win 6 | current 6 | need5 6 need7 None | votes {6: 6} rank of call 1
+6, 7, 8 (mined-label days)       strip (current)    right 22 wrong 0 none 8
+6, 7, 8 (mined-label days)       straight need 5    right 22 wrong 4 none 4
+6, 7, 8 (mined-label days)       straight need 7    right 20 wrong 4 none 6

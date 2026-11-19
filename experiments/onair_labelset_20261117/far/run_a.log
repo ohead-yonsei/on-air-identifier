@@ -1,0 +1,5 @@
+[2026-11-20T02:28:32+09:00] start
+[2026-11-20T02:33:21+09:00] trained (exit 0): hand labels 598 (x3) + mined labels 851 from ['far/mine', 'caps2/mine2', 'caps2/mine'] (eps 0.1) = 2645 items per epoch; mined by class [(1, 100), (2, 76), (3, 100), (4, 61), (5, 78), (6, 89), (7, 117), (8, 34), (9, 53), | saved caps_far_c.pt
+[2026-11-20T02:49:45+09:00] probabilities recomputed (exit 0)
+[2026-11-20T02:50:28+09:00] evaluated (exit 0)
+[2026-11-20T02:50:28+09:00] stage 1 done

@@ -1,0 +1,28 @@
+   otherday16 R03 winner 1 | A None (candidate None) | C 1 (candidate 1)
+   otherday16 R04 winner 11 | A None (candidate 11) | C 11 (candidate 11)
+   otherday16 R06 winner 7 | A 7 (candidate 7) | C None (candidate None)
+   otherday16 R07 winner 4 | A None (candidate 4) | C 4 (candidate 4)
+   otherday17 R03 winner 10 | A None (candidate None) | C 10 (candidate 10)
+   otherday18 R05 winner 4 | A 4 (candidate 4) | C None (candidate 4)
+   otherday18 R07 winner 6 | A None (candidate None) | C 6 (candidate 6)
+   otherday18 R08 winner 7 | A 9 (candidate 9) | C None (candidate 9)
+   otherday19 R03 winner 6 | A None (candidate None) | C 6 (candidate 6)
+   otherday20 R02 winner 8 | A 8 (candidate 8) | C 6 (candidate 6)
+   otherday20 R05 winner 1 | A 1 (candidate 1) | C None (candidate None)
+   otherday20 R08 winner 5 | A None (candidate None) | C 6 (candidate 6)
+   otherday20 R10 winner 6 | A None (candidate None) | C 6 (candidate 6)
+   otherday21 R02 winner 7 | A None (candidate 7) | C 7 (candidate 7)
+   otherday21 R04 winner 1 | A 1 (candidate 1) | C None (candidate 1)
+   otherday22 R06 winner 11 | A None (candidate None) | C 10 (candidate 10)
+   otherday22 R08 winner 4 | A None (candidate 9) | C 9 (candidate 9)
+   otherday22 R09 winner 6 | A None (candidate 6) | C 6 (candidate 6)
+   otherday22 R10 winner 9 | A 9 (candidate 9) | C 2 (candidate 2)
+winner call, A  : right 35 wrong 2 none 33 of 70
+winner call, C  : right 38 wrong 6 none 26 of 70
+  per day (right+wrong): {'16': {'A': '5+0w', 'C': '7+0w'}, '17': {'A': '6+0w', 'C': '7+0w'}, '18': {'A': '2+1w', 'C': '2+0w'}, '19': {'A': '8+0w', 'C': '9+0w'}, '20': {'A': '3+0w', 'C': '2+2w'}, '21': {'A': '7+0w', 'C': '7+0w'}, '22': {'A': '4+1w', 'C': '4+4w'}}
+whole race on ['otherday16', 'otherday17', 'otherday18', 'otherday19'] (current = v11's classifier)
+current        33 races, 893 time points | readable 73.8% | leader right 48.2% wrong 8.5% | with bar 0.4: right 49.4% wrong 8.8% | numbers A 92.4% (1448/1567) B 89.9%
+               true leader 7/10/11+: {'points': 289, 'readable': 70.6, 'right': 42.6, 'wrong': 9.3} | other: {'points': 604, 'readable': 75.3, 'right': 50.8, 'wrong': 8.1} | winner call {'races': 40, 'called': 29, 'right': 25, 'wrong_ranks': [2, 2, 2, 2]}
+C              33 races, 893 time points | readable 75.9% | leader right 49.6% wrong 8.6% | with bar 0.4: right 50.6% wrong 8.8% | numbers A 92.9% (1482/1595) B 91.4%
+               true leader 7/10/11+: {'points': 289, 'readable': 70.2, 'right': 45.0, 'wrong': 9.7} | other: {'points': 604, 'readable': 78.6, 'right': 51.8, 'wrong': 8.1} | winner call {'races': 40, 'called': 31, 'right': 28, 'wrong_ranks': [2, 2, 2]}
+new minus current (95 % intervals): {"readable": [-0.6, 4.8], "leader_right": [-0.6, 3.7], "leader_wrong": [-0.6, 0.9], "leader_right_bar_0.4": [-0.8, 3.3], "leader_wrong_bar_0.4": [-0.7, 0.7], "A": [-0.8, 1.8], "B": [-0.5, 3.4], "readable_7_10_11+": [-4.6, 4.6], "leader_right_7_10_11+": [-0.8, 6.8]}
