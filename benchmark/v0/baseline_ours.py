@@ -4,6 +4,7 @@ usage: python3 baseline_ours.py IDENTIFIER_OUTPUT.json [...] --name NAME [--offi
 IDENTIFIER_OUTPUT.json: what identifier/identify_l1.py --day-dir DAY writes (one per race day; it never reads the strip to decide).
 With --official (the official track, items_official.jsonl): the whole-race output of the same identifier class, every 3 s back from the
 finish (code/fn10_whole.py for v9, code/bw1_whole.py for v11); an item is matched by race and video time.
+With --winner CALLS.json (added 2026-11-20): at the finish itself the winner call, when there is one, is said as the leader.
 The flow: where the identifier is sure, say the leading group (and the leader when it names one); where it is not, say
 confirmed information only (place, race number, distance, seconds since the start). No language model is used here, so the
 sentences are plain; the point is what is claimed, not how it is worded.
@@ -17,7 +18,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("outputs", nargs="+")
 ap.add_argument("--name", required=True)
 ap.add_argument("--official", action="store_true")
+ap.add_argument("--winner", help="with --official: winner calls (code/w4_winner_guard.py calls); at the finish itself the called number is said as the leader")
 a = ap.parse_args()
+calls = json.loads(Path(a.winner).read_text())["days"] if a.winner else {}
 meta = json.loads((HERE / "races.json").read_text())["races"]
 items = {}
 for l in (HERE / ("items_official.jsonl" if a.official else "items.jsonl")).read_text().splitlines():
@@ -32,6 +35,11 @@ for path in a.outputs:
     res = json.loads(Path(path).read_text())
     if a.official:
         points = [((res["day"], race, round(p["t"], 3)), p) for race, rr in res["races"].items() for p in rr.get("points", [])]
+        for race, rr in res["races"].items():          # the finish itself = the last time point of the race
+            n = calls.get(res["day"], {}).get(race, {}).get("call")
+            if n is not None and rr.get("points"):
+                last = max(rr["points"], key=lambda p: p["t"])
+                last["statements"], last["leader"] = sorted(set(last["statements"]) | {n}), n
     else:
         points = [((res["day_dir"], p["frame"]), p) for p in res["points"]]
     for k, p in points:

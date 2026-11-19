@@ -19,7 +19,8 @@ ROWS = [("confirmed_only", "번호를 말하지 않기 (확정 정보만)"), ("r
         ("vlm_qwen9b_free", "화면만 본 모델 (Qwen 3.5 9B, \"누가 앞서 있는지 중계하라\")"),
         ("vlm_qwen9b_careful", "화면만 본 모델 (같은 모델, \"확실할 때만 번호를 말하라\")"),
         ("ours_identifier_F2", "우리 흐름 (식별기 v9 + 정해진 문장 틀)"),
-        ("ours_identifier_v11", "**우리 흐름** (식별기 v11 + 같은 문장 틀)")]
+        ("ours_identifier_v11", "**우리 흐름** (식별기 v11 + 같은 문장 틀)"),
+        ("ours_identifier_v11w", "**우리 흐름** (v11 + 결승 순간에 우승마 부르기)")]
 PARTS = [(None, "전체"), ("start", "출발 직후"), ("finish", "마지막 36초"), ("finish_itself", "결승 순간")]
 CLEAN = ("20260912", "20260905", "20260830")
 pc = lambda v: "—" if v is None else f"{v:.1f}%"

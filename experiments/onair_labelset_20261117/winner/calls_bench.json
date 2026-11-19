@@ -1,0 +1,687 @@
+{
+ "rule": {
+  "span": 6.0,
+  "need": 5,
+  "guard_seconds": 2.0,
+  "guard_seen": 1,
+  "guard_share": 0.5
+ },
+ "days": {
+  "otherday": {
+   "R01": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R02": {
+    "call": 8,
+    "candidate": 8,
+    "seen": 6,
+    "front": 6
+   },
+   "R03": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 11,
+    "front": 8
+   },
+   "R04": {
+    "call": 5,
+    "candidate": 5,
+    "seen": 10,
+    "front": 10
+   },
+   "R05": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R06": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R07": {
+    "call": null,
+    "candidate": 6,
+    "seen": 10,
+    "front": 1
+   },
+   "R08": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 3,
+    "front": 3
+   },
+   "R09": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 5,
+    "front": 5
+   },
+   "R10": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   }
+  },
+  "otherday2": {
+   "R01": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 1,
+    "front": 1
+   },
+   "R02": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 7,
+    "front": 7
+   },
+   "R03": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 8,
+    "front": 6
+   },
+   "R04": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R05": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 7,
+    "front": 6
+   },
+   "R06": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 1,
+    "front": 1
+   },
+   "R07": {
+    "call": 8,
+    "candidate": 8,
+    "seen": 2,
+    "front": 1
+   },
+   "R08": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 4,
+    "front": 4
+   },
+   "R09": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 3,
+    "front": 2
+   },
+   "R10": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   }
+  },
+  "otherday3": {
+   "R01": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 10,
+    "front": 10
+   },
+   "R02": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 7,
+    "front": 7
+   },
+   "R03": {
+    "call": null,
+    "candidate": 6,
+    "seen": 1,
+    "front": 0
+   },
+   "R04": {
+    "call": null,
+    "candidate": 7,
+    "seen": 10,
+    "front": 1
+   },
+   "R05": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R06": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 9,
+    "front": 7
+   },
+   "R07": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 2,
+    "front": 2
+   },
+   "R08": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 6,
+    "front": 5
+   },
+   "R09": {
+    "call": 5,
+    "candidate": 5,
+    "seen": 6,
+    "front": 5
+   },
+   "R10": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   }
+  },
+  "otherday4": {
+   "R01": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 6,
+    "front": 5
+   },
+   "R02": {
+    "call": null,
+    "candidate": 6,
+    "seen": 5,
+    "front": 0
+   },
+   "R03": {
+    "call": null,
+    "candidate": 2,
+    "seen": 7,
+    "front": 1
+   },
+   "R04": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 11,
+    "front": 10
+   },
+   "R05": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 10,
+    "front": 7
+   },
+   "R06": {
+    "call": null,
+    "candidate": 7,
+    "seen": 11,
+    "front": 3
+   },
+   "R07": {
+    "call": null,
+    "candidate": 8,
+    "seen": 1,
+    "front": 0
+   },
+   "R08": {
+    "call": null,
+    "candidate": 11,
+    "seen": 3,
+    "front": 1
+   },
+   "R09": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 11,
+    "front": 8
+   },
+   "R10": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 3,
+    "front": 2
+   }
+  },
+  "otherday5": {
+   "R02": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 1,
+    "front": 1
+   },
+   "R03": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 7,
+    "front": 7
+   },
+   "R04": {
+    "call": 11,
+    "candidate": 11,
+    "seen": 6,
+    "front": 5
+   },
+   "R05": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 10,
+    "front": 10
+   },
+   "R06": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 9,
+    "front": 8
+   },
+   "R07": {
+    "call": 5,
+    "candidate": 5,
+    "seen": 6,
+    "front": 5
+   },
+   "R08": {
+    "call": null,
+    "candidate": 6,
+    "seen": 7,
+    "front": 3
+   },
+   "R09": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R10": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 1,
+    "front": 1
+   }
+  },
+  "otherday6": {
+   "R01": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 8,
+    "front": 8
+   },
+   "R02": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 7,
+    "front": 7
+   },
+   "R03": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R04": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 5,
+    "front": 5
+   },
+   "R05": {
+    "call": 1,
+    "candidate": 1,
+    "seen": 6,
+    "front": 4
+   },
+   "R06": {
+    "call": 5,
+    "candidate": 5,
+    "seen": 10,
+    "front": 9
+   },
+   "R07": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 5,
+    "front": 5
+   },
+   "R08": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R09": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 8,
+    "front": 5
+   },
+   "R10": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 3,
+    "front": 3
+   }
+  },
+  "otherday7": {
+   "R01": {
+    "call": null,
+    "candidate": 6,
+    "seen": 7,
+    "front": 0
+   },
+   "R02": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 6,
+    "front": 4
+   },
+   "R03": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R04": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 8,
+    "front": 8
+   },
+   "R05": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R06": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R07": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 5,
+    "front": 5
+   },
+   "R08": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 9,
+    "front": 9
+   },
+   "R09": {
+    "call": null,
+    "candidate": 11,
+    "seen": 9,
+    "front": 3
+   },
+   "R10": {
+    "call": 11,
+    "candidate": 11,
+    "seen": 7,
+    "front": 6
+   }
+  },
+  "otherday8": {
+   "R01": {
+    "call": 1,
+    "candidate": 1,
+    "seen": 7,
+    "front": 6
+   },
+   "R02": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 7,
+    "front": 4
+   },
+   "R03": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 6,
+    "front": 6
+   },
+   "R04": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 9,
+    "front": 9
+   },
+   "R05": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 1,
+    "front": 1
+   },
+   "R06": {
+    "call": 1,
+    "candidate": 1,
+    "seen": 2,
+    "front": 1
+   },
+   "R07": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 11,
+    "front": 11
+   },
+   "R08": {
+    "call": 8,
+    "candidate": 8,
+    "seen": 6,
+    "front": 5
+   },
+   "R09": {
+    "call": 3,
+    "candidate": 3,
+    "seen": 7,
+    "front": 6
+   },
+   "R10": {
+    "call": null,
+    "candidate": 8,
+    "seen": 8,
+    "front": 1
+   }
+  },
+  "otherday9": {
+   "R01": {
+    "call": null,
+    "candidate": 3,
+    "seen": 8,
+    "front": 3
+   },
+   "R02": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 8,
+    "front": 8
+   },
+   "R03": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 2,
+    "front": 2
+   },
+   "R04": {
+    "call": 10,
+    "candidate": 10,
+    "seen": 5,
+    "front": 5
+   },
+   "R05": {
+    "call": 11,
+    "candidate": 11,
+    "seen": 10,
+    "front": 9
+   },
+   "R06": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 6,
+    "front": 3
+   },
+   "R07": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R08": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 10,
+    "front": 10
+   },
+   "R09": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R10": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 10,
+    "front": 9
+   }
+  },
+  "otherday10": {
+   "R01": {
+    "call": 7,
+    "candidate": 7,
+    "seen": 8,
+    "front": 7
+   },
+   "R02": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 11,
+    "front": 8
+   },
+   "R03": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 8,
+    "front": 8
+   },
+   "R04": {
+    "call": 8,
+    "candidate": 8,
+    "seen": 7,
+    "front": 7
+   },
+   "R05": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R06": {
+    "call": 4,
+    "candidate": 4,
+    "seen": 3,
+    "front": 2
+   },
+   "R07": {
+    "call": null,
+    "candidate": 2,
+    "seen": 4,
+    "front": 1
+   },
+   "R08": {
+    "call": 9,
+    "candidate": 9,
+    "seen": 3,
+    "front": 3
+   },
+   "R09": {
+    "call": 11,
+    "candidate": 11,
+    "seen": 7,
+    "front": 4
+   },
+   "R10": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 7,
+    "front": 5
+   }
+  },
+  "otherday11": {
+   "R01": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R02": {
+    "call": null,
+    "candidate": 9,
+    "seen": 2,
+    "front": 0
+   },
+   "R03": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R04": {
+    "call": 2,
+    "candidate": 2,
+    "seen": 9,
+    "front": 9
+   },
+   "R05": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 5,
+    "front": 4
+   },
+   "R06": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R07": {
+    "call": null,
+    "candidate": 8,
+    "seen": 0,
+    "front": 0
+   },
+   "R08": {
+    "call": null,
+    "candidate": null,
+    "seen": null,
+    "front": null
+   },
+   "R09": {
+    "call": 6,
+    "candidate": 6,
+    "seen": 8,
+    "front": 6
+   },
+   "R10": {
+    "call": 5,
+    "candidate": 5,
+    "seen": 5,
+    "front": 5
+   }
+  }
+ }
+}

@@ -37,3 +37,6 @@ __pycache__/
 
 # derived copy of results_f2 with the strip joined in (code/nc6_merge_strip.py)
 results_f2s/
+
+# per-picture exploration data of the winner experiment (derived, large; kept on the server)
+experiments/onair_labelset_20261117/winner/explore/look_A.json

@@ -1,0 +1,31 @@
+otherday20 R01 program None calculation None winner 8 {'candidate': None, 'pictures_naming_each': {8: 4, 7: 1, 3: 3, 2: 1}, 'seen': 0, 'front': 0}
+otherday20 R02 program 8 calculation 8 winner 8 {'candidate': 8, 'pictures_naming_each': {8: 11, 3: 3}, 'seen': 4, 'front': 3}
+otherday20 R03 program 4 calculation 4 winner 4 {'candidate': 4, 'pictures_naming_each': {4: 10}, 'seen': 6, 'front': 5}
+otherday20 R04 program None calculation None winner 3 {'candidate': None, 'pictures_naming_each': {8: 3, 3: 2, 2: 1}, 'seen': 0, 'front': 0}
+otherday20 R05 program 1 calculation 1 winner 1 {'candidate': 1, 'pictures_naming_each': {1: 7, 7: 3}, 'seen': 3, 'front': 2}
+otherday20 R06 program None calculation None winner 4 {'candidate': None, 'pictures_naming_each': {2: 1, 4: 1}, 'seen': 0, 'front': 0}
+otherday20 R07 program None calculation None winner 11 {'candidate': None, 'pictures_naming_each': {11: 2, 7: 1}, 'seen': 0, 'front': 0}
+otherday20 R08 program None calculation None winner 5 {'candidate': None, 'pictures_naming_each': {2: 3, 11: 2, 10: 1}, 'seen': 0, 'front': 0}
+otherday20 R09 program None calculation None winner 9 {'candidate': None, 'pictures_naming_each': {2: 2, 7: 4, 6: 1}, 'seen': 0, 'front': 0}
+otherday20 R10 program None calculation None winner 6 {'candidate': None, 'pictures_naming_each': {6: 2, 3: 2}, 'seen': 0, 'front': 0}
+otherday21 R01 program None calculation None winner 1 {'candidate': None, 'pictures_naming_each': {1: 2, 7: 1}, 'seen': 0, 'front': 0}
+otherday21 R02 program None calculation None winner 7 {'candidate': None, 'pictures_naming_each': {7: 2, 5: 3, 2: 1}, 'seen': 0, 'front': 0}
+otherday21 R03 program 8 calculation 8 winner 8 {'candidate': 8, 'pictures_naming_each': {8: 12, 7: 1, 5: 1}, 'seen': 4, 'front': 4}
+otherday21 R04 program 1 calculation 1 winner 1 {'candidate': 1, 'pictures_naming_each': {1: 6}, 'seen': 2, 'front': 2}
+otherday21 R05 program 8 calculation 8 winner 8 {'candidate': 8, 'pictures_naming_each': {8: 10, 3: 1}, 'seen': 6, 'front': 6}
+otherday21 R06 program 4 calculation 4 winner 4 {'candidate': 4, 'pictures_naming_each': {4: 14, 3: 1}, 'seen': 7, 'front': 7}
+otherday21 R07 program 10 calculation 10 winner 10 {'candidate': 10, 'pictures_naming_each': {10: 16, 11: 1}, 'seen': 6, 'front': 5}
+otherday21 R08 program 2 calculation 2 winner 2 {'candidate': 2, 'pictures_naming_each': {2: 6}, 'seen': 10, 'front': 10}
+otherday21 R09 program None calculation None winner 8 {'candidate': None, 'pictures_naming_each': {}, 'seen': 0, 'front': 0}
+otherday21 R10 program 10 calculation 10 winner 10 {'candidate': 10, 'pictures_naming_each': {10: 6, 7: 1}, 'seen': 2, 'front': 2}
+otherday22 R01 program None calculation None winner 8 {'candidate': 6, 'pictures_naming_each': {8: 3, 6: 5, 5: 1}, 'seen': 8, 'front': 2}
+otherday22 R02 program None calculation None winner 5 {'candidate': None, 'pictures_naming_each': {5: 4, 2: 1, 7: 1, 10: 1}, 'seen': 0, 'front': 0}
+otherday22 R03 program 3 calculation 3 winner 3 {'candidate': 3, 'pictures_naming_each': {3: 5}, 'seen': 11, 'front': 8}
+otherday22 R04 program 6 calculation 6 winner 6 {'candidate': 6, 'pictures_naming_each': {2: 4, 6: 10, 3: 1}, 'seen': 10, 'front': 9}
+otherday22 R05 program 4 calculation 4 winner 4 {'candidate': 4, 'pictures_naming_each': {4: 17}, 'seen': 10, 'front': 10}
+otherday22 R06 program None calculation None winner 11 {'candidate': None, 'pictures_naming_each': {}, 'seen': 0, 'front': 0}
+otherday22 R07 program 1 calculation 1 winner 8 {'candidate': 1, 'pictures_naming_each': {1: 9, 8: 9}, 'seen': 11, 'front': 10}
+otherday22 R08 program None calculation None winner 4 {'candidate': 9, 'pictures_naming_each': {9: 10, 2: 1, 5: 3}, 'seen': 4, 'front': 0}
+otherday22 R09 program None calculation None winner 6 {'candidate': None, 'pictures_naming_each': {6: 4, 3: 2}, 'seen': 0, 'front': 0}
+otherday22 R10 program None calculation 9 winner 9 {'candidate': 2, 'pictures_naming_each': {3: 2, 2: 12, 9: 7}, 'seen': 9, 'front': 3}
+30 races; {'none': 16, 'same as the calculation': 29, 'right': 13, 'wrong': 1}

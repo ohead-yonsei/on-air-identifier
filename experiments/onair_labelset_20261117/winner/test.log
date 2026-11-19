@@ -1,0 +1,21 @@
+[2026-11-20T00:48:51+09:00] start
+[2026-11-20T00:48:51+09:00] lock verified
+[2026-11-20T00:54:53+09:00] check 1: otherday19: 10 races compared, 0 with a different call []
+[2026-11-20T01:07:02+09:00] otherday20 videos: 10
+[2026-11-20T01:07:02+09:00] otherday21 videos: 10
+[2026-11-20T01:07:02+09:00] otherday22 videos: 10
+[2026-11-20T01:07:02+09:00] otherday23 videos: 9
+otherday20 2026-07-25 10 races; R01:1000m/8 R02:1300m/11 R03:1400m/11 R04:1400m/11 R05:1300m/11 R06:1200m/11 R07:1200m/11 R08:1700m/11 R09:1800m/11 R10:1400m/10 []
+otherday21 2026-07-19 10 races; R01:1200m/11 R02:1300m/11 R03:1300m/11 R04:1300m/11 R05:1400m/9 R06:1400m/11 R07:1600m/10 R08:1400m/11 R09:1800m/9 R10:1400m/11 []
+otherday22 2026-07-18 10 races; R01:1000m/11 R02:1200m/11 R03:1400m/11 R04:1300m/11 R05:1800m/10 R06:1200m/11 R07:1200m/11 R08:1700m/11 R09:1800m/11 R10:1200m/9 []
+[2026-11-20T01:12:41+09:00] official results and clock times ready for: otherday20 otherday21 otherday22
+[2026-11-20T01:18:22+09:00] pictures otherday20 exit 0: done otherday20 335.7 s
+[2026-11-20T01:24:07+09:00] pictures otherday21 exit 0: done otherday21 339.1 s
+[2026-11-20T01:29:55+09:00] pictures otherday22 exit 0: done otherday22 342.7 s
+[2026-11-20T01:29:59+09:00] scored (exit 0)
+[2026-11-20T01:29:59+09:00] test done
+[2026-11-20T01:35:45+09:00] pictures otherday6 exit 0: done otherday6 340.6 s
+[2026-11-20T01:41:28+09:00] pictures otherday7 exit 0: done otherday7 338.3 s
+[2026-11-20T01:47:06+09:00] pictures otherday8 exit 0: done otherday8 332.3 s
+[2026-11-20T01:47:20+09:00] benchmark calls (exit 0): 109 races; 72 calls
+[2026-11-20T01:47:20+09:00] all done

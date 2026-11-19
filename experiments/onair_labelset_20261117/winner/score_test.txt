@@ -1,0 +1,18 @@
+all races run
+  call as v10 (no condition)         races 30: called 19 (63.3%), right 16, wrong 3  -> 84.2% of calls, 53.3% of races
+  with the condition (primary)       races 30: called 15 (50.0%), right 14, wrong 1  -> 93.3% of calls, 46.7% of races
+  second setting (3 s, 2 pictures)   races 30: called 16 (53.3%), right 15, wrong 1  -> 93.8% of calls, 50.0% of races
+clock agrees
+  call as v10 (no condition)         races 23: called 14 (60.9%), right 13, wrong 1  -> 92.9% of calls, 56.5% of races
+  with the condition (primary)       races 23: called 11 (47.8%), right 11, wrong 0  -> 100.0% of calls, 47.8% of races
+  second setting (3 s, 2 pictures)   races 23: called 12 (52.2%), right 12, wrong 0  -> 100.0% of calls, 52.2% of races
+  otherday20: old 3 right 0 wrong of 10 | new 3 right 0 wrong
+  otherday21: old 8 right 0 wrong of 10 | new 7 right 0 wrong
+  otherday22: old 5 right 3 wrong of 10 | new 4 right 1 wrong
+VERDICT V1 the winner can be called (half of the races or more, 90% of calls or more right) -> True
+VERDICT V2 the condition removes wrong calls (fewer wrong, at least 80% of the right calls kept) -> True
+   otherday21 R02 winner 7 candidate 7 (rank 1) seen/front 8 3 -> dropped
+   otherday22 R01 winner 8 candidate 6 (rank 2) seen/front 11 0 -> dropped
+   otherday22 R07 winner 8 candidate 1 (rank 2) seen/front 11 10 -> kept
+   otherday22 R08 winner 4 candidate 9 (rank 2) seen/front 3 0 -> dropped
+   otherday22 R09 winner 6 candidate 6 (rank 1) seen/front 0 0 -> dropped

@@ -1,0 +1,1039 @@
+{
+ "days": [
+  "20261115",
+  "otherday",
+  "otherday2",
+  "otherday3",
+  "otherday4",
+  "otherday5"
+ ],
+ "rows": [
+  {
+   "day": "20261115",
+   "race": "R01",
+   "clock_agrees": true,
+   "winner": 8,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "8": 2,
+    "3": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {}
+  },
+  {
+   "day": "20261115",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "6": 4,
+    "2": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R04",
+   "clock_agrees": false,
+   "winner": 11,
+   "old": 9,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": 2,
+   "seen": 3,
+   "front": 0,
+   "counts": {
+    "9": 9,
+    "6": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R05",
+   "clock_agrees": true,
+   "winner": 11,
+   "old": 11,
+   "new": 11,
+   "second_setting": 11,
+   "rank_of_old": 1,
+   "seen": 2,
+   "front": 2,
+   "counts": {
+    "10": 2,
+    "11": 11,
+    "3": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R06",
+   "clock_agrees": true,
+   "winner": 3,
+   "old": 3,
+   "new": 3,
+   "second_setting": 3,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 8,
+   "counts": {
+    "3": 19,
+    "5": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R07",
+   "clock_agrees": true,
+   "winner": 3,
+   "old": 3,
+   "new": 3,
+   "second_setting": 3,
+   "rank_of_old": 1,
+   "seen": 8,
+   "front": 4,
+   "counts": {
+    "3": 13
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R08",
+   "clock_agrees": true,
+   "winner": 2,
+   "old": 5,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": 2,
+   "seen": 3,
+   "front": 0,
+   "counts": {
+    "5": 8,
+    "2": 3,
+    "3": 2
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 9,
+   "old": 9,
+   "new": 9,
+   "second_setting": 9,
+   "rank_of_old": 1,
+   "seen": 5,
+   "front": 5,
+   "counts": {
+    "9": 9,
+    "8": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 1,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "1": 3,
+    "3": 2,
+    "8": 1
+   }
+  },
+  {
+   "day": "20261115",
+   "race": "R11",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": 5,
+   "new": 5,
+   "second_setting": 5,
+   "rank_of_old": 1,
+   "seen": 9,
+   "front": 9,
+   "counts": {
+    "5": 15
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R01",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "5": 4,
+    "3": 1
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 8,
+   "old": 8,
+   "new": 8,
+   "second_setting": 8,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 6,
+   "counts": {
+    "8": 16,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 2,
+   "old": 2,
+   "new": 2,
+   "second_setting": 2,
+   "rank_of_old": 1,
+   "seen": 11,
+   "front": 8,
+   "counts": {
+    "2": 14
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R04",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": 5,
+   "new": 5,
+   "second_setting": 5,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 10,
+   "counts": {
+    "5": 14
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R05",
+   "clock_agrees": false,
+   "winner": 5,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {}
+  },
+  {
+   "day": "otherday",
+   "race": "R06",
+   "clock_agrees": true,
+   "winner": 11,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "5": 2,
+    "10": 1,
+    "7": 1,
+    "11": 2
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R07",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 1,
+   "counts": {
+    "6": 10
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R08",
+   "clock_agrees": true,
+   "winner": 4,
+   "old": 4,
+   "new": 4,
+   "second_setting": 4,
+   "rank_of_old": 1,
+   "seen": 3,
+   "front": 3,
+   "counts": {
+    "4": 15,
+    "11": 2
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 9,
+   "old": 9,
+   "new": 9,
+   "second_setting": 9,
+   "rank_of_old": 1,
+   "seen": 5,
+   "front": 5,
+   "counts": {
+    "9": 15
+   }
+  },
+  {
+   "day": "otherday",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 10,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "10": 4,
+    "5": 1,
+    "9": 1,
+    "11": 1
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R01",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 7,
+   "new": 7,
+   "second_setting": null,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 1,
+   "counts": {
+    "7": 6
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 2,
+   "old": 2,
+   "new": 2,
+   "second_setting": 2,
+   "rank_of_old": 1,
+   "seen": 7,
+   "front": 7,
+   "counts": {
+    "2": 14,
+    "5": 1,
+    "9": 1
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 2,
+   "old": 2,
+   "new": 2,
+   "second_setting": 2,
+   "rank_of_old": 1,
+   "seen": 8,
+   "front": 6,
+   "counts": {
+    "2": 8,
+    "7": 2
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R04",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "1": 3,
+    "7": 2
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R05",
+   "clock_agrees": true,
+   "winner": 4,
+   "old": 4,
+   "new": 4,
+   "second_setting": 4,
+   "rank_of_old": 1,
+   "seen": 7,
+   "front": 6,
+   "counts": {
+    "4": 17
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R06",
+   "clock_agrees": false,
+   "winner": 6,
+   "old": 6,
+   "new": 6,
+   "second_setting": 6,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 1,
+   "counts": {
+    "6": 6,
+    "9": 1
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R07",
+   "clock_agrees": true,
+   "winner": 8,
+   "old": 8,
+   "new": 8,
+   "second_setting": 8,
+   "rank_of_old": 1,
+   "seen": 2,
+   "front": 1,
+   "counts": {
+    "8": 9,
+    "3": 1,
+    "4": 1
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R08",
+   "clock_agrees": true,
+   "winner": 9,
+   "old": 9,
+   "new": 9,
+   "second_setting": 9,
+   "rank_of_old": 1,
+   "seen": 4,
+   "front": 4,
+   "counts": {
+    "3": 1,
+    "9": 17
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 4,
+   "old": 4,
+   "new": 4,
+   "second_setting": 4,
+   "rank_of_old": 1,
+   "seen": 3,
+   "front": 2,
+   "counts": {
+    "4": 11,
+    "5": 1,
+    "7": 5
+   }
+  },
+  {
+   "day": "otherday2",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 10,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "3": 4,
+    "2": 2,
+    "11": 2,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R01",
+   "clock_agrees": true,
+   "winner": 3,
+   "old": 3,
+   "new": 3,
+   "second_setting": 3,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 10,
+   "counts": {
+    "6": 3,
+    "4": 1,
+    "3": 9
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": 6,
+   "second_setting": 6,
+   "rank_of_old": 1,
+   "seen": 7,
+   "front": 7,
+   "counts": {
+    "6": 19
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": null,
+   "second_setting": 6,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 0,
+   "counts": {
+    "6": 9,
+    "11": 3,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R04",
+   "clock_agrees": false,
+   "winner": 7,
+   "old": 7,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 1,
+   "counts": {
+    "7": 10
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R05",
+   "clock_agrees": false,
+   "winner": 2,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "2": 2
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R06",
+   "clock_agrees": false,
+   "winner": 3,
+   "old": 3,
+   "new": 3,
+   "second_setting": 3,
+   "rank_of_old": 1,
+   "seen": 9,
+   "front": 7,
+   "counts": {
+    "3": 13,
+    "9": 3
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R07",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": 6,
+   "second_setting": 6,
+   "rank_of_old": 1,
+   "seen": 2,
+   "front": 2,
+   "counts": {
+    "6": 7,
+    "5": 1
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R08",
+   "clock_agrees": false,
+   "winner": 2,
+   "old": 2,
+   "new": 2,
+   "second_setting": 2,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 5,
+   "counts": {
+    "2": 5,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": 5,
+   "new": 5,
+   "second_setting": 5,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 5,
+   "counts": {
+    "5": 17
+   }
+  },
+  {
+   "day": "otherday3",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 11,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "2": 1
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R01",
+   "clock_agrees": true,
+   "winner": 10,
+   "old": 10,
+   "new": 10,
+   "second_setting": 10,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 5,
+   "counts": {
+    "10": 12,
+    "8": 1
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 10,
+   "old": 6,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": 2,
+   "seen": 5,
+   "front": 0,
+   "counts": {
+    "6": 7,
+    "7": 2,
+    "10": 2
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 2,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": 7,
+   "front": 1,
+   "counts": {
+    "2": 5,
+    "5": 1,
+    "7": 5,
+    "3": 1
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R04",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 7,
+   "new": 7,
+   "second_setting": 7,
+   "rank_of_old": 1,
+   "seen": 11,
+   "front": 10,
+   "counts": {
+    "7": 27
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R05",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 7,
+   "new": 7,
+   "second_setting": 7,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 7,
+   "counts": {
+    "7": 10
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R06",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 7,
+   "new": null,
+   "second_setting": 7,
+   "rank_of_old": 1,
+   "seen": 11,
+   "front": 3,
+   "counts": {
+    "7": 12,
+    "3": 4
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R07",
+   "clock_agrees": false,
+   "winner": 8,
+   "old": 8,
+   "new": null,
+   "second_setting": 8,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 0,
+   "counts": {
+    "8": 5,
+    "2": 1
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R08",
+   "clock_agrees": true,
+   "winner": 11,
+   "old": 11,
+   "new": null,
+   "second_setting": 11,
+   "rank_of_old": 1,
+   "seen": 3,
+   "front": 1,
+   "counts": {
+    "11": 11,
+    "1": 2,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": 7,
+   "new": 7,
+   "second_setting": 7,
+   "rank_of_old": 1,
+   "seen": 11,
+   "front": 8,
+   "counts": {
+    "7": 17,
+    "5": 2
+   }
+  },
+  {
+   "day": "otherday4",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 10,
+   "old": 10,
+   "new": 10,
+   "second_setting": 10,
+   "rank_of_old": 1,
+   "seen": 3,
+   "front": 2,
+   "counts": {
+    "10": 10,
+    "7": 1,
+    "1": 3
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R02",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": 6,
+   "second_setting": null,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 1,
+   "counts": {
+    "6": 6,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R03",
+   "clock_agrees": true,
+   "winner": 9,
+   "old": 9,
+   "new": 9,
+   "second_setting": 9,
+   "rank_of_old": 1,
+   "seen": 7,
+   "front": 7,
+   "counts": {
+    "9": 8
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R04",
+   "clock_agrees": true,
+   "winner": 11,
+   "old": 11,
+   "new": 11,
+   "second_setting": 11,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 5,
+   "counts": {
+    "11": 10,
+    "3": 1
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R05",
+   "clock_agrees": true,
+   "winner": 3,
+   "old": 3,
+   "new": 3,
+   "second_setting": 3,
+   "rank_of_old": 1,
+   "seen": 10,
+   "front": 10,
+   "counts": {
+    "3": 18
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R06",
+   "clock_agrees": true,
+   "winner": 1,
+   "old": 2,
+   "new": 2,
+   "second_setting": 2,
+   "rank_of_old": 3,
+   "seen": 9,
+   "front": 8,
+   "counts": {
+    "2": 9,
+    "1": 2,
+    "3": 5,
+    "7": 1
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R07",
+   "clock_agrees": true,
+   "winner": 5,
+   "old": 5,
+   "new": 5,
+   "second_setting": 5,
+   "rank_of_old": 1,
+   "seen": 6,
+   "front": 5,
+   "counts": {
+    "5": 15
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R08",
+   "clock_agrees": true,
+   "winner": 6,
+   "old": 6,
+   "new": null,
+   "second_setting": 6,
+   "rank_of_old": 1,
+   "seen": 7,
+   "front": 3,
+   "counts": {
+    "3": 1,
+    "6": 12
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R09",
+   "clock_agrees": true,
+   "winner": 7,
+   "old": null,
+   "new": null,
+   "second_setting": null,
+   "rank_of_old": null,
+   "seen": null,
+   "front": null,
+   "counts": {
+    "1": 1,
+    "8": 1,
+    "9": 3
+   }
+  },
+  {
+   "day": "otherday5",
+   "race": "R10",
+   "clock_agrees": true,
+   "winner": 9,
+   "old": 9,
+   "new": 9,
+   "second_setting": 9,
+   "rank_of_old": 1,
+   "seen": 1,
+   "front": 1,
+   "counts": {
+    "9": 8,
+    "5": 1,
+    "11": 3
+   }
+  }
+ ],
+ "all races run": {
+  "old": {
+   "races": 60,
+   "called": 47,
+   "right": 42,
+   "wrong": 5,
+   "none": 13,
+   "called_share": 78.3,
+   "right_of_calls": 89.4,
+   "right_of_races": 70.0
+  },
+  "new": {
+   "races": 60,
+   "called": 36,
+   "right": 35,
+   "wrong": 1,
+   "none": 24,
+   "called_share": 60.0,
+   "right_of_calls": 97.2,
+   "right_of_races": 58.3
+  },
+  "second_setting": {
+   "races": 60,
+   "called": 39,
+   "right": 38,
+   "wrong": 1,
+   "none": 21,
+   "called_share": 65.0,
+   "right_of_calls": 97.4,
+   "right_of_races": 63.3
+  }
+ },
+ "clock agrees": {
+  "old": {
+   "races": 52,
+   "called": 41,
+   "right": 37,
+   "wrong": 4,
+   "none": 11,
+   "called_share": 78.8,
+   "right_of_calls": 90.2,
+   "right_of_races": 71.2
+  },
+  "new": {
+   "races": 52,
+   "called": 33,
+   "right": 32,
+   "wrong": 1,
+   "none": 19,
+   "called_share": 63.5,
+   "right_of_calls": 97.0,
+   "right_of_races": 61.5
+  },
+  "second_setting": {
+   "races": 52,
+   "called": 35,
+   "right": 34,
+   "wrong": 1,
+   "none": 17,
+   "called_share": 67.3,
+   "right_of_calls": 97.1,
+   "right_of_races": 65.4
+  }
+ },
+ "verdicts": {
+  "V1 the winner can be called (half of the races or more, 90% of calls or more right)": true,
+  "V2 the condition removes wrong calls (fewer wrong, at least 80% of the right calls kept)": true
+ }
+}

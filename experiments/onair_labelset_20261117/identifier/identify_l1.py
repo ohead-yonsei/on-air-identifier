@@ -47,6 +47,15 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
      wrong number 10.8 % -> 8.1 % and items naming the right leader 51.0 % -> 59.1 % (caps2/DESIGN_BENCH_KO.md, bench_compare.json).
      --v9 and --v8 use the earlier classifier (cnn/models/all_two_days.pt). The class LeadingGroupIdentifier keeps the earlier
      classifier as its argument default, so the experiment scripts run as they did.
+ 11. --winner-call (added 2026-11-20, --video only; winner/RESULT_KO.md): the winner call of --v10 with one condition. Needs the race
+     clock on screen, as --v10 does. The candidate is the number named most often in the 31 pictures of the last 6 s (5 pictures or
+     more); it is called only when, in the pictures of the last 2 s that show its cap, no other rider is further right (ahead) in at
+     least half of them. Most wrong calls of the old rule named the horse that led early in those 6 s and was caught (the second).
+     Confirmed on three unused days (30 races, v11 classifier): 15 calls, 14 right (the old rule: 19 calls, 16 right). The bar set
+     beforehand (half of the races, 90 % of calls) was met with nothing to spare, with the finish placed by the official time; with
+     the finish taken from the clock alone, as this program does, it is 14 calls, 13 right (one race short of half; 29 of the 30
+     calls are the same). In one race in two the winner is still not called. Off by default.
+     "Right = ahead" is how the home straight in Seoul is filmed; another racecourse needs it set again.
 
 The statements never depend on the running-order strip. --strip-check (off by default since 2026-11-19) only reads the strip at every
 time point with the local Qwen and writes into the output whether it is on screen and what it shows, for scoring and for marking the
@@ -99,6 +108,7 @@ CNN_WEIGHTS, ORDER_MODEL, COLOUR_MODEL = ROOT / "cnn" / "models" / "all_two_days
 LEADER_MODEL = ROOT / "leader" / "leader_model.joblib"
 FINISH_LEADER_MODEL = ROOT / "finish2" / "models" / "fs_leader_all.joblib"   # --v10: leader in the last stretch, learned on official times
 LATE_SECONDS, WINNER_SPAN, WINNER_NEED = 36.0, 6.0, 5                        # --v10: the stretch; winner call from the last 6 s, 5 pictures or more
+WINNER_CHECK_SECONDS, WINNER_SEE, WINNER_AHEAD = 2.0, 0.5, 0.3                # --winner-call: the candidate must still be in front in the last 2 s
 FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / "night" / "leader_fast.joblib"   # --fast: no Qwen (night/DESIGN_KO.md)
 
 
@@ -144,6 +154,7 @@ class LeadingGroupIdentifier:
                 rs = identify2.identify(bgr.copy(), self.det, self.cm, self.masks, "D3", qlog)
                 detection = "D3"
         self.qwen_failures += sum(q["error"] is not None for q in qlog)
+        self.last_raw = ([], None)      # boxes and cap probabilities of every rider found in the newest picture (used by winner_call_checked)
         if not rs:
             return [], detection, {}, {}
         H, W = bgr.shape[:2]
@@ -159,6 +170,7 @@ class LeadingGroupIdentifier:
             xs.append(self.tf(can))
         with torch.inference_mode():
             P = np.array(torch.softmax(self.cnn(torch.stack(xs).cuda()), 1).cpu().numpy().round(5).tolist())
+        self.last_raw = ([r["box"] for r in rs], P)
         Sc = P.copy()
         q = [r["qwen_number"] for r in rs]
         for i, n in enumerate(q):
@@ -292,6 +304,38 @@ class LeadingGroupIdentifier:
         top = count.most_common(1)
         return (top[0][0] if top and top[0][1] >= WINNER_NEED else None), dict(count)
 
+    def winner_call_checked(self, pictures, to_finish):
+        """--winner-call (winner/RESULT_KO.md): the call of winner_call, kept only when the candidate is still in front at the end.
+        pictures and to_finish (seconds before the finish, one per picture) cover the last 6 s. In the pictures of the last
+        WINNER_CHECK_SECONDS the rider that looks most like the candidate's cap is "seen" when that probability is WINNER_SEE or more,
+        and "in front" when no other rider's centre is more than WINNER_AHEAD of its height further right (the home straight in Seoul
+        is filmed from the stands: the field runs left to right). The call stands when the candidate is seen at least once and is in
+        front in at least half of the pictures that see it. Returns (number or None, details)."""
+        count, seen_by = Counter(), []
+        for bgr, tf in zip(pictures, to_finish):
+            for r in self.picture(bgr)[0]:
+                if r.get("leader_pick"):
+                    count[r["number"]] += 1
+            if tf <= WINNER_CHECK_SECONDS + 0.05:
+                seen_by.append(self.last_raw)
+        top = count.most_common(1)
+        cand = top[0][0] if top and top[0][1] >= WINNER_NEED else None
+        info = {"candidate": cand, "pictures_naming_each": dict(count), "seen": 0, "front": 0}
+        if cand is None:
+            return None, info
+        cap = min(cand, 11) - 1
+        for boxes, P in seen_by:
+            if P is None or not len(boxes):
+                continue
+            b = np.array(boxes, float)
+            cx, h = (b[:, 0] + b[:, 2]) / 2, b[:, 3] - b[:, 1]
+            i = int(np.argmax(P[:, cap]))
+            if P[i, cap] < WINNER_SEE:
+                continue
+            info["seen"] += 1
+            info["front"] += int(int(((cx - cx[i]) > WINNER_AHEAD * h[i]).sum()) == 0)
+        return (cand if info["seen"] >= 1 and info["front"] >= 0.5 * info["seen"] else None), info
+
     def _near(self, key, t, store=None, default=None):
         store = self.history if store is None else store
         cands = [(abs(tt - t), s) for (k, tt), s in store.items() if k == key and abs(tt - t) <= 0.6]
@@ -375,9 +419,9 @@ def run_video(a, ident):
         return (bgr if ok else None), i
 
     finish = None
-    if a.v10:
+    if a.v10 or a.winner_call:
         S, F = race_clock(path)
-        assert F is not None, "--v10 needs the race clock on screen"
+        assert F is not None, "--v10 and --winner-call need the race clock on screen"
         finish = round(F - 0.2, 3)        # the last change of the digits comes about 0.2 s after the clock stops
         print(f"race clock: first change {S}, last change {F}; finish taken as {finish}", flush=True)
     start, end = a.start, a.end
@@ -397,11 +441,11 @@ def run_video(a, ident):
             x1, y1, x2, y2 = STRIP
             strip, _ = read_strip(bgr[y1:y2, x1:x2])
         pics = [bgr] + [grab(pts[i] - off)[0] for off in (0.5, 1.0)]
-        late = finish is not None and -1.0 <= finish - t <= LATE_SECONDS
+        late = a.v10 and finish is not None and -1.0 <= finish - t <= LATE_SECONDS
         res = ident.point(pts[i], [p for p in pics if p is not None], late=late)
         res["asked_t"] = t
         if finish is not None:
-            res["to_finish"], res["late"] = round(finish - t, 2), late
+            res["to_finish"], res["late"] = round(finish - t, 2), bool(late)
         if a.strip_check:
             res["strip_on_screen"] = strip is not None
             res["strip"] = strip
@@ -411,10 +455,15 @@ def run_video(a, ident):
         t += a.step
     extra = {}
     if finish is not None:
-        number, count = ident.winner_call([b for b in (grab(finish - WINNER_SPAN + 0.2 * k)[0] for k in range(int(WINNER_SPAN * 5) + 1)) if b is not None])
-        extra = {"finish": {"clock_first_change": S, "clock_last_change": F, "finish": finish, "late_seconds": LATE_SECONDS},
-                 "winner_call": {"number": number, "pictures_naming_each": count, "span": WINNER_SPAN, "need": WINNER_NEED}}
-        print("winner call:", number, count, flush=True)
+        last = [(b, round(WINNER_SPAN - 0.2 * k, 1)) for k, b in ((k, grab(finish - WINNER_SPAN + 0.2 * k)[0]) for k in range(int(WINNER_SPAN * 5) + 1)) if b is not None]
+        extra = {"finish": {"clock_first_change": S, "clock_last_change": F, "finish": finish, "late_seconds": LATE_SECONDS}}
+        if a.winner_call:
+            number, info = ident.winner_call_checked([b for b, _ in last], [tf for _, tf in last])
+            extra["winner_call"] = {"number": number, **info, "span": WINNER_SPAN, "need": WINNER_NEED, "check_seconds": WINNER_CHECK_SECONDS, "rule": "still in front in the last seconds"}
+        else:
+            number, count = ident.winner_call([b for b, _ in last])
+            extra["winner_call"] = {"number": number, "pictures_naming_each": count, "span": WINNER_SPAN, "need": WINNER_NEED}
+        print("winner call:", number, extra["winner_call"]["pictures_naming_each"], flush=True)
     cap.release()
     return {"video": str(path), "live_timer_segment": live, "start": start, "end": end, "step": a.step, "points": points, **extra}
 
@@ -456,6 +505,7 @@ def main():
     ap.add_argument("--cap-weights", default=None, help="another cap classifier (default cnn/models/all_two_days.pt; cnn/models/caps2_a.pt is the one retrained with mined labels)")
     ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
+    ap.add_argument("--winner-call", action="store_true", help="call the winner at the finish (--video only, needs the race clock): the most-named leader of the last 6 s, kept only when it is still in front in the last 2 s")
     a = ap.parse_args()
     assert not (a.v8 and a.v9), "give at most one of --v8 and --v9"
     if a.cap_weights is None:
@@ -466,6 +516,7 @@ def main():
         a.leader_tau = TAU_LEADER if a.v8 else TAU_LEADER_V9
     assert not a.v10 or (a.video and a.fast and a.fallback and a.leader_tau == TAU_LEADER_V9), "--v10 is v9 plus the finish parts: use it with --video and without --v8 / --no-fallback / --leader-tau"
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
+    assert not a.winner_call or (a.video and a.fast), "--winner-call needs --video and the fast configuration (not --v8)"
     wait_gpu()
     started = time.perf_counter()
     assert a.leader_sure is None or a.fast, "--leader-sure was tested with the fast configuration only (not with --v8)"
