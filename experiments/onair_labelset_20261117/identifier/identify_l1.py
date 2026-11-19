@@ -38,6 +38,10 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
   9. --leader-sure X (added 2026-11-19, finish3/RESULT_KO.md): for the leader statement only, a rider counts when its cap probability is
      X or more (default 0.7, the bar used everywhere else). 0.4 was confirmed on two unused days with v10: the leader is named right
      at more time points (44.6 % -> 48.6 %) and wrong at slightly more (5.6 % -> 6.6 %). Statements and order are unchanged.
+ 10. --cap-weights FILE (added 2026-11-19, caps2/RESULT_KO.md): another cap classifier. cnn/models/caps2_a.pt was trained on the 598 hand
+     labels plus 545 labels mined from official order and the strip (riders the current classifier did not read). Confirmed on two unused
+     days: the true leader's number is sure more often (62.9 % -> 74.1 % of time points) and the leader is named right more often
+     (36.8 % -> 45.8 %; wrong 8.7 % -> 9.4 %); numbers A 93.9 % -> 93.4 %, B 89.5 % -> 91.5 %. Default: cnn/models/all_two_days.pt.
 
 The statements never depend on the running-order strip. --strip-check (off by default since 2026-11-19) only reads the strip at every
 time point with the local Qwen and writes into the output whether it is on screen and what it shows, for scoring and for marking the
@@ -93,7 +97,8 @@ FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / 
 
 
 class LeadingGroupIdentifier:
-    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False, leader_sure=None):
+    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False, leader_sure=None, cap_weights=None):
+        self.cap_weights = Path(cap_weights) if cap_weights else CNN_WEIGHTS
         self.leader_sure = SURE if leader_sure is None else leader_sure      # bar for a rider's number, for the leader statement only
         assert fast or not finish_leader, "the finish-stretch leader model uses the features of the fast configuration"
         self.leader_fs = joblib.load(FINISH_LEADER_MODEL) if finish_leader else None
@@ -105,7 +110,7 @@ class LeadingGroupIdentifier:
         self.cm = ColourModel(str(COLOUR_MODEL))
         net = resnet18()
         net.fc = nn.Linear(net.fc.in_features, 11)
-        net.load_state_dict(torch.load(CNN_WEIGHTS, map_location="cpu"))
+        net.load_state_dict(torch.load(self.cap_weights, map_location="cpu"))
         self.cnn = net.eval().cuda()
         self.tf = transforms.Compose([transforms.ToTensor(), transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
         self.order = joblib.load(FAST_ORDER_MODEL if fast else ORDER_MODEL)
@@ -441,6 +446,7 @@ def main():
     ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number. On by default; only changes something together with --v8")
     ap.add_argument("--no-fallback", action="store_true", help="never add a number where nothing is stated")
     ap.add_argument("--leader-sure", type=float, default=None, help="for the leader statement only: lowest cap probability at which a rider counts (default 0.7; 0.4 confirmed on unused days)")
+    ap.add_argument("--cap-weights", default=None, help="another cap classifier (default cnn/models/all_two_days.pt; cnn/models/caps2_a.pt is the one retrained with mined labels)")
     ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
     a = ap.parse_args()
@@ -453,14 +459,14 @@ def main():
     wait_gpu()
     started = time.perf_counter()
     assert a.leader_sure is None or a.fast, "--leader-sure was tested with the fast configuration only (not with --v8)"
-    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure)
+    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure, cap_weights=a.cap_weights)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
     if a.v10:
         name = "F2+finish"
     res.update(configuration=name, version={"F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
-                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure},
+                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure, "cap_weights": ident.cap_weights.name},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(res, indent=1))

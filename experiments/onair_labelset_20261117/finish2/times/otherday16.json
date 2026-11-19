@@ -1,0 +1,142 @@
+{
+ "R01": {
+  "file": "R01_Ah-OPel-CZA.mp4",
+  "fps": 60.0,
+  "frames": 6199,
+  "clock_on": [
+   0.033,
+   75.083
+  ],
+  "S": 11.2,
+  "F": 72.417,
+  "running": 61.217,
+  "clock_on_after_F": 2.67,
+  "ticks": 618
+ },
+ "R02": {
+  "file": "R02_XILKmnIQQ4U.mp4",
+  "fps": 60.0,
+  "frames": 8210,
+  "clock_on": [
+   0.033,
+   107.217
+  ],
+  "S": 14.383,
+  "F": 103.45,
+  "running": 89.067,
+  "clock_on_after_F": 3.77,
+  "ticks": 901
+ },
+ "R03": {
+  "file": "R03_f1bCEMjYcKU.mp4",
+  "fps": 60.0,
+  "frames": 7728,
+  "clock_on": [
+   0.033,
+   99.95
+  ],
+  "S": 12.317,
+  "F": 94.767,
+  "running": 82.45,
+  "clock_on_after_F": 5.18,
+  "ticks": 831
+ },
+ "R04": {
+  "file": "R04_f4I_tgueLSE.mp4",
+  "fps": 60.0,
+  "frames": 8261,
+  "clock_on": [
+   0.033,
+   108.6
+  ],
+  "S": 23.317,
+  "F": 104.55,
+  "running": 81.233,
+  "clock_on_after_F": 4.05,
+  "ticks": 820
+ },
+ "R05": {
+  "file": "R05_tJNfm7kkrEY.mp4",
+  "fps": 60.0,
+  "frames": 6999,
+  "clock_on": [
+   1.0,
+   88.017
+  ],
+  "S": 7.967,
+  "F": 82.717,
+  "running": 74.75,
+  "clock_on_after_F": 5.3,
+  "ticks": 751
+ },
+ "R06": {
+  "file": "R06_VsD1I9P0Z0c.mp4",
+  "fps": 60.0,
+  "frames": 9397,
+  "clock_on": [
+   3.233,
+   127.117
+  ],
+  "S": 12.517,
+  "F": 125.0,
+  "running": 112.483,
+  "clock_on_after_F": 2.12,
+  "ticks": 1140
+ },
+ "R07": {
+  "file": "R07_KyHA2Y0iOxI.mp4",
+  "fps": 60.0,
+  "frames": 9426,
+  "clock_on": [
+   0.033,
+   132.85
+  ],
+  "S": 10.833,
+  "F": 128.317,
+  "running": 117.483,
+  "clock_on_after_F": 4.53,
+  "ticks": 1194
+ },
+ "R08": {
+  "file": "R08_zocTjlkz_Ik.mp4",
+  "fps": 60.0,
+  "frames": 8532,
+  "clock_on": [
+   0.033,
+   116.3
+  ],
+  "S": 11.617,
+  "F": 111.867,
+  "running": 100.25,
+  "clock_on_after_F": 4.43,
+  "ticks": 1006
+ },
+ "R09": {
+  "file": "R09_QWOm0uziZzI.mp4",
+  "fps": 60.0,
+  "frames": 7498,
+  "clock_on": [
+   0.033,
+   97.533
+  ],
+  "S": 6.617,
+  "F": 94.2,
+  "running": 87.583,
+  "clock_on_after_F": 3.33,
+  "ticks": 890
+ },
+ "R10": {
+  "file": "R10_QFSRgpli11Q.mp4",
+  "fps": 60.0,
+  "frames": 7026,
+  "clock_on": [
+   0.033,
+   87.667
+  ],
+  "S": 10.133,
+  "F": 83.583,
+  "running": 73.45,
+  "clock_on_after_F": 4.08,
+  "ticks": 747
+ }
+}

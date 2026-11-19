@@ -1,0 +1,4 @@
+[2026-11-19T07:52:03+09:00] start
+[2026-11-19T07:56:25+09:00] trained: hand labels 598 (x3) + mined labels 545 from ['caps2/mine2', 'caps2/mine'] (eps 0.1) = 2339 items per epoch; mined by class [(1, 94), (2, 41), (3, 58), (4, 31), (5, 60), (6, 29), (7, 92), (8, 22), (9, | saved caps2_a.pt
+[2026-11-19T08:15:31+09:00] probabilities recomputed (exit 0)
+[2026-11-19T08:16:12+09:00] done

@@ -1,0 +1,5 @@
+current        17 races, 448 time points | readable 62.9% | leader right 36.8% wrong 8.7% | with bar 0.4: right 40.2% wrong 11.2% | numbers A 93.9% (720/767) B 89.5%
+               true leader 7/10/11+: {'points': 183, 'readable': 51.4, 'right': 29.5, 'wrong': 9.3} | other: {'points': 265, 'readable': 70.9, 'right': 41.9, 'wrong': 8.3} | winner call {'races': 20, 'called': 13, 'right': 10, 'wrong_ranks': [2, 7, 10]}
+A              17 races, 448 time points | readable 74.1% | leader right 45.8% wrong 9.4% | with bar 0.4: right 46.7% wrong 9.6% | numbers A 93.4% (753/806) B 91.5%
+               true leader 7/10/11+: {'points': 183, 'readable': 73.8, 'right': 43.7, 'wrong': 10.4} | other: {'points': 265, 'readable': 74.3, 'right': 47.2, 'wrong': 8.7} | winner call {'races': 20, 'called': 16, 'right': 13, 'wrong_ranks': [2, 2, 2]}
+new minus current (95 % intervals): {"readable": [5.3, 17.8], "leader_right": [4.3, 13.8], "leader_wrong": [-1.6, 2.8], "leader_right_bar_0.4": [2.4, 11.0], "leader_wrong_bar_0.4": [-4.4, 0.8], "A": [-2.2, 1.6], "B": [-0.9, 5.3], "readable_7_10_11+": [12.6, 33.3], "leader_right_7_10_11+": [6.1, 22.9]}

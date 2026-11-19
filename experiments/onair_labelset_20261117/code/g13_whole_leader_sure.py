@@ -1,6 +1,6 @@
 """finish3, program check of --leader-sure: the identifier class with the leader bar 0.4 and the finish-stretch leader (v10) on the whole race,
 time points as g2_whole_v10.py, written in the same format so that g3_score.py scores it.
-usage: g13_whole_leader_sure.py DAY [BAR]          writes finish3/whole/V10L/DAY.json
+usage: g13_whole_leader_sure.py DAY [BAR] [CAP_WEIGHTS NAME]          writes finish3/whole/V10L/DAY.json (or finish3/whole/NAME/DAY.json)
 The two days used (2026-08-22, 08-16) were already scored for this change with the picture data (g11_score2.py): this only checks that the
 program's class gives the same numbers as that calculation. No winner call is made here."""
 import bisect
@@ -19,10 +19,11 @@ from identify_l1 import LATE_SECONDS, LeadingGroupIdentifier, video_pts
 
 day = sys.argv[1]
 bar = float(sys.argv[2]) if len(sys.argv) > 2 else 0.4
+weights, name = (ROOT / sys.argv[3], sys.argv[4]) if len(sys.argv) > 4 else (None, "V10L")
 fc.FOLDER.setdefault(day, day)
-ident = LeadingGroupIdentifier(fast=True, fallback=True, tau_leader=0.5, finish_leader=True, leader_sure=bar)
+ident = LeadingGroupIdentifier(fast=True, fallback=True, tau_leader=0.5, finish_leader=True, leader_sure=bar, cap_weights=weights)
 off, tms = fc.official(day), fc.times(day)
-out_path = ROOT / "finish3" / "whole" / "V10L" / f"{day}.json"
+out_path = ROOT / "finish3" / "whole" / name / f"{day}.json"
 out_path.parent.mkdir(parents=True, exist_ok=True)
 (ROOT / "finish3" / "pts" / day).mkdir(parents=True, exist_ok=True)
 res = {"day": day, "config": f"V10 with the leader bar {bar}", "races": {}}

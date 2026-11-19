@@ -1,0 +1,20 @@
+start                                  points   51  A 84.6% (55/65) [69.8, 95.0]  B 68.6% (35/51) [49.0, 88.2]
+                                       leader when said 80.0% (8/10) [40.0, 100.0] lenient 90.0% | right share 15.7% [3.9, 29.4]  wrong share 3.9% [0.0, 9.8]
+                                       base (strip-trained leader): when said 80.0% (8/10)  right share 15.7%  wrong share 3.9% | new minus base: when said [0.0, 0.0]  right share [0.0, 0.0]  wrong share [0.0, 0.0]
+middle                                 points  176  A 95.2% (316/332) [90.9, 98.9]  B 92.6% (163/176) [87.9, 96.9]
+                                       leader when said 81.8% (90/110) [60.8, 97.5] lenient 98.2% | right share 51.1% [38.9, 63.1]  wrong share 11.4% [1.5, 25.7]
+                                       base (strip-trained leader): when said 81.8% (90/110)  right share 51.1%  wrong share 11.4% | new minus base: when said [0.0, 0.0]  right share [0.0, 0.0]  wrong share [0.0, 0.0]
+finish                                 points  221  A 93.4% (382/409) [90.8, 95.7]  B 95.9% (212/221) [93.2, 98.6]
+                                       leader when said 84.3% (107/127) [76.9, 91.4] lenient 95.3% | right share 48.4% [40.7, 56.6]  wrong share 9.0% [5.0, 13.6]
+                                       base (strip-trained leader): when said 67.2% (90/134)  right share 40.7%  wrong share 19.9% | new minus base: when said [3.1, 29.7]  right share [-0.9, 16.8]  wrong share [-20.8, -1.8]
+whole race                             points  448  A 93.4% (753/806) [91.0, 95.7]  B 91.5% (410/448) [87.9, 94.6]
+                                       leader when said 83.0% (205/247) [73.2, 90.9] lenient 96.4% | right share 45.8% [40.6, 51.1]  wrong share 9.4% [4.9, 15.2]
+                                       base (strip-trained leader): when said 74.0% (188/254)  right share 42.0%  wrong share 14.7% | new minus base: when said [1.6, 16.6]  right share [-0.5, 8.8]  wrong share [-10.2, -0.9]
+whole race without the finish moment   points  431  A 93.9% (738/786) [91.4, 96.1]  B 92.3% (398/431) [88.5, 95.7]
+                                       leader when said 82.5% (198/240) [72.4, 90.6] lenient 96.2% | right share 45.9% [40.4, 51.6]  wrong share 9.7% [5.1, 15.8]
+                                       base (strip-trained leader): when said 73.7% (185/251)  right share 42.9%  wrong share 15.3% | new minus base: when said [1.3, 16.4]  right share [-1.3, 7.9]  wrong share [-10.6, -0.9]
+  otherday16 whole race A 92.9 B 91.8 | finish part leader when said 81.0 (51/63) | whole race leader right share 49.3 wrong share 6.8
+  otherday17 whole race A 93.9 B 91.3 | finish part leader when said 87.5 (56/64) | whole race leader right share 42.7 wrong share 11.6
+winner call (official_anchor): main 0/17 called, 0 right, ranks [] | every race run 0/17 called, 0 right
+winner call (clock_stop): main 0/17 called, 0 right, ranks [] | every race run 0/17 called, 0 right
+every race run (17): whole race A 93.4 B 91.5 leader right share 45.8 wrong share 9.4
