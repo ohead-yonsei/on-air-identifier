@@ -42,9 +42,12 @@ for base in (ROOT, ROOT / "batch2", ROOT / "batch2b"):
 for r in json.loads((ROOT / "otherday" / "label" / "labels.json").read_text())["riders"]:
     if r["human_number"]:
         human.append({"label": r["human_number"] - 1, "eps": 0.0, "img": Image.open(ROOT / "otherday" / "label" / "inputs" / f"{r['id']}_R0_35.png").convert("RGB")})
-mined = []
+mined, seen = [], set()
 for d in mined_dirs:
     for r in json.loads((ROOT / d / "mined.json").read_text())["rows"]:
+        if r["crop"] in seen:          # the same rider of the same picture from an earlier folder (round 1)
+            continue
+        seen.add(r["crop"])
         mined.append({"label": r["class"] - 1, "eps": eps, "img": Image.open(ROOT / d / "crops" / r["crop"]).convert("RGB")})
 rows = human * HUMAN_REPEAT + mined
 print(f"hand labels {len(human)} (x{HUMAN_REPEAT}) + mined labels {len(mined)} from {mined_dirs} (eps {eps}) = {len(rows)} items per epoch; "

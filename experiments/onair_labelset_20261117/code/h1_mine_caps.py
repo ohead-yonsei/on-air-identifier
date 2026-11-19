@@ -1,5 +1,6 @@
 """caps2, step 1: find riders whose number the cap classifier does not read, and label them from the running-order strip. No hand labelling.
-usage: h1_mine_caps.py OUT_DIR DAY [DAY ...]         DAY has da/DAY/{manifest.json, frames, frames_past, out, out_past, cnn_probs_two}
+usage: h1_mine_caps.py OUT_DIR [--probs FOLDER] DAY [DAY ...]         DAY has da/DAY/{manifest.json, frames, frames_past, out, out_past, cnn_probs_two}
+       --probs FOLDER (round 2): the folder under da/DAY with another classifier's probabilities (wk2_apply.py)
 
 Idea. The strip gives the order of the first five horses at that moment. In a picture, the riders the classifier reads with confidence and
 whose numbers are on the strip ("anchors") show where the strip's order lies in the picture. A strip number with no anchor must be the
@@ -91,7 +92,12 @@ def mine_picture(boxes, P, strip):
 
 
 def main():
-    out, days = ROOT / sys.argv[1], sys.argv[2:]
+    args = sys.argv[1:]
+    out, folder = ROOT / args.pop(0), "cnn_probs_two"
+    if args[0] == "--probs":
+        args.pop(0)
+        folder = args.pop(0)
+    days = args
     (out / "crops").mkdir(parents=True, exist_ok=True)
     rows, seen = [], Counter()
     for day in days:
@@ -115,7 +121,7 @@ def main():
                 riders = json.loads(res.read_text())["riders"]
                 if len(riders) < 4:
                     continue
-                P = np.array(json.loads((O / "cnn_probs_two" / f"{name}.json").read_text())["probs"])
+                P = np.array(json.loads((O / folder / f"{name}.json").read_text())["probs"])
                 boxes = [r["box"] for r in riders]
                 got = mine_picture(boxes, P, S)
                 if got is None:

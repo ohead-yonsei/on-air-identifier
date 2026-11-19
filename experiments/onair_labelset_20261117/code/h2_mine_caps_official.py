@@ -1,5 +1,6 @@
 """caps2, step 1b: label riders the cap classifier does not read, from the official order of the WHOLE field. No hand labelling.
-usage: h2_mine_caps_official.py OUT_DIR DAY [DAY ...]      needs finish3/dense/DAY.json (g4_dense_whole.py: every 0.5 s, whole race)
+usage: h2_mine_caps_official.py OUT_DIR [--source NAME] DAY [DAY ...]      needs finish3/dense/DAY.json (g4_dense_whole.py: every 0.5 s, whole race)
+       --source NAME (round 2): the cap probabilities of another classifier, caps2/dense/NAME/{whole,last}/DAY.json (h4_reprob.py)
                                                            and, when present, finish2/dense/DAY.json (last 37 s, every 0.2 s)
 
 Idea (as h1_mine_caps.py, with a richer answer). The official passing times give the order of every horse at every moment. Riders the
@@ -105,13 +106,20 @@ def mine_picture(boxes, P, togo):
 
 
 def main():
-    out, days = ROOT / sys.argv[1], sys.argv[2:]
+    args = sys.argv[1:]
+    out, source = ROOT / args.pop(0), None
+    if args[0] == "--source":
+        args.pop(0)
+        source = args.pop(0)
+    days = args
     (out / "crops").mkdir(parents=True, exist_ok=True)
     rows = []
     for day in days:
         fc.FOLDER.setdefault(day, day)
         off, tms = fc.official(day), fc.times(day)
         sources = [ROOT / "finish3" / "dense" / f"{day}.json", ROOT / "finish2" / "dense" / f"{day}.json"]
+        if source:
+            sources = [ROOT / "caps2" / "dense" / source / "whole" / f"{day}.json", ROOT / "caps2" / "dense" / source / "last" / f"{day}.json"]
         found = defaultdict(list)                           # race -> rows
         for src in sources:
             if not src.exists():
