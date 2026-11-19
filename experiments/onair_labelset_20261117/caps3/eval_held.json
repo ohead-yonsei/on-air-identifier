@@ -1,0 +1,227 @@
+{
+ "days": [
+  "otherday9",
+  "otherday10",
+  "otherday11",
+  "otherday14",
+  "otherday15",
+  "otherday16",
+  "otherday17"
+ ],
+ "races": 52,
+ "configs": {
+  "v11 (A:old)": {
+   "leader": {
+    "points": 1378,
+    "readable": 75.8,
+    "right": 48.1,
+    "wrong": 7.1
+   },
+   "numbers": {
+    "A": 93.4,
+    "B": 91.8,
+    "said": 2425,
+    "right": 2264,
+    "points": 1378
+   },
+   "true_leader_7_10_11+": {
+    "points": 341,
+    "readable": 69.8,
+    "right": 42.5,
+    "wrong": 11.7
+   },
+   "winner": {
+    "races": 70,
+    "called": 53,
+    "right": 46,
+    "wrong_ranks": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     9
+    ]
+   }
+  },
+  "B": {
+   "leader": {
+    "points": 1378,
+    "readable": 78.5,
+    "right": 49.9,
+    "wrong": 7.0
+   },
+   "numbers": {
+    "A": 93.9,
+    "B": 93.6,
+    "said": 2474,
+    "right": 2324,
+    "points": 1378
+   },
+   "true_leader_7_10_11+": {
+    "points": 341,
+    "readable": 70.1,
+    "right": 43.4,
+    "wrong": 10.3
+   },
+   "winner": {
+    "races": 70,
+    "called": 56,
+    "right": 50,
+    "wrong_ranks": [
+     2,
+     2,
+     2,
+     2,
+     6,
+     10
+    ]
+   },
+   "difference": {
+    "readable": [
+     0.0,
+     5.5
+    ],
+    "leader_right": [
+     -0.4,
+     3.9
+    ],
+    "leader_wrong": [
+     -0.9,
+     0.8
+    ],
+    "A": [
+     -0.5,
+     1.6
+    ],
+    "B": [
+     0.4,
+     3.3
+    ]
+   },
+   "no_harm": true
+  },
+  "A+M": {
+   "leader": {
+    "points": 1378,
+    "readable": 75.8,
+    "right": 51.6,
+    "wrong": 8.3
+   },
+   "numbers": {
+    "A": 93.6,
+    "B": 91.1,
+    "said": 2415,
+    "right": 2261,
+    "points": 1378
+   },
+   "true_leader_7_10_11+": {
+    "points": 341,
+    "readable": 69.8,
+    "right": 46.0,
+    "wrong": 10.6
+   },
+   "winner": {
+    "races": 70,
+    "called": 55,
+    "right": 46,
+    "wrong_ranks": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     99
+    ]
+   },
+   "difference": {
+    "readable": [
+     0.0,
+     0.0
+    ],
+    "leader_right": [
+     2.0,
+     5.1
+    ],
+    "leader_wrong": [
+     0.0,
+     2.3
+    ],
+    "A": [
+     -0.4,
+     0.9
+    ],
+    "B": [
+     -1.4,
+     -0.1
+    ]
+   },
+   "no_harm": false
+  },
+  "B+M": {
+   "leader": {
+    "points": 1378,
+    "readable": 78.5,
+    "right": 54.3,
+    "wrong": 8.6
+   },
+   "numbers": {
+    "A": 94.0,
+    "B": 94.0,
+    "said": 2474,
+    "right": 2325,
+    "points": 1378
+   },
+   "true_leader_7_10_11+": {
+    "points": 341,
+    "readable": 70.1,
+    "right": 45.5,
+    "wrong": 10.6
+   },
+   "winner": {
+    "races": 70,
+    "called": 60,
+    "right": 52,
+    "wrong_ranks": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     9,
+     10
+    ]
+   },
+   "difference": {
+    "readable": [
+     0.0,
+     5.5
+    ],
+    "leader_right": [
+     3.2,
+     8.9
+    ],
+    "leader_wrong": [
+     0.2,
+     2.9
+    ],
+    "A": [
+     -0.6,
+     1.8
+    ],
+    "B": [
+     0.5,
+     3.9
+    ]
+   },
+   "no_harm": false
+  }
+ },
+ "choice": "B",
+ "goes_to_new_days": true
+}

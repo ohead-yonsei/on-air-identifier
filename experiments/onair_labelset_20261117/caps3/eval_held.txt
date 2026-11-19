@@ -1,0 +1,9 @@
+52 races, 1378 time points on ['otherday9', 'otherday10', 'otherday11', 'otherday14', 'otherday15', 'otherday16', 'otherday17']
+v11 (A:old)  readable 75.8% | leader right 48.1% wrong 7.1% | A 93.4% (2264/2425) B 91.8% | weak caps readable 69.8% right 42.5% | winner 53 called, 46 right [2, 2, 2, 2, 2, 2, 9]
+B            readable 78.5% | leader right 49.9% wrong 7.0% | A 93.9% (2324/2474) B 93.6% | weak caps readable 70.1% right 43.4% | winner 56 called, 50 right [2, 2, 2, 2, 6, 10]
+             minus v11: {"readable": [0.0, 5.5], "leader_right": [-0.4, 3.9], "leader_wrong": [-0.9, 0.8], "A": [-0.5, 1.6], "B": [0.4, 3.3]}
+A+M          readable 75.8% | leader right 51.6% wrong 8.3% | A 93.6% (2261/2415) B 91.1% | weak caps readable 69.8% right 46.0% | winner 55 called, 46 right [2, 2, 2, 2, 2, 2, 2, 3, 99]
+             minus v11: {"readable": [0.0, 0.0], "leader_right": [2.0, 5.1], "leader_wrong": [0.0, 2.3], "A": [-0.4, 0.9], "B": [-1.4, -0.1]}
+B+M          readable 78.5% | leader right 54.3% wrong 8.6% | A 94.0% (2325/2474) B 94.0% | weak caps readable 70.1% right 45.5% | winner 60 called, 52 right [2, 2, 2, 2, 2, 3, 9, 10]
+             minus v11: {"readable": [0.0, 5.5], "leader_right": [3.2, 8.9], "leader_wrong": [0.2, 2.9], "A": [-0.6, 1.8], "B": [0.5, 3.9]}
+choice: B | goes to new days: True

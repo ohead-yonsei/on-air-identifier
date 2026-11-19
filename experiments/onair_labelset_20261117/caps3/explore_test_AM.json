@@ -1,0 +1,92 @@
+{
+ "days": [
+  "otherday18",
+  "otherday19"
+ ],
+ "races": 16,
+ "configs": {
+  "v11 (A:old)": {
+   "leader": {
+    "points": 445,
+    "readable": 73.5,
+    "right": 50.6,
+    "wrong": 7.6
+   },
+   "numbers": {
+    "A": 91.3,
+    "B": 88.3,
+    "said": 761,
+    "right": 695,
+    "points": 445
+   },
+   "true_leader_7_10_11+": {
+    "points": 106,
+    "readable": 65.1,
+    "right": 40.6,
+    "wrong": 7.5
+   },
+   "winner": {
+    "races": 20,
+    "called": 13,
+    "right": 12,
+    "wrong_ranks": [
+     2
+    ]
+   }
+  },
+  "A+M": {
+   "leader": {
+    "points": 445,
+    "readable": 73.5,
+    "right": 52.8,
+    "wrong": 9.2
+   },
+   "numbers": {
+    "A": 91.8,
+    "B": 88.5,
+    "said": 760,
+    "right": 698,
+    "points": 445
+   },
+   "true_leader_7_10_11+": {
+    "points": 106,
+    "readable": 65.1,
+    "right": 41.5,
+    "wrong": 11.3
+   },
+   "winner": {
+    "races": 20,
+    "called": 15,
+    "right": 14,
+    "wrong_ranks": [
+     2
+    ]
+   },
+   "difference": {
+    "readable": [
+     0.0,
+     0.0
+    ],
+    "leader_right": [
+     0.7,
+     3.8
+    ],
+    "leader_wrong": [
+     0.7,
+     2.7
+    ],
+    "A": [
+     -0.3,
+     1.4
+    ],
+    "B": [
+     -1.0,
+     1.6
+    ]
+   },
+   "no_harm": false
+  }
+ },
+ "choice": null,
+ "goes_to_new_days": false
+}

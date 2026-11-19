@@ -54,6 +54,7 @@
 | [live_commentary/RESULT_KO.md](experiments/onair_labelset_20261117/live_commentary/RESULT_KO.md) | 식별기를 써서 실제로 중계해 본 시연 |
 | [finish2/RESULT_KO.md](experiments/onair_labelset_20261117/finish2/RESULT_KO.md) | 띠 없는 구간을 공식 기록으로 다시 재기: 마지막 36초, 선두 모델, 우승마 부르기, 경주 전체 |
 | [caps2/RESULT_KO.md](experiments/onair_labelset_20261117/caps2/RESULT_KO.md) | **모자 분류기 보강**: 공식 기록과 띠의 순서로 사람 손 없이 라벨 545장을 모아 다시 학습. 안 쓴 경마일 2일에서 선두를 맞게 말한 시점 36.8% → 45.8%, 7·10·11번 이상 모자의 번호 확정 51.4% → 73.8%. 벤치마크 v0으로도 다시 쟀고(깨끗한 3일에서 틀린 문장 10.8% → 8.1%, 선두를 맞게 말한 문항 51.0% → 59.1%) 2026-11-19에 기본값(v11)이 됨 |
+| [caps3/RESULT_KO.md](experiments/onair_labelset_20261117/caps3/RESULT_KO.md) | 라벨 수집을 한 번 더 돌린 분류기와, 새 분류기에 맞춰 다시 학습한 순서 모델. 안 쓴 경마일 2일에서 분류기는 확인되지 않았고, 모델 재학습은 선두를 맞게 +2.9%p / 틀리게 +1.4%p의 맞바꿈. 기본값은 v11 그대로 |
 | [finish3/RESULT_KO.md](experiments/onair_labelset_20261117/finish3/RESULT_KO.md) | v10을 통째로 새 날에서 시험(우승마 부르기 기준 미달), 선두를 못 말하는 이유(번호를 확정하지 못함, 7번·10번·11번 이상 모자가 약함), 선두용 번호 확정 기준 0.4 확인 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간의 처음 시도(결승 시각이 어긋나 있었음. finish2가 바로잡음) |
 

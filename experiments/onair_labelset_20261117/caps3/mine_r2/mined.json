@@ -1,0 +1,1580 @@
+{
+ "days": [
+  "otherday2",
+  "otherday3",
+  "otherday4",
+  "otherday5",
+  "otherday12",
+  "otherday13"
+ ],
+ "rules": {
+  "anchor_p": 0.9,
+  "step": 0.3,
+  "gap": 0.2,
+  "min_height": 40
+ },
+ "by_class": {
+  "1": 13,
+  "2": 4,
+  "3": 3,
+  "4": 7,
+  "5": 5,
+  "6": 6,
+  "7": 5,
+  "8": 2,
+  "9": 3,
+  "10": 6,
+  "11": 3
+ },
+ "sure_of_another_number": {
+  "1": 8,
+  "2": 3,
+  "3": 2,
+  "4": 3,
+  "5": 2,
+  "7": 2,
+  "8": 2,
+  "11": 1
+ },
+ "rows": [
+  {
+   "day": "otherday2",
+   "picture": "R01_t053",
+   "rider": 5,
+   "box": [
+    1186.3,
+    296.2,
+    1319.0,
+    517.3
+   ],
+   "number": 8,
+   "class": 8,
+   "place": 2,
+   "strip": [
+    7,
+    8,
+    4,
+    5,
+    6
+   ],
+   "crop": "otherday2_R01_t053_5.png",
+   "read_as": 3,
+   "read_p": 0.9997,
+   "p_target": 0.0,
+   "riders": 7,
+   "height": 221.1
+  },
+  {
+   "day": "otherday2",
+   "picture": "R02_t059",
+   "rider": 6,
+   "box": [
+    1350.3,
+    558.7,
+    1442.1,
+    664.0
+   ],
+   "number": 5,
+   "class": 5,
+   "place": 2,
+   "strip": [
+    3,
+    5,
+    2,
+    8,
+    9
+   ],
+   "crop": "otherday2_R02_t059_6.png",
+   "read_as": 1,
+   "read_p": 0.9542,
+   "p_target": 0.0214,
+   "riders": 8,
+   "height": 105.3
+  },
+  {
+   "day": "otherday2",
+   "picture": "R05_t053_m10",
+   "rider": 4,
+   "box": [
+    988.5,
+    351.0,
+    1086.3,
+    453.6
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    6,
+    4,
+    1,
+    7,
+    8
+   ],
+   "crop": "otherday2_R05_t053_m10_4.png",
+   "read_as": 3,
+   "read_p": 0.9982,
+   "p_target": 0.0,
+   "riders": 8,
+   "height": 102.6
+  },
+  {
+   "day": "otherday2",
+   "picture": "R07_t050_m10",
+   "rider": 1,
+   "box": [
+    530.9,
+    355.4,
+    652.6,
+    547.9
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 4,
+   "strip": [
+    3,
+    6,
+    8,
+    1,
+    5
+   ],
+   "crop": "otherday2_R07_t050_m10_1.png",
+   "read_as": 7,
+   "read_p": 0.2145,
+   "p_target": 0.0009,
+   "riders": 9,
+   "height": 192.5
+  },
+  {
+   "day": "otherday2",
+   "picture": "R08_t047_m10",
+   "rider": 6,
+   "box": [
+    1226.5,
+    591.6,
+    1272.8,
+    642.3
+   ],
+   "number": 7,
+   "class": 7,
+   "place": 3,
+   "strip": [
+    9,
+    8,
+    7,
+    5,
+    3
+   ],
+   "crop": "otherday2_R08_t047_m10_6.png",
+   "read_as": 4,
+   "read_p": 0.9224,
+   "p_target": 0.0347,
+   "riders": 9,
+   "height": 50.7
+  },
+  {
+   "day": "otherday2",
+   "picture": "R08_t065_m05",
+   "rider": 5,
+   "box": [
+    994.0,
+    417.4,
+    1061.5,
+    521.2
+   ],
+   "number": 5,
+   "class": 5,
+   "place": 4,
+   "strip": [
+    9,
+    8,
+    7,
+    5,
+    3
+   ],
+   "crop": "otherday2_R08_t065_m05_5.png",
+   "read_as": 2,
+   "read_p": 0.9846,
+   "p_target": 0.0003,
+   "riders": 8,
+   "height": 103.8
+  },
+  {
+   "day": "otherday2",
+   "picture": "R08_t068_m05",
+   "rider": 8,
+   "box": [
+    1343.0,
+    706.4,
+    1442.1,
+    823.1
+   ],
+   "number": 9,
+   "class": 9,
+   "place": 1,
+   "strip": [
+    9,
+    8,
+    7,
+    5,
+    2
+   ],
+   "crop": "otherday2_R08_t068_m05_8.png",
+   "read_as": 9,
+   "read_p": 0.395,
+   "p_target": 0.395,
+   "riders": 9,
+   "height": 116.7
+  },
+  {
+   "day": "otherday2",
+   "picture": "R09_t089_m05",
+   "rider": 6,
+   "box": [
+    1154.8,
+    569.8,
+    1290.0,
+    712.9
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    6,
+    7,
+    1,
+    2,
+    5
+   ],
+   "crop": "otherday2_R09_t089_m05_6.png",
+   "read_as": 11,
+   "read_p": 0.8383,
+   "p_target": 0.0575,
+   "riders": 9,
+   "height": 143.1
+  },
+  {
+   "day": "otherday2",
+   "picture": "R10_t044_m05",
+   "rider": 5,
+   "box": [
+    962.4,
+    569.2,
+    1046.3,
+    666.2
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 4,
+   "strip": [
+    11,
+    7,
+    6,
+    10,
+    1
+   ],
+   "crop": "otherday2_R10_t044_m05_5.png",
+   "read_as": 10,
+   "read_p": 0.5679,
+   "p_target": 0.5679,
+   "riders": 10,
+   "height": 97.0
+  },
+  {
+   "day": "otherday2",
+   "picture": "R10_t056_m05",
+   "rider": 7,
+   "box": [
+    1285.9,
+    662.2,
+    1389.3,
+    772.9
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 3,
+   "strip": [
+    11,
+    7,
+    10,
+    6,
+    1
+   ],
+   "crop": "otherday2_R10_t056_m05_7.png",
+   "read_as": 10,
+   "read_p": 0.05,
+   "p_target": 0.05,
+   "riders": 10,
+   "height": 110.7
+  },
+  {
+   "day": "otherday3",
+   "picture": "R03_t035_m10",
+   "rider": 9,
+   "box": [
+    1392.6,
+    521.9,
+    1468.7,
+    617.7
+   ],
+   "number": 7,
+   "class": 7,
+   "place": 3,
+   "strip": [
+    3,
+    6,
+    7,
+    10,
+    5
+   ],
+   "crop": "otherday3_R03_t035_m10_9.png",
+   "read_as": 9,
+   "read_p": 0.0001,
+   "p_target": 0.7759,
+   "riders": 12,
+   "height": 95.8
+  },
+  {
+   "day": "otherday3",
+   "picture": "R05_t059",
+   "rider": 0,
+   "box": [
+    168.1,
+    523.3,
+    245.2,
+    636.3
+   ],
+   "number": 7,
+   "class": 7,
+   "place": 1,
+   "strip": [
+    7,
+    11,
+    2,
+    3,
+    8
+   ],
+   "crop": "otherday3_R05_t059_0.png",
+   "read_as": 7,
+   "read_p": 0.5857,
+   "p_target": 0.5857,
+   "riders": 10,
+   "height": 113.0
+  },
+  {
+   "day": "otherday3",
+   "picture": "R10_t032_m10",
+   "rider": 8,
+   "box": [
+    1612.5,
+    640.7,
+    1694.2,
+    735.6
+   ],
+   "number": 11,
+   "class": 11,
+   "place": 1,
+   "strip": [
+    11,
+    5,
+    1,
+    6,
+    3
+   ],
+   "crop": "otherday3_R10_t032_m10_8.png",
+   "read_as": 11,
+   "read_p": 0.8673,
+   "p_target": 0.8673,
+   "riders": 9,
+   "height": 94.9
+  },
+  {
+   "day": "otherday4",
+   "picture": "R01_t044_m10",
+   "rider": 1,
+   "box": [
+    717.5,
+    207.9,
+    834.5,
+    394.9
+   ],
+   "number": 11,
+   "class": 11,
+   "place": 2,
+   "strip": [
+    3,
+    11,
+    6,
+    5,
+    4
+   ],
+   "crop": "otherday4_R01_t044_m10_1.png",
+   "read_as": 9,
+   "read_p": 1.0,
+   "p_target": 0.0,
+   "riders": 10,
+   "height": 187.0
+  },
+  {
+   "day": "otherday4",
+   "picture": "R04_t026_m05",
+   "rider": 7,
+   "box": [
+    921.4,
+    455.8,
+    978.8,
+    558.1
+   ],
+   "number": 11,
+   "class": 11,
+   "place": 4,
+   "strip": [
+    1,
+    5,
+    2,
+    11,
+    3
+   ],
+   "crop": "otherday4_R04_t026_m05_7.png",
+   "read_as": 9,
+   "read_p": 0.0,
+   "p_target": 0.0,
+   "riders": 11,
+   "height": 102.3
+  },
+  {
+   "day": "otherday4",
+   "picture": "R04_t035",
+   "rider": 8,
+   "box": [
+    1289.2,
+    297.0,
+    1382.4,
+    435.9
+   ],
+   "number": 5,
+   "class": 5,
+   "place": 2,
+   "strip": [
+    1,
+    5,
+    2,
+    3,
+    6
+   ],
+   "crop": "otherday4_R04_t035_8.png",
+   "read_as": 5,
+   "read_p": 0.7524,
+   "p_target": 0.7524,
+   "riders": 10,
+   "height": 138.9
+  },
+  {
+   "day": "otherday4",
+   "picture": "R05_t032_m05",
+   "rider": 3,
+   "box": [
+    915.2,
+    281.9,
+    1017.8,
+    490.9
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 2,
+   "strip": [
+    7,
+    1,
+    3,
+    2,
+    4
+   ],
+   "crop": "otherday4_R05_t032_m05_3.png",
+   "read_as": 1,
+   "read_p": 0.2903,
+   "p_target": 0.2903,
+   "riders": 9,
+   "height": 209.0
+  },
+  {
+   "day": "otherday5",
+   "picture": "R02_t047_m05",
+   "rider": 5,
+   "box": [
+    1259.8,
+    708.9,
+    1334.1,
+    809.9
+   ],
+   "number": 9,
+   "class": 9,
+   "place": 2,
+   "strip": [
+    6,
+    9,
+    1,
+    7,
+    8
+   ],
+   "crop": "otherday5_R02_t047_m05_5.png",
+   "read_as": 9,
+   "read_p": 0.8662,
+   "p_target": 0.8662,
+   "riders": 7,
+   "height": 101.0
+  },
+  {
+   "day": "otherday5",
+   "picture": "R03_t044",
+   "rider": 5,
+   "box": [
+    972.7,
+    523.5,
+    1044.3,
+    631.0
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 4,
+   "strip": [
+    9,
+    4,
+    6,
+    10,
+    2
+   ],
+   "crop": "otherday5_R03_t044_5.png",
+   "read_as": 10,
+   "read_p": 0.6904,
+   "p_target": 0.6904,
+   "riders": 10,
+   "height": 107.5
+  },
+  {
+   "day": "otherday5",
+   "picture": "R03_t044_m05",
+   "rider": 3,
+   "box": [
+    849.8,
+    530.9,
+    958.9,
+    664.0
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 4,
+   "strip": [
+    9,
+    4,
+    6,
+    10,
+    2
+   ],
+   "crop": "otherday5_R03_t044_m05_3.png",
+   "read_as": 10,
+   "read_p": 0.0203,
+   "p_target": 0.0203,
+   "riders": 9,
+   "height": 133.1
+  },
+  {
+   "day": "otherday5",
+   "picture": "R04_t059_m05",
+   "rider": 4,
+   "box": [
+    1063.5,
+    361.6,
+    1159.2,
+    615.2
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 4,
+   "strip": [
+    8,
+    9,
+    10,
+    1,
+    11
+   ],
+   "crop": "otherday5_R04_t059_m05_4.png",
+   "read_as": 2,
+   "read_p": 0.9991,
+   "p_target": 0.0001,
+   "riders": 9,
+   "height": 253.6
+  },
+  {
+   "day": "otherday5",
+   "picture": "R05_t038_m10",
+   "rider": 11,
+   "box": [
+    1682.0,
+    548.4,
+    1732.8,
+    604.8
+   ],
+   "number": 9,
+   "class": 9,
+   "place": 1,
+   "strip": [
+    9,
+    10,
+    1,
+    5,
+    4
+   ],
+   "crop": "otherday5_R05_t038_m10_11.png",
+   "read_as": 11,
+   "read_p": 0.0749,
+   "p_target": 0.0049,
+   "riders": 12,
+   "height": 56.4
+  },
+  {
+   "day": "otherday5",
+   "picture": "R05_t077_m05",
+   "rider": 7,
+   "box": [
+    1093.8,
+    576.2,
+    1192.5,
+    708.0
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 3,
+   "strip": [
+    9,
+    1,
+    10,
+    5,
+    4
+   ],
+   "crop": "otherday5_R05_t077_m05_7.png",
+   "read_as": 10,
+   "read_p": 0.8207,
+   "p_target": 0.8207,
+   "riders": 10,
+   "height": 131.8
+  },
+  {
+   "day": "otherday5",
+   "picture": "R07_t044",
+   "rider": 5,
+   "box": [
+    1151.5,
+    226.0,
+    1255.5,
+    486.8
+   ],
+   "number": 2,
+   "class": 2,
+   "place": 1,
+   "strip": [
+    2,
+    5,
+    6,
+    8,
+    3
+   ],
+   "crop": "otherday5_R07_t044_5.png",
+   "read_as": 4,
+   "read_p": 0.9994,
+   "p_target": 0.0001,
+   "riders": 6,
+   "height": 260.8
+  },
+  {
+   "day": "otherday5",
+   "picture": "R08_t044_m10",
+   "rider": 3,
+   "box": [
+    1187.0,
+    568.7,
+    1239.6,
+    652.7
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    6,
+    5,
+    1,
+    8,
+    2
+   ],
+   "crop": "otherday5_R08_t044_m10_3.png",
+   "read_as": 10,
+   "read_p": 0.8735,
+   "p_target": 0.0575,
+   "riders": 7,
+   "height": 84.0
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t047",
+   "rider": 7,
+   "box": [
+    1518.0,
+    727.9,
+    1593.6,
+    802.9
+   ],
+   "number": 3,
+   "class": 3,
+   "place": 2,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t047_7.png",
+   "read_as": 3,
+   "read_p": 0.6992,
+   "p_target": 0.6992,
+   "riders": 9,
+   "height": 75.0
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t053",
+   "rider": 5,
+   "box": [
+    1503.3,
+    587.6,
+    1559.2,
+    638.5
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 4,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t053_5.png",
+   "read_as": 4,
+   "read_p": 0.6199,
+   "p_target": 0.6199,
+   "riders": 9,
+   "height": 50.9
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t056",
+   "rider": 3,
+   "box": [
+    697.9,
+    338.4,
+    806.8,
+    527.7
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 4,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t056_3.png",
+   "read_as": 11,
+   "read_p": 0.9979,
+   "p_target": 0.0,
+   "riders": 8,
+   "height": 189.3
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t062",
+   "rider": 2,
+   "box": [
+    692.6,
+    307.4,
+    810.1,
+    504.8
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 4,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t062_2.png",
+   "read_as": 11,
+   "read_p": 1.0,
+   "p_target": 0.0,
+   "riders": 8,
+   "height": 197.4
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t065_m05",
+   "rider": 4,
+   "box": [
+    741.7,
+    315.1,
+    864.3,
+    525.8
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 4,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t065_m05_4.png",
+   "read_as": 11,
+   "read_p": 0.9998,
+   "p_target": 0.0,
+   "riders": 9,
+   "height": 210.7
+  },
+  {
+   "day": "otherday5",
+   "picture": "R09_t086_m05",
+   "rider": 6,
+   "box": [
+    1504.0,
+    637.6,
+    1570.3,
+    700.7
+   ],
+   "number": 10,
+   "class": 10,
+   "place": 3,
+   "strip": [
+    1,
+    3,
+    10,
+    4,
+    8
+   ],
+   "crop": "otherday5_R09_t086_m05_6.png",
+   "read_as": 2,
+   "read_p": 0.0,
+   "p_target": 0.0,
+   "riders": 9,
+   "height": 63.1
+  },
+  {
+   "day": "otherday12",
+   "picture": "R02_t038_m10",
+   "rider": 4,
+   "box": [
+    747.8,
+    445.3,
+    819.0,
+    574.1
+   ],
+   "number": 8,
+   "class": 8,
+   "place": 3,
+   "strip": [
+    3,
+    9,
+    8,
+    6,
+    11
+   ],
+   "crop": "otherday12_R02_t038_m10_4.png",
+   "read_as": 5,
+   "read_p": 1.0,
+   "p_target": 0.0,
+   "riders": 9,
+   "height": 128.8
+  },
+  {
+   "day": "otherday12",
+   "picture": "R03_t050_m10",
+   "rider": 2,
+   "box": [
+    401.3,
+    462.8,
+    441.3,
+    515.3
+   ],
+   "number": 2,
+   "class": 2,
+   "place": 3,
+   "strip": [
+    8,
+    9,
+    2,
+    5,
+    7
+   ],
+   "crop": "otherday12_R03_t050_m10_2.png",
+   "read_as": 10,
+   "read_p": 0.0008,
+   "p_target": 0.4469,
+   "riders": 10,
+   "height": 52.5
+  },
+  {
+   "day": "otherday12",
+   "picture": "R04_t032",
+   "rider": 8,
+   "box": [
+    1425.8,
+    528.6,
+    1480.8,
+    593.2
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 3,
+   "strip": [
+    2,
+    5,
+    6,
+    1,
+    4
+   ],
+   "crop": "otherday12_R04_t032_8.png",
+   "read_as": 6,
+   "read_p": 0.4148,
+   "p_target": 0.4148,
+   "riders": 11,
+   "height": 64.6
+  },
+  {
+   "day": "otherday12",
+   "picture": "R04_t032_m05",
+   "rider": 6,
+   "box": [
+    1317.6,
+    560.5,
+    1487.1,
+    660.2
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 3,
+   "strip": [
+    2,
+    5,
+    6,
+    1,
+    4
+   ],
+   "crop": "otherday12_R04_t032_m05_6.png",
+   "read_as": 11,
+   "read_p": 0.2932,
+   "p_target": 0.0371,
+   "riders": 9,
+   "height": 99.7
+  },
+  {
+   "day": "otherday12",
+   "picture": "R04_t041_m10",
+   "rider": 8,
+   "box": [
+    1293.4,
+    485.1,
+    1373.3,
+    625.6
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 3,
+   "strip": [
+    2,
+    5,
+    6,
+    1,
+    4
+   ],
+   "crop": "otherday12_R04_t041_m10_8.png",
+   "read_as": null,
+   "read_p": 0.0,
+   "p_target": 0.0037,
+   "riders": 12,
+   "height": 140.5
+  },
+  {
+   "day": "otherday12",
+   "picture": "R04_t071_m10",
+   "rider": 5,
+   "box": [
+    1326.4,
+    596.3,
+    1445.8,
+    689.2
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 3,
+   "strip": [
+    5,
+    2,
+    6,
+    1,
+    4
+   ],
+   "crop": "otherday12_R04_t071_m10_5.png",
+   "read_as": 11,
+   "read_p": 0.3361,
+   "p_target": 0.144,
+   "riders": 8,
+   "height": 92.9
+  },
+  {
+   "day": "otherday12",
+   "picture": "R05_t041",
+   "rider": 9,
+   "box": [
+    1248.8,
+    610.2,
+    1369.1,
+    761.9
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 2,
+   "strip": [
+    2,
+    6,
+    7,
+    3,
+    8
+   ],
+   "crop": "otherday12_R05_t041_9.png",
+   "read_as": 6,
+   "read_p": 0.5955,
+   "p_target": 0.5955,
+   "riders": 11,
+   "height": 151.7
+  },
+  {
+   "day": "otherday12",
+   "picture": "R06_t041_m10",
+   "rider": 5,
+   "box": [
+    947.1,
+    372.7,
+    1033.2,
+    505.5
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 4,
+   "strip": [
+    2,
+    7,
+    8,
+    1,
+    3
+   ],
+   "crop": "otherday12_R06_t041_m10_5.png",
+   "read_as": 9,
+   "read_p": 0.0002,
+   "p_target": 0.0,
+   "riders": 10,
+   "height": 132.8
+  },
+  {
+   "day": "otherday12",
+   "picture": "R06_t053_m10",
+   "rider": 6,
+   "box": [
+    1097.6,
+    551.2,
+    1173.4,
+    641.7
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    2,
+    7,
+    1,
+    8,
+    4
+   ],
+   "crop": "otherday12_R06_t053_m10_6.png",
+   "read_as": 11,
+   "read_p": 0.5258,
+   "p_target": 0.3706,
+   "riders": 9,
+   "height": 90.5
+  },
+  {
+   "day": "otherday12",
+   "picture": "R07_t038",
+   "rider": 2,
+   "box": [
+    623.3,
+    481.1,
+    677.1,
+    543.6
+   ],
+   "number": 5,
+   "class": 5,
+   "place": 3,
+   "strip": [
+    2,
+    3,
+    5,
+    4,
+    1
+   ],
+   "crop": "otherday12_R07_t038_2.png",
+   "read_as": 9,
+   "read_p": 0.0793,
+   "p_target": 0.3253,
+   "riders": 9,
+   "height": 62.5
+  },
+  {
+   "day": "otherday12",
+   "picture": "R07_t038_m05",
+   "rider": 2,
+   "box": [
+    586.0,
+    484.9,
+    637.1,
+    529.1
+   ],
+   "number": 5,
+   "class": 5,
+   "place": 3,
+   "strip": [
+    2,
+    3,
+    5,
+    4,
+    1
+   ],
+   "crop": "otherday12_R07_t038_m05_2.png",
+   "read_as": 5,
+   "read_p": 0.3368,
+   "p_target": 0.3368,
+   "riders": 9,
+   "height": 44.2
+  },
+  {
+   "day": "otherday12",
+   "picture": "R08_t035_m10",
+   "rider": 7,
+   "box": [
+    1571.5,
+    590.6,
+    1609.8,
+    638.3
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    6,
+    8,
+    1,
+    7,
+    10
+   ],
+   "crop": "otherday12_R08_t035_m10_7.png",
+   "read_as": 11,
+   "read_p": 0.9903,
+   "p_target": 0.002,
+   "riders": 10,
+   "height": 47.7
+  },
+  {
+   "day": "otherday12",
+   "picture": "R10_t056_m05",
+   "rider": 8,
+   "box": [
+    1529.2,
+    630.4,
+    1612.9,
+    702.3
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 1,
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    9
+   ],
+   "crop": "otherday12_R10_t056_m05_8.png",
+   "read_as": 7,
+   "read_p": 0.0053,
+   "p_target": 0.0671,
+   "riders": 9,
+   "height": 71.9
+  },
+  {
+   "day": "otherday12",
+   "picture": "R10_t065_m10",
+   "rider": 6,
+   "box": [
+    1556.6,
+    394.6,
+    1706.0,
+    582.8
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 1,
+   "strip": [
+    1,
+    2,
+    8,
+    3,
+    5
+   ],
+   "crop": "otherday12_R10_t065_m10_6.png",
+   "read_as": 11,
+   "read_p": 0.9588,
+   "p_target": 0.0119,
+   "riders": 7,
+   "height": 188.2
+  },
+  {
+   "day": "otherday13",
+   "picture": "R01_t029_m05",
+   "rider": 2,
+   "box": [
+    381.9,
+    555.1,
+    442.9,
+    641.7
+   ],
+   "number": 6,
+   "class": 6,
+   "place": 2,
+   "strip": [
+    1,
+    6,
+    8,
+    3,
+    5
+   ],
+   "crop": "otherday13_R01_t029_m05_2.png",
+   "read_as": 10,
+   "read_p": 0.0077,
+   "p_target": 0.0003,
+   "riders": 8,
+   "height": 86.6
+  },
+  {
+   "day": "otherday13",
+   "picture": "R05_t053_m10",
+   "rider": 3,
+   "box": [
+    649.9,
+    523.5,
+    740.4,
+    667.0
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    5,
+    8,
+    1,
+    7,
+    2
+   ],
+   "crop": "otherday13_R05_t053_m10_3.png",
+   "read_as": 11,
+   "read_p": 0.7114,
+   "p_target": 0.2589,
+   "riders": 7,
+   "height": 143.5
+  },
+  {
+   "day": "otherday13",
+   "picture": "R05_t059",
+   "rider": 4,
+   "box": [
+    1421.6,
+    287.4,
+    1531.2,
+    388.6
+   ],
+   "number": 2,
+   "class": 2,
+   "place": 4,
+   "strip": [
+    5,
+    8,
+    1,
+    2,
+    7
+   ],
+   "crop": "otherday13_R05_t059_4.png",
+   "read_as": 3,
+   "read_p": 0.9998,
+   "p_target": 0.0,
+   "riders": 6,
+   "height": 101.2
+  },
+  {
+   "day": "otherday13",
+   "picture": "R05_t065_m05",
+   "rider": 1,
+   "box": [
+    798.1,
+    203.1,
+    966.6,
+    472.9
+   ],
+   "number": 1,
+   "class": 1,
+   "place": 3,
+   "strip": [
+    5,
+    8,
+    1,
+    2,
+    7
+   ],
+   "crop": "otherday13_R05_t065_m05_1.png",
+   "read_as": 3,
+   "read_p": 1.0,
+   "p_target": 0.0,
+   "riders": 5,
+   "height": 269.8
+  },
+  {
+   "day": "otherday13",
+   "picture": "R07_t029_m05",
+   "rider": 2,
+   "box": [
+    895.3,
+    260.1,
+    968.0,
+    377.4
+   ],
+   "number": 3,
+   "class": 3,
+   "place": 4,
+   "strip": [
+    5,
+    7,
+    9,
+    3,
+    11
+   ],
+   "crop": "otherday13_R07_t029_m05_2.png",
+   "read_as": 2,
+   "read_p": 0.9387,
+   "p_target": 0.0018,
+   "riders": 9,
+   "height": 117.3
+  },
+  {
+   "day": "otherday13",
+   "picture": "R08_t038_m05",
+   "rider": 8,
+   "box": [
+    881.6,
+    403.9,
+    951.8,
+    517.3
+   ],
+   "number": 3,
+   "class": 3,
+   "place": 4,
+   "strip": [
+    4,
+    11,
+    2,
+    3,
+    6
+   ],
+   "crop": "otherday13_R08_t038_m05_8.png",
+   "read_as": 1,
+   "read_p": 0.9796,
+   "p_target": 0.0007,
+   "riders": 12,
+   "height": 113.4
+  },
+  {
+   "day": "otherday13",
+   "picture": "R08_t071_m10",
+   "rider": 13,
+   "box": [
+    1625.8,
+    617.5,
+    1690.5,
+    681.2
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 1,
+   "strip": [
+    4,
+    11,
+    2,
+    3,
+    6
+   ],
+   "crop": "otherday13_R08_t071_m10_13.png",
+   "read_as": 4,
+   "read_p": 0.1967,
+   "p_target": 0.1967,
+   "riders": 14,
+   "height": 63.7
+  },
+  {
+   "day": "otherday13",
+   "picture": "R09_t044",
+   "rider": 3,
+   "box": [
+    845.9,
+    421.7,
+    914.9,
+    539.6
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 3,
+   "strip": [
+    2,
+    3,
+    4,
+    7,
+    5
+   ],
+   "crop": "otherday13_R09_t044_3.png",
+   "read_as": 4,
+   "read_p": 0.0,
+   "p_target": 0.0,
+   "riders": 7,
+   "height": 117.9
+  },
+  {
+   "day": "otherday13",
+   "picture": "R09_t050",
+   "rider": 6,
+   "box": [
+    1272.4,
+    569.1,
+    1327.0,
+    626.9
+   ],
+   "number": 4,
+   "class": 4,
+   "place": 3,
+   "strip": [
+    2,
+    3,
+    4,
+    10,
+    7
+   ],
+   "crop": "otherday13_R09_t050_6.png",
+   "read_as": 4,
+   "read_p": 0.8626,
+   "p_target": 0.8626,
+   "riders": 9,
+   "height": 57.8
+  },
+  {
+   "day": "otherday13",
+   "picture": "R09_t065",
+   "rider": 5,
+   "box": [
+    1028.6,
+    480.1,
+    1088.7,
+    547.4
+   ],
+   "number": 7,
+   "class": 7,
+   "place": 4,
+   "strip": [
+    2,
+    3,
+    4,
+    7,
+    10
+   ],
+   "crop": "otherday13_R09_t065_5.png",
+   "read_as": 7,
+   "read_p": 0.7119,
+   "p_target": 0.7119,
+   "riders": 9,
+   "height": 67.3
+  },
+  {
+   "day": "otherday13",
+   "picture": "R09_t068",
+   "rider": 7,
+   "box": [
+    1580.4,
+    507.6,
+    1646.7,
+    574.2
+   ],
+   "number": 2,
+   "class": 2,
+   "place": 1,
+   "strip": [
+    2,
+    3,
+    4,
+    7,
+    10
+   ],
+   "crop": "otherday13_R09_t068_7.png",
+   "read_as": 1,
+   "read_p": 0.9644,
+   "p_target": 0.0005,
+   "riders": 8,
+   "height": 66.6
+  },
+  {
+   "day": "otherday13",
+   "picture": "R09_t098_m05",
+   "rider": 1,
+   "box": [
+    856.1,
+    548.5,
+    916.2,
+    637.3
+   ],
+   "number": 7,
+   "class": 7,
+   "place": 4,
+   "strip": [
+    2,
+    3,
+    4,
+    7,
+    10
+   ],
+   "crop": "otherday13_R09_t098_m05_1.png",
+   "read_as": 9,
+   "read_p": 0.9992,
+   "p_target": 0.0,
+   "riders": 5,
+   "height": 88.8
+  }
+ ]
+}
