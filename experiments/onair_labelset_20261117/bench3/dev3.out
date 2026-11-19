@@ -1,0 +1,29 @@
+25 items, 0.7 s each; model | 서울 2경주 1200m 출발 뒤 44초에 2번이 선두로 11번도 선두권에 있습니다 => 서울 2경주 1200m 출발 뒤 44초에 2번이 선두로 11번도 선두권에 있습니다
+50 items, 0.7 s each; model | 서울 6경주 1200m 에서 출발 후 26초가 지났고 지금 6번과 8번이 선두권에서 경쟁하고 있습니다. => 서울 6경주 1200m 에서 출발 후 26초가 지났고 지금 6번과 8번이 선두권에서 경쟁하고 있습니다.
+75 items, 0.7 s each; model | 서울 7경주 1400m 에서 출발 뒤 41초 만에 8번이 선두로, 5번도 선두권에 함께하고 있습니다. => 서울 7경주 1400m 에서 출발 뒤 41초 만에 8번이 선두로, 5번도 선두권에 함께하고 있습니다.
+100 items, 0.7 s each; model | 1400m 서울 7경주 26초 8번이 선두 5번이 선두권입니다 => 1400m 서울 7경주 26초 8번이 선두 5번이 선두권입니다
+125 items, 0.7 s each; model | 서울 7경주 1600m 경주가 시작되어 출발 뒤 30초가 지났다 => 서울 7경주 1600m 경주가 시작되어 출발 뒤 30초가 지났다
+150 items, 0.7 s each; model | 서울 2경주 1300미터 경주에서 출발 뒤 32초 만에 1번과 6번, 11번이 선두권에 있습니다. => 서울 2경주 1300미터 경주에서 출발 뒤 32초 만에 1번과 6번, 11번이 선두권에 있습니다.
+done dev3_llm_ko 150 new items
+25 items, 0.6 s each; model | 서울 3경주 1000m 에서 출발 후 14초 만에 11번이 선두권에 있다. => 서울 3경주 1000m 에서 출발 후 14초 만에 11번이 선두권에 있다.
+50 items, 0.6 s each; model | 서울 7경주 1600m 에서 출발 뒤 94초 만에 2번, 5번, 6번이 선두권에서 달리고 있습니다. => 서울 7경주 1600m 에서 출발 뒤 94초 만에 2번, 5번, 6번이 선두권에서 달리고 있습니다.
+75 items, 0.6 s each; model | 1800m 서울 9경주 4번과 7번과 8번이 출발 후 119초 만에 선두권에 있습니다. => 1800m 서울 9경주 4번과 7번과 8번이 출발 후 119초 만에 선두권에 있습니다.
+100 items, 0.6 s each; model | 서울 9경주 1200미터에서 출발 후 13초 경과 시점에 2번과 9번이 선두권에 있습니다. => 서울 9경주 1200미터에서 출발 후 13초 경과 시점에 2번과 9번이 선두권에 있습니다.
+125 items, 0.6 s each; model | 서울 7경주 1600m 에서 87초가 지난 8번이 선두이며, 6번도 선두권에 있습니다. => 서울 7경주 1600m 에서 87초가 지난 8번이 선두이며, 6번도 선두권에 있습니다.
+150 items, 0.6 s each; model | 1000m 서울 3경주에서 59초가 지나자 2번이 선두로, 7번도 선두권을 달리고 있습니다. => 1000m 서울 3경주에서 59초가 지나자 2번이 선두로, 7번도 선두권을 달리고 있습니다.
+done dev3_llm_ko_official 150 new items
+25 items, 0.5 s each; model_retry | No. 2 leads, with No. 11 alongside in the lead. => At 44 seconds, No. 2 leads with No. 11 in the leading group for Seoul Race 2.
+50 items, 0.5 s each; model | No. 6 and No. 8 are in the leading group at 26 seconds in Seoul Race 6. => No. 6 and No. 8 are in the leading group at 26 seconds in Seoul Race 6.
+75 items, 0.5 s each; model | No. 8 leads, with No. 5 in the leading group at 41 seconds. => No. 8 leads, with No. 5 in the leading group at 41 seconds.
+100 items, 0.5 s each; model | Seoul Race 7, No. 8 leads with No. 5 in the leading group. => Seoul Race 7, No. 8 leads with No. 5 in the leading group.
+125 items, 0.5 s each; model | Seoul Race 7, 1600 m horses are active at 30 seconds. => Seoul Race 7, 1600 m horses are active at 30 seconds.
+150 items, 0.5 s each; model | No. 1, No. 6 and No. 11 are in the leading group at 32 seconds. => No. 1, No. 6 and No. 11 are in the leading group at 32 seconds.
+done dev3_llm_en 150 new items
+25 items, 0.5 s each; model | No. 11 is in the leading group after 14 seconds. => No. 11 is in the leading group after 14 seconds.
+50 items, 0.5 s each; model | No. 2, No. 5 and No. 6 are in the leading group. => No. 2, No. 5 and No. 6 are in the leading group.
+75 items, 0.5 s each; model | No. 4, No. 7, and No. 8 are in the leading group at 119 seconds. => No. 4, No. 7, and No. 8 are in the leading group at 119 seconds.
+100 items, 0.5 s each; model | No. 2 and No. 9 are in the leading group at 13 seconds in Race 9. => No. 2 and No. 9 are in the leading group at 13 seconds in Race 9.
+125 items, 0.5 s each; model | No. 8 leads, with No. 6 in the leading group at 87 seconds in Race 7. => No. 8 leads, with No. 6 in the leading group at 87 seconds in Race 7.
+150 items, 0.5 s each; model | No. 2 leads, with No. 7 in the leading group. => No. 2 leads, with No. 7 in the leading group.
+done dev3_llm_en_official 150 new items
+dev round 3 done

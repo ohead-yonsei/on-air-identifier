@@ -23,6 +23,14 @@
   "leader_right_share": 0.0,
   "leader_wrong_share": 0.0,
   "right_and_clean": 0.0,
+  "numbers_right_lenient": 0,
+  "items_with_wrong_number_lenient": 0,
+  "items_leader_right_lenient": 0,
+  "items_leader_wrong_lenient": 0,
+  "A_lenient": null,
+  "hallucination_lenient": 0.0,
+  "leader_right_share_lenient": 0.0,
+  "leader_wrong_share_lenient": 0.0,
   "interval": {
    "leader_right_share": [
     0.0,
@@ -72,6 +80,14 @@
   "leader_right_share": 9.8,
   "leader_wrong_share": 90.2,
   "right_and_clean": 0.7,
+  "numbers_right_lenient": 773,
+  "items_with_wrong_number_lenient": 868,
+  "items_leader_right_lenient": 86,
+  "items_leader_wrong_lenient": 788,
+  "A_lenient": 29.5,
+  "hallucination_lenient": 99.3,
+  "leader_right_share_lenient": 9.8,
+  "leader_wrong_share_lenient": 90.2,
   "interval": {
    "leader_right_share": [
     8.1,
@@ -127,6 +143,14 @@
   "leader_right_share": 11.4,
   "leader_wrong_share": 85.7,
   "right_and_clean": 29.2,
+  "numbers_right_lenient": 304,
+  "items_with_wrong_number_lenient": 614,
+  "items_leader_right_lenient": 100,
+  "items_leader_wrong_lenient": 749,
+  "A_lenient": 31.0,
+  "hallucination_lenient": 70.3,
+  "leader_right_share_lenient": 11.4,
+  "leader_wrong_share_lenient": 85.7,
   "interval": {
    "leader_right_share": [
     8.5,
@@ -182,6 +206,14 @@
   "leader_right_share": 0.6,
   "leader_wrong_share": 2.4,
   "right_and_clean": 1.5,
+  "numbers_right_lenient": 26,
+  "items_with_wrong_number_lenient": 22,
+  "items_leader_right_lenient": 5,
+  "items_leader_wrong_lenient": 21,
+  "A_lenient": 46.4,
+  "hallucination_lenient": 2.5,
+  "leader_right_share_lenient": 0.6,
+  "leader_wrong_share_lenient": 2.4,
   "interval": {
    "leader_right_share": [
     0.1,
@@ -237,6 +269,14 @@
   "leader_right_share": 57.0,
   "leader_wrong_share": 6.3,
   "right_and_clean": 83.1,
+  "numbers_right_lenient": 1461,
+  "items_with_wrong_number_lenient": 103,
+  "items_leader_right_lenient": 498,
+  "items_leader_wrong_lenient": 55,
+  "A_lenient": 93.2,
+  "hallucination_lenient": 11.8,
+  "leader_right_share_lenient": 57.0,
+  "leader_wrong_share_lenient": 6.3,
   "interval": {
    "leader_right_share": [
     50.7,
@@ -292,6 +332,14 @@
   "leader_right_share": 63.7,
   "leader_wrong_share": 6.5,
   "right_and_clean": 86.3,
+  "numbers_right_lenient": 1531,
+  "items_with_wrong_number_lenient": 92,
+  "items_leader_right_lenient": 557,
+  "items_leader_wrong_lenient": 57,
+  "A_lenient": 94.2,
+  "hallucination_lenient": 10.5,
+  "leader_right_share_lenient": 63.7,
+  "leader_wrong_share_lenient": 6.5,
   "interval": {
    "leader_right_share": [
     58.1,

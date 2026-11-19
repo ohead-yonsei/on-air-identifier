@@ -1,5 +1,5 @@
 """ON-AIR draft benchmark v0: make the pictures a system under test gets.
-usage: python make_inputs.py --exp EXPERIMENT_DIR [--split test] [--out inputs]        (needs opencv; run where the videos are)
+usage: python make_inputs.py --exp EXPERIMENT_DIR [--split test] [--out inputs] [--items items_official.jsonl]        (needs opencv; run where the videos are)
 
 Per item three pictures: 1.0 s before, 0.5 s before, and at the moment of the item (1920x1080 JPEG, quality 90),
 with the running-order strip painted over in grey (races.json "strip_box"). Nothing else is hidden: the race clock and the
@@ -16,12 +16,13 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--exp", required=True)
 ap.add_argument("--split", default="all")
 ap.add_argument("--out", default=str(HERE / "inputs"))
+ap.add_argument("--items", default="items.jsonl", help="items.jsonl (strip track) or items_official.jsonl (official track)")
 a = ap.parse_args()
 EXP, OUT = Path(a.exp), Path(a.out)
 OUT.mkdir(parents=True, exist_ok=True)
 meta = json.loads((HERE / "races.json").read_text())
 x1, y1, x2, y2 = meta["strip_box"]
-items = [json.loads(l) for l in (HERE / "items.jsonl").read_text().splitlines()]
+items = [json.loads(l) for l in (HERE / a.items).read_text().splitlines()]
 by_race = {}
 for it in items:
     if a.split in ("all", it["split"]):

@@ -1,7 +1,9 @@
 """ON-AIR draft benchmark v0: baseline "our flow" = identifier, then a fixed sentence pattern.
-usage: python3 baseline_ours.py IDENTIFIER_OUTPUT.json [...] --name NAME        (standard library only)
+usage: python3 baseline_ours.py IDENTIFIER_OUTPUT.json [...] --name NAME [--official]        (standard library only)
 
 IDENTIFIER_OUTPUT.json: what identifier/identify_l1.py --day-dir DAY writes (one per race day; it never reads the strip to decide).
+With --official (the official track, items_official.jsonl): the whole-race output of the same identifier class, every 3 s back from the
+finish (code/fn10_whole.py for v9, code/bw1_whole.py for v11); an item is matched by race and video time.
 The flow: where the identifier is sure, say the leading group (and the leader when it names one); where it is not, say
 confirmed information only (place, race number, distance, seconds since the start). No language model is used here, so the
 sentences are plain; the point is what is claimed, not how it is worded.
@@ -14,18 +16,26 @@ HERE = Path(__file__).resolve().parent
 ap = argparse.ArgumentParser()
 ap.add_argument("outputs", nargs="+")
 ap.add_argument("--name", required=True)
+ap.add_argument("--official", action="store_true")
 a = ap.parse_args()
 meta = json.loads((HERE / "races.json").read_text())["races"]
 items = {}
-for l in (HERE / "items.jsonl").read_text().splitlines():
+for l in (HERE / ("items_official.jsonl" if a.official else "items.jsonl")).read_text().splitlines():
     it = json.loads(l)
-    items[(meta[it["race_key"]]["source_folder"], it["id"].split("_", 1)[1])] = it          # (day folder, frame name such as R02_t025)
+    r = meta[it["race_key"]]
+    if a.official:
+        items[(r["source_folder"], f"R{r['race']:02d}", round(it["video_time"], 3))] = it      # (day folder, race, video time)
+    else:
+        items[(r["source_folder"], it["id"].split("_", 1)[1])] = it          # (day folder, frame name such as R02_t025)
 lines = []
 for path in a.outputs:
     res = json.loads(Path(path).read_text())
-    folder = res["day_dir"]
-    for p in res["points"]:
-        it = items.get((folder, p["frame"]))
+    if a.official:
+        points = [((res["day"], race, round(p["t"], 3)), p) for race, rr in res["races"].items() for p in rr.get("points", [])]
+    else:
+        points = [((res["day_dir"], p["frame"]), p) for p in res["points"]]
+    for k, p in points:
+        it = items.get(k)
         if it is None:
             continue
         r = meta[it["race_key"]]

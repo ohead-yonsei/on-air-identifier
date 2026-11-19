@@ -1,5 +1,5 @@
 """ON-AIR draft benchmark v0: baseline "a vision-language model looks at the pictures and commentates".
-usage: python3 baseline_vlm.py --name NAME [--model qwen3.5:9b] [--split test] [--prompt free|careful] [--limit N]
+usage: python3 baseline_vlm.py --name NAME [--model qwen3.5:9b] [--split test] [--prompt free|careful] [--limit N] [--items items_official.jsonl]
        (standard library only; needs a local Ollama server and the pictures from make_inputs.py)
 
 The model gets the three pictures of the item (strip hidden) and the race card, and writes one sentence of commentary.
@@ -28,6 +28,7 @@ ap.add_argument("--split", default="test")
 ap.add_argument("--prompt", default="free", choices=("free", "careful"))
 ap.add_argument("--inputs", default=str(HERE / "inputs"))
 ap.add_argument("--limit", type=int)
+ap.add_argument("--items", default="items.jsonl", help="items.jsonl (strip track) or items_official.jsonl (official track)")
 a = ap.parse_args()
 
 CAPS = "1번 흰색, 2번 노란색, 3번 빨간색, 4번 검정, 5번 파란색, 6번 초록색, 7번 갈색, 8번 분홍색, 9번 보라색, 10번 하늘색, 11번부터는 하늘색 바탕에 줄무늬"
@@ -40,7 +41,7 @@ SCHEMA = {"type": "object", "properties": {"line": {"type": "string"}}, "require
 OPTIONS = {"temperature": 0, "seed": 20261118, "num_ctx": 16384, "num_predict": 120, "top_p": 1}
 
 meta = json.loads((HERE / "races.json").read_text())["races"]
-items = [json.loads(l) for l in (HERE / "items.jsonl").read_text().splitlines()]
+items = [json.loads(l) for l in (HERE / a.items).read_text().splitlines()]
 items = [it for it in items if a.split in ("all", it["split"])]
 random.Random(20261118).shuffle(items)          # fixed order, so a run that is stopped early has covered a random sample
 items = items[: a.limit]

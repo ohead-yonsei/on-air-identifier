@@ -1,9 +1,20 @@
 """ON-AIR draft benchmark v0: scorer.
-usage: python3 benchmark/v0/score.py PREDICTIONS.jsonl [--split test|dev|all] [--out SCORE.json]     (standard library only)
+usage: python3 benchmark/v0/score.py PREDICTIONS.jsonl [--split test|dev|all] [--track strip|official|all] [--part PART] [--out SCORE.json]
+       (standard library only)
+
+Two tracks (the official track was added 2026-11-19):
+  strip      items.jsonl, the moments the broadcaster's running-order strip is on screen; the answer is the strip (default)
+  official   items_official.jsonl, the moments the strip does not cover (the first seconds, the last half minute, the finish itself);
+             the answer is the order worked out from the official passing times. --part start|middle|finish|finish_itself picks a part.
+             Next to every strict count there is a lenient one (ending _lenient): a number also counts as right when the horse is within
+             3 m of the third, a leader when within 3 m of the first, because the official times are given to 0.1 s (about 1.7 m).
+             On the strip track the lenient counts equal the strict ones.
 
 PREDICTIONS.jsonl: one line per item, {"id": ..., "text": "한국어 중계 한 문장"}.
 Horses are referred to by number, written like "4번". Optional fields override what is read from the text:
 "numbers": [..] (the numbers the sentence puts in the leading group), "leader": n or null (the number it calls the leader).
+English sentences (added 2026-11-19): a line with "lang": "en" is read with the English rules; horses are written "No. 4".
+Several horses said to lead together ("No. 5 and No. 6 lead") are all read as leader claims.
 Items without a line count as "said nothing".
 
 Headline pair (added 2026-11-18; a system that only ever says safe things scores 0 on the first, a system that guesses scores high on the second):
@@ -32,31 +43,72 @@ NUMBER = re.compile(r"(\d+)\s*번")
 LEADER = re.compile(r"선두는\s*(?:[가-힣 ]{0,12}모자\s*)?(\d+)\s*번|선두(?:에|로)\s*(?:[가-힣 ]{0,12}모자\s*)?(\d+)\s*번|(\d+)\s*번이\s*선두(?!권)|(\d+)\s*번이\s*(?:맨\s*)?앞(?:장|서)|(\d+)\s*번이\s*(?:경주를\s*)?이끌")
 
 
+_NN = r"(?<!race )(?:\bNo\.?|\bnumber|#)\s*\d+"          # one horse, English ("Race No. 3" is the race, not a horse)
+_LIST = rf"(?:{_NN}\s*(?:,\s*(?:and\s+)?|\s+and\s+))*{_NN}"          # "No. 3", "No. 3 and No. 5", "No. 3, No. 5 and No. 7"
+_GROUP = r"(?:group|pack|bunch|trio|pair|runners|horses)"
+NUMBER_EN = re.compile(r"(?<!race )(?:\bNo\.?|\bnumber|#)\s*(\d+)", re.I)
+NOS_EN = re.compile(r"\bNos\.?\s*(\d+(?:\s*,\s*\d+)*(?:,?\s*and\s*\d+)?)", re.I)          # "Nos. 3 and 6" -> "No. 3 and No. 6"
+LEADER_EN = re.compile(
+    rf"(?P<a>{_LIST}),?\s+(?:(?:is|are|has|have|who|still|now|just|both|all|also|too|together|alongside|level|remains?|stays?|continues?|currently|out|up|right|there|clearly|firmly|narrowly|comfortably|to)\s+){{0,3}}"
+    rf"(?:leads?\b(?!\s+{_GROUP})|leading(?!\s+{_GROUP})|in\s+front(?!\s+(?:of|{_GROUP}))|in\s+the\s+lead(?!ing|\s+{_GROUP})|at\s+the\s+front(?!\s+of\s+the\s+leading)|"
+    r"at\s+the\s+head|on\s+the\s+lead|sets?\s+the\s+pace|setting\s+the\s+pace|shows?\s+the\s+way|showing\s+the\s+way|heads?\s+the\s+(?:field|pack|leading\s+group|front\s+group)|heading\s+the\s+field|"
+    r"(?:takes?|taken|took|holds?|has|have|keeps?|grabs?|taking|holding|keeping)\s+(?:over\s+|up\s+)?the\s+lead|hits?\s+the\s+front|the\s+leaders?\b|the\s+front[- ]runners?)"
+    rf"|(?:leaders?(?:\s+is|\s+are|,|:)?|led\s+by|the\s+lead\s+(?:is\s+)?(?:with|held\s+by|goes\s+to|belongs\s+to)|(?:in\s+front|the\s+lead|the\s+way)\s+(?:is|are|it'?s)|front[- ]runners?(?:\s+is|\s+are|,)?|"
+    rf"leading\s+(?:is|are|it'?s))\s+(?P<b>{_LIST})",
+    re.I)
+
+
 def claims(pred):
     text = (pred or {}).get("text") or ""
-    nums = pred["numbers"] if pred and "numbers" in pred else sorted({int(n) for n in NUMBER.findall(text)})
+    if (pred or {}).get("lang") == "en":
+        text = NOS_EN.sub(lambda m: " and ".join("No. " + n for n in re.findall(r"\d+", m.group(1))), text)
+        found = sorted({int(n) for n in NUMBER_EN.findall(text)})
+        leaders = sorted({int(n) for m in LEADER_EN.finditer(text) for n in NUMBER_EN.findall(m.group("a") or m.group("b"))})
+    else:
+        found = sorted({int(n) for n in NUMBER.findall(text)})
+        leaders = sorted({int(g) for m in LEADER.finditer(text) for g in m.groups() if g})
+    nums = pred["numbers"] if pred and "numbers" in pred else found
     if pred and "leader" in pred:
         lead = [pred["leader"]] if pred["leader"] is not None else []
     else:
-        lead = sorted({int(g) for m in LEADER.finditer(text) for g in m.groups() if g})
+        lead = leaders
     return sorted(set(nums) | set(lead)), lead
 
 
-def rows(pred_path, split):
-    items = [json.loads(l) for l in (HERE / "items.jsonl").read_text().splitlines()]
-    ans = {a["id"]: a["strip"] for a in map(json.loads, (HERE / "answers.jsonl").read_text().splitlines())}
+def answer_key(track):
+    """[(item, answer)], answer = {"top3", "leader", "second", "near", "top3_lenient", "leader_lenient", "part", "to_finish"}."""
+    read = lambda name: [json.loads(l) for l in (HERE / name).read_text().splitlines()]
+    out = []
+    if track in ("strip", "all"):
+        ans = {a["id"]: a["strip"] for a in read("answers.jsonl")}
+        for it in read("items.jsonl"):
+            s = ans[it["id"]]
+            out.append((it, {"top3": s[:3], "leader": s[0], "second": s[1], "near": s[3:], "top3_lenient": s[:3], "leader_lenient": s[:1], "part": "strip", "to_finish": None}))
+    if track in ("official", "all"):
+        ans = {a["id"]: a for a in read("answers_official.jsonl")}
+        for it in read("items_official.jsonl"):
+            a = ans[it["id"]]
+            out.append((it, {"top3": a["top3"], "leader": a["leader"], "second": a["order"][1], "near": a["order"][3:5], "top3_lenient": a["top3_lenient"],
+                             "leader_lenient": a["leader_lenient"], "part": a["part"], "to_finish": a["to_finish"]}))
+    return out
+
+
+def rows(pred_path, split, track="strip", part=None):
     races = json.loads((HERE / "races.json").read_text())["races"]
     pred = {p["id"]: p for p in map(json.loads, Path(pred_path).read_text().splitlines()) if p}
     out = []
-    for it in items:
+    for it, ans in answer_key(track):
         if split != "all" and it["split"] != split:
             continue
-        strip, runners = ans[it["id"]], set(races[it["race_key"]]["runners"])
+        if part and not (ans["to_finish"] == 0 if part == "finish_itself" else ans["part"] == part):
+            continue
+        runners = set(races[it["race_key"]]["runners"])
         nums, lead = claims(pred.get(it["id"]))
-        out.append({"id": it["id"], "race": it["race_key"], "said": len(nums), "right": sum(n in strip[:3] for n in nums),
-                    "near": sum(n in strip[3:] for n in nums), "absent": sum(n not in runners for n in nums) if runners else 0,
-                    "lead": len(lead), "lead_right": sum(n == strip[0] for n in lead), "lead_second": sum(n == strip[1] for n in lead),
-                    "answered": it["id"] in pred})
+        out.append({"id": it["id"], "race": it["race_key"], "said": len(nums), "right": sum(n in ans["top3"] for n in nums),
+                    "near": sum(n in ans["near"] for n in nums), "absent": sum(n not in runners for n in nums) if runners else 0,
+                    "lead": len(lead), "lead_right": sum(n == ans["leader"] for n in lead), "lead_second": sum(n == ans["second"] for n in lead),
+                    "right_lenient": sum(n in ans["top3_lenient"] for n in nums), "lead_right_lenient": sum(n in ans["leader_lenient"] for n in lead),
+                    "part": ans["part"], "to_finish": ans["to_finish"], "answered": it["id"] in pred})
     return out
 
 
@@ -75,6 +127,11 @@ def summarise(rs):
              leader=pct(s["leader_right"], s["leader_claims"]), leader_coverage=pct(s["items_with_leader_claim"], n),
              leader_right_share=pct(s["items_leader_right"], n), leader_wrong_share=pct(s["items_leader_wrong"], n),
              right_and_clean=pct(s["items_right_and_clean"], n))
+    s.update(numbers_right_lenient=sum(r["right_lenient"] for r in rs), items_with_wrong_number_lenient=sum(r["said"] > r["right_lenient"] for r in rs),
+             items_leader_right_lenient=sum(r["lead"] > 0 and r["lead_right_lenient"] == r["lead"] for r in rs),
+             items_leader_wrong_lenient=sum(r["lead"] > r["lead_right_lenient"] for r in rs))
+    s.update(A_lenient=pct(s["numbers_right_lenient"], said), hallucination_lenient=pct(s["items_with_wrong_number_lenient"], n),
+             leader_right_share_lenient=pct(s["items_leader_right_lenient"], n), leader_wrong_share_lenient=pct(s["items_leader_wrong_lenient"], n))
     return s
 
 
@@ -97,16 +154,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("predictions")
     ap.add_argument("--split", default="test", choices=("test", "dev", "all"))
+    ap.add_argument("--track", default="strip", choices=("strip", "official", "all"))
+    ap.add_argument("--part", choices=("strip", "start", "middle", "finish", "finish_itself"))
     ap.add_argument("--out")
     ap.add_argument("--only-answered", action="store_true", help="score only the items that have a line (for a run that is not finished)")
     a = ap.parse_args()
-    rs = rows(a.predictions, a.split)
+    rs = rows(a.predictions, a.split, a.track, a.part)
     if a.only_answered:
         rs = [r for r in rs if r["answered"]]
     s = summarise(rs)
     s["interval"] = {k: interval(rs, k) for k in KEYS}
-    s.update(split=a.split, races=len({r["race"] for r in rs}), predictions=a.predictions, items_without_a_line=sum(not r["answered"] for r in rs))
-    print(f"{a.predictions}  [{a.split}: {s['races']} races, {s['items']} items, {s['items_without_a_line']} without a line]")
+    s.update(split=a.split, track=a.track, part=a.part, races=len({r["race"] for r in rs}), predictions=a.predictions, items_without_a_line=sum(not r["answered"] for r in rs))
+    print(f"{a.predictions}  [{a.split}, {a.track} track{', ' + a.part if a.part else ''}: {s['races']} races, {s['items']} items, {s['items_without_a_line']} without a line]")
     print(f"  LEADER RIGHT  items naming the strip's first  {s['leader_right_share']}%  ({s['items_leader_right']}/{s['items']})  {s['interval']['leader_right_share']}")
     print(f"  LEADER WRONG  items naming another leader   {s['leader_wrong_share']}%  ({s['items_leader_wrong']}/{s['items']})  {s['interval']['leader_wrong_share']}")
     print(f"  right and clean (a right number, no wrong)  {s['right_and_clean']}%  ({s['items_right_and_clean']}/{s['items']})  {s['interval']['right_and_clean']}")
@@ -115,6 +174,8 @@ def main():
     print(f"  B  items with a right number               {s['B']}%  ({s['items_with_right_number']}/{s['items']})  {s['interval']['B']}")
     print(f"  leader claims right                        {s['leader']}%  ({s['leader_right']}/{s['leader_claims']})  {s['interval']['leader']}   in {s['leader_coverage']}% of items; second {s['leader_second']}")
     print(f"  wrong numbers: fourth or fifth {s['numbers_fourth_or_fifth']}, not in the race {s['numbers_not_in_race']}, other {s['numbers'] - s['numbers_right'] - s['numbers_fourth_or_fifth'] - s['numbers_not_in_race']}")
+    if a.track != "strip":
+        print(f"  lenient (within 3 m): leader right {s['leader_right_share_lenient']}%  leader wrong {s['leader_wrong_share_lenient']}%  hallucination {s['hallucination_lenient']}%  A {s['A_lenient']}%")
     if a.out:
         Path(a.out).write_text(json.dumps(s, ensure_ascii=False, indent=1))
 
