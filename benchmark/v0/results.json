@@ -267,5 +267,60 @@
     93.5
    ]
   }
+ },
+ "ours_identifier_v11": {
+  "items": 874,
+  "items_with_a_number": 846,
+  "numbers": 1625,
+  "numbers_right": 1531,
+  "numbers_fourth_or_fifth": 70,
+  "numbers_not_in_race": 4,
+  "items_with_wrong_number": 92,
+  "items_with_right_number": 828,
+  "leader_claims": 614,
+  "leader_right": 557,
+  "leader_second": 50,
+  "items_with_leader_claim": 614,
+  "items_leader_right": 557,
+  "items_leader_wrong": 57,
+  "items_right_and_clean": 754,
+  "hallucination": 10.5,
+  "A": 94.2,
+  "B": 94.7,
+  "leader": 90.7,
+  "leader_coverage": 70.3,
+  "leader_right_share": 63.7,
+  "leader_wrong_share": 6.5,
+  "right_and_clean": 86.3,
+  "interval": {
+   "leader_right_share": [
+    58.1,
+    69.2
+   ],
+   "leader_wrong_share": [
+    4.2,
+    9.1
+   ],
+   "right_and_clean": [
+    82.9,
+    89.5
+   ],
+   "hallucination": [
+    7.6,
+    13.8
+   ],
+   "A": [
+    92.4,
+    95.8
+   ],
+   "B": [
+    92.5,
+    96.8
+   ],
+   "leader": [
+    86.9,
+    94.0
+   ]
+  }
  }
 }

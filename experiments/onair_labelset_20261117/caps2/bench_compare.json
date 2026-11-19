@@ -1,0 +1,264 @@
+{
+ "current": "benchmark/v0/baselines/ours_identifier_F2.jsonl",
+ "new": "benchmark/v0/baselines/ours_identifier_v11.jsonl",
+ "clean": {
+  "items": 443,
+  "races": 30,
+  "metrics": {
+   "leader_right_share": {
+    "current": 51.0,
+    "new": 59.1,
+    "difference": 8.1,
+    "interval": [
+     2.7,
+     14.0
+    ]
+   },
+   "leader_wrong_share": {
+    "current": 7.2,
+    "new": 7.7,
+    "difference": 0.5,
+    "interval": [
+     -0.9,
+     2.0
+    ]
+   },
+   "hallucination": {
+    "current": 10.8,
+    "new": 8.1,
+    "difference": -2.7,
+    "interval": [
+     -4.3,
+     -1.1
+    ]
+   },
+   "A": {
+    "current": 93.8,
+    "new": 95.5,
+    "difference": 1.7,
+    "interval": [
+     0.7,
+     2.6
+    ]
+   },
+   "B": {
+    "current": 91.2,
+    "new": 94.8,
+    "difference": 3.6,
+    "interval": [
+     1.9,
+     5.7
+    ]
+   },
+   "right_and_clean": {
+    "current": 83.1,
+    "new": 88.7,
+    "difference": 5.6,
+    "interval": [
+     3.5,
+     7.8
+    ]
+   },
+   "leader": {
+    "current": 87.6,
+    "new": 88.5,
+    "difference": 0.9,
+    "interval": [
+     -1.4,
+     3.4
+    ]
+   }
+  },
+  "current_counts": {
+   "numbers": 790,
+   "numbers_right": 741,
+   "items_leader_right": 226,
+   "items_leader_wrong": 32,
+   "items_with_wrong_number": 48,
+   "items_with_right_number": 404
+  },
+  "new_counts": {
+   "numbers": 816,
+   "numbers_right": 779,
+   "items_leader_right": 262,
+   "items_leader_wrong": 34,
+   "items_with_wrong_number": 36,
+   "items_with_right_number": 420
+  }
+ },
+ "mined": {
+  "items": 431,
+  "races": 30,
+  "metrics": {
+   "leader_right_share": {
+    "current": 63.1,
+    "new": 68.4,
+    "difference": 5.3,
+    "interval": [
+     0.8,
+     11.9
+    ]
+   },
+   "leader_wrong_share": {
+    "current": 5.3,
+    "new": 5.3,
+    "difference": 0.0,
+    "interval": [
+     -1.1,
+     1.2
+    ]
+   },
+   "hallucination": {
+    "current": 12.8,
+    "new": 13.0,
+    "difference": 0.2,
+    "interval": [
+     -3.3,
+     4.1
+    ]
+   },
+   "A": {
+    "current": 92.5,
+    "new": 93.0,
+    "difference": 0.5,
+    "interval": [
+     -1.5,
+     2.1
+    ]
+   },
+   "B": {
+    "current": 94.9,
+    "new": 94.7,
+    "difference": -0.2,
+    "interval": [
+     -2.1,
+     1.5
+    ]
+   },
+   "right_and_clean": {
+    "current": 83.1,
+    "new": 83.8,
+    "difference": 0.7,
+    "interval": [
+     -3.3,
+     4.3
+    ]
+   },
+   "leader": {
+    "current": 92.2,
+    "new": 92.8,
+    "difference": 0.6,
+    "interval": [
+     -0.8,
+     1.9
+    ]
+   }
+  },
+  "current_counts": {
+   "numbers": 778,
+   "numbers_right": 720,
+   "items_leader_right": 272,
+   "items_leader_wrong": 23,
+   "items_with_wrong_number": 55,
+   "items_with_right_number": 409
+  },
+  "new_counts": {
+   "numbers": 809,
+   "numbers_right": 752,
+   "items_leader_right": 295,
+   "items_leader_wrong": 23,
+   "items_with_wrong_number": 56,
+   "items_with_right_number": 408
+  }
+ },
+ "all": {
+  "items": 874,
+  "races": 60,
+  "metrics": {
+   "leader_right_share": {
+    "current": 57.0,
+    "new": 63.7,
+    "difference": 6.7,
+    "interval": [
+     2.9,
+     10.9
+    ]
+   },
+   "leader_wrong_share": {
+    "current": 6.3,
+    "new": 6.5,
+    "difference": 0.2,
+    "interval": [
+     -0.7,
+     1.3
+    ]
+   },
+   "hallucination": {
+    "current": 11.8,
+    "new": 10.5,
+    "difference": -1.3,
+    "interval": [
+     -3.3,
+     0.9
+    ]
+   },
+   "A": {
+    "current": 93.2,
+    "new": 94.2,
+    "difference": 1.0,
+    "interval": [
+     -0.1,
+     2.1
+    ]
+   },
+   "B": {
+    "current": 93.0,
+    "new": 94.7,
+    "difference": 1.7,
+    "interval": [
+     0.3,
+     3.3
+    ]
+   },
+   "right_and_clean": {
+    "current": 83.1,
+    "new": 86.3,
+    "difference": 3.2,
+    "interval": [
+     0.6,
+     5.6
+    ]
+   },
+   "leader": {
+    "current": 90.1,
+    "new": 90.7,
+    "difference": 0.6,
+    "interval": [
+     -0.7,
+     2.0
+    ]
+   }
+  },
+  "current_counts": {
+   "numbers": 1568,
+   "numbers_right": 1461,
+   "items_leader_right": 498,
+   "items_leader_wrong": 55,
+   "items_with_wrong_number": 103,
+   "items_with_right_number": 813
+  },
+  "new_counts": {
+   "numbers": 1625,
+   "numbers_right": 1531,
+   "items_leader_right": 557,
+   "items_leader_wrong": 57,
+   "items_with_wrong_number": 92,
+   "items_with_right_number": 828
+  }
+ },
+ "rule": {
+  "no_harm": true,
+  "gain": true,
+  "change_the_default": true
+ }
+}

@@ -1,4 +1,5 @@
-"""ON-AIR leading-group identifier as one program. Default since 2026-11-18: v9 (code name F2). --v8 gives the earlier default (L1).
+"""ON-AIR leading-group identifier as one program. Default since 2026-11-19: v11 = the v9 flow (code name F2) with the cap classifier
+retrained on mined labels (caps2/RESULT_KO.md). --v9 gives the default of 2026-11-18 (the earlier cap classifier), --v8 the one before (L1).
 
 From a race broadcast it says, every few seconds, which horse numbers are in the leading group (the front three), using only the picture:
   1. riders: Faster R-CNN, person on a horse; if fewer than 4 are found in a picture, that picture is detected again with the
@@ -41,7 +42,11 @@ From a race broadcast it says, every few seconds, which horse numbers are in the
  10. --cap-weights FILE (added 2026-11-19, caps2/RESULT_KO.md): another cap classifier. cnn/models/caps2_a.pt was trained on the 598 hand
      labels plus 545 labels mined from official order and the strip (riders the current classifier did not read). Confirmed on two unused
      days: the true leader's number is sure more often (62.9 % -> 74.1 % of time points) and the leader is named right more often
-     (36.8 % -> 45.8 %; wrong 8.7 % -> 9.4 %); numbers A 93.9 % -> 93.4 %, B 89.5 % -> 91.5 %. Default: cnn/models/all_two_days.pt.
+     (36.8 % -> 45.8 %; wrong 8.7 % -> 9.4 %); numbers A 93.9 % -> 93.4 %, B 89.5 % -> 91.5 %.
+     Since 2026-11-19 it is the default on the command line (v11): on the benchmark test days that gave no mined labels, sentences with a
+     wrong number 10.8 % -> 8.1 % and items naming the right leader 51.0 % -> 59.1 % (caps2/DESIGN_BENCH_KO.md, bench_compare.json).
+     --v9 and --v8 use the earlier classifier (cnn/models/all_two_days.pt). The class LeadingGroupIdentifier keeps the earlier
+     classifier as its argument default, so the experiment scripts run as they did.
 
 The statements never depend on the running-order strip. --strip-check (off by default since 2026-11-19) only reads the strip at every
 time point with the local Qwen and writes into the output whether it is on screen and what it shows, for scoring and for marking the
@@ -89,6 +94,7 @@ TAU_LEADER, MARGIN_ORDER = 0.6, 0.2      # TAU_LEADER is v8's leader threshold
 TAU_LEADER_V9 = 0.5                      # v9's leader threshold, the command-line default since 2026-11-18
 FALLBACK_SINGLE = 0.8      # --fallback: lowest leading-three probability at which a single rider is stated where nothing else is
 TIMER, STRIP = (70, 930, 360, 1055), (480, 955, 1920, 1045)   # at 1920x1080
+CNN_WEIGHTS_V11 = ROOT / "cnn" / "models" / "caps2_a.pt"       # the command-line default since 2026-11-19 (v11)
 CNN_WEIGHTS, ORDER_MODEL, COLOUR_MODEL = ROOT / "cnn" / "models" / "all_two_days.pt", ROOT / "order2" / "l1_model.joblib", HERE / "model.json"
 LEADER_MODEL = ROOT / "leader" / "leader_model.joblib"
 FINISH_LEADER_MODEL = ROOT / "finish2" / "models" / "fs_leader_all.joblib"   # --v10: leader in the last stretch, learned on official times
@@ -441,7 +447,8 @@ def main():
     ap.add_argument("--strip-check", action="store_true", help="also read the running-order strip at every time point (local Qwen) and write it into the output; the statements do not use it")
     ap.add_argument("--no-strip-check", action="store_true", help="accepted for old command lines; the strip check is off unless --strip-check is given")
     ap.add_argument("--masks", default="sep06", choices=list(MASKS))
-    ap.add_argument("--v8", action="store_true", help="the default before 2026-11-18 (L1): Qwen for the riders, no fallback, leader threshold 0.6")
+    ap.add_argument("--v9", action="store_true", help="the default of 2026-11-18: the same flow with the earlier cap classifier")
+    ap.add_argument("--v8", action="store_true", help="the default before 2026-11-18 (L1): Qwen for the riders, no fallback, leader threshold 0.6, the earlier cap classifier")
     ap.add_argument("--fast", action="store_true", help="no Qwen for the riders. On by default; only changes something together with --v8")
     ap.add_argument("--fallback", action="store_true", help="where nothing is stated, add one number. On by default; only changes something together with --v8")
     ap.add_argument("--no-fallback", action="store_true", help="never add a number where nothing is stated")
@@ -450,6 +457,9 @@ def main():
     ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
     a = ap.parse_args()
+    assert not (a.v8 and a.v9), "give at most one of --v8 and --v9"
+    if a.cap_weights is None:
+        a.cap_weights = str(CNN_WEIGHTS if (a.v8 or a.v9) else CNN_WEIGHTS_V11)
     a.fast = a.fast or not a.v8
     a.fallback = (a.fallback or not a.v8) and not a.no_fallback
     if a.leader_tau is None:
@@ -462,9 +472,13 @@ def main():
     ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure, cap_weights=a.cap_weights)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
+    if Path(a.cap_weights).resolve() == CNN_WEIGHTS_V11.resolve():
+        name += "+caps2"
+    elif Path(a.cap_weights).resolve() != CNN_WEIGHTS.resolve():
+        name += "+" + Path(a.cap_weights).stem
     if a.v10:
-        name = "F2+finish"
-    res.update(configuration=name, version={"F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
+        name += "+finish"
+    res.update(configuration=name, version={"F2+caps2": "v11", "F2+caps2+finish": "v11 with the finish parts", "F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
                                               "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure, "cap_weights": ident.cap_weights.name},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
