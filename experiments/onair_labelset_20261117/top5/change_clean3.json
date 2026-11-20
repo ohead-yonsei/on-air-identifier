@@ -1,0 +1,126 @@
+{
+ "days": [
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "gap_seconds": 6,
+ "counts": {
+  "pairs": 466,
+  "pairs: a horse came into the first three": 65,
+  "pairs: a new leader": 52,
+  "pairs: a new leader, clear (3 m in front now, 3 m behind before)": 0,
+  "new numbers said": 102,
+  "new numbers said: in the first three, and was there 6 s ago too": 73,
+  "steady new numbers said": 49,
+  "steady new numbers said: really came into the first three": 4,
+  "steady new numbers said: was in the first three 9 s ago too": 42,
+  "steady new numbers said: not in the first three now": 3,
+  "leader said at both times": 225,
+  "leader said at both times: really a new leader": 20,
+  "leader changes said": 30,
+  "leader changes said: new one is the leader now": 15,
+  "leader changes said: new one really passed the old one": 1,
+  "leader changes said: both right (old led then, new leads now)": 0,
+  "leader changes said: no pass, the new one was already in front": 17,
+  "real arrivals in the first three (with numbers said before)": 65,
+  "real arrivals: said now and not before": 5,
+  "real arrivals: said now": 10,
+  "real new leader, caught (said the new leader, and another one before)": 0,
+  "steady leader changes said": 7,
+  "steady leader changes said: new one is the leader now": 3,
+  "steady leader changes said: new one really passed the old one": 0,
+  "new numbers said: not in the first three now": 24,
+  "new numbers said: really came into the first three": 5
+ },
+ "place by score, one picture": {
+  "1": {
+   "riders": 500,
+   "official place the same": 51.0,
+   "within one place": 81.4,
+   "in the first five": 92.4,
+   "official places": {
+    "1": 255,
+    "2": 152,
+    "3": 31,
+    "4": 18,
+    "5": 6,
+    "6": 8,
+    "7+": 27,
+    "none": 3
+   }
+  },
+  "2": {
+   "riders": 494,
+   "official place the same": 34.4,
+   "within one place": 73.5,
+   "in the first five": 88.3,
+   "official places": {
+    "1": 92,
+    "2": 170,
+    "3": 101,
+    "4": 52,
+    "5": 21,
+    "6": 24,
+    "7+": 32,
+    "none": 2
+   }
+  },
+  "3": {
+   "riders": 474,
+   "official place the same": 31.9,
+   "within one place": 64.6,
+   "in the first five": 78.5,
+   "official places": {
+    "1": 18,
+    "2": 42,
+    "3": 151,
+    "4": 113,
+    "5": 48,
+    "6": 34,
+    "7+": 66,
+    "none": 2
+   }
+  },
+  "4": {
+   "riders": 451,
+   "official place the same": 25.5,
+   "within one place": 59.9,
+   "in the first five": 65.4,
+   "official places": {
+    "1": 11,
+    "2": 14,
+    "3": 36,
+    "4": 115,
+    "5": 119,
+    "6": 64,
+    "7+": 92,
+    "none": 0
+   }
+  },
+  "5": {
+   "riders": 417,
+   "official place the same": 21.8,
+   "within one place": 49.6,
+   "in the first five": 35.7,
+   "official places": {
+    "1": 2,
+    "2": 4,
+    "3": 17,
+    "4": 35,
+    "5": 91,
+    "6": 81,
+    "7+": 185,
+    "none": 2
+   }
+  }
+ },
+ "place by score went from 4-5 to 1-3": {
+  "events": 178,
+  "really moved up (any number of places)": 19.1,
+  "really from 4th or lower into the first three": 3.9,
+  "same official place at both times": 70.8,
+  "really moved back": 10.1,
+  "was in the first three at both times": 27.5
+ }
+}
