@@ -58,6 +58,7 @@
 | [bench3/RESULT_KO.md](experiments/onair_labelset_20261117/bench3/RESULT_KO.md) | **모델이 쓴 중계문(한국어, 영어)**: 언어 모델이 문장을 쓰고, 다시 읽어 준 사실과 다르면 버리는 검사를 붙임. 검사를 거친 문장의 점수는 문장 틀과 같고, 검사 없이는 첫 문장 1,379개 중 한국어 4개, 영어 14개에서 사실이 바뀜 |
 | [winner/RESULT_KO.md](experiments/onair_labelset_20261117/winner/RESULT_KO.md) | **결승 순간에 우승마 부르기**: 마지막 6초 투표에 "마지막 2초에도 맨 앞" 조건을 붙임(`--winner-call`). 안 쓴 경마일 3일, 30개 경주에서 15개를 불러 14개 맞음(기존 규칙 19개 중 16개). 판정은 충족했지만 부르는 비율은 딱 절반이고, 프로그램 방식(화면 시계만)으로는 14개를 불러 13개 맞음. 기본으로는 꺼져 있음 |
 | [far/RESULT_KO.md](experiments/onair_labelset_20261117/far/RESULT_KO.md) | 우승마를 못 부르는 경주의 진단(절반은 모자가 읽히는데 선두 모델이 안 고름; 결승 순간에는 우승마가 기둥에 가림)과, 통하지 않은 네 가지 시도(위치 투표, 결승 직선용 모델, 기수 따라가기, 먼 화면 라벨로 분류기 재학습). 이미 본 날의 탐색이고 기본값은 그대로 |
+| [top5/RESULT_KO.md](experiments/onair_labelset_20261117/top5/RESULT_KO.md) | "상위 3두"를 "상위 5두"로 넓히면: 4·5위 말의 모자도 같은 만큼 읽히지만 위치 판단이 어렵다. 같은 번호를 5위 안이라고 말하면 더 잘 맞고(93.2% → 97.8%), 번호를 더 많이 말하면 틀리는 시점이 빠르게 는다. 저장된 결과로 한 계산이고 기본값은 그대로 |
 | [caps3/RESULT_KO.md](experiments/onair_labelset_20261117/caps3/RESULT_KO.md) | 라벨 수집을 한 번 더 돌린 분류기와, 새 분류기에 맞춰 다시 학습한 순서 모델. 안 쓴 경마일 2일에서 분류기는 확인되지 않았고, 모델 재학습은 선두를 맞게 +2.9%p / 틀리게 +1.4%p의 맞바꿈. 기본값은 v11 그대로 |
 | [finish3/RESULT_KO.md](experiments/onair_labelset_20261117/finish3/RESULT_KO.md) | v10을 통째로 새 날에서 시험(우승마 부르기 기준 미달), 선두를 못 말하는 이유(번호를 확정하지 못함, 7번·10번·11번 이상 모자가 약함), 선두용 번호 확정 기준 0.4 확인 |
 | [finish/RESULT_KO.md](experiments/onair_labelset_20261117/finish/RESULT_KO.md) | 결승선 구간의 처음 시도(결승 시각이 어긋나 있었음. finish2가 바로잡음) |

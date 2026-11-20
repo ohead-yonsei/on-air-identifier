@@ -1,0 +1,2211 @@
+{
+ "days": [
+  "otherday6",
+  "otherday7",
+  "otherday8",
+  "otherday9",
+  "otherday10",
+  "otherday11"
+ ],
+ "note": "Reads what is already stored: bench2/whole/v11/DAY.json (the v11 identifier on the whole race, every 3 s; the riders of the current picture with their cap number, cap probability and \"in the first three\" score) and the order from the official passing times (fn_common.reference_full). Nothing is run again and no new day is used. One picture per time point (the program itself votes over three pictures and carries numbers; that part is not redone here), so the rows below are a look, not a test.",
+ "all": {
+  "points": 1154,
+  "mean field": 10.6,
+  "riders found per picture": 8.24,
+  "riders with a sure number per picture": 6.84,
+  "placed k-th: number read": {
+   "1": 75.3,
+   "2": 71.0,
+   "3": 71.8,
+   "4": 71.5,
+   "5": 68.5,
+   "6": 67.7,
+   "7": 65.1,
+   "8": 65.7
+  },
+  "sure-read riders by place": {
+   "1-3": 31.9,
+   "4-5": 20.5,
+   "6+": 47.4,
+   "no such horse": 0.3
+  },
+  "chance, a random runner": {
+   "first 3": 28.6,
+   "first 5": 47.6
+  },
+  "rules": {
+   "v11 as stored (up to 2 numbers, three pictures, carried)": {
+    "points": 1154,
+    "numbers per point": 1.83,
+    "points with a number": 96.0,
+    "first 3, strict": {
+     "numbers right (A)": 93.2,
+     "points with a right number (B)": 92.9,
+     "points with a wrong number": 11.9,
+     "of the first k, named per point": 1.7
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 97.3,
+     "points with a right number (B)": 94.2,
+     "points with a wrong number": 4.6,
+     "of the first k, named per point": 1.7
+    },
+    "first 5, strict": {
+     "numbers right (A)": 97.8,
+     "points with a right number (B)": 94.1,
+     "points with a wrong number": 3.6,
+     "of the first k, named per point": 1.79
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 98.3,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 2.9,
+     "of the first k, named per point": 1.79
+    }
+   },
+   "up to 2 numbers, score >= 0.6": {
+    "points": 1154,
+    "numbers per point": 1.61,
+    "points with a number": 90.3,
+    "first 3, strict": {
+     "numbers right (A)": 88.4,
+     "points with a right number (B)": 85.4,
+     "points with a wrong number": 17.2,
+     "of the first k, named per point": 1.42
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.0,
+     "points with a right number (B)": 87.2,
+     "points with a wrong number": 8.8,
+     "of the first k, named per point": 1.42
+    },
+    "first 5, strict": {
+     "numbers right (A)": 95.4,
+     "points with a right number (B)": 87.8,
+     "points with a wrong number": 6.8,
+     "of the first k, named per point": 1.54
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.4,
+     "points with a right number (B)": 88.1,
+     "points with a wrong number": 5.3,
+     "of the first k, named per point": 1.54
+    }
+   },
+   "up to 2 numbers, score >= 0.3": {
+    "points": 1154,
+    "numbers per point": 1.86,
+    "points with a number": 97.5,
+    "first 3, strict": {
+     "numbers right (A)": 82.5,
+     "points with a right number (B)": 90.3,
+     "points with a wrong number": 29.3,
+     "of the first k, named per point": 1.53
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 89.9,
+     "points with a right number (B)": 92.7,
+     "points with a wrong number": 17.0,
+     "of the first k, named per point": 1.53
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.6,
+     "points with a right number (B)": 93.5,
+     "points with a wrong number": 12.3,
+     "of the first k, named per point": 1.72
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.6,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 9.1,
+     "of the first k, named per point": 1.72
+    }
+   },
+   "up to 2 numbers, score >= 0.1": {
+    "points": 1154,
+    "numbers per point": 1.96,
+    "points with a number": 99.1,
+    "first 3, strict": {
+     "numbers right (A)": 79.5,
+     "points with a right number (B)": 91.8,
+     "points with a wrong number": 34.1,
+     "of the first k, named per point": 1.56
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.5,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 20.7,
+     "of the first k, named per point": 1.56
+    },
+    "first 5, strict": {
+     "numbers right (A)": 90.9,
+     "points with a right number (B)": 95.6,
+     "points with a wrong number": 15.2,
+     "of the first k, named per point": 1.78
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.4,
+     "points with a right number (B)": 97.0,
+     "points with a wrong number": 11.2,
+     "of the first k, named per point": 1.78
+    }
+   },
+   "up to 2 numbers, score >= 0.0": {
+    "points": 1154,
+    "numbers per point": 1.98,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 78.9,
+     "points with a right number (B)": 91.9,
+     "points with a wrong number": 35.0,
+     "of the first k, named per point": 1.56
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 86.8,
+     "points with a right number (B)": 94.7,
+     "points with a wrong number": 21.8,
+     "of the first k, named per point": 1.56
+    },
+    "first 5, strict": {
+     "numbers right (A)": 90.3,
+     "points with a right number (B)": 95.8,
+     "points with a wrong number": 16.0,
+     "of the first k, named per point": 1.79
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.1,
+     "points with a right number (B)": 97.3,
+     "points with a wrong number": 11.8,
+     "of the first k, named per point": 1.79
+    }
+   },
+   "up to 3 numbers, score >= 0.6": {
+    "points": 1154,
+    "numbers per point": 1.93,
+    "points with a number": 90.3,
+    "first 3, strict": {
+     "numbers right (A)": 86.0,
+     "points with a right number (B)": 85.7,
+     "points with a wrong number": 24.5,
+     "of the first k, named per point": 1.66
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 93.6,
+     "points with a right number (B)": 87.2,
+     "points with a wrong number": 11.2,
+     "of the first k, named per point": 1.66
+    },
+    "first 5, strict": {
+     "numbers right (A)": 95.4,
+     "points with a right number (B)": 87.8,
+     "points with a wrong number": 8.2,
+     "of the first k, named per point": 1.84
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.5,
+     "points with a right number (B)": 88.1,
+     "points with a wrong number": 6.2,
+     "of the first k, named per point": 1.84
+    }
+   },
+   "up to 3 numbers, score >= 0.3": {
+    "points": 1154,
+    "numbers per point": 2.45,
+    "points with a number": 97.5,
+    "first 3, strict": {
+     "numbers right (A)": 76.9,
+     "points with a right number (B)": 91.4,
+     "points with a wrong number": 47.7,
+     "of the first k, named per point": 1.89
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.7,
+     "points with a right number (B)": 93.1,
+     "points with a wrong number": 26.1,
+     "of the first k, named per point": 1.89
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.7,
+     "points with a right number (B)": 94.0,
+     "points with a wrong number": 17.7,
+     "of the first k, named per point": 2.25
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 94.7,
+     "points with a wrong number": 12.3,
+     "of the first k, named per point": 2.25
+    }
+   },
+   "up to 3 numbers, score >= 0.1": {
+    "points": 1154,
+    "numbers per point": 2.84,
+    "points with a number": 99.1,
+    "first 3, strict": {
+     "numbers right (A)": 69.3,
+     "points with a right number (B)": 93.5,
+     "points with a wrong number": 65.1,
+     "of the first k, named per point": 1.97
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 81.1,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 40.6,
+     "of the first k, named per point": 1.97
+    },
+    "first 5, strict": {
+     "numbers right (A)": 87.8,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 27.6,
+     "of the first k, named per point": 2.49
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 92.2,
+     "points with a right number (B)": 98.0,
+     "points with a wrong number": 19.2,
+     "of the first k, named per point": 2.49
+    }
+   },
+   "up to 3 numbers, score >= 0.0": {
+    "points": 1154,
+    "numbers per point": 2.94,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 67.4,
+     "points with a right number (B)": 94.0,
+     "points with a wrong number": 68.5,
+     "of the first k, named per point": 1.98
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 79.1,
+     "points with a right number (B)": 95.8,
+     "points with a wrong number": 44.9,
+     "of the first k, named per point": 1.98
+    },
+    "first 5, strict": {
+     "numbers right (A)": 86.1,
+     "points with a right number (B)": 97.2,
+     "points with a wrong number": 32.2,
+     "of the first k, named per point": 2.53
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.9,
+     "points with a right number (B)": 98.6,
+     "points with a wrong number": 22.8,
+     "of the first k, named per point": 2.53
+    }
+   },
+   "up to 4 numbers, score >= 0.6": {
+    "points": 1154,
+    "numbers per point": 1.95,
+    "points with a number": 90.3,
+    "first 3, strict": {
+     "numbers right (A)": 85.7,
+     "points with a right number (B)": 85.7,
+     "points with a wrong number": 25.1,
+     "of the first k, named per point": 1.67
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 93.6,
+     "points with a right number (B)": 87.2,
+     "points with a wrong number": 11.3,
+     "of the first k, named per point": 1.67
+    },
+    "first 5, strict": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 87.8,
+     "points with a wrong number": 8.2,
+     "of the first k, named per point": 1.86
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.6,
+     "points with a right number (B)": 88.1,
+     "points with a wrong number": 6.2,
+     "of the first k, named per point": 1.86
+    }
+   },
+   "up to 4 numbers, score >= 0.3": {
+    "points": 1154,
+    "numbers per point": 2.61,
+    "points with a number": 97.5,
+    "first 3, strict": {
+     "numbers right (A)": 74.1,
+     "points with a right number (B)": 91.4,
+     "points with a wrong number": 54.4,
+     "of the first k, named per point": 1.94
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.0,
+     "points with a right number (B)": 93.1,
+     "points with a wrong number": 28.9,
+     "of the first k, named per point": 1.94
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.6,
+     "points with a right number (B)": 94.1,
+     "points with a wrong number": 18.4,
+     "of the first k, named per point": 2.39
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.5,
+     "points with a right number (B)": 94.7,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 2.39
+    }
+   },
+   "up to 4 numbers, score >= 0.1": {
+    "points": 1154,
+    "numbers per point": 3.44,
+    "points with a number": 99.1,
+    "first 3, strict": {
+     "numbers right (A)": 60.3,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 88.5,
+     "of the first k, named per point": 2.08
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 75.5,
+     "points with a right number (B)": 95.7,
+     "points with a wrong number": 59.6,
+     "of the first k, named per point": 2.08
+    },
+    "first 5, strict": {
+     "numbers right (A)": 85.8,
+     "points with a right number (B)": 97.0,
+     "points with a wrong number": 36.0,
+     "of the first k, named per point": 2.95
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 98.0,
+     "points with a wrong number": 23.5,
+     "of the first k, named per point": 2.95
+    }
+   },
+   "up to 4 numbers, score >= 0.0": {
+    "points": 1154,
+    "numbers per point": 3.85,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 54.6,
+     "points with a right number (B)": 94.7,
+     "points with a wrong number": 98.5,
+     "of the first k, named per point": 2.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 69.0,
+     "points with a right number (B)": 96.4,
+     "points with a wrong number": 73.9,
+     "of the first k, named per point": 2.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 81.0,
+     "points with a right number (B)": 97.7,
+     "points with a wrong number": 51.1,
+     "of the first k, named per point": 3.12
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 88.1,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 34.6,
+     "of the first k, named per point": 3.12
+    }
+   },
+   "up to 5 numbers, score >= 0.6": {
+    "points": 1154,
+    "numbers per point": 1.95,
+    "points with a number": 90.3,
+    "first 3, strict": {
+     "numbers right (A)": 85.7,
+     "points with a right number (B)": 85.7,
+     "points with a wrong number": 25.1,
+     "of the first k, named per point": 1.67
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 93.6,
+     "points with a right number (B)": 87.2,
+     "points with a wrong number": 11.3,
+     "of the first k, named per point": 1.67
+    },
+    "first 5, strict": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 87.8,
+     "points with a wrong number": 8.2,
+     "of the first k, named per point": 1.86
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.6,
+     "points with a right number (B)": 88.1,
+     "points with a wrong number": 6.2,
+     "of the first k, named per point": 1.86
+    }
+   },
+   "up to 5 numbers, score >= 0.3": {
+    "points": 1154,
+    "numbers per point": 2.63,
+    "points with a number": 97.5,
+    "first 3, strict": {
+     "numbers right (A)": 73.9,
+     "points with a right number (B)": 91.4,
+     "points with a wrong number": 54.4,
+     "of the first k, named per point": 1.94
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 86.9,
+     "points with a right number (B)": 93.1,
+     "points with a wrong number": 29.3,
+     "of the first k, named per point": 1.94
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 94.1,
+     "points with a wrong number": 18.5,
+     "of the first k, named per point": 2.4
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.5,
+     "points with a right number (B)": 94.7,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 2.4
+    }
+   },
+   "up to 5 numbers, score >= 0.1": {
+    "points": 1154,
+    "numbers per point": 3.68,
+    "points with a number": 99.1,
+    "first 3, strict": {
+     "numbers right (A)": 57.0,
+     "points with a right number (B)": 94.0,
+     "points with a wrong number": 88.5,
+     "of the first k, named per point": 2.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 72.9,
+     "points with a right number (B)": 95.8,
+     "points with a wrong number": 64.8,
+     "of the first k, named per point": 2.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 83.6,
+     "points with a right number (B)": 97.0,
+     "points with a wrong number": 42.4,
+     "of the first k, named per point": 3.08
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.7,
+     "points with a right number (B)": 98.0,
+     "points with a wrong number": 26.3,
+     "of the first k, named per point": 3.08
+    }
+   },
+   "up to 5 numbers, score >= 0.0": {
+    "points": 1154,
+    "numbers per point": 4.69,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 45.8,
+     "points with a right number (B)": 95.2,
+     "points with a wrong number": 98.5,
+     "of the first k, named per point": 2.15
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 59.6,
+     "points with a right number (B)": 96.7,
+     "points with a wrong number": 90.8,
+     "of the first k, named per point": 2.15
+    },
+    "first 5, strict": {
+     "numbers right (A)": 72.7,
+     "points with a right number (B)": 97.7,
+     "points with a wrong number": 80.4,
+     "of the first k, named per point": 3.41
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 82.4,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 57.3,
+     "of the first k, named per point": 3.41
+    }
+   },
+   "every sure-read rider": {
+    "points": 1154,
+    "numbers per point": 6.84,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 31.9,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 98.5,
+     "of the first k, named per point": 2.18
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 42.4,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 97.2,
+     "of the first k, named per point": 2.18
+    },
+    "first 5, strict": {
+     "numbers right (A)": 52.4,
+     "points with a right number (B)": 97.7,
+     "points with a wrong number": 96.1,
+     "of the first k, named per point": 3.58
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 63.2,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 92.7,
+     "of the first k, named per point": 3.58
+    }
+   }
+  }
+ },
+ "start": {
+  "points": 129,
+  "mean field": 10.6,
+  "riders found per picture": 8.32,
+  "riders with a sure number per picture": 6.35,
+  "placed k-th: number read": {
+   "1": 67.4,
+   "2": 66.7,
+   "3": 60.5,
+   "4": 65.9,
+   "5": 56.6,
+   "6": 58.9,
+   "7": 58.1,
+   "8": 67.4
+  },
+  "sure-read riders by place": {
+   "1-3": 30.6,
+   "4-5": 19.3,
+   "6+": 49.8,
+   "no such horse": 0.2
+  },
+  "chance, a random runner": {
+   "first 3": 28.4,
+   "first 5": 47.4
+  },
+  "rules": {
+   "v11 as stored (up to 2 numbers, three pictures, carried)": {
+    "points": 129,
+    "numbers per point": 1.21,
+    "points with a number": 81.4,
+    "first 3, strict": {
+     "numbers right (A)": 79.5,
+     "points with a right number (B)": 69.0,
+     "points with a wrong number": 21.7,
+     "of the first k, named per point": 0.96
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 92.9,
+     "points with a right number (B)": 76.0,
+     "points with a wrong number": 7.8,
+     "of the first k, named per point": 0.96
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.7,
+     "points with a right number (B)": 73.6,
+     "points with a wrong number": 7.8,
+     "of the first k, named per point": 1.11
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 76.7,
+     "points with a wrong number": 6.2,
+     "of the first k, named per point": 1.11
+    }
+   },
+   "up to 2 numbers, score >= 0.6": {
+    "points": 129,
+    "numbers per point": 1.2,
+    "points with a number": 75.2,
+    "first 3, strict": {
+     "numbers right (A)": 80.6,
+     "points with a right number (B)": 67.4,
+     "points with a wrong number": 21.7,
+     "of the first k, named per point": 0.97
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 6.2,
+     "of the first k, named per point": 0.97
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.6,
+     "points with a right number (B)": 71.3,
+     "points with a wrong number": 9.3,
+     "of the first k, named per point": 1.1
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 4.7,
+     "of the first k, named per point": 1.1
+    }
+   },
+   "up to 2 numbers, score >= 0.3": {
+    "points": 129,
+    "numbers per point": 1.76,
+    "points with a number": 94.6,
+    "first 3, strict": {
+     "numbers right (A)": 68.3,
+     "points with a right number (B)": 79.8,
+     "points with a wrong number": 48.8,
+     "of the first k, named per point": 1.2
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 85.9,
+     "points with a right number (B)": 89.9,
+     "points with a wrong number": 24.0,
+     "of the first k, named per point": 1.2
+    },
+    "first 5, strict": {
+     "numbers right (A)": 83.3,
+     "points with a right number (B)": 86.8,
+     "points with a wrong number": 26.4,
+     "of the first k, named per point": 1.47
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.3,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 16.3,
+     "of the first k, named per point": 1.47
+    }
+   },
+   "up to 2 numbers, score >= 0.1": {
+    "points": 129,
+    "numbers per point": 1.94,
+    "points with a number": 97.7,
+    "first 3, strict": {
+     "numbers right (A)": 64.0,
+     "points with a right number (B)": 82.2,
+     "points with a wrong number": 55.0,
+     "of the first k, named per point": 1.24
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 81.6,
+     "points with a right number (B)": 91.5,
+     "points with a wrong number": 29.5,
+     "of the first k, named per point": 1.24
+    },
+    "first 5, strict": {
+     "numbers right (A)": 79.6,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 31.0,
+     "of the first k, named per point": 1.54
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 87.6,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 20.2,
+     "of the first k, named per point": 1.54
+    }
+   },
+   "up to 2 numbers, score >= 0.0": {
+    "points": 129,
+    "numbers per point": 1.97,
+    "points with a number": 99.2,
+    "first 3, strict": {
+     "numbers right (A)": 63.4,
+     "points with a right number (B)": 82.9,
+     "points with a wrong number": 57.4,
+     "of the first k, named per point": 1.25
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 80.7,
+     "points with a right number (B)": 92.2,
+     "points with a wrong number": 31.8,
+     "of the first k, named per point": 1.25
+    },
+    "first 5, strict": {
+     "numbers right (A)": 78.7,
+     "points with a right number (B)": 89.1,
+     "points with a wrong number": 33.3,
+     "of the first k, named per point": 1.55
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 87.0,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 21.7,
+     "of the first k, named per point": 1.55
+    }
+   },
+   "up to 3 numbers, score >= 0.6": {
+    "points": 129,
+    "numbers per point": 1.37,
+    "points with a number": 75.2,
+    "first 3, strict": {
+     "numbers right (A)": 80.2,
+     "points with a right number (B)": 68.2,
+     "points with a wrong number": 25.6,
+     "of the first k, named per point": 1.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 7.0,
+     "of the first k, named per point": 1.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 71.3,
+     "points with a wrong number": 10.9,
+     "of the first k, named per point": 1.26
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 5.4,
+     "of the first k, named per point": 1.26
+    }
+   },
+   "up to 3 numbers, score >= 0.3": {
+    "points": 129,
+    "numbers per point": 2.26,
+    "points with a number": 94.6,
+    "first 3, strict": {
+     "numbers right (A)": 64.7,
+     "points with a right number (B)": 82.9,
+     "points with a wrong number": 62.8,
+     "of the first k, named per point": 1.47
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 83.9,
+     "points with a right number (B)": 89.9,
+     "points with a wrong number": 32.6,
+     "of the first k, named per point": 1.47
+    },
+    "first 5, strict": {
+     "numbers right (A)": 80.5,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 37.2,
+     "of the first k, named per point": 1.82
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 89.4,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 20.9,
+     "of the first k, named per point": 1.82
+    }
+   },
+   "up to 3 numbers, score >= 0.1": {
+    "points": 129,
+    "numbers per point": 2.84,
+    "points with a number": 97.7,
+    "first 3, strict": {
+     "numbers right (A)": 55.3,
+     "points with a right number (B)": 86.8,
+     "points with a wrong number": 82.9,
+     "of the first k, named per point": 1.57
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 75.5,
+     "points with a right number (B)": 93.0,
+     "points with a wrong number": 49.6,
+     "of the first k, named per point": 1.57
+    },
+    "first 5, strict": {
+     "numbers right (A)": 73.6,
+     "points with a right number (B)": 92.2,
+     "points with a wrong number": 55.0,
+     "of the first k, named per point": 2.09
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 84.7,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 34.9,
+     "of the first k, named per point": 2.09
+    }
+   },
+   "up to 3 numbers, score >= 0.0": {
+    "points": 129,
+    "numbers per point": 2.91,
+    "points with a number": 99.2,
+    "first 3, strict": {
+     "numbers right (A)": 55.2,
+     "points with a right number (B)": 87.6,
+     "points with a wrong number": 85.3,
+     "of the first k, named per point": 1.6
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 74.9,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 51.9,
+     "of the first k, named per point": 1.6
+    },
+    "first 5, strict": {
+     "numbers right (A)": 73.1,
+     "points with a right number (B)": 93.0,
+     "points with a wrong number": 57.4,
+     "of the first k, named per point": 2.12
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 84.3,
+     "points with a right number (B)": 96.9,
+     "points with a wrong number": 36.4,
+     "of the first k, named per point": 2.12
+    }
+   },
+   "up to 4 numbers, score >= 0.6": {
+    "points": 129,
+    "numbers per point": 1.37,
+    "points with a number": 75.2,
+    "first 3, strict": {
+     "numbers right (A)": 80.2,
+     "points with a right number (B)": 68.2,
+     "points with a wrong number": 25.6,
+     "of the first k, named per point": 1.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 7.0,
+     "of the first k, named per point": 1.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 71.3,
+     "points with a wrong number": 10.9,
+     "of the first k, named per point": 1.26
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 5.4,
+     "of the first k, named per point": 1.26
+    }
+   },
+   "up to 4 numbers, score >= 0.3": {
+    "points": 129,
+    "numbers per point": 2.42,
+    "points with a number": 94.6,
+    "first 3, strict": {
+     "numbers right (A)": 62.2,
+     "points with a right number (B)": 82.9,
+     "points with a wrong number": 67.4,
+     "of the first k, named per point": 1.5
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 82.7,
+     "points with a right number (B)": 89.9,
+     "points with a wrong number": 35.7,
+     "of the first k, named per point": 1.5
+    },
+    "first 5, strict": {
+     "numbers right (A)": 79.2,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 38.8,
+     "of the first k, named per point": 1.91
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 88.5,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 23.3,
+     "of the first k, named per point": 1.91
+    }
+   },
+   "up to 4 numbers, score >= 0.1": {
+    "points": 129,
+    "numbers per point": 3.6,
+    "points with a number": 97.7,
+    "first 3, strict": {
+     "numbers right (A)": 48.4,
+     "points with a right number (B)": 87.6,
+     "points with a wrong number": 96.9,
+     "of the first k, named per point": 1.74
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 70.5,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 66.7,
+     "of the first k, named per point": 1.74
+    },
+    "first 5, strict": {
+     "numbers right (A)": 70.1,
+     "points with a right number (B)": 93.0,
+     "points with a wrong number": 69.8,
+     "of the first k, named per point": 2.53
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 84.1,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 44.2,
+     "of the first k, named per point": 2.53
+    }
+   },
+   "up to 4 numbers, score >= 0.0": {
+    "points": 129,
+    "numbers per point": 3.77,
+    "points with a number": 99.2,
+    "first 3, strict": {
+     "numbers right (A)": 47.7,
+     "points with a right number (B)": 89.9,
+     "points with a wrong number": 99.2,
+     "of the first k, named per point": 1.8
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 69.3,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 70.5,
+     "of the first k, named per point": 1.8
+    },
+    "first 5, strict": {
+     "numbers right (A)": 69.1,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 73.6,
+     "of the first k, named per point": 2.6
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 83.3,
+     "points with a right number (B)": 96.9,
+     "points with a wrong number": 48.8,
+     "of the first k, named per point": 2.6
+    }
+   },
+   "up to 5 numbers, score >= 0.6": {
+    "points": 129,
+    "numbers per point": 1.37,
+    "points with a number": 75.2,
+    "first 3, strict": {
+     "numbers right (A)": 80.2,
+     "points with a right number (B)": 68.2,
+     "points with a wrong number": 25.6,
+     "of the first k, named per point": 1.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 7.0,
+     "of the first k, named per point": 1.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 71.3,
+     "points with a wrong number": 10.9,
+     "of the first k, named per point": 1.26
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.5,
+     "points with a right number (B)": 72.9,
+     "points with a wrong number": 5.4,
+     "of the first k, named per point": 1.26
+    }
+   },
+   "up to 5 numbers, score >= 0.3": {
+    "points": 129,
+    "numbers per point": 2.45,
+    "points with a number": 94.6,
+    "first 3, strict": {
+     "numbers right (A)": 61.7,
+     "points with a right number (B)": 82.9,
+     "points with a wrong number": 67.4,
+     "of the first k, named per point": 1.51
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 82.9,
+     "points with a right number (B)": 89.9,
+     "points with a wrong number": 35.7,
+     "of the first k, named per point": 1.51
+    },
+    "first 5, strict": {
+     "numbers right (A)": 78.8,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 39.5,
+     "of the first k, named per point": 1.93
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 88.6,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 23.3,
+     "of the first k, named per point": 1.93
+    }
+   },
+   "up to 5 numbers, score >= 0.1": {
+    "points": 129,
+    "numbers per point": 4.09,
+    "points with a number": 97.7,
+    "first 3, strict": {
+     "numbers right (A)": 44.1,
+     "points with a right number (B)": 87.6,
+     "points with a wrong number": 96.9,
+     "of the first k, named per point": 1.81
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 67.8,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 74.4,
+     "of the first k, named per point": 1.81
+    },
+    "first 5, strict": {
+     "numbers right (A)": 66.9,
+     "points with a right number (B)": 93.0,
+     "points with a wrong number": 80.6,
+     "of the first k, named per point": 2.74
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 83.0,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 50.4,
+     "of the first k, named per point": 2.74
+    }
+   },
+   "up to 5 numbers, score >= 0.0": {
+    "points": 129,
+    "numbers per point": 4.52,
+    "points with a number": 99.2,
+    "first 3, strict": {
+     "numbers right (A)": 41.3,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 99.2,
+     "of the first k, named per point": 1.87
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 64.2,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 82.9,
+     "of the first k, named per point": 1.87
+    },
+    "first 5, strict": {
+     "numbers right (A)": 64.3,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 89.1,
+     "of the first k, named per point": 2.91
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 81.0,
+     "points with a right number (B)": 96.9,
+     "points with a wrong number": 60.5,
+     "of the first k, named per point": 2.91
+    }
+   },
+   "every sure-read rider": {
+    "points": 129,
+    "numbers per point": 6.35,
+    "points with a number": 99.2,
+    "first 3, strict": {
+     "numbers right (A)": 30.6,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 99.2,
+     "of the first k, named per point": 1.95
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 51.4,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 95.3,
+     "of the first k, named per point": 1.95
+    },
+    "first 5, strict": {
+     "numbers right (A)": 49.9,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 96.9,
+     "of the first k, named per point": 3.17
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 69.7,
+     "points with a right number (B)": 96.9,
+     "points with a wrong number": 89.9,
+     "of the first k, named per point": 3.17
+    }
+   }
+  }
+ },
+ "middle": {
+  "points": 466,
+  "mean field": 10.5,
+  "riders found per picture": 8.09,
+  "riders with a sure number per picture": 6.85,
+  "placed k-th: number read": {
+   "1": 76.8,
+   "2": 71.7,
+   "3": 74.0,
+   "4": 74.5,
+   "5": 70.4,
+   "6": 68.0,
+   "7": 65.5,
+   "8": 62.7
+  },
+  "sure-read riders by place": {
+   "1-3": 32.5,
+   "4-5": 21.1,
+   "6+": 46.1,
+   "no such horse": 0.3
+  },
+  "chance, a random runner": {
+   "first 3": 28.8,
+   "first 5": 48.0
+  },
+  "rules": {
+   "v11 as stored (up to 2 numbers, three pictures, carried)": {
+    "points": 466,
+    "numbers per point": 1.83,
+    "points with a number": 95.7,
+    "first 3, strict": {
+     "numbers right (A)": 94.0,
+     "points with a right number (B)": 93.6,
+     "points with a wrong number": 10.9,
+     "of the first k, named per point": 1.72
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 97.7,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 4.3,
+     "of the first k, named per point": 1.72
+    },
+    "first 5, strict": {
+     "numbers right (A)": 98.2,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 3.2,
+     "of the first k, named per point": 1.8
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 98.7,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 2.4,
+     "of the first k, named per point": 1.8
+    }
+   },
+   "up to 2 numbers, score >= 0.6": {
+    "points": 466,
+    "numbers per point": 1.67,
+    "points with a number": 91.0,
+    "first 3, strict": {
+     "numbers right (A)": 88.3,
+     "points with a right number (B)": 86.9,
+     "points with a wrong number": 18.5,
+     "of the first k, named per point": 1.48
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.6,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 8.6,
+     "of the first k, named per point": 1.48
+    },
+    "first 5, strict": {
+     "numbers right (A)": 96.8,
+     "points with a right number (B)": 88.8,
+     "points with a wrong number": 4.9,
+     "of the first k, named per point": 1.62
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 97.3,
+     "points with a right number (B)": 89.1,
+     "points with a wrong number": 4.3,
+     "of the first k, named per point": 1.62
+    }
+   },
+   "up to 2 numbers, score >= 0.3": {
+    "points": 466,
+    "numbers per point": 1.87,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 83.8,
+     "points with a right number (B)": 91.6,
+     "points with a wrong number": 27.7,
+     "of the first k, named per point": 1.57
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 90.9,
+     "points with a right number (B)": 93.6,
+     "points with a wrong number": 15.7,
+     "of the first k, named per point": 1.57
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.7,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 9.0,
+     "of the first k, named per point": 1.77
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.1,
+     "points with a right number (B)": 95.5,
+     "points with a wrong number": 6.9,
+     "of the first k, named per point": 1.77
+    }
+   },
+   "up to 2 numbers, score >= 0.1": {
+    "points": 466,
+    "numbers per point": 1.95,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 81.3,
+     "points with a right number (B)": 93.1,
+     "points with a wrong number": 31.8,
+     "of the first k, named per point": 1.59
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 88.8,
+     "points with a right number (B)": 95.7,
+     "points with a wrong number": 18.9,
+     "of the first k, named per point": 1.59
+    },
+    "first 5, strict": {
+     "numbers right (A)": 93.5,
+     "points with a right number (B)": 97.2,
+     "points with a wrong number": 11.2,
+     "of the first k, named per point": 1.83
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.4,
+     "points with a right number (B)": 98.1,
+     "points with a wrong number": 8.4,
+     "of the first k, named per point": 1.83
+    }
+   },
+   "up to 2 numbers, score >= 0.0": {
+    "points": 466,
+    "numbers per point": 1.97,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 80.8,
+     "points with a right number (B)": 93.1,
+     "points with a wrong number": 32.6,
+     "of the first k, named per point": 1.59
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 88.2,
+     "points with a right number (B)": 95.7,
+     "points with a wrong number": 20.0,
+     "of the first k, named per point": 1.59
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.9,
+     "points with a right number (B)": 97.2,
+     "points with a wrong number": 12.0,
+     "of the first k, named per point": 1.83
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.2,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 8.6,
+     "of the first k, named per point": 1.83
+    }
+   },
+   "up to 3 numbers, score >= 0.6": {
+    "points": 466,
+    "numbers per point": 2.05,
+    "points with a number": 91.0,
+    "first 3, strict": {
+     "numbers right (A)": 86.2,
+     "points with a right number (B)": 87.1,
+     "points with a wrong number": 25.5,
+     "of the first k, named per point": 1.77
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 10.5,
+     "of the first k, named per point": 1.77
+    },
+    "first 5, strict": {
+     "numbers right (A)": 96.9,
+     "points with a right number (B)": 88.8,
+     "points with a wrong number": 6.0,
+     "of the first k, named per point": 1.98
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 97.5,
+     "points with a right number (B)": 89.1,
+     "points with a wrong number": 4.9,
+     "of the first k, named per point": 1.98
+    }
+   },
+   "up to 3 numbers, score >= 0.3": {
+    "points": 466,
+    "numbers per point": 2.51,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 78.5,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 44.6,
+     "of the first k, named per point": 1.97
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 89.3,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 23.2,
+     "of the first k, named per point": 1.97
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.1,
+     "points with a right number (B)": 95.1,
+     "points with a wrong number": 13.1,
+     "of the first k, named per point": 2.36
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.1,
+     "points with a right number (B)": 95.9,
+     "points with a wrong number": 9.4,
+     "of the first k, named per point": 2.36
+    }
+   },
+   "up to 3 numbers, score >= 0.1": {
+    "points": 466,
+    "numbers per point": 2.85,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 71.9,
+     "points with a right number (B)": 94.4,
+     "points with a wrong number": 59.9,
+     "of the first k, named per point": 2.05
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 83.6,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 34.5,
+     "of the first k, named per point": 2.05
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.5,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 19.7,
+     "of the first k, named per point": 2.6
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.6,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 13.7,
+     "of the first k, named per point": 2.6
+    }
+   },
+   "up to 3 numbers, score >= 0.0": {
+    "points": 466,
+    "numbers per point": 2.93,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 70.2,
+     "points with a right number (B)": 94.4,
+     "points with a wrong number": 63.1,
+     "of the first k, named per point": 2.05
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 81.6,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 38.4,
+     "of the first k, named per point": 2.05
+    },
+    "first 5, strict": {
+     "numbers right (A)": 89.9,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 23.8,
+     "of the first k, named per point": 2.63
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.7,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 16.3,
+     "of the first k, named per point": 2.63
+    }
+   },
+   "up to 4 numbers, score >= 0.6": {
+    "points": 466,
+    "numbers per point": 2.07,
+    "points with a number": 91.0,
+    "first 3, strict": {
+     "numbers right (A)": 86.0,
+     "points with a right number (B)": 87.1,
+     "points with a wrong number": 26.0,
+     "of the first k, named per point": 1.78
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 10.7,
+     "of the first k, named per point": 1.78
+    },
+    "first 5, strict": {
+     "numbers right (A)": 96.9,
+     "points with a right number (B)": 88.8,
+     "points with a wrong number": 6.0,
+     "of the first k, named per point": 2.0
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 97.5,
+     "points with a right number (B)": 89.1,
+     "points with a wrong number": 4.9,
+     "of the first k, named per point": 2.0
+    }
+   },
+   "up to 4 numbers, score >= 0.3": {
+    "points": 466,
+    "numbers per point": 2.68,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 75.5,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 53.0,
+     "of the first k, named per point": 2.03
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 88.8,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 25.8,
+     "of the first k, named per point": 2.03
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 13.7,
+     "of the first k, named per point": 2.53
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.2,
+     "points with a right number (B)": 95.9,
+     "points with a wrong number": 9.4,
+     "of the first k, named per point": 2.53
+    }
+   },
+   "up to 4 numbers, score >= 0.1": {
+    "points": 466,
+    "numbers per point": 3.45,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 62.1,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 87.6,
+     "of the first k, named per point": 2.14
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 78.1,
+     "points with a right number (B)": 96.4,
+     "points with a wrong number": 54.7,
+     "of the first k, named per point": 2.14
+    },
+    "first 5, strict": {
+     "numbers right (A)": 89.6,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 27.7,
+     "of the first k, named per point": 3.09
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.8,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 17.4,
+     "of the first k, named per point": 3.09
+    }
+   },
+   "up to 4 numbers, score >= 0.0": {
+    "points": 466,
+    "numbers per point": 3.85,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 56.0,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 98.3,
+     "of the first k, named per point": 2.15
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 71.0,
+     "points with a right number (B)": 96.4,
+     "points with a wrong number": 70.2,
+     "of the first k, named per point": 2.15
+    },
+    "first 5, strict": {
+     "numbers right (A)": 83.9,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 45.3,
+     "of the first k, named per point": 3.23
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.3,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 29.4,
+     "of the first k, named per point": 3.23
+    }
+   },
+   "up to 5 numbers, score >= 0.6": {
+    "points": 466,
+    "numbers per point": 2.07,
+    "points with a number": 91.0,
+    "first 3, strict": {
+     "numbers right (A)": 86.0,
+     "points with a right number (B)": 87.1,
+     "points with a wrong number": 26.0,
+     "of the first k, named per point": 1.78
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 94.2,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 10.7,
+     "of the first k, named per point": 1.78
+    },
+    "first 5, strict": {
+     "numbers right (A)": 96.9,
+     "points with a right number (B)": 88.8,
+     "points with a wrong number": 6.0,
+     "of the first k, named per point": 2.0
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 97.5,
+     "points with a right number (B)": 89.1,
+     "points with a wrong number": 4.9,
+     "of the first k, named per point": 2.0
+    }
+   },
+   "up to 5 numbers, score >= 0.3": {
+    "points": 466,
+    "numbers per point": 2.7,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 75.2,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 53.0,
+     "of the first k, named per point": 2.03
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 88.6,
+     "points with a right number (B)": 93.8,
+     "points with a wrong number": 26.0,
+     "of the first k, named per point": 2.03
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.0,
+     "points with a right number (B)": 95.3,
+     "points with a wrong number": 13.9,
+     "of the first k, named per point": 2.54
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 96.0,
+     "points with a right number (B)": 95.9,
+     "points with a wrong number": 9.7,
+     "of the first k, named per point": 2.54
+    }
+   },
+   "up to 5 numbers, score >= 0.1": {
+    "points": 466,
+    "numbers per point": 3.64,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 59.1,
+     "points with a right number (B)": 94.8,
+     "points with a wrong number": 87.6,
+     "of the first k, named per point": 2.15
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 75.9,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 59.2,
+     "of the first k, named per point": 2.15
+    },
+    "first 5, strict": {
+     "numbers right (A)": 87.7,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 32.8,
+     "of the first k, named per point": 3.2
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.1,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 18.9,
+     "of the first k, named per point": 3.2
+    }
+   },
+   "up to 5 numbers, score >= 0.0": {
+    "points": 466,
+    "numbers per point": 4.73,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 46.3,
+     "points with a right number (B)": 94.8,
+     "points with a wrong number": 98.3,
+     "of the first k, named per point": 2.19
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 60.8,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 89.9,
+     "of the first k, named per point": 2.19
+    },
+    "first 5, strict": {
+     "numbers right (A)": 74.8,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 78.5,
+     "of the first k, named per point": 3.53
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 84.0,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 53.4,
+     "of the first k, named per point": 3.53
+    }
+   },
+   "every sure-read rider": {
+    "points": 466,
+    "numbers per point": 6.85,
+    "points with a number": 99.4,
+    "first 3, strict": {
+     "numbers right (A)": 32.5,
+     "points with a right number (B)": 95.1,
+     "points with a wrong number": 98.3,
+     "of the first k, named per point": 2.23
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 43.0,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 96.8,
+     "of the first k, named per point": 2.23
+    },
+    "first 5, strict": {
+     "numbers right (A)": 53.6,
+     "points with a right number (B)": 98.3,
+     "points with a wrong number": 96.4,
+     "of the first k, named per point": 3.67
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 63.7,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 93.1,
+     "of the first k, named per point": 3.67
+    }
+   }
+  }
+ },
+ "finish": {
+  "points": 559,
+  "mean field": 10.6,
+  "riders found per picture": 8.35,
+  "riders with a sure number per picture": 6.94,
+  "placed k-th: number read": {
+   "1": 75.8,
+   "2": 71.4,
+   "3": 72.5,
+   "4": 70.3,
+   "5": 69.8,
+   "6": 69.4,
+   "7": 66.4,
+   "8": 67.8
+  },
+  "sure-read riders by place": {
+   "1-3": 31.6,
+   "4-5": 20.2,
+   "6+": 47.9,
+   "no such horse": 0.2
+  },
+  "chance, a random runner": {
+   "first 3": 28.4,
+   "first 5": 47.4
+  },
+  "rules": {
+   "v11 as stored (up to 2 numbers, three pictures, carried)": {
+    "points": 559,
+    "numbers per point": 1.96,
+    "points with a number": 99.6,
+    "first 3, strict": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 10.4,
+     "of the first k, named per point": 1.85
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 97.7,
+     "points with a right number (B)": 98.0,
+     "points with a wrong number": 4.1,
+     "of the first k, named per point": 1.85
+    },
+    "first 5, strict": {
+     "numbers right (A)": 98.4,
+     "points with a right number (B)": 98.4,
+     "points with a wrong number": 3.0,
+     "of the first k, named per point": 1.93
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 98.6,
+     "points with a right number (B)": 98.6,
+     "points with a wrong number": 2.5,
+     "of the first k, named per point": 1.93
+    }
+   },
+   "up to 2 numbers, score >= 0.6": {
+    "points": 559,
+    "numbers per point": 1.66,
+    "points with a number": 93.2,
+    "first 3, strict": {
+     "numbers right (A)": 89.7,
+     "points with a right number (B)": 88.4,
+     "points with a wrong number": 15.2,
+     "of the first k, named per point": 1.49
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 93.4,
+     "points with a right number (B)": 89.4,
+     "points with a wrong number": 9.7,
+     "of the first k, named per point": 1.49
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.9,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 7.7,
+     "of the first k, named per point": 1.57
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.8,
+     "points with a right number (B)": 90.9,
+     "points with a wrong number": 6.3,
+     "of the first k, named per point": 1.57
+    }
+   },
+   "up to 2 numbers, score >= 0.3": {
+    "points": 559,
+    "numbers per point": 1.87,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 84.4,
+     "points with a right number (B)": 91.6,
+     "points with a wrong number": 26.1,
+     "of the first k, named per point": 1.58
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 90.0,
+     "points with a right number (B)": 92.7,
+     "points with a wrong number": 16.5,
+     "of the first k, named per point": 1.58
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.8,
+     "points with a right number (B)": 94.1,
+     "points with a wrong number": 11.8,
+     "of the first k, named per point": 1.74
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.3,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 9.3,
+     "of the first k, named per point": 1.74
+    }
+   },
+   "up to 2 numbers, score >= 0.1": {
+    "points": 559,
+    "numbers per point": 1.96,
+    "points with a number": 99.3,
+    "first 3, strict": {
+     "numbers right (A)": 81.5,
+     "points with a right number (B)": 92.8,
+     "points with a wrong number": 31.1,
+     "of the first k, named per point": 1.6
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.7,
+     "points with a right number (B)": 94.3,
+     "points with a wrong number": 20.2,
+     "of the first k, named per point": 1.6
+    },
+    "first 5, strict": {
+     "numbers right (A)": 91.3,
+     "points with a right number (B)": 95.9,
+     "points with a wrong number": 14.8,
+     "of the first k, named per point": 1.79
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 93.2,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 11.4,
+     "of the first k, named per point": 1.79
+    }
+   },
+   "up to 2 numbers, score >= 0.0": {
+    "points": 559,
+    "numbers per point": 1.98,
+    "points with a number": 99.5,
+    "first 3, strict": {
+     "numbers right (A)": 80.9,
+     "points with a right number (B)": 93.0,
+     "points with a wrong number": 31.8,
+     "of the first k, named per point": 1.6
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.1,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 20.9,
+     "of the first k, named per point": 1.6
+    },
+    "first 5, strict": {
+     "numbers right (A)": 90.8,
+     "points with a right number (B)": 96.2,
+     "points with a wrong number": 15.4,
+     "of the first k, named per point": 1.8
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 92.8,
+     "points with a right number (B)": 97.1,
+     "points with a wrong number": 12.2,
+     "of the first k, named per point": 1.8
+    }
+   },
+   "up to 3 numbers, score >= 0.6": {
+    "points": 559,
+    "numbers per point": 1.96,
+    "points with a number": 93.2,
+    "first 3, strict": {
+     "numbers right (A)": 86.8,
+     "points with a right number (B)": 88.6,
+     "points with a wrong number": 23.4,
+     "of the first k, named per point": 1.7
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 92.9,
+     "points with a right number (B)": 89.4,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 1.7
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.8,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 9.5,
+     "of the first k, named per point": 1.86
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.9,
+     "points with a right number (B)": 90.9,
+     "points with a wrong number": 7.3,
+     "of the first k, named per point": 1.86
+    }
+   },
+   "up to 3 numbers, score >= 0.3": {
+    "points": 559,
+    "numbers per point": 2.45,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 78.2,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 46.7,
+     "of the first k, named per point": 1.91
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 87.2,
+     "points with a right number (B)": 93.2,
+     "points with a wrong number": 27.0,
+     "of the first k, named per point": 1.91
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.1,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 17.0,
+     "of the first k, named per point": 2.26
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.1,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 2.26
+    }
+   },
+   "up to 3 numbers, score >= 0.1": {
+    "points": 559,
+    "numbers per point": 2.83,
+    "points with a number": 99.3,
+    "first 3, strict": {
+     "numbers right (A)": 70.4,
+     "points with a right number (B)": 94.3,
+     "points with a wrong number": 65.3,
+     "of the first k, named per point": 1.99
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 80.4,
+     "points with a right number (B)": 95.2,
+     "points with a wrong number": 43.6,
+     "of the first k, named per point": 1.99
+    },
+    "first 5, strict": {
+     "numbers right (A)": 88.0,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 27.9,
+     "of the first k, named per point": 2.49
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 91.8,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 20.2,
+     "of the first k, named per point": 2.49
+    }
+   },
+   "up to 3 numbers, score >= 0.0": {
+    "points": 559,
+    "numbers per point": 2.95,
+    "points with a number": 99.5,
+    "first 3, strict": {
+     "numbers right (A)": 68.0,
+     "points with a right number (B)": 95.2,
+     "points with a wrong number": 69.2,
+     "of the first k, named per point": 2.0
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 78.0,
+     "points with a right number (B)": 96.1,
+     "points with a wrong number": 48.7,
+     "of the first k, named per point": 2.0
+    },
+    "first 5, strict": {
+     "numbers right (A)": 85.9,
+     "points with a right number (B)": 97.7,
+     "points with a wrong number": 33.5,
+     "of the first k, named per point": 2.53
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.0,
+     "points with a right number (B)": 98.7,
+     "points with a wrong number": 25.0,
+     "of the first k, named per point": 2.53
+    }
+   },
+   "up to 4 numbers, score >= 0.6": {
+    "points": 559,
+    "numbers per point": 1.98,
+    "points with a number": 93.2,
+    "first 3, strict": {
+     "numbers right (A)": 86.3,
+     "points with a right number (B)": 88.6,
+     "points with a wrong number": 24.3,
+     "of the first k, named per point": 1.71
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 92.9,
+     "points with a right number (B)": 89.4,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 1.71
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.9,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 9.5,
+     "of the first k, named per point": 1.88
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.9,
+     "points with a right number (B)": 90.9,
+     "points with a wrong number": 7.3,
+     "of the first k, named per point": 1.88
+    }
+   },
+   "up to 4 numbers, score >= 0.3": {
+    "points": 559,
+    "numbers per point": 2.59,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 75.5,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 52.6,
+     "of the first k, named per point": 1.96
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 86.4,
+     "points with a right number (B)": 93.2,
+     "points with a wrong number": 30.1,
+     "of the first k, named per point": 1.96
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.1,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 17.5,
+     "of the first k, named per point": 2.39
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.3,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 12.9,
+     "of the first k, named per point": 2.39
+    }
+   },
+   "up to 4 numbers, score >= 0.1": {
+    "points": 559,
+    "numbers per point": 3.4,
+    "points with a number": 99.3,
+    "first 3, strict": {
+     "numbers right (A)": 61.7,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 87.3,
+     "of the first k, named per point": 2.1
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 74.5,
+     "points with a right number (B)": 95.5,
+     "points with a wrong number": 62.1,
+     "of the first k, named per point": 2.1
+    },
+    "first 5, strict": {
+     "numbers right (A)": 86.5,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 35.1,
+     "of the first k, named per point": 2.94
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 91.4,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 23.8,
+     "of the first k, named per point": 2.94
+    }
+   },
+   "up to 4 numbers, score >= 0.0": {
+    "points": 559,
+    "numbers per point": 3.87,
+    "points with a number": 99.5,
+    "first 3, strict": {
+     "numbers right (A)": 55.0,
+     "points with a right number (B)": 95.9,
+     "points with a wrong number": 98.6,
+     "of the first k, named per point": 2.13
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 67.2,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 77.8,
+     "of the first k, named per point": 2.13
+    },
+    "first 5, strict": {
+     "numbers right (A)": 81.2,
+     "points with a right number (B)": 98.2,
+     "points with a wrong number": 50.8,
+     "of the first k, named per point": 3.14
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 87.4,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 35.6,
+     "of the first k, named per point": 3.14
+    }
+   },
+   "up to 5 numbers, score >= 0.6": {
+    "points": 559,
+    "numbers per point": 1.98,
+    "points with a number": 93.2,
+    "first 3, strict": {
+     "numbers right (A)": 86.3,
+     "points with a right number (B)": 88.6,
+     "points with a wrong number": 24.3,
+     "of the first k, named per point": 1.71
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 92.9,
+     "points with a right number (B)": 89.4,
+     "points with a wrong number": 12.7,
+     "of the first k, named per point": 1.71
+    },
+    "first 5, strict": {
+     "numbers right (A)": 94.9,
+     "points with a right number (B)": 90.7,
+     "points with a wrong number": 9.5,
+     "of the first k, named per point": 1.88
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 95.9,
+     "points with a right number (B)": 90.9,
+     "points with a wrong number": 7.3,
+     "of the first k, named per point": 1.88
+    }
+   },
+   "up to 5 numbers, score >= 0.3": {
+    "points": 559,
+    "numbers per point": 2.6,
+    "points with a number": 97.9,
+    "first 3, strict": {
+     "numbers right (A)": 75.4,
+     "points with a right number (B)": 92.5,
+     "points with a wrong number": 52.6,
+     "of the first k, named per point": 1.96
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 86.3,
+     "points with a right number (B)": 93.2,
+     "points with a wrong number": 30.6,
+     "of the first k, named per point": 1.96
+    },
+    "first 5, strict": {
+     "numbers right (A)": 92.2,
+     "points with a right number (B)": 94.5,
+     "points with a wrong number": 17.5,
+     "of the first k, named per point": 2.4
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 94.4,
+     "points with a right number (B)": 94.6,
+     "points with a wrong number": 12.9,
+     "of the first k, named per point": 2.4
+    }
+   },
+   "up to 5 numbers, score >= 0.1": {
+    "points": 559,
+    "numbers per point": 3.61,
+    "points with a number": 99.3,
+    "first 3, strict": {
+     "numbers right (A)": 58.7,
+     "points with a right number (B)": 94.8,
+     "points with a wrong number": 87.3,
+     "of the first k, named per point": 2.12
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 71.8,
+     "points with a right number (B)": 95.7,
+     "points with a wrong number": 67.3,
+     "of the first k, named per point": 2.12
+    },
+    "first 5, strict": {
+     "numbers right (A)": 84.6,
+     "points with a right number (B)": 96.8,
+     "points with a wrong number": 41.5,
+     "of the first k, named per point": 3.05
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 90.6,
+     "points with a right number (B)": 97.9,
+     "points with a wrong number": 26.8,
+     "of the first k, named per point": 3.05
+    }
+   },
+   "up to 5 numbers, score >= 0.0": {
+    "points": 559,
+    "numbers per point": 4.7,
+    "points with a number": 99.5,
+    "first 3, strict": {
+     "numbers right (A)": 46.3,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 98.6,
+     "of the first k, named per point": 2.17
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 57.6,
+     "points with a right number (B)": 97.1,
+     "points with a wrong number": 93.4,
+     "of the first k, named per point": 2.17
+    },
+    "first 5, strict": {
+     "numbers right (A)": 72.8,
+     "points with a right number (B)": 98.2,
+     "points with a wrong number": 80.0,
+     "of the first k, named per point": 3.42
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 81.4,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 59.7,
+     "of the first k, named per point": 3.42
+    }
+   },
+   "every sure-read rider": {
+    "points": 559,
+    "numbers per point": 6.94,
+    "points with a number": 99.5,
+    "first 3, strict": {
+     "numbers right (A)": 31.6,
+     "points with a right number (B)": 96.6,
+     "points with a wrong number": 98.6,
+     "of the first k, named per point": 2.2
+    },
+    "first 3, within 3 m": {
+     "numbers right (A)": 40.0,
+     "points with a right number (B)": 97.1,
+     "points with a wrong number": 98.0,
+     "of the first k, named per point": 2.2
+    },
+    "first 5, strict": {
+     "numbers right (A)": 51.8,
+     "points with a right number (B)": 98.2,
+     "points with a wrong number": 95.7,
+     "of the first k, named per point": 3.6
+    },
+    "first 5, within 3 m": {
+     "numbers right (A)": 61.4,
+     "points with a right number (B)": 98.9,
+     "points with a wrong number": 93.0,
+     "of the first k, named per point": 3.6
+    }
+   }
+  }
+ }
+}
