@@ -751,11 +751,15 @@ python identifier/identify_l1.py --video 경주.mp4 --out 결과.json --strip-ch
       <tr><td><code>bench3/</code></td><td>모델이 쓴 중계문(한국어, 영어)과 검사를 벤치마크에서 재기</td></tr>
       <tr><td><code>winner/</code></td><td>결승 순간에 우승마 부르기: "마지막 2초에도 맨 앞" 조건, 안 쓴 경마일 3일에서 확인</td></tr>
       <tr><td><code>far/</code></td><td>우승마를 못 부르는 이유의 진단과, 통하지 않은 네 가지 시도 (탐색, 새 날 확인 없음)</td></tr>
+      <tr><td><code>top5/</code></td><td>"상위 3두"를 "상위 5두"로 넓히면, 그리고 순위 변화를 감지할 수 있는지 (저장된 결과로 한 계산)</td></tr>
+      <tr><td><code>paid1/</code></td><td>유료 모델(GPT-6.1 Terra)이 화면만 보고 중계하면: 시험용 경주 4개의 작은 시험</td></tr>
+      <tr><td><code>score1/</code></td><td>채점기의 한국어 선두 읽기 규칙 v1 (<code>score.py --rules v1</code>, 기본값은 그대로)</td></tr>
+      <tr><td><code>live1/</code></td><td>실제 속도로 읽으며 자막 내기: 경주 하나의 시연 (<code>identifier/live_run.py</code>)</td></tr>
       <tr><td><code>benchmark/v0/</code> (저장소 맨 위)</td><td>벤치마크 초안: 문항, 정답, 채점기, 기준선</td></tr>
       <tr><td><code>ON-AIR_GOAL.md</code> (프로젝트 루트)</td><td>목표와 단계별 진행 기록 전체</td></tr>
     </tbody>
   </table></div>
-  <p>실험 폴더마다 미리 고정한 설계(<code>DESIGN_KO.md</code>), 해시, 결과와 한계(<code>RESULT_KO.md</code>)가 짝으로 있습니다. 영상 원본, 방송 프레임, 모델 파일은 저장소에 없습니다.</p>
+  <p>실험 폴더마다 미리 고정한 설계(<code>DESIGN_KO.md</code>), 해시, 결과와 한계(<code>RESULT_KO.md</code>)가 짝으로 있습니다. 영상 원본, 방송 프레임, 모델 파일은 저장소에 없습니다. 예외는 이 페이지의 화면 4장, 중계 예시 페이지, 그리고 자막을 입힌 시연 영상 하나입니다.</p>
   <p>코드와 문서 전체: <a href="https://github.com/ohead-yonsei/on-air-identifier">github.com/ohead-yonsei/on-air-identifier</a></p>
 </section>
 
