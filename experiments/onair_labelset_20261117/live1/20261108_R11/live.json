@@ -1,0 +1,683 @@
+{
+ "video": "live_script/20261108_R11/videos/R11_vkJ2az4nXkc.video.mp4",
+ "racecard": {
+  "date": "2026-11-08",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "혁무상"
+   },
+   {
+    "number": 2,
+    "name": "용비태양"
+   },
+   {
+    "number": 3,
+    "name": "울트라삭스"
+   },
+   {
+    "number": 4,
+    "name": "벌교의스타"
+   },
+   {
+    "number": 5,
+    "name": "글로벌파워"
+   },
+   {
+    "number": 6,
+    "name": "내길의위너"
+   },
+   {
+    "number": 7,
+    "name": "송암스카이"
+   },
+   {
+    "number": 8,
+    "name": "관악산스카이"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.966666666666667,
+  "finish": 96.25,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6030,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.238,
+  "max": 0.658
+ },
+ "furthest_behind_seconds": 0.644,
+ "dense_pictures": {
+  "run": 59,
+  "skipped_when_behind": 9
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.967,
+   "race_time": 1.0,
+   "ready": 9.968,
+   "line": "서울 11경주 1400m, 8두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.918,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.983,
+   "race_time": 9.02,
+   "ready": 18.307,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.323,
+   "shown_until": 21.54,
+   "delay": 0.324
+  },
+  {
+   "kind": "point",
+   "video_time": 20.983,
+   "race_time": 12.02,
+   "ready": 21.59,
+   "line": "선두권에 2번 용비태양이 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.605,
+   "shown_until": 24.363,
+   "delay": 0.607
+  },
+  {
+   "kind": "point",
+   "video_time": 23.983,
+   "race_time": 15.02,
+   "ready": 24.413,
+   "line": "7번 송암스카이, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.428,
+   "shown_until": 27.504,
+   "delay": 0.43
+  },
+  {
+   "kind": "point",
+   "video_time": 26.967,
+   "race_time": 18.0,
+   "ready": 27.554,
+   "line": "선두권은 그대로 7번 송암스카이.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.586,
+   "shown_until": 30.15,
+   "delay": 0.587
+  },
+  {
+   "kind": "point",
+   "video_time": 29.967,
+   "race_time": 21.0,
+   "ready": 30.2,
+   "line": "2번 용비태양, 선두에 있습니다. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.7707
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 33.155,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 32.967,
+   "race_time": 24.0,
+   "ready": 33.205,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.6509
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 36.149,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 35.967,
+   "race_time": 27.0,
+   "ready": 36.199,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.8738
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 39.155,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 38.967,
+   "race_time": 30.0,
+   "ready": 39.205,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.638
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 42.154,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 41.967,
+   "race_time": 33.0,
+   "ready": 42.204,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.2187
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 45.16,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 44.967,
+   "race_time": 36.0,
+   "ready": 45.21,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.8397
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 48.153,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 47.967,
+   "race_time": 39.0,
+   "ready": 48.203,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.7346
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 51.148,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 50.967,
+   "race_time": 42.0,
+   "ready": 51.198,
+   "line": "2번 용비태양이 선두입니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 54.149,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 53.967,
+   "race_time": 45.0,
+   "ready": 54.199,
+   "line": "2번 용비태양, 선두에 있습니다. 7번 송암스카이도 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.8579
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 57.194,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 56.967,
+   "race_time": 48.0,
+   "ready": 57.244,
+   "line": "2번 용비태양이 선두입니다. 8번 관악산스카이도 선두권입니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.7301
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "shown_until": 60.146,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 59.967,
+   "race_time": 51.0,
+   "ready": 60.196,
+   "line": "선두는 2번 용비태양.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "shown_until": 63.157,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 62.967,
+   "race_time": 54.0,
+   "ready": 63.207,
+   "line": "2번 용비태양이 선두입니다. 선두권에 8번 관악산스카이.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.6382
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 66.153,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 65.967,
+   "race_time": 57.0,
+   "ready": 66.203,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 8번 관악산스카이.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.4817
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 69.152,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 68.967,
+   "race_time": 60.0,
+   "ready": 69.202,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 8번 관악산스카이.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.5207
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 72.16,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 71.967,
+   "race_time": 63.0,
+   "ready": 72.21,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 8번 관악산스카이.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.6033
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 75.149,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 74.967,
+   "race_time": 66.0,
+   "ready": 75.199,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 8번 관악산스카이.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.6593
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 78.138,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 77.967,
+   "race_time": 69.0,
+   "ready": 78.188,
+   "line": "2번 용비태양이 선두입니다. 선두권에 6번 내길의위너.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.221,
+   "shown_until": 81.148,
+   "delay": 0.221
+  },
+  {
+   "kind": "point",
+   "video_time": 80.967,
+   "race_time": 72.0,
+   "ready": 81.198,
+   "line": "선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.618
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 84.156,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 83.967,
+   "race_time": 75.0,
+   "ready": 84.206,
+   "line": "8번 관악산스카이, 계속 선두입니다. 선두권에 6번 내길의위너.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.6104
+    }
+   ],
+   "late_at_start": 0.015,
+   "work_seconds": 0.223,
+   "shown_until": 87.135,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 86.967,
+   "race_time": 78.0,
+   "ready": 87.185,
+   "line": "여전히 선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3879
+    }
+   ],
+   "late_at_start": 0.026,
+   "work_seconds": 0.192,
+   "shown_until": 90.503,
+   "delay": 0.218
+  },
+  {
+   "kind": "point",
+   "video_time": 89.967,
+   "race_time": 81.0,
+   "ready": 90.553,
+   "line": "8번 관악산스카이, 계속 선두입니다. 선두권에 6번 내길의위너.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.4847
+    }
+   ],
+   "late_at_start": 0.148,
+   "work_seconds": 0.437,
+   "shown_until": 93.573,
+   "delay": 0.586
+  },
+  {
+   "kind": "point",
+   "video_time": 92.967,
+   "race_time": 84.0,
+   "ready": 93.623,
+   "line": "여전히 선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.134,
+   "work_seconds": 0.522,
+   "shown_until": 96.575,
+   "delay": 0.656
+  },
+  {
+   "kind": "point",
+   "video_time": 95.967,
+   "race_time": 87.0,
+   "ready": 96.625,
+   "line": "선두는 8번 관악산스카이.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.221,
+   "work_seconds": 0.437,
+   "shown_until": 97.627,
+   "delay": 0.658
+  },
+  {
+   "kind": "finish",
+   "video_time": 97.467,
+   "race_time": 88.5,
+   "ready": 97.677,
+   "line": "결승선 통과! 8번 관악산스카이가 가장 먼저 들어옵니다!",
+   "winner": 8,
+   "winner_call": {
+    "candidate": 8,
+    "pictures_naming_each": {
+     "8": 5,
+     "7": 1,
+     "5": 1
+    },
+    "seen": 2,
+    "front": 2,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 96.25,
+   "seconds_after_the_finish": 1.43,
+   "work_seconds": 0.0,
+   "shown_until": 103.627,
+   "delay": 0.21
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "번호를 말하지 않기": {
+  "v0": {
+   "items": 1432,
+   "leader right": 0.0,
+   "leader wrong": 0.0,
+   "no leader said": 100.0,
+   "items right": 0,
+   "items wrong": 0
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 0.0,
+   "leader wrong": 0.0,
+   "no leader said": 100.0,
+   "items right": 0,
+   "items wrong": 0
+  }
+ },
+ "무작위 셋": {
+  "v0": {
+   "items": 1432,
+   "leader right": 11.5,
+   "leader wrong": 88.5,
+   "no leader said": 0.0,
+   "items right": 164,
+   "items wrong": 1268
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 11.5,
+   "leader wrong": 88.5,
+   "no leader said": 0.0,
+   "items right": 164,
+   "items wrong": 1268
+  }
+ },
+ "로컬 Qwen 3.5 9B, 자유롭게": {
+  "v0": {
+   "items": 1432,
+   "leader right": 12.4,
+   "leader wrong": 84.4,
+   "no leader said": 3.2,
+   "items right": 177,
+   "items wrong": 1209
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 13.0,
+   "leader wrong": 85.8,
+   "no leader said": 1.2,
+   "items right": 186,
+   "items wrong": 1228
+  }
+ },
+ "로컬 Qwen 3.5 9B, 확실할 때만": {
+  "v0": {
+   "items": 1427,
+   "leader right": 1.6,
+   "leader wrong": 4.6,
+   "no leader said": 93.8,
+   "items right": 23,
+   "items wrong": 66
+  },
+  "v1": {
+   "items": 1427,
+   "leader right": 1.4,
+   "leader wrong": 3.9,
+   "no leader said": 94.7,
+   "items right": 20,
+   "items wrong": 56
+  }
+ },
+ "식별기 v9 + 문장 틀": {
+  "v0": {
+   "items": 1432,
+   "leader right": 48.6,
+   "leader wrong": 12.3,
+   "no leader said": 39.1,
+   "items right": 696,
+   "items wrong": 176
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 48.6,
+   "leader wrong": 12.3,
+   "no leader said": 39.1,
+   "items right": 696,
+   "items wrong": 176
+  }
+ },
+ "식별기 v11 + 문장 틀": {
+  "v0": {
+   "items": 1432,
+   "leader right": 54.2,
+   "leader wrong": 11.9,
+   "no leader said": 33.9,
+   "items right": 776,
+   "items wrong": 171
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 54.2,
+   "leader wrong": 11.9,
+   "no leader said": 33.9,
+   "items right": 776,
+   "items wrong": 171
+  }
+ },
+ "식별기 v11 + 우승마 부르기": {
+  "v0": {
+   "items": 1432,
+   "leader right": 55.8,
+   "leader wrong": 11.9,
+   "no leader said": 32.3,
+   "items right": 799,
+   "items wrong": 170
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 55.8,
+   "leader wrong": 11.9,
+   "no leader said": 32.3,
+   "items right": 799,
+   "items wrong": 170
+  }
+ },
+ "v11 + 모델이 쓴 문장 (검사 없음)": {
+  "v0": {
+   "items": 1432,
+   "leader right": 52.2,
+   "leader wrong": 11.7,
+   "no leader said": 36.1,
+   "items right": 748,
+   "items wrong": 168
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 54.2,
+   "leader wrong": 11.9,
+   "no leader said": 33.9,
+   "items right": 776,
+   "items wrong": 171
+  }
+ },
+ "v11 + 모델이 쓴 문장 + 검사": {
+  "v0": {
+   "items": 1432,
+   "leader right": 54.2,
+   "leader wrong": 11.9,
+   "no leader said": 33.9,
+   "items right": 776,
+   "items wrong": 171
+  },
+  "v1": {
+   "items": 1432,
+   "leader right": 54.2,
+   "leader wrong": 11.9,
+   "no leader said": 33.9,
+   "items right": 776,
+   "items wrong": 171
+  }
+ },
+ "(4개 경주) 식별기 v11 + 문장 틀": {
+  "v0": {
+   "items": 113,
+   "leader right": 33.6,
+   "leader wrong": 19.5,
+   "no leader said": 46.9,
+   "items right": 38,
+   "items wrong": 22
+  },
+  "v1": {
+   "items": 113,
+   "leader right": 33.6,
+   "leader wrong": 19.5,
+   "no leader said": 46.9,
+   "items right": 38,
+   "items wrong": 22
+  }
+ },
+ "(4개 경주) Terra, 자유롭게": {
+  "v0": {
+   "items": 113,
+   "leader right": 63.7,
+   "leader wrong": 23.0,
+   "no leader said": 13.3,
+   "items right": 72,
+   "items wrong": 26
+  },
+  "v1": {
+   "items": 113,
+   "leader right": 68.1,
+   "leader wrong": 25.7,
+   "no leader said": 6.2,
+   "items right": 77,
+   "items wrong": 29
+  }
+ },
+ "(4개 경주) Terra, 확실할 때만": {
+  "v0": {
+   "items": 113,
+   "leader right": 54.0,
+   "leader wrong": 22.1,
+   "no leader said": 23.9,
+   "items right": 61,
+   "items wrong": 25
+  },
+  "v1": {
+   "items": 113,
+   "leader right": 49.6,
+   "leader wrong": 16.8,
+   "no leader said": 33.6,
+   "items right": 56,
+   "items wrong": 19
+  }
+ }
+}

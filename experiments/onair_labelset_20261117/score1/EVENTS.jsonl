@@ -1,0 +1,2 @@
+{"time": "2026-11-22T02:28:35+0900", "event": "rules v1 fixed after three rounds on the development half (first version blocked on any chasing word in the clause and read worse than v0; second read each subject with its own predicate; third: after-check only for noun words, unspaced subjects, 앞을 달리). Check half not looked at before this line."}
+{"time": "2026-11-22T02:30:02+0900", "event": "check half run once with the fixed rules; all baselines scored with v0 and v1 (sc2_rescore.py)"}

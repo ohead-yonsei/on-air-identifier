@@ -1,0 +1,452 @@
+{
+ "official_winner": 8,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 26,
+  "numbers": 46,
+  "numbers right": 45,
+  "numbers close": 1,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 23,
+  "leader right": 19,
+  "leader close": 1,
+  "leader wrong": 3
+ },
+ "delay_seconds": {
+  "median": 0.238,
+  "max": 0.658
+ },
+ "rows": [
+  {
+   "video_time": 17.983,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 20.983,
+   "line": "선두권에 2번 용비태양이 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 23.983,
+   "line": "7번 송암스카이, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 26.967,
+   "line": "선두권은 그대로 7번 송암스카이.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 29.967,
+   "line": "2번 용비태양, 선두에 있습니다. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 32.967,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 35.967,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 38.967,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 41.967,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 44.967,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 47.967,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 7번 송암스카이.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 50.967,
+   "line": "2번 용비태양이 선두입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 53.967,
+   "line": "2번 용비태양, 선두에 있습니다. 7번 송암스카이도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "7": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    8,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 56.967,
+   "line": "2번 용비태양이 선두입니다. 8번 관악산스카이도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    8,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 59.967,
+   "line": "선두는 2번 용비태양.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    8,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 62.967,
+   "line": "2번 용비태양이 선두입니다. 선두권에 8번 관악산스카이.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    8,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 65.967,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 8번 관악산스카이.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    8,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 68.967,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 8번 관악산스카이.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 71.967,
+   "line": "2번 용비태양, 계속 선두입니다. 선두권에 8번 관악산스카이.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    2,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 74.967,
+   "line": "여전히 선두는 2번 용비태양. 선두권에 8번 관악산스카이.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    2,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 77.967,
+   "line": "2번 용비태양이 선두입니다. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "2": "right",
+    "6": "close"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    2,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 80.967,
+   "line": "선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    6,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 83.967,
+   "line": "8번 관악산스카이, 계속 선두입니다. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    6,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 86.967,
+   "line": "여전히 선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 89.967,
+   "line": "8번 관악산스카이, 계속 선두입니다. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 92.967,
+   "line": "여전히 선두는 8번 관악산스카이. 선두권에 6번 내길의위너.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 95.967,
+   "line": "선두는 8번 관악산스카이.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 97.467,
+   "line": "결승선 통과! 8번 관악산스카이가 가장 먼저 들어옵니다!",
+   "winner_call": 8,
+   "official_winner": 8,
+   "verdict": "right"
+  }
+ ]
+}

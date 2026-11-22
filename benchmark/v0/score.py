@@ -58,7 +58,85 @@ LEADER_EN = re.compile(
     re.I)
 
 
-def claims(pred):
+# ---- rules v1 for Korean leader claims (2026-11-22, score1/DESIGN_KO.md). The default stays v0: set RULES = "v1" or give --rules v1 ----
+RULES = "v0"
+_SEG = re.compile(r"[.!?,]+")
+_NOT_NAME = r"(?!선두|앞|맨|가장|우승|현재|지금|계속|여전히|다시|단독|크게|근소|살짝|바로|역시|먼저|안쪽|바깥|뒤|서울|출발|경주)"
+_NAME = rf"(?:\s+{_NOT_NAME}[가-힣]{{2,10}}?)?"
+_SUBJ = re.compile(rf"(\d+)\s*번{_NAME}\s*(?:이|가|은|는)(?:(?![가-힣])|(?=선두|앞|맨|가장))")
+_ALSO = re.compile(rf"(\d+)\s*번{_NAME}\s*도(?![가-힣])")
+_OBJ_AFTER = re.compile(r"\s*(?:을|를|보다|에게|의|도|과|와|하고|랑|까지|마저)(?![가-힣])")
+_JOINED_BEFORE = re.compile(rf"\d+\s*번{_NAME}\s*(?:과|와|하고|이랑|랑|및|그리고)\s*$")
+_ONLY_NUMBER = re.compile(r"\s*(\d+)\s*번(?:\s+[가-힣]{2,10})?\s*")
+_LEAD = re.compile(r"선두(?!권|\s*(?:그룹|무리|집단))|앞서(?!\s*(?:가는|가던|달리는|있는|나가는)\s*(?:\d|말|무리|선두))|앞선\s*(?:가운데|채|상황|상태)|앞섭|앞장|앞을\s*달리|맨\s*앞|이끌|이끕|리드|가장\s*먼저|(?<!\d)1\s*위|(?<!\d)1\s*착|우승")
+_CHASE = re.compile(r"추격|쫓|따라가|따라붙|따라잡|따르|뒤를|뒤에서|뒤로|바로\s*뒤|노리|노려|위협|압박|넘보|도전|격차|좁히|줄이|다툼|다투|다툽|경쟁|경합|접전|싸움|맞붙|내주|내줬|빼앗|밀려|놓치|놓쳤")
+_TOGETHER = re.compile(r"나란히|함께|같이|동시에")
+_MODIFIES_NEXT = re.compile(r"\s*(?:의|인|에\s*선|에\s*있는|를\s*달리는|를\s*지키는|를\s*이끄는)?\s*")
+_NUM_THEN_LEAD = re.compile(r"(\d+)\s*번\s*선두(?!권|\s*(?:그룹|무리|집단))")
+
+
+_NOUN_LEAD = re.compile(r"선두|맨\s*앞|1\s*위|1\s*착")
+_NEXT_VERB = re.compile(r"(?:고|며|면서|는데|지만)(?=\s|$)")
+
+
+def _clean(before, after, word="선두"):
+    """No word for chasing, sharing or losing the lead before the leading word; and, when the leading word is a noun ("선두를 추격",
+    "선두에서 나란히", "선두 다툼"), none in the rest of its own verb phrase either."""
+    if _CHASE.search(before) or _TOGETHER.search(before):
+        return False
+    if not _NOUN_LEAD.fullmatch(word):
+        return True
+    cut = _NEXT_VERB.search(after)
+    own = after[:cut.start()] if cut else after
+    return not (_CHASE.search(own) or _TOGETHER.search(own))
+
+
+def leaders_ko_v1(text):
+    """Numbers a Korean sentence names as the one horse in front, read piece by piece (pieces end at punctuation).
+    A number counts when it is the subject of a word for leading ("3번이 크게 앞서고"), stands right before "선두" ("3번 선두"), or is
+    the only number of a piece that says who leads ("선두는 3번"); not when the piece speaks of chasing, of two horses together, or of
+    the leading group."""
+    out, carry, prev_only = set(), None, False          # carry: the number of a piece that is only "N번 (name)"
+    for seg in _SEG.split(text):
+        if not seg or not seg.strip():
+            continue
+        only = _ONLY_NUMBER.fullmatch(seg)
+        if only:
+            carry, prev_only = (None if prev_only else int(only.group(1))), True          # "4번, 3번, ..." is a list: no single subject
+            continue
+        nums = [(m.start(), m.end()) for m in NUMBER.finditer(seg)]
+        subjects = list(_SUBJ.finditer(seg))
+        stops = sorted([m.start() for m in subjects] + [m.start() for m in _ALSO.finditer(seg)])
+        for sm in subjects:
+            if _JOINED_BEFORE.search(seg[:sm.start()]) or (prev_only and not seg[:sm.start()].strip()):
+                continue                                                                  # "3번과 4번이", "3번, 4번이": not one horse
+            end = next((p for p in stops if p > sm.start()), len(seg))
+            window = seg[sm.end():end]
+            for lm in _LEAD.finditer(window):
+                before, after = window[:lm.start()], window[lm.end():]
+                nxt = NUMBER.search(after)
+                cut = after[:nxt.start()] if nxt else after
+                if nxt and _MODIFIES_NEXT.fullmatch(cut):
+                    continue                                                              # "선두 3번을 ...": the leading word belongs to the next number
+                if _clean(before, cut, lm.group(0)):
+                    out.add(int(sm.group(1)))
+                break
+        for m in _NUM_THEN_LEAD.finditer(seg):                                            # "3번 선두", "9번선두"
+            after = seg[m.end():]
+            nxt = NUMBER.search(after)
+            if not _JOINED_BEFORE.search(seg[:m.start()]) and _clean("", after[:nxt.start()] if nxt else after):
+                out.add(int(m.group(1)))
+        lead = _LEAD.search(seg)
+        if lead and not subjects and not (_CHASE.search(seg) or _TOGETHER.search(seg)):
+            if not nums and carry is not None:
+                out.add(carry)                                                            # "2번 용비태양, 선두를 지킵니다"
+            elif len(nums) == 1 and not _OBJ_AFTER.match(seg[nums[0][1]:]) and not _NUM_THEN_LEAD.search(seg):
+                out.add(int(NUMBER.search(seg).group(1)))                                 # "선두는 3번", "우승은 8번"
+        carry, prev_only = None, False
+    return sorted(out)
+
+
+def claims(pred, rules=None):
     text = (pred or {}).get("text") or ""
     if (pred or {}).get("lang") == "en":
         text = NOS_EN.sub(lambda m: " and ".join("No. " + n for n in re.findall(r"\d+", m.group(1))), text)
@@ -66,7 +144,7 @@ def claims(pred):
         leaders = sorted({int(n) for m in LEADER_EN.finditer(text) for n in NUMBER_EN.findall(m.group("a") or m.group("b"))})
     else:
         found = sorted({int(n) for n in NUMBER.findall(text)})
-        leaders = sorted({int(g) for m in LEADER.finditer(text) for g in m.groups() if g})
+        leaders = leaders_ko_v1(text) if (rules or RULES) == "v1" else sorted({int(g) for m in LEADER.finditer(text) for g in m.groups() if g})
     nums = pred["numbers"] if pred and "numbers" in pred else found
     if pred and "leader" in pred:
         lead = [pred["leader"]] if pred["leader"] is not None else []
@@ -157,8 +235,10 @@ def main():
     ap.add_argument("--track", default="strip", choices=("strip", "official", "all"))
     ap.add_argument("--part", choices=("strip", "start", "middle", "finish", "finish_itself"))
     ap.add_argument("--out")
+    ap.add_argument("--rules", default="v0", choices=("v0", "v1"), help="how Korean leader claims are read: v0 = the published tables; v1 = wider (score1/RESULT_KO.md)")
     ap.add_argument("--only-answered", action="store_true", help="score only the items that have a line (for a run that is not finished)")
     a = ap.parse_args()
+    globals()["RULES"] = a.rules
     rs = rows(a.predictions, a.split, a.track, a.part)
     if a.only_answered:
         rs = [r for r in rs if r["answered"]]

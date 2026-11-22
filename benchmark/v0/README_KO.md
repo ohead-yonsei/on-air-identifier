@@ -194,6 +194,8 @@ python3 benchmark/v0/score.py 내_출력.jsonl --track official   # 띠 없는 �
 python3 benchmark/v0/score.py 내_출력.jsonl --track all        # 두 묶음을 합쳐서 (한 파일에 두 묶음의 줄을 모두 넣는다)
 ```
 
+`--rules v1`을 붙이면 한국어 선두 주장을 더 넓게 읽는다("6번이 크게 앞서고", "4번이 가장 먼저 결승선을 통과합니다"; 함께 말한 것과 쫓는 쪽은 읽지 않음). 기본값 v0은 이 문서의 표를 낸 규칙이고, 문장 틀 기준선은 두 규칙에서 값이 같다. 자연스러운 문장을 쓰는 시스템은 v1로 재기를 권한다(`experiments/onair_labelset_20261117/score1/RESULT_KO.md`).
+
 출력 파일은 한 줄에 한 문항이다: `{"id": "20260919_R01_t029", "text": "선두는 3번, 선두권에 5번도 있습니다."}`. 영어 문장은 `{"id": ..., "text": "No. 3 leads, with No. 5 in the leading group.", "lang": "en"}`처럼 적는다. 그 밖의 언어는 `"numbers": [3, 5]`, `"leader": 3`을 함께 적으면 문장 대신 그 값을 쓴다. 띠 없는 문항의 입력 그림은 `make_inputs.py --items items_official.jsonl`로 만든다.
 
 ## 파일

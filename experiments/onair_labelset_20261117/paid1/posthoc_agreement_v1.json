@@ -1,0 +1,42 @@
+{
+ "Terra free": {
+  "right": 77,
+  "wrong": 29,
+  "said": 106
+ },
+ "Terra careful": {
+  "right": 56,
+  "wrong": 19,
+  "said": 75
+ },
+ "identifier v11": {
+  "right": 38,
+  "wrong": 22,
+  "said": 60
+ },
+ "free & careful agree": {
+  "right": 56,
+  "wrong": 17,
+  "said": 73
+ },
+ "free & v11 agree": {
+  "right": 33,
+  "wrong": 12,
+  "said": 45
+ },
+ "free, unless v11 names another": {
+  "right": 70,
+  "wrong": 25,
+  "said": 95
+ },
+ "all three agree": {
+  "right": 26,
+  "wrong": 4,
+  "said": 30
+ },
+ "free, else v11": {
+  "right": 79,
+  "wrong": 31,
+  "said": 110
+ }
+}

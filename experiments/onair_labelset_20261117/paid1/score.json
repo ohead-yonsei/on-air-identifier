@@ -1,0 +1,334 @@
+{
+ "races": [
+  "20260905_R09",
+  "20260912_R08",
+  "20260919_R04",
+  "20261003_R08"
+ ],
+ "rows": {
+  "번호를 말하지 않기": {
+   "all": {
+    "items": 113,
+    "leader right": 0.0,
+    "leader wrong": 0.0,
+    "no leader said": 100,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 0.0,
+    "A": null,
+    "B": 0.0,
+    "numbers per item": 0.0,
+    "numbers not in the race": 0
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 0.0,
+    "leader wrong": 0.0,
+    "no leader said": 100,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 0.0,
+    "A": null,
+    "B": 0.0,
+    "numbers per item": 0.0,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 0.0,
+    "leader wrong": 0.0,
+    "no leader said": 100,
+    "leader wrong, within 3 m counted right": 0.0,
+    "sentences with a wrong number": 0.0,
+    "A": null,
+    "B": 0.0,
+    "numbers per item": 0.0,
+    "numbers not in the race": 0
+   }
+  },
+  "무작위 셋": {
+   "all": {
+    "items": 113,
+    "leader right": 10.6,
+    "leader wrong": 89.4,
+    "no leader said": 0.0,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 100.0,
+    "A": 30.7,
+    "B": 75.2,
+    "numbers per item": 3.0,
+    "numbers not in the race": 0
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 4.9,
+    "leader wrong": 95.1,
+    "no leader said": 0.0,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 100.0,
+    "A": 31.1,
+    "B": 75.4,
+    "numbers per item": 3.0,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 17.3,
+    "leader wrong": 82.7,
+    "no leader said": 0.0,
+    "leader wrong, within 3 m counted right": 76.9,
+    "sentences with a wrong number": 100.0,
+    "A": 30.1,
+    "B": 75.0,
+    "numbers per item": 3.0,
+    "numbers not in the race": 0
+   }
+  },
+  "로컬 Qwen 3.5 9B, 자유롭게": {
+   "all": {
+    "items": 113,
+    "leader right": 11.5,
+    "leader wrong": 87.6,
+    "no leader said": 0.9,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 69.0,
+    "A": 31.1,
+    "B": 32.7,
+    "numbers per item": 1.08,
+    "numbers not in the race": 1
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 6.6,
+    "leader wrong": 93.4,
+    "no leader said": 0.0,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 78.7,
+    "A": 23.1,
+    "B": 23.0,
+    "numbers per item": 1.07,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 17.3,
+    "leader wrong": 80.8,
+    "no leader said": 1.9,
+    "leader wrong, within 3 m counted right": 67.3,
+    "sentences with a wrong number": 57.7,
+    "A": 40.4,
+    "B": 44.2,
+    "numbers per item": 1.1,
+    "numbers not in the race": 1
+   }
+  },
+  "로컬 Qwen 3.5 9B, 확실할 때만": {
+   "all": {
+    "items": 113,
+    "leader right": 0.0,
+    "leader wrong": 4.4,
+    "no leader said": 95.6,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 6.2,
+    "A": 16.7,
+    "B": 1.8,
+    "numbers per item": 0.11,
+    "numbers not in the race": 0
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 0.0,
+    "leader wrong": 1.6,
+    "no leader said": 98.4,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 1.6,
+    "A": 50.0,
+    "B": 1.6,
+    "numbers per item": 0.03,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 0.0,
+    "leader wrong": 7.7,
+    "no leader said": 92.3,
+    "leader wrong, within 3 m counted right": 7.7,
+    "sentences with a wrong number": 11.5,
+    "A": 10.0,
+    "B": 1.9,
+    "numbers per item": 0.19,
+    "numbers not in the race": 0
+   }
+  },
+  "식별기 v9 + 문장 틀": {
+   "all": {
+    "items": 113,
+    "leader right": 36.3,
+    "leader wrong": 18.6,
+    "no leader said": 45.1,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 12.4,
+    "A": 93.4,
+    "B": 91.2,
+    "numbers per item": 1.87,
+    "numbers not in the race": 3
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 39.3,
+    "leader wrong": 14.8,
+    "no leader said": 45.9,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 9.8,
+    "A": 95.0,
+    "B": 96.7,
+    "numbers per item": 1.98,
+    "numbers not in the race": 2
+   },
+   "official": {
+    "items": 52,
+    "leader right": 32.7,
+    "leader wrong": 23.1,
+    "no leader said": 44.2,
+    "leader wrong, within 3 m counted right": 11.5,
+    "sentences with a wrong number": 15.4,
+    "A": 91.1,
+    "B": 84.6,
+    "numbers per item": 1.73,
+    "numbers not in the race": 1
+   }
+  },
+  "식별기 v11 + 문장 틀": {
+   "all": {
+    "items": 113,
+    "leader right": 33.6,
+    "leader wrong": 19.5,
+    "no leader said": 46.9,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 11.5,
+    "A": 93.5,
+    "B": 90.3,
+    "numbers per item": 1.91,
+    "numbers not in the race": 2
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 37.7,
+    "leader wrong": 16.4,
+    "no leader said": 45.9,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 6.6,
+    "A": 96.6,
+    "B": 93.4,
+    "numbers per item": 1.95,
+    "numbers not in the race": 2
+   },
+   "official": {
+    "items": 52,
+    "leader right": 28.8,
+    "leader wrong": 23.1,
+    "no leader said": 48.1,
+    "leader wrong, within 3 m counted right": 11.5,
+    "sentences with a wrong number": 17.3,
+    "A": 89.7,
+    "B": 86.5,
+    "numbers per item": 1.87,
+    "numbers not in the race": 0
+   }
+  },
+  "vlm_terra_free_4races": {
+   "all": {
+    "items": 113,
+    "leader right": 63.7,
+    "leader wrong": 23.0,
+    "no leader said": 13.3,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 5.3,
+    "A": 97.0,
+    "B": 98.2,
+    "numbers per item": 2.1,
+    "numbers not in the race": 0
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 72.1,
+    "leader wrong": 21.3,
+    "no leader said": 6.6,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 1.6,
+    "A": 99.3,
+    "B": 100.0,
+    "numbers per item": 2.25,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 53.8,
+    "leader wrong": 25.0,
+    "no leader said": 21.2,
+    "leader wrong, within 3 m counted right": 11.5,
+    "sentences with a wrong number": 9.6,
+    "A": 94.0,
+    "B": 96.2,
+    "numbers per item": 1.92,
+    "numbers not in the race": 0
+   },
+   "calls": {
+    "answered": 113,
+    "lines with an error": 0,
+    "seconds per call, median": 3.34,
+    "seconds per call, 90th percentile": 4.8,
+    "tokens in per call": 7639,
+    "tokens out per call": 97,
+    "dollars in all (from counted tokens)": 0.918,
+    "dollars per race": 0.23
+   }
+  },
+  "vlm_terra_careful_4races": {
+   "all": {
+    "items": 113,
+    "leader right": 54.0,
+    "leader wrong": 22.1,
+    "no leader said": 23.9,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 10.6,
+    "A": 94.9,
+    "B": 97.3,
+    "numbers per item": 2.25,
+    "numbers not in the race": 0
+   },
+   "strip": {
+    "items": 61,
+    "leader right": 60.7,
+    "leader wrong": 21.3,
+    "no leader said": 18.0,
+    "leader wrong, within 3 m counted right": null,
+    "sentences with a wrong number": 4.9,
+    "A": 98.0,
+    "B": 100.0,
+    "numbers per item": 2.44,
+    "numbers not in the race": 0
+   },
+   "official": {
+    "items": 52,
+    "leader right": 46.2,
+    "leader wrong": 23.1,
+    "no leader said": 30.7,
+    "leader wrong, within 3 m counted right": 11.5,
+    "sentences with a wrong number": 17.3,
+    "A": 90.5,
+    "B": 94.2,
+    "numbers per item": 2.02,
+    "numbers not in the race": 0
+   },
+   "calls": {
+    "answered": 113,
+    "lines with an error": 0,
+    "seconds per call, median": 2.91,
+    "seconds per call, 90th percentile": 4.02,
+    "tokens in per call": 7682,
+    "tokens out per call": 101,
+    "dollars in all (from counted tokens)": 0.925,
+    "dollars per race": 0.231
+   }
+  }
+ }
+}
