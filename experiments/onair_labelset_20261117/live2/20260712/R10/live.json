@@ -1,0 +1,63 @@
+{
+ "video": "otherday23/videos/R10_CHLG35WKqJI.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 10,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "청룡의칼"
+   },
+   {
+    "number": 2,
+    "name": "불타는심장"
+   },
+   {
+    "number": 3,
+    "name": "히어로삭스"
+   },
+   {
+    "number": 4,
+    "name": "검이불루"
+   },
+   {
+    "number": 5,
+    "name": "럭키프랭크"
+   },
+   {
+    "number": 6,
+    "name": "엠제이베스트"
+   },
+   {
+    "number": 7,
+    "name": "그레이트스톰"
+   },
+   {
+    "number": 8,
+    "name": "위즈파이터"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": null,
+  "finish": null,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 7382,
+ "lines": 0,
+ "delay_seconds": {
+  "median": null,
+  "max": null
+ },
+ "furthest_behind_seconds": 0.025,
+ "dense_pictures": {
+  "run": 0,
+  "skipped_when_behind": 0
+ },
+ "events": []
+}

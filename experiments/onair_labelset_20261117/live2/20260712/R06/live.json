@@ -1,0 +1,624 @@
+{
+ "video": "otherday23/videos/R06_AHVKBX9wkYs.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 6,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "섬돌모루"
+   },
+   {
+    "number": 2,
+    "name": "굿카보"
+   },
+   {
+    "number": 3,
+    "name": "크레이지망고"
+   },
+   {
+    "number": 4,
+    "name": "브리도아쿠아"
+   },
+   {
+    "number": 5,
+    "name": "컴플리트디바"
+   },
+   {
+    "number": 6,
+    "name": "포에버길"
+   },
+   {
+    "number": 7,
+    "name": "호세"
+   },
+   {
+    "number": 8,
+    "name": "위대한함성"
+   },
+   {
+    "number": 9,
+    "name": "블루레인"
+   },
+   {
+    "number": 10,
+    "name": "굿모닝컴"
+   },
+   {
+    "number": 11,
+    "name": "라온스필레타"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 5.583333333333333,
+  "finish": 79.45,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5022,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.254,
+  "max": 0.55
+ },
+ "furthest_behind_seconds": 0.535,
+ "dense_pictures": {
+  "run": 63,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 6.583,
+   "race_time": 1.0,
+   "ready": 6.585,
+   "line": "서울 6경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 12.535,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 14.583,
+   "race_time": 9.0,
+   "ready": 14.887,
+   "line": "3번 크레이지망고, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.302,
+   "shown_until": 17.82,
+   "delay": 0.304
+  },
+  {
+   "kind": "point",
+   "video_time": 17.583,
+   "race_time": 12.0,
+   "ready": 17.87,
+   "line": "3번 크레이지망고, 선두에 있습니다. 5번 컴플리트디바도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5489
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.285,
+   "shown_until": 20.787,
+   "delay": 0.287
+  },
+  {
+   "kind": "point",
+   "video_time": 20.583,
+   "race_time": 15.0,
+   "ready": 20.837,
+   "line": "여전히 선두는 3번 크레이지망고. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6397
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "shown_until": 23.787,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 23.583,
+   "race_time": 18.0,
+   "ready": 23.837,
+   "line": "3번 크레이지망고, 계속 선두입니다. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5217
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "shown_until": 26.77,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 26.583,
+   "race_time": 21.0,
+   "ready": 26.82,
+   "line": "여전히 선두는 3번 크레이지망고. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6537
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 29.814,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 29.583,
+   "race_time": 24.0,
+   "ready": 29.864,
+   "line": "3번 크레이지망고, 계속 선두입니다. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5826
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.279,
+   "shown_until": 32.784,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 32.583,
+   "race_time": 27.0,
+   "ready": 32.834,
+   "line": "여전히 선두는 3번 크레이지망고. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 35.809,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 35.583,
+   "race_time": 30.0,
+   "ready": 35.859,
+   "line": "3번 크레이지망고, 계속 선두입니다. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5719
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.274,
+   "shown_until": 38.767,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 38.583,
+   "race_time": 33.0,
+   "ready": 38.817,
+   "line": "5번 컴플리트디바가 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 41.786,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 41.583,
+   "race_time": 36.0,
+   "ready": 41.836,
+   "line": "선두권에 1번 섬돌모루, 3번 크레이지망고, 5번 컴플리트디바. 3번 크레이지망고가 1번 섬돌모루보다 앞에 있습니다.",
+   "statements": [
+    1,
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 1,
+     "gap": 0.5688
+    },
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3886
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "shown_until": 45.083,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 44.583,
+   "race_time": 39.0,
+   "ready": 45.133,
+   "line": "3번 크레이지망고, 5번 컴플리트디바, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.549,
+   "shown_until": 47.773,
+   "delay": 0.55
+  },
+  {
+   "kind": "point",
+   "video_time": 47.583,
+   "race_time": 42.0,
+   "ready": 47.823,
+   "line": "선두권은 그대로 3번 크레이지망고, 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 50.784,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 50.583,
+   "race_time": 45.0,
+   "ready": 50.834,
+   "line": "3번 크레이지망고, 5번 컴플리트디바, 계속 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3939
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 53.797,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 53.583,
+   "race_time": 48.0,
+   "ready": 53.847,
+   "line": "3번 크레이지망고, 선두에 있습니다. 5번 컴플리트디바도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3427
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "shown_until": 56.772,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 56.583,
+   "race_time": 51.0,
+   "ready": 56.822,
+   "line": "여전히 선두는 3번 크레이지망고. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3874
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 59.783,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 59.583,
+   "race_time": 54.0,
+   "ready": 59.833,
+   "line": "3번 크레이지망고, 계속 선두입니다. 선두권에 5번 컴플리트디바.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.2582
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 62.805,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 62.583,
+   "race_time": 57.0,
+   "ready": 62.855,
+   "line": "선두는 3번 크레이지망고. 5번 컴플리트디바, 11번 라온스필레타도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    11
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 11,
+     "gap": 0.2518
+    },
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.2571
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "shown_until": 65.787,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 65.6,
+   "race_time": 60.02,
+   "ready": 65.837,
+   "line": "5번 컴플리트디바, 선두에 있습니다. 3번 크레이지망고도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.286
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 68.773,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 68.6,
+   "race_time": 63.02,
+   "ready": 68.823,
+   "line": "선두권에 5번 컴플리트디바, 8번 위대한함성이 있습니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.222,
+   "shown_until": 71.992,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 71.583,
+   "race_time": 66.0,
+   "ready": 72.042,
+   "line": "5번 컴플리트디바, 8번 위대한함성, 계속 선두권입니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.032,
+   "work_seconds": 0.427,
+   "shown_until": 75.079,
+   "delay": 0.459
+  },
+  {
+   "kind": "point",
+   "video_time": 74.583,
+   "race_time": 69.0,
+   "ready": 75.129,
+   "line": "선두권에 6번 포에버길, 8번 위대한함성. 8번 위대한함성이 6번 포에버길보다 앞에 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.4441
+    }
+   ],
+   "late_at_start": 0.049,
+   "work_seconds": 0.496,
+   "shown_until": 78.066,
+   "delay": 0.546
+  },
+  {
+   "kind": "point",
+   "video_time": 77.583,
+   "race_time": 72.0,
+   "ready": 78.116,
+   "line": "선두권은 그대로 6번 포에버길, 8번 위대한함성.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.4329
+    }
+   ],
+   "late_at_start": 0.047,
+   "work_seconds": 0.484,
+   "shown_until": 80.988,
+   "delay": 0.533
+  },
+  {
+   "kind": "point",
+   "video_time": 80.583,
+   "race_time": 75.0,
+   "ready": 81.038,
+   "line": "6번 포에버길, 8번 위대한함성, 계속 선두권입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.002,
+   "work_seconds": 0.451,
+   "shown_until": 80.999,
+   "delay": 0.455
+  },
+  {
+   "kind": "finish",
+   "video_time": 80.667,
+   "race_time": 75.08,
+   "ready": 81.049,
+   "line": "결승선 통과! 8번 위대한함성이 가장 먼저 들어옵니다!",
+   "winner": 8,
+   "winner_call": {
+    "candidate": 8,
+    "pictures_naming_each": {
+     "1": 1,
+     "8": 5,
+     "6": 1
+    },
+    "seen": 4,
+    "front": 3,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 79.45,
+   "seconds_after_the_finish": 1.6,
+   "work_seconds": 0.0,
+   "shown_until": 86.999,
+   "delay": 0.382
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 7,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "드림아일"
+  },
+  {
+   "number": 2,
+   "name": "토호스카이"
+  },
+  {
+   "number": 3,
+   "name": "무빙볼케이노"
+  },
+  {
+   "number": 4,
+   "name": "우아센"
+  },
+  {
+   "number": 6,
+   "name": "빅토리삭스"
+  },
+  {
+   "number": 7,
+   "name": "블루피오라"
+  },
+  {
+   "number": 8,
+   "name": "엔딩파이어"
+  },
+  {
+   "number": 9,
+   "name": "팰로앨토"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

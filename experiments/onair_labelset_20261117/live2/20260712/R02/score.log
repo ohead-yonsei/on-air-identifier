@@ -1,0 +1,6 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 40, 'numbers right': 36, 'numbers close': 4, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 3, 'leader right': 3, 'leader close': 0, 'leader wrong': 0}
+   17.62 numbers {8: 'close'} leader None None | official first four [5, 4, 1, 8] | 선두권에 8번 미스크리스티가 있습니다.
+   23.62 numbers {3: 'close', 5: 'right', 8: 'right'} leader None None | official first four [5, 4, 8, 3] | 선두권에 3번 래피드총알, 5번 위너남촌, 8번 미스크리스티. 5번 위너남촌이 3번 래피드총알보다 앞에 있습니다.
+   35.62 numbers {6: 'right', 8: 'close'} leader None None | official first four [5, 4, 6, 8] | 6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.
+   38.62 numbers {8: 'close'} leader None None | official first four [5, 4, 6, 8] | 선두권에 8번 미스크리스티가 있습니다.
+finish: None official 4 no call

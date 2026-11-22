@@ -1,0 +1,13 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 46, 'numbers right': 42, 'numbers close': 0, 'numbers wrong': 4, 'lines with a wrong number': 4, 'leader lines': 13, 'leader right': 6, 'leader close': 4, 'leader wrong': 3}
+   17.58 numbers {3: 'right', 5: 'right'} leader 3 close | official first four [5, 3, 11, 7] | 3번 크레이지망고, 선두에 있습니다. 5번 컴플리트디바도 선두권입니다.
+   38.58 numbers {5: 'right'} leader 5 close | official first four [3, 5, 11, 7] | 5번 컴플리트디바가 선두입니다.
+   41.58 numbers {1: 'wrong', 3: 'right', 5: 'right'} leader None None | official first four [3, 11, 5, 8] | 선두권에 1번 섬돌모루, 3번 크레이지망고, 5번 컴플리트디바. 3번 크레이지망고가 1번 섬돌모루보다 앞에 있습니다.
+   53.58 numbers {3: 'right', 5: 'right'} leader 3 close | official first four [11, 5, 3, 8] | 3번 크레이지망고, 선두에 있습니다. 5번 컴플리트디바도 선두권입니다.
+   56.58 numbers {3: 'right', 5: 'right'} leader 3 wrong | official first four [11, 5, 3, 8] | 여전히 선두는 3번 크레이지망고. 선두권에 5번 컴플리트디바.
+   59.58 numbers {3: 'right', 5: 'right'} leader 3 wrong | official first four [11, 5, 3, 8] | 3번 크레이지망고, 계속 선두입니다. 선두권에 5번 컴플리트디바.
+   62.58 numbers {3: 'right', 5: 'right', 11: 'right'} leader 3 wrong | official first four [11, 5, 3, 8] | 선두는 3번 크레이지망고. 5번 컴플리트디바, 11번 라온스필레타도 선두권입니다.
+   65.60 numbers {3: 'right', 5: 'right'} leader 5 close | official first four [11, 5, 3, 8] | 5번 컴플리트디바, 선두에 있습니다. 3번 크레이지망고도 선두권입니다.
+   74.58 numbers {6: 'wrong', 8: 'right'} leader None None | official first four [11, 8, 4, 5] | 선두권에 6번 포에버길, 8번 위대한함성. 8번 위대한함성이 6번 포에버길보다 앞에 있습니다.
+   77.58 numbers {6: 'wrong', 8: 'right'} leader None None | official first four [11, 8, 4, 6] | 선두권은 그대로 6번 포에버길, 8번 위대한함성.
+   80.58 numbers {6: 'wrong', 8: 'right'} leader None None | official first four [8, 11, 4, 6] | 6번 포에버길, 8번 위대한함성, 계속 선두권입니다.
+finish: 8 official 8 right

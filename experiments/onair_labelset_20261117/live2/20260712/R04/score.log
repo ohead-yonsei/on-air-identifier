@@ -1,0 +1,11 @@
+{'lines': 29, 'lines with a number': 27, 'numbers': 51, 'numbers right': 45, 'numbers close': 4, 'numbers wrong': 2, 'lines with a wrong number': 1, 'leader lines': 15, 'leader right': 10, 'leader close': 1, 'leader wrong': 4}
+   36.80 numbers {1: 'right', 9: 'right'} leader 1 wrong | official first four [9, 1, 3, 2] | 1번 대한코코즈, 선두에 있습니다. 선두권에 9번 온누리빛.
+   42.80 numbers {1: 'right', 9: 'right'} leader 1 wrong | official first four [9, 1, 3, 2] | 1번 대한코코즈, 선두에 있습니다. 9번 온누리빛도 선두권입니다.
+   75.80 numbers {2: 'close', 3: 'right', 9: 'right'} leader 9 close | official first four [3, 9, 4, 2] | 9번 온누리빛, 선두에 있습니다. 선두권에 2번 리걸하이, 3번 이클립스서니.
+   78.80 numbers {3: 'right', 9: 'right'} leader 9 wrong | official first four [3, 4, 9, 2] | 9번 온누리빛이 선두입니다. 선두권에 3번 이클립스서니.
+   81.80 numbers {4: 'right', 9: 'close'} leader None None | official first four [4, 3, 8, 9] | 선두권에 4번 겨울장미, 9번 온누리빛. 9번 온누리빛이 4번 겨울장미보다 앞에 있습니다.
+   84.80 numbers {2: 'wrong', 3: 'right', 9: 'wrong'} leader None None | official first four [4, 3, 8, 7] | 2번 리걸하이, 3번 이클립스서니, 9번 온누리빛, 선두권에서 달립니다.
+   90.80 numbers {3: 'right', 8: 'right'} leader 8 wrong | official first four [4, 3, 8, 7] | 8번 핵다이아, 선두에 있습니다. 선두권에 3번 이클립스서니.
+   99.80 numbers {4: 'right', 7: 'close'} leader None None | official first four [4, 8, 3, 7] | 선두권에 4번 겨울장미, 7번 럭키데이가 있습니다.
+  102.80 numbers {7: 'close'} leader None None | official first four [4, 8, 3, 7] | 7번 럭키데이, 선두권에서 달립니다.
+finish: 4 official 4 right

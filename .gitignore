@@ -47,3 +47,6 @@ experiments/onair_labelset_20261117/winner/explore/look_A.json
 
 # the one subtitled demo video on the site (user's request, 2026-11-22)
 !docs/media/live-20261108-r11.mp4
+
+# raw KRA result sheets (rider, trainer and owner names) fetched by ls1_racecard.py (2026-11-23)
+experiments/onair_labelset_20261117/live2/raw/

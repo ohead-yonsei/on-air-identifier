@@ -1,0 +1,458 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 27,
+  "numbers": 51,
+  "numbers right": 45,
+  "numbers close": 4,
+  "numbers wrong": 2,
+  "lines with a wrong number": 1,
+  "leader lines": 15,
+  "leader right": 10,
+  "leader close": 1,
+  "leader wrong": 4
+ },
+ "delay_seconds": {
+  "median": 0.239,
+  "max": 0.829
+ },
+ "rows": [
+  {
+   "video_time": 24.8,
+   "line": "3번 이클립스서니, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 27.8,
+   "line": "선두권에 9번 온누리빛이 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 30.8,
+   "line": "3번 이클립스서니, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 33.8,
+   "line": "선두권은 그대로 3번 이클립스서니.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 36.8,
+   "line": "1번 대한코코즈, 선두에 있습니다. 선두권에 9번 온누리빛.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "wrong",
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 39.8,
+   "line": "1번 대한코코즈, 9번 온누리빛, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 42.8,
+   "line": "1번 대한코코즈, 선두에 있습니다. 9번 온누리빛도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "wrong",
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 45.8,
+   "line": "9번 온누리빛이 선두입니다. 1번 대한코코즈도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 48.8,
+   "line": "여전히 선두는 9번 온누리빛. 선두권에 1번 대한코코즈.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 51.8,
+   "line": "9번 온누리빛, 계속 선두입니다. 선두권에 1번 대한코코즈.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 54.8,
+   "line": "9번 온누리빛, 선두에 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "video_time": 57.8,
+   "line": "선두권에 3번 이클립스서니, 9번 온누리빛. 9번 온누리빛이 3번 이클립스서니보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "video_time": 60.8,
+   "line": "선두는 9번 온누리빛. 선두권에 2번 리걸하이.",
+   "numbers": {
+    "2": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 63.8,
+   "line": "9번 온누리빛, 계속 선두입니다. 선두권에 2번 리걸하이.",
+   "numbers": {
+    "2": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 66.8,
+   "line": "여전히 선두는 9번 온누리빛. 선두권에 2번 리걸하이.",
+   "numbers": {
+    "2": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 69.8,
+   "line": "9번 온누리빛이 선두입니다. 선두권에 2번 리걸하이, 3번 이클립스서니.",
+   "numbers": {
+    "2": "right",
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 72.8,
+   "line": "선두는 9번 온누리빛. 선두권에 3번 이클립스서니.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    3,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 75.8,
+   "line": "9번 온누리빛, 선두에 있습니다. 선두권에 2번 리걸하이, 3번 이클립스서니.",
+   "numbers": {
+    "2": "close",
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 78.8,
+   "line": "9번 온누리빛이 선두입니다. 선두권에 3번 이클립스서니.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "wrong",
+   "official_order": [
+    3,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 81.8,
+   "line": "선두권에 4번 겨울장미, 9번 온누리빛. 9번 온누리빛이 4번 겨울장미보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "9": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 84.8,
+   "line": "2번 리걸하이, 3번 이클립스서니, 9번 온누리빛, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "wrong",
+    "3": "right",
+    "9": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 87.8,
+   "line": "선두권에 3번 이클립스서니, 8번 핵다이아가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 90.8,
+   "line": "8번 핵다이아, 선두에 있습니다. 선두권에 3번 이클립스서니.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "wrong",
+   "official_order": [
+    4,
+    3,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 93.8,
+   "line": "4번 겨울장미가 선두입니다. 선두권에 3번 이클립스서니, 8번 핵다이아.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 96.8,
+   "line": "4번 겨울장미, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 99.8,
+   "line": "선두권에 4번 겨울장미, 7번 럭키데이가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 102.8,
+   "line": "7번 럭키데이, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 103.567,
+   "line": "결승선 통과! 4번 겨울장미가 가장 먼저 들어옵니다!",
+   "winner_call": 4,
+   "official_winner": 4,
+   "verdict": "right"
+  }
+ ]
+}

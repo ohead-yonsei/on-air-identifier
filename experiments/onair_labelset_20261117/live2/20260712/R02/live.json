@@ -1,0 +1,572 @@
+{
+ "video": "otherday23/videos/R02_lSKtVQaxgQQ.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 2,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "스톰크러시"
+   },
+   {
+    "number": 2,
+    "name": "일루전포스"
+   },
+   {
+    "number": 3,
+    "name": "래피드총알"
+   },
+   {
+    "number": 4,
+    "name": "나인스피어"
+   },
+   {
+    "number": 5,
+    "name": "위너남촌"
+   },
+   {
+    "number": 6,
+    "name": "라온익스트림"
+   },
+   {
+    "number": 7,
+    "name": "러빙퍼플"
+   },
+   {
+    "number": 8,
+    "name": "미스크리스티"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 5.616666666666666,
+  "finish": 79.867,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5047,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.241,
+  "max": 0.563
+ },
+ "furthest_behind_seconds": 0.549,
+ "dense_pictures": {
+  "run": 64,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 6.683,
+   "race_time": 1.07,
+   "ready": 6.685,
+   "line": "서울 2경주 1200m, 8두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 12.635,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 14.617,
+   "race_time": 9.0,
+   "ready": 14.915,
+   "line": "1번 스톰크러시, 선두권에서 달립니다.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.297,
+   "shown_until": 17.805,
+   "delay": 0.298
+  },
+  {
+   "kind": "point",
+   "video_time": 17.617,
+   "race_time": 12.0,
+   "ready": 17.855,
+   "line": "선두권에 8번 미스크리스티가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 20.807,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 20.617,
+   "race_time": 15.0,
+   "ready": 20.857,
+   "line": "8번 미스크리스티, 계속 선두권입니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 23.806,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 23.617,
+   "race_time": 18.0,
+   "ready": 23.856,
+   "line": "선두권에 3번 래피드총알, 5번 위너남촌, 8번 미스크리스티. 5번 위너남촌이 3번 래피드총알보다 앞에 있습니다.",
+   "statements": [
+    3,
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.292
+    },
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.2869
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 26.838,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 26.617,
+   "race_time": 21.0,
+   "ready": 26.888,
+   "line": "선두권에 5번 위너남촌이 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "shown_until": 29.962,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 29.617,
+   "race_time": 24.0,
+   "ready": 30.012,
+   "line": "5번 위너남촌, 계속 선두권입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.394,
+   "shown_until": 32.834,
+   "delay": 0.395
+  },
+  {
+   "kind": "point",
+   "video_time": 32.617,
+   "race_time": 27.0,
+   "ready": 32.884,
+   "line": "선두권에 4번 나인스피어가 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "shown_until": 35.804,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 35.617,
+   "race_time": 30.0,
+   "ready": 35.854,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 38.805,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 38.617,
+   "race_time": 33.0,
+   "ready": 38.855,
+   "line": "선두권에 8번 미스크리스티가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 41.808,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 41.617,
+   "race_time": 36.0,
+   "ready": 41.858,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 44.831,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 44.617,
+   "race_time": 39.0,
+   "ready": 44.881,
+   "line": "선두권은 그대로 6번 라온익스트림, 8번 미스크리스티.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "shown_until": 47.799,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 47.617,
+   "race_time": 42.0,
+   "ready": 47.849,
+   "line": "선두권에 4번 나인스피어, 6번 라온익스트림, 8번 미스크리스티. 8번 미스크리스티가 4번 나인스피어보다 앞에 있습니다.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.2601
+    },
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3803
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 50.805,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 50.617,
+   "race_time": 45.0,
+   "ready": 50.855,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 53.792,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 53.617,
+   "race_time": 48.0,
+   "ready": 53.842,
+   "line": "선두권에 4번 나인스피어, 6번 라온익스트림, 8번 미스크리스티. 4번 나인스피어가 6번 라온익스트림보다 앞에 있습니다.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.4053
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.3835
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 56.8,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 56.617,
+   "race_time": 51.0,
+   "ready": 56.85,
+   "line": "선두권에 6번 라온익스트림, 8번 미스크리스티가 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 59.822,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 59.617,
+   "race_time": 54.0,
+   "ready": 59.872,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 계속 선두권입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "shown_until": 62.797,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 62.617,
+   "race_time": 57.0,
+   "ready": 62.847,
+   "line": "4번 나인스피어, 선두에 있습니다. 6번 라온익스트림, 8번 미스크리스티도 선두권입니다.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.5012
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.7302
+    },
+    {
+     "ahead": 6,
+     "behind": 8,
+     "gap": 0.2291
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 65.808,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 65.633,
+   "race_time": 60.02,
+   "ready": 65.858,
+   "line": "여전히 선두는 4번 나인스피어. 선두권에 6번 라온익스트림, 8번 미스크리스티.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.4005
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.526
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.223,
+   "shown_until": 68.985,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 68.633,
+   "race_time": 63.02,
+   "ready": 69.035,
+   "line": "4번 나인스피어, 선두에 있습니다. 선두권에 6번 라온익스트림.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.3472
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.401,
+   "shown_until": 72.092,
+   "delay": 0.402
+  },
+  {
+   "kind": "point",
+   "video_time": 71.617,
+   "race_time": 66.0,
+   "ready": 72.142,
+   "line": "6번 라온익스트림, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.047,
+   "work_seconds": 0.477,
+   "shown_until": 75.13,
+   "delay": 0.525
+  },
+  {
+   "kind": "point",
+   "video_time": 74.617,
+   "race_time": 69.0,
+   "ready": 75.18,
+   "line": "선두권은 그대로 6번 라온익스트림.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.071,
+   "work_seconds": 0.49,
+   "shown_until": 78.071,
+   "delay": 0.563
+  },
+  {
+   "kind": "point",
+   "video_time": 77.617,
+   "race_time": 72.0,
+   "ready": 78.121,
+   "line": "6번 라온익스트림, 계속 선두권입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.008,
+   "work_seconds": 0.495,
+   "shown_until": 81.058,
+   "delay": 0.504
+  },
+  {
+   "kind": "point",
+   "video_time": 80.617,
+   "race_time": 75.0,
+   "ready": 81.108,
+   "line": "선두권은 그대로 6번 라온익스트림.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.021,
+   "work_seconds": 0.47,
+   "shown_until": 81.234,
+   "delay": 0.491
+  },
+  {
+   "kind": "finish",
+   "video_time": 81.083,
+   "race_time": 75.47,
+   "ready": 81.284,
+   "line": "결승선을 통과했습니다. 서울 2경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "4": 1,
+     "10": 2,
+     "5": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 26
+   },
+   "finish_video_time": 79.867,
+   "seconds_after_the_finish": 1.42,
+   "work_seconds": 0.0,
+   "shown_until": 87.234,
+   "delay": 0.201
+  }
+ ]
+}

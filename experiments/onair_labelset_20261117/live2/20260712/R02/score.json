@@ -1,0 +1,391 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 40,
+  "numbers right": 36,
+  "numbers close": 4,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 3,
+  "leader right": 3,
+  "leader close": 0,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.241,
+  "max": 0.563
+ },
+ "rows": [
+  {
+   "video_time": 14.617,
+   "line": "1번 스톰크러시, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 17.617,
+   "line": "선두권에 8번 미스크리스티가 있습니다.",
+   "numbers": {
+    "8": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 20.617,
+   "line": "8번 미스크리스티, 계속 선두권입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 23.617,
+   "line": "선두권에 3번 래피드총알, 5번 위너남촌, 8번 미스크리스티. 5번 위너남촌이 3번 래피드총알보다 앞에 있습니다.",
+   "numbers": {
+    "3": "close",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 26.617,
+   "line": "선두권에 5번 위너남촌이 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 29.617,
+   "line": "5번 위너남촌, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 32.617,
+   "line": "선두권에 4번 나인스피어가 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 35.617,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "8": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 38.617,
+   "line": "선두권에 8번 미스크리스티가 있습니다.",
+   "numbers": {
+    "8": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 41.617,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 44.617,
+   "line": "선두권은 그대로 6번 라온익스트림, 8번 미스크리스티.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 47.617,
+   "line": "선두권에 4번 나인스피어, 6번 라온익스트림, 8번 미스크리스티. 8번 미스크리스티가 4번 나인스피어보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 50.617,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 53.617,
+   "line": "선두권에 4번 나인스피어, 6번 라온익스트림, 8번 미스크리스티. 4번 나인스피어가 6번 라온익스트림보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 56.617,
+   "line": "선두권에 6번 라온익스트림, 8번 미스크리스티가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 59.617,
+   "line": "6번 라온익스트림, 8번 미스크리스티, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 62.617,
+   "line": "4번 나인스피어, 선두에 있습니다. 6번 라온익스트림, 8번 미스크리스티도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 65.633,
+   "line": "여전히 선두는 4번 나인스피어. 선두권에 6번 라온익스트림, 8번 미스크리스티.",
+   "numbers": {
+    "4": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 68.633,
+   "line": "4번 나인스피어, 선두에 있습니다. 선두권에 6번 라온익스트림.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 71.617,
+   "line": "6번 라온익스트림, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 74.617,
+   "line": "선두권은 그대로 6번 라온익스트림.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    1,
+    7
+   ]
+  },
+  {
+   "video_time": 77.617,
+   "line": "6번 라온익스트림, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    1,
+    7
+   ]
+  },
+  {
+   "video_time": 80.617,
+   "line": "선두권은 그대로 6번 라온익스트림.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    1,
+    7
+   ]
+  },
+  {
+   "video_time": 81.083,
+   "line": "결승선을 통과했습니다. 서울 2경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 4,
+   "verdict": "no call"
+  }
+ ]
+}

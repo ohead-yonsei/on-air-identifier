@@ -1,0 +1,611 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 39,
+  "lines with a number": 35,
+  "numbers": 66,
+  "numbers right": 64,
+  "numbers close": 1,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 17,
+  "leader right": 16,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.255,
+  "max": 0.66
+ },
+ "rows": [
+  {
+   "video_time": 17.45,
+   "line": "5번 큐피드커맨드, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    8,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 20.45,
+   "line": "선두권에 6번 머스킷클리버, 8번 윈캐처가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    8,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 23.45,
+   "line": "5번 큐피드커맨드, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 26.45,
+   "line": "선두권은 그대로 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 29.45,
+   "line": "1800m 경주, 출발 후 21초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 32.45,
+   "line": "선두권에 5번 큐피드커맨드가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 35.45,
+   "line": "8번 윈캐처가 선두입니다. 선두권에 6번 머스킷클리버.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 38.45,
+   "line": "선두는 8번 윈캐처.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 41.45,
+   "line": "여전히 선두는 8번 윈캐처.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 44.45,
+   "line": "선두권에 5번 큐피드커맨드, 8번 윈캐처. 5번 큐피드커맨드가 8번 윈캐처보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 47.45,
+   "line": "8번 윈캐처, 선두에 있습니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 50.45,
+   "line": "8번 윈캐처, 계속 선두입니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 53.45,
+   "line": "여전히 선두는 8번 윈캐처. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 56.45,
+   "line": "8번 윈캐처, 계속 선두입니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 59.45,
+   "line": "서울 9경주 1800m, 출발 후 51초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 62.45,
+   "line": "선두권에 5번 큐피드커맨드, 8번 윈캐처. 8번 윈캐처가 5번 큐피드커맨드보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 65.45,
+   "line": "8번 윈캐처, 선두에 있습니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 68.45,
+   "line": "8번 윈캐처, 계속 선두입니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 71.45,
+   "line": "여전히 선두는 8번 윈캐처. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 74.45,
+   "line": "8번 윈캐처, 계속 선두입니다. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 77.45,
+   "line": "여전히 선두는 8번 윈캐처. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 80.45,
+   "line": "5번 큐피드커맨드, 8번 윈캐처, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 83.45,
+   "line": "선두권에 4번 하이폴리, 5번 큐피드커맨드, 8번 윈캐처. 8번 윈캐처가 4번 하이폴리보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 86.45,
+   "line": "선두는 8번 윈캐처. 5번 큐피드커맨드도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 89.45,
+   "line": "선두권에 5번 큐피드커맨드, 8번 윈캐처. 8번 윈캐처가 5번 큐피드커맨드보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 92.45,
+   "line": "선두권은 그대로 5번 큐피드커맨드, 8번 윈캐처.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 95.45,
+   "line": "선두는 8번 윈캐처. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 98.45,
+   "line": "5번 큐피드커맨드, 선두에 있습니다. 선두권에 4번 하이폴리, 8번 윈캐처.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 101.45,
+   "line": "5번 큐피드커맨드, 8번 윈캐처, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 104.45,
+   "line": "선두권에 4번 하이폴리, 5번 큐피드커맨드가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 107.45,
+   "line": "선두는 4번 하이폴리. 선두권에 5번 큐피드커맨드.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 110.45,
+   "line": "4번 하이폴리, 5번 큐피드커맨드, 8번 윈캐처, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 113.45,
+   "line": "선두권에 5번 큐피드커맨드가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 116.45,
+   "line": "선두권에 4번 하이폴리, 5번 큐피드커맨드. 4번 하이폴리가 5번 큐피드커맨드보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 119.45,
+   "line": "3번 원평코드가 선두입니다. 선두권에 4번 하이폴리, 5번 큐피드커맨드.",
+   "numbers": {
+    "3": "wrong",
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "wrong",
+   "official_order": [
+    4,
+    5,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 122.45,
+   "line": "4번 하이폴리, 7번 럭키붐, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 125.45,
+   "line": "선두권에 7번 럭키붐이 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    2,
+    7,
+    5
+   ]
+  },
+  {
+   "video_time": 127.017,
+   "line": "결승선을 통과했습니다. 서울 9경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 4,
+   "verdict": "no call"
+  }
+ ]
+}

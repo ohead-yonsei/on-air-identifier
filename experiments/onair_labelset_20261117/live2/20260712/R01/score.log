@@ -1,0 +1,8 @@
+{'lines': 20, 'lines with a number': 13, 'numbers': 27, 'numbers right': 27, 'numbers close': 0, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 7, 'leader right': 1, 'leader close': 1, 'leader wrong': 5}
+   35.28 numbers {3: 'right', 4: 'right'} leader 3 close | official first four [4, 3, 2, 7] | 선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.
+   47.28 numbers {3: 'right', 4: 'right'} leader 3 wrong | official first four [4, 3, 7, 2] | 선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.
+   53.28 numbers {3: 'right', 4: 'right'} leader 3 wrong | official first four [4, 3, 7, 10] | 3번 슬링스마일, 선두에 있습니다. 4번 모닝치프도 선두권입니다.
+   56.28 numbers {3: 'right', 4: 'right'} leader 3 wrong | official first four [4, 3, 7, 6] | 여전히 선두는 3번 슬링스마일. 선두권에 4번 모닝치프.
+   59.28 numbers {3: 'right', 4: 'right', 7: 'right'} leader 3 wrong | official first four [4, 3, 7, 6] | 3번 슬링스마일, 선두에 있습니다. 선두권에 4번 모닝치프, 7번 원더그레이스.
+   68.28 numbers {3: 'right', 7: 'right'} leader 7 wrong | official first four [4, 3, 7, 8] | 선두는 7번 원더그레이스. 선두권에 3번 슬링스마일.
+finish: 7 official 4 wrong

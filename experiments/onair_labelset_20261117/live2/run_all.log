@@ -1,0 +1,10 @@
+R01 done: {'clock': {'start': 11.283333333333333, 'finish': 72.417, 'expected_seconds': 62.0}, 'lines': 20, 'delay_seconds': {'median': 0.267, 'max': 0.673}, 'furthest_behind_seconds': 0.658, 'dense_pictures': 
+R02 done: {'clock': {'start': 5.616666666666666, 'finish': 79.867, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'median': 0.241, 'max': 0.563}, 'furthest_behind_seconds': 0.549, 'dense_pictures': {
+R03 done: {'clock': {'start': 8.133333333333333, 'finish': 94.7, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'median': 0.26, 'max': 0.686}, 'furthest_behind_seconds': 0.671, 'dense_pictures': {'ru
+R04 done: {'clock': {'start': 15.799999999999999, 'finish': 102.35, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'median': 0.239, 'max': 0.829}, 'furthest_behind_seconds': 0.815, 'dense_pictures': 
+R06 done: {'clock': {'start': 5.583333333333333, 'finish': 79.45, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'median': 0.254, 'max': 0.55}, 'furthest_behind_seconds': 0.535, 'dense_pictures': {'r
+R07 done: {'clock': {'start': 7.316666666666666, 'finish': 91.467, 'expected_seconds': 88.9}, 'lines': 28, 'delay_seconds': {'median': 0.247, 'max': 0.673}, 'furthest_behind_seconds': 0.659, 'dense_pictures': {
+R08 done: {'clock': {'start': 8.516666666666666, 'finish': 109.417, 'expected_seconds': 105.6}, 'lines': 34, 'delay_seconds': {'median': 0.255, 'max': 0.786}, 'furthest_behind_seconds': 0.772, 'dense_pictures':
+R09 done: {'clock': {'start': 8.45, 'finish': 125.8, 'expected_seconds': 118.8}, 'lines': 39, 'delay_seconds': {'median': 0.255, 'max': 0.66}, 'furthest_behind_seconds': 0.645, 'dense_pictures': {'run': 55, 'sk
+R10 done: {'clock': {'start': None, 'finish': None, 'expected_seconds': 88.9}, 'lines': 0, 'delay_seconds': {'median': None, 'max': None}, 'furthest_behind_seconds': 0.025, 'dense_pictures': {'run': 0, 'skipped
+ALL DONE

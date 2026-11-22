@@ -1,0 +1,10 @@
+# live2 lock, 2026-11-23T01:11:50+0900: written before any racecard, official record or picture of 2026-07-12 was read
+957dd7a1e68af7a349ea0cb76a517144ba2470b535b1519b727c0ef966a49a7a  live2/DESIGN_KO.md
+d8c2bd2404c92be5288310dac9788ddff6e3cf60174ce404ad3397193cb5cab3  live2/run.sh
+374b7cb9543a6d6bd080d977a16723ff006c07371f17c7da03c94952fdae979e  code/lv2_pool.py
+42d3d8ace4223a19acf45d373af92fb481a9334defc74087c1ca5cf34fc13cbf  code/lv1_score.py
+2a9e1c34e5b9e4babe0cf13dca036a40d164da53a7c4247c50e58f0805a696eb  code/ls1_racecard.py
+bc31836e591d1842aa7e3b74927fb36ac64213ae72b7cbcb95b8c750233fa5bf  code/fn_common.py
+7bbb118a634d1314a8e423df05106d80890c0be2577231703cb38801dfdd1b81  code/fn1_official.py
+9b4a616ac86eae8400937690e58a7820bdf8ac3afa41887dd947572edde97cd1  identifier/live_run.py
+3689f477acc9d01c2504a57c332da6882b1eb51ee993d4be2b916edbe6dbb1b0  identifier/identify_l1.py
