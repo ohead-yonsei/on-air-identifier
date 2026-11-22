@@ -18,6 +18,10 @@ What is said
     are run as they come.
   - no line speaks of a change ("moves up", "overtakes"): comparing two time points does not show real changes (top5/RESULT_KO.md).
   - a cap of 11 or above cannot be told apart: such a number is said only when the race card has exactly one runner of 11 or above.
+  - --finish-leader (added 2026-11-23, live3/DESIGN_KO.md): from 36 s before the finish expected from the distance, the leader comes from
+    the finish-stretch model learned on official passing times (identify_l1.py --v10's leader part, finish2/models/fs_leader_all.joblib).
+    The finish is not known while running, so the stretch starts at expected_seconds(distance) - 36 s of race time. Statements, order and
+    the winner call are unchanged. Off by default (live2/RESULT_KO.md: leader lines 58.7 %, mostly wrong 36-12 s before the finish).
 Never read: the running-order strip, the official result, the sound, the distance-to-go band.
 
 Writes OUT/live.json (every line with its times, what the identifier gave, how late the system was), OUT/live.srt and, with ffmpeg,
@@ -175,13 +179,15 @@ def main():
     ap.add_argument("--no-wait", action="store_true", help="do not wait for the wall clock (a test of the code, not a live run)")
     ap.add_argument("--no-names", action="store_true", help="say numbers only")
     ap.add_argument("--no-video", action="store_true", help="do not write the subtitled video")
+    ap.add_argument("--finish-leader", action="store_true", help="leader from the finish-stretch model in the last 36 s expected from the distance")
     a = ap.parse_args()
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     card = json.loads(Path(a.racecard).read_text())
     lines = Lines(card, not a.no_names)
     L.wait_gpu()
-    ident = L.LeadingGroupIdentifier("sep06", fast=True, fallback=True, tau_leader=L.TAU_LEADER_V9, cap_weights=L.CNN_WEIGHTS_V11)
+    ident = L.LeadingGroupIdentifier("sep06", fast=True, fallback=True, tau_leader=L.TAU_LEADER_V9, cap_weights=L.CNN_WEIGHTS_V11,
+                                    finish_leader=a.finish_leader)
     cap = cv2.VideoCapture(a.video)
     assert (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))) == (1920, 1080), "the graphics positions assume a 1920x1080 broadcast"
     ok, first = cap.read()
@@ -237,10 +243,12 @@ def main():
         if r >= next_point:
             w0 = time.perf_counter()
             near = lambda t: min(buf, key=lambda f: abs(f[0] - t))[1]
-            res = ident.point(v, [bgr, near(v - 0.5), near(v - 1.0)])
+            stretch = a.finish_leader and r >= expect - L.LATE_SECONDS
+            res = ident.point(v, [bgr, near(v - 0.5), near(v - 1.0)], late=stretch)
             work = time.perf_counter() - w0
             emit("point", v, lines.point(res, r), statements=res["statements"], leader=res.get("leader"), leader_source=res.get("leader_source"),
-                 order=res.get("order", []), late_at_start=round(late, 3), work_seconds=round(work, 3))
+                 order=res.get("order", []), late_at_start=round(late, 3), work_seconds=round(work, 3),
+                 **({"finish_stretch": stretch, "leader_strip_model": res.get("leader_strip_model", res.get("leader"))} if a.finish_leader else {}))
             next_point += a.step
             continue
         if r >= expect - DENSE_BEFORE:
@@ -259,7 +267,7 @@ def main():
         e["shown_until"] = round(min(events[k + 1]["ready"] if k + 1 < len(events) else e["ready"] + 6, e["ready"] + 6) - 0.05, 3)
         e["delay"] = round(e["ready"] - e["video_time"], 3)
     pts_delay = sorted(e["delay"] for e in events if e["kind"] == "point")
-    res = {"video": a.video, "racecard": card, "configuration": "v11 (F2+caps2) + winner call, pattern lines", "waited_for_the_wall_clock": not a.no_wait,
+    res = {"video": a.video, "racecard": card, "configuration": "v11 (F2+caps2)" + (" + finish-stretch leader" if a.finish_leader else "") + " + winner call, pattern lines", "waited_for_the_wall_clock": not a.no_wait,
            "clock": {"start": clock.start, "finish": clock.finish, "expected_seconds": round(expect, 1)}, "frames_read": frames,
            "lines": len(events), "delay_seconds": {"median": pts_delay[len(pts_delay) // 2] if pts_delay else None, "max": pts_delay[-1] if pts_delay else None},
            "furthest_behind_seconds": round(late_max, 3), "dense_pictures": {"run": len(dense), "skipped_when_behind": dense_skipped}, "events": events}
