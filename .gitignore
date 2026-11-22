@@ -40,3 +40,10 @@ results_f2s/
 
 # per-picture exploration data of the winner experiment (derived, large; kept on the server)
 experiments/onair_labelset_20261117/winner/explore/look_A.json
+
+# API keys (never committed; 2026-11-21)
+.env
+.env.*
+
+# the one subtitled demo video on the site (user's request, 2026-11-22)
+!docs/media/live-20261108-r11.mp4
