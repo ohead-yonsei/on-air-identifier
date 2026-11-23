@@ -1,0 +1,720 @@
+{
+ "video": "otherday27/videos/R01__dzAZY8JwSE.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 1,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "믿음의질주"
+   },
+   {
+    "number": 2,
+    "name": "월스트리트"
+   },
+   {
+    "number": 3,
+    "name": "서부킹"
+   },
+   {
+    "number": 4,
+    "name": "슈퍼체이서"
+   },
+   {
+    "number": 5,
+    "name": "레전드몬스터"
+   },
+   {
+    "number": 6,
+    "name": "푸른참"
+   },
+   {
+    "number": 7,
+    "name": "봉봉티아라"
+   },
+   {
+    "number": 8,
+    "name": "듀크삭스"
+   },
+   {
+    "number": 9,
+    "name": "피엔에스러너"
+   },
+   {
+    "number": 10,
+    "name": "엔젤타임"
+   },
+   {
+    "number": 11,
+    "name": "러빙퍼플"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.5,
+  "finish": 103.967,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6493,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.263,
+  "max": 0.577
+ },
+ "furthest_behind_seconds": 0.562,
+ "dense_pictures": {
+  "run": 79,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.583,
+   "race_time": 1.08,
+   "ready": 13.585,
+   "line": "서울 1경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.535,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 21.5,
+   "race_time": 9.0,
+   "ready": 21.844,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.343,
+   "shown_until": 24.877,
+   "delay": 0.344
+  },
+  {
+   "kind": "point",
+   "video_time": 24.5,
+   "race_time": 12.0,
+   "ready": 24.927,
+   "line": "서울 1경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.425,
+   "shown_until": 27.805,
+   "delay": 0.427
+  },
+  {
+   "kind": "point",
+   "video_time": 27.5,
+   "race_time": 15.0,
+   "ready": 27.855,
+   "line": "5번 레전드몬스터, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.354,
+   "shown_until": 30.93,
+   "delay": 0.355
+  },
+  {
+   "kind": "point",
+   "video_time": 30.5,
+   "race_time": 18.0,
+   "ready": 30.98,
+   "line": "서울 1경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.479,
+   "shown_until": 33.986,
+   "delay": 0.48
+  },
+  {
+   "kind": "point",
+   "video_time": 33.5,
+   "race_time": 21.0,
+   "ready": 34.036,
+   "line": "5번 레전드몬스터, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.534,
+   "shown_until": 36.718,
+   "delay": 0.536
+  },
+  {
+   "kind": "point",
+   "video_time": 36.5,
+   "race_time": 24.0,
+   "ready": 36.768,
+   "line": "선두는 8번 듀크삭스. 5번 레전드몬스터도 선두권입니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3174
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "shown_until": 39.694,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 39.5,
+   "race_time": 27.0,
+   "ready": 39.744,
+   "line": "선두권에 5번 레전드몬스터, 8번 듀크삭스. 8번 듀크삭스가 5번 레전드몬스터보다 앞에 있습니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.353
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 42.732,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 42.5,
+   "race_time": 30.0,
+   "ready": 42.782,
+   "line": "선두권은 그대로 5번 레전드몬스터, 8번 듀크삭스.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "shown_until": 45.722,
+   "delay": 0.282
+  },
+  {
+   "kind": "point",
+   "video_time": 45.5,
+   "race_time": 33.0,
+   "ready": 45.772,
+   "line": "선두는 8번 듀크삭스. 선두권에 5번 레전드몬스터.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3451
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 48.719,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 48.5,
+   "race_time": 36.0,
+   "ready": 48.769,
+   "line": "5번 레전드몬스터, 8번 듀크삭스, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "shown_until": 51.708,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 51.5,
+   "race_time": 39.0,
+   "ready": 51.758,
+   "line": "선두는 8번 듀크삭스. 5번 레전드몬스터도 선두권입니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.7322
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 54.688,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 54.5,
+   "race_time": 42.0,
+   "ready": 54.738,
+   "line": "여전히 선두는 8번 듀크삭스. 선두권에 5번 레전드몬스터.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3677
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 57.702,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 57.5,
+   "race_time": 45.0,
+   "ready": 57.752,
+   "line": "선두는 8번 듀크삭스. 선두권에 4번 슈퍼체이서, 5번 레전드몬스터.",
+   "statements": [
+    4,
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.2566
+    },
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3101
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "shown_until": 60.697,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 60.5,
+   "race_time": 48.0,
+   "ready": 60.747,
+   "line": "5번 레전드몬스터, 선두에 있습니다. 선두권에 8번 듀크삭스.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.6015
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 63.713,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 63.5,
+   "race_time": 51.0,
+   "ready": 63.763,
+   "line": "5번 레전드몬스터, 계속 선두입니다. 선두권에 8번 듀크삭스.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.4709
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 66.686,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 66.5,
+   "race_time": 54.0,
+   "ready": 66.736,
+   "line": "5번 레전드몬스터, 선두에 있습니다. 3번 서부킹, 8번 듀크삭스도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    8
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 69.704,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 69.5,
+   "race_time": 57.0,
+   "ready": 69.754,
+   "line": "5번 레전드몬스터가 선두입니다. 8번 듀크삭스도 선두권입니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.3468
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "shown_until": 72.701,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 72.5,
+   "race_time": 60.0,
+   "ready": 72.751,
+   "line": "선두권에 5번 레전드몬스터, 7번 봉봉티아라. 5번 레전드몬스터가 7번 봉봉티아라보다 앞에 있습니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.4027
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 75.683,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 75.5,
+   "race_time": 63.0,
+   "ready": 75.733,
+   "line": "선두는 5번 레전드몬스터. 7번 봉봉티아라도 선두권입니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.6744
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 78.696,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 78.5,
+   "race_time": 66.0,
+   "ready": 78.746,
+   "line": "5번 레전드몬스터, 선두에 있습니다. 3번 서부킹, 7번 봉봉티아라도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    7
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.4322
+    },
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.5191
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 81.711,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 81.5,
+   "race_time": 69.0,
+   "ready": 81.761,
+   "line": "5번 레전드몬스터가 선두입니다. 3번 서부킹도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.5941
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "shown_until": 84.686,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 84.5,
+   "race_time": 72.0,
+   "ready": 84.736,
+   "line": "선두는 3번 서부킹. 5번 레전드몬스터, 7번 봉봉티아라도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    7
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.6094
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 87.689,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 87.5,
+   "race_time": 75.0,
+   "ready": 87.739,
+   "line": "선두권에 3번 서부킹, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.3109
+    }
+   ],
+   "late_at_start": 0.016,
+   "work_seconds": 0.222,
+   "shown_until": 90.687,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 90.5,
+   "race_time": 78.0,
+   "ready": 90.737,
+   "line": "선두권은 그대로 3번 서부킹, 7번 봉봉티아라.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2261
+    }
+   ],
+   "late_at_start": 0.019,
+   "work_seconds": 0.217,
+   "shown_until": 93.809,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 93.5,
+   "race_time": 81.0,
+   "ready": 93.859,
+   "line": "선두권에 3번 서부킹, 5번 레전드몬스터, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "statements": [
+    3,
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2156
+    },
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.3937
+    }
+   ],
+   "late_at_start": 0.013,
+   "work_seconds": 0.344,
+   "shown_until": 96.87,
+   "delay": 0.359
+  },
+  {
+   "kind": "point",
+   "video_time": 96.5,
+   "race_time": 84.0,
+   "ready": 96.92,
+   "line": "7번 봉봉티아라, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.095,
+   "work_seconds": 0.324,
+   "shown_until": 100.027,
+   "delay": 0.42
+  },
+  {
+   "kind": "point",
+   "video_time": 99.5,
+   "race_time": 87.0,
+   "ready": 100.077,
+   "line": "3번 서부킹이 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.111,
+   "work_seconds": 0.465,
+   "shown_until": 103.0,
+   "delay": 0.577
+  },
+  {
+   "kind": "point",
+   "video_time": 102.5,
+   "race_time": 90.0,
+   "ready": 103.05,
+   "line": "3번 서부킹, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.442,
+   "shown_until": 105.175,
+   "delay": 0.55
+  },
+  {
+   "kind": "finish",
+   "video_time": 105.183,
+   "race_time": 92.68,
+   "ready": 105.225,
+   "line": "결승선을 통과했습니다. 서울 1경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "3": 3
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 103.967,
+   "seconds_after_the_finish": 1.26,
+   "work_seconds": 0.0,
+   "shown_until": 111.175,
+   "delay": 0.042
+  }
+ ]
+}

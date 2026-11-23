@@ -1,0 +1,735 @@
+{
+ "video": "otherday24/videos/R03_A99wO77TEXc.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 3,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "골드스텝"
+   },
+   {
+    "number": 2,
+    "name": "원평드림"
+   },
+   {
+    "number": 3,
+    "name": "아름다운빛"
+   },
+   {
+    "number": 4,
+    "name": "뉴발삭스"
+   },
+   {
+    "number": 5,
+    "name": "크러시걸"
+   },
+   {
+    "number": 6,
+    "name": "클러치키드"
+   },
+   {
+    "number": 7,
+    "name": "러빙퍼플"
+   },
+   {
+    "number": 8,
+    "name": "피엔에스리프"
+   },
+   {
+    "number": 9,
+    "name": "지산커밍순"
+   },
+   {
+    "number": 10,
+    "name": "고산봉"
+   },
+   {
+    "number": 11,
+    "name": "히어로드래건"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 19.866666666666667,
+  "finish": 109.317,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6814,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.27,
+  "max": 0.677
+ },
+ "furthest_behind_seconds": 0.663,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 20.867,
+   "race_time": 1.0,
+   "ready": 20.868,
+   "line": "서울 3경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 26.818,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 28.867,
+   "race_time": 9.0,
+   "ready": 29.203,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.335,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.303,
+   "delay": 0.336
+  },
+  {
+   "kind": "point",
+   "video_time": 31.867,
+   "race_time": 12.0,
+   "ready": 32.353,
+   "line": "서울 3경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.485,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.291,
+   "delay": 0.486
+  },
+  {
+   "kind": "point",
+   "video_time": 34.867,
+   "race_time": 15.0,
+   "ready": 35.341,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.473,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.494,
+   "delay": 0.474
+  },
+  {
+   "kind": "point",
+   "video_time": 37.867,
+   "race_time": 18.0,
+   "ready": 38.544,
+   "line": "서울 3경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.676,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.265,
+   "delay": 0.677
+  },
+  {
+   "kind": "point",
+   "video_time": 40.867,
+   "race_time": 21.0,
+   "ready": 41.315,
+   "line": "8번 피엔에스리프, 선두권에서 달립니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.448,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.093,
+   "delay": 0.448
+  },
+  {
+   "kind": "point",
+   "video_time": 43.867,
+   "race_time": 24.0,
+   "ready": 44.143,
+   "line": "선두는 8번 피엔에스리프.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 47.07,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 46.867,
+   "race_time": 27.0,
+   "ready": 47.12,
+   "line": "8번 피엔에스리프가 선두입니다. 선두권에 11번 히어로드래건.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.6041
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 50.07,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 49.867,
+   "race_time": 30.0,
+   "ready": 50.12,
+   "line": "선두는 11번 히어로드래건. 선두권에 8번 피엔에스리프.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 53.087,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 52.867,
+   "race_time": 33.0,
+   "ready": 53.137,
+   "line": "11번 히어로드래건, 계속 선두입니다. 선두권에 8번 피엔에스리프.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 8,
+     "gap": 0.3688
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 56.106,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 55.867,
+   "race_time": 36.0,
+   "ready": 56.156,
+   "line": "여전히 선두는 11번 히어로드래건. 선두권에 8번 피엔에스리프.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 8,
+     "gap": 0.7696
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.288,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 59.107,
+   "delay": 0.289
+  },
+  {
+   "kind": "point",
+   "video_time": 58.867,
+   "race_time": 39.0,
+   "ready": 59.157,
+   "line": "11번 히어로드래건이 선두입니다.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.289,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 62.093,
+   "delay": 0.29
+  },
+  {
+   "kind": "point",
+   "video_time": 61.867,
+   "race_time": 42.0,
+   "ready": 62.143,
+   "line": "선두권에 8번 피엔에스리프가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 65.067,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 64.883,
+   "race_time": 45.02,
+   "ready": 65.117,
+   "line": "선두는 11번 히어로드래건. 선두권에 10번 고산봉.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 10,
+     "gap": 0.3949
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 68.097,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 67.883,
+   "race_time": 48.02,
+   "ready": 68.147,
+   "line": "11번 히어로드래건, 선두에 있습니다. 선두권에 8번 피엔에스리프.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 8,
+     "gap": 0.6413
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 71.08,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 70.883,
+   "race_time": 51.02,
+   "ready": 71.13,
+   "line": "11번 히어로드래건이 선두입니다. 선두권에 10번 고산봉.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 10,
+     "gap": 0.3694
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 74.083,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 73.883,
+   "race_time": 54.02,
+   "ready": 74.133,
+   "line": "선두권에 8번 피엔에스리프, 10번 고산봉, 11번 히어로드래건. 10번 고산봉이 8번 피엔에스리프보다 앞에 있습니다.",
+   "statements": [
+    8,
+    10,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.2231
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "shown_until": 77.082,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 76.883,
+   "race_time": 57.02,
+   "ready": 77.132,
+   "line": "선두권에 10번 고산봉, 11번 히어로드래건. 10번 고산봉이 11번 히어로드래건보다 앞에 있습니다.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.4027
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 80.074,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 79.883,
+   "race_time": 60.02,
+   "ready": 80.124,
+   "line": "10번 고산봉, 11번 히어로드래건, 계속 선두권입니다.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "shown_until": 83.091,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 82.883,
+   "race_time": 63.02,
+   "ready": 83.141,
+   "line": "10번 고산봉이 선두입니다. 11번 히어로드래건도 선두권입니다.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.7662
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 86.067,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 85.867,
+   "race_time": 66.0,
+   "ready": 86.117,
+   "line": "여전히 선두는 10번 고산봉. 선두권에 11번 히어로드래건.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 89.059,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 88.867,
+   "race_time": 69.0,
+   "ready": 89.109,
+   "line": "10번 고산봉, 계속 선두입니다. 선두권에 11번 히어로드래건.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.2366
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 92.062,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 91.867,
+   "race_time": 72.0,
+   "ready": 92.112,
+   "line": "여전히 선두는 10번 고산봉. 선두권에 11번 히어로드래건.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.588
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 95.065,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 94.867,
+   "race_time": 75.0,
+   "ready": 95.115,
+   "line": "선두는 10번 고산봉. 선두권에 4번 뉴발삭스, 11번 히어로드래건.",
+   "statements": [
+    4,
+    10,
+    11
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.4475
+    },
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.3735
+    }
+   ],
+   "late_at_start": 0.009,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 98.059,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 97.867,
+   "race_time": 78.0,
+   "ready": 98.109,
+   "line": "10번 고산봉, 선두에 있습니다. 선두권에 4번 뉴발삭스.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.3023
+    }
+   ],
+   "late_at_start": 0.019,
+   "work_seconds": 0.223,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 101.145,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 100.867,
+   "race_time": 81.0,
+   "ready": 101.195,
+   "line": "10번 고산봉, 계속 선두입니다. 선두권에 4번 뉴발삭스.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.085,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 104.475,
+   "delay": 0.328
+  },
+  {
+   "kind": "point",
+   "video_time": 103.867,
+   "race_time": 84.0,
+   "ready": 104.525,
+   "line": "10번 고산봉, 선두에 있습니다.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.158,
+   "work_seconds": 0.5,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 107.459,
+   "delay": 0.658
+  },
+  {
+   "kind": "point",
+   "video_time": 106.867,
+   "race_time": 87.0,
+   "ready": 107.509,
+   "line": "10번 고산봉, 계속 선두입니다.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.154,
+   "work_seconds": 0.486,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 110.387,
+   "delay": 0.642
+  },
+  {
+   "kind": "point",
+   "video_time": 109.867,
+   "race_time": 90.0,
+   "ready": 110.437,
+   "line": "서울 3경주 1400m, 출발 후 90초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.129,
+   "work_seconds": 0.441,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 110.607,
+   "delay": 0.57
+  },
+  {
+   "kind": "finish",
+   "video_time": 110.533,
+   "race_time": 90.67,
+   "ready": 110.657,
+   "line": "결승선을 통과했습니다. 서울 3경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "11": 3,
+     "4": 1,
+     "7": 2,
+     "5": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 109.317,
+   "seconds_after_the_finish": 1.34,
+   "work_seconds": 0.0,
+   "shown_until": 116.607,
+   "delay": 0.124
+  }
+ ]
+}

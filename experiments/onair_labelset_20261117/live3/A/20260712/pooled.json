@@ -1,0 +1,271 @@
+{
+ "races": [
+  {
+   "race": "R01",
+   "status": "clock agrees",
+   "clock_run_minus_official": -0.12,
+   "totals": {
+    "lines": 20,
+    "lines with a number": 13,
+    "numbers": 27,
+    "numbers right": 27,
+    "numbers close": 0,
+    "numbers wrong": 0,
+    "lines with a wrong number": 0,
+    "leader lines": 7,
+    "leader right": 1,
+    "leader close": 1,
+    "leader wrong": 5
+   },
+   "delay_median": 0.267,
+   "delay_max": 0.673,
+   "finish_line_after_clock_stop": 1.33,
+   "furthest_behind": 0.658,
+   "dense": {
+    "run": 58,
+    "skipped_when_behind": 14
+   },
+   "winner_call": 7,
+   "official_winner": 4,
+   "winner_verdict": "wrong"
+  },
+  {
+   "race": "R02",
+   "status": "clock agrees",
+   "clock_run_minus_official": -0.2,
+   "totals": {
+    "lines": 25,
+    "lines with a number": 23,
+    "numbers": 40,
+    "numbers right": 36,
+    "numbers close": 4,
+    "numbers wrong": 0,
+    "lines with a wrong number": 0,
+    "leader lines": 3,
+    "leader right": 3,
+    "leader close": 0,
+    "leader wrong": 0
+   },
+   "delay_median": 0.241,
+   "delay_max": 0.563,
+   "finish_line_after_clock_stop": 1.42,
+   "furthest_behind": 0.549,
+   "dense": {
+    "run": 64,
+    "skipped_when_behind": 12
+   },
+   "winner_call": null,
+   "official_winner": 4,
+   "winner_verdict": "no call"
+  },
+  {
+   "race": "R03",
+   "status": "clock agrees",
+   "clock_run_minus_official": -0.28,
+   "totals": {
+    "lines": 29,
+    "lines with a number": 26,
+    "numbers": 41,
+    "numbers right": 39,
+    "numbers close": 2,
+    "numbers wrong": 0,
+    "lines with a wrong number": 0,
+    "leader lines": 15,
+    "leader right": 11,
+    "leader close": 2,
+    "leader wrong": 2
+   },
+   "delay_median": 0.26,
+   "delay_max": 0.686,
+   "finish_line_after_clock_stop": 1.47,
+   "furthest_behind": 0.671,
+   "dense": {
+    "run": 51,
+    "skipped_when_behind": 14
+   },
+   "winner_call": 5,
+   "official_winner": 5,
+   "winner_verdict": "right"
+  },
+  {
+   "race": "R04",
+   "status": "clock agrees",
+   "clock_run_minus_official": -0.1,
+   "totals": {
+    "lines": 29,
+    "lines with a number": 27,
+    "numbers": 51,
+    "numbers right": 45,
+    "numbers close": 4,
+    "numbers wrong": 2,
+    "lines with a wrong number": 1,
+    "leader lines": 15,
+    "leader right": 10,
+    "leader close": 1,
+    "leader wrong": 4
+   },
+   "delay_median": 0.239,
+   "delay_max": 0.829,
+   "finish_line_after_clock_stop": 1.35,
+   "furthest_behind": 0.815,
+   "dense": {
+    "run": 51,
+    "skipped_when_behind": 14
+   },
+   "winner_call": 4,
+   "official_winner": 4,
+   "winner_verdict": "right"
+  },
+  {
+   "race": "R06",
+   "status": "clock agrees",
+   "clock_run_minus_official": 0.12,
+   "totals": {
+    "lines": 25,
+    "lines with a number": 23,
+    "numbers": 46,
+    "numbers right": 42,
+    "numbers close": 0,
+    "numbers wrong": 4,
+    "lines with a wrong number": 4,
+    "leader lines": 13,
+    "leader right": 6,
+    "leader close": 4,
+    "leader wrong": 3
+   },
+   "delay_median": 0.254,
+   "delay_max": 0.55,
+   "finish_line_after_clock_stop": 1.6,
+   "furthest_behind": 0.535,
+   "dense": {
+    "run": 63,
+    "skipped_when_behind": 11
+   },
+   "winner_call": 8,
+   "official_winner": 8,
+   "winner_verdict": "right"
+  },
+  {
+   "race": "R07",
+   "status": "clock agrees",
+   "clock_run_minus_official": -0.2,
+   "totals": {
+    "lines": 28,
+    "lines with a number": 22,
+    "numbers": 45,
+    "numbers right": 44,
+    "numbers close": 1,
+    "numbers wrong": 0,
+    "lines with a wrong number": 0,
+    "leader lines": 10,
+    "leader right": 6,
+    "leader close": 1,
+    "leader wrong": 3
+   },
+   "delay_median": 0.247,
+   "delay_max": 0.673,
+   "finish_line_after_clock_stop": 1.34,
+   "furthest_behind": 0.659,
+   "dense": {
+    "run": 42,
+    "skipped_when_behind": 11
+   },
+   "winner_call": null,
+   "official_winner": 7,
+   "winner_verdict": "no call"
+  },
+  {
+   "race": "R08",
+   "status": "clock disagrees",
+   "clock_run_minus_official": 0.35,
+   "totals": {
+    "lines": 34,
+    "lines with a number": 29,
+    "numbers": 52,
+    "numbers right": 43,
+    "numbers close": 3,
+    "numbers wrong": 6,
+    "lines with a wrong number": 6,
+    "leader lines": 9,
+    "leader right": 6,
+    "leader close": 2,
+    "leader wrong": 1
+   },
+   "delay_median": 0.255,
+   "delay_max": 0.786,
+   "finish_line_after_clock_stop": 1.91,
+   "furthest_behind": 0.772,
+   "dense": {
+    "run": 44,
+    "skipped_when_behind": 9
+   },
+   "winner_call": null,
+   "official_winner": 10,
+   "winner_verdict": "no call"
+  },
+  {
+   "race": "R09",
+   "status": "clock disagrees",
+   "clock_run_minus_official": 0.4,
+   "totals": {
+    "lines": 39,
+    "lines with a number": 35,
+    "numbers": 66,
+    "numbers right": 64,
+    "numbers close": 1,
+    "numbers wrong": 1,
+    "lines with a wrong number": 1,
+    "leader lines": 17,
+    "leader right": 16,
+    "leader close": 0,
+    "leader wrong": 1
+   },
+   "delay_median": 0.255,
+   "delay_max": 0.66,
+   "finish_line_after_clock_stop": 1.27,
+   "furthest_behind": 0.645,
+   "dense": {
+    "run": 55,
+    "skipped_when_behind": 14
+   },
+   "winner_call": null,
+   "official_winner": 4,
+   "winner_verdict": "no call"
+  },
+  {
+   "race": "R10",
+   "status": "clock not found"
+  }
+ ],
+ "clock_agreeing_races": 6,
+ "pooled": {
+  "lines": 156,
+  "lines with a number": 134,
+  "numbers": 250,
+  "numbers right": 233,
+  "numbers close": 11,
+  "numbers wrong": 6,
+  "lines with a wrong number": 5,
+  "leader lines": 63,
+  "leader right": 37,
+  "leader close": 9,
+  "leader wrong": 17
+ },
+ "pooled_point_delay_median": 0.253,
+ "numbers_right_share": 0.932,
+ "numbers_right_or_close_share": 0.976,
+ "leader_right_share": 0.5873,
+ "leader_right_or_close_share": 0.7302,
+ "winner_calls": {
+  "right": 3,
+  "wrong": 1,
+  "no call": 2
+ },
+ "verdicts": {
+  "V1 speed": true,
+  "V2 numbers right >= 90%": true,
+  "V3 leader right >= 75%": false,
+  "V4 wrong winner calls <= 1": true
+ },
+ "V1-V3 all met": false
+}

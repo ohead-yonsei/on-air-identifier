@@ -1,0 +1,379 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 20,
+  "numbers": 31,
+  "numbers right": 27,
+  "numbers close": 1,
+  "numbers wrong": 3,
+  "lines with a wrong number": 3,
+  "leader lines": 9,
+  "leader right": 5,
+  "leader close": 3,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.248,
+  "max": 0.566
+ },
+ "rows": [
+  {
+   "video_time": 22.983,
+   "line": "3번 호세, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 25.983,
+   "line": "4번 성실대로, 선두에 있습니다. 3번 호세도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    11,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 28.983,
+   "line": "3번 호세가 선두입니다. 4번 성실대로도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "close",
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 31.967,
+   "line": "선두는 4번 성실대로. 3번 호세도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 34.967,
+   "line": "3번 호세, 선두에 있습니다. 4번 성실대로도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "close",
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 37.967,
+   "line": "선두권에 3번 호세, 4번 성실대로가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 40.967,
+   "line": "3번 호세, 4번 성실대로, 계속 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 43.967,
+   "line": "선두권에 8번 민트플레이가 있습니다.",
+   "numbers": {
+    "8": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 46.967,
+   "line": "3번 호세가 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "wrong",
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 49.967,
+   "line": "선두권에 3번 호세가 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 52.967,
+   "line": "1200m 경주, 출발 후 39초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 55.967,
+   "line": "선두권에 11번 이끌림이 있습니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 58.967,
+   "line": "10번 스터닝레이디, 선두권에서 달립니다.",
+   "numbers": {
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 61.967,
+   "line": "선두권에 4번 성실대로가 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 64.967,
+   "line": "1200m 경주, 출발 후 51초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 67.967,
+   "line": "선두권에 9번 인플레이션이 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 70.967,
+   "line": "1번 거센폭주, 4번 성실대로, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "wrong",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 73.967,
+   "line": "4번 성실대로가 선두입니다. 11번 이끌림도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 76.967,
+   "line": "선두는 4번 성실대로. 1번 거센폭주도 선두권입니다.",
+   "numbers": {
+    "1": "wrong",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 79.967,
+   "line": "4번 성실대로, 선두에 있습니다. 9번 인플레이션도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 82.967,
+   "line": "여전히 선두는 4번 성실대로. 선두권에 9번 인플레이션.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 85.967,
+   "line": "9번 인플레이션, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 88.967,
+   "line": "서울 11경주 1200m, 출발 후 75초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    11,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 89.567,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 4,
+   "verdict": "no call"
+  }
+ ]
+}

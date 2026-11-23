@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 10,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "나소챗"
+  },
+  {
+   "number": 2,
+   "name": "케이파워풀"
+  },
+  {
+   "number": 3,
+   "name": "빅토리삭스"
+  },
+  {
+   "number": 4,
+   "name": "달맞이"
+  },
+  {
+   "number": 5,
+   "name": "플라잉크루저"
+  },
+  {
+   "number": 6,
+   "name": "월드블레임"
+  },
+  {
+   "number": 7,
+   "name": "히어아이엠"
+  },
+  {
+   "number": 8,
+   "name": "비에스스톰"
+  },
+  {
+   "number": 9,
+   "name": "킹마스터"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

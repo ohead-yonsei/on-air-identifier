@@ -1,0 +1,391 @@
+{
+ "official_winner": 8,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 40,
+  "numbers right": 34,
+  "numbers close": 4,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 16,
+  "leader right": 14,
+  "leader close": 1,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.259,
+  "max": 0.657
+ },
+ "rows": [
+  {
+   "video_time": 26.517,
+   "line": "1번 어플리트런이 선두입니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 29.517,
+   "line": "여전히 선두는 1번 어플리트런.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 32.517,
+   "line": "선두는 1번 어플리트런. 선두권에 9번 대한코코즈.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 35.517,
+   "line": "1번 어플리트런, 계속 선두입니다. 선두권에 9번 대한코코즈.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 38.517,
+   "line": "여전히 선두는 1번 어플리트런. 선두권에 9번 대한코코즈.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 41.517,
+   "line": "1번 어플리트런이 선두입니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 44.517,
+   "line": "여전히 선두는 1번 어플리트런.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 47.517,
+   "line": "선두는 1번 어플리트런. 선두권에 5번 히어로퓨마, 10번 연동스타.",
+   "numbers": {
+    "1": "right",
+    "5": "close",
+    "10": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 50.517,
+   "line": "9번 대한코코즈, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 53.517,
+   "line": "선두는 1번 어플리트런. 9번 대한코코즈도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 56.517,
+   "line": "선두권에 9번 대한코코즈가 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 59.517,
+   "line": "9번 대한코코즈, 계속 선두권입니다.",
+   "numbers": {
+    "9": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    10,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 62.517,
+   "line": "1번 어플리트런이 선두입니다. 9번 대한코코즈도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "9": "close"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    8,
+    10,
+    9
+   ]
+  },
+  {
+   "video_time": 65.517,
+   "line": "선두는 1번 어플리트런.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    1,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 68.517,
+   "line": "5번 히어로퓨마가 선두입니다. 선두권에 1번 어플리트런, 8번 금아온포인트.",
+   "numbers": {
+    "1": "right",
+    "5": "close",
+    "8": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    1,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 71.517,
+   "line": "1번 어플리트런, 8번 금아온포인트, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 74.517,
+   "line": "선두권에 1번 어플리트런, 8번 금아온포인트, 10번 연동스타가 있습니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 77.517,
+   "line": "1번 어플리트런, 8번 금아온포인트, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 80.517,
+   "line": "선두권에 1번 어플리트런, 8번 금아온포인트, 11번 슈퍼땅콩. 8번 금아온포인트가 1번 어플리트런보다 앞에 있습니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    11,
+    1,
+    10
+   ]
+  },
+  {
+   "video_time": 83.517,
+   "line": "선두는 8번 금아온포인트.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    11,
+    1,
+    10
+   ]
+  },
+  {
+   "video_time": 86.517,
+   "line": "8번 금아온포인트, 계속 선두입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    11,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 89.517,
+   "line": "8번 금아온포인트, 선두에 있습니다. 7번 그레이고도 선두권입니다.",
+   "numbers": {
+    "7": "wrong",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    11,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 92.517,
+   "line": "여전히 선두는 8번 금아온포인트. 선두권에 7번 그레이고.",
+   "numbers": {
+    "7": "wrong",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    11,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 93.567,
+   "line": "결승선 통과! 8번 금아온포인트가 가장 먼저 들어옵니다!",
+   "winner_call": 8,
+   "official_winner": 8,
+   "verdict": "right"
+  }
+ ]
+}

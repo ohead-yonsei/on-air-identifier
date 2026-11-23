@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 4,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "스터닝서브"
+  },
+  {
+   "number": 2,
+   "name": "블랙스펙터"
+  },
+  {
+   "number": 3,
+   "name": "아모스최강"
+  },
+  {
+   "number": 4,
+   "name": "초월마"
+  },
+  {
+   "number": 5,
+   "name": "마이웨이보스"
+  },
+  {
+   "number": 6,
+   "name": "서프라이즈"
+  },
+  {
+   "number": 7,
+   "name": "제주블루"
+  },
+  {
+   "number": 8,
+   "name": "청룡기운"
+  },
+  {
+   "number": 9,
+   "name": "레인스타"
+  },
+  {
+   "number": 10,
+   "name": "이안퍼펙트"
+  },
+  {
+   "number": 11,
+   "name": "스페셜포스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

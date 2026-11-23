@@ -1,0 +1,5 @@
+{'lines': 28, 'lines with a number': 22, 'numbers': 45, 'numbers right': 44, 'numbers close': 1, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 12, 'leader right': 10, 'leader close': 1, 'leader wrong': 1}
+   31.32 numbers {2: 'close', 4: 'right'} leader None None | official first four [4, 3, 7, 2] | 선두권에 2번 토호스카이, 4번 우아센이 있습니다.
+   64.32 numbers {4: 'right', 7: 'right'} leader 4 close | official first four [7, 4, 3, 8] | 4번 우아센, 계속 선두입니다. 선두권에 7번 블루피오라.
+   73.32 numbers {4: 'right', 7: 'right', 8: 'right'} leader 4 wrong | official first four [7, 4, 8, 3] | 4번 우아센, 선두에 있습니다. 선두권에 7번 블루피오라, 8번 엔딩파이어.
+finish: None official 7 no call

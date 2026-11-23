@@ -1,0 +1,10 @@
+{'lines': 28, 'lines with a number': 23, 'numbers': 45, 'numbers right': 40, 'numbers close': 3, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 16, 'leader right': 12, 'leader close': 1, 'leader wrong': 3}
+   28.97 numbers {3: 'right', 4: 'wrong', 5: 'right'} leader 5 right | official first four [5, 3, 7, 1] | 선두는 5번 세명하이디. 3번 피엔에스러너, 4번 푸른참도 선두권입니다.
+   40.97 numbers {5: 'right', 7: 'right'} leader 7 wrong | official first four [5, 3, 7, 2] | 선두는 7번 불패의여왕. 5번 세명하이디도 선두권입니다.
+   64.97 numbers {3: 'right', 5: 'right', 7: 'close'} leader 5 right | official first four [5, 3, 2, 7] | 선두는 5번 세명하이디. 선두권에 3번 피엔에스러너, 7번 불패의여왕.
+   67.97 numbers {3: 'right', 7: 'close'} leader None None | official first four [5, 3, 2, 7] | 3번 피엔에스러너, 7번 불패의여왕, 선두권에서 달립니다.
+   70.97 numbers {2: 'right', 3: 'right', 7: 'close'} leader 2 wrong | official first four [5, 2, 3, 7] | 선두는 2번 능력도령. 3번 피엔에스러너, 7번 불패의여왕도 선두권입니다.
+   73.97 numbers {2: 'right', 3: 'right', 5: 'right'} leader 2 wrong | official first four [5, 2, 3, 7] | 2번 능력도령, 선두에 있습니다. 3번 피엔에스러너, 5번 세명하이디도 선두권입니다.
+   76.97 numbers {2: 'right', 5: 'right'} leader 2 close | official first four [5, 2, 3, 7] | 2번 능력도령이 선두입니다. 5번 세명하이디도 선두권입니다.
+   91.97 numbers {6: 'wrong'} leader None None | official first four [2, 1, 9, 4] | 6번 듀크삭스, 선두권에서 달립니다.
+finish: None official 2 no call

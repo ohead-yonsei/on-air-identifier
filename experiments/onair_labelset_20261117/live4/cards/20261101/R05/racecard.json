@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 5,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "벌교엠퍼러"
+  },
+  {
+   "number": 2,
+   "name": "내길의여정"
+  },
+  {
+   "number": 3,
+   "name": "무한아르고"
+  },
+  {
+   "number": 4,
+   "name": "브리도갤럭시"
+  },
+  {
+   "number": 5,
+   "name": "스마트해성"
+  },
+  {
+   "number": 6,
+   "name": "일급비술"
+  },
+  {
+   "number": 7,
+   "name": "학산헤니"
+  },
+  {
+   "number": 8,
+   "name": "원더풀치프"
+  },
+  {
+   "number": 9,
+   "name": "이안퍼스트"
+  },
+  {
+   "number": 10,
+   "name": "블레이징엔진"
+  },
+  {
+   "number": 11,
+   "name": "글로리조이"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

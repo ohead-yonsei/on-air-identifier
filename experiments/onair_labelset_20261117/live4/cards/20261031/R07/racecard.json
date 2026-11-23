@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 7,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "호명퀸"
+  },
+  {
+   "number": 2,
+   "name": "비카델라"
+  },
+  {
+   "number": 3,
+   "name": "금빛영웅"
+  },
+  {
+   "number": 4,
+   "name": "남촌타운"
+  },
+  {
+   "number": 5,
+   "name": "조이천하"
+  },
+  {
+   "number": 6,
+   "name": "대비마마"
+  },
+  {
+   "number": 7,
+   "name": "아이엠고"
+  },
+  {
+   "number": 8,
+   "name": "세븐카이저"
+  },
+  {
+   "number": 9,
+   "name": "실크스펙터"
+  },
+  {
+   "number": 10,
+   "name": "예스엔젤"
+  },
+  {
+   "number": 11,
+   "name": "비케이비바체"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

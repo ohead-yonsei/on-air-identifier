@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 3,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "블랙타임"
+  },
+  {
+   "number": 2,
+   "name": "피엔에스위너"
+  },
+  {
+   "number": 3,
+   "name": "나르샤루시"
+  },
+  {
+   "number": 4,
+   "name": "러블리잭팟"
+  },
+  {
+   "number": 5,
+   "name": "라이징윈드"
+  },
+  {
+   "number": 6,
+   "name": "비트스타"
+  },
+  {
+   "number": 7,
+   "name": "안양에이스"
+  },
+  {
+   "number": 8,
+   "name": "래피드총알"
+  },
+  {
+   "number": 9,
+   "name": "레이스파티"
+  },
+  {
+   "number": 10,
+   "name": "스마트밍크"
+  },
+  {
+   "number": 11,
+   "name": "시티오브드림"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,681 @@
+{
+ "video": "otherday24/videos/R10_ZfCkJjx9Aks.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 10,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "지구라트"
+   },
+   {
+    "number": 2,
+    "name": "강나루"
+   },
+   {
+    "number": 3,
+    "name": "제이에스로드"
+   },
+   {
+    "number": 5,
+    "name": "매직포션"
+   },
+   {
+    "number": 6,
+    "name": "슈퍼피니시"
+   },
+   {
+    "number": 7,
+    "name": "원평스톰"
+   },
+   {
+    "number": 8,
+    "name": "스피드원"
+   },
+   {
+    "number": 9,
+    "name": "드론킬러"
+   },
+   {
+    "number": 10,
+    "name": "마의웨이"
+   },
+   {
+    "number": 11,
+    "name": "빅스고"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 11.283333333333333,
+  "finish": 97.733,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6119,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.635
+ },
+ "furthest_behind_seconds": 0.62,
+ "dense_pictures": {
+  "run": 59,
+  "skipped_when_behind": 5
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 12.283,
+   "race_time": 1.0,
+   "ready": 12.285,
+   "line": "서울 10경주 1400m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 18.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 20.3,
+   "race_time": 9.02,
+   "ready": 20.652,
+   "line": "2번 강나루, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.351,
+   "shown_until": 23.517,
+   "delay": 0.352
+  },
+  {
+   "kind": "point",
+   "video_time": 23.3,
+   "race_time": 12.02,
+   "ready": 23.567,
+   "line": "선두권은 그대로 2번 강나루.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "shown_until": 26.468,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 26.3,
+   "race_time": 15.02,
+   "ready": 26.518,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.216,
+   "shown_until": 29.461,
+   "delay": 0.218
+  },
+  {
+   "kind": "point",
+   "video_time": 29.283,
+   "race_time": 18.0,
+   "ready": 29.511,
+   "line": "서울 10경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 32.492,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 32.283,
+   "race_time": 21.0,
+   "ready": 32.542,
+   "line": "6번 슈퍼피니시, 선두에 있습니다. 선두권에 5번 매직포션.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.4221
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "shown_until": 35.563,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 35.283,
+   "race_time": 24.0,
+   "ready": 35.613,
+   "line": "6번 슈퍼피니시가 선두입니다. 선두권에 3번 제이에스로드.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.329,
+   "shown_until": 38.48,
+   "delay": 0.33
+  },
+  {
+   "kind": "point",
+   "video_time": 38.283,
+   "race_time": 27.0,
+   "ready": 38.53,
+   "line": "6번 슈퍼피니시, 계속 선두입니다. 선두권에 3번 제이에스로드.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.3865
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 41.473,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 41.283,
+   "race_time": 30.0,
+   "ready": 41.523,
+   "line": "6번 슈퍼피니시가 선두입니다. 3번 제이에스로드, 5번 매직포션도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.6851
+    },
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.6261
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 44.487,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 44.283,
+   "race_time": 33.0,
+   "ready": 44.537,
+   "line": "선두는 6번 슈퍼피니시. 5번 매직포션도 선두권입니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "shown_until": 47.48,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 47.283,
+   "race_time": 36.0,
+   "ready": 47.53,
+   "line": "여전히 선두는 6번 슈퍼피니시. 선두권에 5번 매직포션.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.3853
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 50.522,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 50.283,
+   "race_time": 39.0,
+   "ready": 50.572,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.286,
+   "shown_until": 53.483,
+   "delay": 0.289
+  },
+  {
+   "kind": "point",
+   "video_time": 53.283,
+   "race_time": 42.0,
+   "ready": 53.533,
+   "line": "선두권에 5번 매직포션이 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 56.47,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 56.283,
+   "race_time": 45.0,
+   "ready": 56.52,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 59.487,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 59.283,
+   "race_time": 48.0,
+   "ready": 59.537,
+   "line": "선두는 6번 슈퍼피니시. 5번 매직포션도 선두권입니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "shown_until": 62.479,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 62.283,
+   "race_time": 51.0,
+   "ready": 62.529,
+   "line": "선두권에 5번 매직포션, 6번 슈퍼피니시가 있습니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 65.489,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 65.283,
+   "race_time": 54.0,
+   "ready": 65.539,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 계속 선두권입니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.2115
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "shown_until": 68.467,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 68.283,
+   "race_time": 57.0,
+   "ready": 68.517,
+   "line": "선두권은 그대로 5번 매직포션, 6번 슈퍼피니시.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 71.479,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 71.283,
+   "race_time": 60.0,
+   "ready": 71.529,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 10번 마의웨이, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 74.472,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 74.283,
+   "race_time": 63.0,
+   "ready": 74.522,
+   "line": "선두권에 5번 매직포션, 6번 슈퍼피니시, 11번 빅스고. 6번 슈퍼피니시가 5번 매직포션보다 앞에 있습니다.",
+   "statements": [
+    5,
+    6,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.2301
+    },
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.3414
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 77.474,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 77.283,
+   "race_time": 66.0,
+   "ready": 77.524,
+   "line": "선두권에 5번 매직포션, 11번 빅스고. 11번 빅스고가 5번 매직포션보다 앞에 있습니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.2726
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 80.497,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 80.283,
+   "race_time": 69.0,
+   "ready": 80.547,
+   "line": "선두권은 그대로 5번 매직포션, 11번 빅스고.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 83.493,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 83.283,
+   "race_time": 72.0,
+   "ready": 83.543,
+   "line": "5번 매직포션이 선두입니다. 선두권에 10번 마의웨이, 11번 빅스고.",
+   "statements": [
+    5,
+    10,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 10,
+     "gap": 0.4285
+    },
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.469
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "shown_until": 86.46,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 86.283,
+   "race_time": 75.0,
+   "ready": 86.51,
+   "line": "선두는 5번 매직포션. 선두권에 10번 마의웨이.",
+   "statements": [
+    5,
+    10
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 10,
+     "gap": 0.8046
+    }
+   ],
+   "late_at_start": 0.006,
+   "work_seconds": 0.219,
+   "shown_until": 89.482,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 89.283,
+   "race_time": 78.0,
+   "ready": 89.532,
+   "line": "5번 매직포션, 선두에 있습니다. 선두권에 9번 드론킬러, 10번 마의웨이.",
+   "statements": [
+    5,
+    9,
+    10
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.8101
+    },
+    {
+     "ahead": 5,
+     "behind": 10,
+     "gap": 0.8335
+    }
+   ],
+   "late_at_start": 0.021,
+   "work_seconds": 0.226,
+   "shown_until": 92.46,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 92.283,
+   "race_time": 81.0,
+   "ready": 92.51,
+   "line": "5번 매직포션이 선두입니다. 선두권에 9번 드론킬러.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.5055
+    }
+   ],
+   "late_at_start": 0.017,
+   "work_seconds": 0.209,
+   "shown_until": 95.868,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 95.283,
+   "race_time": 84.0,
+   "ready": 95.918,
+   "line": "5번 매직포션, 계속 선두입니다. 선두권에 9번 드론킬러.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.167,
+   "work_seconds": 0.467,
+   "shown_until": 98.833,
+   "delay": 0.635
+  },
+  {
+   "kind": "point",
+   "video_time": 98.283,
+   "race_time": 87.0,
+   "ready": 98.883,
+   "line": "선두권에 5번 매직포션, 8번 스피드원. 8번 스피드원이 5번 매직포션보다 앞에 있습니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.2995
+    }
+   ],
+   "late_at_start": 0.155,
+   "work_seconds": 0.444,
+   "shown_until": 99.01,
+   "delay": 0.6
+  },
+  {
+   "kind": "finish",
+   "video_time": 98.95,
+   "race_time": 87.67,
+   "ready": 99.06,
+   "line": "결승선 통과! 5번 매직포션이 가장 먼저 들어옵니다!",
+   "winner": 5,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "5": 7,
+     "3": 1,
+     "9": 2,
+     "8": 1
+    },
+    "seen": 7,
+    "front": 7,
+    "pictures_in_the_last_6s": 27
+   },
+   "finish_video_time": 97.733,
+   "seconds_after_the_finish": 1.33,
+   "work_seconds": 0.001,
+   "shown_until": 105.01,
+   "delay": 0.11
+  }
+ ]
+}

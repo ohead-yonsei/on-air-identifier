@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 2,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "나르샤글로리"
+  },
+  {
+   "number": 2,
+   "name": "카스텔라"
+  },
+  {
+   "number": 3,
+   "name": "빅토리라이프"
+  },
+  {
+   "number": 4,
+   "name": "클러치챔프"
+  },
+  {
+   "number": 5,
+   "name": "이스트위너"
+  },
+  {
+   "number": 6,
+   "name": "타라우마라"
+  },
+  {
+   "number": 7,
+   "name": "일상이기적"
+  },
+  {
+   "number": 8,
+   "name": "히어로미톨"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

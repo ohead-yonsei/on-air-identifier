@@ -1,0 +1,700 @@
+{
+ "video": "otherday27/videos/R07_tXyeLuhCa4U.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 7,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "호명퀸"
+   },
+   {
+    "number": 2,
+    "name": "비카델라"
+   },
+   {
+    "number": 3,
+    "name": "금빛영웅"
+   },
+   {
+    "number": 4,
+    "name": "남촌타운"
+   },
+   {
+    "number": 5,
+    "name": "조이천하"
+   },
+   {
+    "number": 6,
+    "name": "대비마마"
+   },
+   {
+    "number": 7,
+    "name": "아이엠고"
+   },
+   {
+    "number": 8,
+    "name": "세븐카이저"
+   },
+   {
+    "number": 9,
+    "name": "실크스펙터"
+   },
+   {
+    "number": 10,
+    "name": "예스엔젤"
+   },
+   {
+    "number": 11,
+    "name": "비케이비바체"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 19.316666666666666,
+  "finish": 94.15,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5904,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.7
+ },
+ "furthest_behind_seconds": 0.685,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 20.317,
+   "race_time": 1.0,
+   "ready": 20.318,
+   "line": "서울 7경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 26.268,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 28.317,
+   "race_time": 9.0,
+   "ready": 28.674,
+   "line": "8번 세븐카이저, 9번 실크스펙터, 선두권에서 달립니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.356,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 31.522,
+   "delay": 0.357
+  },
+  {
+   "kind": "point",
+   "video_time": 31.317,
+   "race_time": 12.0,
+   "ready": 31.572,
+   "line": "9번 실크스펙터, 선두에 있습니다. 8번 세븐카이저도 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.375
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 34.61,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 34.333,
+   "race_time": 15.02,
+   "ready": 34.66,
+   "line": "선두권에 8번 세븐카이저, 9번 실크스펙터. 9번 실크스펙터가 8번 세븐카이저보다 앞에 있습니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.2843
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.326,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 37.566,
+   "delay": 0.327
+  },
+  {
+   "kind": "point",
+   "video_time": 37.333,
+   "race_time": 18.02,
+   "ready": 37.616,
+   "line": "9번 실크스펙터가 선두입니다. 4번 남촌타운, 8번 세븐카이저도 선두권입니다.",
+   "statements": [
+    4,
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 4,
+     "gap": 0.6701
+    },
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.7411
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 40.555,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 40.333,
+   "race_time": 21.02,
+   "ready": 40.605,
+   "line": "선두권에 8번 세븐카이저가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 43.551,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 43.333,
+   "race_time": 24.02,
+   "ready": 43.601,
+   "line": "9번 실크스펙터가 선두입니다. 선두권에 6번 대비마마, 8번 세븐카이저.",
+   "statements": [
+    6,
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3975
+    },
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.7478
+    },
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.3503
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 46.535,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 46.333,
+   "race_time": 27.02,
+   "ready": 46.585,
+   "line": "선두는 9번 실크스펙터. 선두권에 8번 세븐카이저.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.6683
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 49.531,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 49.333,
+   "race_time": 30.02,
+   "ready": 49.581,
+   "line": "9번 실크스펙터, 선두에 있습니다. 선두권에 4번 남촌타운, 8번 세븐카이저.",
+   "statements": [
+    4,
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 4,
+     "gap": 0.542
+    },
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.4976
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 52.501,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 52.317,
+   "race_time": 33.0,
+   "ready": 52.551,
+   "line": "9번 실크스펙터가 선두입니다. 선두권에 8번 세븐카이저.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 55.518,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 55.317,
+   "race_time": 36.0,
+   "ready": 55.568,
+   "line": "9번 실크스펙터, 계속 선두입니다. 선두권에 8번 세븐카이저.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.6662
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 58.514,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 58.317,
+   "race_time": 39.0,
+   "ready": 58.564,
+   "line": "선두권에 8번 세븐카이저, 9번 실크스펙터가 있습니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 61.505,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 61.317,
+   "race_time": 42.0,
+   "ready": 61.555,
+   "line": "8번 세븐카이저, 9번 실크스펙터, 계속 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.6178
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 64.514,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 64.317,
+   "race_time": 45.0,
+   "ready": 64.564,
+   "line": "선두권은 그대로 8번 세븐카이저, 9번 실크스펙터.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.3992
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 67.511,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 67.317,
+   "race_time": 48.0,
+   "ready": 67.561,
+   "line": "선두권에 4번 남촌타운, 9번 실크스펙터. 4번 남촌타운이 9번 실크스펙터보다 앞에 있습니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 9,
+     "gap": 0.2853
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 70.551,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 70.317,
+   "race_time": 51.0,
+   "ready": 70.601,
+   "line": "선두권에 4번 남촌타운, 8번 세븐카이저, 9번 실크스펙터. 4번 남촌타운이 8번 세븐카이저보다 앞에 있습니다.",
+   "statements": [
+    4,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.5255
+    },
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.3552
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.283,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 73.522,
+   "delay": 0.284
+  },
+  {
+   "kind": "point",
+   "video_time": 73.317,
+   "race_time": 54.0,
+   "ready": 73.572,
+   "line": "선두권에 4번 남촌타운, 8번 세븐카이저. 4번 남촌타운이 8번 세븐카이저보다 앞에 있습니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.4822
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 76.519,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 76.317,
+   "race_time": 57.0,
+   "ready": 76.569,
+   "line": "4번 남촌타운, 8번 세븐카이저, 계속 선두권입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.474
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 79.512,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 79.317,
+   "race_time": 60.0,
+   "ready": 79.562,
+   "line": "4번 남촌타운, 선두에 있습니다. 8번 세븐카이저, 9번 실크스펙터도 선두권입니다.",
+   "statements": [
+    4,
+    8,
+    9
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2764
+    },
+    {
+     "ahead": 4,
+     "behind": 9,
+     "gap": 0.4239
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 82.503,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 82.317,
+   "race_time": 63.0,
+   "ready": 82.553,
+   "line": "4번 남촌타운이 선두입니다. 6번 대비마마, 8번 세븐카이저, 9번 실크스펙터도 선두권입니다.",
+   "statements": [
+    4,
+    6,
+    8,
+    9
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.7209
+    },
+    {
+     "ahead": 4,
+     "behind": 9,
+     "gap": 0.6817
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 85.486,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 85.317,
+   "race_time": 66.0,
+   "ready": 85.536,
+   "line": "선두는 4번 남촌타운. 9번 실크스펙터도 선두권입니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.218,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 88.804,
+   "delay": 0.219
+  },
+  {
+   "kind": "point",
+   "video_time": 88.317,
+   "race_time": 69.0,
+   "ready": 88.854,
+   "line": "4번 남촌타운, 선두에 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.043,
+   "work_seconds": 0.493,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 91.802,
+   "delay": 0.537
+  },
+  {
+   "kind": "point",
+   "video_time": 91.317,
+   "race_time": 72.0,
+   "ready": 91.852,
+   "line": "선두는 4번 남촌타운. 선두권에 8번 세븐카이저.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.051,
+   "work_seconds": 0.484,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 94.967,
+   "delay": 0.535
+  },
+  {
+   "kind": "point",
+   "video_time": 94.317,
+   "race_time": 75.0,
+   "ready": 95.017,
+   "line": "4번 남촌타운, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.157,
+   "work_seconds": 0.543,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 95.406,
+   "delay": 0.7
+  },
+  {
+   "kind": "finish",
+   "video_time": 95.367,
+   "race_time": 76.05,
+   "ready": 95.456,
+   "line": "결승선 통과! 4번 남촌타운이 가장 먼저 들어옵니다!",
+   "winner": 4,
+   "winner_call": {
+    "candidate": 4,
+    "pictures_naming_each": {
+     "3": 1,
+     "4": 5,
+     "8": 3,
+     "7": 1
+    },
+    "seen": 10,
+    "front": 9,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 94.15,
+   "seconds_after_the_finish": 1.31,
+   "work_seconds": 0.001,
+   "shown_until": 101.406,
+   "delay": 0.089
+  }
+ ]
+}

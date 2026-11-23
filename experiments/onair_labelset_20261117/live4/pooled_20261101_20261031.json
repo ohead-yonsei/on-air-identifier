@@ -1,0 +1,239 @@
+{
+ "days": [
+  "20261101",
+  "20261031"
+ ],
+ "races": [
+  {
+   "day": "20261101",
+   "race": "R01",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R04",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R05",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R06",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R08",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R10",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R11",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R01",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R04",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R05",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R06",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R08",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R10",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R11",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  }
+ ],
+ "races_in": 16,
+ "A": {
+  "totals": {
+   "lines": 480,
+   "numbers": 839,
+   "numbers right": 778,
+   "numbers close": 39,
+   "numbers wrong": 22,
+   "lines with a wrong number": 22,
+   "leader lines": 274,
+   "leader right": 222,
+   "leader close": 38,
+   "leader wrong": 14
+  },
+  "stretch_last_36s": {
+   "leader lines": 138,
+   "leader right": 111,
+   "leader close": 17,
+   "leader wrong": 10
+  },
+  "numbers_right": 0.9273,
+  "leader_right": 0.8102,
+  "leader_wrong": 0.0511,
+  "stretch_leader_right": 0.8043,
+  "delay_median": 0.254,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 13,
+   "wrong": 1,
+   "no call": 2
+  }
+ },
+ "B": {
+  "totals": {
+   "lines": 480,
+   "numbers": 838,
+   "numbers right": 778,
+   "numbers close": 39,
+   "numbers wrong": 21,
+   "lines with a wrong number": 21,
+   "leader lines": 249,
+   "leader right": 211,
+   "leader close": 34,
+   "leader wrong": 4
+  },
+  "stretch_last_36s": {
+   "leader lines": 114,
+   "leader right": 101,
+   "leader close": 13,
+   "leader wrong": 0
+  },
+  "numbers_right": 0.9284,
+  "leader_right": 0.8474,
+  "leader_wrong": 0.0161,
+  "stretch_leader_right": 0.886,
+  "delay_median": 0.257,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 13,
+   "wrong": 1,
+   "no call": 2
+  }
+ },
+ "B_minus_A_leader_right": 0.0372,
+ "bootstrap_95": [
+  -0.0011,
+  0.0815
+ ],
+ "verdicts": {
+  "V1 B leader right >= A + 5 pt and fewer wrong": false,
+  "V2 B leader right >= 75%": true,
+  "V3 B numbers >= 90% and speed": true,
+  "V4 A numbers >= 90% and speed (live2 replication)": true
+ },
+ "recommend B as live_run default": false
+}

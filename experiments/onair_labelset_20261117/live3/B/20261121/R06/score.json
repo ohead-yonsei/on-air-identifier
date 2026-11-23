@@ -1,0 +1,462 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 30,
+  "lines with a number": 26,
+  "numbers": 43,
+  "numbers right": 36,
+  "numbers close": 5,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 7,
+  "leader right": 6,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.268,
+  "max": 0.737
+ },
+ "rows": [
+  {
+   "video_time": 28.367,
+   "line": "11번 위너남촌, 선두권에서 달립니다.",
+   "numbers": {
+    "11": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 31.367,
+   "line": "선두권에 4번 하남레이저가 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 34.35,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 37.35,
+   "line": "서울 6경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 40.35,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 43.35,
+   "line": "4번 하남레이저, 선두에 있습니다. 선두권에 5번 킹스파이시.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 46.35,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 49.35,
+   "line": "4번 하남레이저가 선두입니다. 선두권에 5번 킹스파이시.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 52.35,
+   "line": "5번 킹스파이시, 7번 황금송, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 55.35,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 58.35,
+   "line": "선두권에 5번 킹스파이시, 7번 황금송. 5번 킹스파이시가 7번 황금송보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 61.35,
+   "line": "선두권에 5번 킹스파이시, 6번 에클레어. 5번 킹스파이시가 6번 에클레어보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 64.367,
+   "line": "5번 킹스파이시, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 67.367,
+   "line": "선두는 5번 킹스파이시. 11번 위너남촌도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "11": "wrong"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    4,
+    5,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 70.367,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 73.367,
+   "line": "5번 킹스파이시, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 76.367,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 79.367,
+   "line": "5번 킹스파이시, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 82.367,
+   "line": "선두권에 1번 베스트프리덤, 5번 킹스파이시. 5번 킹스파이시가 1번 베스트프리덤보다 앞에 있습니다.",
+   "numbers": {
+    "1": "close",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 85.35,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 88.35,
+   "line": "5번 킹스파이시, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    7,
+    8
+   ]
+  },
+  {
+   "video_time": 91.35,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 94.35,
+   "line": "선두권은 그대로 4번 하남레이저, 5번 킹스파이시.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 97.35,
+   "line": "선두는 5번 킹스파이시. 선두권에 4번 하남레이저.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 100.35,
+   "line": "5번 킹스파이시, 선두에 있습니다. 선두권에 4번 하남레이저, 11번 위너남촌.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 103.35,
+   "line": "5번 킹스파이시가 선두입니다. 선두권에 11번 위너남촌.",
+   "numbers": {
+    "5": "right",
+    "11": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    8,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 106.35,
+   "line": "5번 킹스파이시, 계속 선두입니다. 선두권에 11번 위너남촌.",
+   "numbers": {
+    "5": "right",
+    "11": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    8,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 109.35,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    11,
+    7
+   ]
+  },
+  {
+   "video_time": 110.117,
+   "line": "결승선을 통과했습니다. 서울 6경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 5,
+   "verdict": "no call"
+  }
+ ]
+}

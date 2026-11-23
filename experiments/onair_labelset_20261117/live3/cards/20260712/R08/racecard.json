@@ -1,0 +1,49 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 8,
+ "distance": 1600,
+ "runners": [
+  {
+   "number": 1,
+   "name": "백룡"
+  },
+  {
+   "number": 2,
+   "name": "급행열차"
+  },
+  {
+   "number": 3,
+   "name": "불의세계"
+  },
+  {
+   "number": 4,
+   "name": "글로벌파로아"
+  },
+  {
+   "number": 5,
+   "name": "주몽천하"
+  },
+  {
+   "number": 6,
+   "name": "한마디말도"
+  },
+  {
+   "number": 7,
+   "name": "스마트뮤직"
+  },
+  {
+   "number": 8,
+   "name": "성실대로"
+  },
+  {
+   "number": 9,
+   "name": "러브오마인"
+  },
+  {
+   "number": 10,
+   "name": "선더에이원"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

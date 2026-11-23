@@ -1,0 +1,401 @@
+{
+ "official_winner": 7,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 50,
+  "numbers right": 46,
+  "numbers close": 4,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 16,
+  "leader right": 15,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.253,
+  "max": 0.639
+ },
+ "rows": [
+  {
+   "video_time": 21.3,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프. 3번 글로리앤아너가 6번 크레이지챔프보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    6,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 24.3,
+   "line": "3번 글로리앤아너, 5번 팡팡대로, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "5": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    6,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 27.3,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    3,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 30.283,
+   "line": "선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    3,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 33.283,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 36.283,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    3,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 39.283,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 42.283,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 45.283,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 48.283,
+   "line": "6번 크레이지챔프가 선두입니다. 3번 글로리앤아너, 7번 싱싱모닝도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 51.283,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너, 7번 싱싱모닝.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 54.283,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프, 7번 싱싱모닝. 6번 크레이지챔프가 3번 글로리앤아너보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 57.283,
+   "line": "6번 크레이지챔프가 선두입니다. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 60.283,
+   "line": "3번 글로리앤아너, 6번 크레이지챔프, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    7,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 63.283,
+   "line": "선두권은 그대로 3번 글로리앤아너, 6번 크레이지챔프.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    6,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 66.283,
+   "line": "6번 크레이지챔프, 선두에 있습니다. 선두권에 3번 글로리앤아너, 7번 싱싱모닝.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "wrong",
+   "official_order": [
+    7,
+    6,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 69.283,
+   "line": "7번 싱싱모닝이 선두입니다. 선두권에 3번 글로리앤아너, 6번 크레이지챔프.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    6,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 72.283,
+   "line": "선두는 7번 싱싱모닝. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "close",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    6,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 75.283,
+   "line": "7번 싱싱모닝, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "close",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    6,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 78.283,
+   "line": "여전히 선두는 7번 싱싱모닝. 선두권에 3번 글로리앤아너.",
+   "numbers": {
+    "3": "close",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    9,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 81.283,
+   "line": "7번 싱싱모닝이 선두입니다. 선두권에 9번 브리도피닉스.",
+   "numbers": {
+    "7": "right",
+    "9": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    9,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 84.283,
+   "line": "7번 싱싱모닝, 계속 선두입니다. 선두권에 9번 브리도피닉스.",
+   "numbers": {
+    "7": "right",
+    "9": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    9,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 87.283,
+   "line": "선두권에 9번 브리도피닉스가 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    9,
+    3,
+    11
+   ]
+  },
+  {
+   "video_time": 87.667,
+   "line": "결승선 통과! 7번 싱싱모닝이 가장 먼저 들어옵니다!",
+   "winner_call": 7,
+   "official_winner": 7,
+   "verdict": "right"
+  }
+ ]
+}

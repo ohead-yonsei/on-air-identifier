@@ -1,0 +1,730 @@
+{
+ "video": "otherday26/videos/R09_vVnJg-08CTQ.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 9,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "금적산"
+   },
+   {
+    "number": 2,
+    "name": "손에손잡고"
+   },
+   {
+    "number": 3,
+    "name": "굿최강"
+   },
+   {
+    "number": 4,
+    "name": "최강스피드"
+   },
+   {
+    "number": 5,
+    "name": "클림트월드"
+   },
+   {
+    "number": 6,
+    "name": "운주프린스"
+   },
+   {
+    "number": 7,
+    "name": "뱅크라인"
+   },
+   {
+    "number": 8,
+    "name": "화이트선더"
+   },
+   {
+    "number": 9,
+    "name": "컴플리트브로"
+   },
+   {
+    "number": 10,
+    "name": "마이티헝키"
+   },
+   {
+    "number": 11,
+    "name": "브리도큐피드"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 7.35,
+  "finish": 93.35,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5856,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.263,
+  "max": 0.725
+ },
+ "furthest_behind_seconds": 0.71,
+ "dense_pictures": {
+  "run": 51,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 8.35,
+   "race_time": 1.0,
+   "ready": 8.351,
+   "line": "서울 9경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 14.301,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 16.35,
+   "race_time": 9.0,
+   "ready": 16.658,
+   "line": "5번 클림트월드, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.307,
+   "shown_until": 19.979,
+   "delay": 0.308
+  },
+  {
+   "kind": "point",
+   "video_time": 19.35,
+   "race_time": 12.0,
+   "ready": 20.029,
+   "line": "선두권에 11번 브리도큐피드가 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.678,
+   "shown_until": 22.801,
+   "delay": 0.679
+  },
+  {
+   "kind": "point",
+   "video_time": 22.35,
+   "race_time": 15.0,
+   "ready": 22.851,
+   "line": "1번 금적산, 선두권에서 달립니다.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.5,
+   "shown_until": 25.874,
+   "delay": 0.501
+  },
+  {
+   "kind": "point",
+   "video_time": 25.35,
+   "race_time": 18.0,
+   "ready": 25.924,
+   "line": "선두권은 그대로 1번 금적산.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.572,
+   "shown_until": 28.637,
+   "delay": 0.574
+  },
+  {
+   "kind": "point",
+   "video_time": 28.35,
+   "race_time": 21.0,
+   "ready": 28.687,
+   "line": "1번 금적산, 8번 화이트선더, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.335,
+   "shown_until": 31.558,
+   "delay": 0.337
+  },
+  {
+   "kind": "point",
+   "video_time": 31.35,
+   "race_time": 24.0,
+   "ready": 31.608,
+   "line": "선두는 1번 금적산. 6번 운주프린스도 선두권입니다.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.5207
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 34.572,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 34.35,
+   "race_time": 27.0,
+   "ready": 34.622,
+   "line": "1번 금적산, 선두에 있습니다. 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.7316
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 37.545,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 37.35,
+   "race_time": 30.0,
+   "ready": 37.595,
+   "line": "1번 금적산이 선두입니다. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    1,
+    6,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.6307
+    },
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.6817
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 40.563,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 40.35,
+   "race_time": 33.0,
+   "ready": 40.613,
+   "line": "선두는 1번 금적산. 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.7812
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 43.538,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 43.35,
+   "race_time": 36.0,
+   "ready": 43.588,
+   "line": "1번 금적산, 선두에 있습니다. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    1,
+    6,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.4431
+    },
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.5131
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 46.534,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 46.35,
+   "race_time": 39.0,
+   "ready": 46.584,
+   "line": "1번 금적산이 선두입니다. 6번 운주프린스, 10번 마이티헝키도 선두권입니다.",
+   "statements": [
+    1,
+    6,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.2228
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 49.551,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 49.35,
+   "race_time": 42.0,
+   "ready": 49.601,
+   "line": "선두권에 6번 운주프린스, 8번 화이트선더가 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 52.541,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 52.35,
+   "race_time": 45.0,
+   "ready": 52.591,
+   "line": "1번 금적산이 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.3844
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 55.691,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 55.35,
+   "race_time": 48.0,
+   "ready": 55.741,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.4985
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.39,
+   "shown_until": 58.538,
+   "delay": 0.391
+  },
+  {
+   "kind": "point",
+   "video_time": 58.35,
+   "race_time": 51.0,
+   "ready": 58.588,
+   "line": "여전히 선두는 1번 금적산. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.571
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 61.538,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 61.35,
+   "race_time": 54.0,
+   "ready": 61.588,
+   "line": "1번 금적산, 선두에 있습니다. 선두권에 6번 운주프린스, 8번 화이트선더.",
+   "statements": [
+    1,
+    6,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.2542
+    },
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.3693
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 64.547,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 64.367,
+   "race_time": 57.02,
+   "ready": 64.597,
+   "line": "1번 금적산이 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.7893
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 67.702,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 67.367,
+   "race_time": 60.02,
+   "ready": 67.752,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.6336
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.384,
+   "shown_until": 70.559,
+   "delay": 0.385
+  },
+  {
+   "kind": "point",
+   "video_time": 70.367,
+   "race_time": 63.02,
+   "ready": 70.609,
+   "line": "여전히 선두는 1번 금적산. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.6509
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 73.566,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 73.35,
+   "race_time": 66.0,
+   "ready": 73.616,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 6,
+     "gap": 0.4325
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 76.547,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 76.35,
+   "race_time": 69.0,
+   "ready": 76.597,
+   "line": "선두는 10번 마이티헝키. 1번 금적산, 6번 운주프린스도 선두권입니다.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 79.521,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 79.35,
+   "race_time": 72.0,
+   "ready": 79.571,
+   "line": "여전히 선두는 10번 마이티헝키. 선두권에 1번 금적산, 6번 운주프린스.",
+   "statements": [
+    1,
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.5563
+    },
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.5038
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.219,
+   "shown_until": 82.529,
+   "delay": 0.221
+  },
+  {
+   "kind": "point",
+   "video_time": 82.35,
+   "race_time": 75.0,
+   "ready": 82.579,
+   "line": "선두는 10번 마이티헝키. 선두권에 6번 운주프린스.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.7761
+    }
+   ],
+   "late_at_start": 0.027,
+   "work_seconds": 0.202,
+   "shown_until": 85.936,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 85.35,
+   "race_time": 78.0,
+   "ready": 85.986,
+   "line": "10번 마이티헝키, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.6249
+    }
+   ],
+   "late_at_start": 0.145,
+   "work_seconds": 0.491,
+   "shown_until": 88.922,
+   "delay": 0.636
+  },
+  {
+   "kind": "point",
+   "video_time": 88.35,
+   "race_time": 81.0,
+   "ready": 88.972,
+   "line": "선두는 10번 마이티헝키. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    6,
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.7636
+    }
+   ],
+   "late_at_start": 0.106,
+   "work_seconds": 0.515,
+   "shown_until": 92.025,
+   "delay": 0.622
+  },
+  {
+   "kind": "point",
+   "video_time": 91.35,
+   "race_time": 84.0,
+   "ready": 92.075,
+   "line": "10번 마이티헝키, 선두에 있습니다. 8번 화이트선더도 선두권입니다.",
+   "statements": [
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.4558
+    }
+   ],
+   "late_at_start": 0.235,
+   "work_seconds": 0.49,
+   "shown_until": 94.856,
+   "delay": 0.725
+  },
+  {
+   "kind": "point",
+   "video_time": 94.35,
+   "race_time": 87.0,
+   "ready": 94.906,
+   "line": "선두권에 8번 화이트선더가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.11,
+   "work_seconds": 0.445,
+   "shown_until": 94.878,
+   "delay": 0.556
+  },
+  {
+   "kind": "finish",
+   "video_time": 94.567,
+   "race_time": 87.22,
+   "ready": 94.928,
+   "line": "결승선 통과! 10번 마이티헝키가 가장 먼저 들어옵니다!",
+   "winner": 10,
+   "winner_call": {
+    "candidate": 10,
+    "pictures_naming_each": {
+     "10": 11,
+     "11": 1
+    },
+    "seen": 1,
+    "front": 1,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 93.35,
+   "seconds_after_the_finish": 1.58,
+   "work_seconds": 0.0,
+   "shown_until": 100.878,
+   "delay": 0.361
+  }
+ ]
+}

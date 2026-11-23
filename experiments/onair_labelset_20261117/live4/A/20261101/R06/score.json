@@ -1,0 +1,587 @@
+{
+ "official_winner": 11,
+ "totals": {
+  "lines": 37,
+  "lines with a number": 34,
+  "numbers": 69,
+  "numbers right": 66,
+  "numbers close": 2,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 21,
+  "leader right": 20,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.257,
+  "max": 0.714
+ },
+ "rows": [
+  {
+   "video_time": 22.55,
+   "line": "5번 스카일러태하, 11번 글로벌랜드, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 25.55,
+   "line": "선두권에 5번 스카일러태하가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 28.55,
+   "line": "5번 스카일러태하, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 31.55,
+   "line": "선두권에 7번 퍼펙트건맨이 있습니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 34.55,
+   "line": "4번 케이삭스, 선두에 있습니다. 선두권에 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 37.55,
+   "line": "선두권에 2번 럭키링맨, 5번 스카일러태하. 5번 스카일러태하가 2번 럭키링맨보다 앞에 있습니다.",
+   "numbers": {
+    "2": "close",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 40.55,
+   "line": "1700m 경주, 출발 후 27초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 43.55,
+   "line": "선두권에 11번 글로벌랜드가 있습니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 46.55,
+   "line": "선두는 4번 케이삭스.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 49.55,
+   "line": "4번 케이삭스가 선두입니다. 11번 글로벌랜드도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 52.55,
+   "line": "여전히 선두는 4번 케이삭스. 선두권에 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 55.55,
+   "line": "4번 케이삭스가 선두입니다. 선두권에 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 58.55,
+   "line": "선두권에 4번 케이삭스, 11번 글로벌랜드. 4번 케이삭스가 11번 글로벌랜드보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 61.55,
+   "line": "5번 스카일러태하, 11번 글로벌랜드, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 64.55,
+   "line": "선두권은 그대로 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 67.55,
+   "line": "4번 케이삭스, 선두에 있습니다. 선두권에 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 70.55,
+   "line": "4번 케이삭스, 계속 선두입니다. 선두권에 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 73.55,
+   "line": "여전히 선두는 4번 케이삭스. 선두권에 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 76.55,
+   "line": "선두는 4번 케이삭스. 선두권에 5번 스카일러태하.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 79.55,
+   "line": "4번 케이삭스, 계속 선두입니다. 선두권에 5번 스카일러태하.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 82.55,
+   "line": "선두는 4번 케이삭스. 5번 스카일러태하, 11번 글로벌랜드도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 85.55,
+   "line": "4번 케이삭스, 선두에 있습니다. 5번 스카일러태하도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 88.55,
+   "line": "여전히 선두는 4번 케이삭스. 선두권에 5번 스카일러태하.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 91.55,
+   "line": "4번 케이삭스, 선두에 있습니다. 선두권에 5번 스카일러태하, 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 94.55,
+   "line": "4번 케이삭스가 선두입니다. 선두권에 5번 스카일러태하.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 97.55,
+   "line": "4번 케이삭스, 5번 스카일러태하, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 100.55,
+   "line": "4번 케이삭스가 선두입니다. 5번 스카일러태하도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 103.55,
+   "line": "선두권에 4번 케이삭스, 5번 스카일러태하가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 106.55,
+   "line": "4번 케이삭스, 5번 스카일러태하, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 109.55,
+   "line": "선두권에 4번 케이삭스, 5번 스카일러태하, 11번 글로벌랜드. 4번 케이삭스가 5번 스카일러태하보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    4,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 112.55,
+   "line": "11번 글로벌랜드, 선두에 있습니다. 4번 케이삭스, 5번 스카일러태하도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    4,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 115.55,
+   "line": "11번 글로벌랜드가 선두입니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    4,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 118.55,
+   "line": "11번 글로벌랜드, 선두에 있습니다. 선두권에 8번 파워풀아크틱.",
+   "numbers": {
+    "8": "close",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    4,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 121.55,
+   "line": "4번 케이삭스가 선두입니다. 선두권에 11번 글로벌랜드.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "wrong",
+   "official_order": [
+    11,
+    8,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 124.55,
+   "line": "선두는 11번 글로벌랜드.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    8,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 127.25,
+   "line": "결승선 통과! 11번 글로벌랜드가 가장 먼저 들어옵니다!",
+   "winner_call": 11,
+   "official_winner": 11,
+   "verdict": "right"
+  }
+ ]
+}

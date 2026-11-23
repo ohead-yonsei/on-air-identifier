@@ -1,0 +1,7 @@
+{'lines': 29, 'lines with a number': 27, 'numbers': 56, 'numbers right': 53, 'numbers close': 0, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 19, 'leader right': 17, 'leader close': 2, 'leader wrong': 0}
+   16.35 numbers {5: 'wrong'} leader None None | official first four [1, 6, 8, 9] | 5번 클림트월드, 선두권에서 달립니다.
+   19.35 numbers {11: 'wrong'} leader None None | official first four [1, 6, 8, 9] | 선두권에 11번 브리도큐피드가 있습니다.
+   46.35 numbers {1: 'right', 6: 'right', 10: 'wrong'} leader 1 right | official first four [1, 6, 8, 10] | 1번 금적산이 선두입니다. 6번 운주프린스, 10번 마이티헝키도 선두권입니다.
+   73.35 numbers {1: 'right', 6: 'right'} leader 1 close | official first four [6, 1, 10, 8] | 1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.
+   76.35 numbers {1: 'right', 6: 'right'} leader 1 close | official first four [10, 6, 1, 8] | 여전히 선두는 1번 금적산. 선두권에 6번 운주프린스.
+finish: 10 official 10 right

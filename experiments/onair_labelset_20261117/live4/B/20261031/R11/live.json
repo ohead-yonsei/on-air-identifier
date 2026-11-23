@@ -1,0 +1,693 @@
+{
+ "video": "otherday27/videos/R11_AxX-TJsBc0g.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "아르고리치"
+   },
+   {
+    "number": 2,
+    "name": "리멤버어게인"
+   },
+   {
+    "number": 3,
+    "name": "히어로삭스"
+   },
+   {
+    "number": 4,
+    "name": "드론킬러"
+   },
+   {
+    "number": 5,
+    "name": "한강퍼펙트"
+   },
+   {
+    "number": 6,
+    "name": "우승콩코드"
+   },
+   {
+    "number": 7,
+    "name": "블루레몬"
+   },
+   {
+    "number": 8,
+    "name": "마이티조이"
+   },
+   {
+    "number": 9,
+    "name": "마스터콰이곤"
+   },
+   {
+    "number": 11,
+    "name": "위즈러너"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 7.833333333333333,
+  "finish": 93.033,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5837,
+ "lines": 28,
+ "delay_seconds": {
+  "median": 0.246,
+  "max": 0.762
+ },
+ "furthest_behind_seconds": 0.746,
+ "dense_pictures": {
+  "run": 51,
+  "skipped_when_behind": 7
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 8.833,
+   "race_time": 1.0,
+   "ready": 8.835,
+   "line": "서울 11경주 1400m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 14.785,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 16.833,
+   "race_time": 9.0,
+   "ready": 17.409,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.574,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 20.328,
+   "delay": 0.576
+  },
+  {
+   "kind": "point",
+   "video_time": 19.833,
+   "race_time": 12.0,
+   "ready": 20.378,
+   "line": "서울 11경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.543,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.282,
+   "delay": 0.545
+  },
+  {
+   "kind": "point",
+   "video_time": 22.833,
+   "race_time": 15.0,
+   "ready": 23.332,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.497,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 26.314,
+   "delay": 0.499
+  },
+  {
+   "kind": "point",
+   "video_time": 25.833,
+   "race_time": 18.0,
+   "ready": 26.364,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.529,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 29.029,
+   "delay": 0.531
+  },
+  {
+   "kind": "point",
+   "video_time": 28.833,
+   "race_time": 21.0,
+   "ready": 29.079,
+   "line": "8번 마이티조이, 선두에 있습니다. 선두권에 5번 한강퍼펙트.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.8454
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 32.054,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 31.833,
+   "race_time": 24.0,
+   "ready": 32.104,
+   "line": "5번 한강퍼펙트, 9번 마스터콰이곤, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.023,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 34.833,
+   "race_time": 27.0,
+   "ready": 35.073,
+   "line": "8번 마이티조이, 선두에 있습니다. 5번 한강퍼펙트도 선두권입니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.8005
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 38.025,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 37.833,
+   "race_time": 30.0,
+   "ready": 38.075,
+   "line": "8번 마이티조이가 선두입니다. 9번 마스터콰이곤도 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.7185
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 41.023,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 40.833,
+   "race_time": 33.0,
+   "ready": 41.073,
+   "line": "선두는 8번 마이티조이. 5번 한강퍼펙트, 9번 마스터콰이곤도 선두권입니다.",
+   "statements": [
+    5,
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3031
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 44.044,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 43.833,
+   "race_time": 36.0,
+   "ready": 44.094,
+   "line": "여전히 선두는 8번 마이티조이. 선두권에 5번 한강퍼펙트, 9번 마스터콰이곤.",
+   "statements": [
+    5,
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.4333
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.5057
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 47.019,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 46.833,
+   "race_time": 39.0,
+   "ready": 47.069,
+   "line": "선두권에 5번 한강퍼펙트, 8번 마이티조이. 8번 마이티조이가 5번 한강퍼펙트보다 앞에 있습니다.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.3319
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.026,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 49.833,
+   "race_time": 42.0,
+   "ready": 50.076,
+   "line": "선두는 5번 한강퍼펙트. 선두권에 8번 마이티조이, 9번 마스터콰이곤.",
+   "statements": [
+    5,
+    8,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.3539
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 53.017,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 52.833,
+   "race_time": 45.0,
+   "ready": 53.067,
+   "line": "8번 마이티조이, 선두에 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 56.539,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 55.833,
+   "race_time": 48.0,
+   "ready": 56.589,
+   "line": "선두권에 8번 마이티조이가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.754,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 59.014,
+   "delay": 0.756
+  },
+  {
+   "kind": "point",
+   "video_time": 58.833,
+   "race_time": 51.0,
+   "ready": 59.064,
+   "line": "8번 마이티조이가 선두입니다. 선두권에 9번 마스터콰이곤.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.5805
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 62.036,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 61.833,
+   "race_time": 54.0,
+   "ready": 62.086,
+   "line": "선두는 8번 마이티조이.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 65.033,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 64.85,
+   "race_time": 57.02,
+   "ready": 65.083,
+   "line": "여전히 선두는 8번 마이티조이.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 68.059,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 67.85,
+   "race_time": 60.02,
+   "ready": 68.109,
+   "line": "8번 마이티조이, 선두에 있습니다. 선두권에 9번 마스터콰이곤.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.8155
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 71.072,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 70.85,
+   "race_time": 63.02,
+   "ready": 71.122,
+   "line": "8번 마이티조이, 계속 선두입니다. 선두권에 9번 마스터콰이곤.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.8232
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 74.022,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 73.833,
+   "race_time": 66.0,
+   "ready": 74.072,
+   "line": "여전히 선두는 8번 마이티조이. 선두권에 9번 마스터콰이곤.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 77.022,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 76.833,
+   "race_time": 69.0,
+   "ready": 77.072,
+   "line": "선두는 8번 마이티조이.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 80.018,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 79.833,
+   "race_time": 72.0,
+   "ready": 80.068,
+   "line": "여전히 선두는 8번 마이티조이.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 82.996,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 82.833,
+   "race_time": 75.0,
+   "ready": 83.046,
+   "line": "9번 마스터콰이곤, 선두에 있습니다. 선두권에 8번 마이티조이.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.6745
+    }
+   ],
+   "late_at_start": 0.002,
+   "work_seconds": 0.21,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 86.0,
+   "delay": 0.213
+  },
+  {
+   "kind": "point",
+   "video_time": 85.833,
+   "race_time": 78.0,
+   "ready": 86.05,
+   "line": "선두권에 3번 히어로삭스, 9번 마스터콰이곤. 9번 마스터콰이곤이 3번 히어로삭스보다 앞에 있습니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.502
+    }
+   ],
+   "late_at_start": 0.012,
+   "work_seconds": 0.204,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 89.545,
+   "delay": 0.217
+  },
+  {
+   "kind": "point",
+   "video_time": 88.833,
+   "race_time": 81.0,
+   "ready": 89.595,
+   "line": "3번 히어로삭스, 9번 마스터콰이곤, 계속 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.3913
+    }
+   ],
+   "late_at_start": 0.269,
+   "work_seconds": 0.491,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 92.35,
+   "delay": 0.762
+  },
+  {
+   "kind": "point",
+   "video_time": 91.833,
+   "race_time": 84.0,
+   "ready": 92.4,
+   "line": "선두권에 2번 리멤버어게인, 3번 히어로삭스, 9번 마스터콰이곤이 있습니다.",
+   "statements": [
+    2,
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.088,
+   "work_seconds": 0.478,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 94.366,
+   "delay": 0.567
+  },
+  {
+   "kind": "finish",
+   "video_time": 94.25,
+   "race_time": 86.42,
+   "ready": 94.416,
+   "line": "결승선 통과! 9번 마스터콰이곤이 가장 먼저 들어옵니다!",
+   "winner": 9,
+   "winner_call": {
+    "candidate": 9,
+    "pictures_naming_each": {
+     "9": 9
+    },
+    "seen": 4,
+    "front": 4,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 93.033,
+   "seconds_after_the_finish": 1.38,
+   "work_seconds": 0.0,
+   "shown_until": 100.366,
+   "delay": 0.166
+  }
+ ]
+}

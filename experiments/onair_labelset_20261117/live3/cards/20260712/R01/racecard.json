@@ -1,0 +1,53 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 1,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "파사길"
+  },
+  {
+   "number": 2,
+   "name": "나르샤루시"
+  },
+  {
+   "number": 3,
+   "name": "슬링스마일"
+  },
+  {
+   "number": 4,
+   "name": "모닝치프"
+  },
+  {
+   "number": 5,
+   "name": "베스트최고"
+  },
+  {
+   "number": 6,
+   "name": "블루호라이즌"
+  },
+  {
+   "number": 7,
+   "name": "원더그레이스"
+  },
+  {
+   "number": 8,
+   "name": "세븐포스"
+  },
+  {
+   "number": 9,
+   "name": "토네르도스"
+  },
+  {
+   "number": 10,
+   "name": "시티오브드림"
+  },
+  {
+   "number": 11,
+   "name": "유니콘에이스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

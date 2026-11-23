@@ -1,0 +1,53 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 6,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "섬돌모루"
+  },
+  {
+   "number": 2,
+   "name": "굿카보"
+  },
+  {
+   "number": 3,
+   "name": "크레이지망고"
+  },
+  {
+   "number": 4,
+   "name": "브리도아쿠아"
+  },
+  {
+   "number": 5,
+   "name": "컴플리트디바"
+  },
+  {
+   "number": 6,
+   "name": "포에버길"
+  },
+  {
+   "number": 7,
+   "name": "호세"
+  },
+  {
+   "number": 8,
+   "name": "위대한함성"
+  },
+  {
+   "number": 9,
+   "name": "블루레인"
+  },
+  {
+   "number": 10,
+   "name": "굿모닝컴"
+  },
+  {
+   "number": 11,
+   "name": "라온스필레타"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

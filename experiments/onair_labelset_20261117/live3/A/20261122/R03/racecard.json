@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 3,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "골드스텝"
+  },
+  {
+   "number": 2,
+   "name": "원평드림"
+  },
+  {
+   "number": 3,
+   "name": "아름다운빛"
+  },
+  {
+   "number": 4,
+   "name": "뉴발삭스"
+  },
+  {
+   "number": 5,
+   "name": "크러시걸"
+  },
+  {
+   "number": 6,
+   "name": "클러치키드"
+  },
+  {
+   "number": 7,
+   "name": "러빙퍼플"
+  },
+  {
+   "number": 8,
+   "name": "피엔에스리프"
+  },
+  {
+   "number": 9,
+   "name": "지산커밍순"
+  },
+  {
+   "number": 10,
+   "name": "고산봉"
+  },
+  {
+   "number": 11,
+   "name": "히어로드래건"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

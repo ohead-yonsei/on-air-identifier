@@ -1,0 +1,614 @@
+{
+ "official_winner": 2,
+ "totals": {
+  "lines": 39,
+  "lines with a number": 35,
+  "numbers": 69,
+  "numbers right": 60,
+  "numbers close": 7,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 21,
+  "leader right": 20,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.254,
+  "max": 0.725
+ },
+ "rows": [
+  {
+   "video_time": 17.733,
+   "line": "6번 나이스위너, 7번 히어아이엠, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    6,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 20.733,
+   "line": "선두권은 그대로 6번 나이스위너, 7번 히어아이엠.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    6,
+    11,
+    2
+   ]
+  },
+  {
+   "video_time": 23.733,
+   "line": "선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 26.717,
+   "line": "7번 히어아이엠, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 29.717,
+   "line": "서울 9경주 1800m, 출발 후 21초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 32.717,
+   "line": "1800m 경주, 출발 후 24초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 35.717,
+   "line": "7번 히어아이엠, 선두에 있습니다. 1번 레전드와우도 선두권입니다.",
+   "numbers": {
+    "1": "wrong",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 38.717,
+   "line": "선두권에 7번 히어아이엠이 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 41.717,
+   "line": "7번 히어아이엠, 계속 선두권입니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 44.717,
+   "line": "선두권에 2번 빅토리삭스가 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 47.717,
+   "line": "7번 히어아이엠이 선두입니다. 선두권에 11번 브리도시리스.",
+   "numbers": {
+    "7": "right",
+    "11": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 50.717,
+   "line": "11번 브리도시리스, 선두권에서 달립니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 53.717,
+   "line": "7번 히어아이엠이 선두입니다. 11번 브리도시리스도 선두권입니다.",
+   "numbers": {
+    "7": "right",
+    "11": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 56.717,
+   "line": "선두는 7번 히어아이엠. 10번 파워에치드, 11번 브리도시리스도 선두권입니다.",
+   "numbers": {
+    "7": "right",
+    "10": "wrong",
+    "11": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 59.717,
+   "line": "7번 히어아이엠, 선두에 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    2,
+    6
+   ]
+  },
+  {
+   "video_time": 62.717,
+   "line": "선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 65.717,
+   "line": "7번 히어아이엠, 계속 선두입니다. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 68.717,
+   "line": "선두는 7번 히어아이엠. 2번 빅토리삭스, 6번 나이스위너도 선두권입니다.",
+   "numbers": {
+    "2": "close",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 71.717,
+   "line": "7번 히어아이엠, 선두에 있습니다. 6번 나이스위너도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 74.717,
+   "line": "여전히 선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 77.717,
+   "line": "7번 히어아이엠, 계속 선두입니다. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "6": "close",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    10,
+    6
+   ]
+  },
+  {
+   "video_time": 80.717,
+   "line": "선두는 7번 히어아이엠. 11번 브리도시리스도 선두권입니다.",
+   "numbers": {
+    "7": "right",
+    "11": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    11,
+    10,
+    6
+   ]
+  },
+  {
+   "video_time": 83.717,
+   "line": "7번 히어아이엠, 선두에 있습니다. 6번 나이스위너, 10번 파워에치드도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "7": "right",
+    "10": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    10,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 86.717,
+   "line": "선두권에 7번 히어아이엠이 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    7,
+    11
+   ]
+  },
+  {
+   "video_time": 89.717,
+   "line": "7번 히어아이엠, 10번 파워에치드, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    7,
+    11
+   ]
+  },
+  {
+   "video_time": 92.717,
+   "line": "선두는 6번 나이스위너. 2번 빅토리삭스, 7번 히어아이엠, 10번 파워에치드도 선두권입니다.",
+   "numbers": {
+    "2": "close",
+    "6": "right",
+    "7": "right",
+    "10": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    10,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 95.717,
+   "line": "선두권에 6번 나이스위너, 10번 파워에치드가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 98.717,
+   "line": "선두는 6번 나이스위너. 선두권에 3번 콜긴, 10번 파워에치드.",
+   "numbers": {
+    "3": "close",
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    10,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 101.717,
+   "line": "6번 나이스위너, 선두에 있습니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    10,
+    3,
+    2
+   ]
+  },
+  {
+   "video_time": 104.717,
+   "line": "선두는 6번 나이스위너. 2번 빅토리삭스, 10번 파워에치드도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right",
+    "10": "close"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    3,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 107.717,
+   "line": "선두권에 3번 콜긴, 10번 파워에치드가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    6,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 110.717,
+   "line": "6번 나이스위너, 10번 파워에치드, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    2,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 113.717,
+   "line": "선두권에 2번 빅토리삭스, 6번 나이스위너가 있습니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    2,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 116.717,
+   "line": "2번 빅토리삭스, 선두에 있습니다. 선두권에 6번 나이스위너.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    2,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 119.717,
+   "line": "2번 빅토리삭스가 선두입니다. 선두권에 3번 콜긴.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    3,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 122.717,
+   "line": "2번 빅토리삭스, 계속 선두입니다. 선두권에 3번 콜긴.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    3,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 125.717,
+   "line": "선두권에 2번 빅토리삭스, 3번 콜긴. 2번 빅토리삭스가 3번 콜긴보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    3,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 128.05,
+   "line": "결승선 통과! 2번 빅토리삭스가 가장 먼저 들어옵니다!",
+   "winner_call": 2,
+   "official_winner": 2,
+   "verdict": "right"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 9,
+ "distance": 1700,
+ "runners": [
+  {
+   "number": 1,
+   "name": "레전드선"
+  },
+  {
+   "number": 2,
+   "name": "청산질주"
+  },
+  {
+   "number": 3,
+   "name": "브리도챔피언"
+  },
+  {
+   "number": 4,
+   "name": "마터호른케이"
+  },
+  {
+   "number": 5,
+   "name": "희망밴드"
+  },
+  {
+   "number": 6,
+   "name": "바람의기억"
+  },
+  {
+   "number": 7,
+   "name": "고스트크리솔"
+  },
+  {
+   "number": 8,
+   "name": "파사스파크"
+  },
+  {
+   "number": 9,
+   "name": "다나은스타"
+  },
+  {
+   "number": 10,
+   "name": "어퍼핸드"
+  },
+  {
+   "number": 11,
+   "name": "위버멘쉬"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

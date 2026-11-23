@@ -1,0 +1,584 @@
+{
+ "official_winner": 3,
+ "totals": {
+  "lines": 37,
+  "lines with a number": 35,
+  "numbers": 65,
+  "numbers right": 60,
+  "numbers close": 0,
+  "numbers wrong": 5,
+  "lines with a wrong number": 5,
+  "leader lines": 27,
+  "leader right": 23,
+  "leader close": 4,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.274,
+  "max": 0.627
+ },
+ "rows": [
+  {
+   "video_time": 15.283,
+   "line": "3번 브리도챔피언이 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 18.3,
+   "line": "3번 브리도챔피언, 선두에 있습니다. 9번 다나은스타도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 21.3,
+   "line": "3번 브리도챔피언이 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 24.283,
+   "line": "3번 브리도챔피언, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 27.283,
+   "line": "선두는 3번 브리도챔피언. 9번 다나은스타도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 30.283,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 33.283,
+   "line": "선두는 3번 브리도챔피언. 선두권에 5번 희망밴드, 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "5": "wrong",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 36.283,
+   "line": "8번 파사스파크, 선두권에서 달립니다.",
+   "numbers": {
+    "8": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 39.283,
+   "line": "선두는 3번 브리도챔피언. 9번 다나은스타도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 42.283,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 45.283,
+   "line": "3번 브리도챔피언, 계속 선두입니다. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 48.283,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 51.283,
+   "line": "4번 마터호른케이, 9번 다나은스타, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 54.283,
+   "line": "선두권에 5번 희망밴드, 9번 다나은스타가 있습니다.",
+   "numbers": {
+    "5": "wrong",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 57.283,
+   "line": "3번 브리도챔피언, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 60.283,
+   "line": "3번 브리도챔피언, 선두에 있습니다. 9번 다나은스타도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 63.283,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 66.283,
+   "line": "3번 브리도챔피언, 계속 선두입니다. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 69.283,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 72.283,
+   "line": "3번 브리도챔피언이 선두입니다. 선두권에 4번 마터호른케이, 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 75.283,
+   "line": "선두는 3번 브리도챔피언. 선두권에 7번 고스트크리솔.",
+   "numbers": {
+    "3": "right",
+    "7": "wrong"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 78.283,
+   "line": "3번 브리도챔피언, 선두에 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 81.283,
+   "line": "선두는 3번 브리도챔피언. 4번 마터호른케이도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 84.283,
+   "line": "3번 브리도챔피언, 선두에 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 87.283,
+   "line": "3번 브리도챔피언, 계속 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 90.283,
+   "line": "9번 다나은스타가 선두입니다. 3번 브리도챔피언도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    9,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 93.283,
+   "line": "여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    9,
+    10,
+    4
+   ]
+  },
+  {
+   "video_time": 96.283,
+   "line": "9번 다나은스타, 계속 선두입니다. 선두권에 3번 브리도챔피언.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    9,
+    10,
+    4
+   ]
+  },
+  {
+   "video_time": 99.283,
+   "line": "여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    9,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 102.283,
+   "line": "선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "numbers": {
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 105.283,
+   "line": "3번 브리도챔피언, 선두에 있습니다. 선두권에 2번 청산질주, 9번 다나은스타.",
+   "numbers": {
+    "2": "wrong",
+    "3": "right",
+    "9": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 108.283,
+   "line": "3번 브리도챔피언이 선두입니다. 선두권에 9번 다나은스타, 10번 어퍼핸드.",
+   "numbers": {
+    "3": "right",
+    "9": "right",
+    "10": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    9,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 111.283,
+   "line": "3번 브리도챔피언, 10번 어퍼핸드, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    10,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 114.283,
+   "line": "선두권은 그대로 3번 브리도챔피언, 10번 어퍼핸드.",
+   "numbers": {
+    "3": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    10,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 117.283,
+   "line": "10번 어퍼핸드, 선두권에서 달립니다.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    10,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 118.783,
+   "line": "결승선 통과! 3번 브리도챔피언이 가장 먼저 들어옵니다!",
+   "winner_call": 3,
+   "official_winner": 3,
+   "verdict": "right"
+  }
+ ]
+}

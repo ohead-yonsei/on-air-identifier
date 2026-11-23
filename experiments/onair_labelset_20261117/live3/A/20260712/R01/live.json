@@ -1,0 +1,459 @@
+{
+ "video": "otherday23/videos/R01_rcKSOLyOSFs.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "파사길"
+   },
+   {
+    "number": 2,
+    "name": "나르샤루시"
+   },
+   {
+    "number": 3,
+    "name": "슬링스마일"
+   },
+   {
+    "number": 4,
+    "name": "모닝치프"
+   },
+   {
+    "number": 5,
+    "name": "베스트최고"
+   },
+   {
+    "number": 6,
+    "name": "블루호라이즌"
+   },
+   {
+    "number": 7,
+    "name": "원더그레이스"
+   },
+   {
+    "number": 8,
+    "name": "세븐포스"
+   },
+   {
+    "number": 9,
+    "name": "토네르도스"
+   },
+   {
+    "number": 10,
+    "name": "시티오브드림"
+   },
+   {
+    "number": 11,
+    "name": "유니콘에이스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 11.283333333333333,
+  "finish": 72.417,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 4600,
+ "lines": 20,
+ "delay_seconds": {
+  "median": 0.267,
+  "max": 0.673
+ },
+ "furthest_behind_seconds": 0.658,
+ "dense_pictures": {
+  "run": 58,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 12.283,
+   "race_time": 1.0,
+   "ready": 12.285,
+   "line": "서울 1경주 1000m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 18.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 20.3,
+   "race_time": 9.02,
+   "ready": 20.789,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.487,
+   "shown_until": 23.853,
+   "delay": 0.489
+  },
+  {
+   "kind": "point",
+   "video_time": 23.3,
+   "race_time": 12.02,
+   "ready": 23.903,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.602,
+   "shown_until": 26.883,
+   "delay": 0.603
+  },
+  {
+   "kind": "point",
+   "video_time": 26.3,
+   "race_time": 15.02,
+   "ready": 26.933,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.632,
+   "shown_until": 29.902,
+   "delay": 0.633
+  },
+  {
+   "kind": "point",
+   "video_time": 29.283,
+   "race_time": 18.0,
+   "ready": 29.952,
+   "line": "서울 1경주 1000m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.667,
+   "shown_until": 32.697,
+   "delay": 0.669
+  },
+  {
+   "kind": "point",
+   "video_time": 32.283,
+   "race_time": 21.0,
+   "ready": 32.747,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.462,
+   "shown_until": 35.5,
+   "delay": 0.464
+  },
+  {
+   "kind": "point",
+   "video_time": 35.283,
+   "race_time": 24.0,
+   "ready": 35.55,
+   "line": "선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 38.483,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 38.283,
+   "race_time": 27.0,
+   "ready": 38.533,
+   "line": "4번 모닝치프, 선두에 있습니다. 3번 슬링스마일도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 3,
+     "gap": 0.3038
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 41.481,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 41.283,
+   "race_time": 30.0,
+   "ready": 41.531,
+   "line": "선두권에 3번 슬링스마일, 4번 모닝치프가 있습니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 44.478,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 44.283,
+   "race_time": 33.0,
+   "ready": 44.528,
+   "line": "3번 슬링스마일, 4번 모닝치프, 계속 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.2635
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 47.481,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 47.283,
+   "race_time": 36.0,
+   "ready": 47.531,
+   "line": "선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.4691
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "shown_until": 50.482,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 50.283,
+   "race_time": 39.0,
+   "ready": 50.532,
+   "line": "선두권에 3번 슬링스마일, 4번 모닝치프, 7번 원더그레이스. 3번 슬링스마일이 7번 원더그레이스보다 앞에 있습니다.",
+   "statements": [
+    3,
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2427
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 53.5,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 53.283,
+   "race_time": 42.0,
+   "ready": 53.55,
+   "line": "3번 슬링스마일, 선두에 있습니다. 4번 모닝치프도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "shown_until": 56.482,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 56.283,
+   "race_time": 45.0,
+   "ready": 56.532,
+   "line": "여전히 선두는 3번 슬링스마일. 선두권에 4번 모닝치프.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "shown_until": 59.477,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 59.283,
+   "race_time": 48.0,
+   "ready": 59.527,
+   "line": "3번 슬링스마일, 선두에 있습니다. 선두권에 4번 모닝치프, 7번 원더그레이스.",
+   "statements": [
+    3,
+    4,
+    7
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.357
+    },
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.4947
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 62.491,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 62.283,
+   "race_time": 51.0,
+   "ready": 62.541,
+   "line": "3번 슬링스마일, 7번 원더그레이스, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 65.817,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 65.283,
+   "race_time": 54.0,
+   "ready": 65.867,
+   "line": "선두권은 그대로 3번 슬링스마일, 7번 원더그레이스.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.116,
+   "work_seconds": 0.467,
+   "shown_until": 68.804,
+   "delay": 0.584
+  },
+  {
+   "kind": "point",
+   "video_time": 68.283,
+   "race_time": 57.0,
+   "ready": 68.854,
+   "line": "선두는 7번 원더그레이스. 선두권에 3번 슬링스마일.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.3875
+    }
+   ],
+   "late_at_start": 0.08,
+   "work_seconds": 0.491,
+   "shown_until": 71.906,
+   "delay": 0.571
+  },
+  {
+   "kind": "point",
+   "video_time": 71.283,
+   "race_time": 60.0,
+   "ready": 71.956,
+   "line": "7번 원더그레이스, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.135,
+   "work_seconds": 0.537,
+   "shown_until": 73.697,
+   "delay": 0.673
+  },
+  {
+   "kind": "finish",
+   "video_time": 73.633,
+   "race_time": 62.35,
+   "ready": 73.747,
+   "line": "결승선 통과! 7번 원더그레이스가 가장 먼저 들어옵니다!",
+   "winner": 7,
+   "winner_call": {
+    "candidate": 7,
+    "pictures_naming_each": {
+     "7": 10
+    },
+    "seen": 5,
+    "front": 3,
+    "pictures_in_the_last_6s": 21
+   },
+   "finish_video_time": 72.417,
+   "seconds_after_the_finish": 1.33,
+   "work_seconds": 0.0,
+   "shown_until": 79.697,
+   "delay": 0.114
+  }
+ ]
+}

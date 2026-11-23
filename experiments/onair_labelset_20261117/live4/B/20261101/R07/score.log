@@ -1,0 +1,12 @@
+{'lines': 49, 'lines with a number': 41, 'numbers': 76, 'numbers right': 68, 'numbers close': 5, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 23, 'leader right': 18, 'leader close': 4, 'leader wrong': 1}
+   14.35 numbers {4: 'close'} leader None None | official first four [10, 6, 3, 4] | 4번 어서말을해, 선두권에서 달립니다.
+   44.35 numbers {7: 'wrong'} leader None None | official first four [8, 10, 6, 2] | 7번 글로벌삭스, 선두권에서 달립니다.
+   59.35 numbers {6: 'right', 8: 'right', 10: 'right'} leader 10 close | official first four [6, 10, 8, 3] | 10번 페퍼엑스가 선두입니다. 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.
+   92.35 numbers {6: 'right', 10: 'right'} leader 10 close | official first four [8, 6, 10, 3] | 선두는 10번 페퍼엑스. 선두권에 6번 이스트웨스트.
+   95.35 numbers {6: 'right', 8: 'right', 10: 'close'} leader None None | official first four [8, 3, 6, 10] | 6번 이스트웨스트, 8번 블랙벨트, 10번 페퍼엑스, 선두권에서 달립니다.
+   98.35 numbers {6: 'right', 10: 'close'} leader None None | official first four [8, 3, 6, 10] | 선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.
+  101.35 numbers {6: 'right', 10: 'close'} leader 10 close | official first four [8, 3, 6, 10] | 선두는 10번 페퍼엑스. 6번 이스트웨스트도 선두권입니다.
+  104.35 numbers {3: 'right', 6: 'right', 8: 'right', 10: 'close'} leader 10 close | official first four [3, 8, 6, 10] | 10번 페퍼엑스, 선두에 있습니다. 3번 머스킷데이, 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.
+  107.35 numbers {3: 'right', 10: 'wrong'} leader 10 wrong | official first four [3, 8, 6, 10] | 10번 페퍼엑스가 선두입니다. 3번 머스킷데이도 선두권입니다.
+  110.35 numbers {3: 'right', 6: 'right', 10: 'wrong'} leader 3 right | official first four [3, 6, 8, 2] | 선두는 3번 머스킷데이. 6번 이스트웨스트, 10번 페퍼엑스도 선두권입니다.
+finish: 3 official 3 right

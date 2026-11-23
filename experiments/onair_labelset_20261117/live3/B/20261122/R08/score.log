@@ -1,0 +1,9 @@
+{'lines': 27, 'lines with a number': 23, 'numbers': 44, 'numbers right': 38, 'numbers close': 3, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 10, 'leader right': 8, 'leader close': 2, 'leader wrong': 0}
+   47.77 numbers {5: 'right', 6: 'right', 7: 'close'} leader 5 close | official first four [6, 5, 8, 7] | 선두는 5번 퍼플코리아. 선두권에 6번 타이거케이, 7번 그레이스데이.
+   65.77 numbers {5: 'close', 6: 'right'} leader None None | official first four [6, 8, 7, 5] | 5번 퍼플코리아, 6번 타이거케이, 계속 선두권입니다.
+   68.77 numbers {5: 'wrong', 6: 'right'} leader None None | official first four [6, 8, 7, 2] | 선두권은 그대로 5번 퍼플코리아, 6번 타이거케이.
+   71.77 numbers {5: 'wrong', 8: 'right'} leader None None | official first four [6, 8, 7, 2] | 5번 퍼플코리아, 8번 거센펀치, 선두권에서 달립니다.
+   74.77 numbers {6: 'right', 8: 'right'} leader 6 close | official first four [8, 6, 7, 2] | 6번 타이거케이, 선두에 있습니다. 8번 거센펀치도 선두권입니다.
+   89.77 numbers {8: 'right', 10: 'close'} leader 8 right | official first four [8, 11, 9, 6] | 8번 거센펀치, 선두에 있습니다. 10번 남촌타운도 선두권입니다.
+   95.77 numbers {5: 'wrong'} leader None None | official first four [8, 11, 9, 3] | 선두권에 5번 퍼플코리아가 있습니다.
+finish: None official 8 no call

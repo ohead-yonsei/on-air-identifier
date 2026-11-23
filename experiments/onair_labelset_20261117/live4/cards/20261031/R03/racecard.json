@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 3,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "투혼의함성"
+  },
+  {
+   "number": 2,
+   "name": "베스트러브"
+  },
+  {
+   "number": 3,
+   "name": "하트퀸"
+  },
+  {
+   "number": 4,
+   "name": "타임투타임"
+  },
+  {
+   "number": 5,
+   "name": "플로터"
+  },
+  {
+   "number": 6,
+   "name": "원평캣"
+  },
+  {
+   "number": 7,
+   "name": "메니블리츠"
+  },
+  {
+   "number": 8,
+   "name": "고스트선더"
+  },
+  {
+   "number": 9,
+   "name": "루미너스"
+  },
+  {
+   "number": 10,
+   "name": "대한여전사"
+  },
+  {
+   "number": 11,
+   "name": "클러치키드"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

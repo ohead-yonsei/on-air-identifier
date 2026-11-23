@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 9,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "그냥가라"
+  },
+  {
+   "number": 2,
+   "name": "대한의영웅"
+  },
+  {
+   "number": 3,
+   "name": "글로리앤아너"
+  },
+  {
+   "number": 4,
+   "name": "마이티아미"
+  },
+  {
+   "number": 5,
+   "name": "팡팡대로"
+  },
+  {
+   "number": 6,
+   "name": "크레이지챔프"
+  },
+  {
+   "number": 7,
+   "name": "싱싱모닝"
+  },
+  {
+   "number": 8,
+   "name": "라온더케이샤"
+  },
+  {
+   "number": 9,
+   "name": "브리도피닉스"
+  },
+  {
+   "number": 10,
+   "name": "바람의기억"
+  },
+  {
+   "number": 11,
+   "name": "세종비상"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

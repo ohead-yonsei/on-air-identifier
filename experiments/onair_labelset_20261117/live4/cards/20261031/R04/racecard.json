@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 4,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "골든벨스타"
+  },
+  {
+   "number": 2,
+   "name": "다나은파워"
+  },
+  {
+   "number": 3,
+   "name": "미스터불스"
+  },
+  {
+   "number": 4,
+   "name": "영원한보스"
+  },
+  {
+   "number": 5,
+   "name": "다온헌터"
+  },
+  {
+   "number": 6,
+   "name": "매직터치"
+  },
+  {
+   "number": 7,
+   "name": "크레이지블루"
+  },
+  {
+   "number": 8,
+   "name": "카레이히어로"
+  },
+  {
+   "number": 9,
+   "name": "포인트윈드"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

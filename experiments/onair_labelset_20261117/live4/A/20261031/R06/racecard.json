@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 6,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "빛의순간"
+  },
+  {
+   "number": 2,
+   "name": "제주프린세스"
+  },
+  {
+   "number": 3,
+   "name": "골드아이디"
+  },
+  {
+   "number": 4,
+   "name": "에클레어"
+  },
+  {
+   "number": 5,
+   "name": "델타대천"
+  },
+  {
+   "number": 6,
+   "name": "원더그레이스"
+  },
+  {
+   "number": 7,
+   "name": "골든볼"
+  },
+  {
+   "number": 8,
+   "name": "나올오로라"
+  },
+  {
+   "number": 9,
+   "name": "대한코코즈"
+  },
+  {
+   "number": 10,
+   "name": "비바참"
+  },
+  {
+   "number": 11,
+   "name": "특급기상"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

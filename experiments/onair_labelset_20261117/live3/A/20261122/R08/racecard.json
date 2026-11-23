@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 8,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "스마트뮤직"
+  },
+  {
+   "number": 2,
+   "name": "카우보이삭스"
+  },
+  {
+   "number": 3,
+   "name": "미스터스톰"
+  },
+  {
+   "number": 4,
+   "name": "럭키데이"
+  },
+  {
+   "number": 5,
+   "name": "퍼플코리아"
+  },
+  {
+   "number": 6,
+   "name": "타이거케이"
+  },
+  {
+   "number": 7,
+   "name": "그레이스데이"
+  },
+  {
+   "number": 8,
+   "name": "거센펀치"
+  },
+  {
+   "number": 9,
+   "name": "케렌시아"
+  },
+  {
+   "number": 10,
+   "name": "남촌타운"
+  },
+  {
+   "number": 11,
+   "name": "라스트케이"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

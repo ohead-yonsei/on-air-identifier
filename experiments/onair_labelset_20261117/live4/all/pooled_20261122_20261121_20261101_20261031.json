@@ -1,0 +1,395 @@
+{
+ "days": [
+  "20261122",
+  "20261121",
+  "20261101",
+  "20261031"
+ ],
+ "races": [
+  {
+   "day": "20261122",
+   "race": "R01",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R04",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R05",
+   "in": false,
+   "A_status": "no run",
+   "B_status": "no run"
+  },
+  {
+   "day": "20261122",
+   "race": "R06",
+   "in": false,
+   "A_status": "no run",
+   "B_status": "no run"
+  },
+  {
+   "day": "20261122",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R08",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R10",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261122",
+   "race": "R11",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R01",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R04",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R05",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R06",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R08",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R10",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261121",
+   "race": "R11",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R01",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R04",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R05",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R06",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R08",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R10",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261101",
+   "race": "R11",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R01",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R02",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R03",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R04",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R05",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R06",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R07",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R08",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R09",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R10",
+   "in": true,
+   "A_status": "clock agrees",
+   "B_status": "clock agrees"
+  },
+  {
+   "day": "20261031",
+   "race": "R11",
+   "in": false,
+   "A_status": "clock disagrees",
+   "B_status": "clock disagrees"
+  }
+ ],
+ "races_in": 32,
+ "A": {
+  "totals": {
+   "lines": 932,
+   "numbers": 1557,
+   "numbers right": 1415,
+   "numbers close": 79,
+   "numbers wrong": 63,
+   "lines with a wrong number": 61,
+   "leader lines": 479,
+   "leader right": 381,
+   "leader close": 66,
+   "leader wrong": 32
+  },
+  "stretch_last_36s": {
+   "leader lines": 243,
+   "leader right": 194,
+   "leader close": 26,
+   "leader wrong": 23
+  },
+  "numbers_right": 0.9088,
+  "leader_right": 0.7954,
+  "leader_wrong": 0.0668,
+  "stretch_leader_right": 0.7984,
+  "delay_median": 0.254,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 23,
+   "wrong": 1,
+   "no call": 8
+  }
+ },
+ "B": {
+  "totals": {
+   "lines": 932,
+   "numbers": 1554,
+   "numbers right": 1413,
+   "numbers close": 79,
+   "numbers wrong": 62,
+   "lines with a wrong number": 60,
+   "leader lines": 447,
+   "leader right": 378,
+   "leader close": 57,
+   "leader wrong": 12
+  },
+  "stretch_last_36s": {
+   "leader lines": 213,
+   "leader right": 192,
+   "leader close": 18,
+   "leader wrong": 3
+  },
+  "numbers_right": 0.9093,
+  "leader_right": 0.8456,
+  "leader_wrong": 0.0268,
+  "stretch_leader_right": 0.9014,
+  "delay_median": 0.257,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 23,
+   "wrong": 1,
+   "no call": 8
+  }
+ },
+ "B_minus_A_leader_right": 0.0502,
+ "bootstrap_95": [
+  0.0159,
+  0.088
+ ],
+ "verdicts": {
+  "V1 B leader right >= A + 5 pt and fewer wrong": true,
+  "V2 B leader right >= 75%": true,
+  "V3 B numbers >= 90% and speed": true,
+  "V4 A numbers >= 90% and speed (live2 replication)": true
+ },
+ "recommend B as live_run default": true
+}

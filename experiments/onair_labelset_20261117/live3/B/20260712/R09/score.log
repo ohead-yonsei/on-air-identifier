@@ -1,0 +1,4 @@
+{'lines': 39, 'lines with a number': 35, 'numbers': 66, 'numbers right': 64, 'numbers close': 1, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 16, 'leader right': 15, 'leader close': 0, 'leader wrong': 1}
+  119.45 numbers {3: 'wrong', 4: 'right', 5: 'right'} leader 3 wrong | official first four [4, 5, 2, 7] | 선두는 3번 원평코드. 4번 하이폴리, 5번 큐피드커맨드도 선두권입니다.
+  122.45 numbers {4: 'right', 7: 'close'} leader None None | official first four [4, 5, 2, 7] | 선두권에 4번 하이폴리, 7번 럭키붐이 있습니다.
+finish: None official 4 no call

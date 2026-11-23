@@ -1,0 +1,297 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 20,
+  "lines with a number": 13,
+  "numbers": 21,
+  "numbers right": 20,
+  "numbers close": 0,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 11,
+  "leader right": 10,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.378,
+  "max": 0.575
+ },
+ "rows": [
+  {
+   "video_time": 15.8,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    5,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 18.8,
+   "line": "서울 2경주 1000m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    5,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 21.8,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    5,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 24.8,
+   "line": "서울 2경주 1000m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    5,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 27.8,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    9,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 30.8,
+   "line": "선두권에 5번 마이티로그가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 33.817,
+   "line": "5번 마이티로그, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 36.817,
+   "line": "5번 마이티로그, 선두에 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 39.8,
+   "line": "선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 42.8,
+   "line": "5번 마이티로그, 계속 선두입니다. 선두권에 9번 풀하디.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 45.8,
+   "line": "여전히 선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 48.8,
+   "line": "5번 마이티로그가 선두입니다. 선두권에 4번 지비플래시, 9번 풀하디.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 51.8,
+   "line": "선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 54.8,
+   "line": "5번 마이티로그, 선두에 있습니다. 선두권에 4번 지비플래시.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 57.8,
+   "line": "3번 파라오의딸이 선두입니다. 선두권에 5번 마이티로그.",
+   "numbers": {
+    "3": "wrong",
+    "5": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "wrong",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 60.8,
+   "line": "선두는 5번 마이티로그.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 63.8,
+   "line": "여전히 선두는 5번 마이티로그.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 66.8,
+   "line": "5번 마이티로그, 계속 선두입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 68.4,
+   "line": "결승선 통과! 5번 마이티로그가 가장 먼저 들어옵니다!",
+   "winner_call": 5,
+   "official_winner": 5,
+   "verdict": "right"
+  }
+ ]
+}

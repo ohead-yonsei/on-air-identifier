@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 1,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "보스턴하버"
+  },
+  {
+   "number": 2,
+   "name": "라이징스톰"
+  },
+  {
+   "number": 3,
+   "name": "러시퀸"
+  },
+  {
+   "number": 4,
+   "name": "나우데이즈"
+  },
+  {
+   "number": 5,
+   "name": "위너라이징"
+  },
+  {
+   "number": 6,
+   "name": "모닝벨"
+  },
+  {
+   "number": 7,
+   "name": "나루파크"
+  },
+  {
+   "number": 8,
+   "name": "카우보이스타"
+  },
+  {
+   "number": 9,
+   "name": "누리챔프"
+  },
+  {
+   "number": 10,
+   "name": "오섬모닝"
+  },
+  {
+   "number": 11,
+   "name": "와와삭스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

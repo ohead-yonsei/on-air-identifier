@@ -1,0 +1,577 @@
+{
+ "video": "otherday26/videos/R10_noScM6GhMkE.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 10,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "브라보플레이"
+   },
+   {
+    "number": 2,
+    "name": "더선불사조"
+   },
+   {
+    "number": 3,
+    "name": "글로벌서브"
+   },
+   {
+    "number": 4,
+    "name": "디아나"
+   },
+   {
+    "number": 5,
+    "name": "토호스카이"
+   },
+   {
+    "number": 6,
+    "name": "크레이지망고"
+   },
+   {
+    "number": 7,
+    "name": "미스윈스타"
+   },
+   {
+    "number": 8,
+    "name": "에브리타임"
+   },
+   {
+    "number": 9,
+    "name": "월드섀넌스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.333333333333334,
+  "finish": 81.8,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5163,
+ "lines": 24,
+ "delay_seconds": {
+  "median": 0.244,
+  "max": 0.646
+ },
+ "furthest_behind_seconds": 0.631,
+ "dense_pictures": {
+  "run": 62,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.417,
+   "race_time": 1.08,
+   "ready": 9.418,
+   "line": "서울 10경주 1200m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.368,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.35,
+   "race_time": 9.02,
+   "ready": 17.649,
+   "line": "1번 브라보플레이, 2번 더선불사조, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.298,
+   "shown_until": 20.584,
+   "delay": 0.299
+  },
+  {
+   "kind": "point",
+   "video_time": 20.35,
+   "race_time": 12.02,
+   "ready": 20.634,
+   "line": "1번 브라보플레이, 선두에 있습니다. 2번 더선불사조, 8번 에브리타임도 선두권입니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.2666
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.283,
+   "shown_until": 23.574,
+   "delay": 0.284
+  },
+  {
+   "kind": "point",
+   "video_time": 23.35,
+   "race_time": 15.02,
+   "ready": 23.624,
+   "line": "선두권에 2번 더선불사조, 8번 에브리타임이 있습니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "shown_until": 26.545,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 26.333,
+   "race_time": 18.0,
+   "ready": 26.595,
+   "line": "2번 더선불사조, 8번 에브리타임, 계속 선두권입니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "shown_until": 29.544,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 29.333,
+   "race_time": 21.0,
+   "ready": 29.594,
+   "line": "선두권에 6번 크레이지망고, 8번 에브리타임이 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "shown_until": 32.53,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 32.333,
+   "race_time": 24.0,
+   "ready": 32.58,
+   "line": "2번 더선불사조가 선두입니다. 선두권에 8번 에브리타임.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.4632
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 35.535,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 35.333,
+   "race_time": 27.0,
+   "ready": 35.585,
+   "line": "선두는 8번 에브리타임.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 38.527,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 38.333,
+   "race_time": 30.0,
+   "ready": 38.577,
+   "line": "선두권에 8번 에브리타임이 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 41.52,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 41.333,
+   "race_time": 33.0,
+   "ready": 41.57,
+   "line": "8번 에브리타임, 선두에 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 44.514,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 44.333,
+   "race_time": 36.0,
+   "ready": 44.564,
+   "line": "선두권에 4번 디아나, 8번 에브리타임이 있습니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 47.52,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 47.333,
+   "race_time": 39.0,
+   "ready": 47.57,
+   "line": "4번 디아나, 8번 에브리타임, 계속 선두권입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.3622
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 50.516,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 50.333,
+   "race_time": 42.0,
+   "ready": 50.566,
+   "line": "선두권은 그대로 4번 디아나, 8번 에브리타임.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.3449
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 53.525,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 53.333,
+   "race_time": 45.0,
+   "ready": 53.575,
+   "line": "선두권에 2번 더선불사조, 4번 디아나, 8번 에브리타임. 8번 에브리타임이 2번 더선불사조보다 앞에 있습니다.",
+   "statements": [
+    2,
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.4462
+    },
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.4145
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 56.526,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 56.333,
+   "race_time": 48.0,
+   "ready": 56.576,
+   "line": "선두권에 2번 더선불사조, 4번 디아나. 4번 디아나가 2번 더선불사조보다 앞에 있습니다.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 2,
+     "gap": 0.3564
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 59.521,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 59.333,
+   "race_time": 51.0,
+   "ready": 59.571,
+   "line": "선두는 8번 에브리타임.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 62.515,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 62.333,
+   "race_time": 54.0,
+   "ready": 62.565,
+   "line": "8번 에브리타임이 선두입니다. 4번 디아나도 선두권입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5843
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 65.537,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 65.35,
+   "race_time": 57.02,
+   "ready": 65.587,
+   "line": "여전히 선두는 8번 에브리타임. 선두권에 4번 디아나.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5668
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 68.529,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 68.35,
+   "race_time": 60.02,
+   "ready": 68.579,
+   "line": "8번 에브리타임, 계속 선두입니다. 선두권에 4번 디아나.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5979
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "shown_until": 71.521,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 71.35,
+   "race_time": 63.02,
+   "ready": 71.571,
+   "line": "여전히 선두는 8번 에브리타임. 선두권에 4번 디아나.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5603
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.219,
+   "shown_until": 74.604,
+   "delay": 0.221
+  },
+  {
+   "kind": "point",
+   "video_time": 74.333,
+   "race_time": 66.0,
+   "ready": 74.654,
+   "line": "8번 에브리타임, 계속 선두입니다. 선두권에 4번 디아나.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.3191
+    }
+   ],
+   "late_at_start": 0.02,
+   "work_seconds": 0.3,
+   "shown_until": 77.929,
+   "delay": 0.321
+  },
+  {
+   "kind": "point",
+   "video_time": 77.333,
+   "race_time": 69.0,
+   "ready": 77.979,
+   "line": "4번 디아나가 선두입니다. 8번 에브리타임도 선두권입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2493
+    }
+   ],
+   "late_at_start": 0.135,
+   "work_seconds": 0.51,
+   "shown_until": 80.833,
+   "delay": 0.646
+  },
+  {
+   "kind": "point",
+   "video_time": 80.333,
+   "race_time": 72.0,
+   "ready": 80.883,
+   "line": "선두권에 4번 디아나, 8번 에브리타임. 4번 디아나가 8번 에브리타임보다 앞에 있습니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.4736
+    }
+   ],
+   "late_at_start": 0.06,
+   "work_seconds": 0.488,
+   "shown_until": 83.04,
+   "delay": 0.55
+  },
+  {
+   "kind": "finish",
+   "video_time": 83.017,
+   "race_time": 74.68,
+   "ready": 83.09,
+   "line": "결승선 통과! 4번 디아나가 가장 먼저 들어옵니다!",
+   "winner": 4,
+   "winner_call": {
+    "candidate": 4,
+    "pictures_naming_each": {
+     "4": 7,
+     "3": 1
+    },
+    "seen": 4,
+    "front": 4,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 81.8,
+   "seconds_after_the_finish": 1.29,
+   "work_seconds": 0.0,
+   "shown_until": 89.04,
+   "delay": 0.073
+  }
+ ]
+}

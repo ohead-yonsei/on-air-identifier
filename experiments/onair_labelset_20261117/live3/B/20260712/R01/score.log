@@ -1,0 +1,4 @@
+{'lines': 20, 'lines with a number': 13, 'numbers': 27, 'numbers right': 27, 'numbers close': 0, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 6, 'leader right': 4, 'leader close': 1, 'leader wrong': 1}
+   35.28 numbers {3: 'right', 4: 'right'} leader 3 close | official first four [4, 3, 2, 7] | 선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.
+   68.28 numbers {3: 'right', 7: 'right'} leader 7 wrong | official first four [4, 3, 7, 8] | 7번 원더그레이스, 선두에 있습니다. 3번 슬링스마일도 선두권입니다.
+finish: 7 official 4 wrong

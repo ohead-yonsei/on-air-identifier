@@ -1,0 +1,718 @@
+{
+ "video": "otherday24/videos/R05_2ReljBGdS9A.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 5,
+  "distance": 1300,
+  "runners": [
+   {
+    "number": 1,
+    "name": "원더그레이스"
+   },
+   {
+    "number": 2,
+    "name": "라온폴리스"
+   },
+   {
+    "number": 3,
+    "name": "스트롱보스"
+   },
+   {
+    "number": 4,
+    "name": "학산소드"
+   },
+   {
+    "number": 5,
+    "name": "파카샤인"
+   },
+   {
+    "number": 6,
+    "name": "세명피크"
+   },
+   {
+    "number": 7,
+    "name": "명성파티"
+   },
+   {
+    "number": 8,
+    "name": "왕최고"
+   },
+   {
+    "number": 9,
+    "name": "동백"
+   },
+   {
+    "number": 10,
+    "name": "엠파이어스타"
+   },
+   {
+    "number": 11,
+    "name": "지비에이스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 16.583333333333332,
+  "finish": null,
+  "expected_seconds": 82.5
+ },
+ "frames_read": 7812,
+ "lines": 36,
+ "delay_seconds": {
+  "median": 0.267,
+  "max": 0.893
+ },
+ "furthest_behind_seconds": 0.879,
+ "dense_pictures": {
+  "run": 197,
+  "skipped_when_behind": 29
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 17.65,
+   "race_time": 1.07,
+   "ready": 17.651,
+   "line": "서울 5경주 1300m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 23.601,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 25.583,
+   "race_time": 9.0,
+   "ready": 25.912,
+   "line": "8번 왕최고가 선두입니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.328,
+   "shown_until": 29.061,
+   "delay": 0.329
+  },
+  {
+   "kind": "point",
+   "video_time": 28.583,
+   "race_time": 12.0,
+   "ready": 29.111,
+   "line": "서울 5경주 1300m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.526,
+   "shown_until": 32.169,
+   "delay": 0.528
+  },
+  {
+   "kind": "point",
+   "video_time": 31.583,
+   "race_time": 15.0,
+   "ready": 32.219,
+   "line": "1300m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.635,
+   "shown_until": 34.796,
+   "delay": 0.636
+  },
+  {
+   "kind": "point",
+   "video_time": 34.583,
+   "race_time": 18.0,
+   "ready": 34.846,
+   "line": "선두권에 5번 파카샤인이 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 37.786,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 37.583,
+   "race_time": 21.0,
+   "ready": 37.836,
+   "line": "9번 동백, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "shown_until": 40.796,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 40.583,
+   "race_time": 24.0,
+   "ready": 40.846,
+   "line": "선두권은 그대로 9번 동백.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "shown_until": 43.8,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 43.583,
+   "race_time": 27.0,
+   "ready": 43.85,
+   "line": "10번 엠파이어스타, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 46.774,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 46.583,
+   "race_time": 30.0,
+   "ready": 46.824,
+   "line": "선두권에 11번 지비에이스가 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 49.765,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 49.583,
+   "race_time": 33.0,
+   "ready": 49.815,
+   "line": "9번 동백, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 52.775,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 52.583,
+   "race_time": 36.0,
+   "ready": 52.825,
+   "line": "선두권에 5번 파카샤인이 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 55.776,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 55.583,
+   "race_time": 39.0,
+   "ready": 55.826,
+   "line": "선두권에 9번 동백, 11번 지비에이스. 9번 동백이 11번 지비에이스보다 앞에 있습니다.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.311
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 59.097,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 58.583,
+   "race_time": 42.0,
+   "ready": 59.147,
+   "line": "5번 파카샤인, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.562,
+   "shown_until": 62.048,
+   "delay": 0.564
+  },
+  {
+   "kind": "point",
+   "video_time": 61.583,
+   "race_time": 45.0,
+   "ready": 62.098,
+   "line": "선두권은 그대로 5번 파카샤인.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.513,
+   "shown_until": 64.775,
+   "delay": 0.515
+  },
+  {
+   "kind": "point",
+   "video_time": 64.583,
+   "race_time": 48.0,
+   "ready": 64.825,
+   "line": "선두권에 5번 파카샤인, 11번 지비에이스. 11번 지비에이스가 5번 파카샤인보다 앞에 있습니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.2189
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 67.765,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 67.583,
+   "race_time": 51.0,
+   "ready": 67.815,
+   "line": "9번 동백이 선두입니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 70.874,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 70.583,
+   "race_time": 54.0,
+   "ready": 70.924,
+   "line": "9번 동백, 선두에 있습니다. 6번 세명피크도 선두권입니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.8288
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.339,
+   "shown_until": 73.765,
+   "delay": 0.341
+  },
+  {
+   "kind": "point",
+   "video_time": 73.583,
+   "race_time": 57.0,
+   "ready": 73.815,
+   "line": "9번 동백이 선두입니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 76.767,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 76.583,
+   "race_time": 60.0,
+   "ready": 76.817,
+   "line": "9번 동백, 선두에 있습니다. 선두권에 11번 지비에이스.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.3143
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 79.772,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 79.583,
+   "race_time": 63.0,
+   "ready": 79.822,
+   "line": "9번 동백, 계속 선두입니다. 선두권에 11번 지비에이스.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.4621
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 82.77,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 82.583,
+   "race_time": 66.0,
+   "ready": 82.82,
+   "line": "여전히 선두는 9번 동백. 선두권에 11번 지비에이스.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 85.791,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 85.583,
+   "race_time": 69.0,
+   "ready": 85.841,
+   "line": "선두는 9번 동백. 선두권에 6번 세명피크, 11번 지비에이스.",
+   "statements": [
+    6,
+    9,
+    11
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.4975
+    },
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.5048
+    }
+   ],
+   "late_at_start": 0.047,
+   "work_seconds": 0.21,
+   "shown_until": 88.816,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 88.583,
+   "race_time": 72.0,
+   "ready": 88.866,
+   "line": "6번 세명피크, 9번 동백, 11번 지비에이스, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.061,
+   "work_seconds": 0.22,
+   "shown_until": 91.792,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 91.583,
+   "race_time": 75.0,
+   "ready": 91.842,
+   "line": "선두권에 6번 세명피크가 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.059,
+   "work_seconds": 0.199,
+   "shown_until": 95.126,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 94.583,
+   "race_time": 78.0,
+   "ready": 95.176,
+   "line": "7번 명성파티, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.213,
+   "work_seconds": 0.38,
+   "shown_until": 98.254,
+   "delay": 0.593
+  },
+  {
+   "kind": "point",
+   "video_time": 97.583,
+   "race_time": 81.0,
+   "ready": 98.304,
+   "line": "서울 5경주 1300m, 출발 후 81초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.195,
+   "work_seconds": 0.526,
+   "shown_until": 101.109,
+   "delay": 0.721
+  },
+  {
+   "kind": "point",
+   "video_time": 100.583,
+   "race_time": 84.0,
+   "ready": 101.159,
+   "line": "1300m 경주, 출발 후 84초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.086,
+   "work_seconds": 0.489,
+   "shown_until": 104.281,
+   "delay": 0.576
+  },
+  {
+   "kind": "point",
+   "video_time": 103.583,
+   "race_time": 87.0,
+   "ready": 104.331,
+   "line": "서울 5경주 1300m, 출발 후 87초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.2,
+   "work_seconds": 0.547,
+   "shown_until": 107.426,
+   "delay": 0.748
+  },
+  {
+   "kind": "point",
+   "video_time": 106.583,
+   "race_time": 90.0,
+   "ready": 107.476,
+   "line": "1300m 경주, 출발 후 90초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.305,
+   "work_seconds": 0.587,
+   "shown_until": 110.287,
+   "delay": 0.893
+  },
+  {
+   "kind": "point",
+   "video_time": 109.583,
+   "race_time": 93.0,
+   "ready": 110.337,
+   "line": "서울 5경주 1300m, 출발 후 93초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.183,
+   "work_seconds": 0.571,
+   "shown_until": 113.014,
+   "delay": 0.754
+  },
+  {
+   "kind": "point",
+   "video_time": 112.583,
+   "race_time": 96.0,
+   "ready": 113.064,
+   "line": "4번 학산소드, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.058,
+   "work_seconds": 0.422,
+   "shown_until": 116.115,
+   "delay": 0.481
+  },
+  {
+   "kind": "point",
+   "video_time": 115.583,
+   "race_time": 99.0,
+   "ready": 116.165,
+   "line": "선두권은 그대로 4번 학산소드.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.132,
+   "work_seconds": 0.449,
+   "shown_until": 118.986,
+   "delay": 0.582
+  },
+  {
+   "kind": "point",
+   "video_time": 118.583,
+   "race_time": 102.0,
+   "ready": 119.036,
+   "line": "10번 엠파이어스타, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.052,
+   "work_seconds": 0.399,
+   "shown_until": 121.79,
+   "delay": 0.453
+  },
+  {
+   "kind": "point",
+   "video_time": 121.583,
+   "race_time": 105.0,
+   "ready": 121.84,
+   "line": "선두권은 그대로 10번 엠파이어스타.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.055,
+   "work_seconds": 0.2,
+   "shown_until": 124.798,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 124.583,
+   "race_time": 108.0,
+   "ready": 124.848,
+   "line": "6번 세명피크, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.059,
+   "work_seconds": 0.205,
+   "shown_until": 127.906,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 127.583,
+   "race_time": 111.0,
+   "ready": 127.956,
+   "line": "선두는 3번 스트롱보스.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.056,
+   "work_seconds": 0.315,
+   "shown_until": 133.906,
+   "delay": 0.373
+  }
+ ]
+}

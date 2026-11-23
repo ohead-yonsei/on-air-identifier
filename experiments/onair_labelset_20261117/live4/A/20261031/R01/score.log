@@ -1,0 +1,7 @@
+{'lines': 30, 'lines with a number': 25, 'numbers': 50, 'numbers right': 48, 'numbers close': 1, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 14, 'leader right': 11, 'leader close': 2, 'leader wrong': 1}
+   57.50 numbers {4: 'wrong', 5: 'right', 8: 'right'} leader 8 right | official first four [8, 5, 3, 7] | 선두는 8번 듀크삭스. 선두권에 4번 슈퍼체이서, 5번 레전드몬스터.
+   60.50 numbers {5: 'right', 8: 'right'} leader 5 close | official first four [8, 5, 3, 7] | 5번 레전드몬스터, 선두에 있습니다. 선두권에 8번 듀크삭스.
+   66.50 numbers {3: 'close', 5: 'right', 8: 'right'} leader 5 right | official first four [5, 8, 7, 3] | 5번 레전드몬스터, 선두에 있습니다. 3번 서부킹, 8번 듀크삭스도 선두권입니다.
+   84.50 numbers {3: 'right', 5: 'right', 7: 'right'} leader 3 wrong | official first four [5, 7, 3, 4] | 선두는 3번 서부킹. 5번 레전드몬스터, 7번 봉봉티아라도 선두권입니다.
+   99.50 numbers {3: 'right'} leader 3 close | official first four [5, 3, 7, 4] | 3번 서부킹이 선두입니다.
+finish: None official 3 no call

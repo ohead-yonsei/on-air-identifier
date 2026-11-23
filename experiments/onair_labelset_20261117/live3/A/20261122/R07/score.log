@@ -1,0 +1,17 @@
+{'lines': 34, 'lines with a number': 31, 'numbers': 54, 'numbers right': 43, 'numbers close': 5, 'numbers wrong': 6, 'lines with a wrong number': 6, 'leader lines': 10, 'leader right': 5, 'leader close': 5, 'leader wrong': 0}
+   18.17 numbers {6: 'close', 9: 'close'} leader None None | official first four [8, 1, 2, 9] | 6번 사우디삭스, 9번 이센셜포스, 선두권에서 달립니다.
+   21.17 numbers {6: 'close'} leader None None | official first four [8, 1, 2, 9] | 선두권에 6번 사우디삭스가 있습니다.
+   27.17 numbers {7: 'wrong'} leader None None | official first four [8, 1, 9, 2] | 선두권에 7번 글로벌파로아가 있습니다.
+   30.17 numbers {7: 'wrong'} leader None None | official first four [8, 1, 9, 2] | 7번 글로벌파로아, 계속 선두권입니다.
+   36.17 numbers {7: 'wrong'} leader None None | official first four [8, 9, 1, 2] | 7번 글로벌파로아, 선두권에서 달립니다.
+   39.17 numbers {7: 'wrong'} leader None None | official first four [8, 9, 1, 2] | 선두권은 그대로 7번 글로벌파로아.
+   45.17 numbers {2: 'close', 6: 'right', 9: 'right'} leader None None | official first four [8, 9, 6, 2] | 선두권에 2번 이스트위너, 6번 사우디삭스, 9번 이센셜포스. 9번 이센셜포스가 6번 사우디삭스보다 앞에 있습니다.
+   48.17 numbers {9: 'right'} leader 9 close | official first four [8, 9, 6, 2] | 9번 이센셜포스가 선두입니다.
+   60.17 numbers {2: 'close', 9: 'right'} leader None None | official first four [8, 9, 6, 2] | 선두권에 2번 이스트위너, 9번 이센셜포스. 2번 이스트위너가 9번 이센셜포스보다 앞에 있습니다.
+   66.17 numbers {6: 'right', 9: 'right'} leader 9 close | official first four [8, 9, 6, 2] | 9번 이센셜포스, 선두에 있습니다. 6번 사우디삭스도 선두권입니다.
+   72.17 numbers {9: 'right'} leader 9 close | official first four [8, 9, 6, 2] | 선두는 9번 이센셜포스.
+   87.17 numbers {6: 'right', 8: 'right', 9: 'wrong'} leader None None | official first four [8, 6, 4, 9] | 선두권에 6번 사우디삭스, 8번 참빠른말, 9번 이센셜포스. 8번 참빠른말이 6번 사우디삭스보다 앞에 있습니다.
+   93.17 numbers {6: 'right', 8: 'right'} leader 8 close | official first four [6, 8, 4, 10] | 8번 참빠른말, 계속 선두입니다. 선두권에 6번 사우디삭스.
+   96.17 numbers {6: 'right', 8: 'right'} leader 8 close | official first four [6, 4, 8, 10] | 여전히 선두는 8번 참빠른말. 선두권에 6번 사우디삭스.
+  111.17 numbers {6: 'right', 7: 'wrong'} leader None None | official first four [6, 4, 8, 10] | 선두권에 6번 사우디삭스, 7번 글로벌파로아가 있습니다.
+finish: 6 official 6 right

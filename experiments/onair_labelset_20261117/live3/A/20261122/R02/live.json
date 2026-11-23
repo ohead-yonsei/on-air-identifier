@@ -1,0 +1,451 @@
+{
+ "video": "otherday24/videos/R02_kvUawG2uPUE.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 2,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "히어로미톨"
+   },
+   {
+    "number": 2,
+    "name": "서래봉"
+   },
+   {
+    "number": 3,
+    "name": "파라오의딸"
+   },
+   {
+    "number": 4,
+    "name": "지비플래시"
+   },
+   {
+    "number": 5,
+    "name": "마이티로그"
+   },
+   {
+    "number": 6,
+    "name": "투잡스"
+   },
+   {
+    "number": 7,
+    "name": "미스터빅벨"
+   },
+   {
+    "number": 8,
+    "name": "모닝마루"
+   },
+   {
+    "number": 9,
+    "name": "풀하디"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 6.8,
+  "finish": 67.183,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 4286,
+ "lines": 20,
+ "delay_seconds": {
+  "median": 0.378,
+  "max": 0.575
+ },
+ "furthest_behind_seconds": 0.56,
+ "dense_pictures": {
+  "run": 54,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 7.8,
+   "race_time": 1.0,
+   "ready": 7.801,
+   "line": "서울 2경주 1000m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 13.751,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 15.8,
+   "race_time": 9.0,
+   "ready": 16.24,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.438,
+   "shown_until": 19.306,
+   "delay": 0.44
+  },
+  {
+   "kind": "point",
+   "video_time": 18.8,
+   "race_time": 12.0,
+   "ready": 19.356,
+   "line": "서울 2경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.555,
+   "shown_until": 21.976,
+   "delay": 0.556
+  },
+  {
+   "kind": "point",
+   "video_time": 21.8,
+   "race_time": 15.0,
+   "ready": 22.026,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.225,
+   "shown_until": 25.171,
+   "delay": 0.226
+  },
+  {
+   "kind": "point",
+   "video_time": 24.8,
+   "race_time": 18.0,
+   "ready": 25.221,
+   "line": "서울 2경주 1000m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.42,
+   "shown_until": 28.276,
+   "delay": 0.421
+  },
+  {
+   "kind": "point",
+   "video_time": 27.8,
+   "race_time": 21.0,
+   "ready": 28.326,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.525,
+   "shown_until": 30.977,
+   "delay": 0.526
+  },
+  {
+   "kind": "point",
+   "video_time": 30.8,
+   "race_time": 24.0,
+   "ready": 31.027,
+   "line": "선두권에 5번 마이티로그가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 34.005,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 33.817,
+   "race_time": 27.02,
+   "ready": 34.055,
+   "line": "5번 마이티로그, 계속 선두권입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 37.01,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 36.817,
+   "race_time": 30.02,
+   "ready": 37.06,
+   "line": "5번 마이티로그, 선두에 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 39.99,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 39.8,
+   "race_time": 33.0,
+   "ready": 40.04,
+   "line": "선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.7281
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 43.009,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 42.8,
+   "race_time": 36.0,
+   "ready": 43.059,
+   "line": "5번 마이티로그, 계속 선두입니다. 선두권에 9번 풀하디.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.4972
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "shown_until": 46.007,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 45.8,
+   "race_time": 39.0,
+   "ready": 46.057,
+   "line": "여전히 선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.3523
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "shown_until": 48.986,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 48.8,
+   "race_time": 42.0,
+   "ready": 49.036,
+   "line": "5번 마이티로그가 선두입니다. 선두권에 4번 지비플래시, 9번 풀하디.",
+   "statements": [
+    4,
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.5961
+    },
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.5898
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 51.998,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 51.8,
+   "race_time": 45.0,
+   "ready": 52.048,
+   "line": "선두는 5번 마이티로그. 선두권에 9번 풀하디.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.6946
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "shown_until": 55.128,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 54.8,
+   "race_time": 48.0,
+   "ready": 55.178,
+   "line": "5번 마이티로그, 선두에 있습니다. 선두권에 4번 지비플래시.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.5462
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.376,
+   "shown_until": 58.325,
+   "delay": 0.378
+  },
+  {
+   "kind": "point",
+   "video_time": 57.8,
+   "race_time": 51.0,
+   "ready": 58.375,
+   "line": "3번 파라오의딸이 선두입니다. 선두권에 5번 마이티로그.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.302
+    }
+   ],
+   "late_at_start": 0.07,
+   "work_seconds": 0.504,
+   "shown_until": 61.284,
+   "delay": 0.575
+  },
+  {
+   "kind": "point",
+   "video_time": 60.8,
+   "race_time": 54.0,
+   "ready": 61.334,
+   "line": "선두는 5번 마이티로그.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.041,
+   "work_seconds": 0.493,
+   "shown_until": 64.246,
+   "delay": 0.534
+  },
+  {
+   "kind": "point",
+   "video_time": 63.8,
+   "race_time": 57.0,
+   "ready": 64.296,
+   "line": "여전히 선두는 5번 마이티로그.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.029,
+   "work_seconds": 0.466,
+   "shown_until": 67.193,
+   "delay": 0.496
+  },
+  {
+   "kind": "point",
+   "video_time": 66.8,
+   "race_time": 60.0,
+   "ready": 67.243,
+   "line": "5번 마이티로그, 계속 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.011,
+   "work_seconds": 0.432,
+   "shown_until": 68.431,
+   "delay": 0.443
+  },
+  {
+   "kind": "finish",
+   "video_time": 68.4,
+   "race_time": 61.6,
+   "ready": 68.481,
+   "line": "결승선 통과! 5번 마이티로그가 가장 먼저 들어옵니다!",
+   "winner": 5,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "5": 9
+    },
+    "seen": 7,
+    "front": 6,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 67.183,
+   "seconds_after_the_finish": 1.3,
+   "work_seconds": 0.001,
+   "shown_until": 74.431,
+   "delay": 0.081
+  }
+ ]
+}

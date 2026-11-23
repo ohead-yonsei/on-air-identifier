@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "글로벌서브"
+  },
+  {
+   "number": 2,
+   "name": "위즈파이터"
+  },
+  {
+   "number": 3,
+   "name": "히어로삭스"
+  },
+  {
+   "number": 4,
+   "name": "드림아너"
+  },
+  {
+   "number": 5,
+   "name": "라온니진스키"
+  },
+  {
+   "number": 6,
+   "name": "무빙볼케이노"
+  },
+  {
+   "number": 7,
+   "name": "스마트테이크"
+  },
+  {
+   "number": 8,
+   "name": "바로다나은"
+  },
+  {
+   "number": 9,
+   "name": "짜릿한행복"
+  },
+  {
+   "number": 10,
+   "name": "팬텀프린스"
+  },
+  {
+   "number": 11,
+   "name": "마이티코드"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

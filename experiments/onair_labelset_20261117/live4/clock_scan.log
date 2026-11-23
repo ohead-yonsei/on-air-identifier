@@ -1,0 +1,5 @@
+283 {'start and finish found': 279, 'pill seen, never ran': 1, 'start only': 2, 'no clock on screen': 1}
+{'video': 'onair_labelset_20261117/otherday23/videos/R10_CHLG35WKqJI.mp4', 'frames': 7382, 'pill_frames': 728, 'start': None, 'finish': None, 'run': None, 'status': 'pill seen, never ran'}
+{'video': 'onair_labelset_20261117/otherday24/videos/R05_2ReljBGdS9A.mp4', 'frames': 7812, 'pill_frames': 6044, 'start': 16.583333333333332, 'finish': None, 'run': None, 'status': 'start only'}
+{'video': 'onair_labelset_20261117/otherday24/videos/R06_a5AzMCewzdM.mp4', 'frames': 7140, 'pill_frames': 5545, 'start': 16.0, 'finish': None, 'run': None, 'status': 'start only'}
+{'video': 'onair_labelset_20261117/otherday5/videos/R01_kmsrclXJfv4.mp4', 'frames': 433, 'pill_frames': 0, 'start': None, 'finish': None, 'run': None, 'status': 'no clock on screen'}

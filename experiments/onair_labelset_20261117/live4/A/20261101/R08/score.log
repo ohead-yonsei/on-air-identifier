@@ -1,0 +1,16 @@
+{'lines': 29, 'lines with a number': 26, 'numbers': 50, 'numbers right': 44, 'numbers close': 6, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 14, 'leader right': 5, 'leader close': 8, 'leader wrong': 1}
+   22.30 numbers {5: 'close', 11: 'right'} leader None None | official first four [11, 9, 8, 4] | 선두권에 5번 아모스천하, 11번 픽처. 11번 픽처가 5번 아모스천하보다 앞에 있습니다.
+   28.30 numbers {5: 'close'} leader None None | official first four [11, 4, 8, 9] | 선두권에 5번 아모스천하가 있습니다.
+   34.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 8] | 4번 플라잉스마트가 선두입니다. 5번 아모스천하도 선두권입니다.
+   37.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 8] | 여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.
+   40.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 4번 플라잉스마트, 계속 선두입니다. 선두권에 5번 아모스천하.
+   43.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.
+   46.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 4번 플라잉스마트, 계속 선두입니다. 선두권에 5번 아모스천하.
+   49.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.
+   52.28 numbers {4: 'right', 5: 'right', 11: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 4번 플라잉스마트, 선두에 있습니다. 선두권에 5번 아모스천하, 11번 픽처.
+   61.28 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [11, 4, 5, 7] | 4번 플라잉스마트, 선두에 있습니다. 5번 아모스천하도 선두권입니다.
+   70.28 numbers {4: 'right', 5: 'close', 11: 'right'} leader 4 wrong | official first four [11, 4, 7, 5] | 4번 플라잉스마트, 선두에 있습니다. 5번 아모스천하, 11번 픽처도 선두권입니다.
+   76.28 numbers {4: 'close', 11: 'right'} leader None None | official first four [11, 7, 10, 4] | 선두권은 그대로 4번 플라잉스마트, 11번 픽처.
+   79.28 numbers {6: 'close', 10: 'right'} leader None None | official first four [11, 7, 10, 6] | 6번 라온더벨몬트, 10번 검이불루, 선두권에서 달립니다.
+   94.28 numbers {6: 'close', 7: 'right', 10: 'right'} leader 7 right | official first four [7, 10, 9, 6] | 선두는 7번 선돌풍. 선두권에 6번 라온더벨몬트, 10번 검이불루.
+finish: 7 official 7 right

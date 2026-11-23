@@ -1,0 +1,431 @@
+{
+ "official_winner": 9,
+ "totals": {
+  "lines": 28,
+  "lines with a number": 22,
+  "numbers": 42,
+  "numbers right": 40,
+  "numbers close": 2,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 18,
+  "leader right": 17,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.244,
+  "max": 0.806
+ },
+ "rows": [
+  {
+   "video_time": 16.833,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 19.833,
+   "line": "서울 11경주 1400m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 22.833,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 25.833,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 28.833,
+   "line": "8번 마이티조이, 선두에 있습니다. 선두권에 5번 한강퍼펙트.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 31.833,
+   "line": "5번 한강퍼펙트, 9번 마스터콰이곤, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 34.833,
+   "line": "8번 마이티조이, 선두에 있습니다. 5번 한강퍼펙트도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 37.833,
+   "line": "8번 마이티조이가 선두입니다. 9번 마스터콰이곤도 선두권입니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 40.833,
+   "line": "선두는 8번 마이티조이. 5번 한강퍼펙트, 9번 마스터콰이곤도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 43.833,
+   "line": "여전히 선두는 8번 마이티조이. 선두권에 5번 한강퍼펙트, 9번 마스터콰이곤.",
+   "numbers": {
+    "5": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 46.833,
+   "line": "선두권에 5번 한강퍼펙트, 8번 마이티조이. 8번 마이티조이가 5번 한강퍼펙트보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 49.833,
+   "line": "선두는 5번 한강퍼펙트. 선두권에 8번 마이티조이, 9번 마스터콰이곤.",
+   "numbers": {
+    "5": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 52.833,
+   "line": "8번 마이티조이, 선두에 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 55.833,
+   "line": "선두권에 8번 마이티조이가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 58.833,
+   "line": "8번 마이티조이가 선두입니다. 선두권에 9번 마스터콰이곤.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    7
+   ]
+  },
+  {
+   "video_time": 61.833,
+   "line": "선두는 8번 마이티조이.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 64.85,
+   "line": "여전히 선두는 8번 마이티조이.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 67.85,
+   "line": "8번 마이티조이, 선두에 있습니다. 선두권에 9번 마스터콰이곤.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 70.85,
+   "line": "8번 마이티조이, 계속 선두입니다. 선두권에 9번 마스터콰이곤.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 73.833,
+   "line": "여전히 선두는 8번 마이티조이. 선두권에 9번 마스터콰이곤.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 76.833,
+   "line": "선두는 8번 마이티조이.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 79.833,
+   "line": "여전히 선두는 8번 마이티조이.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 82.833,
+   "line": "9번 마스터콰이곤, 선두에 있습니다. 선두권에 8번 마이티조이.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 85.833,
+   "line": "9번 마스터콰이곤이 선두입니다. 선두권에 3번 히어로삭스.",
+   "numbers": {
+    "3": "close",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    2,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 88.833,
+   "line": "9번 마스터콰이곤, 계속 선두입니다. 선두권에 3번 히어로삭스.",
+   "numbers": {
+    "3": "close",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    2,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 91.833,
+   "line": "선두권에 2번 리멤버어게인, 3번 히어로삭스, 9번 마스터콰이곤이 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    2,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 94.25,
+   "line": "결승선 통과! 9번 마스터콰이곤이 가장 먼저 들어옵니다!",
+   "winner_call": 9,
+   "official_winner": 9,
+   "verdict": "right"
+  }
+ ]
+}

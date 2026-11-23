@@ -1,0 +1,11 @@
+{'lines': 37, 'lines with a number': 35, 'numbers': 65, 'numbers right': 60, 'numbers close': 0, 'numbers wrong': 5, 'lines with a wrong number': 5, 'leader lines': 22, 'leader right': 18, 'leader close': 4, 'leader wrong': 0}
+   33.28 numbers {3: 'right', 5: 'wrong', 9: 'right'} leader 3 right | official first four [3, 9, 4, 6] | 선두는 3번 브리도챔피언. 선두권에 5번 희망밴드, 9번 다나은스타.
+   36.28 numbers {8: 'wrong'} leader None None | official first four [3, 9, 4, 6] | 8번 파사스파크, 선두권에서 달립니다.
+   54.28 numbers {5: 'wrong', 9: 'right'} leader None None | official first four [3, 9, 4, 2] | 선두권에 5번 희망밴드, 9번 다나은스타가 있습니다.
+   75.28 numbers {3: 'right', 7: 'wrong'} leader 3 right | official first four [3, 9, 4, 10] | 선두는 3번 브리도챔피언. 선두권에 7번 고스트크리솔.
+   90.28 numbers {3: 'right', 9: 'right'} leader 9 close | official first four [3, 9, 4, 10] | 9번 다나은스타가 선두입니다. 3번 브리도챔피언도 선두권입니다.
+   93.28 numbers {3: 'right', 9: 'right'} leader 9 close | official first four [3, 9, 10, 4] | 여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.
+   96.28 numbers {3: 'right', 9: 'right'} leader 9 close | official first four [3, 9, 10, 4] | 9번 다나은스타, 계속 선두입니다. 선두권에 3번 브리도챔피언.
+   99.28 numbers {3: 'right', 9: 'right'} leader 9 close | official first four [3, 9, 10, 2] | 여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.
+  105.28 numbers {2: 'wrong', 3: 'right', 9: 'right'} leader None None | official first four [3, 9, 10, 2] | 선두권에 2번 청산질주, 3번 브리도챔피언, 9번 다나은스타. 3번 브리도챔피언이 2번 청산질주보다 앞에 있습니다.
+finish: 3 official 3 right

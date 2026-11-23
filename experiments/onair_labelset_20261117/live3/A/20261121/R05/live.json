@@ -1,0 +1,587 @@
+{
+ "video": "otherday25/videos/R05_88ZkG2XoDnA.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 5,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "어플리트런"
+   },
+   {
+    "number": 2,
+    "name": "럭키에이원"
+   },
+   {
+    "number": 3,
+    "name": "송당망치"
+   },
+   {
+    "number": 4,
+    "name": "비케이비바체"
+   },
+   {
+    "number": 5,
+    "name": "히어로퓨마"
+   },
+   {
+    "number": 6,
+    "name": "선글라스"
+   },
+   {
+    "number": 7,
+    "name": "그레이고"
+   },
+   {
+    "number": 8,
+    "name": "금아온포인트"
+   },
+   {
+    "number": 9,
+    "name": "대한코코즈"
+   },
+   {
+    "number": 10,
+    "name": "연동스타"
+   },
+   {
+    "number": 11,
+    "name": "슈퍼땅콩"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 17.516666666666666,
+  "finish": 92.35,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5796,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.259,
+  "max": 0.657
+ },
+ "furthest_behind_seconds": 0.645,
+ "dense_pictures": {
+  "run": 68,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 18.517,
+   "race_time": 1.0,
+   "ready": 18.518,
+   "line": "서울 5경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 24.468,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 26.517,
+   "race_time": 9.0,
+   "ready": 26.873,
+   "line": "1번 어플리트런이 선두입니다.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.355,
+   "shown_until": 29.74,
+   "delay": 0.356
+  },
+  {
+   "kind": "point",
+   "video_time": 29.517,
+   "race_time": 12.0,
+   "ready": 29.79,
+   "line": "여전히 선두는 1번 어플리트런.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 32.737,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 32.517,
+   "race_time": 15.0,
+   "ready": 32.787,
+   "line": "선두는 1번 어플리트런. 선두권에 9번 대한코코즈.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.6584
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "shown_until": 35.706,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 35.517,
+   "race_time": 18.0,
+   "ready": 35.756,
+   "line": "1번 어플리트런, 계속 선두입니다. 선두권에 9번 대한코코즈.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.5254
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 38.709,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 38.517,
+   "race_time": 21.0,
+   "ready": 38.759,
+   "line": "여전히 선두는 1번 어플리트런. 선두권에 9번 대한코코즈.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.662
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 41.716,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 41.517,
+   "race_time": 24.0,
+   "ready": 41.766,
+   "line": "1번 어플리트런이 선두입니다.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 44.729,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 44.517,
+   "race_time": 27.0,
+   "ready": 44.779,
+   "line": "여전히 선두는 1번 어플리트런.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "shown_until": 47.712,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 47.517,
+   "race_time": 30.0,
+   "ready": 47.762,
+   "line": "선두는 1번 어플리트런. 선두권에 5번 히어로퓨마, 10번 연동스타.",
+   "statements": [
+    1,
+    5,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.5379
+    },
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.6366
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 50.703,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 50.517,
+   "race_time": 33.0,
+   "ready": 50.753,
+   "line": "9번 대한코코즈, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 53.713,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 53.517,
+   "race_time": 36.0,
+   "ready": 53.763,
+   "line": "선두는 1번 어플리트런. 9번 대한코코즈도 선두권입니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.5929
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 56.785,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 56.517,
+   "race_time": 39.0,
+   "ready": 56.835,
+   "line": "선두권에 9번 대한코코즈가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.317,
+   "shown_until": 59.727,
+   "delay": 0.318
+  },
+  {
+   "kind": "point",
+   "video_time": 59.517,
+   "race_time": 42.0,
+   "ready": 59.777,
+   "line": "9번 대한코코즈, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "shown_until": 62.708,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 62.517,
+   "race_time": 45.0,
+   "ready": 62.758,
+   "line": "1번 어플리트런이 선두입니다. 9번 대한코코즈도 선두권입니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.6576
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 65.734,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 65.517,
+   "race_time": 48.0,
+   "ready": 65.784,
+   "line": "선두는 1번 어플리트런.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "shown_until": 68.726,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 68.517,
+   "race_time": 51.0,
+   "ready": 68.776,
+   "line": "5번 히어로퓨마가 선두입니다. 선두권에 1번 어플리트런, 8번 금아온포인트.",
+   "statements": [
+    1,
+    5,
+    8
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.3795
+    },
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.4179
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "shown_until": 71.71,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 71.517,
+   "race_time": 54.0,
+   "ready": 71.76,
+   "line": "1번 어플리트런, 8번 금아온포인트, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 74.738,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 74.517,
+   "race_time": 57.0,
+   "ready": 74.788,
+   "line": "선두권에 1번 어플리트런, 8번 금아온포인트, 10번 연동스타가 있습니다.",
+   "statements": [
+    1,
+    8,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "shown_until": 77.706,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 77.517,
+   "race_time": 60.0,
+   "ready": 77.756,
+   "line": "1번 어플리트런, 8번 금아온포인트, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 80.701,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 80.517,
+   "race_time": 63.0,
+   "ready": 80.751,
+   "line": "선두권에 1번 어플리트런, 8번 금아온포인트, 11번 슈퍼땅콩. 8번 금아온포인트가 1번 어플리트런보다 앞에 있습니다.",
+   "statements": [
+    1,
+    8,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 1,
+     "gap": 0.4159
+    },
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.2337
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 83.692,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 83.517,
+   "race_time": 66.0,
+   "ready": 83.742,
+   "line": "선두는 8번 금아온포인트.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 86.956,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 86.517,
+   "race_time": 69.0,
+   "ready": 87.006,
+   "line": "8번 금아온포인트, 계속 선두입니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.069,
+   "work_seconds": 0.419,
+   "shown_until": 90.124,
+   "delay": 0.489
+  },
+  {
+   "kind": "point",
+   "video_time": 89.517,
+   "race_time": 72.0,
+   "ready": 90.174,
+   "line": "8번 금아온포인트, 선두에 있습니다. 7번 그레이고도 선두권입니다.",
+   "statements": [
+    7,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 7,
+     "gap": 0.6431
+    }
+   ],
+   "late_at_start": 0.079,
+   "work_seconds": 0.578,
+   "shown_until": 93.105,
+   "delay": 0.657
+  },
+  {
+   "kind": "point",
+   "video_time": 92.517,
+   "race_time": 75.0,
+   "ready": 93.155,
+   "line": "여전히 선두는 8번 금아온포인트. 선두권에 7번 그레이고.",
+   "statements": [
+    7,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.119,
+   "work_seconds": 0.518,
+   "shown_until": 93.751,
+   "delay": 0.638
+  },
+  {
+   "kind": "finish",
+   "video_time": 93.567,
+   "race_time": 76.05,
+   "ready": 93.801,
+   "line": "결승선 통과! 8번 금아온포인트가 가장 먼저 들어옵니다!",
+   "winner": 8,
+   "winner_call": {
+    "candidate": 8,
+    "pictures_naming_each": {
+     "8": 13,
+     "7": 1,
+     "2": 1
+    },
+    "seen": 4,
+    "front": 4,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 92.35,
+   "seconds_after_the_finish": 1.45,
+   "work_seconds": 0.0,
+   "shown_until": 99.751,
+   "delay": 0.234
+  }
+ ]
+}

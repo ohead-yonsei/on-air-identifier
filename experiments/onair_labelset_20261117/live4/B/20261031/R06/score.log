@@ -1,0 +1,7 @@
+{'lines': 30, 'lines with a number': 22, 'numbers': 30, 'numbers right': 26, 'numbers close': 4, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 8, 'leader right': 7, 'leader close': 1, 'leader wrong': 0}
+   51.18 numbers {8: 'close'} leader None None | official first four [9, 11, 4, 8] | 선두권에 8번 나올오로라가 있습니다.
+   78.17 numbers {10: 'close'} leader None None | official first four [9, 11, 4, 3] | 10번 비바참, 선두권에서 달립니다.
+   84.17 numbers {9: 'right'} leader 9 close | official first four [11, 9, 4, 3] | 9번 대한코코즈가 선두입니다.
+   93.17 numbers {4: 'right', 9: 'close', 11: 'right'} leader 11 right | official first four [11, 4, 3, 9] | 선두는 11번 특급기상. 4번 에클레어, 9번 대한코코즈도 선두권입니다.
+  111.17 numbers {7: 'close'} leader None None | official first four [11, 4, 5, 7] | 7번 골든볼, 선두권에서 달립니다.
+finish: None official 11 no call

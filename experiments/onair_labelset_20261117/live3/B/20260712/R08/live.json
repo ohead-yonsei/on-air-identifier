@@ -1,0 +1,824 @@
+{
+ "video": "otherday23/videos/R08_barun4Sdrhc.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 8,
+  "distance": 1600,
+  "runners": [
+   {
+    "number": 1,
+    "name": "백룡"
+   },
+   {
+    "number": 2,
+    "name": "급행열차"
+   },
+   {
+    "number": 3,
+    "name": "불의세계"
+   },
+   {
+    "number": 4,
+    "name": "글로벌파로아"
+   },
+   {
+    "number": 5,
+    "name": "주몽천하"
+   },
+   {
+    "number": 6,
+    "name": "한마디말도"
+   },
+   {
+    "number": 7,
+    "name": "스마트뮤직"
+   },
+   {
+    "number": 8,
+    "name": "성실대로"
+   },
+   {
+    "number": 9,
+    "name": "러브오마인"
+   },
+   {
+    "number": 10,
+    "name": "선더에이원"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.516666666666666,
+  "finish": 109.417,
+  "expected_seconds": 105.6
+ },
+ "frames_read": 6820,
+ "lines": 34,
+ "delay_seconds": {
+  "median": 0.254,
+  "max": 0.736
+ },
+ "furthest_behind_seconds": 0.721,
+ "dense_pictures": {
+  "run": 43,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.55,
+   "race_time": 1.03,
+   "ready": 9.551,
+   "line": "서울 8경주 1600m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.501,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.517,
+   "race_time": 9.0,
+   "ready": 17.827,
+   "line": "8번 성실대로, 선두권에서 달립니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.309,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 21.075,
+   "delay": 0.31
+  },
+  {
+   "kind": "point",
+   "video_time": 20.517,
+   "race_time": 12.0,
+   "ready": 21.125,
+   "line": "선두권은 그대로 8번 성실대로.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.607,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 24.0,
+   "delay": 0.608
+  },
+  {
+   "kind": "point",
+   "video_time": 23.517,
+   "race_time": 15.0,
+   "ready": 24.05,
+   "line": "1600m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.532,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 27.018,
+   "delay": 0.533
+  },
+  {
+   "kind": "point",
+   "video_time": 26.517,
+   "race_time": 18.0,
+   "ready": 27.068,
+   "line": "서울 8경주 1600m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.55,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 30.028,
+   "delay": 0.551
+  },
+  {
+   "kind": "point",
+   "video_time": 29.517,
+   "race_time": 21.0,
+   "ready": 30.078,
+   "line": "1600m 경주, 출발 후 21초입니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.56,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.934,
+   "delay": 0.561
+  },
+  {
+   "kind": "point",
+   "video_time": 32.517,
+   "race_time": 24.0,
+   "ready": 32.984,
+   "line": "서울 8경주 1600m, 출발 후 24초가 지났습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.466,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.977,
+   "delay": 0.467
+  },
+  {
+   "kind": "point",
+   "video_time": 35.517,
+   "race_time": 27.0,
+   "ready": 36.027,
+   "line": "1600m 경주, 출발 후 27초입니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.509,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 39.04,
+   "delay": 0.51
+  },
+  {
+   "kind": "point",
+   "video_time": 38.517,
+   "race_time": 30.0,
+   "ready": 39.09,
+   "line": "서울 8경주 1600m, 출발 후 30초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.572,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.74,
+   "delay": 0.573
+  },
+  {
+   "kind": "point",
+   "video_time": 41.517,
+   "race_time": 33.0,
+   "ready": 41.79,
+   "line": "선두권에 1번 백룡, 10번 선더에이원. 10번 선더에이원이 1번 백룡보다 앞에 있습니다.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.2757
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.734,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 44.517,
+   "race_time": 36.0,
+   "ready": 44.784,
+   "line": "1번 백룡, 10번 선더에이원, 계속 선두권입니다.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.2245
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.704,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 47.517,
+   "race_time": 39.0,
+   "ready": 47.754,
+   "line": "선두권은 그대로 1번 백룡, 10번 선더에이원.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.713,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 50.517,
+   "race_time": 42.0,
+   "ready": 50.763,
+   "line": "1번 백룡, 10번 선더에이원, 계속 선두권입니다.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 53.712,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 53.517,
+   "race_time": 45.0,
+   "ready": 53.762,
+   "line": "선두권은 그대로 1번 백룡, 10번 선더에이원.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 56.72,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 56.517,
+   "race_time": 48.0,
+   "ready": 56.77,
+   "line": "1번 백룡이 선두입니다. 선두권에 10번 선더에이원.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.2632
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 59.709,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 59.517,
+   "race_time": 51.0,
+   "ready": 59.759,
+   "line": "1번 백룡, 10번 선더에이원, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 62.709,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 62.517,
+   "race_time": 54.0,
+   "ready": 62.759,
+   "line": "10번 선더에이원이 선두입니다. 1번 백룡, 8번 성실대로도 선두권입니다.",
+   "statements": [
+    1,
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.3785
+    },
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.5012
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 65.711,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 65.517,
+   "race_time": 57.0,
+   "ready": 65.761,
+   "line": "선두권에 1번 백룡, 7번 스마트뮤직, 10번 선더에이원이 있습니다.",
+   "statements": [
+    1,
+    7,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 68.706,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 68.517,
+   "race_time": 60.0,
+   "ready": 68.756,
+   "line": "1번 백룡이 선두입니다. 선두권에 8번 성실대로.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.661
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 71.726,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 71.517,
+   "race_time": 63.0,
+   "ready": 71.776,
+   "line": "선두권에 1번 백룡, 8번 성실대로. 8번 성실대로가 1번 백룡보다 앞에 있습니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 1,
+     "gap": 0.2157
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 74.708,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 74.517,
+   "race_time": 66.0,
+   "ready": 74.758,
+   "line": "선두는 10번 선더에이원. 선두권에 7번 스마트뮤직, 8번 성실대로.",
+   "statements": [
+    7,
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 7,
+     "gap": 0.2594
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 77.734,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 77.517,
+   "race_time": 69.0,
+   "ready": 77.784,
+   "line": "8번 성실대로, 선두권에서 달립니다.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 8,
+     "gap": 0.5514
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 80.708,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 80.517,
+   "race_time": 72.0,
+   "ready": 80.758,
+   "line": "선두권은 그대로 8번 성실대로.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 83.721,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 83.517,
+   "race_time": 75.0,
+   "ready": 83.771,
+   "line": "8번 성실대로, 계속 선두권입니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 86.709,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 86.517,
+   "race_time": 78.0,
+   "ready": 86.759,
+   "line": "선두권에 7번 스마트뮤직, 8번 성실대로, 10번 선더에이원. 7번 스마트뮤직이 8번 성실대로보다 앞에 있습니다.",
+   "statements": [
+    7,
+    8,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 8,
+     "gap": 0.3034
+    },
+    {
+     "ahead": 10,
+     "behind": 7,
+     "gap": 0.2297
+    },
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.5331
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 89.709,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 89.517,
+   "race_time": 81.0,
+   "ready": 89.759,
+   "line": "10번 선더에이원, 선두에 있습니다. 8번 성실대로도 선두권입니다.",
+   "statements": [
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.5863
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 92.705,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 92.517,
+   "race_time": 84.0,
+   "ready": 92.755,
+   "line": "선두권에 8번 성실대로, 10번 선더에이원. 10번 선더에이원이 8번 성실대로보다 앞에 있습니다.",
+   "statements": [
+    8,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.5306
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 95.706,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 95.517,
+   "race_time": 87.0,
+   "ready": 95.756,
+   "line": "선두권은 그대로 8번 성실대로, 10번 선더에이원.",
+   "statements": [
+    8,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.4895
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 98.695,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 98.517,
+   "race_time": 90.0,
+   "ready": 98.745,
+   "line": "10번 선더에이원, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 101.684,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 101.517,
+   "race_time": 93.0,
+   "ready": 101.734,
+   "line": "선두권은 그대로 10번 선더에이원.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.216,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 104.82,
+   "delay": 0.217
+  },
+  {
+   "kind": "point",
+   "video_time": 104.517,
+   "race_time": 96.0,
+   "ready": 104.87,
+   "line": "10번 선더에이원, 계속 선두권입니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.044,
+   "work_seconds": 0.308,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 108.043,
+   "delay": 0.353
+  },
+  {
+   "kind": "point",
+   "video_time": 107.517,
+   "race_time": 99.0,
+   "ready": 108.093,
+   "line": "선두권에 8번 성실대로, 9번 러브오마인, 10번 선더에이원. 10번 선더에이원이 8번 성실대로보다 앞에 있습니다.",
+   "statements": [
+    8,
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.2276
+    }
+   ],
+   "late_at_start": 0.095,
+   "work_seconds": 0.481,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 111.203,
+   "delay": 0.576
+  },
+  {
+   "kind": "point",
+   "video_time": 110.517,
+   "race_time": 102.0,
+   "ready": 111.253,
+   "line": "서울 8경주 1600m, 출발 후 102초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.114,
+   "work_seconds": 0.621,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 111.218,
+   "delay": 0.736
+  },
+  {
+   "kind": "finish",
+   "video_time": 110.633,
+   "race_time": 102.12,
+   "ready": 111.268,
+   "line": "결승선을 통과했습니다. 서울 8경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "1": 1,
+     "10": 3,
+     "8": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 109.417,
+   "seconds_after_the_finish": 1.85,
+   "work_seconds": 0.0,
+   "shown_until": 117.218,
+   "delay": 0.635
+  }
+ ]
+}

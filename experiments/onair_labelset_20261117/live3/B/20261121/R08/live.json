@@ -1,0 +1,900 @@
+{
+ "video": "otherday25/videos/R08_xQBiAZj1HAo.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 8,
+  "distance": 1800,
+  "runners": [
+   {
+    "number": 1,
+    "name": "핵다이아"
+   },
+   {
+    "number": 2,
+    "name": "큐피드커맨드"
+   },
+   {
+    "number": 3,
+    "name": "패션스타"
+   },
+   {
+    "number": 4,
+    "name": "빅토리퀸"
+   },
+   {
+    "number": 5,
+    "name": "금아포모스트"
+   },
+   {
+    "number": 6,
+    "name": "티나케이"
+   },
+   {
+    "number": 7,
+    "name": "지존불패"
+   },
+   {
+    "number": 8,
+    "name": "포에버길"
+   },
+   {
+    "number": 9,
+    "name": "프리메로"
+   },
+   {
+    "number": 10,
+    "name": "스팅제트"
+   },
+   {
+    "number": 11,
+    "name": "백룡"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 17.9,
+  "finish": 135.633,
+  "expected_seconds": 118.8
+ },
+ "frames_read": 8393,
+ "lines": 39,
+ "delay_seconds": {
+  "median": 0.268,
+  "max": 0.709
+ },
+ "furthest_behind_seconds": 0.695,
+ "dense_pictures": {
+  "run": 58,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 18.9,
+   "race_time": 1.0,
+   "ready": 18.901,
+   "line": "서울 8경주 1800m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 24.851,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 26.9,
+   "race_time": 9.0,
+   "ready": 27.252,
+   "line": "2번 큐피드커맨드, 7번 지존불패, 선두권에서 달립니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.351,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 30.126,
+   "delay": 0.352
+  },
+  {
+   "kind": "point",
+   "video_time": 29.9,
+   "race_time": 12.0,
+   "ready": 30.176,
+   "line": "2번 큐피드커맨드, 선두에 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 33.104,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 32.9,
+   "race_time": 15.0,
+   "ready": 33.154,
+   "line": "2번 큐피드커맨드, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 36.148,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 35.9,
+   "race_time": 18.0,
+   "ready": 36.198,
+   "line": "선두권에 7번 지존불패가 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.297,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 39.125,
+   "delay": 0.298
+  },
+  {
+   "kind": "point",
+   "video_time": 38.9,
+   "race_time": 21.0,
+   "ready": 39.175,
+   "line": "7번 지존불패, 계속 선두권입니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.274,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 42.404,
+   "delay": 0.275
+  },
+  {
+   "kind": "point",
+   "video_time": 41.9,
+   "race_time": 24.0,
+   "ready": 42.454,
+   "line": "선두권은 그대로 7번 지존불패.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.553,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 45.1,
+   "delay": 0.554
+  },
+  {
+   "kind": "point",
+   "video_time": 44.9,
+   "race_time": 27.0,
+   "ready": 45.15,
+   "line": "7번 지존불패가 선두입니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 48.086,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 47.9,
+   "race_time": 30.0,
+   "ready": 48.136,
+   "line": "7번 지존불패, 선두에 있습니다. 5번 금아포모스트도 선두권입니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 5,
+     "gap": 0.5904
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 51.496,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 50.9,
+   "race_time": 33.0,
+   "ready": 51.546,
+   "line": "7번 지존불패가 선두입니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.645,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 54.544,
+   "delay": 0.646
+  },
+  {
+   "kind": "point",
+   "video_time": 53.9,
+   "race_time": 36.0,
+   "ready": 54.594,
+   "line": "5번 금아포모스트, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.693,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 57.093,
+   "delay": 0.694
+  },
+  {
+   "kind": "point",
+   "video_time": 56.9,
+   "race_time": 39.0,
+   "ready": 57.143,
+   "line": "선두권에 5번 금아포모스트, 7번 지존불패. 7번 지존불패가 5번 금아포모스트보다 앞에 있습니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 5,
+     "gap": 0.4829
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.088,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 59.9,
+   "race_time": 42.0,
+   "ready": 60.138,
+   "line": "선두권에 5번 금아포모스트, 9번 프리메로가 있습니다.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 63.315,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 62.9,
+   "race_time": 45.0,
+   "ready": 63.365,
+   "line": "3번 패션스타, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.464,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 66.345,
+   "delay": 0.465
+  },
+  {
+   "kind": "point",
+   "video_time": 65.9,
+   "race_time": 48.0,
+   "ready": 66.395,
+   "line": "선두권은 그대로 3번 패션스타.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.494,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 69.218,
+   "delay": 0.495
+  },
+  {
+   "kind": "point",
+   "video_time": 68.9,
+   "race_time": 51.0,
+   "ready": 69.268,
+   "line": "8번 포에버길, 선두권에서 달립니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.367,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 72.088,
+   "delay": 0.368
+  },
+  {
+   "kind": "point",
+   "video_time": 71.9,
+   "race_time": 54.0,
+   "ready": 72.138,
+   "line": "선두권에 2번 큐피드커맨드, 11번 백룡이 있습니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 75.077,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 74.9,
+   "race_time": 57.0,
+   "ready": 75.127,
+   "line": "2번 큐피드커맨드, 11번 백룡, 계속 선두권입니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 78.245,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 77.9,
+   "race_time": 60.0,
+   "ready": 78.295,
+   "line": "선두권에 2번 큐피드커맨드가 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.393,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 81.09,
+   "delay": 0.395
+  },
+  {
+   "kind": "point",
+   "video_time": 80.9,
+   "race_time": 63.0,
+   "ready": 81.14,
+   "line": "11번 백룡이 선두입니다.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 84.103,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 83.9,
+   "race_time": 66.0,
+   "ready": 84.153,
+   "line": "여전히 선두는 11번 백룡.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 87.098,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 86.9,
+   "race_time": 69.0,
+   "ready": 87.148,
+   "line": "11번 백룡, 계속 선두입니다.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 90.45,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 89.9,
+   "race_time": 72.0,
+   "ready": 90.5,
+   "line": "11번 백룡이 선두입니다. 5번 금아포모스트, 7번 지존불패도 선두권입니다.",
+   "statements": [
+    5,
+    7,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.599,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 93.29,
+   "delay": 0.6
+  },
+  {
+   "kind": "point",
+   "video_time": 92.9,
+   "race_time": 75.0,
+   "ready": 93.34,
+   "line": "선두권에 5번 금아포모스트, 7번 지존불패가 있습니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.439,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 96.09,
+   "delay": 0.44
+  },
+  {
+   "kind": "point",
+   "video_time": 95.9,
+   "race_time": 78.0,
+   "ready": 96.14,
+   "line": "10번 스팅제트가 선두입니다. 선두권에 9번 프리메로.",
+   "statements": [
+    9,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.4798
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 99.205,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 98.9,
+   "race_time": 81.0,
+   "ready": 99.255,
+   "line": "9번 프리메로, 10번 스팅제트, 선두권에서 달립니다.",
+   "statements": [
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.354,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 102.186,
+   "delay": 0.355
+  },
+  {
+   "kind": "point",
+   "video_time": 101.9,
+   "race_time": 84.0,
+   "ready": 102.236,
+   "line": "선두권에 10번 스팅제트가 있습니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.334,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 105.116,
+   "delay": 0.336
+  },
+  {
+   "kind": "point",
+   "video_time": 104.9,
+   "race_time": 87.0,
+   "ready": 105.166,
+   "line": "9번 프리메로, 11번 백룡, 선두권에서 달립니다.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 108.118,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 107.9,
+   "race_time": 90.0,
+   "ready": 108.168,
+   "line": "선두권에 9번 프리메로가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 111.087,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 110.9,
+   "race_time": 93.0,
+   "ready": 111.137,
+   "line": "9번 프리메로, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 114.112,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 113.9,
+   "race_time": 96.0,
+   "ready": 114.162,
+   "line": "10번 스팅제트, 선두에 있습니다. 9번 프리메로도 선두권입니다.",
+   "statements": [
+    9,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.2362
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 117.093,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 116.9,
+   "race_time": 99.0,
+   "ready": 117.143,
+   "line": "선두권에 8번 포에버길, 9번 프리메로, 10번 스팅제트. 10번 스팅제트가 8번 포에버길보다 앞에 있습니다.",
+   "statements": [
+    8,
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.2672
+    },
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.2611
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 120.095,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 119.9,
+   "race_time": 102.0,
+   "ready": 120.145,
+   "line": "10번 스팅제트가 선두입니다. 8번 포에버길, 9번 프리메로도 선두권입니다.",
+   "statements": [
+    8,
+    9,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.5147
+    },
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.455
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 123.103,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 122.9,
+   "race_time": 105.0,
+   "ready": 123.153,
+   "line": "선두권에 8번 포에버길, 9번 프리메로, 10번 스팅제트. 10번 스팅제트가 8번 포에버길보다 앞에 있습니다.",
+   "statements": [
+    8,
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.4966
+    },
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.4202
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 126.072,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 125.9,
+   "race_time": 108.0,
+   "ready": 126.122,
+   "line": "선두권은 그대로 8번 포에버길, 9번 프리메로, 10번 스팅제트.",
+   "statements": [
+    8,
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.5134
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.221,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "shown_until": 129.374,
+   "delay": 0.222
+  },
+  {
+   "kind": "point",
+   "video_time": 128.9,
+   "race_time": 111.0,
+   "ready": 129.424,
+   "line": "8번 포에버길, 9번 프리메로, 선두권에서 달립니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.065,
+   "work_seconds": 0.458,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 132.559,
+   "delay": 0.524
+  },
+  {
+   "kind": "point",
+   "video_time": 131.9,
+   "race_time": 114.0,
+   "ready": 132.609,
+   "line": "선두권에 5번 금아포모스트, 8번 포에버길, 9번 프리메로가 있습니다.",
+   "statements": [
+    5,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.119,
+   "work_seconds": 0.59,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 135.429,
+   "delay": 0.709
+  },
+  {
+   "kind": "point",
+   "video_time": 134.9,
+   "race_time": 117.0,
+   "ready": 135.479,
+   "line": "7번 지존불패, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.11,
+   "work_seconds": 0.468,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 136.801,
+   "delay": 0.579
+  },
+  {
+   "kind": "finish",
+   "video_time": 136.85,
+   "race_time": 118.95,
+   "ready": 136.851,
+   "line": "결승선을 통과했습니다. 서울 8경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "10": 2,
+     "8": 2,
+     "7": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 135.633,
+   "seconds_after_the_finish": 1.22,
+   "work_seconds": 0.0,
+   "shown_until": 142.801,
+   "delay": 0.001
+  }
+ ]
+}

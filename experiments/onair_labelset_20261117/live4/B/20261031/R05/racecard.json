@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 5,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "미스틱글로"
+  },
+  {
+   "number": 2,
+   "name": "피엔에스위너"
+  },
+  {
+   "number": 3,
+   "name": "아모스전사"
+  },
+  {
+   "number": 4,
+   "name": "커맨딩리드"
+  },
+  {
+   "number": 6,
+   "name": "걸작번개"
+  },
+  {
+   "number": 7,
+   "name": "스마트밍크"
+  },
+  {
+   "number": 8,
+   "name": "세븐포스"
+  },
+  {
+   "number": 9,
+   "name": "누리퀸즈"
+  },
+  {
+   "number": 10,
+   "name": "크리솔포시"
+  },
+  {
+   "number": 11,
+   "name": "불패의여왕"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

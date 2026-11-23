@@ -1,0 +1,7 @@
+{'lines': 24, 'lines with a number': 22, 'numbers': 48, 'numbers right': 44, 'numbers close': 3, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 13, 'leader right': 12, 'leader close': 1, 'leader wrong': 0}
+   42.00 numbers {3: 'right', 9: 'wrong'} leader None None | official first four [1, 2, 3, 9] | 선두권에 3번 플러터, 9번 우루스사비아. 3번 플러터가 9번 우루스사비아보다 앞에 있습니다.
+   63.00 numbers {1: 'close', 9: 'right'} leader None None | official first four [3, 2, 9, 1] | 선두권에 1번 주링스카이, 9번 우루스사비아가 있습니다.
+   66.00 numbers {3: 'right', 5: 'close'} leader 3 right | official first four [3, 2, 9, 10] | 선두는 3번 플러터. 선두권에 5번 브라운맘마.
+   75.00 numbers {2: 'right', 3: 'right', 9: 'right', 10: 'close'} leader 3 right | official first four [3, 2, 9, 10] | 3번 플러터, 선두에 있습니다. 2번 블루레인, 9번 우루스사비아, 10번 나올대왕도 선두권입니다.
+   87.00 numbers {3: 'right', 5: 'right'} leader 5 close | official first four [3, 5, 2, 9] | 5번 브라운맘마가 선두입니다. 선두권에 3번 플러터.
+finish: 3 official 5 wrong

@@ -1,0 +1,606 @@
+{
+ "video": "otherday26/videos/R03_WmVlV9mSCFw.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 3,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "풀스트라이크"
+   },
+   {
+    "number": 2,
+    "name": "군주민수"
+   },
+   {
+    "number": 3,
+    "name": "터치더스카이"
+   },
+   {
+    "number": 4,
+    "name": "마이돌풍"
+   },
+   {
+    "number": 5,
+    "name": "라이즈파워"
+   },
+   {
+    "number": 6,
+    "name": "골드레인"
+   },
+   {
+    "number": 7,
+    "name": "파워풀돈"
+   },
+   {
+    "number": 8,
+    "name": "마리우스길"
+   },
+   {
+    "number": 9,
+    "name": "화이트스톰"
+   },
+   {
+    "number": 10,
+    "name": "마이티챔프"
+   },
+   {
+    "number": 11,
+    "name": "한화륭"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 9.933333333333334,
+  "finish": 85.35,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5376,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.242,
+  "max": 0.572
+ },
+ "furthest_behind_seconds": 0.556,
+ "dense_pictures": {
+  "run": 67,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 10.933,
+   "race_time": 1.0,
+   "ready": 10.935,
+   "line": "서울 3경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 16.885,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 18.933,
+   "race_time": 9.0,
+   "ready": 19.272,
+   "line": "1번 풀스트라이크가 선두입니다. 선두권에 3번 터치더스카이.",
+   "statements": [
+    1,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.3805
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.337,
+   "shown_until": 22.18,
+   "delay": 0.339
+  },
+  {
+   "kind": "point",
+   "video_time": 21.933,
+   "race_time": 12.0,
+   "ready": 22.23,
+   "line": "1번 풀스트라이크, 선두권에서 달립니다.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.295,
+   "shown_until": 25.12,
+   "delay": 0.297
+  },
+  {
+   "kind": "point",
+   "video_time": 24.933,
+   "race_time": 15.0,
+   "ready": 25.17,
+   "line": "1번 풀스트라이크가 선두입니다. 3번 터치더스카이도 선두권입니다.",
+   "statements": [
+    1,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.8064
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 28.195,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 27.933,
+   "race_time": 18.0,
+   "ready": 28.245,
+   "line": "선두는 1번 풀스트라이크. 2번 군주민수, 3번 터치더스카이도 선두권입니다.",
+   "statements": [
+    1,
+    2,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.4704
+    },
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.2751
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.31,
+   "shown_until": 31.135,
+   "delay": 0.312
+  },
+  {
+   "kind": "point",
+   "video_time": 30.933,
+   "race_time": 21.0,
+   "ready": 31.185,
+   "line": "여전히 선두는 1번 풀스트라이크. 선두권에 2번 군주민수, 3번 터치더스카이.",
+   "statements": [
+    1,
+    2,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.5819
+    },
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.7723
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 34.142,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 33.95,
+   "race_time": 24.02,
+   "ready": 34.192,
+   "line": "선두는 2번 군주민수. 선두권에 3번 터치더스카이.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.7364
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 37.128,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 36.95,
+   "race_time": 27.02,
+   "ready": 37.178,
+   "line": "2번 군주민수, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "shown_until": 40.141,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 39.95,
+   "race_time": 30.02,
+   "ready": 40.191,
+   "line": "선두권에 1번 풀스트라이크, 2번 군주민수. 1번 풀스트라이크가 2번 군주민수보다 앞에 있습니다.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.3679
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 43.134,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 42.933,
+   "race_time": 33.0,
+   "ready": 43.184,
+   "line": "선두는 1번 풀스트라이크. 2번 군주민수도 선두권입니다.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.5629
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 46.129,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 45.933,
+   "race_time": 36.0,
+   "ready": 46.179,
+   "line": "여전히 선두는 1번 풀스트라이크. 선두권에 2번 군주민수.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.4555
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 49.119,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 48.933,
+   "race_time": 39.0,
+   "ready": 49.169,
+   "line": "1번 풀스트라이크, 계속 선두입니다. 선두권에 2번 군주민수.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 52.122,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 51.933,
+   "race_time": 42.0,
+   "ready": 52.172,
+   "line": "선두권에 1번 풀스트라이크, 2번 군주민수가 있습니다.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 55.118,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 54.933,
+   "race_time": 45.0,
+   "ready": 55.168,
+   "line": "1번 풀스트라이크, 선두에 있습니다. 선두권에 2번 군주민수.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 58.133,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 57.933,
+   "race_time": 48.0,
+   "ready": 58.183,
+   "line": "2번 군주민수가 선두입니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 61.12,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 60.933,
+   "race_time": 51.0,
+   "ready": 61.17,
+   "line": "선두권에 2번 군주민수가 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 64.118,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 63.933,
+   "race_time": 54.0,
+   "ready": 64.168,
+   "line": "2번 군주민수, 계속 선두권입니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 67.111,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 66.933,
+   "race_time": 57.0,
+   "ready": 67.161,
+   "line": "2번 군주민수가 선두입니다. 10번 마이티챔프도 선두권입니다.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.7627
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 70.11,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 69.933,
+   "race_time": 60.0,
+   "ready": 70.16,
+   "line": "여전히 선두는 2번 군주민수. 선두권에 10번 마이티챔프.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.6179
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 73.113,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 72.933,
+   "race_time": 63.0,
+   "ready": 73.163,
+   "line": "2번 군주민수, 계속 선두입니다. 선두권에 10번 마이티챔프.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.754
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 76.437,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 75.933,
+   "race_time": 66.0,
+   "ready": 76.487,
+   "line": "여전히 선두는 2번 군주민수. 선두권에 10번 마이티챔프.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.604
+    }
+   ],
+   "late_at_start": 0.06,
+   "work_seconds": 0.493,
+   "shown_until": 79.373,
+   "delay": 0.554
+  },
+  {
+   "kind": "point",
+   "video_time": 78.933,
+   "race_time": 69.0,
+   "ready": 79.423,
+   "line": "선두는 2번 군주민수.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.101,
+   "work_seconds": 0.388,
+   "shown_until": 82.425,
+   "delay": 0.49
+  },
+  {
+   "kind": "point",
+   "video_time": 81.933,
+   "race_time": 72.0,
+   "ready": 82.475,
+   "line": "여전히 선두는 2번 군주민수.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.034,
+   "work_seconds": 0.506,
+   "shown_until": 85.455,
+   "delay": 0.542
+  },
+  {
+   "kind": "point",
+   "video_time": 84.933,
+   "race_time": 75.0,
+   "ready": 85.505,
+   "line": "2번 군주민수, 선두에 있습니다. 선두권에 5번 라이즈파워.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.2301
+    }
+   ],
+   "late_at_start": 0.124,
+   "work_seconds": 0.447,
+   "shown_until": 86.545,
+   "delay": 0.572
+  },
+  {
+   "kind": "finish",
+   "video_time": 86.567,
+   "race_time": 76.63,
+   "ready": 86.595,
+   "line": "결승선 통과! 2번 군주민수가 가장 먼저 들어옵니다!",
+   "winner": 2,
+   "winner_call": {
+    "candidate": 2,
+    "pictures_naming_each": {
+     "2": 16,
+     "1": 1
+    },
+    "seen": 8,
+    "front": 6,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 85.35,
+   "seconds_after_the_finish": 1.25,
+   "work_seconds": 0.001,
+   "shown_until": 92.545,
+   "delay": 0.028
+  }
+ ]
+}

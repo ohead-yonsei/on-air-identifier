@@ -1,0 +1,9 @@
+{'lines': 27, 'lines with a number': 24, 'numbers': 45, 'numbers right': 43, 'numbers close': 2, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 13, 'leader right': 8, 'leader close': 5, 'leader wrong': 0}
+   23.07 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [5, 4, 6, 8] | 선두는 4번 터보차지. 선두권에 5번 원모타임.
+   26.07 numbers {4: 'right', 5: 'right'} leader 4 close | official first four [5, 4, 6, 8] | 4번 터보차지, 계속 선두입니다. 선두권에 5번 원모타임.
+   29.07 numbers {4: 'right', 5: 'right', 6: 'right'} leader 4 close | official first four [5, 4, 6, 8] | 선두는 4번 터보차지. 5번 원모타임, 6번 베스트에이원도 선두권입니다.
+   65.07 numbers {5: 'right', 6: 'close'} leader 5 right | official first four [5, 3, 4, 8] | 선두는 5번 원모타임. 6번 베스트에이원도 선두권입니다.
+   74.07 numbers {5: 'right'} leader 5 close | official first four [3, 5, 8, 4] | 5번 원모타임, 선두에 있습니다.
+   77.07 numbers {5: 'right'} leader 5 close | official first four [3, 5, 8, 10] | 여전히 선두는 5번 원모타임.
+   83.07 numbers {10: 'close'} leader None None | official first four [3, 8, 5, 10] | 선두권에 10번 마이티캡이 있습니다.
+finish: 3 official 3 right

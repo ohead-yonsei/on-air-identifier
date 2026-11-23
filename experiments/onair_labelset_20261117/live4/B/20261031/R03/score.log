@@ -1,0 +1,7 @@
+{'lines': 25, 'lines with a number': 22, 'numbers': 37, 'numbers right': 32, 'numbers close': 5, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 15, 'leader right': 15, 'leader close': 0, 'leader wrong': 0}
+   27.28 numbers {2: 'close', 8: 'right'} leader 8 right | official first four [8, 10, 4, 2] | 8번 고스트선더가 선두입니다. 2번 베스트러브도 선두권입니다.
+   30.28 numbers {2: 'close', 8: 'right'} leader 8 right | official first four [8, 10, 4, 2] | 여전히 선두는 8번 고스트선더. 선두권에 2번 베스트러브.
+   33.28 numbers {2: 'close', 8: 'right', 10: 'right'} leader 8 right | official first four [8, 10, 4, 2] | 8번 고스트선더가 선두입니다. 선두권에 2번 베스트러브, 10번 대한여전사.
+   54.28 numbers {2: 'close', 8: 'right'} leader None None | official first four [8, 4, 5, 2] | 2번 베스트러브, 8번 고스트선더, 계속 선두권입니다.
+   66.28 numbers {8: 'right', 10: 'close'} leader 8 right | official first four [8, 4, 5, 1] | 8번 고스트선더, 선두에 있습니다. 10번 대한여전사도 선두권입니다.
+finish: None official 8 no call

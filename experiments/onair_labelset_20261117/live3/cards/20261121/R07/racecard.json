@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 7,
+ "distance": 1700,
+ "runners": [
+  {
+   "number": 1,
+   "name": "마이티크리스"
+  },
+  {
+   "number": 2,
+   "name": "러브스칼렛"
+  },
+  {
+   "number": 3,
+   "name": "내게로와줘"
+  },
+  {
+   "number": 4,
+   "name": "블랙러시안"
+  },
+  {
+   "number": 6,
+   "name": "신한에이스"
+  },
+  {
+   "number": 7,
+   "name": "파이널질주"
+  },
+  {
+   "number": 8,
+   "name": "클로버톱"
+  },
+  {
+   "number": 9,
+   "name": "더선커밍"
+  },
+  {
+   "number": 10,
+   "name": "클럽맨"
+  },
+  {
+   "number": 11,
+   "name": "위너삭스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

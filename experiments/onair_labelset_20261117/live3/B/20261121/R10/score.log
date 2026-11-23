@@ -1,0 +1,4 @@
+{'lines': 24, 'lines with a number': 22, 'numbers': 41, 'numbers right': 39, 'numbers close': 2, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 10, 'leader right': 10, 'leader close': 0, 'leader wrong': 0}
+   14.93 numbers {3: 'close', 4: 'right'} leader None None | official first four [4, 7, 5, 2] | 3번 원더풀제트, 4번 스타트렉, 선두권에서 달립니다.
+   32.95 numbers {4: 'right', 5: 'close'} leader None None | official first four [4, 7, 1, 5] | 선두권에 4번 스타트렉, 5번 루프톱. 4번 스타트렉이 5번 루프톱보다 앞에 있습니다.
+finish: 5 official 5 right

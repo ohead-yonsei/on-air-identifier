@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 5,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "어플리트런"
+  },
+  {
+   "number": 2,
+   "name": "럭키에이원"
+  },
+  {
+   "number": 3,
+   "name": "송당망치"
+  },
+  {
+   "number": 4,
+   "name": "비케이비바체"
+  },
+  {
+   "number": 5,
+   "name": "히어로퓨마"
+  },
+  {
+   "number": 6,
+   "name": "선글라스"
+  },
+  {
+   "number": 7,
+   "name": "그레이고"
+  },
+  {
+   "number": 8,
+   "name": "금아온포인트"
+  },
+  {
+   "number": 9,
+   "name": "대한코코즈"
+  },
+  {
+   "number": 10,
+   "name": "연동스타"
+  },
+  {
+   "number": 11,
+   "name": "슈퍼땅콩"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

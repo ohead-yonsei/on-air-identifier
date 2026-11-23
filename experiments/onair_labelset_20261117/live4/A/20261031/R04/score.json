@@ -1,0 +1,323 @@
+{
+ "official_winner": 1,
+ "totals": {
+  "lines": 21,
+  "lines with a number": 17,
+  "numbers": 30,
+  "numbers right": 28,
+  "numbers close": 0,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 9,
+  "leader right": 8,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.243,
+  "max": 0.663
+ },
+ "rows": [
+  {
+   "video_time": 21.417,
+   "line": "10번, 선두권에서 달립니다.",
+   "numbers": {
+    "10": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    4,
+    7,
+    5
+   ]
+  },
+  {
+   "video_time": 24.417,
+   "line": "서울 4경주 1000m, 출발 후 12초가 지났습니다.",
+   "numbers": {
+    "11": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    4,
+    7,
+    5
+   ]
+  },
+  {
+   "video_time": 27.417,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    1,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 30.417,
+   "line": "서울 4경주 1000m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    1,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 33.417,
+   "line": "4번 영원한보스, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    1,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 36.417,
+   "line": "선두권은 그대로 4번 영원한보스.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    1,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 39.417,
+   "line": "1번 골든벨스타, 7번 크레이지블루, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    9
+   ]
+  },
+  {
+   "video_time": 42.417,
+   "line": "4번 영원한보스, 선두에 있습니다. 7번 크레이지블루도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    1,
+    9
+   ]
+  },
+  {
+   "video_time": 45.417,
+   "line": "여전히 선두는 4번 영원한보스. 선두권에 7번 크레이지블루.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    1,
+    3
+   ]
+  },
+  {
+   "video_time": 48.417,
+   "line": "4번 영원한보스, 계속 선두입니다. 선두권에 7번 크레이지블루.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 51.417,
+   "line": "선두는 4번 영원한보스. 1번 골든벨스타, 7번 크레이지블루도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 54.417,
+   "line": "4번 영원한보스, 선두에 있습니다. 7번 크레이지블루도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 57.417,
+   "line": "4번 영원한보스가 선두입니다. 1번 골든벨스타도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    1,
+    4,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 60.417,
+   "line": "선두권에 1번 골든벨스타, 4번 영원한보스가 있습니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    4,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 63.417,
+   "line": "1번 골든벨스타, 4번 영원한보스, 계속 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    4,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 66.417,
+   "line": "1번 골든벨스타, 선두에 있습니다. 4번 영원한보스도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    4,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 69.417,
+   "line": "여전히 선두는 1번 골든벨스타. 선두권에 4번 영원한보스.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    4,
+    3,
+    5
+   ]
+  },
+  {
+   "video_time": 72.417,
+   "line": "1번 골든벨스타, 계속 선두입니다. 선두권에 4번 영원한보스.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    4,
+    3,
+    5
+   ]
+  },
+  {
+   "video_time": 75.417,
+   "line": "선두권에 4번 영원한보스가 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    4,
+    5,
+    3
+   ]
+  },
+  {
+   "video_time": 76.017,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 1,
+   "verdict": "no call"
+  }
+ ]
+}

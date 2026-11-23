@@ -1,0 +1,747 @@
+{
+ "video": "otherday25/videos/R11_aibB13bvBfg.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "글로벌서브"
+   },
+   {
+    "number": 2,
+    "name": "위즈파이터"
+   },
+   {
+    "number": 3,
+    "name": "히어로삭스"
+   },
+   {
+    "number": 4,
+    "name": "드림아너"
+   },
+   {
+    "number": 5,
+    "name": "라온니진스키"
+   },
+   {
+    "number": 6,
+    "name": "무빙볼케이노"
+   },
+   {
+    "number": 7,
+    "name": "스마트테이크"
+   },
+   {
+    "number": 8,
+    "name": "바로다나은"
+   },
+   {
+    "number": 9,
+    "name": "짜릿한행복"
+   },
+   {
+    "number": 10,
+    "name": "팬텀프린스"
+   },
+   {
+    "number": 11,
+    "name": "마이티코드"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 4.166666666666667,
+  "finish": 91.867,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5767,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.678
+ },
+ "furthest_behind_seconds": 0.663,
+ "dense_pictures": {
+  "run": 65,
+  "skipped_when_behind": 5
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 5.167,
+   "race_time": 1.0,
+   "ready": 5.168,
+   "line": "서울 11경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 11.118,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 13.167,
+   "race_time": 9.0,
+   "ready": 13.596,
+   "line": "7번 스마트테이크, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.428,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 16.795,
+   "delay": 0.429
+  },
+  {
+   "kind": "point",
+   "video_time": 16.167,
+   "race_time": 12.0,
+   "ready": 16.845,
+   "line": "선두권은 그대로 7번 스마트테이크.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.677,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 19.673,
+   "delay": 0.678
+  },
+  {
+   "kind": "point",
+   "video_time": 19.167,
+   "race_time": 15.0,
+   "ready": 19.723,
+   "line": "7번 스마트테이크, 계속 선두권입니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.556,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 22.647,
+   "delay": 0.556
+  },
+  {
+   "kind": "point",
+   "video_time": 22.167,
+   "race_time": 18.0,
+   "ready": 22.697,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.529,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 25.598,
+   "delay": 0.53
+  },
+  {
+   "kind": "point",
+   "video_time": 25.167,
+   "race_time": 21.0,
+   "ready": 25.648,
+   "line": "1400m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.48,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 28.367,
+   "delay": 0.481
+  },
+  {
+   "kind": "point",
+   "video_time": 28.167,
+   "race_time": 24.0,
+   "ready": 28.417,
+   "line": "선두권에 6번 무빙볼케이노가 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 31.374,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 31.167,
+   "race_time": 27.0,
+   "ready": 31.424,
+   "line": "6번 무빙볼케이노, 계속 선두권입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 34.407,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 34.183,
+   "race_time": 30.02,
+   "ready": 34.457,
+   "line": "2번 위즈파이터, 선두에 있습니다. 6번 무빙볼케이노도 선두권입니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.7081
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 37.367,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 37.167,
+   "race_time": 33.0,
+   "ready": 37.417,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.6782
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 40.355,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 40.167,
+   "race_time": 36.0,
+   "ready": 40.405,
+   "line": "2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.6568
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 43.348,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 43.167,
+   "race_time": 39.0,
+   "ready": 43.398,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.4948
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 46.363,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 46.167,
+   "race_time": 42.0,
+   "ready": 46.413,
+   "line": "6번 무빙볼케이노가 선두입니다. 선두권에 2번 위즈파이터, 9번 짜릿한행복.",
+   "statements": [
+    2,
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.363
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "shown_until": 49.382,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 49.167,
+   "race_time": 45.0,
+   "ready": 49.432,
+   "line": "선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.5325
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 52.356,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 52.167,
+   "race_time": 48.0,
+   "ready": 52.406,
+   "line": "2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.7528
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 55.354,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 55.167,
+   "race_time": 51.0,
+   "ready": 55.404,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.2943
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 58.339,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 58.167,
+   "race_time": 54.0,
+   "ready": 58.389,
+   "line": "2번 위즈파이터, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.222,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 61.366,
+   "delay": 0.222
+  },
+  {
+   "kind": "point",
+   "video_time": 61.167,
+   "race_time": 57.0,
+   "ready": 61.416,
+   "line": "선두권에 2번 위즈파이터, 6번 무빙볼케이노. 2번 위즈파이터가 6번 무빙볼케이노보다 앞에 있습니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.5143
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 64.388,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 64.167,
+   "race_time": 60.0,
+   "ready": 64.438,
+   "line": "2번 위즈파이터, 선두에 있습니다. 6번 무빙볼케이노도 선두권입니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.5976
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 67.423,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 67.167,
+   "race_time": 63.0,
+   "ready": 67.473,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.7637
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.305,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 70.364,
+   "delay": 0.306
+  },
+  {
+   "kind": "point",
+   "video_time": 70.167,
+   "race_time": 66.0,
+   "ready": 70.414,
+   "line": "6번 무빙볼케이노, 선두에 있습니다. 선두권에 2번 위즈파이터.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.4408
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 73.369,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 73.167,
+   "race_time": 69.0,
+   "ready": 73.419,
+   "line": "선두권에 2번 위즈파이터, 6번 무빙볼케이노. 2번 위즈파이터가 6번 무빙볼케이노보다 앞에 있습니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.3266
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 76.362,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 76.167,
+   "race_time": 72.0,
+   "ready": 76.412,
+   "line": "6번 무빙볼케이노가 선두입니다. 선두권에 2번 위즈파이터.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 79.352,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 79.167,
+   "race_time": 75.0,
+   "ready": 79.402,
+   "line": "2번 위즈파이터, 6번 무빙볼케이노, 선두권에서 달립니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.016,
+   "work_seconds": 0.218,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 82.368,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 82.167,
+   "race_time": 78.0,
+   "ready": 82.418,
+   "line": "9번 짜릿한행복이 선두입니다. 2번 위즈파이터, 6번 무빙볼케이노도 선두권입니다.",
+   "statements": [
+    2,
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 2,
+     "gap": 0.7219
+    },
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.2666
+    },
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.4552
+    }
+   ],
+   "late_at_start": 0.031,
+   "work_seconds": 0.22,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 85.385,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 85.167,
+   "race_time": 81.0,
+   "ready": 85.435,
+   "line": "선두는 9번 짜릿한행복. 6번 무빙볼케이노도 선두권입니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.2066
+    }
+   ],
+   "late_at_start": 0.032,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 88.554,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 88.167,
+   "race_time": 84.0,
+   "ready": 88.604,
+   "line": "9번 짜릿한행복, 선두에 있습니다. 6번 무빙볼케이노, 11번 마이티코드도 선두권입니다.",
+   "statements": [
+    6,
+    9,
+    11
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.3078
+    }
+   ],
+   "late_at_start": 0.025,
+   "work_seconds": 0.412,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 91.767,
+   "delay": 0.437
+  },
+  {
+   "kind": "point",
+   "video_time": 91.167,
+   "race_time": 87.0,
+   "ready": 91.817,
+   "line": "선두권에 3번 히어로삭스가 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.179,
+   "work_seconds": 0.471,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 93.103,
+   "delay": 0.65
+  },
+  {
+   "kind": "finish",
+   "video_time": 93.083,
+   "race_time": 88.92,
+   "ready": 93.153,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": 6,
+    "pictures_naming_each": {
+     "6": 6,
+     "5": 2,
+     "9": 1,
+     "3": 1
+    },
+    "seen": 5,
+    "front": 1,
+    "pictures_in_the_last_6s": 27
+   },
+   "finish_video_time": 91.867,
+   "seconds_after_the_finish": 1.29,
+   "work_seconds": 0.001,
+   "shown_until": 99.103,
+   "delay": 0.07
+  }
+ ]
+}

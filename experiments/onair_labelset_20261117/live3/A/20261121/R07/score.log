@@ -1,0 +1,8 @@
+{'lines': 37, 'lines with a number': 34, 'numbers': 55, 'numbers right': 49, 'numbers close': 4, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 11, 'leader right': 10, 'leader close': 0, 'leader wrong': 1}
+   19.93 numbers {4: 'close'} leader None None | official first four [9, 1, 6, 4] | 4번 블랙러시안, 선두권에서 달립니다.
+   22.93 numbers {4: 'close'} leader None None | official first four [9, 1, 6, 4] | 선두권은 그대로 4번 블랙러시안.
+   43.93 numbers {6: 'right', 9: 'right', 11: 'wrong'} leader None None | official first four [1, 6, 9, 4] | 선두권에 6번 신한에이스, 9번 더선커밍, 11번 위너삭스. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.
+   52.93 numbers {6: 'right', 11: 'wrong'} leader 11 wrong | official first four [1, 9, 6, 4] | 선두는 11번 위너삭스. 선두권에 6번 신한에이스.
+   67.93 numbers {1: 'right', 4: 'close', 9: 'right'} leader 1 right | official first four [1, 9, 6, 4] | 1번 마이티크리스, 선두에 있습니다. 선두권에 4번 블랙러시안, 9번 더선커밍.
+   97.93 numbers {4: 'close', 9: 'right'} leader None None | official first four [6, 9, 11, 4] | 선두권에 4번 블랙러시안, 9번 더선커밍이 있습니다.
+finish: None official 6 no call

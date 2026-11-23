@@ -1,0 +1,698 @@
+{
+ "video": "otherday25/videos/R04_1djTx8Wnwkc.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 4,
+  "distance": 1300,
+  "runners": [
+   {
+    "number": 1,
+    "name": "스터닝스피어"
+   },
+   {
+    "number": 2,
+    "name": "능력도령"
+   },
+   {
+    "number": 3,
+    "name": "피엔에스러너"
+   },
+   {
+    "number": 4,
+    "name": "푸른참"
+   },
+   {
+    "number": 5,
+    "name": "세명하이디"
+   },
+   {
+    "number": 6,
+    "name": "듀크삭스"
+   },
+   {
+    "number": 7,
+    "name": "불패의여왕"
+   },
+   {
+    "number": 8,
+    "name": "버건디"
+   },
+   {
+    "number": 9,
+    "name": "태광프린스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 7.966666666666667,
+  "finish": 92.033,
+  "expected_seconds": 82.5
+ },
+ "frames_read": 5777,
+ "lines": 28,
+ "delay_seconds": {
+  "median": 0.256,
+  "max": 0.733
+ },
+ "furthest_behind_seconds": 0.718,
+ "dense_pictures": {
+  "run": 70,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.0,
+   "race_time": 1.03,
+   "ready": 9.001,
+   "line": "서울 4경주 1300m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 14.951,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 16.983,
+   "race_time": 9.02,
+   "ready": 17.447,
+   "line": "1300m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.462,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 20.604,
+   "delay": 0.464
+  },
+  {
+   "kind": "point",
+   "video_time": 19.983,
+   "race_time": 12.02,
+   "ready": 20.654,
+   "line": "서울 4경주 1300m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.67,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.666,
+   "delay": 0.671
+  },
+  {
+   "kind": "point",
+   "video_time": 22.983,
+   "race_time": 15.02,
+   "ready": 23.716,
+   "line": "1300m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.731,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 26.165,
+   "delay": 0.733
+  },
+  {
+   "kind": "point",
+   "video_time": 25.967,
+   "race_time": 18.0,
+   "ready": 26.215,
+   "line": "5번 세명하이디가 선두입니다. 3번 피엔에스러너도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.824
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 29.159,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 28.967,
+   "race_time": 21.0,
+   "ready": 29.209,
+   "line": "선두는 5번 세명하이디. 3번 피엔에스러너, 4번 푸른참도 선두권입니다.",
+   "statements": [
+    3,
+    4,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.6996
+    },
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.7525
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 32.162,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 31.967,
+   "race_time": 24.0,
+   "ready": 32.212,
+   "line": "5번 세명하이디, 선두에 있습니다. 3번 피엔에스러너도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7662
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 35.156,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 34.967,
+   "race_time": 27.0,
+   "ready": 35.206,
+   "line": "여전히 선두는 5번 세명하이디. 선두권에 3번 피엔에스러너.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7324
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 38.149,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 37.967,
+   "race_time": 30.0,
+   "ready": 38.199,
+   "line": "5번 세명하이디, 계속 선두입니다. 선두권에 3번 피엔에스러너.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.5737
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 41.538,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 40.967,
+   "race_time": 33.0,
+   "ready": 41.588,
+   "line": "선두는 7번 불패의여왕. 5번 세명하이디도 선두권입니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.62,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 44.163,
+   "delay": 0.621
+  },
+  {
+   "kind": "point",
+   "video_time": 43.967,
+   "race_time": 36.0,
+   "ready": 44.213,
+   "line": "선두권에 5번 세명하이디가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.146,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 46.967,
+   "race_time": 39.0,
+   "ready": 47.196,
+   "line": "선두권에 3번 피엔에스러너, 7번 불패의여왕. 3번 피엔에스러너가 7번 불패의여왕보다 앞에 있습니다.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2784
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.173,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 49.967,
+   "race_time": 42.0,
+   "ready": 50.223,
+   "line": "3번 피엔에스러너, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 53.291,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 52.967,
+   "race_time": 45.0,
+   "ready": 53.341,
+   "line": "5번 세명하이디가 선두입니다. 3번 피엔에스러너도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3573
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.373,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 56.154,
+   "delay": 0.374
+  },
+  {
+   "kind": "point",
+   "video_time": 55.967,
+   "race_time": 48.0,
+   "ready": 56.204,
+   "line": "선두권에 3번 피엔에스러너, 5번 세명하이디. 5번 세명하이디가 3번 피엔에스러너보다 앞에 있습니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3409
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 59.152,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 58.967,
+   "race_time": 51.0,
+   "ready": 59.202,
+   "line": "선두권은 그대로 3번 피엔에스러너, 5번 세명하이디.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.4154
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 62.144,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 61.967,
+   "race_time": 54.0,
+   "ready": 62.194,
+   "line": "5번 세명하이디가 선두입니다. 선두권에 3번 피엔에스러너.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7917
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 65.155,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 64.967,
+   "race_time": 57.0,
+   "ready": 65.205,
+   "line": "선두권에 3번 피엔에스러너, 5번 세명하이디, 7번 불패의여왕. 3번 피엔에스러너가 7번 불패의여왕보다 앞에 있습니다.",
+   "statements": [
+    3,
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2629
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 68.153,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 67.967,
+   "race_time": 60.0,
+   "ready": 68.203,
+   "line": "3번 피엔에스러너, 7번 불패의여왕, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 71.151,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 70.967,
+   "race_time": 63.0,
+   "ready": 71.201,
+   "line": "선두권은 그대로 3번 피엔에스러너, 7번 불패의여왕.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 74.278,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 73.967,
+   "race_time": 66.0,
+   "ready": 74.328,
+   "line": "5번 세명하이디, 선두에 있습니다. 선두권에 2번 능력도령, 3번 피엔에스러너.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3479
+    },
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.2167
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.36,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 77.341,
+   "delay": 0.361
+  },
+  {
+   "kind": "point",
+   "video_time": 76.967,
+   "race_time": 69.0,
+   "ready": 77.391,
+   "line": "5번 세명하이디, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.134,
+   "work_seconds": 0.29,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 80.611,
+   "delay": 0.424
+  },
+  {
+   "kind": "point",
+   "video_time": 79.967,
+   "race_time": 72.0,
+   "ready": 80.661,
+   "line": "선두권에 2번 능력도령, 5번 세명하이디가 있습니다.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.193,
+   "work_seconds": 0.501,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 83.56,
+   "delay": 0.694
+  },
+  {
+   "kind": "point",
+   "video_time": 82.967,
+   "race_time": 75.0,
+   "ready": 83.61,
+   "line": "선두는 2번 능력도령. 선두권에 5번 세명하이디.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.7229
+    }
+   ],
+   "late_at_start": 0.176,
+   "work_seconds": 0.466,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 86.506,
+   "delay": 0.643
+  },
+  {
+   "kind": "point",
+   "video_time": 85.967,
+   "race_time": 78.0,
+   "ready": 86.556,
+   "line": "2번 능력도령, 선두에 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.14,
+   "work_seconds": 0.449,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 89.493,
+   "delay": 0.589
+  },
+  {
+   "kind": "point",
+   "video_time": 88.967,
+   "race_time": 81.0,
+   "ready": 89.543,
+   "line": "여전히 선두는 2번 능력도령.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.134,
+   "work_seconds": 0.441,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 92.52,
+   "delay": 0.576
+  },
+  {
+   "kind": "point",
+   "video_time": 91.967,
+   "race_time": 84.0,
+   "ready": 92.57,
+   "line": "6번 듀크삭스, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.125,
+   "work_seconds": 0.478,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 93.29,
+   "delay": 0.603
+  },
+  {
+   "kind": "finish",
+   "video_time": 93.25,
+   "race_time": 85.28,
+   "ready": 93.34,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "2": 1,
+     "5": 1,
+     "6": 2
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 26
+   },
+   "finish_video_time": 92.033,
+   "seconds_after_the_finish": 1.31,
+   "work_seconds": 0.0,
+   "shown_until": 99.29,
+   "delay": 0.09
+  }
+ ]
+}

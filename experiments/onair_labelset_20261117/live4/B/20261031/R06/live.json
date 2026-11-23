@@ -1,0 +1,675 @@
+{
+ "video": "otherday27/videos/R06_i0moOLx-oyI.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 6,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "빛의순간"
+   },
+   {
+    "number": 2,
+    "name": "제주프린세스"
+   },
+   {
+    "number": 3,
+    "name": "골드아이디"
+   },
+   {
+    "number": 4,
+    "name": "에클레어"
+   },
+   {
+    "number": 5,
+    "name": "델타대천"
+   },
+   {
+    "number": 6,
+    "name": "원더그레이스"
+   },
+   {
+    "number": 7,
+    "name": "골든볼"
+   },
+   {
+    "number": 8,
+    "name": "나올오로라"
+   },
+   {
+    "number": 9,
+    "name": "대한코코즈"
+   },
+   {
+    "number": 10,
+    "name": "비바참"
+   },
+   {
+    "number": 11,
+    "name": "특급기상"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 27.166666666666668,
+  "finish": 116.467,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 7243,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.253,
+  "max": 0.628
+ },
+ "furthest_behind_seconds": 0.613,
+ "dense_pictures": {
+  "run": 68,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 28.167,
+   "race_time": 1.0,
+   "ready": 28.168,
+   "line": "서울 6경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 34.118,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 36.183,
+   "race_time": 9.02,
+   "ready": 36.529,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.344,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 39.752,
+   "delay": 0.346
+  },
+  {
+   "kind": "point",
+   "video_time": 39.183,
+   "race_time": 12.02,
+   "ready": 39.802,
+   "line": "서울 6경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.618,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 42.761,
+   "delay": 0.619
+  },
+  {
+   "kind": "point",
+   "video_time": 42.183,
+   "race_time": 15.02,
+   "ready": 42.811,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.627,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 45.618,
+   "delay": 0.628
+  },
+  {
+   "kind": "point",
+   "video_time": 45.183,
+   "race_time": 18.02,
+   "ready": 45.668,
+   "line": "서울 6경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.483,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 48.406,
+   "delay": 0.485
+  },
+  {
+   "kind": "point",
+   "video_time": 48.183,
+   "race_time": 21.02,
+   "ready": 48.456,
+   "line": "4번 에클레어, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 51.382,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 51.183,
+   "race_time": 24.02,
+   "ready": 51.432,
+   "line": "선두권에 8번 나올오로라가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 54.424,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 54.183,
+   "race_time": 27.02,
+   "ready": 54.474,
+   "line": "4번 에클레어, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.29,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 57.397,
+   "delay": 0.291
+  },
+  {
+   "kind": "point",
+   "video_time": 57.183,
+   "race_time": 30.02,
+   "ready": 57.447,
+   "line": "선두권은 그대로 4번 에클레어.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.366,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 60.167,
+   "race_time": 33.0,
+   "ready": 60.416,
+   "line": "4번 에클레어, 계속 선두권입니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 63.369,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 63.167,
+   "race_time": 36.0,
+   "ready": 63.419,
+   "line": "선두권에 11번 특급기상이 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 66.369,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 66.167,
+   "race_time": 39.0,
+   "ready": 66.419,
+   "line": "9번 대한코코즈, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 69.37,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 69.167,
+   "race_time": 42.0,
+   "ready": 69.42,
+   "line": "선두권은 그대로 9번 대한코코즈.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 72.415,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 72.167,
+   "race_time": 45.0,
+   "ready": 72.465,
+   "line": "9번 대한코코즈, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.297,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 75.355,
+   "delay": 0.298
+  },
+  {
+   "kind": "point",
+   "video_time": 75.167,
+   "race_time": 48.0,
+   "ready": 75.405,
+   "line": "9번 대한코코즈, 선두에 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 78.359,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 78.167,
+   "race_time": 51.0,
+   "ready": 78.409,
+   "line": "10번 비바참, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 81.367,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 81.167,
+   "race_time": 54.0,
+   "ready": 81.417,
+   "line": "선두권에 9번 대한코코즈, 11번 특급기상. 9번 대한코코즈가 11번 특급기상보다 앞에 있습니다.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.2168
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 84.369,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 84.167,
+   "race_time": 57.0,
+   "ready": 84.419,
+   "line": "9번 대한코코즈가 선두입니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 87.367,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 87.167,
+   "race_time": 60.0,
+   "ready": 87.417,
+   "line": "선두권에 9번 대한코코즈, 11번 특급기상. 9번 대한코코즈가 11번 특급기상보다 앞에 있습니다.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.2702
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 90.368,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 90.167,
+   "race_time": 63.0,
+   "ready": 90.418,
+   "line": "9번 대한코코즈, 11번 특급기상, 계속 선두권입니다.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 11,
+     "gap": 0.2125
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 93.368,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 93.167,
+   "race_time": 66.0,
+   "ready": 93.418,
+   "line": "선두는 11번 특급기상. 4번 에클레어, 9번 대한코코즈도 선두권입니다.",
+   "statements": [
+    4,
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.2531
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 96.37,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 96.167,
+   "race_time": 69.0,
+   "ready": 96.42,
+   "line": "11번 특급기상, 선두에 있습니다. 4번 에클레어도 선두권입니다.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.248
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 99.399,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 99.167,
+   "race_time": 72.0,
+   "ready": 99.449,
+   "line": "여전히 선두는 11번 특급기상. 선두권에 4번 에클레어.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 102.356,
+   "delay": 0.282
+  },
+  {
+   "kind": "point",
+   "video_time": 102.167,
+   "race_time": 75.0,
+   "ready": 102.406,
+   "line": "11번 특급기상, 선두에 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.027,
+   "work_seconds": 0.211,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 105.363,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 105.167,
+   "race_time": 78.0,
+   "ready": 105.413,
+   "line": "선두는 11번 특급기상. 4번 에클레어도 선두권입니다.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.2642
+    }
+   ],
+   "late_at_start": 0.035,
+   "work_seconds": 0.21,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 108.689,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 108.167,
+   "race_time": 81.0,
+   "ready": 108.739,
+   "line": "11번 특급기상, 선두에 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.198,
+   "work_seconds": 0.374,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 111.512,
+   "delay": 0.572
+  },
+  {
+   "kind": "point",
+   "video_time": 111.167,
+   "race_time": 84.0,
+   "ready": 111.562,
+   "line": "7번 골든볼, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.288,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 114.699,
+   "delay": 0.395
+  },
+  {
+   "kind": "point",
+   "video_time": 114.167,
+   "race_time": 87.0,
+   "ready": 114.749,
+   "line": "서울 6경주 1400m, 출발 후 87초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.114,
+   "work_seconds": 0.468,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 117.597,
+   "delay": 0.582
+  },
+  {
+   "kind": "point",
+   "video_time": 117.167,
+   "race_time": 90.0,
+   "ready": 117.647,
+   "line": "1400m 경주, 출발 후 90초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.055,
+   "work_seconds": 0.425,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 117.655,
+   "delay": 0.48
+  },
+  {
+   "kind": "finish",
+   "video_time": 117.683,
+   "race_time": 90.52,
+   "ready": 117.705,
+   "line": "결승선을 통과했습니다. 서울 6경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "10": 2,
+     "11": 3,
+     "7": 1,
+     "2": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 116.467,
+   "seconds_after_the_finish": 1.24,
+   "work_seconds": 0.0,
+   "shown_until": 123.655,
+   "delay": 0.022
+  }
+ ]
+}

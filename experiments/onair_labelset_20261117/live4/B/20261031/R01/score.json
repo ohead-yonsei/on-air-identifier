@@ -1,0 +1,468 @@
+{
+ "official_winner": 3,
+ "totals": {
+  "lines": 30,
+  "lines with a number": 25,
+  "numbers": 50,
+  "numbers right": 48,
+  "numbers close": 1,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 9,
+  "leader right": 8,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.266,
+  "max": 0.708
+ },
+ "rows": [
+  {
+   "video_time": 21.5,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    7,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 24.5,
+   "line": "서울 1경주 1400m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    7,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 27.5,
+   "line": "5번 레전드몬스터, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    7,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 30.5,
+   "line": "서울 1경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 33.5,
+   "line": "5번 레전드몬스터, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 36.5,
+   "line": "선두는 8번 듀크삭스. 5번 레전드몬스터도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 39.5,
+   "line": "선두권에 5번 레전드몬스터, 8번 듀크삭스. 8번 듀크삭스가 5번 레전드몬스터보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 42.5,
+   "line": "선두권은 그대로 5번 레전드몬스터, 8번 듀크삭스.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 45.5,
+   "line": "선두는 8번 듀크삭스. 선두권에 5번 레전드몬스터.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 48.5,
+   "line": "5번 레전드몬스터, 8번 듀크삭스, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 51.5,
+   "line": "선두는 8번 듀크삭스. 5번 레전드몬스터도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 54.5,
+   "line": "여전히 선두는 8번 듀크삭스. 선두권에 5번 레전드몬스터.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 57.5,
+   "line": "선두는 8번 듀크삭스. 선두권에 4번 슈퍼체이서, 5번 레전드몬스터.",
+   "numbers": {
+    "4": "wrong",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    5,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 60.5,
+   "line": "5번 레전드몬스터, 선두에 있습니다. 선두권에 8번 듀크삭스.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    5,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 63.5,
+   "line": "5번 레전드몬스터, 계속 선두입니다. 선두권에 8번 듀크삭스.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 66.5,
+   "line": "선두권에 3번 서부킹, 5번 레전드몬스터, 8번 듀크삭스가 있습니다.",
+   "numbers": {
+    "3": "close",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    8,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 69.5,
+   "line": "선두권에 5번 레전드몬스터, 8번 듀크삭스. 5번 레전드몬스터가 8번 듀크삭스보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    8,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 72.5,
+   "line": "선두권에 5번 레전드몬스터, 7번 봉봉티아라. 5번 레전드몬스터가 7번 봉봉티아라보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 75.5,
+   "line": "선두는 5번 레전드몬스터. 선두권에 7번 봉봉티아라.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 78.5,
+   "line": "선두권에 3번 서부킹, 5번 레전드몬스터, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 81.5,
+   "line": "5번 레전드몬스터, 선두에 있습니다. 선두권에 3번 서부킹.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 84.5,
+   "line": "선두권에 3번 서부킹, 5번 레전드몬스터, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 87.5,
+   "line": "선두권에 3번 서부킹, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 90.5,
+   "line": "3번 서부킹, 7번 봉봉티아라, 계속 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 93.5,
+   "line": "선두권에 3번 서부킹, 5번 레전드몬스터, 7번 봉봉티아라. 3번 서부킹이 7번 봉봉티아라보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 96.5,
+   "line": "선두권에 7번 봉봉티아라가 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    7,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 99.5,
+   "line": "3번 서부킹, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 102.5,
+   "line": "선두권은 그대로 3번 서부킹.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    5,
+    7,
+    4
+   ]
+  },
+  {
+   "video_time": 105.183,
+   "line": "결승선 통과! 3번 서부킹이 가장 먼저 들어옵니다!",
+   "winner_call": 3,
+   "official_winner": 3,
+   "verdict": "right"
+  }
+ ]
+}

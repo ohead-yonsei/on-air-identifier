@@ -1,0 +1,396 @@
+{
+ "official_winner": 7,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 22,
+  "numbers": 46,
+  "numbers right": 45,
+  "numbers close": 1,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 9,
+  "leader right": 3,
+  "leader close": 5,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.591
+ },
+ "rows": [
+  {
+   "video_time": 27.367,
+   "line": "1200m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 30.367,
+   "line": "선두권에 4번 와와삭스가 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 33.35,
+   "line": "4번 와와삭스, 9번 가리라, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 36.35,
+   "line": "선두권은 그대로 4번 와와삭스, 9번 가리라.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 39.35,
+   "line": "선두권에 5번 크레이지블루, 9번 가리라. 9번 가리라가 5번 크레이지블루보다 앞에 있습니다.",
+   "numbers": {
+    "5": "close",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 42.35,
+   "line": "4번 와와삭스, 9번 가리라, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 45.35,
+   "line": "선두는 4번 와와삭스. 7번 나르샤스톰, 9번 가리라도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 48.35,
+   "line": "선두권에 4번 와와삭스, 9번 가리라가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 51.35,
+   "line": "선두는 4번 와와삭스. 선두권에 7번 나르샤스톰.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 54.35,
+   "line": "4번 와와삭스, 계속 선두입니다. 선두권에 7번 나르샤스톰.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 57.35,
+   "line": "선두는 4번 와와삭스. 7번 나르샤스톰, 9번 가리라도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 60.35,
+   "line": "4번 와와삭스, 선두에 있습니다. 9번 가리라도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 63.35,
+   "line": "선두권에 4번 와와삭스, 7번 나르샤스톰, 9번 가리라. 4번 와와삭스가 9번 가리라보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 66.367,
+   "line": "선두권에 4번 와와삭스, 7번 나르샤스톰. 4번 와와삭스가 7번 나르샤스톰보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 69.367,
+   "line": "선두권은 그대로 4번 와와삭스, 7번 나르샤스톰.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 72.367,
+   "line": "4번 와와삭스, 7번 나르샤스톰, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 75.367,
+   "line": "선두권은 그대로 4번 와와삭스, 7번 나르샤스톰.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    5,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 78.367,
+   "line": "선두권에 4번 와와삭스, 5번 크레이지블루, 7번 나르샤스톰. 5번 크레이지블루가 4번 와와삭스보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 81.367,
+   "line": "5번 크레이지블루가 선두입니다. 선두권에 7번 나르샤스톰.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "wrong",
+   "official_order": [
+    7,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 84.35,
+   "line": "5번 크레이지블루, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 87.35,
+   "line": "7번 나르샤스톰이 선두입니다. 5번 크레이지블루도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    5,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 90.35,
+   "line": "선두는 7번 나르샤스톰. 5번 크레이지블루, 6번 거센번개도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    5,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 93.35,
+   "line": "7번 나르샤스톰, 선두에 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    5,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 95.017,
+   "line": "결승선 통과! 7번 나르샤스톰이 가장 먼저 들어옵니다!",
+   "winner_call": 7,
+   "official_winner": 7,
+   "verdict": "right"
+  }
+ ]
+}

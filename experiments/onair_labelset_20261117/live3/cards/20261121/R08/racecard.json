@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 8,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "핵다이아"
+  },
+  {
+   "number": 2,
+   "name": "큐피드커맨드"
+  },
+  {
+   "number": 3,
+   "name": "패션스타"
+  },
+  {
+   "number": 4,
+   "name": "빅토리퀸"
+  },
+  {
+   "number": 5,
+   "name": "금아포모스트"
+  },
+  {
+   "number": 6,
+   "name": "티나케이"
+  },
+  {
+   "number": 7,
+   "name": "지존불패"
+  },
+  {
+   "number": 8,
+   "name": "포에버길"
+  },
+  {
+   "number": 9,
+   "name": "프리메로"
+  },
+  {
+   "number": 10,
+   "name": "스팅제트"
+  },
+  {
+   "number": 11,
+   "name": "백룡"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

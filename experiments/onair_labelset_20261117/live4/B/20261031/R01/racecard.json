@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 1,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "믿음의질주"
+  },
+  {
+   "number": 2,
+   "name": "월스트리트"
+  },
+  {
+   "number": 3,
+   "name": "서부킹"
+  },
+  {
+   "number": 4,
+   "name": "슈퍼체이서"
+  },
+  {
+   "number": 5,
+   "name": "레전드몬스터"
+  },
+  {
+   "number": 6,
+   "name": "푸른참"
+  },
+  {
+   "number": 7,
+   "name": "봉봉티아라"
+  },
+  {
+   "number": 8,
+   "name": "듀크삭스"
+  },
+  {
+   "number": 9,
+   "name": "피엔에스러너"
+  },
+  {
+   "number": 10,
+   "name": "엔젤타임"
+  },
+  {
+   "number": 11,
+   "name": "러빙퍼플"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

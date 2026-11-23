@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 4,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "스터닝스피어"
+  },
+  {
+   "number": 2,
+   "name": "능력도령"
+  },
+  {
+   "number": 3,
+   "name": "피엔에스러너"
+  },
+  {
+   "number": 4,
+   "name": "푸른참"
+  },
+  {
+   "number": 5,
+   "name": "세명하이디"
+  },
+  {
+   "number": 6,
+   "name": "듀크삭스"
+  },
+  {
+   "number": 7,
+   "name": "불패의여왕"
+  },
+  {
+   "number": 8,
+   "name": "버건디"
+  },
+  {
+   "number": 9,
+   "name": "태광프린스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

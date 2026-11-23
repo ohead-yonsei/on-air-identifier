@@ -1,0 +1,710 @@
+{
+ "video": "otherday26/videos/R04_UnKDDmIQoiU.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 4,
+  "distance": 1300,
+  "runners": [
+   {
+    "number": 1,
+    "name": "스터닝서브"
+   },
+   {
+    "number": 2,
+    "name": "블랙스펙터"
+   },
+   {
+    "number": 3,
+    "name": "아모스최강"
+   },
+   {
+    "number": 4,
+    "name": "초월마"
+   },
+   {
+    "number": 5,
+    "name": "마이웨이보스"
+   },
+   {
+    "number": 6,
+    "name": "서프라이즈"
+   },
+   {
+    "number": 7,
+    "name": "제주블루"
+   },
+   {
+    "number": 8,
+    "name": "청룡기운"
+   },
+   {
+    "number": 9,
+    "name": "레인스타"
+   },
+   {
+    "number": 10,
+    "name": "이안퍼펙트"
+   },
+   {
+    "number": 11,
+    "name": "스페셜포스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 14.133333333333333,
+  "finish": 94.45,
+  "expected_seconds": 82.5
+ },
+ "frames_read": 5922,
+ "lines": 27,
+ "delay_seconds": {
+  "median": 0.264,
+  "max": 0.795
+ },
+ "furthest_behind_seconds": 0.779,
+ "dense_pictures": {
+  "run": 54,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 15.383,
+   "race_time": 1.25,
+   "ready": 15.385,
+   "line": "서울 4경주 1300m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 21.335,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 23.133,
+   "race_time": 9.0,
+   "ready": 23.505,
+   "line": "3번 아모스최강, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.37,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 26.347,
+   "delay": 0.372
+  },
+  {
+   "kind": "point",
+   "video_time": 26.133,
+   "race_time": 12.0,
+   "ready": 26.397,
+   "line": "선두권은 그대로 3번 아모스최강.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 29.491,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 29.133,
+   "race_time": 15.0,
+   "ready": 29.541,
+   "line": "7번 제주블루, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.406,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.347,
+   "delay": 0.408
+  },
+  {
+   "kind": "point",
+   "video_time": 32.133,
+   "race_time": 18.0,
+   "ready": 32.397,
+   "line": "7번 제주블루가 선두입니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 35.358,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 35.133,
+   "race_time": 21.0,
+   "ready": 35.408,
+   "line": "7번 제주블루, 선두에 있습니다. 선두권에 3번 아모스최강.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.911
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 38.356,
+   "delay": 0.275
+  },
+  {
+   "kind": "point",
+   "video_time": 38.133,
+   "race_time": 24.0,
+   "ready": 38.406,
+   "line": "7번 제주블루가 선두입니다. 선두권에 6번 서프라이즈.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.8934
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 41.348,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 41.133,
+   "race_time": 27.0,
+   "ready": 41.398,
+   "line": "7번 제주블루, 계속 선두입니다. 선두권에 6번 서프라이즈.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.8195
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 44.331,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 44.133,
+   "race_time": 30.0,
+   "ready": 44.381,
+   "line": "7번 제주블루가 선두입니다. 6번 서프라이즈, 11번 스페셜포스도 선두권입니다.",
+   "statements": [
+    6,
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.8761
+    },
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.8082
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 47.33,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 47.133,
+   "race_time": 33.0,
+   "ready": 47.38,
+   "line": "여전히 선두는 7번 제주블루. 선두권에 6번 서프라이즈, 11번 스페셜포스.",
+   "statements": [
+    6,
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 50.36,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 50.133,
+   "race_time": 36.0,
+   "ready": 50.41,
+   "line": "7번 제주블루, 계속 선두입니다. 선두권에 6번 서프라이즈, 11번 스페셜포스.",
+   "statements": [
+    6,
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.542
+    },
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.5386
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 53.334,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 53.133,
+   "race_time": 39.0,
+   "ready": 53.384,
+   "line": "7번 제주블루, 선두에 있습니다. 6번 서프라이즈도 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.6884
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 56.335,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 56.133,
+   "race_time": 42.0,
+   "ready": 56.385,
+   "line": "7번 제주블루가 선두입니다. 6번 서프라이즈, 11번 스페셜포스도 선두권입니다.",
+   "statements": [
+    6,
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.3999
+    },
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.233
+    },
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.6328
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 59.348,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 59.133,
+   "race_time": 45.0,
+   "ready": 59.398,
+   "line": "선두는 7번 제주블루. 6번 서프라이즈도 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 62.331,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 62.133,
+   "race_time": 48.0,
+   "ready": 62.381,
+   "line": "선두권에 6번 서프라이즈, 7번 제주블루가 있습니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 65.355,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 65.15,
+   "race_time": 51.02,
+   "ready": 65.405,
+   "line": "6번 서프라이즈, 7번 제주블루, 계속 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.2566
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": 7,
+   "shown_until": 68.345,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 68.15,
+   "race_time": 54.02,
+   "ready": 68.395,
+   "line": "선두권에 3번 아모스최강, 6번 서프라이즈, 7번 제주블루, 11번 스페셜포스. 7번 제주블루가 3번 아모스최강보다 앞에 있습니다.",
+   "statements": [
+    3,
+    6,
+    7,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.5009
+    },
+    {
+     "ahead": 11,
+     "behind": 3,
+     "gap": 0.4197
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 71.346,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 71.15,
+   "race_time": 57.02,
+   "ready": 71.396,
+   "line": "6번 서프라이즈가 선두입니다. 7번 제주블루도 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 7,
+   "shown_until": 74.36,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 74.15,
+   "race_time": 60.02,
+   "ready": 74.41,
+   "line": "여전히 선두는 6번 서프라이즈. 선두권에 7번 제주블루.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": true,
+   "leader_strip_model": 7,
+   "shown_until": 77.349,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 77.15,
+   "race_time": 63.02,
+   "ready": 77.399,
+   "line": "6번 서프라이즈, 계속 선두입니다. 선두권에 7번 제주블루.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.3424
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 7,
+   "shown_until": 80.33,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 80.133,
+   "race_time": 66.0,
+   "ready": 80.38,
+   "line": "6번 서프라이즈, 선두에 있습니다. 3번 아모스최강, 7번 제주블루도 선두권입니다.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.7601
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.7207
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 83.397,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 83.133,
+   "race_time": 69.0,
+   "ready": 83.447,
+   "line": "6번 서프라이즈가 선두입니다.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.06,
+   "work_seconds": 0.253,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 86.529,
+   "delay": 0.314
+  },
+  {
+   "kind": "point",
+   "video_time": 86.133,
+   "race_time": 72.0,
+   "ready": 86.579,
+   "line": "6번 서프라이즈, 계속 선두입니다.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.057,
+   "work_seconds": 0.388,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 89.878,
+   "delay": 0.446
+  },
+  {
+   "kind": "point",
+   "video_time": 89.133,
+   "race_time": 75.0,
+   "ready": 89.928,
+   "line": "선두는 6번 서프라이즈. 5번 마이웨이보스도 선두권입니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.7263
+    }
+   ],
+   "late_at_start": 0.249,
+   "work_seconds": 0.545,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 92.698,
+   "delay": 0.795
+  },
+  {
+   "kind": "point",
+   "video_time": 92.133,
+   "race_time": 78.0,
+   "ready": 92.748,
+   "line": "6번 서프라이즈, 선두에 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.135,
+   "work_seconds": 0.479,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 95.842,
+   "delay": 0.615
+  },
+  {
+   "kind": "point",
+   "video_time": 95.133,
+   "race_time": 81.0,
+   "ready": 95.892,
+   "line": "6번 서프라이즈, 계속 선두입니다.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.253,
+   "work_seconds": 0.506,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 95.921,
+   "delay": 0.759
+  },
+  {
+   "kind": "finish",
+   "video_time": 95.667,
+   "race_time": 81.53,
+   "ready": 95.971,
+   "line": "결승선 통과! 6번 서프라이즈가 가장 먼저 들어옵니다!",
+   "winner": 6,
+   "winner_call": {
+    "candidate": 6,
+    "pictures_naming_each": {
+     "6": 14,
+     "3": 1
+    },
+    "seen": 5,
+    "front": 5,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 94.45,
+   "seconds_after_the_finish": 1.52,
+   "work_seconds": 0.001,
+   "shown_until": 101.921,
+   "delay": 0.304
+  }
+ ]
+}

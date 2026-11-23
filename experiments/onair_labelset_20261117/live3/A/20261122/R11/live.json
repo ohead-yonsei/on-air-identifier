@@ -1,0 +1,523 @@
+{
+ "video": "otherday24/videos/R11_W7WQ6JCEf-Q.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 11,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "거센폭주"
+   },
+   {
+    "number": 2,
+    "name": "골드퀸즈"
+   },
+   {
+    "number": 3,
+    "name": "호세"
+   },
+   {
+    "number": 4,
+    "name": "성실대로"
+   },
+   {
+    "number": 5,
+    "name": "문학루퍼"
+   },
+   {
+    "number": 6,
+    "name": "나올대왕"
+   },
+   {
+    "number": 7,
+    "name": "서리풀선샤인"
+   },
+   {
+    "number": 8,
+    "name": "민트플레이"
+   },
+   {
+    "number": 9,
+    "name": "인플레이션"
+   },
+   {
+    "number": 10,
+    "name": "스터닝레이디"
+   },
+   {
+    "number": 11,
+    "name": "이끌림"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 13.966666666666667,
+  "finish": 88.35,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5556,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.653
+ },
+ "furthest_behind_seconds": 0.638,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 15.2,
+   "race_time": 1.23,
+   "ready": 15.201,
+   "line": "서울 11경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 21.151,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 22.983,
+   "race_time": 9.02,
+   "ready": 23.326,
+   "line": "3번 호세, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.342,
+   "shown_until": 26.229,
+   "delay": 0.343
+  },
+  {
+   "kind": "point",
+   "video_time": 25.983,
+   "race_time": 12.02,
+   "ready": 26.279,
+   "line": "4번 성실대로, 선두에 있습니다. 3번 호세도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.295,
+   "shown_until": 29.186,
+   "delay": 0.296
+  },
+  {
+   "kind": "point",
+   "video_time": 28.983,
+   "race_time": 15.02,
+   "ready": 29.236,
+   "line": "3번 호세가 선두입니다. 4번 성실대로도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.2025
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "shown_until": 32.181,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 31.967,
+   "race_time": 18.0,
+   "ready": 32.231,
+   "line": "선두는 4번 성실대로. 3번 호세도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "shown_until": 35.196,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 34.967,
+   "race_time": 21.0,
+   "ready": 35.246,
+   "line": "3번 호세, 선두에 있습니다. 4번 성실대로도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.4943
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "shown_until": 38.153,
+   "delay": 0.279
+  },
+  {
+   "kind": "point",
+   "video_time": 37.967,
+   "race_time": 24.0,
+   "ready": 38.203,
+   "line": "선두권에 3번 호세, 4번 성실대로가 있습니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 41.178,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 40.967,
+   "race_time": 27.0,
+   "ready": 41.228,
+   "line": "3번 호세, 4번 성실대로, 계속 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "shown_until": 44.147,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 43.967,
+   "race_time": 30.0,
+   "ready": 44.197,
+   "line": "선두권에 8번 민트플레이가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 47.166,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 46.967,
+   "race_time": 33.0,
+   "ready": 47.216,
+   "line": "3번 호세가 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 50.159,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 49.967,
+   "race_time": 36.0,
+   "ready": 50.209,
+   "line": "선두권에 3번 호세가 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 53.154,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 52.967,
+   "race_time": 39.0,
+   "ready": 53.204,
+   "line": "1200m 경주, 출발 후 39초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 56.157,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 55.967,
+   "race_time": 42.0,
+   "ready": 56.207,
+   "line": "선두권에 11번 이끌림이 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 59.147,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 58.967,
+   "race_time": 45.0,
+   "ready": 59.197,
+   "line": "10번 스터닝레이디, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 62.163,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 61.967,
+   "race_time": 48.0,
+   "ready": 62.213,
+   "line": "선두권에 4번 성실대로가 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 65.16,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 64.967,
+   "race_time": 51.0,
+   "ready": 65.21,
+   "line": "1200m 경주, 출발 후 51초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 68.166,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 67.967,
+   "race_time": 54.0,
+   "ready": 68.216,
+   "line": "선두권에 9번 인플레이션이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 71.157,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 70.967,
+   "race_time": 57.0,
+   "ready": 71.207,
+   "line": "1번 거센폭주, 4번 성실대로, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 74.16,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 73.967,
+   "race_time": 60.0,
+   "ready": 74.21,
+   "line": "4번 성실대로가 선두입니다. 11번 이끌림도 선두권입니다.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 77.145,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 76.967,
+   "race_time": 63.0,
+   "ready": 77.195,
+   "line": "선두권에 1번 거센폭주, 4번 성실대로가 있습니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "shown_until": 80.402,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 79.967,
+   "race_time": 66.0,
+   "ready": 80.452,
+   "line": "4번 성실대로가 선두입니다. 선두권에 9번 인플레이션.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 9,
+     "gap": 0.7247
+    }
+   ],
+   "late_at_start": 0.096,
+   "work_seconds": 0.389,
+   "shown_until": 83.418,
+   "delay": 0.485
+  },
+  {
+   "kind": "point",
+   "video_time": 82.967,
+   "race_time": 69.0,
+   "ready": 83.468,
+   "line": "4번 성실대로, 9번 인플레이션, 선두권에서 달립니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.118,
+   "work_seconds": 0.382,
+   "shown_until": 86.57,
+   "delay": 0.501
+  },
+  {
+   "kind": "point",
+   "video_time": 85.967,
+   "race_time": 72.0,
+   "ready": 86.62,
+   "line": "선두권에 9번 인플레이션이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.169,
+   "work_seconds": 0.483,
+   "shown_until": 89.38,
+   "delay": 0.653
+  },
+  {
+   "kind": "point",
+   "video_time": 88.967,
+   "race_time": 75.0,
+   "ready": 89.43,
+   "line": "1200m 경주, 출발 후 75초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.355,
+   "shown_until": 89.692,
+   "delay": 0.463
+  },
+  {
+   "kind": "finish",
+   "video_time": 89.567,
+   "race_time": 75.6,
+   "ready": 89.742,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "4": 1,
+     "9": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 88.35,
+   "seconds_after_the_finish": 1.39,
+   "work_seconds": 0.0,
+   "shown_until": 95.692,
+   "delay": 0.175
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{'lines': 21, 'lines with a number': 13, 'numbers': 21, 'numbers right': 17, 'numbers close': 1, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 8, 'leader right': 6, 'leader close': 0, 'leader wrong': 2}
+   44.33 numbers {11: 'wrong'} leader None None | official first four [5, 1, 8, 7] | 선두권에 11번 오마이러브가 있습니다.
+   50.33 numbers {5: 'right', 7: 'close'} leader None None | official first four [1, 5, 8, 7] | 선두권에 5번 사이버타이거, 7번 고스트소닉. 5번 사이버타이거가 7번 고스트소닉보다 앞에 있습니다.
+   68.32 numbers {5: 'right', 11: 'wrong'} leader 11 wrong | official first four [1, 5, 4, 8] | 11번 오마이러브, 선두에 있습니다. 5번 사이버타이거도 선두권입니다.
+   74.32 numbers {5: 'right', 11: 'wrong'} leader 11 wrong | official first four [1, 5, 4, 10] | 11번 오마이러브, 선두에 있습니다. 선두권에 5번 사이버타이거.
+finish: None official 1 no call

@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 10,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "마이티조이"
+  },
+  {
+   "number": 2,
+   "name": "라온플로렌스"
+  },
+  {
+   "number": 3,
+   "name": "원더풀제트"
+  },
+  {
+   "number": 4,
+   "name": "스타트렉"
+  },
+  {
+   "number": 5,
+   "name": "루프톱"
+  },
+  {
+   "number": 6,
+   "name": "엘도라도놀부"
+  },
+  {
+   "number": 7,
+   "name": "관악산스톰"
+  },
+  {
+   "number": 8,
+   "name": "선더드림"
+  },
+  {
+   "number": 9,
+   "name": "디아나"
+  },
+  {
+   "number": 10,
+   "name": "장비대운"
+  },
+  {
+   "number": 11,
+   "name": "스퍼트빗"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

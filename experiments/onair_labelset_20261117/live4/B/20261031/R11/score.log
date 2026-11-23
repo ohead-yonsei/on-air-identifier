@@ -1,0 +1,5 @@
+{'lines': 28, 'lines with a number': 22, 'numbers': 42, 'numbers right': 40, 'numbers close': 2, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 16, 'leader right': 15, 'leader close': 0, 'leader wrong': 1}
+   49.83 numbers {5: 'right', 8: 'right', 9: 'right'} leader 5 wrong | official first four [8, 5, 9, 7] | 선두는 5번 한강퍼펙트. 선두권에 8번 마이티조이, 9번 마스터콰이곤.
+   85.83 numbers {3: 'close', 9: 'right'} leader None None | official first four [9, 2, 8, 7] | 선두권에 3번 히어로삭스, 9번 마스터콰이곤. 9번 마스터콰이곤이 3번 히어로삭스보다 앞에 있습니다.
+   88.83 numbers {3: 'close', 9: 'right'} leader None None | official first four [9, 2, 7, 3] | 3번 히어로삭스, 9번 마스터콰이곤, 계속 선두권입니다.
+finish: 9 official 9 right

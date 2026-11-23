@@ -1,0 +1,706 @@
+{
+ "video": "otherday26/videos/R08_HNoIPwRozC0.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 8,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "마이티대시"
+   },
+   {
+    "number": 2,
+    "name": "성실대로"
+   },
+   {
+    "number": 3,
+    "name": "슈프림다이아"
+   },
+   {
+    "number": 4,
+    "name": "플라잉스마트"
+   },
+   {
+    "number": 5,
+    "name": "아모스천하"
+   },
+   {
+    "number": 6,
+    "name": "라온더벨몬트"
+   },
+   {
+    "number": 7,
+    "name": "선돌풍"
+   },
+   {
+    "number": 8,
+    "name": "아리온퀸카"
+   },
+   {
+    "number": 9,
+    "name": "청산돌풍"
+   },
+   {
+    "number": 10,
+    "name": "검이불루"
+   },
+   {
+    "number": 11,
+    "name": "픽처"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 13.283333333333333,
+  "finish": 100.083,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6260,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.251,
+  "max": 0.755
+ },
+ "furthest_behind_seconds": 0.74,
+ "dense_pictures": {
+  "run": 54,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 14.283,
+   "race_time": 1.0,
+   "ready": 14.285,
+   "line": "서울 8경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 20.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 22.3,
+   "race_time": 9.02,
+   "ready": 22.706,
+   "line": "선두권에 5번 아모스천하, 11번 픽처. 11번 픽처가 5번 아모스천하보다 앞에 있습니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.2769
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.405,
+   "shown_until": 25.59,
+   "delay": 0.406
+  },
+  {
+   "kind": "point",
+   "video_time": 25.3,
+   "race_time": 12.02,
+   "ready": 25.64,
+   "line": "11번 픽처, 선두권에서 달립니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.338,
+   "shown_until": 28.485,
+   "delay": 0.34
+  },
+  {
+   "kind": "point",
+   "video_time": 28.3,
+   "race_time": 15.02,
+   "ready": 28.535,
+   "line": "선두권에 5번 아모스천하가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 31.492,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 31.283,
+   "race_time": 18.0,
+   "ready": 31.542,
+   "line": "1400m 경주, 출발 후 18초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 34.5,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 34.283,
+   "race_time": 21.0,
+   "ready": 34.55,
+   "line": "4번 플라잉스마트가 선두입니다. 5번 아모스천하도 선두권입니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.4199
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "shown_until": 37.482,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 37.283,
+   "race_time": 24.0,
+   "ready": 37.532,
+   "line": "여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.396
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "shown_until": 40.508,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 40.283,
+   "race_time": 27.0,
+   "ready": 40.558,
+   "line": "4번 플라잉스마트, 계속 선두입니다. 선두권에 5번 아모스천하.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.4753
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.274,
+   "shown_until": 43.485,
+   "delay": 0.275
+  },
+  {
+   "kind": "point",
+   "video_time": 43.283,
+   "race_time": 30.0,
+   "ready": 43.535,
+   "line": "여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.2286
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 46.481,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 46.283,
+   "race_time": 33.0,
+   "ready": 46.531,
+   "line": "4번 플라잉스마트, 계속 선두입니다. 선두권에 5번 아모스천하.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.5828
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 49.484,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 49.283,
+   "race_time": 36.0,
+   "ready": 49.534,
+   "line": "여전히 선두는 4번 플라잉스마트. 선두권에 5번 아모스천하.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.3855
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 52.48,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 52.283,
+   "race_time": 39.0,
+   "ready": 52.53,
+   "line": "4번 플라잉스마트, 선두에 있습니다. 선두권에 5번 아모스천하, 11번 픽처.",
+   "statements": [
+    4,
+    5,
+    11
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.478
+    },
+    {
+     "ahead": 4,
+     "behind": 11,
+     "gap": 0.4622
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 55.475,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 55.283,
+   "race_time": 42.0,
+   "ready": 55.525,
+   "line": "5번 아모스천하, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 58.504,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 58.283,
+   "race_time": 45.0,
+   "ready": 58.554,
+   "line": "선두권에 4번 플라잉스마트, 5번 아모스천하. 4번 플라잉스마트가 5번 아모스천하보다 앞에 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.4865
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "shown_until": 61.478,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 61.283,
+   "race_time": 48.0,
+   "ready": 61.528,
+   "line": "4번 플라잉스마트, 선두에 있습니다. 5번 아모스천하도 선두권입니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.7043
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 64.494,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 64.283,
+   "race_time": 51.0,
+   "ready": 64.544,
+   "line": "11번 픽처가 선두입니다. 4번 플라잉스마트, 5번 아모스천하도 선두권입니다.",
+   "statements": [
+    4,
+    5,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.5282
+    },
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.517
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "shown_until": 67.475,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 67.283,
+   "race_time": 54.0,
+   "ready": 67.525,
+   "line": "선두는 11번 픽처. 5번 아모스천하도 선두권입니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.5729
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 70.483,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 70.283,
+   "race_time": 57.0,
+   "ready": 70.533,
+   "line": "4번 플라잉스마트, 선두에 있습니다. 5번 아모스천하, 11번 픽처도 선두권입니다.",
+   "statements": [
+    4,
+    5,
+    11
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.7571
+    },
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.6037
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 73.474,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 73.283,
+   "race_time": 60.0,
+   "ready": 73.524,
+   "line": "선두권에 4번 플라잉스마트, 11번 픽처. 11번 픽처가 4번 플라잉스마트보다 앞에 있습니다.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.3483
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 76.491,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 76.283,
+   "race_time": 63.0,
+   "ready": 76.541,
+   "line": "선두권은 그대로 4번 플라잉스마트, 11번 픽처.",
+   "statements": [
+    4,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 79.507,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 79.283,
+   "race_time": 66.0,
+   "ready": 79.557,
+   "line": "6번 라온더벨몬트, 10번 검이불루, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "shown_until": 82.47,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 82.283,
+   "race_time": 69.0,
+   "ready": 82.52,
+   "line": "선두권에 10번 검이불루, 11번 픽처가 있습니다.",
+   "statements": [
+    10,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 85.458,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 85.283,
+   "race_time": 72.0,
+   "ready": 85.508,
+   "line": "10번 검이불루, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 88.463,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 88.283,
+   "race_time": 75.0,
+   "ready": 88.513,
+   "line": "선두권에 6번 라온더벨몬트, 10번 검이불루가 있습니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.008,
+   "work_seconds": 0.221,
+   "shown_until": 91.439,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 91.283,
+   "race_time": 78.0,
+   "ready": 91.489,
+   "line": "선두권에 6번 라온더벨몬트, 7번 선돌풍. 7번 선돌풍이 6번 라온더벨몬트보다 앞에 있습니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.3642
+    }
+   ],
+   "late_at_start": 0.011,
+   "work_seconds": 0.194,
+   "shown_until": 94.84,
+   "delay": 0.206
+  },
+  {
+   "kind": "point",
+   "video_time": 94.283,
+   "race_time": 81.0,
+   "ready": 94.89,
+   "line": "선두는 7번 선돌풍. 선두권에 6번 라온더벨몬트, 10번 검이불루.",
+   "statements": [
+    6,
+    7,
+    10
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.5589
+    },
+    {
+     "ahead": 7,
+     "behind": 10,
+     "gap": 0.3886
+    }
+   ],
+   "late_at_start": 0.186,
+   "work_seconds": 0.42,
+   "shown_until": 97.988,
+   "delay": 0.607
+  },
+  {
+   "kind": "point",
+   "video_time": 97.283,
+   "race_time": 84.0,
+   "ready": 98.038,
+   "line": "7번 선돌풍, 선두에 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.267,
+   "work_seconds": 0.488,
+   "shown_until": 100.88,
+   "delay": 0.755
+  },
+  {
+   "kind": "point",
+   "video_time": 100.283,
+   "race_time": 87.0,
+   "ready": 100.93,
+   "line": "여전히 선두는 7번 선돌풍.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.198,
+   "work_seconds": 0.449,
+   "shown_until": 101.449,
+   "delay": 0.647
+  },
+  {
+   "kind": "finish",
+   "video_time": 101.3,
+   "race_time": 88.02,
+   "ready": 101.499,
+   "line": "결승선 통과! 7번 선돌풍이 가장 먼저 들어옵니다!",
+   "winner": 7,
+   "winner_call": {
+    "candidate": 7,
+    "pictures_naming_each": {
+     "7": 9,
+     "10": 2
+    },
+    "seen": 3,
+    "front": 2,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 100.083,
+   "seconds_after_the_finish": 1.42,
+   "work_seconds": 0.0,
+   "shown_until": 107.449,
+   "delay": 0.199
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 25,
+  "numbers": 52,
+  "numbers right": 44,
+  "numbers close": 5,
+  "numbers wrong": 3,
+  "lines with a wrong number": 3,
+  "leader lines": 12,
+  "leader right": 11,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.635
+ },
+ "rows": [
+  {
+   "video_time": 20.3,
+   "line": "2번 강나루, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 23.3,
+   "line": "선두권은 그대로 2번 강나루.",
+   "numbers": {
+    "2": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 26.3,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 29.283,
+   "line": "서울 10경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 32.283,
+   "line": "6번 슈퍼피니시, 선두에 있습니다. 선두권에 5번 매직포션.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 35.283,
+   "line": "6번 슈퍼피니시가 선두입니다. 선두권에 3번 제이에스로드.",
+   "numbers": {
+    "3": "close",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 38.283,
+   "line": "6번 슈퍼피니시, 계속 선두입니다. 선두권에 3번 제이에스로드.",
+   "numbers": {
+    "3": "close",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 41.283,
+   "line": "6번 슈퍼피니시가 선두입니다. 3번 제이에스로드, 5번 매직포션도 선두권입니다.",
+   "numbers": {
+    "3": "close",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 44.283,
+   "line": "선두는 6번 슈퍼피니시. 5번 매직포션도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 47.283,
+   "line": "여전히 선두는 6번 슈퍼피니시. 선두권에 5번 매직포션.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 50.283,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 53.283,
+   "line": "선두권에 5번 매직포션이 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 56.283,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 59.283,
+   "line": "선두는 6번 슈퍼피니시. 5번 매직포션도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "close",
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 62.283,
+   "line": "선두권에 5번 매직포션, 6번 슈퍼피니시가 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 65.283,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 68.283,
+   "line": "선두권은 그대로 5번 매직포션, 6번 슈퍼피니시.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    11
+   ]
+  },
+  {
+   "video_time": 71.283,
+   "line": "5번 매직포션, 6번 슈퍼피니시, 10번 마의웨이, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    10,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 74.283,
+   "line": "선두권에 5번 매직포션, 6번 슈퍼피니시, 11번 빅스고. 6번 슈퍼피니시가 5번 매직포션보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "close",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    10,
+    11,
+    6
+   ]
+  },
+  {
+   "video_time": 77.283,
+   "line": "선두권에 5번 매직포션, 11번 빅스고. 11번 빅스고가 5번 매직포션보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    10,
+    11,
+    7
+   ]
+  },
+  {
+   "video_time": 80.283,
+   "line": "선두권은 그대로 5번 매직포션, 11번 빅스고.",
+   "numbers": {
+    "5": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    10,
+    11,
+    7
+   ]
+  },
+  {
+   "video_time": 83.283,
+   "line": "5번 매직포션이 선두입니다. 선두권에 10번 마의웨이, 11번 빅스고.",
+   "numbers": {
+    "5": "right",
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    10,
+    11,
+    7
+   ]
+  },
+  {
+   "video_time": 86.283,
+   "line": "선두는 5번 매직포션. 선두권에 10번 마의웨이.",
+   "numbers": {
+    "5": "right",
+    "10": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    11,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 89.283,
+   "line": "5번 매직포션, 선두에 있습니다. 선두권에 9번 드론킬러, 10번 마의웨이.",
+   "numbers": {
+    "5": "right",
+    "9": "close",
+    "10": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    11,
+    10,
+    9
+   ]
+  },
+  {
+   "video_time": 92.283,
+   "line": "5번 매직포션이 선두입니다. 선두권에 9번 드론킬러.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 95.283,
+   "line": "5번 매직포션, 계속 선두입니다. 선두권에 9번 드론킬러.",
+   "numbers": {
+    "5": "right",
+    "9": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    9,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 98.283,
+   "line": "선두권에 5번 매직포션, 8번 스피드원. 8번 스피드원이 5번 매직포션보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "8": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    9,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 98.95,
+   "line": "결승선 통과! 5번 매직포션이 가장 먼저 들어옵니다!",
+   "winner_call": 5,
+   "official_winner": 5,
+   "verdict": "right"
+  }
+ ]
+}

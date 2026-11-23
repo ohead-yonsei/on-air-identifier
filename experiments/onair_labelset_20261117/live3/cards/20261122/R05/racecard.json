@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 5,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "원더그레이스"
+  },
+  {
+   "number": 2,
+   "name": "라온폴리스"
+  },
+  {
+   "number": 3,
+   "name": "스트롱보스"
+  },
+  {
+   "number": 4,
+   "name": "학산소드"
+  },
+  {
+   "number": 5,
+   "name": "파카샤인"
+  },
+  {
+   "number": 6,
+   "name": "세명피크"
+  },
+  {
+   "number": 7,
+   "name": "명성파티"
+  },
+  {
+   "number": 8,
+   "name": "왕최고"
+  },
+  {
+   "number": 9,
+   "name": "동백"
+  },
+  {
+   "number": 10,
+   "name": "엠파이어스타"
+  },
+  {
+   "number": 11,
+   "name": "지비에이스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

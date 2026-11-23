@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 7,
+ "distance": 1600,
+ "runners": [
+  {
+   "number": 1,
+   "name": "태권브이"
+  },
+  {
+   "number": 2,
+   "name": "이스트위너"
+  },
+  {
+   "number": 3,
+   "name": "우승할결심"
+  },
+  {
+   "number": 4,
+   "name": "초콜릿"
+  },
+  {
+   "number": 5,
+   "name": "글로벌하트"
+  },
+  {
+   "number": 6,
+   "name": "사우디삭스"
+  },
+  {
+   "number": 7,
+   "name": "글로벌파로아"
+  },
+  {
+   "number": 8,
+   "name": "참빠른말"
+  },
+  {
+   "number": 9,
+   "name": "이센셜포스"
+  },
+  {
+   "number": 10,
+   "name": "세종파워"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,37 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 3,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "클레어프리덤"
+  },
+  {
+   "number": 2,
+   "name": "클럽맨"
+  },
+  {
+   "number": 3,
+   "name": "두손라이프"
+  },
+  {
+   "number": 4,
+   "name": "관악산위시미"
+  },
+  {
+   "number": 5,
+   "name": "미스터도르"
+  },
+  {
+   "number": 8,
+   "name": "영원한루체아"
+  },
+  {
+   "number": 9,
+   "name": "원더풀다르샨"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

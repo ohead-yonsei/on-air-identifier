@@ -1,0 +1,601 @@
+{
+ "video": "otherday27/videos/R02_6cr3UBpXpno.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 2,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "나르샤글로리"
+   },
+   {
+    "number": 2,
+    "name": "카스텔라"
+   },
+   {
+    "number": 3,
+    "name": "빅토리라이프"
+   },
+   {
+    "number": 4,
+    "name": "클러치챔프"
+   },
+   {
+    "number": 5,
+    "name": "이스트위너"
+   },
+   {
+    "number": 6,
+    "name": "타라우마라"
+   },
+   {
+    "number": 7,
+    "name": "일상이기적"
+   },
+   {
+    "number": 8,
+    "name": "히어로미톨"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.683333333333334,
+  "finish": 88.483,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5564,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.236,
+  "max": 0.599
+ },
+ "furthest_behind_seconds": 0.584,
+ "dense_pictures": {
+  "run": 72,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.767,
+   "race_time": 1.08,
+   "ready": 13.768,
+   "line": "서울 2경주 1200m, 8두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.718,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 21.683,
+   "race_time": 9.0,
+   "ready": 22.002,
+   "line": "2번 카스텔라, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.317,
+   "shown_until": 24.876,
+   "delay": 0.319
+  },
+  {
+   "kind": "point",
+   "video_time": 24.683,
+   "race_time": 12.0,
+   "ready": 24.926,
+   "line": "선두권에 4번 클러치챔프가 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 27.868,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 27.683,
+   "race_time": 15.0,
+   "ready": 27.918,
+   "line": "2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라, 선두권에서 달립니다.",
+   "statements": [
+    2,
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 30.89,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 30.683,
+   "race_time": 18.0,
+   "ready": 30.94,
+   "line": "선두권은 그대로 2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라.",
+   "statements": [
+    2,
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "shown_until": 33.887,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 33.7,
+   "race_time": 21.02,
+   "ready": 33.937,
+   "line": "2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라, 계속 선두권입니다.",
+   "statements": [
+    2,
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.2907
+    },
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4068
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 36.915,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 36.7,
+   "race_time": 24.02,
+   "ready": 36.965,
+   "line": "선두권에 2번 카스텔라, 3번 빅토리라이프가 있습니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.264,
+   "shown_until": 39.892,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 39.7,
+   "race_time": 27.02,
+   "ready": 39.942,
+   "line": "2번 카스텔라가 선두입니다. 선두권에 3번 빅토리라이프, 6번 타라우마라.",
+   "statements": [
+    2,
+    3,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 6,
+     "gap": 0.6479
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 42.896,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 42.7,
+   "race_time": 30.02,
+   "ready": 42.946,
+   "line": "선두는 3번 빅토리라이프. 선두권에 2번 카스텔라.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.2585
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 45.864,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 45.683,
+   "race_time": 33.0,
+   "ready": 45.914,
+   "line": "2번 카스텔라, 선두권에서 달립니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 11,
+     "gap": 0.3615
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 48.867,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 48.683,
+   "race_time": 36.0,
+   "ready": 48.917,
+   "line": "선두는 2번 카스텔라. 3번 빅토리라이프도 선두권입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.2851
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 51.869,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 51.683,
+   "race_time": 39.0,
+   "ready": 51.919,
+   "line": "선두권에 2번 카스텔라, 3번 빅토리라이프. 3번 빅토리라이프가 2번 카스텔라보다 앞에 있습니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.2532
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 54.865,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 54.683,
+   "race_time": 42.0,
+   "ready": 54.915,
+   "line": "3번 빅토리라이프, 선두에 있습니다. 2번 카스텔라도 선두권입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 57.876,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 57.683,
+   "race_time": 45.0,
+   "ready": 57.926,
+   "line": "선두권에 2번 카스텔라, 3번 빅토리라이프가 있습니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 60.864,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 60.683,
+   "race_time": 48.0,
+   "ready": 60.914,
+   "line": "2번 카스텔라, 3번 빅토리라이프, 계속 선두권입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "shown_until": 63.868,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 63.683,
+   "race_time": 51.0,
+   "ready": 63.918,
+   "line": "선두는 2번 카스텔라. 3번 빅토리라이프도 선두권입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3469
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 66.867,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 66.683,
+   "race_time": 54.0,
+   "ready": 66.917,
+   "line": "여전히 선두는 2번 카스텔라. 선두권에 3번 빅토리라이프.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.5499
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 69.861,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 69.683,
+   "race_time": 57.0,
+   "ready": 69.911,
+   "line": "선두는 2번 카스텔라. 선두권에 1번 나르샤글로리, 3번 빅토리라이프.",
+   "statements": [
+    1,
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 1,
+     "gap": 0.7583
+    },
+    {
+     "ahead": 3,
+     "behind": 1,
+     "gap": 0.6656
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 72.863,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 72.683,
+   "race_time": 60.0,
+   "ready": 72.913,
+   "line": "2번 카스텔라, 선두에 있습니다. 선두권에 3번 빅토리라이프.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.7363
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 75.862,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 75.683,
+   "race_time": 63.0,
+   "ready": 75.912,
+   "line": "2번 카스텔라, 계속 선두입니다. 선두권에 3번 빅토리라이프.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.6205
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "shown_until": 78.859,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 78.683,
+   "race_time": 66.0,
+   "ready": 78.909,
+   "line": "2번 카스텔라, 선두에 있습니다. 1번 나르샤글로리, 3번 빅토리라이프도 선두권입니다.",
+   "statements": [
+    1,
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 1,
+     "gap": 0.7944
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 82.232,
+   "delay": 0.226
+  },
+  {
+   "kind": "point",
+   "video_time": 81.683,
+   "race_time": 69.0,
+   "ready": 82.282,
+   "line": "2번 카스텔라가 선두입니다. 1번 나르샤글로리도 선두권입니다.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 1,
+     "gap": 0.334
+    }
+   ],
+   "late_at_start": 0.166,
+   "work_seconds": 0.432,
+   "shown_until": 85.149,
+   "delay": 0.599
+  },
+  {
+   "kind": "point",
+   "video_time": 84.683,
+   "race_time": 72.0,
+   "ready": 85.199,
+   "line": "여전히 선두는 2번 카스텔라. 선두권에 1번 나르샤글로리.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.119,
+   "work_seconds": 0.395,
+   "shown_until": 88.187,
+   "delay": 0.516
+  },
+  {
+   "kind": "point",
+   "video_time": 87.683,
+   "race_time": 75.0,
+   "ready": 88.237,
+   "line": "2번 카스텔라, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.446,
+   "shown_until": 89.74,
+   "delay": 0.554
+  },
+  {
+   "kind": "finish",
+   "video_time": 89.7,
+   "race_time": 77.02,
+   "ready": 89.79,
+   "line": "결승선 통과! 2번 카스텔라가 가장 먼저 들어옵니다!",
+   "winner": 2,
+   "winner_call": {
+    "candidate": 2,
+    "pictures_naming_each": {
+     "2": 13
+    },
+    "seen": 5,
+    "front": 4,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 88.483,
+   "seconds_after_the_finish": 1.31,
+   "work_seconds": 0.001,
+   "shown_until": 95.74,
+   "delay": 0.09
+  }
+ ]
+}

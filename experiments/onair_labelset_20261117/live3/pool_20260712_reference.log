@@ -1,0 +1,91 @@
+20260712 R01 in clock agrees {'A': (1, 7, 5), 'B': (4, 6, 1)}
+20260712 R02 in clock agrees {'A': (3, 3, 0), 'B': (3, 3, 0)}
+20260712 R03 in clock agrees {'A': (11, 15, 2), 'B': (13, 16, 1)}
+20260712 R04 in clock agrees {'A': (10, 15, 4), 'B': (8, 11, 3)}
+20260712 R06 out clock agrees {'A': (6, 13, 3), 'B': (None, None, None)}
+20260712 R07 in clock agrees {'A': (6, 10, 3), 'B': (10, 12, 1)}
+20260712 R08 out clock disagrees {'A': (6, 9, 1), 'B': (3, 6, 1)}
+20260712 R09 out clock disagrees {'A': (16, 17, 1), 'B': (15, 16, 1)}
+20260712 R10 out clock not found {'A': (None, None, None), 'B': (None, None, None)}
+{
+ "days": [
+  "20260712"
+ ],
+ "races_in": 5,
+ "A": {
+  "totals": {
+   "lines": 131,
+   "numbers": 204,
+   "numbers right": 191,
+   "numbers close": 11,
+   "numbers wrong": 2,
+   "lines with a wrong number": 1,
+   "leader lines": 50,
+   "leader right": 31,
+   "leader close": 5,
+   "leader wrong": 14
+  },
+  "stretch_last_36s": {
+   "leader lines": 32,
+   "leader right": 19,
+   "leader close": 2,
+   "leader wrong": 11
+  },
+  "numbers_right": 0.9363,
+  "leader_right": 0.62,
+  "leader_wrong": 0.28,
+  "stretch_leader_right": 0.5938,
+  "delay_median": 0.25,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 2,
+   "wrong": 1,
+   "no call": 2
+  }
+ },
+ "B": {
+  "totals": {
+   "lines": 131,
+   "numbers": 205,
+   "numbers right": 192,
+   "numbers close": 11,
+   "numbers wrong": 2,
+   "lines with a wrong number": 1,
+   "leader lines": 48,
+   "leader right": 38,
+   "leader close": 4,
+   "leader wrong": 6
+  },
+  "stretch_last_36s": {
+   "leader lines": 30,
+   "leader right": 26,
+   "leader close": 1,
+   "leader wrong": 3
+  },
+  "numbers_right": 0.9366,
+  "leader_right": 0.7917,
+  "leader_wrong": 0.125,
+  "stretch_leader_right": 0.8667,
+  "delay_median": 0.257,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 2,
+   "wrong": 1,
+   "no call": 2
+  }
+ },
+ "B_minus_A_leader_right": 0.1717,
+ "bootstrap_95": [
+  0.0641,
+  0.3354
+ ],
+ "verdicts": {
+  "V1 B leader right >= A + 5 pt and fewer wrong": true,
+  "V2 B leader right >= 75%": true,
+  "V3 B numbers >= 90% and speed": true,
+  "V4 A numbers >= 90% and speed (live2 replication)": true
+ },
+ "recommend B as live_run default": true
+}

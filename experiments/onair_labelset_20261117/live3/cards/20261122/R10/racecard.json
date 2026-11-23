@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 10,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "지구라트"
+  },
+  {
+   "number": 2,
+   "name": "강나루"
+  },
+  {
+   "number": 3,
+   "name": "제이에스로드"
+  },
+  {
+   "number": 5,
+   "name": "매직포션"
+  },
+  {
+   "number": 6,
+   "name": "슈퍼피니시"
+  },
+  {
+   "number": 7,
+   "name": "원평스톰"
+  },
+  {
+   "number": 8,
+   "name": "스피드원"
+  },
+  {
+   "number": 9,
+   "name": "드론킬러"
+  },
+  {
+   "number": 10,
+   "name": "마의웨이"
+  },
+  {
+   "number": 11,
+   "name": "빅스고"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

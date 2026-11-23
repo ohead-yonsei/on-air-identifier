@@ -1,0 +1,392 @@
+{
+ "official_winner": 2,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 41,
+  "numbers right": 40,
+  "numbers close": 0,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 17,
+  "leader right": 16,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.251,
+  "max": 0.612
+ },
+ "rows": [
+  {
+   "video_time": 18.933,
+   "line": "1번 풀스트라이크가 선두입니다. 선두권에 3번 터치더스카이.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 21.933,
+   "line": "1번 풀스트라이크, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 24.933,
+   "line": "1번 풀스트라이크가 선두입니다. 3번 터치더스카이도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 27.933,
+   "line": "선두는 1번 풀스트라이크. 2번 군주민수, 3번 터치더스카이도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 30.933,
+   "line": "여전히 선두는 1번 풀스트라이크. 선두권에 2번 군주민수, 3번 터치더스카이.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 33.95,
+   "line": "선두는 2번 군주민수. 선두권에 3번 터치더스카이.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    1,
+    2,
+    3,
+    10
+   ]
+  },
+  {
+   "video_time": 36.95,
+   "line": "2번 군주민수, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 39.95,
+   "line": "선두권에 1번 풀스트라이크, 2번 군주민수. 1번 풀스트라이크가 2번 군주민수보다 앞에 있습니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 42.933,
+   "line": "선두는 1번 풀스트라이크. 2번 군주민수도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 45.933,
+   "line": "여전히 선두는 1번 풀스트라이크. 선두권에 2번 군주민수.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 48.933,
+   "line": "1번 풀스트라이크, 2번 군주민수, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 51.933,
+   "line": "선두권은 그대로 1번 풀스트라이크, 2번 군주민수.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 54.933,
+   "line": "2번 군주민수, 선두에 있습니다. 선두권에 1번 풀스트라이크.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    1,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 57.933,
+   "line": "2번 군주민수가 선두입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    1,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 60.933,
+   "line": "여전히 선두는 2번 군주민수.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    1,
+    3
+   ]
+  },
+  {
+   "video_time": 63.933,
+   "line": "2번 군주민수, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    10,
+    1,
+    3
+   ]
+  },
+  {
+   "video_time": 66.933,
+   "line": "2번 군주민수가 선두입니다. 10번 마이티챔프도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 69.933,
+   "line": "여전히 선두는 2번 군주민수. 선두권에 10번 마이티챔프.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 72.933,
+   "line": "2번 군주민수, 계속 선두입니다. 선두권에 10번 마이티챔프.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 75.933,
+   "line": "여전히 선두는 2번 군주민수. 선두권에 10번 마이티챔프.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 78.933,
+   "line": "선두는 2번 군주민수.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 81.933,
+   "line": "여전히 선두는 2번 군주민수.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 84.933,
+   "line": "2번 군주민수, 선두에 있습니다. 선두권에 5번 라이즈파워.",
+   "numbers": {
+    "2": "right",
+    "5": "wrong"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 86.567,
+   "line": "결승선 통과! 2번 군주민수가 가장 먼저 들어옵니다!",
+   "winner_call": 2,
+   "official_winner": 2,
+   "verdict": "right"
+  }
+ ]
+}

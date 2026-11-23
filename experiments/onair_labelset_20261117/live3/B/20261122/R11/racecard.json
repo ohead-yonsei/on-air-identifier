@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 11,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "거센폭주"
+  },
+  {
+   "number": 2,
+   "name": "골드퀸즈"
+  },
+  {
+   "number": 3,
+   "name": "호세"
+  },
+  {
+   "number": 4,
+   "name": "성실대로"
+  },
+  {
+   "number": 5,
+   "name": "문학루퍼"
+  },
+  {
+   "number": 6,
+   "name": "나올대왕"
+  },
+  {
+   "number": 7,
+   "name": "서리풀선샤인"
+  },
+  {
+   "number": 8,
+   "name": "민트플레이"
+  },
+  {
+   "number": 9,
+   "name": "인플레이션"
+  },
+  {
+   "number": 10,
+   "name": "스터닝레이디"
+  },
+  {
+   "number": 11,
+   "name": "이끌림"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

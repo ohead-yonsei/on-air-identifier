@@ -1,0 +1,11 @@
+{'lines': 30, 'lines with a number': 26, 'numbers': 43, 'numbers right': 36, 'numbers close': 5, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 8, 'leader right': 5, 'leader close': 1, 'leader wrong': 2}
+   28.37 numbers {11: 'wrong'} leader None None | official first four [4, 5, 7, 1] | 11번 위너남촌, 선두권에서 달립니다.
+   61.35 numbers {5: 'right', 6: 'close'} leader None None | official first four [4, 5, 7, 1] | 선두권에 5번 킹스파이시, 6번 에클레어. 5번 킹스파이시가 6번 에클레어보다 앞에 있습니다.
+   67.37 numbers {5: 'right', 11: 'wrong'} leader 5 close | official first four [4, 5, 7, 1] | 선두는 5번 킹스파이시. 11번 위너남촌도 선두권입니다.
+   82.37 numbers {1: 'close', 5: 'right'} leader 5 right | official first four [5, 4, 7, 1] | 선두는 5번 킹스파이시. 1번 베스트프리덤도 선두권입니다.
+   91.35 numbers {4: 'right', 5: 'right'} leader 4 wrong | official first four [5, 4, 8, 7] | 4번 하남레이저가 선두입니다. 5번 킹스파이시도 선두권입니다.
+   94.35 numbers {4: 'right', 5: 'right'} leader 4 wrong | official first four [5, 4, 8, 7] | 여전히 선두는 4번 하남레이저. 선두권에 5번 킹스파이시.
+  100.35 numbers {4: 'right', 5: 'right', 11: 'close'} leader None None | official first four [5, 4, 8, 7] | 선두권에 4번 하남레이저, 5번 킹스파이시, 11번 위너남촌. 5번 킹스파이시가 4번 하남레이저보다 앞에 있습니다.
+  103.35 numbers {5: 'right', 11: 'close'} leader None None | official first four [5, 8, 4, 7] | 선두권에 5번 킹스파이시, 11번 위너남촌. 5번 킹스파이시가 11번 위너남촌보다 앞에 있습니다.
+  106.35 numbers {5: 'right', 11: 'close'} leader 5 right | official first four [5, 8, 7, 3] | 선두는 5번 킹스파이시. 선두권에 11번 위너남촌.
+finish: None official 5 no call

@@ -1,0 +1,387 @@
+{
+ "official_winner": 8,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 22,
+  "numbers": 37,
+  "numbers right": 32,
+  "numbers close": 5,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 15,
+  "leader right": 15,
+  "leader close": 0,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.253,
+  "max": 0.585
+ },
+ "rows": [
+  {
+   "video_time": 18.3,
+   "line": "1200m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    10,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 21.3,
+   "line": "선두권에 8번 고스트선더가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    10,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 24.3,
+   "line": "8번 고스트선더, 계속 선두권입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    10,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 27.283,
+   "line": "8번 고스트선더가 선두입니다. 2번 베스트러브도 선두권입니다.",
+   "numbers": {
+    "2": "close",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    10,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 30.283,
+   "line": "여전히 선두는 8번 고스트선더. 선두권에 2번 베스트러브.",
+   "numbers": {
+    "2": "close",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    10,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 33.283,
+   "line": "8번 고스트선더가 선두입니다. 선두권에 2번 베스트러브, 10번 대한여전사.",
+   "numbers": {
+    "2": "close",
+    "8": "right",
+    "10": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    10,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 36.283,
+   "line": "선두는 8번 고스트선더.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 39.283,
+   "line": "8번 고스트선더가 선두입니다. 2번 베스트러브, 4번 타임투타임도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 42.283,
+   "line": "선두는 8번 고스트선더. 4번 타임투타임도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    2,
+    5
+   ]
+  },
+  {
+   "video_time": 45.283,
+   "line": "여전히 선두는 8번 고스트선더. 선두권에 4번 타임투타임.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    2,
+    5
+   ]
+  },
+  {
+   "video_time": 48.283,
+   "line": "선두는 8번 고스트선더. 선두권에 2번 베스트러브.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    2,
+    5
+   ]
+  },
+  {
+   "video_time": 51.283,
+   "line": "선두권에 2번 베스트러브, 8번 고스트선더. 8번 고스트선더가 2번 베스트러브보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    2,
+    5
+   ]
+  },
+  {
+   "video_time": 54.283,
+   "line": "2번 베스트러브, 8번 고스트선더, 계속 선두권입니다.",
+   "numbers": {
+    "2": "close",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 57.283,
+   "line": "선두권에 4번 타임투타임, 8번 고스트선더. 8번 고스트선더가 4번 타임투타임보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 60.283,
+   "line": "선두는 8번 고스트선더.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 63.283,
+   "line": "8번 고스트선더, 계속 선두입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 66.283,
+   "line": "8번 고스트선더, 선두에 있습니다. 10번 대한여전사도 선두권입니다.",
+   "numbers": {
+    "8": "right",
+    "10": "close"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    5,
+    1
+   ]
+  },
+  {
+   "video_time": 69.283,
+   "line": "8번 고스트선더가 선두입니다. 4번 타임투타임, 5번 플로터도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    5,
+    1
+   ]
+  },
+  {
+   "video_time": 72.283,
+   "line": "선두는 8번 고스트선더.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    5,
+    1
+   ]
+  },
+  {
+   "video_time": 75.283,
+   "line": "8번 고스트선더, 계속 선두입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    7,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 78.283,
+   "line": "여전히 선두는 8번 고스트선더.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    7,
+    1,
+    10
+   ]
+  },
+  {
+   "video_time": 81.283,
+   "line": "8번 고스트선더, 선두권에서 달립니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    7,
+    1,
+    10
+   ]
+  },
+  {
+   "video_time": 84.283,
+   "line": "선두권은 그대로 8번 고스트선더.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    7,
+    1,
+    3
+   ]
+  },
+  {
+   "video_time": 86.7,
+   "line": "결승선을 통과했습니다. 서울 3경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 8,
+   "verdict": "no call"
+  }
+ ]
+}

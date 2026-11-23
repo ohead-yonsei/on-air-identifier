@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 1,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "금빛코드"
+  },
+  {
+   "number": 2,
+   "name": "이안패밀리"
+  },
+  {
+   "number": 3,
+   "name": "세븐이글"
+  },
+  {
+   "number": 4,
+   "name": "은빛공주"
+  },
+  {
+   "number": 5,
+   "name": "사이버타이거"
+  },
+  {
+   "number": 6,
+   "name": "비트에이스"
+  },
+  {
+   "number": 7,
+   "name": "고스트소닉"
+  },
+  {
+   "number": 8,
+   "name": "선더메이커"
+  },
+  {
+   "number": 9,
+   "name": "오거스트"
+  },
+  {
+   "number": 10,
+   "name": "새내부리도"
+  },
+  {
+   "number": 11,
+   "name": "오마이러브"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

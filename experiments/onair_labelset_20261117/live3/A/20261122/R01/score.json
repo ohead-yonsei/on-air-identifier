@@ -1,0 +1,312 @@
+{
+ "official_winner": 10,
+ "totals": {
+  "lines": 20,
+  "lines with a number": 17,
+  "numbers": 32,
+  "numbers right": 32,
+  "numbers close": 0,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 11,
+  "leader right": 6,
+  "leader close": 2,
+  "leader wrong": 3
+ },
+ "delay_seconds": {
+  "median": 0.275,
+  "max": 0.794
+ },
+ "rows": [
+  {
+   "video_time": 33.0,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    10,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 36.0,
+   "line": "선두권에 2번 어플리트런던이 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    10,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 39.0,
+   "line": "2번 어플리트런던, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 42.0,
+   "line": "선두권은 그대로 2번 어플리트런던.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 45.0,
+   "line": "2번 어플리트런던, 선두에 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 48.0,
+   "line": "선두권에 2번 어플리트런던, 5번 리드블루가 있습니다.",
+   "numbers": {
+    "2": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 51.0,
+   "line": "2번 어플리트런던, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 54.0,
+   "line": "2번 어플리트런던, 선두에 있습니다. 5번 리드블루도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "5": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    5,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 57.0,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 5번 리드블루.",
+   "numbers": {
+    "2": "right",
+    "5": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 60.0,
+   "line": "2번 어플리트런던, 선두에 있습니다. 선두권에 5번 리드블루, 10번 벨로체.",
+   "numbers": {
+    "2": "right",
+    "5": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    5,
+    8
+   ]
+  },
+  {
+   "video_time": 63.0,
+   "line": "2번 어플리트런던, 계속 선두입니다. 선두권에 5번 리드블루, 10번 벨로체.",
+   "numbers": {
+    "2": "right",
+    "5": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    10,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 66.0,
+   "line": "2번 어플리트런던, 선두에 있습니다. 10번 벨로체도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 69.0,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 72.0,
+   "line": "2번 어플리트런던, 계속 선두입니다. 선두권에 10번 벨로체.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    10,
+    2,
+    9,
+    8
+   ]
+  },
+  {
+   "video_time": 75.0,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    10,
+    2,
+    9,
+    8
+   ]
+  },
+  {
+   "video_time": 78.0,
+   "line": "2번 어플리트런던이 선두입니다. 선두권에 9번 정성공주.",
+   "numbers": {
+    "2": "right",
+    "9": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "wrong",
+   "official_order": [
+    10,
+    2,
+    9,
+    11
+   ]
+  },
+  {
+   "video_time": 81.0,
+   "line": "선두는 10번 벨로체. 선두권에 2번 어플리트런던, 9번 정성공주.",
+   "numbers": {
+    "2": "right",
+    "9": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    9,
+    2,
+    11
+   ]
+  },
+  {
+   "video_time": 84.0,
+   "line": "9번 정성공주, 10번 벨로체, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    9,
+    2,
+    11
+   ]
+  },
+  {
+   "video_time": 86.6,
+   "line": "결승선 통과! 10번 벨로체가 가장 먼저 들어옵니다!",
+   "winner_call": 10,
+   "official_winner": 10,
+   "verdict": "right"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "토호마켓"
+  },
+  {
+   "number": 2,
+   "name": "라온피날레"
+  },
+  {
+   "number": 3,
+   "name": "남산벨트"
+  },
+  {
+   "number": 4,
+   "name": "마이티숀"
+  },
+  {
+   "number": 5,
+   "name": "러브인서울"
+  },
+  {
+   "number": 6,
+   "name": "골드캐처"
+  },
+  {
+   "number": 7,
+   "name": "메가스텝"
+  },
+  {
+   "number": 8,
+   "name": "클럽큐"
+  },
+  {
+   "number": 9,
+   "name": "힐링헤이븐"
+  },
+  {
+   "number": 10,
+   "name": "파인핑크"
+  },
+  {
+   "number": 11,
+   "name": "용비교"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

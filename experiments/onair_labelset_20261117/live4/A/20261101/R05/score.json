@@ -1,0 +1,453 @@
+{
+ "official_winner": 10,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 26,
+  "numbers": 47,
+  "numbers right": 40,
+  "numbers close": 5,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 11,
+  "leader right": 6,
+  "leader close": 4,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.254,
+  "max": 0.658
+ },
+ "rows": [
+  {
+   "video_time": 22.983,
+   "line": "3번 무한아르고, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 25.983,
+   "line": "선두권에 10번 블레이징엔진이 있습니다.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 28.983,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 31.967,
+   "line": "선두권에 7번 학산헤니가 있습니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 34.967,
+   "line": "선두권에 2번 내길의여정, 10번 블레이징엔진. 10번 블레이징엔진이 2번 내길의여정보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 37.967,
+   "line": "2번 내길의여정, 10번 블레이징엔진, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 40.967,
+   "line": "선두권은 그대로 2번 내길의여정, 10번 블레이징엔진.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 43.967,
+   "line": "10번 블레이징엔진, 선두권에서 달립니다.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 46.967,
+   "line": "선두권에 2번 내길의여정, 10번 블레이징엔진이 있습니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 49.967,
+   "line": "선두는 2번 내길의여정. 선두권에 10번 블레이징엔진.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 52.967,
+   "line": "2번 내길의여정, 계속 선두입니다. 선두권에 10번 블레이징엔진.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 55.967,
+   "line": "여전히 선두는 2번 내길의여정. 선두권에 10번 블레이징엔진.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 58.967,
+   "line": "10번 블레이징엔진이 선두입니다. 선두권에 2번 내길의여정.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 61.967,
+   "line": "선두는 2번 내길의여정. 선두권에 11번 글로리조이.",
+   "numbers": {
+    "2": "right",
+    "11": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 64.967,
+   "line": "선두권에 2번 내길의여정, 8번 원더풀치프, 10번 블레이징엔진. 2번 내길의여정이 8번 원더풀치프보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "8": "close",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 67.967,
+   "line": "선두권에 2번 내길의여정, 10번 블레이징엔진. 10번 블레이징엔진이 2번 내길의여정보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    2,
+    11,
+    8
+   ]
+  },
+  {
+   "video_time": 70.967,
+   "line": "선두권에 8번 원더풀치프, 10번 블레이징엔진. 10번 블레이징엔진이 8번 원더풀치프보다 앞에 있습니다.",
+   "numbers": {
+    "8": "close",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    11,
+    2,
+    8
+   ]
+  },
+  {
+   "video_time": 73.967,
+   "line": "10번 블레이징엔진, 선두에 있습니다. 선두권에 11번 글로리조이.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    2,
+    8
+   ]
+  },
+  {
+   "video_time": 76.967,
+   "line": "10번 블레이징엔진이 선두입니다. 선두권에 8번 원더풀치프.",
+   "numbers": {
+    "8": "close",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    2,
+    4
+   ]
+  },
+  {
+   "video_time": 79.967,
+   "line": "선두는 10번 블레이징엔진. 선두권에 11번 글로리조이.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    2
+   ]
+  },
+  {
+   "video_time": 82.967,
+   "line": "10번 블레이징엔진, 계속 선두입니다. 선두권에 11번 글로리조이.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 85.967,
+   "line": "선두권에 11번 글로리조이가 있습니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    11,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 88.967,
+   "line": "선두권에 4번 브리도갤럭시, 11번 글로리조이. 4번 브리도갤럭시가 11번 글로리조이보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    11,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 91.967,
+   "line": "11번 글로리조이, 선두권에서 달립니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    11,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 94.967,
+   "line": "선두권에 5번 스마트해성, 10번 블레이징엔진. 10번 블레이징엔진이 5번 스마트해성보다 앞에 있습니다.",
+   "numbers": {
+    "5": "close",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    11,
+    4,
+    5
+   ]
+  },
+  {
+   "video_time": 97.967,
+   "line": "10번 블레이징엔진, 선두에 있습니다. 11번 글로리조이도 선두권입니다.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 100.967,
+   "line": "3번 무한아르고가 선두입니다. 10번 블레이징엔진도 선두권입니다.",
+   "numbers": {
+    "3": "wrong",
+    "10": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "wrong",
+   "official_order": [
+    10,
+    11,
+    5,
+    4
+   ]
+  },
+  {
+   "video_time": 102.633,
+   "line": "결승선 통과! 10번 블레이징엔진이 가장 먼저 들어옵니다!",
+   "winner_call": 10,
+   "official_winner": 10,
+   "verdict": "right"
+  }
+ ]
+}

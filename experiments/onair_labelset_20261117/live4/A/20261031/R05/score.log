@@ -1,0 +1,12 @@
+{'lines': 30, 'lines with a number': 25, 'numbers': 58, 'numbers right': 54, 'numbers close': 1, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 17, 'leader right': 10, 'leader close': 3, 'leader wrong': 4}
+   17.30 numbers {7: 'wrong'} leader None None | official first four [6, 4, 2, 9] | 7번 스마트밍크, 선두권에서 달립니다.
+   20.30 numbers {7: 'wrong'} leader None None | official first four [6, 4, 2, 9] | 선두권은 그대로 7번 스마트밍크.
+   32.28 numbers {2: 'right', 4: 'right'} leader 2 wrong | official first four [6, 4, 2, 9] | 선두는 2번 피엔에스위너. 4번 커맨딩리드도 선두권입니다.
+   35.28 numbers {2: 'right', 4: 'right'} leader 2 wrong | official first four [6, 4, 2, 9] | 여전히 선두는 2번 피엔에스위너. 선두권에 4번 커맨딩리드.
+   38.28 numbers {2: 'right', 4: 'right', 6: 'right'} leader 2 wrong | official first four [6, 4, 2, 9] | 선두는 2번 피엔에스위너. 선두권에 4번 커맨딩리드, 6번 걸작번개.
+   74.28 numbers {3: 'wrong', 4: 'right', 9: 'right'} leader 3 wrong | official first four [9, 6, 4, 8] | 3번 아모스전사가 선두입니다. 4번 커맨딩리드, 9번 누리퀸즈도 선두권입니다.
+   77.28 numbers {4: 'close', 6: 'right', 9: 'right'} leader None None | official first four [9, 6, 8, 4] | 선두권에 4번 커맨딩리드, 6번 걸작번개, 9번 누리퀸즈. 6번 걸작번개가 9번 누리퀸즈보다 앞에 있습니다.
+   80.28 numbers {6: 'right', 9: 'right'} leader 6 close | official first four [9, 6, 8, 4] | 선두는 6번 걸작번개. 9번 누리퀸즈도 선두권입니다.
+   83.28 numbers {6: 'right', 9: 'right'} leader 6 close | official first four [9, 6, 8, 4] | 여전히 선두는 6번 걸작번개. 선두권에 9번 누리퀸즈.
+   86.28 numbers {6: 'right', 8: 'right', 9: 'right'} leader 6 close | official first four [8, 9, 6, 4] | 선두는 6번 걸작번개. 선두권에 8번 세븐포스, 9번 누리퀸즈.
+finish: 8 official 8 right

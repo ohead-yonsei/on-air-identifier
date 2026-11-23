@@ -1,0 +1,530 @@
+{
+ "official_winner": 6,
+ "totals": {
+  "lines": 34,
+  "lines with a number": 31,
+  "numbers": 54,
+  "numbers right": 43,
+  "numbers close": 5,
+  "numbers wrong": 6,
+  "lines with a wrong number": 6,
+  "leader lines": 10,
+  "leader right": 5,
+  "leader close": 5,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.253,
+  "max": 0.645
+ },
+ "rows": [
+  {
+   "video_time": 18.167,
+   "line": "6번 사우디삭스, 9번 이센셜포스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "close",
+    "9": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 21.167,
+   "line": "선두권에 6번 사우디삭스가 있습니다.",
+   "numbers": {
+    "6": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 24.167,
+   "line": "9번 이센셜포스, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 27.167,
+   "line": "선두권에 7번 글로벌파로아가 있습니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 30.167,
+   "line": "7번 글로벌파로아, 계속 선두권입니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    1,
+    9,
+    2
+   ]
+  },
+  {
+   "video_time": 33.167,
+   "line": "서울 7경주 1600m, 출발 후 24초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 36.167,
+   "line": "7번 글로벌파로아, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 39.167,
+   "line": "선두권은 그대로 7번 글로벌파로아.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 42.167,
+   "line": "9번 이센셜포스, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 45.167,
+   "line": "선두권에 2번 이스트위너, 6번 사우디삭스, 9번 이센셜포스. 9번 이센셜포스가 6번 사우디삭스보다 앞에 있습니다.",
+   "numbers": {
+    "2": "close",
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 48.167,
+   "line": "9번 이센셜포스가 선두입니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 51.167,
+   "line": "6번 사우디삭스, 9번 이센셜포스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 54.167,
+   "line": "선두권에 9번 이센셜포스가 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 57.167,
+   "line": "9번 이센셜포스, 계속 선두권입니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 60.167,
+   "line": "선두권에 2번 이스트위너, 9번 이센셜포스. 2번 이스트위너가 9번 이센셜포스보다 앞에 있습니다.",
+   "numbers": {
+    "2": "close",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 63.167,
+   "line": "선두권에 6번 사우디삭스, 9번 이센셜포스. 9번 이센셜포스가 6번 사우디삭스보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 66.167,
+   "line": "9번 이센셜포스, 선두에 있습니다. 6번 사우디삭스도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 69.167,
+   "line": "8번 참빠른말이 선두입니다. 6번 사우디삭스, 9번 이센셜포스도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 72.167,
+   "line": "선두는 9번 이센셜포스.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 75.167,
+   "line": "6번 사우디삭스, 8번 참빠른말, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 78.167,
+   "line": "선두권에 9번 이센셜포스가 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 81.167,
+   "line": "선두권에 8번 참빠른말, 9번 이센셜포스. 8번 참빠른말이 9번 이센셜포스보다 앞에 있습니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 84.167,
+   "line": "선두는 8번 참빠른말. 선두권에 9번 이센셜포스.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 87.167,
+   "line": "선두권에 6번 사우디삭스, 8번 참빠른말, 9번 이센셜포스. 8번 참빠른말이 6번 사우디삭스보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right",
+    "9": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 90.167,
+   "line": "8번 참빠른말, 선두에 있습니다. 선두권에 6번 사우디삭스.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 93.167,
+   "line": "8번 참빠른말, 계속 선두입니다. 선두권에 6번 사우디삭스.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    8,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 96.167,
+   "line": "여전히 선두는 8번 참빠른말. 선두권에 6번 사우디삭스.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 99.167,
+   "line": "선두는 6번 사우디삭스. 선두권에 4번 초콜릿, 8번 참빠른말.",
+   "numbers": {
+    "4": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 102.167,
+   "line": "선두권에 4번 초콜릿, 6번 사우디삭스. 6번 사우디삭스가 4번 초콜릿보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 105.167,
+   "line": "4번 초콜릿, 6번 사우디삭스, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 108.167,
+   "line": "선두는 6번 사우디삭스. 4번 초콜릿도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 111.167,
+   "line": "선두권에 6번 사우디삭스, 7번 글로벌파로아가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 112.367,
+   "line": "결승선 통과! 6번 사우디삭스가 가장 먼저 들어옵니다!",
+   "winner_call": 6,
+   "official_winner": 6,
+   "verdict": "right"
+  }
+ ]
+}

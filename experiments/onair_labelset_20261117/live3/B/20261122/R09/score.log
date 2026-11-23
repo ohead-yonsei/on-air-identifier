@@ -1,0 +1,12 @@
+{'lines': 39, 'lines with a number': 35, 'numbers': 69, 'numbers right': 60, 'numbers close': 7, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 21, 'leader right': 19, 'leader close': 1, 'leader wrong': 1}
+   35.72 numbers {1: 'wrong', 7: 'right'} leader 7 right | official first four [7, 11, 2, 6] | 7번 히어아이엠, 선두에 있습니다. 1번 레전드와우도 선두권입니다.
+   56.72 numbers {7: 'right', 10: 'wrong', 11: 'right'} leader 7 right | official first four [7, 11, 2, 6] | 선두는 7번 히어아이엠. 10번 파워에치드, 11번 브리도시리스도 선두권입니다.
+   68.72 numbers {2: 'close', 6: 'right', 7: 'right'} leader 7 right | official first four [7, 11, 6, 2] | 선두는 7번 히어아이엠. 2번 빅토리삭스, 6번 나이스위너도 선두권입니다.
+   77.72 numbers {6: 'close', 7: 'right'} leader 7 right | official first four [7, 11, 10, 6] | 7번 히어아이엠, 계속 선두입니다. 선두권에 6번 나이스위너.
+   92.72 numbers {2: 'close', 6: 'right', 7: 'right', 10: 'right'} leader None None | official first four [6, 10, 7, 2] | 선두권에 2번 빅토리삭스, 6번 나이스위너, 7번 히어아이엠, 10번 파워에치드. 6번 나이스위너가 2번 빅토리삭스보다 앞에 있습니다.
+   98.72 numbers {3: 'close', 6: 'right', 10: 'right'} leader 6 right | official first four [6, 10, 2, 3] | 6번 나이스위너가 선두입니다. 선두권에 3번 콜긴, 10번 파워에치드.
+  104.72 numbers {2: 'right', 6: 'right', 10: 'close'} leader 6 right | official first four [6, 3, 2, 10] | 6번 나이스위너가 선두입니다. 2번 빅토리삭스, 10번 파워에치드도 선두권입니다.
+  107.72 numbers {3: 'right', 10: 'close'} leader None None | official first four [3, 6, 2, 10] | 선두권에 3번 콜긴, 10번 파워에치드가 있습니다.
+  110.72 numbers {6: 'right', 10: 'close'} leader 10 wrong | official first four [3, 2, 6, 10] | 10번 파워에치드가 선두입니다. 선두권에 6번 나이스위너.
+  119.72 numbers {2: 'right', 3: 'right'} leader 3 close | official first four [2, 3, 6, 10] | 3번 콜긴, 선두에 있습니다. 선두권에 2번 빅토리삭스.
+finish: 2 official 2 right

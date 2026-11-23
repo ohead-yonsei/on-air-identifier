@@ -1,0 +1,458 @@
+{
+ "official_winner": 10,
+ "totals": {
+  "lines": 30,
+  "lines with a number": 23,
+  "numbers": 42,
+  "numbers right": 42,
+  "numbers close": 0,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 21,
+  "leader right": 18,
+  "leader close": 3,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.26,
+  "max": 0.703
+ },
+ "rows": [
+  {
+   "video_time": 28.867,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 31.867,
+   "line": "서울 3경주 1400m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 34.867,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 37.867,
+   "line": "서울 3경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 40.867,
+   "line": "8번 피엔에스리프, 선두권에서 달립니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 43.867,
+   "line": "선두는 8번 피엔에스리프.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "close",
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 46.867,
+   "line": "8번 피엔에스리프가 선두입니다. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "close",
+   "official_order": [
+    11,
+    8,
+    10,
+    7
+   ]
+  },
+  {
+   "video_time": 49.867,
+   "line": "선두는 11번 히어로드래건. 선두권에 8번 피엔에스리프.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    8,
+    10,
+    6
+   ]
+  },
+  {
+   "video_time": 52.867,
+   "line": "11번 히어로드래건, 계속 선두입니다. 선두권에 8번 피엔에스리프.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    8,
+    10,
+    6
+   ]
+  },
+  {
+   "video_time": 55.867,
+   "line": "여전히 선두는 11번 히어로드래건. 선두권에 8번 피엔에스리프.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    8,
+    10,
+    6
+   ]
+  },
+  {
+   "video_time": 58.867,
+   "line": "11번 히어로드래건이 선두입니다.",
+   "numbers": {
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 61.867,
+   "line": "선두권에 8번 피엔에스리프가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 64.883,
+   "line": "선두는 11번 히어로드래건. 선두권에 10번 고산봉.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 67.883,
+   "line": "11번 히어로드래건, 선두에 있습니다. 선두권에 8번 피엔에스리프.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 70.883,
+   "line": "11번 히어로드래건이 선두입니다. 선두권에 10번 고산봉.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 73.883,
+   "line": "선두는 11번 히어로드래건. 선두권에 8번 피엔에스리프, 10번 고산봉.",
+   "numbers": {
+    "8": "right",
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "right",
+   "official_order": [
+    11,
+    10,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 76.883,
+   "line": "10번 고산봉, 선두에 있습니다. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 79.883,
+   "line": "11번 히어로드래건이 선두입니다. 선두권에 10번 고산봉.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 11,
+   "leader_verdict": "close",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 82.883,
+   "line": "선두는 10번 고산봉. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 85.867,
+   "line": "10번 고산봉, 계속 선두입니다. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 88.867,
+   "line": "여전히 선두는 10번 고산봉. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 91.867,
+   "line": "10번 고산봉, 계속 선두입니다. 선두권에 11번 히어로드래건.",
+   "numbers": {
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 94.867,
+   "line": "10번 고산봉, 선두에 있습니다. 4번 뉴발삭스, 11번 히어로드래건도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "10": "right",
+    "11": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    11,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 97.867,
+   "line": "10번 고산봉이 선두입니다. 4번 뉴발삭스도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    4,
+    11,
+    5
+   ]
+  },
+  {
+   "video_time": 100.867,
+   "line": "여전히 선두는 10번 고산봉. 선두권에 4번 뉴발삭스.",
+   "numbers": {
+    "4": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    5,
+    4,
+    11
+   ]
+  },
+  {
+   "video_time": 103.867,
+   "line": "10번 고산봉이 선두입니다.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    5,
+    4,
+    11
+   ]
+  },
+  {
+   "video_time": 106.867,
+   "line": "여전히 선두는 10번 고산봉.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    5,
+    4,
+    11
+   ]
+  },
+  {
+   "video_time": 109.867,
+   "line": "1400m 경주, 출발 후 90초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    5,
+    4,
+    3
+   ]
+  },
+  {
+   "video_time": 110.533,
+   "line": "결승선을 통과했습니다. 서울 3경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 10,
+   "verdict": "no call"
+  }
+ ]
+}

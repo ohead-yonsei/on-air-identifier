@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ohead/ai-workspace/projects/onair_labelset_20261117/code/lv1_score.py", line 27, in <module>
+    ref = fc.reference_full(off, tw - (finish - e["video_time"]))
+                                       ~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'

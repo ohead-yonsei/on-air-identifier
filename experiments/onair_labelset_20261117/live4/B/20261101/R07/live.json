@@ -1,0 +1,1171 @@
+{
+ "video": "otherday26/videos/R07_7Qv8_Q1jqVM.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 7,
+  "distance": 2300,
+  "runners": [
+   {
+    "number": 1,
+    "name": "트라움킹"
+   },
+   {
+    "number": 2,
+    "name": "지모션"
+   },
+   {
+    "number": 3,
+    "name": "머스킷데이"
+   },
+   {
+    "number": 4,
+    "name": "어서말을해"
+   },
+   {
+    "number": 5,
+    "name": "제타마스터"
+   },
+   {
+    "number": 6,
+    "name": "이스트웨스트"
+   },
+   {
+    "number": 7,
+    "name": "글로벌삭스"
+   },
+   {
+    "number": 8,
+    "name": "블랙벨트"
+   },
+   {
+    "number": 9,
+    "name": "용암세상"
+   },
+   {
+    "number": 10,
+    "name": "페퍼엑스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 5.35,
+  "finish": 153.117,
+  "expected_seconds": 151.8
+ },
+ "frames_read": 9442,
+ "lines": 49,
+ "delay_seconds": {
+  "median": 0.268,
+  "max": 0.665
+ },
+ "furthest_behind_seconds": 0.65,
+ "dense_pictures": {
+  "run": 44,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 6.417,
+   "race_time": 1.07,
+   "ready": 6.418,
+   "line": "서울 7경주 2300m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 12.368,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 14.35,
+   "race_time": 9.0,
+   "ready": 14.651,
+   "line": "4번 어서말을해, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.3,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 17.542,
+   "delay": 0.301
+  },
+  {
+   "kind": "point",
+   "video_time": 17.35,
+   "race_time": 12.0,
+   "ready": 17.592,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.2686
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 20.539,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 20.35,
+   "race_time": 15.0,
+   "ready": 20.589,
+   "line": "선두권은 그대로 6번 이스트웨스트, 10번 페퍼엑스.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.2919
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.563,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 23.35,
+   "race_time": 18.0,
+   "ready": 23.613,
+   "line": "선두는 10번 페퍼엑스. 선두권에 6번 이스트웨스트.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.715
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 26.578,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 26.35,
+   "race_time": 21.0,
+   "ready": 26.628,
+   "line": "10번 페퍼엑스, 계속 선두입니다. 선두권에 6번 이스트웨스트.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.7939
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.277,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 29.543,
+   "delay": 0.278
+  },
+  {
+   "kind": "point",
+   "video_time": 29.35,
+   "race_time": 24.0,
+   "ready": 29.593,
+   "line": "선두는 10번 페퍼엑스.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 32.544,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 32.35,
+   "race_time": 27.0,
+   "ready": 32.594,
+   "line": "2300m 경주, 출발 후 27초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.553,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 35.35,
+   "race_time": 30.0,
+   "ready": 35.603,
+   "line": "선두권에 8번 블랙벨트가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.549,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 38.35,
+   "race_time": 33.0,
+   "ready": 38.599,
+   "line": "8번 블랙벨트, 계속 선두권입니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.593,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 41.35,
+   "race_time": 36.0,
+   "ready": 41.643,
+   "line": "서울 7경주 2300m, 출발 후 36초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.291,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.585,
+   "delay": 0.293
+  },
+  {
+   "kind": "point",
+   "video_time": 44.35,
+   "race_time": 39.0,
+   "ready": 44.635,
+   "line": "7번 글로벌삭스, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.284,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.965,
+   "delay": 0.285
+  },
+  {
+   "kind": "point",
+   "video_time": 47.35,
+   "race_time": 42.0,
+   "ready": 48.015,
+   "line": "서울 7경주 2300m, 출발 후 42초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.664,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.803,
+   "delay": 0.665
+  },
+  {
+   "kind": "point",
+   "video_time": 50.35,
+   "race_time": 45.0,
+   "ready": 50.853,
+   "line": "6번 이스트웨스트, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.502,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 53.523,
+   "delay": 0.503
+  },
+  {
+   "kind": "point",
+   "video_time": 53.35,
+   "race_time": 48.0,
+   "ready": 53.573,
+   "line": "선두권에 6번 이스트웨스트, 8번 블랙벨트가 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.222,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 56.564,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 56.35,
+   "race_time": 51.0,
+   "ready": 56.614,
+   "line": "6번 이스트웨스트, 8번 블랙벨트, 계속 선두권입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 59.667,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 59.35,
+   "race_time": 54.0,
+   "ready": 59.717,
+   "line": "10번 페퍼엑스가 선두입니다. 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.366,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 62.965,
+   "delay": 0.367
+  },
+  {
+   "kind": "point",
+   "video_time": 62.35,
+   "race_time": 57.0,
+   "ready": 63.015,
+   "line": "선두권에 6번 이스트웨스트, 8번 블랙벨트가 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.664,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 65.908,
+   "delay": 0.665
+  },
+  {
+   "kind": "point",
+   "video_time": 65.367,
+   "race_time": 60.02,
+   "ready": 65.958,
+   "line": "2300m 경주, 출발 후 60초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.59,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 68.791,
+   "delay": 0.591
+  },
+  {
+   "kind": "point",
+   "video_time": 68.367,
+   "race_time": 63.02,
+   "ready": 68.841,
+   "line": "서울 7경주 2300m, 출발 후 63초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.473,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 71.855,
+   "delay": 0.474
+  },
+  {
+   "kind": "point",
+   "video_time": 71.35,
+   "race_time": 66.0,
+   "ready": 71.905,
+   "line": "10번 페퍼엑스, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.553,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 74.771,
+   "delay": 0.555
+  },
+  {
+   "kind": "point",
+   "video_time": 74.35,
+   "race_time": 69.0,
+   "ready": 74.821,
+   "line": "선두권은 그대로 10번 페퍼엑스.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.469,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 77.784,
+   "delay": 0.471
+  },
+  {
+   "kind": "point",
+   "video_time": 77.35,
+   "race_time": 72.0,
+   "ready": 77.834,
+   "line": "6번 이스트웨스트, 10번 페퍼엑스, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.483,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 80.847,
+   "delay": 0.484
+  },
+  {
+   "kind": "point",
+   "video_time": 80.35,
+   "race_time": 75.0,
+   "ready": 80.897,
+   "line": "선두권에 6번 이스트웨스트가 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.545,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 83.525,
+   "delay": 0.547
+  },
+  {
+   "kind": "point",
+   "video_time": 83.35,
+   "race_time": 78.0,
+   "ready": 83.575,
+   "line": "2300m 경주, 출발 후 78초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 86.551,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 86.35,
+   "race_time": 81.0,
+   "ready": 86.601,
+   "line": "선두권에 6번 이스트웨스트가 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 89.569,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 89.35,
+   "race_time": 84.0,
+   "ready": 89.619,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.3025
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 92.551,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 92.35,
+   "race_time": 87.0,
+   "ready": 92.601,
+   "line": "선두는 10번 페퍼엑스. 선두권에 6번 이스트웨스트.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.6561
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 95.573,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 95.35,
+   "race_time": 90.0,
+   "ready": 95.623,
+   "line": "6번 이스트웨스트, 8번 블랙벨트, 10번 페퍼엑스, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    8,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 98.58,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 98.35,
+   "race_time": 93.0,
+   "ready": 98.63,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.2184
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 101.543,
+   "delay": 0.28
+  },
+  {
+   "kind": "point",
+   "video_time": 101.35,
+   "race_time": 96.0,
+   "ready": 101.593,
+   "line": "선두는 10번 페퍼엑스. 6번 이스트웨스트도 선두권입니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.3691
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 104.545,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 104.35,
+   "race_time": 99.0,
+   "ready": 104.595,
+   "line": "10번 페퍼엑스, 선두에 있습니다. 3번 머스킷데이, 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "statements": [
+    3,
+    6,
+    8,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 3,
+     "gap": 0.4456
+    },
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.5025
+    },
+    {
+     "ahead": 10,
+     "behind": 8,
+     "gap": 0.3679
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 107.569,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 107.35,
+   "race_time": 102.0,
+   "ready": 107.619,
+   "line": "10번 페퍼엑스가 선두입니다. 3번 머스킷데이도 선두권입니다.",
+   "statements": [
+    3,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "shown_until": 110.547,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 110.35,
+   "race_time": 105.0,
+   "ready": 110.597,
+   "line": "선두는 3번 머스킷데이. 6번 이스트웨스트, 10번 페퍼엑스도 선두권입니다.",
+   "statements": [
+    3,
+    6,
+    10
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.6285
+    },
+    {
+     "ahead": 3,
+     "behind": 10,
+     "gap": 0.6935
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 113.529,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 113.35,
+   "race_time": 108.0,
+   "ready": 113.579,
+   "line": "3번 머스킷데이, 선두에 있습니다. 6번 이스트웨스트도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.8408
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 116.541,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 116.35,
+   "race_time": 111.0,
+   "ready": 116.591,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 6번 이스트웨스트.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.6439
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 119.568,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 119.35,
+   "race_time": 114.0,
+   "ready": 119.618,
+   "line": "3번 머스킷데이, 선두에 있습니다. 선두권에 6번 이스트웨스트, 8번 블랙벨트.",
+   "statements": [
+    3,
+    6,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.5779
+    },
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.5831
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 122.567,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 122.35,
+   "race_time": 117.0,
+   "ready": 122.617,
+   "line": "3번 머스킷데이가 선두입니다. 선두권에 8번 블랙벨트.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.5802
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 125.541,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 125.35,
+   "race_time": 120.0,
+   "ready": 125.591,
+   "line": "3번 머스킷데이, 계속 선두입니다. 선두권에 8번 블랙벨트.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.7475
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 128.536,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 128.35,
+   "race_time": 123.0,
+   "ready": 128.586,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 8번 블랙벨트.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.8485
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 131.539,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 131.35,
+   "race_time": 126.0,
+   "ready": 131.589,
+   "line": "3번 머스킷데이, 계속 선두입니다. 선두권에 8번 블랙벨트.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.747
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 134.542,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 134.35,
+   "race_time": 129.0,
+   "ready": 134.592,
+   "line": "선두는 3번 머스킷데이. 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "statements": [
+    3,
+    6,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.592
+    },
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.7039
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 137.538,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 137.35,
+   "race_time": 132.0,
+   "ready": 137.588,
+   "line": "3번 머스킷데이, 선두에 있습니다. 6번 이스트웨스트도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.6351
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 140.639,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 140.35,
+   "race_time": 135.0,
+   "ready": 140.689,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 6번 이스트웨스트.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.7787
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.338,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 143.84,
+   "delay": 0.339
+  },
+  {
+   "kind": "point",
+   "video_time": 143.35,
+   "race_time": 138.0,
+   "ready": 143.89,
+   "line": "3번 머스킷데이, 선두에 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.061,
+   "work_seconds": 0.478,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 146.888,
+   "delay": 0.54
+  },
+  {
+   "kind": "point",
+   "video_time": 146.35,
+   "race_time": 141.0,
+   "ready": 146.938,
+   "line": "선두는 3번 머스킷데이. 2번 지모션도 선두권입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.7565
+    }
+   ],
+   "late_at_start": 0.089,
+   "work_seconds": 0.497,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 149.963,
+   "delay": 0.588
+  },
+  {
+   "kind": "point",
+   "video_time": 149.35,
+   "race_time": 144.0,
+   "ready": 150.013,
+   "line": "3번 머스킷데이, 선두에 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.151,
+   "work_seconds": 0.511,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 152.779,
+   "delay": 0.663
+  },
+  {
+   "kind": "point",
+   "video_time": 152.35,
+   "race_time": 147.0,
+   "ready": 152.829,
+   "line": "3번 머스킷데이, 계속 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.477,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 154.334,
+   "delay": 0.479
+  },
+  {
+   "kind": "finish",
+   "video_time": 154.333,
+   "race_time": 148.98,
+   "ready": 154.384,
+   "line": "결승선 통과! 3번 머스킷데이가 가장 먼저 들어옵니다!",
+   "winner": 3,
+   "winner_call": {
+    "candidate": 3,
+    "pictures_naming_each": {
+     "3": 10,
+     "4": 1
+    },
+    "seen": 6,
+    "front": 5,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 153.117,
+   "seconds_after_the_finish": 1.27,
+   "work_seconds": 0.0,
+   "shown_until": 160.334,
+   "delay": 0.051
+  }
+ ]
+}

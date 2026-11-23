@@ -1,0 +1,746 @@
+{
+ "video": "otherday27/videos/R05_vIuJAd7apys.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 5,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "미스틱글로"
+   },
+   {
+    "number": 2,
+    "name": "피엔에스위너"
+   },
+   {
+    "number": 3,
+    "name": "아모스전사"
+   },
+   {
+    "number": 4,
+    "name": "커맨딩리드"
+   },
+   {
+    "number": 6,
+    "name": "걸작번개"
+   },
+   {
+    "number": 7,
+    "name": "스마트밍크"
+   },
+   {
+    "number": 8,
+    "name": "세븐포스"
+   },
+   {
+    "number": 9,
+    "name": "누리퀸즈"
+   },
+   {
+    "number": 10,
+    "name": "크리솔포시"
+   },
+   {
+    "number": 11,
+    "name": "불패의여왕"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.283333333333333,
+  "finish": 98.0,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6135,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.266,
+  "max": 0.636
+ },
+ "furthest_behind_seconds": 0.621,
+ "dense_pictures": {
+  "run": 68,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.283,
+   "race_time": 1.0,
+   "ready": 9.285,
+   "line": "서울 5경주 1400m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 17.3,
+   "race_time": 9.02,
+   "ready": 17.674,
+   "line": "7번 스마트밍크, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.373,
+   "shown_until": 20.536,
+   "delay": 0.374
+  },
+  {
+   "kind": "point",
+   "video_time": 20.3,
+   "race_time": 12.02,
+   "ready": 20.586,
+   "line": "선두권은 그대로 7번 스마트밍크.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.284,
+   "shown_until": 23.81,
+   "delay": 0.286
+  },
+  {
+   "kind": "point",
+   "video_time": 23.3,
+   "race_time": 15.02,
+   "ready": 23.86,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.559,
+   "shown_until": 26.832,
+   "delay": 0.56
+  },
+  {
+   "kind": "point",
+   "video_time": 26.283,
+   "race_time": 18.0,
+   "ready": 26.882,
+   "line": "서울 5경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.597,
+   "shown_until": 29.713,
+   "delay": 0.599
+  },
+  {
+   "kind": "point",
+   "video_time": 29.283,
+   "race_time": 21.0,
+   "ready": 29.763,
+   "line": "1400m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.478,
+   "shown_until": 32.5,
+   "delay": 0.48
+  },
+  {
+   "kind": "point",
+   "video_time": 32.283,
+   "race_time": 24.0,
+   "ready": 32.55,
+   "line": "선두는 2번 피엔에스위너. 4번 커맨딩리드도 선두권입니다.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.5513
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 35.469,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 35.283,
+   "race_time": 27.0,
+   "ready": 35.519,
+   "line": "여전히 선두는 2번 피엔에스위너. 선두권에 4번 커맨딩리드.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.4102
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 38.499,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 38.283,
+   "race_time": 30.0,
+   "ready": 38.549,
+   "line": "선두는 2번 피엔에스위너. 선두권에 4번 커맨딩리드, 6번 걸작번개.",
+   "statements": [
+    2,
+    4,
+    6
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.2563
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 41.514,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 41.283,
+   "race_time": 33.0,
+   "ready": 41.564,
+   "line": "6번 걸작번개, 선두에 있습니다. 선두권에 2번 피엔에스위너, 4번 커맨딩리드.",
+   "statements": [
+    2,
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 2,
+     "gap": 0.2148
+    },
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.4133
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.279,
+   "shown_until": 44.474,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 44.283,
+   "race_time": 36.0,
+   "ready": 44.524,
+   "line": "6번 걸작번개, 계속 선두입니다. 선두권에 2번 피엔에스위너, 4번 커맨딩리드.",
+   "statements": [
+    2,
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.4696
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 47.458,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 47.283,
+   "race_time": 39.0,
+   "ready": 47.508,
+   "line": "6번 걸작번개, 선두에 있습니다. 4번 커맨딩리드도 선두권입니다.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.6071
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.223,
+   "shown_until": 50.479,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 50.283,
+   "race_time": 42.0,
+   "ready": 50.529,
+   "line": "6번 걸작번개가 선두입니다. 4번 커맨딩리드, 9번 누리퀸즈도 선두권입니다.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 9,
+     "gap": 0.2713
+    },
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.2567
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 53.476,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 53.283,
+   "race_time": 45.0,
+   "ready": 53.526,
+   "line": "선두는 6번 걸작번개. 4번 커맨딩리드도 선두권입니다.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.6178
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 56.469,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 56.283,
+   "race_time": 48.0,
+   "ready": 56.519,
+   "line": "6번 걸작번개, 선두에 있습니다. 4번 커맨딩리드, 9번 누리퀸즈도 선두권입니다.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.7112
+    },
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.7351
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 59.49,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 59.283,
+   "race_time": 51.0,
+   "ready": 59.54,
+   "line": "6번 걸작번개가 선두입니다. 4번 커맨딩리드도 선두권입니다.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.7005
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "shown_until": 62.468,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 62.283,
+   "race_time": 54.0,
+   "ready": 62.518,
+   "line": "여전히 선두는 6번 걸작번개. 선두권에 4번 커맨딩리드.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 65.468,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 65.283,
+   "race_time": 57.0,
+   "ready": 65.518,
+   "line": "9번 누리퀸즈가 선두입니다. 선두권에 4번 커맨딩리드, 6번 걸작번개.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 4,
+     "gap": 0.3667
+    },
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.3799
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 68.474,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 68.283,
+   "race_time": 60.0,
+   "ready": 68.524,
+   "line": "선두권에 4번 커맨딩리드, 6번 걸작번개, 9번 누리퀸즈. 6번 걸작번개가 4번 커맨딩리드보다 앞에 있습니다.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.4117
+    },
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.2348
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 71.476,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 71.283,
+   "race_time": 63.0,
+   "ready": 71.526,
+   "line": "4번 커맨딩리드, 6번 걸작번개, 9번 누리퀸즈, 계속 선두권입니다.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3267
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 74.503,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 74.283,
+   "race_time": 66.0,
+   "ready": 74.553,
+   "line": "3번 아모스전사가 선두입니다. 4번 커맨딩리드, 9번 누리퀸즈도 선두권입니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "shown_until": 77.463,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 77.283,
+   "race_time": 69.0,
+   "ready": 77.513,
+   "line": "선두권에 4번 커맨딩리드, 6번 걸작번개, 9번 누리퀸즈. 6번 걸작번개가 9번 누리퀸즈보다 앞에 있습니다.",
+   "statements": [
+    4,
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.4082
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "shown_until": 80.467,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 80.283,
+   "race_time": 72.0,
+   "ready": 80.517,
+   "line": "선두는 6번 걸작번개. 9번 누리퀸즈도 선두권입니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3404
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 83.5,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 83.283,
+   "race_time": 75.0,
+   "ready": 83.55,
+   "line": "여전히 선두는 6번 걸작번개. 선두권에 9번 누리퀸즈.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.2235
+    }
+   ],
+   "late_at_start": 0.006,
+   "work_seconds": 0.26,
+   "shown_until": 86.485,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 86.283,
+   "race_time": 78.0,
+   "ready": 86.535,
+   "line": "선두는 6번 걸작번개. 선두권에 8번 세븐포스, 9번 누리퀸즈.",
+   "statements": [
+    6,
+    8,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3529
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.4239
+    }
+   ],
+   "late_at_start": 0.021,
+   "work_seconds": 0.229,
+   "shown_until": 89.597,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 89.283,
+   "race_time": 81.0,
+   "ready": 89.647,
+   "line": "8번 세븐포스, 9번 누리퀸즈, 선두권에서 달립니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.172,
+   "work_seconds": 0.191,
+   "shown_until": 92.761,
+   "delay": 0.364
+  },
+  {
+   "kind": "point",
+   "video_time": 92.283,
+   "race_time": 84.0,
+   "ready": 92.811,
+   "line": "선두는 8번 세븐포스. 9번 누리퀸즈도 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.5782
+    }
+   ],
+   "late_at_start": 0.011,
+   "work_seconds": 0.516,
+   "shown_until": 95.869,
+   "delay": 0.528
+  },
+  {
+   "kind": "point",
+   "video_time": 95.283,
+   "race_time": 87.0,
+   "ready": 95.919,
+   "line": "선두권에 8번 세븐포스, 9번 누리퀸즈가 있습니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.138,
+   "work_seconds": 0.497,
+   "shown_until": 98.832,
+   "delay": 0.636
+  },
+  {
+   "kind": "point",
+   "video_time": 98.283,
+   "race_time": 90.0,
+   "ready": 98.882,
+   "line": "9번 누리퀸즈, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.142,
+   "work_seconds": 0.456,
+   "shown_until": 99.293,
+   "delay": 0.599
+  },
+  {
+   "kind": "finish",
+   "video_time": 99.217,
+   "race_time": 90.93,
+   "ready": 99.343,
+   "line": "결승선 통과! 8번 세븐포스가 가장 먼저 들어옵니다!",
+   "winner": 8,
+   "winner_call": {
+    "candidate": 8,
+    "pictures_naming_each": {
+     "8": 5,
+     "5": 4,
+     "9": 1
+    },
+    "seen": 3,
+    "front": 3,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 98.0,
+   "seconds_after_the_finish": 1.34,
+   "work_seconds": 0.001,
+   "shown_until": 105.293,
+   "delay": 0.126
+  }
+ ]
+}

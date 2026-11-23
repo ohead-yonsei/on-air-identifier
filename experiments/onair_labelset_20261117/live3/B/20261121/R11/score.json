@@ -1,0 +1,451 @@
+{
+ "official_winner": 6,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 25,
+  "numbers": 46,
+  "numbers right": 45,
+  "numbers close": 0,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 15,
+  "leader right": 10,
+  "leader close": 4,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.678
+ },
+ "rows": [
+  {
+   "video_time": 13.167,
+   "line": "7번 스마트테이크, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 16.167,
+   "line": "선두권은 그대로 7번 스마트테이크.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 19.167,
+   "line": "7번 스마트테이크, 계속 선두권입니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 22.167,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 25.167,
+   "line": "1400m 경주, 출발 후 21초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "video_time": 28.167,
+   "line": "선두권에 6번 무빙볼케이노가 있습니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 31.167,
+   "line": "6번 무빙볼케이노, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 34.183,
+   "line": "2번 위즈파이터, 선두에 있습니다. 6번 무빙볼케이노도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 37.167,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 40.167,
+   "line": "2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    7
+   ]
+  },
+  {
+   "video_time": 43.167,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 46.167,
+   "line": "6번 무빙볼케이노가 선두입니다. 선두권에 2번 위즈파이터, 9번 짜릿한행복.",
+   "numbers": {
+    "2": "right",
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "wrong",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 49.167,
+   "line": "선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 52.167,
+   "line": "2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 55.167,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 58.167,
+   "line": "2번 위즈파이터, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 61.167,
+   "line": "선두권에 2번 위즈파이터, 6번 무빙볼케이노. 2번 위즈파이터가 6번 무빙볼케이노보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 64.167,
+   "line": "2번 위즈파이터, 선두에 있습니다. 6번 무빙볼케이노도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    6,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 67.167,
+   "line": "여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    2,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 70.167,
+   "line": "6번 무빙볼케이노, 선두에 있습니다. 선두권에 2번 위즈파이터.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 73.167,
+   "line": "선두권에 2번 위즈파이터, 6번 무빙볼케이노. 2번 위즈파이터가 6번 무빙볼케이노보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 76.167,
+   "line": "6번 무빙볼케이노가 선두입니다. 선두권에 2번 위즈파이터.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    9,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 79.167,
+   "line": "2번 위즈파이터, 6번 무빙볼케이노, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    9,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 82.167,
+   "line": "9번 짜릿한행복이 선두입니다. 2번 위즈파이터, 6번 무빙볼케이노도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    9,
+    2,
+    10
+   ]
+  },
+  {
+   "video_time": 85.167,
+   "line": "선두는 9번 짜릿한행복. 6번 무빙볼케이노도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "video_time": 88.167,
+   "line": "9번 짜릿한행복, 선두에 있습니다. 6번 무빙볼케이노, 11번 마이티코드도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right",
+    "11": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    9,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 91.167,
+   "line": "선두권에 3번 히어로삭스가 있습니다.",
+   "numbers": {
+    "3": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    9,
+    11,
+    10
+   ]
+  },
+  {
+   "video_time": 93.083,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 6,
+   "verdict": "no call"
+  }
+ ]
+}

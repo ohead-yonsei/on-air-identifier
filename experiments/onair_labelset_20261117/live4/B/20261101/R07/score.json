@@ -1,0 +1,757 @@
+{
+ "official_winner": 3,
+ "totals": {
+  "lines": 49,
+  "lines with a number": 41,
+  "numbers": 76,
+  "numbers right": 68,
+  "numbers close": 5,
+  "numbers wrong": 3,
+  "lines with a wrong number": 3,
+  "leader lines": 23,
+  "leader right": 18,
+  "leader close": 4,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.268,
+  "max": 0.665
+ },
+ "rows": [
+  {
+   "video_time": 14.35,
+   "line": "4번 어서말을해, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 17.35,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 20.35,
+   "line": "선두권은 그대로 6번 이스트웨스트, 10번 페퍼엑스.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    3,
+    4
+   ]
+  },
+  {
+   "video_time": 23.35,
+   "line": "선두는 10번 페퍼엑스. 선두권에 6번 이스트웨스트.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 26.35,
+   "line": "10번 페퍼엑스, 계속 선두입니다. 선두권에 6번 이스트웨스트.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 29.35,
+   "line": "선두는 10번 페퍼엑스.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 32.35,
+   "line": "2300m 경주, 출발 후 27초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 35.35,
+   "line": "선두권에 8번 블랙벨트가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 38.35,
+   "line": "8번 블랙벨트, 계속 선두권입니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 41.35,
+   "line": "서울 7경주 2300m, 출발 후 36초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    8,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 44.35,
+   "line": "7번 글로벌삭스, 선두권에서 달립니다.",
+   "numbers": {
+    "7": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    10,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 47.35,
+   "line": "서울 7경주 2300m, 출발 후 42초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 50.35,
+   "line": "6번 이스트웨스트, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 53.35,
+   "line": "선두권에 6번 이스트웨스트, 8번 블랙벨트가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    2
+   ]
+  },
+  {
+   "video_time": 56.35,
+   "line": "6번 이스트웨스트, 8번 블랙벨트, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 59.35,
+   "line": "10번 페퍼엑스가 선두입니다. 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 62.35,
+   "line": "선두권에 6번 이스트웨스트, 8번 블랙벨트가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 65.367,
+   "line": "2300m 경주, 출발 후 60초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 68.367,
+   "line": "서울 7경주 2300m, 출발 후 63초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 71.35,
+   "line": "10번 페퍼엑스, 선두권에서 달립니다.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 74.35,
+   "line": "선두권은 그대로 10번 페퍼엑스.",
+   "numbers": {
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 77.35,
+   "line": "6번 이스트웨스트, 10번 페퍼엑스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 80.35,
+   "line": "선두권에 6번 이스트웨스트가 있습니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    10,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 83.35,
+   "line": "2300m 경주, 출발 후 78초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 86.35,
+   "line": "선두권에 6번 이스트웨스트가 있습니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 89.35,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    6,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 92.35,
+   "line": "선두는 10번 페퍼엑스. 선두권에 6번 이스트웨스트.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    6,
+    10,
+    3
+   ]
+  },
+  {
+   "video_time": 95.35,
+   "line": "6번 이스트웨스트, 8번 블랙벨트, 10번 페퍼엑스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    3,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 98.35,
+   "line": "선두권에 6번 이스트웨스트, 10번 페퍼엑스. 10번 페퍼엑스가 6번 이스트웨스트보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    3,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 101.35,
+   "line": "선두는 10번 페퍼엑스. 6번 이스트웨스트도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "10": "close"
+   },
+   "leader": 10,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    3,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 104.35,
+   "line": "10번 페퍼엑스, 선두에 있습니다. 3번 머스킷데이, 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "8": "right",
+    "10": "close"
+   },
+   "leader": 10,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    8,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 107.35,
+   "line": "10번 페퍼엑스가 선두입니다. 3번 머스킷데이도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "10": "wrong"
+   },
+   "leader": 10,
+   "leader_verdict": "wrong",
+   "official_order": [
+    3,
+    8,
+    6,
+    10
+   ]
+  },
+  {
+   "video_time": 110.35,
+   "line": "선두는 3번 머스킷데이. 6번 이스트웨스트, 10번 페퍼엑스도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "10": "wrong"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 113.35,
+   "line": "3번 머스킷데이, 선두에 있습니다. 6번 이스트웨스트도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 116.35,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 6번 이스트웨스트.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 119.35,
+   "line": "3번 머스킷데이, 선두에 있습니다. 선두권에 6번 이스트웨스트, 8번 블랙벨트.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    8,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 122.35,
+   "line": "3번 머스킷데이가 선두입니다. 선두권에 8번 블랙벨트.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    8,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 125.35,
+   "line": "3번 머스킷데이, 계속 선두입니다. 선두권에 8번 블랙벨트.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    8,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 128.35,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 8번 블랙벨트.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    8,
+    6,
+    2
+   ]
+  },
+  {
+   "video_time": 131.35,
+   "line": "3번 머스킷데이, 계속 선두입니다. 선두권에 8번 블랙벨트.",
+   "numbers": {
+    "3": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 134.35,
+   "line": "선두는 3번 머스킷데이. 6번 이스트웨스트, 8번 블랙벨트도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 137.35,
+   "line": "3번 머스킷데이, 선두에 있습니다. 6번 이스트웨스트도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 140.35,
+   "line": "여전히 선두는 3번 머스킷데이. 선두권에 6번 이스트웨스트.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 143.35,
+   "line": "3번 머스킷데이, 선두에 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    8,
+    2
+   ]
+  },
+  {
+   "video_time": 146.35,
+   "line": "선두는 3번 머스킷데이. 2번 지모션도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    2,
+    8
+   ]
+  },
+  {
+   "video_time": 149.35,
+   "line": "3번 머스킷데이, 선두에 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    2,
+    8
+   ]
+  },
+  {
+   "video_time": 152.35,
+   "line": "3번 머스킷데이, 계속 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    2,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 154.333,
+   "line": "결승선 통과! 3번 머스킷데이가 가장 먼저 들어옵니다!",
+   "winner_call": 3,
+   "official_winner": 3,
+   "verdict": "right"
+  }
+ ]
+}

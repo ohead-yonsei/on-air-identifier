@@ -1,0 +1,715 @@
+{
+ "video": "otherday24/videos/R06_a5AzMCewzdM.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 6,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "내길의에이스"
+   },
+   {
+    "number": 2,
+    "name": "비케이데블"
+   },
+   {
+    "number": 3,
+    "name": "엑설런트한센"
+   },
+   {
+    "number": 4,
+    "name": "퀸즈플라잉"
+   },
+   {
+    "number": 5,
+    "name": "글로리삭스"
+   },
+   {
+    "number": 6,
+    "name": "글로벌최강"
+   },
+   {
+    "number": 7,
+    "name": "스톰체이서"
+   },
+   {
+    "number": 8,
+    "name": "스마트마루"
+   },
+   {
+    "number": 9,
+    "name": "게티즈버그"
+   },
+   {
+    "number": 10,
+    "name": "스마트신화"
+   },
+   {
+    "number": 11,
+    "name": "스터닝칼리버"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 16.0,
+  "finish": null,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 7140,
+ "lines": 33,
+ "delay_seconds": {
+  "median": 0.272,
+  "max": 0.7
+ },
+ "furthest_behind_seconds": 0.688,
+ "dense_pictures": {
+  "run": 172,
+  "skipped_when_behind": 41
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 17.0,
+   "race_time": 1.0,
+   "ready": 17.001,
+   "line": "서울 6경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 22.951,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 25.0,
+   "race_time": 9.0,
+   "ready": 25.317,
+   "line": "선두권에 7번 스톰체이서, 10번 스마트신화. 7번 스톰체이서가 10번 스마트신화보다 앞에 있습니다.",
+   "statements": [
+    7,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 10,
+     "gap": 0.2703
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.316,
+   "shown_until": 28.223,
+   "delay": 0.317
+  },
+  {
+   "kind": "point",
+   "video_time": 28.0,
+   "race_time": 12.0,
+   "ready": 28.273,
+   "line": "2번 비케이데블이 선두입니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "shown_until": 31.222,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 31.0,
+   "race_time": 15.0,
+   "ready": 31.272,
+   "line": "7번 스톰체이서, 선두에 있습니다. 10번 스마트신화도 선두권입니다.",
+   "statements": [
+    7,
+    10
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 10,
+     "gap": 0.5039
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "shown_until": 34.219,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 34.0,
+   "race_time": 18.0,
+   "ready": 34.269,
+   "line": "7번 스톰체이서가 선두입니다. 1번 내길의에이스도 선두권입니다.",
+   "statements": [
+    1,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 1,
+     "gap": 0.5621
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "shown_until": 37.217,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 37.0,
+   "race_time": 21.0,
+   "ready": 37.267,
+   "line": "선두는 7번 스톰체이서. 6번 글로벌최강도 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.9107
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "shown_until": 40.222,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 40.0,
+   "race_time": 24.0,
+   "ready": 40.272,
+   "line": "7번 스톰체이서, 선두에 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 43.186,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 43.0,
+   "race_time": 27.0,
+   "ready": 43.236,
+   "line": "1번 내길의에이스, 6번 글로벌최강, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 46.207,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 46.0,
+   "race_time": 30.0,
+   "ready": 46.257,
+   "line": "선두권에 9번 게티즈버그가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "shown_until": 49.214,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 49.0,
+   "race_time": 33.0,
+   "ready": 49.264,
+   "line": "2번 비케이데블, 선두에 있습니다. 선두권에 11번 스터닝칼리버.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 11,
+     "gap": 0.7974
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 52.185,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 52.0,
+   "race_time": 36.0,
+   "ready": 52.235,
+   "line": "2번 비케이데블이 선두입니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 55.186,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 55.0,
+   "race_time": 39.0,
+   "ready": 55.236,
+   "line": "2번 비케이데블, 선두에 있습니다. 11번 스터닝칼리버도 선두권입니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 58.197,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 58.0,
+   "race_time": 42.0,
+   "ready": 58.247,
+   "line": "선두권에 2번 비케이데블, 11번 스터닝칼리버가 있습니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 61.185,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 61.0,
+   "race_time": 45.0,
+   "ready": 61.235,
+   "line": "2번 비케이데블, 11번 스터닝칼리버, 계속 선두권입니다.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 64.186,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 64.0,
+   "race_time": 48.0,
+   "ready": 64.236,
+   "line": "선두권은 그대로 2번 비케이데블, 11번 스터닝칼리버.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 11,
+     "gap": 0.2636
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 67.198,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 67.0,
+   "race_time": 51.0,
+   "ready": 67.248,
+   "line": "2번 비케이데블이 선두입니다. 선두권에 11번 스터닝칼리버.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 11,
+     "gap": 0.3919
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "shown_until": 70.196,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 70.0,
+   "race_time": 54.0,
+   "ready": 70.246,
+   "line": "선두는 2번 비케이데블. 선두권에 9번 게티즈버그, 11번 스터닝칼리버.",
+   "statements": [
+    2,
+    9,
+    11
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.3565
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.484
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 73.191,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 73.0,
+   "race_time": 57.0,
+   "ready": 73.241,
+   "line": "2번 비케이데블, 선두에 있습니다. 선두권에 11번 스터닝칼리버.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 2,
+     "gap": 0.246
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 76.196,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 76.0,
+   "race_time": 60.0,
+   "ready": 76.246,
+   "line": "11번 스터닝칼리버가 선두입니다. 선두권에 3번 엑설런트한센.",
+   "statements": [
+    3,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 3,
+     "gap": 0.398
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 79.176,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 79.0,
+   "race_time": 63.0,
+   "ready": 79.226,
+   "line": "선두는 11번 스터닝칼리버.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.225,
+   "shown_until": 82.177,
+   "delay": 0.226
+  },
+  {
+   "kind": "point",
+   "video_time": 82.0,
+   "race_time": 66.0,
+   "ready": 82.227,
+   "line": "11번 스터닝칼리버가 선두입니다. 3번 엑설런트한센도 선두권입니다.",
+   "statements": [
+    3,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "shown_until": 85.343,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 85.0,
+   "race_time": 69.0,
+   "ready": 85.393,
+   "line": "선두권에 11번 스터닝칼리버가 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.085,
+   "work_seconds": 0.308,
+   "shown_until": 88.642,
+   "delay": 0.393
+  },
+  {
+   "kind": "point",
+   "video_time": 88.0,
+   "race_time": 72.0,
+   "ready": 88.692,
+   "line": "11번 스터닝칼리버가 선두입니다. 선두권에 3번 엑설런트한센.",
+   "statements": [
+    3,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 3,
+     "gap": 0.552
+    }
+   ],
+   "late_at_start": 0.112,
+   "work_seconds": 0.58,
+   "shown_until": 91.619,
+   "delay": 0.692
+  },
+  {
+   "kind": "point",
+   "video_time": 91.0,
+   "race_time": 75.0,
+   "ready": 91.669,
+   "line": "7번 스톰체이서, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.153,
+   "work_seconds": 0.515,
+   "shown_until": 94.278,
+   "delay": 0.669
+  },
+  {
+   "kind": "point",
+   "video_time": 94.0,
+   "race_time": 78.0,
+   "ready": 94.328,
+   "line": "서울 6경주 1200m, 출발 후 78초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.028,
+   "work_seconds": 0.3,
+   "shown_until": 97.612,
+   "delay": 0.328
+  },
+  {
+   "kind": "point",
+   "video_time": 97.0,
+   "race_time": 81.0,
+   "ready": 97.662,
+   "line": "1200m 경주, 출발 후 81초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.089,
+   "work_seconds": 0.572,
+   "shown_until": 100.555,
+   "delay": 0.662
+  },
+  {
+   "kind": "point",
+   "video_time": 100.0,
+   "race_time": 84.0,
+   "ready": 100.605,
+   "line": "서울 6경주 1200m, 출발 후 84초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.01,
+   "work_seconds": 0.594,
+   "shown_until": 103.65,
+   "delay": 0.605
+  },
+  {
+   "kind": "point",
+   "video_time": 103.0,
+   "race_time": 87.0,
+   "ready": 103.7,
+   "line": "1200m 경주, 출발 후 87초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.153,
+   "work_seconds": 0.546,
+   "shown_until": 106.368,
+   "delay": 0.7
+  },
+  {
+   "kind": "point",
+   "video_time": 106.0,
+   "race_time": 90.0,
+   "ready": 106.418,
+   "line": "선두권에 3번 엑설런트한센, 11번 스터닝칼리버. 3번 엑설런트한센이 11번 스터닝칼리버보다 앞에 있습니다.",
+   "statements": [
+    3,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 11,
+     "gap": 0.3447
+    }
+   ],
+   "late_at_start": 0.01,
+   "work_seconds": 0.407,
+   "shown_until": 109.461,
+   "delay": 0.418
+  },
+  {
+   "kind": "point",
+   "video_time": 109.0,
+   "race_time": 93.0,
+   "ready": 109.511,
+   "line": "선두권에 9번 게티즈버그가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.013,
+   "work_seconds": 0.497,
+   "shown_until": 112.349,
+   "delay": 0.511
+  },
+  {
+   "kind": "point",
+   "video_time": 112.0,
+   "race_time": 96.0,
+   "ready": 112.399,
+   "line": "9번 게티즈버그, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.01,
+   "work_seconds": 0.389,
+   "shown_until": 115.333,
+   "delay": 0.399
+  },
+  {
+   "kind": "point",
+   "video_time": 115.0,
+   "race_time": 99.0,
+   "ready": 115.383,
+   "line": "선두권에 7번 스톰체이서가 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.004,
+   "work_seconds": 0.379,
+   "shown_until": 118.446,
+   "delay": 0.383
+  },
+  {
+   "kind": "point",
+   "video_time": 118.0,
+   "race_time": 102.0,
+   "ready": 118.496,
+   "line": "1200m 경주, 출발 후 102초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.005,
+   "work_seconds": 0.49,
+   "shown_until": 124.446,
+   "delay": 0.496
+  }
+ ]
+}

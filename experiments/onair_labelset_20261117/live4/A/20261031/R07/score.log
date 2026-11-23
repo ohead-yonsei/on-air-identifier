@@ -1,0 +1,6 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 50, 'numbers right': 47, 'numbers close': 3, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 16, 'leader right': 15, 'leader close': 1, 'leader wrong': 0}
+   43.33 numbers {6: 'close', 8: 'right', 9: 'right'} leader 9 right | official first four [9, 8, 4, 6] | 9번 실크스펙터가 선두입니다. 선두권에 6번 대비마마, 8번 세븐카이저.
+   67.32 numbers {4: 'right', 9: 'right'} leader 4 close | official first four [8, 9, 4, 6] | 4번 남촌타운, 선두에 있습니다. 9번 실크스펙터도 선두권입니다.
+   82.32 numbers {4: 'right', 6: 'close', 8: 'right', 9: 'right'} leader 4 right | official first four [4, 8, 9, 6] | 선두는 4번 남촌타운. 선두권에 6번 대비마마, 8번 세븐카이저, 9번 실크스펙터.
+   85.32 numbers {4: 'right', 9: 'close'} leader 4 right | official first four [4, 8, 6, 9] | 4번 남촌타운, 선두에 있습니다. 선두권에 9번 실크스펙터.
+finish: 4 official 4 right

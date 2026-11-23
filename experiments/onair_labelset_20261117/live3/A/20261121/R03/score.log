@@ -1,0 +1,6 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 34, 'numbers right': 30, 'numbers close': 0, 'numbers wrong': 4, 'lines with a wrong number': 4, 'leader lines': 11, 'leader right': 10, 'leader close': 0, 'leader wrong': 1}
+   23.35 numbers {11: 'wrong'} leader 11 wrong | official first four [3, 1, 4, 6] | 선두는 11번 시티오브드림.
+   35.33 numbers {3: 'right', 7: 'wrong'} leader 3 right | official first four [3, 4, 1, 6] | 3번 나르샤루시가 선두입니다. 선두권에 7번 안양에이스.
+   41.33 numbers {3: 'right', 6: 'right', 7: 'wrong'} leader 3 right | official first four [3, 4, 6, 1] | 3번 나르샤루시, 선두에 있습니다. 선두권에 6번 비트스타, 7번 안양에이스.
+   62.33 numbers {3: 'wrong', 6: 'right'} leader None None | official first four [9, 4, 6, 1] | 선두권에 3번 나르샤루시, 6번 비트스타가 있습니다.
+finish: None official 9 no call

@@ -1,0 +1,105 @@
+20261122 R01 in clock agrees {'A': (6, 11, 3), 'B': (8, 8, 0)}
+20261122 R02 in clock agrees {'A': (10, 11, 1), 'B': (11, 11, 0)}
+20261122 R03 in clock agrees {'A': (18, 21, 0), 'B': (16, 18, 0)}
+20261122 R04 in clock agrees {'A': (7, 10, 0), 'B': (8, 13, 0)}
+20261122 R05 out no run {'A': (None, None, None), 'B': (None, None, None)}
+20261122 R06 out no run {'A': (None, None, None), 'B': (None, None, None)}
+20261122 R07 in clock agrees {'A': (5, 10, 0), 'B': (5, 9, 0)}
+20261122 R08 out clock disagrees {'A': (6, 12, 1), 'B': (8, 10, 0)}
+20261122 R09 in clock agrees {'A': (20, 21, 0), 'B': (19, 21, 1)}
+20261122 R10 in clock agrees {'A': (11, 12, 0), 'B': (10, 11, 0)}
+20261122 R11 in clock agrees {'A': (3, 7, 1), 'B': (5, 9, 1)}
+20261121 R01 out clock disagrees {'A': (5, 7, 2), 'B': (6, 8, 2)}
+20261121 R02 in clock agrees {'A': (3, 9, 1), 'B': (7, 10, 0)}
+20261121 R03 in clock agrees {'A': (10, 11, 1), 'B': (10, 11, 1)}
+20261121 R04 in clock agrees {'A': (12, 16, 3), 'B': (11, 12, 1)}
+20261121 R05 in clock agrees {'A': (14, 16, 1), 'B': (15, 17, 1)}
+20261121 R06 out clock disagrees {'A': (5, 8, 2), 'B': (6, 7, 0)}
+20261121 R07 in clock agrees {'A': (10, 11, 1), 'B': (10, 11, 1)}
+20261121 R08 in clock agrees {'A': (8, 12, 1), 'B': (7, 11, 1)}
+20261121 R09 in clock agrees {'A': (15, 18, 3), 'B': (15, 16, 1)}
+20261121 R10 in clock agrees {'A': (7, 9, 2), 'B': (10, 10, 0)}
+20261121 R11 out clock disagrees {'A': (12, 16, 1), 'B': (10, 15, 1)}
+{
+ "days": [
+  "20261122",
+  "20261121"
+ ],
+ "races_in": 16,
+ "A": {
+  "totals": {
+   "lines": 452,
+   "numbers": 718,
+   "numbers right": 637,
+   "numbers close": 40,
+   "numbers wrong": 41,
+   "lines with a wrong number": 39,
+   "leader lines": 205,
+   "leader right": 159,
+   "leader close": 28,
+   "leader wrong": 18
+  },
+  "stretch_last_36s": {
+   "leader lines": 105,
+   "leader right": 83,
+   "leader close": 9,
+   "leader wrong": 13
+  },
+  "numbers_right": 0.8872,
+  "leader_right": 0.7756,
+  "leader_wrong": 0.0878,
+  "stretch_leader_right": 0.7905,
+  "delay_median": 0.254,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 10,
+   "wrong": 0,
+   "no call": 6
+  }
+ },
+ "B": {
+  "totals": {
+   "lines": 452,
+   "numbers": 716,
+   "numbers right": 635,
+   "numbers close": 40,
+   "numbers wrong": 41,
+   "lines with a wrong number": 39,
+   "leader lines": 198,
+   "leader right": 167,
+   "leader close": 23,
+   "leader wrong": 8
+  },
+  "stretch_last_36s": {
+   "leader lines": 99,
+   "leader right": 91,
+   "leader close": 5,
+   "leader wrong": 3
+  },
+  "numbers_right": 0.8869,
+  "leader_right": 0.8434,
+  "leader_wrong": 0.0404,
+  "stretch_leader_right": 0.9192,
+  "delay_median": 0.257,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true,
+  "winner": {
+   "right": 10,
+   "wrong": 0,
+   "no call": 6
+  }
+ },
+ "B_minus_A_leader_right": 0.0678,
+ "bootstrap_95": [
+  0.0126,
+  0.14
+ ],
+ "verdicts": {
+  "V1 B leader right >= A + 5 pt and fewer wrong": true,
+  "V2 B leader right >= 75%": true,
+  "V3 B numbers >= 90% and speed": false,
+  "V4 A numbers >= 90% and speed (live2 replication)": false
+ },
+ "recommend B as live_run default": false
+}

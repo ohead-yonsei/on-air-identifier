@@ -1,0 +1,4 @@
+{'lines': 30, 'lines with a number': 23, 'numbers': 42, 'numbers right': 42, 'numbers close': 0, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 18, 'leader right': 16, 'leader close': 2, 'leader wrong': 0}
+   43.87 numbers {8: 'right'} leader 8 close | official first four [11, 8, 10, 7] | 선두는 8번 피엔에스리프.
+   46.87 numbers {8: 'right', 11: 'right'} leader 8 close | official first four [11, 8, 10, 7] | 8번 피엔에스리프가 선두입니다. 선두권에 11번 히어로드래건.
+finish: None official 10 no call

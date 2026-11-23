@@ -1,0 +1,6 @@
+{'lines': 29, 'lines with a number': 22, 'numbers': 44, 'numbers right': 42, 'numbers close': 1, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 17, 'leader right': 14, 'leader close': 2, 'leader wrong': 1}
+   65.35 numbers {3: 'right', 6: 'right'} leader 6 close | official first four [3, 6, 2, 5] | 6번 골드캐처, 선두에 있습니다. 3번 남산벨트도 선두권입니다.
+   71.35 numbers {3: 'right', 5: 'close', 6: 'right'} leader 3 right | official first four [3, 6, 2, 5] | 3번 남산벨트가 선두입니다. 5번 러브인서울, 6번 골드캐처도 선두권입니다.
+   83.33 numbers {3: 'right', 6: 'right'} leader 3 close | official first four [6, 3, 2, 5] | 여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.
+   95.33 numbers {7: 'wrong'} leader 7 wrong | official first four [4, 6, 3, 2] | 7번 메가스텝, 선두에 있습니다.
+finish: None official 4 no call

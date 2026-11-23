@@ -1,0 +1,434 @@
+{
+ "official_winner": 7,
+ "totals": {
+  "lines": 28,
+  "lines with a number": 22,
+  "numbers": 45,
+  "numbers right": 44,
+  "numbers close": 1,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 10,
+  "leader right": 6,
+  "leader close": 1,
+  "leader wrong": 3
+ },
+ "delay_seconds": {
+  "median": 0.247,
+  "max": 0.673
+ },
+ "rows": [
+  {
+   "video_time": 16.317,
+   "line": "2번 토호스카이, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 19.317,
+   "line": "선두권에 4번 우아센이 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 22.317,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 25.317,
+   "line": "서울 7경주 1400m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 28.317,
+   "line": "4번 우아센, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 31.317,
+   "line": "선두권에 2번 토호스카이, 4번 우아센이 있습니다.",
+   "numbers": {
+    "2": "close",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 34.333,
+   "line": "3번 무빙볼케이노, 4번 우아센, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 37.333,
+   "line": "4번 우아센, 선두에 있습니다. 3번 무빙볼케이노도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 40.317,
+   "line": "선두권에 3번 무빙볼케이노, 4번 우아센이 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 43.317,
+   "line": "선두권에 3번 무빙볼케이노, 4번 우아센, 7번 블루피오라. 3번 무빙볼케이노가 7번 블루피오라보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 46.317,
+   "line": "4번 우아센, 선두에 있습니다. 선두권에 3번 무빙볼케이노, 7번 블루피오라.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 49.317,
+   "line": "3번 무빙볼케이노, 7번 블루피오라, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 52.317,
+   "line": "선두권은 그대로 3번 무빙볼케이노, 7번 블루피오라.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 55.317,
+   "line": "선두는 4번 우아센. 선두권에 3번 무빙볼케이노.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 58.317,
+   "line": "선두권에 3번 무빙볼케이노, 4번 우아센, 7번 블루피오라. 4번 우아센이 3번 무빙볼케이노보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 61.317,
+   "line": "4번 우아센, 선두에 있습니다. 선두권에 7번 블루피오라.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 64.317,
+   "line": "4번 우아센, 계속 선두입니다. 선두권에 7번 블루피오라.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    7,
+    4,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 67.317,
+   "line": "여전히 선두는 4번 우아센. 선두권에 7번 블루피오라.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "wrong",
+   "official_order": [
+    7,
+    4,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 70.317,
+   "line": "4번 우아센, 계속 선두입니다. 선두권에 7번 블루피오라.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "wrong",
+   "official_order": [
+    7,
+    4,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 73.317,
+   "line": "4번 우아센이 선두입니다. 7번 블루피오라, 8번 엔딩파이어도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "wrong",
+   "official_order": [
+    7,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 76.317,
+   "line": "선두는 7번 블루피오라. 4번 우아센도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    4,
+    8,
+    3
+   ]
+  },
+  {
+   "video_time": 79.317,
+   "line": "선두권에 4번 우아센, 7번 블루피오라. 7번 블루피오라가 4번 우아센보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 82.317,
+   "line": "7번 블루피오라, 선두에 있습니다. 4번 우아센도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "right",
+   "official_order": [
+    7,
+    4,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 85.317,
+   "line": "선두권에 4번 우아센, 7번 블루피오라가 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 88.317,
+   "line": "1400m 경주, 출발 후 81초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 91.317,
+   "line": "서울 7경주 1400m, 출발 후 84초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    7,
+    4,
+    8,
+    6
+   ]
+  },
+  {
+   "video_time": 92.683,
+   "line": "결승선을 통과했습니다. 서울 7경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 7,
+   "verdict": "no call"
+  }
+ ]
+}

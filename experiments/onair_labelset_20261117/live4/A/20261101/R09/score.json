@@ -1,0 +1,463 @@
+{
+ "official_winner": 10,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 27,
+  "numbers": 56,
+  "numbers right": 53,
+  "numbers close": 0,
+  "numbers wrong": 3,
+  "lines with a wrong number": 3,
+  "leader lines": 20,
+  "leader right": 19,
+  "leader close": 1,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.263,
+  "max": 0.725
+ },
+ "rows": [
+  {
+   "video_time": 16.35,
+   "line": "5번 클림트월드, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 19.35,
+   "line": "선두권에 11번 브리도큐피드가 있습니다.",
+   "numbers": {
+    "11": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 22.35,
+   "line": "1번 금적산, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 25.35,
+   "line": "선두권은 그대로 1번 금적산.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 28.35,
+   "line": "1번 금적산, 8번 화이트선더, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 31.35,
+   "line": "선두는 1번 금적산. 6번 운주프린스도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 34.35,
+   "line": "1번 금적산, 선두에 있습니다. 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "video_time": 37.35,
+   "line": "1번 금적산이 선두입니다. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 40.35,
+   "line": "선두는 1번 금적산. 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 43.35,
+   "line": "1번 금적산, 선두에 있습니다. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 46.35,
+   "line": "1번 금적산이 선두입니다. 6번 운주프린스, 10번 마이티헝키도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "10": "wrong"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 49.35,
+   "line": "선두권에 6번 운주프린스, 8번 화이트선더가 있습니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 52.35,
+   "line": "1번 금적산이 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 55.35,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 58.35,
+   "line": "여전히 선두는 1번 금적산. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 61.35,
+   "line": "1번 금적산, 선두에 있습니다. 선두권에 6번 운주프린스, 8번 화이트선더.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 64.367,
+   "line": "1번 금적산이 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 67.367,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 70.367,
+   "line": "여전히 선두는 1번 금적산. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    6,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 73.35,
+   "line": "1번 금적산, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    1,
+    10,
+    8
+   ]
+  },
+  {
+   "video_time": 76.35,
+   "line": "선두는 10번 마이티헝키. 1번 금적산, 6번 운주프린스도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 79.35,
+   "line": "여전히 선두는 10번 마이티헝키. 선두권에 1번 금적산, 6번 운주프린스.",
+   "numbers": {
+    "1": "right",
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 82.35,
+   "line": "선두는 10번 마이티헝키. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 85.35,
+   "line": "10번 마이티헝키, 계속 선두입니다. 선두권에 6번 운주프린스.",
+   "numbers": {
+    "6": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    1,
+    8
+   ]
+  },
+  {
+   "video_time": 88.35,
+   "line": "선두는 10번 마이티헝키. 6번 운주프린스, 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 91.35,
+   "line": "10번 마이티헝키, 선두에 있습니다. 8번 화이트선더도 선두권입니다.",
+   "numbers": {
+    "8": "right",
+    "10": "right"
+   },
+   "leader": 10,
+   "leader_verdict": "right",
+   "official_order": [
+    10,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 94.35,
+   "line": "선두권에 8번 화이트선더가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    10,
+    6,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 94.567,
+   "line": "결승선 통과! 10번 마이티헝키가 가장 먼저 들어옵니다!",
+   "winner_call": 10,
+   "official_winner": 10,
+   "verdict": "right"
+  }
+ ]
+}

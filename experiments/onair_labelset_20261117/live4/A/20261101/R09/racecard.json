@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 9,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "금적산"
+  },
+  {
+   "number": 2,
+   "name": "손에손잡고"
+  },
+  {
+   "number": 3,
+   "name": "굿최강"
+  },
+  {
+   "number": 4,
+   "name": "최강스피드"
+  },
+  {
+   "number": 5,
+   "name": "클림트월드"
+  },
+  {
+   "number": 6,
+   "name": "운주프린스"
+  },
+  {
+   "number": 7,
+   "name": "뱅크라인"
+  },
+  {
+   "number": 8,
+   "name": "화이트선더"
+  },
+  {
+   "number": 9,
+   "name": "컴플리트브로"
+  },
+  {
+   "number": 10,
+   "name": "마이티헝키"
+  },
+  {
+   "number": 11,
+   "name": "브리도큐피드"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,736 @@
+{
+ "video": "otherday23/videos/R04_A6M4Rj97znE.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 4,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "대한코코즈"
+   },
+   {
+    "number": 2,
+    "name": "리걸하이"
+   },
+   {
+    "number": 3,
+    "name": "이클립스서니"
+   },
+   {
+    "number": 4,
+    "name": "겨울장미"
+   },
+   {
+    "number": 5,
+    "name": "빛의순간"
+   },
+   {
+    "number": 6,
+    "name": "블랙선"
+   },
+   {
+    "number": 7,
+    "name": "럭키데이"
+   },
+   {
+    "number": 8,
+    "name": "핵다이아"
+   },
+   {
+    "number": 9,
+    "name": "온누리빛"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 15.799999999999999,
+  "finish": 102.35,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6396,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.254,
+  "max": 0.815
+ },
+ "furthest_behind_seconds": 0.799,
+ "dense_pictures": {
+  "run": 50,
+  "skipped_when_behind": 15
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 16.8,
+   "race_time": 1.0,
+   "ready": 16.801,
+   "line": "서울 4경주 1400m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 22.751,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 24.8,
+   "race_time": 9.0,
+   "ready": 25.222,
+   "line": "3번 이클립스서니, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.421,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 28.049,
+   "delay": 0.422
+  },
+  {
+   "kind": "point",
+   "video_time": 27.8,
+   "race_time": 12.0,
+   "ready": 28.099,
+   "line": "선두권에 9번 온누리빛이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.298,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 31.372,
+   "delay": 0.299
+  },
+  {
+   "kind": "point",
+   "video_time": 30.8,
+   "race_time": 15.0,
+   "ready": 31.422,
+   "line": "3번 이클립스서니, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.621,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 34.242,
+   "delay": 0.622
+  },
+  {
+   "kind": "point",
+   "video_time": 33.8,
+   "race_time": 18.0,
+   "ready": 34.292,
+   "line": "선두권은 그대로 3번 이클립스서니.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.491,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 36.993,
+   "delay": 0.492
+  },
+  {
+   "kind": "point",
+   "video_time": 36.8,
+   "race_time": 21.0,
+   "ready": 37.043,
+   "line": "1번 대한코코즈, 선두에 있습니다. 선두권에 9번 온누리빛.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.4187
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 39.999,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 39.8,
+   "race_time": 24.0,
+   "ready": 40.049,
+   "line": "1번 대한코코즈, 9번 온누리빛, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 42.995,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 42.8,
+   "race_time": 27.0,
+   "ready": 43.045,
+   "line": "1번 대한코코즈, 선두에 있습니다. 9번 온누리빛도 선두권입니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 45.994,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 45.8,
+   "race_time": 30.0,
+   "ready": 46.044,
+   "line": "9번 온누리빛이 선두입니다. 1번 대한코코즈도 선두권입니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 1,
+     "gap": 0.5765
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 48.988,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 48.8,
+   "race_time": 33.0,
+   "ready": 49.038,
+   "line": "여전히 선두는 9번 온누리빛. 선두권에 1번 대한코코즈.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 1,
+     "gap": 0.5066
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 52.021,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 51.8,
+   "race_time": 36.0,
+   "ready": 52.071,
+   "line": "9번 온누리빛, 계속 선두입니다. 선두권에 1번 대한코코즈.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 1,
+     "gap": 0.6734
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 54.98,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 54.8,
+   "race_time": 39.0,
+   "ready": 55.03,
+   "line": "9번 온누리빛, 선두에 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 58.014,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 57.8,
+   "race_time": 42.0,
+   "ready": 58.064,
+   "line": "선두권에 3번 이클립스서니, 9번 온누리빛. 9번 온누리빛이 3번 이클립스서니보다 앞에 있습니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.4109
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.981,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 60.8,
+   "race_time": 45.0,
+   "ready": 61.031,
+   "line": "선두는 9번 온누리빛. 선두권에 2번 리걸하이.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.7254
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 63.983,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 63.8,
+   "race_time": 48.0,
+   "ready": 64.033,
+   "line": "9번 온누리빛, 계속 선두입니다. 선두권에 2번 리걸하이.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.797
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 66.982,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 66.8,
+   "race_time": 51.0,
+   "ready": 67.032,
+   "line": "여전히 선두는 9번 온누리빛. 선두권에 2번 리걸하이.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.2294
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 69.982,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 69.8,
+   "race_time": 54.0,
+   "ready": 70.032,
+   "line": "선두권에 2번 리걸하이, 3번 이클립스서니, 9번 온누리빛. 9번 온누리빛이 2번 리걸하이보다 앞에 있습니다.",
+   "statements": [
+    2,
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.4828
+    },
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.473
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 72.992,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 72.8,
+   "race_time": 57.0,
+   "ready": 73.042,
+   "line": "선두권에 3번 이클립스서니, 9번 온누리빛. 9번 온누리빛이 3번 이클립스서니보다 앞에 있습니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.6536
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 75.988,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 75.8,
+   "race_time": 60.0,
+   "ready": 76.038,
+   "line": "선두권에 2번 리걸하이, 3번 이클립스서니, 9번 온누리빛. 9번 온누리빛이 2번 리걸하이보다 앞에 있습니다.",
+   "statements": [
+    2,
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.2158
+    },
+    {
+     "ahead": 9,
+     "behind": 3,
+     "gap": 0.258
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 79.016,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 78.8,
+   "race_time": 63.0,
+   "ready": 79.066,
+   "line": "3번 이클립스서니, 9번 온누리빛, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 81.988,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 81.8,
+   "race_time": 66.0,
+   "ready": 82.038,
+   "line": "9번 온누리빛, 선두에 있습니다. 4번 겨울장미도 선두권입니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 4,
+     "gap": 0.3988
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 85.008,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 84.8,
+   "race_time": 69.0,
+   "ready": 85.058,
+   "line": "선두권에 2번 리걸하이, 3번 이클립스서니, 9번 온누리빛이 있습니다.",
+   "statements": [
+    2,
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 88.01,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 87.8,
+   "race_time": 72.0,
+   "ready": 88.06,
+   "line": "3번 이클립스서니, 8번 핵다이아, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 91.004,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 90.8,
+   "race_time": 75.0,
+   "ready": 91.054,
+   "line": "선두권은 그대로 3번 이클립스서니, 8번 핵다이아.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 3,
+     "gap": 0.4714
+    }
+   ],
+   "late_at_start": 0.015,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 94.565,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 93.8,
+   "race_time": 78.0,
+   "ready": 94.615,
+   "line": "4번 겨울장미가 선두입니다. 선두권에 3번 이클립스서니, 8번 핵다이아.",
+   "statements": [
+    3,
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 3,
+     "gap": 0.6797
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.6193
+    }
+   ],
+   "late_at_start": 0.229,
+   "work_seconds": 0.585,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 97.444,
+   "delay": 0.815
+  },
+  {
+   "kind": "point",
+   "video_time": 96.8,
+   "race_time": 81.0,
+   "ready": 97.494,
+   "line": "4번 겨울장미, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.156,
+   "work_seconds": 0.537,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 100.326,
+   "delay": 0.694
+  },
+  {
+   "kind": "point",
+   "video_time": 99.8,
+   "race_time": 84.0,
+   "ready": 100.376,
+   "line": "선두권에 4번 겨울장미, 7번 럭키데이가 있습니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.101,
+   "work_seconds": 0.474,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 103.282,
+   "delay": 0.576
+  },
+  {
+   "kind": "point",
+   "video_time": 102.8,
+   "race_time": 87.0,
+   "ready": 103.332,
+   "line": "7번 럭키데이, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.091,
+   "work_seconds": 0.441,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 103.59,
+   "delay": 0.532
+  },
+  {
+   "kind": "finish",
+   "video_time": 103.567,
+   "race_time": 87.77,
+   "ready": 103.64,
+   "line": "결승선 통과! 4번 겨울장미가 가장 먼저 들어옵니다!",
+   "winner": 4,
+   "winner_call": {
+    "candidate": 4,
+    "pictures_naming_each": {
+     "4": 7
+    },
+    "seen": 9,
+    "front": 9,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 102.35,
+   "seconds_after_the_finish": 1.29,
+   "work_seconds": 0.001,
+   "shown_until": 109.59,
+   "delay": 0.073
+  }
+ ]
+}

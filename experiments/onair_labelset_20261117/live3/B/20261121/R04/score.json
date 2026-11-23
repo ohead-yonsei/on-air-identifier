@@ -1,0 +1,433 @@
+{
+ "official_winner": 2,
+ "totals": {
+  "lines": 28,
+  "lines with a number": 23,
+  "numbers": 43,
+  "numbers right": 38,
+  "numbers close": 3,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 12,
+  "leader right": 11,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.256,
+  "max": 0.733
+ },
+ "rows": [
+  {
+   "video_time": 16.983,
+   "line": "1300m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 19.983,
+   "line": "서울 4경주 1300m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 22.983,
+   "line": "1300m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 25.967,
+   "line": "5번 세명하이디가 선두입니다. 3번 피엔에스러너도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 28.967,
+   "line": "선두는 5번 세명하이디. 3번 피엔에스러너, 4번 푸른참도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "wrong",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 31.967,
+   "line": "5번 세명하이디, 선두에 있습니다. 3번 피엔에스러너도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "video_time": 34.967,
+   "line": "여전히 선두는 5번 세명하이디. 선두권에 3번 피엔에스러너.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 37.967,
+   "line": "5번 세명하이디, 계속 선두입니다. 선두권에 3번 피엔에스러너.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 40.967,
+   "line": "선두는 7번 불패의여왕. 5번 세명하이디도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "wrong",
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 43.967,
+   "line": "선두권에 5번 세명하이디가 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 46.967,
+   "line": "선두권에 3번 피엔에스러너, 7번 불패의여왕. 3번 피엔에스러너가 7번 불패의여왕보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 49.967,
+   "line": "3번 피엔에스러너, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 52.967,
+   "line": "5번 세명하이디가 선두입니다. 3번 피엔에스러너도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 55.967,
+   "line": "선두권에 3번 피엔에스러너, 5번 세명하이디. 5번 세명하이디가 3번 피엔에스러너보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 58.967,
+   "line": "선두권은 그대로 3번 피엔에스러너, 5번 세명하이디.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 61.967,
+   "line": "5번 세명하이디가 선두입니다. 선두권에 3번 피엔에스러너.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 64.967,
+   "line": "선두권에 3번 피엔에스러너, 5번 세명하이디, 7번 불패의여왕. 3번 피엔에스러너가 7번 불패의여왕보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "right",
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 67.967,
+   "line": "3번 피엔에스러너, 7번 불패의여왕, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 70.967,
+   "line": "선두권은 그대로 3번 피엔에스러너, 7번 불패의여왕.",
+   "numbers": {
+    "3": "right",
+    "7": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    2,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 73.967,
+   "line": "5번 세명하이디, 선두에 있습니다. 선두권에 2번 능력도령, 3번 피엔에스러너.",
+   "numbers": {
+    "2": "right",
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    2,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 76.967,
+   "line": "5번 세명하이디, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    2,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 79.967,
+   "line": "선두권에 2번 능력도령, 5번 세명하이디가 있습니다.",
+   "numbers": {
+    "2": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    5,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 82.967,
+   "line": "선두는 2번 능력도령. 선두권에 5번 세명하이디.",
+   "numbers": {
+    "2": "right",
+    "5": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    5,
+    3,
+    1
+   ]
+  },
+  {
+   "video_time": 85.967,
+   "line": "2번 능력도령, 선두에 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    5,
+    1,
+    9
+   ]
+  },
+  {
+   "video_time": 88.967,
+   "line": "여전히 선두는 2번 능력도령.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    1,
+    9,
+    5
+   ]
+  },
+  {
+   "video_time": 91.967,
+   "line": "6번 듀크삭스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    1,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 93.25,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 2,
+   "verdict": "no call"
+  }
+ ]
+}

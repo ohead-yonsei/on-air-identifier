@@ -1,0 +1,1000 @@
+{
+ "video": "otherday27/videos/R10_RfwpEt0QRBU.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 10,
+  "distance": 1800,
+  "runners": [
+   {
+    "number": 1,
+    "name": "나소챗"
+   },
+   {
+    "number": 2,
+    "name": "케이파워풀"
+   },
+   {
+    "number": 3,
+    "name": "빅토리삭스"
+   },
+   {
+    "number": 4,
+    "name": "달맞이"
+   },
+   {
+    "number": 5,
+    "name": "플라잉크루저"
+   },
+   {
+    "number": 6,
+    "name": "월드블레임"
+   },
+   {
+    "number": 7,
+    "name": "히어아이엠"
+   },
+   {
+    "number": 8,
+    "name": "비에스스톰"
+   },
+   {
+    "number": 9,
+    "name": "킹마스터"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 9.683333333333334,
+  "finish": 127.0,
+  "expected_seconds": 118.8
+ },
+ "frames_read": 7875,
+ "lines": 39,
+ "delay_seconds": {
+  "median": 0.256,
+  "max": 0.741
+ },
+ "furthest_behind_seconds": 0.729,
+ "dense_pictures": {
+  "run": 58,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 10.683,
+   "race_time": 1.0,
+   "ready": 10.685,
+   "line": "서울 10경주 1800m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 16.635,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 18.683,
+   "race_time": 9.0,
+   "ready": 19.006,
+   "line": "2번 케이파워풀이 선두입니다. 선두권에 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.4888
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.322,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 21.881,
+   "delay": 0.323
+  },
+  {
+   "kind": "point",
+   "video_time": 21.683,
+   "race_time": 12.0,
+   "ready": 21.931,
+   "line": "선두는 2번 케이파워풀. 선두권에 8번 비에스스톰.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.7318
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 24.91,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 24.683,
+   "race_time": 15.0,
+   "ready": 24.96,
+   "line": "2번 케이파워풀, 선두에 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 27.875,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 27.683,
+   "race_time": 18.0,
+   "ready": 27.925,
+   "line": "선두권에 2번 케이파워풀이 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 31.045,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 30.683,
+   "race_time": 21.0,
+   "ready": 31.095,
+   "line": "2번 케이파워풀, 계속 선두권입니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.41,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 34.032,
+   "delay": 0.412
+  },
+  {
+   "kind": "point",
+   "video_time": 33.7,
+   "race_time": 24.02,
+   "ready": 34.082,
+   "line": "선두권에 7번 히어아이엠이 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.381,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 36.895,
+   "delay": 0.382
+  },
+  {
+   "kind": "point",
+   "video_time": 36.7,
+   "race_time": 27.02,
+   "ready": 36.945,
+   "line": "선두는 2번 케이파워풀.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 39.872,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 39.7,
+   "race_time": 30.02,
+   "ready": 39.922,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠. 2번 케이파워풀이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.3949
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.221,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 43.222,
+   "delay": 0.222
+  },
+  {
+   "kind": "point",
+   "video_time": 42.683,
+   "race_time": 33.0,
+   "ready": 43.272,
+   "line": "선두권에 2번 케이파워풀이 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.588,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 45.896,
+   "delay": 0.589
+  },
+  {
+   "kind": "point",
+   "video_time": 45.683,
+   "race_time": 36.0,
+   "ready": 45.946,
+   "line": "6번 월드블레임, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 48.906,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 48.683,
+   "race_time": 39.0,
+   "ready": 48.956,
+   "line": "선두는 2번 케이파워풀. 7번 히어아이엠도 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.6079
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 51.894,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 51.683,
+   "race_time": 42.0,
+   "ready": 51.944,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠. 2번 케이파워풀이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.2299
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 54.869,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 54.683,
+   "race_time": 45.0,
+   "ready": 54.919,
+   "line": "2번 케이파워풀, 선두에 있습니다. 7번 히어아이엠도 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.2824
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 57.859,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 57.683,
+   "race_time": 48.0,
+   "ready": 57.909,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠, 9번 킹마스터. 2번 케이파워풀이 9번 킹마스터보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.3151
+    },
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.2932
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.982,
+   "delay": 0.226
+  },
+  {
+   "kind": "point",
+   "video_time": 60.683,
+   "race_time": 51.0,
+   "ready": 61.032,
+   "line": "2번 케이파워풀이 선두입니다. 7번 히어아이엠도 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.478
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.347,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 63.883,
+   "delay": 0.349
+  },
+  {
+   "kind": "point",
+   "video_time": 63.683,
+   "race_time": 54.0,
+   "ready": 63.933,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠이 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 66.902,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 66.683,
+   "race_time": 57.0,
+   "ready": 66.952,
+   "line": "2번 케이파워풀, 7번 히어아이엠, 계속 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.3275
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 69.877,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 69.683,
+   "race_time": 60.0,
+   "ready": 69.927,
+   "line": "선두권은 그대로 2번 케이파워풀, 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.2162
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 72.894,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 72.683,
+   "race_time": 63.0,
+   "ready": 72.944,
+   "line": "선두는 2번 케이파워풀. 선두권에 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.6012
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 75.889,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 75.683,
+   "race_time": 66.0,
+   "ready": 75.939,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠. 2번 케이파워풀이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.296
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 78.877,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 78.683,
+   "race_time": 69.0,
+   "ready": 78.927,
+   "line": "2번 케이파워풀, 선두에 있습니다. 선두권에 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.4494
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 81.97,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 81.683,
+   "race_time": 72.0,
+   "ready": 82.02,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠. 2번 케이파워풀이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.3232
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.335,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 84.869,
+   "delay": 0.337
+  },
+  {
+   "kind": "point",
+   "video_time": 84.683,
+   "race_time": 75.0,
+   "ready": 84.919,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠, 9번 킹마스터. 2번 케이파워풀이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.4623
+    },
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.6948
+    },
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.2325
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 87.866,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 87.683,
+   "race_time": 78.0,
+   "ready": 87.916,
+   "line": "2번 케이파워풀이 선두입니다. 선두권에 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.719
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 90.892,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 90.683,
+   "race_time": 81.0,
+   "ready": 90.942,
+   "line": "2번 케이파워풀, 계속 선두입니다. 선두권에 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.5395
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "shown_until": 94.051,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 93.683,
+   "race_time": 84.0,
+   "ready": 94.101,
+   "line": "선두권에 2번 케이파워풀, 7번 히어아이엠. 7번 히어아이엠이 2번 케이파워풀보다 앞에 있습니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 2,
+     "gap": 0.2758
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.417,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 96.868,
+   "delay": 0.418
+  },
+  {
+   "kind": "point",
+   "video_time": 96.683,
+   "race_time": 87.0,
+   "ready": 96.918,
+   "line": "선두권은 그대로 2번 케이파워풀, 7번 히어아이엠.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.4454
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 99.872,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 99.683,
+   "race_time": 90.0,
+   "ready": 99.922,
+   "line": "7번 히어아이엠, 선두에 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 102.903,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 102.683,
+   "race_time": 93.0,
+   "ready": 102.953,
+   "line": "선두는 2번 케이파워풀. 7번 히어아이엠도 선두권입니다.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.622
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 105.867,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 105.683,
+   "race_time": 96.0,
+   "ready": 105.917,
+   "line": "7번 히어아이엠, 선두에 있습니다. 9번 킹마스터도 선두권입니다.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 108.877,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 108.683,
+   "race_time": 99.0,
+   "ready": 108.927,
+   "line": "선두권에 7번 히어아이엠, 9번 킹마스터가 있습니다.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 111.881,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 111.683,
+   "race_time": 102.0,
+   "ready": 111.931,
+   "line": "7번 히어아이엠, 9번 킹마스터, 계속 선두권입니다.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 114.887,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 114.683,
+   "race_time": 105.0,
+   "ready": 114.937,
+   "line": "선두권에 7번 히어아이엠, 8번 비에스스톰, 9번 킹마스터. 8번 비에스스톰이 7번 히어아이엠보다 앞에 있습니다.",
+   "statements": [
+    7,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 7,
+     "gap": 0.4458
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.4124
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 117.864,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 117.683,
+   "race_time": 108.0,
+   "ready": 117.914,
+   "line": "선두는 8번 비에스스톰. 9번 킹마스터도 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.6915
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 121.056,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 120.683,
+   "race_time": 111.0,
+   "ready": 121.106,
+   "line": "여전히 선두는 8번 비에스스톰. 선두권에 9번 킹마스터.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.038,
+   "work_seconds": 0.385,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 124.374,
+   "delay": 0.423
+  },
+  {
+   "kind": "point",
+   "video_time": 123.683,
+   "race_time": 114.0,
+   "ready": 124.424,
+   "line": "선두는 8번 비에스스톰. 선두권에 7번 히어아이엠, 9번 킹마스터.",
+   "statements": [
+    7,
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 7,
+     "gap": 0.5756
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.7298
+    }
+   ],
+   "late_at_start": 0.214,
+   "work_seconds": 0.526,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 127.17,
+   "delay": 0.741
+  },
+  {
+   "kind": "point",
+   "video_time": 126.683,
+   "race_time": 117.0,
+   "ready": 127.22,
+   "line": "8번 비에스스톰, 선두에 있습니다. 선두권에 9번 킹마스터.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.09,
+   "work_seconds": 0.445,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 128.191,
+   "delay": 0.537
+  },
+  {
+   "kind": "finish",
+   "video_time": 128.217,
+   "race_time": 118.53,
+   "ready": 128.241,
+   "line": "결승선 통과! 8번 비에스스톰이 가장 먼저 들어옵니다!",
+   "winner": 8,
+   "winner_call": {
+    "candidate": 8,
+    "pictures_naming_each": {
+     "8": 11,
+     "9": 1
+    },
+    "seen": 1,
+    "front": 1,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 127.0,
+   "seconds_after_the_finish": 1.24,
+   "work_seconds": 0.0,
+   "shown_until": 134.191,
+   "delay": 0.024
+  }
+ ]
+}

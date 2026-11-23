@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 4,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 3,
+   "name": "나이트선더"
+  },
+  {
+   "number": 4,
+   "name": "터보차지"
+  },
+  {
+   "number": 5,
+   "name": "원모타임"
+  },
+  {
+   "number": 6,
+   "name": "베스트에이원"
+  },
+  {
+   "number": 7,
+   "name": "찬란한함성"
+  },
+  {
+   "number": 8,
+   "name": "라비타"
+  },
+  {
+   "number": 9,
+   "name": "그레이팬텀"
+  },
+  {
+   "number": 10,
+   "name": "마이티캡"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

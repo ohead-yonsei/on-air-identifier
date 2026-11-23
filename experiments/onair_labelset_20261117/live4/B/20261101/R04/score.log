@@ -1,0 +1,4 @@
+{'lines': 27, 'lines with a number': 25, 'numbers': 49, 'numbers right': 48, 'numbers close': 1, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 19, 'leader right': 18, 'leader close': 1, 'leader wrong': 0}
+   59.13 numbers {6: 'right', 7: 'right'} leader 7 close | official first four [6, 7, 11, 3] | 선두는 7번 제주블루. 6번 서프라이즈도 선두권입니다.
+   68.15 numbers {3: 'close', 6: 'right', 7: 'right', 11: 'right'} leader None None | official first four [6, 7, 11, 3] | 선두권에 3번 아모스최강, 6번 서프라이즈, 7번 제주블루, 11번 스페셜포스. 7번 제주블루가 3번 아모스최강보다 앞에 있습니다.
+finish: 6 official 6 right

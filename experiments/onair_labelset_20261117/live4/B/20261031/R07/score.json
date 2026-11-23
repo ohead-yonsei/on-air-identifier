@@ -1,0 +1,401 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 50,
+  "numbers right": 47,
+  "numbers close": 3,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 12,
+  "leader right": 12,
+  "leader close": 0,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.7
+ },
+ "rows": [
+  {
+   "video_time": 28.317,
+   "line": "8번 세븐카이저, 9번 실크스펙터, 선두권에서 달립니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 31.317,
+   "line": "9번 실크스펙터, 선두에 있습니다. 8번 세븐카이저도 선두권입니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 34.333,
+   "line": "선두권에 8번 세븐카이저, 9번 실크스펙터. 9번 실크스펙터가 8번 세븐카이저보다 앞에 있습니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 37.333,
+   "line": "9번 실크스펙터가 선두입니다. 4번 남촌타운, 8번 세븐카이저도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 40.333,
+   "line": "선두권에 8번 세븐카이저가 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 43.333,
+   "line": "9번 실크스펙터가 선두입니다. 선두권에 6번 대비마마, 8번 세븐카이저.",
+   "numbers": {
+    "6": "close",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 46.333,
+   "line": "선두는 9번 실크스펙터. 선두권에 8번 세븐카이저.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 49.333,
+   "line": "9번 실크스펙터, 선두에 있습니다. 선두권에 4번 남촌타운, 8번 세븐카이저.",
+   "numbers": {
+    "4": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 52.317,
+   "line": "9번 실크스펙터가 선두입니다. 선두권에 8번 세븐카이저.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 55.317,
+   "line": "9번 실크스펙터, 계속 선두입니다. 선두권에 8번 세븐카이저.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 58.317,
+   "line": "선두권에 8번 세븐카이저, 9번 실크스펙터가 있습니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 61.317,
+   "line": "8번 세븐카이저, 9번 실크스펙터, 계속 선두권입니다.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 64.317,
+   "line": "선두권은 그대로 8번 세븐카이저, 9번 실크스펙터.",
+   "numbers": {
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    8,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 67.317,
+   "line": "선두권에 4번 남촌타운, 9번 실크스펙터. 4번 남촌타운이 9번 실크스펙터보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    9,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 70.317,
+   "line": "선두권에 4번 남촌타운, 8번 세븐카이저, 9번 실크스펙터. 4번 남촌타운이 8번 세븐카이저보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 73.317,
+   "line": "선두권에 4번 남촌타운, 8번 세븐카이저. 4번 남촌타운이 8번 세븐카이저보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 76.317,
+   "line": "4번 남촌타운, 8번 세븐카이저, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 79.317,
+   "line": "4번 남촌타운, 선두에 있습니다. 8번 세븐카이저, 9번 실크스펙터도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 82.317,
+   "line": "4번 남촌타운이 선두입니다. 6번 대비마마, 8번 세븐카이저, 9번 실크스펙터도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "6": "close",
+    "8": "right",
+    "9": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 85.317,
+   "line": "선두는 4번 남촌타운. 9번 실크스펙터도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "9": "close"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    6,
+    9
+   ]
+  },
+  {
+   "video_time": 88.317,
+   "line": "4번 남촌타운, 선두에 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    6,
+    9
+   ]
+  },
+  {
+   "video_time": 91.317,
+   "line": "선두는 4번 남촌타운. 선두권에 8번 세븐카이저.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    6,
+    9
+   ]
+  },
+  {
+   "video_time": 94.317,
+   "line": "4번 남촌타운, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    6,
+    7
+   ]
+  },
+  {
+   "video_time": 95.367,
+   "line": "결승선 통과! 4번 남촌타운이 가장 먼저 들어옵니다!",
+   "winner_call": 4,
+   "official_winner": 4,
+   "verdict": "right"
+  }
+ ]
+}

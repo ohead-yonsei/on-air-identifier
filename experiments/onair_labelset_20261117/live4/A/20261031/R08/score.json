@@ -1,0 +1,385 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 24,
+  "lines with a number": 22,
+  "numbers": 48,
+  "numbers right": 44,
+  "numbers close": 3,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 15,
+  "leader right": 12,
+  "leader close": 2,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.258,
+  "max": 0.579
+ },
+ "rows": [
+  {
+   "video_time": 24.0,
+   "line": "1번 주링스카이가 선두입니다.",
+   "numbers": {
+    "1": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    3,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 27.0,
+   "line": "1번 주링스카이, 선두에 있습니다. 3번 플러터도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    3,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 30.0,
+   "line": "1번 주링스카이가 선두입니다. 2번 블루레인도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 33.0,
+   "line": "선두는 1번 주링스카이. 2번 블루레인, 3번 플러터도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 36.0,
+   "line": "여전히 선두는 1번 주링스카이. 선두권에 2번 블루레인, 3번 플러터.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 39.0,
+   "line": "선두는 1번 주링스카이. 선두권에 3번 플러터.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 42.0,
+   "line": "선두권에 3번 플러터, 9번 우루스사비아. 3번 플러터가 9번 우루스사비아보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "9": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 45.0,
+   "line": "선두권에 2번 블루레인, 3번 플러터. 2번 블루레인이 3번 플러터보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 48.0,
+   "line": "1번 주링스카이, 선두에 있습니다. 선두권에 3번 플러터.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 51.0,
+   "line": "선두권에 2번 블루레인, 3번 플러터. 2번 블루레인이 3번 플러터보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 54.0,
+   "line": "2번 블루레인, 3번 플러터, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 57.0,
+   "line": "1번 주링스카이, 선두에 있습니다. 2번 블루레인, 3번 플러터도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 60.0,
+   "line": "1번 주링스카이가 선두입니다. 3번 플러터도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "3": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    2,
+    1,
+    9
+   ]
+  },
+  {
+   "video_time": 63.0,
+   "line": "선두는 1번 주링스카이. 9번 우루스사비아도 선두권입니다.",
+   "numbers": {
+    "1": "close",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "wrong",
+   "official_order": [
+    3,
+    2,
+    9,
+    1
+   ]
+  },
+  {
+   "video_time": 66.0,
+   "line": "선두권에 3번 플러터, 5번 브라운맘마. 3번 플러터가 5번 브라운맘마보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "5": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 69.0,
+   "line": "3번 플러터, 선두에 있습니다. 2번 블루레인도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 72.0,
+   "line": "선두권에 2번 블루레인, 3번 플러터가 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 75.0,
+   "line": "선두권에 2번 블루레인, 3번 플러터, 9번 우루스사비아, 10번 나올대왕. 2번 블루레인이 9번 우루스사비아보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "3": "right",
+    "9": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    2,
+    9,
+    10
+   ]
+  },
+  {
+   "video_time": 78.0,
+   "line": "3번 플러터, 선두에 있습니다. 선두권에 5번 브라운맘마.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    2,
+    5,
+    9
+   ]
+  },
+  {
+   "video_time": 81.0,
+   "line": "3번 플러터, 계속 선두입니다. 선두권에 5번 브라운맘마.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    5,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 84.0,
+   "line": "여전히 선두는 3번 플러터. 선두권에 5번 브라운맘마.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    5,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 87.0,
+   "line": "선두는 5번 브라운맘마. 선두권에 3번 플러터.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    5,
+    2,
+    9
+   ]
+  },
+  {
+   "video_time": 89.95,
+   "line": "결승선 통과! 3번 플러터가 가장 먼저 들어옵니다!",
+   "winner_call": 3,
+   "official_winner": 5,
+   "verdict": "wrong"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{'lines': 29, 'lines with a number': 25, 'numbers': 52, 'numbers right': 44, 'numbers close': 5, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 11, 'leader right': 10, 'leader close': 1, 'leader wrong': 0}
+   20.30 numbers {2: 'wrong'} leader None None | official first four [6, 5, 10, 3] | 2번 강나루, 선두권에서 달립니다.
+   23.30 numbers {2: 'wrong'} leader None None | official first four [6, 5, 10, 3] | 선두권은 그대로 2번 강나루.
+   35.28 numbers {3: 'close', 6: 'right'} leader 6 right | official first four [6, 5, 10, 3] | 6번 슈퍼피니시가 선두입니다. 선두권에 3번 제이에스로드.
+   38.28 numbers {3: 'close', 6: 'right'} leader 6 right | official first four [6, 5, 10, 3] | 6번 슈퍼피니시, 계속 선두입니다. 선두권에 3번 제이에스로드.
+   41.28 numbers {3: 'close', 5: 'right', 6: 'right'} leader 6 right | official first four [6, 5, 10, 7] | 6번 슈퍼피니시가 선두입니다. 3번 제이에스로드, 5번 매직포션도 선두권입니다.
+   59.28 numbers {5: 'right', 6: 'right'} leader 6 close | official first four [5, 6, 10, 7] | 선두는 6번 슈퍼피니시. 5번 매직포션도 선두권입니다.
+   74.28 numbers {5: 'right', 6: 'close', 11: 'right'} leader None None | official first four [5, 10, 11, 6] | 선두권에 5번 매직포션, 6번 슈퍼피니시, 11번 빅스고. 6번 슈퍼피니시가 5번 매직포션보다 앞에 있습니다.
+   89.28 numbers {5: 'right', 9: 'close', 10: 'right'} leader 5 right | official first four [5, 11, 10, 9] | 5번 매직포션, 선두에 있습니다. 선두권에 9번 드론킬러, 10번 마의웨이.
+   98.28 numbers {5: 'right', 8: 'wrong'} leader None None | official first four [5, 9, 11, 10] | 선두권에 5번 매직포션, 8번 스피드원. 8번 스피드원이 5번 매직포션보다 앞에 있습니다.
+finish: 5 official 5 right

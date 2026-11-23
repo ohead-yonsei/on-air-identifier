@@ -1,0 +1,45 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 4,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "대한코코즈"
+  },
+  {
+   "number": 2,
+   "name": "리걸하이"
+  },
+  {
+   "number": 3,
+   "name": "이클립스서니"
+  },
+  {
+   "number": 4,
+   "name": "겨울장미"
+  },
+  {
+   "number": 5,
+   "name": "빛의순간"
+  },
+  {
+   "number": 6,
+   "name": "블랙선"
+  },
+  {
+   "number": 7,
+   "name": "럭키데이"
+  },
+  {
+   "number": 8,
+   "name": "핵다이아"
+  },
+  {
+   "number": 9,
+   "name": "온누리빛"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

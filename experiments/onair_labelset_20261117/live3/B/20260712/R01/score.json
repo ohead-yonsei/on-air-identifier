@@ -1,0 +1,303 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 20,
+  "lines with a number": 13,
+  "numbers": 27,
+  "numbers right": 27,
+  "numbers close": 0,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 6,
+  "leader right": 4,
+  "leader close": 1,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.273,
+  "max": 0.691
+ },
+ "rows": [
+  {
+   "video_time": 20.3,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 23.3,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 26.3,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 29.283,
+   "line": "서울 1경주 1000m, 출발 후 18초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 32.283,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 35.283,
+   "line": "선두는 3번 슬링스마일. 4번 모닝치프도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "close",
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 38.283,
+   "line": "4번 모닝치프, 선두에 있습니다. 3번 슬링스마일도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 41.283,
+   "line": "선두권에 3번 슬링스마일, 4번 모닝치프가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 44.283,
+   "line": "3번 슬링스마일, 4번 모닝치프, 계속 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 47.283,
+   "line": "선두권은 그대로 3번 슬링스마일, 4번 모닝치프.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 50.283,
+   "line": "선두권에 3번 슬링스마일, 4번 모닝치프, 7번 원더그레이스. 3번 슬링스마일이 7번 원더그레이스보다 앞에 있습니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 53.283,
+   "line": "4번 모닝치프가 선두입니다. 선두권에 3번 슬링스마일.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    7,
+    10
+   ]
+  },
+  {
+   "video_time": 56.283,
+   "line": "4번 모닝치프, 계속 선두입니다. 선두권에 3번 슬링스마일.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    7,
+    6
+   ]
+  },
+  {
+   "video_time": 59.283,
+   "line": "4번 모닝치프가 선두입니다. 3번 슬링스마일, 7번 원더그레이스도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    3,
+    7,
+    6
+   ]
+  },
+  {
+   "video_time": 62.283,
+   "line": "선두권에 3번 슬링스마일, 7번 원더그레이스가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    6
+   ]
+  },
+  {
+   "video_time": 65.283,
+   "line": "3번 슬링스마일, 7번 원더그레이스, 계속 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    3,
+    7,
+    8
+   ]
+  },
+  {
+   "video_time": 68.283,
+   "line": "7번 원더그레이스, 선두에 있습니다. 3번 슬링스마일도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "7": "right"
+   },
+   "leader": 7,
+   "leader_verdict": "wrong",
+   "official_order": [
+    4,
+    3,
+    7,
+    8
+   ]
+  },
+  {
+   "video_time": 71.283,
+   "line": "선두권에 7번 원더그레이스가 있습니다.",
+   "numbers": {
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    3,
+    8
+   ]
+  },
+  {
+   "video_time": 73.633,
+   "line": "결승선 통과! 7번 원더그레이스가 가장 먼저 들어옵니다!",
+   "winner_call": 7,
+   "official_winner": 4,
+   "verdict": "wrong"
+  }
+ ]
+}

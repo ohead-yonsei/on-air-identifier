@@ -1,0 +1,700 @@
+{
+ "video": "otherday23/videos/R03_3-mStaBRI-g.mp4",
+ "racecard": {
+  "date": "2026-07-12",
+  "place": "서울",
+  "race": 3,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "클레어프리덤"
+   },
+   {
+    "number": 2,
+    "name": "클럽맨"
+   },
+   {
+    "number": 3,
+    "name": "두손라이프"
+   },
+   {
+    "number": 4,
+    "name": "관악산위시미"
+   },
+   {
+    "number": 5,
+    "name": "미스터도르"
+   },
+   {
+    "number": 8,
+    "name": "영원한루체아"
+   },
+   {
+    "number": 9,
+    "name": "원더풀다르샨"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.133333333333333,
+  "finish": 94.7,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5937,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.257,
+  "max": 0.741
+ },
+ "furthest_behind_seconds": 0.725,
+ "dense_pictures": {
+  "run": 49,
+  "skipped_when_behind": 16
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.167,
+   "race_time": 1.03,
+   "ready": 9.168,
+   "line": "서울 3경주 1400m, 7두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.118,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.133,
+   "race_time": 9.0,
+   "ready": 17.476,
+   "line": "2번 클럽맨, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.341,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 20.716,
+   "delay": 0.343
+  },
+  {
+   "kind": "point",
+   "video_time": 20.133,
+   "race_time": 12.0,
+   "ready": 20.766,
+   "line": "선두권에 3번 두손라이프가 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.632,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.598,
+   "delay": 0.633
+  },
+  {
+   "kind": "point",
+   "video_time": 23.133,
+   "race_time": 15.0,
+   "ready": 23.648,
+   "line": "1번 클레어프리덤, 선두권에서 달립니다.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.513,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 26.596,
+   "delay": 0.515
+  },
+  {
+   "kind": "point",
+   "video_time": 26.133,
+   "race_time": 18.0,
+   "ready": 26.646,
+   "line": "선두권은 그대로 1번 클레어프리덤.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.511,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 29.415,
+   "delay": 0.513
+  },
+  {
+   "kind": "point",
+   "video_time": 29.133,
+   "race_time": 21.0,
+   "ready": 29.465,
+   "line": "4번 관악산위시미, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.331,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.336,
+   "delay": 0.332
+  },
+  {
+   "kind": "point",
+   "video_time": 32.133,
+   "race_time": 24.0,
+   "ready": 32.386,
+   "line": "선두는 1번 클레어프리덤. 3번 두손라이프도 선두권입니다.",
+   "statements": [
+    1,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.642
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 35.34,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 35.133,
+   "race_time": 27.0,
+   "ready": 35.39,
+   "line": "1번 클레어프리덤, 선두에 있습니다. 4번 관악산위시미도 선두권입니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.5098
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 38.328,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 38.133,
+   "race_time": 30.0,
+   "ready": 38.378,
+   "line": "1번 클레어프리덤이 선두입니다. 3번 두손라이프도 선두권입니다.",
+   "statements": [
+    1,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 41.319,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 41.133,
+   "race_time": 33.0,
+   "ready": 41.369,
+   "line": "선두권에 1번 클레어프리덤, 5번 미스터도르. 5번 미스터도르가 1번 클레어프리덤보다 앞에 있습니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.3161
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.314,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 44.133,
+   "race_time": 36.0,
+   "ready": 44.364,
+   "line": "선두는 1번 클레어프리덤. 5번 미스터도르도 선두권입니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 47.605,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 47.133,
+   "race_time": 39.0,
+   "ready": 47.655,
+   "line": "선두권에 1번 클레어프리덤, 5번 미스터도르. 5번 미스터도르가 1번 클레어프리덤보다 앞에 있습니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.4236
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.521,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.312,
+   "delay": 0.522
+  },
+  {
+   "kind": "point",
+   "video_time": 50.133,
+   "race_time": 42.0,
+   "ready": 50.362,
+   "line": "선두권에 5번 미스터도르가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 53.313,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 53.133,
+   "race_time": 45.0,
+   "ready": 53.363,
+   "line": "선두는 5번 미스터도르.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 56.33,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 56.133,
+   "race_time": 48.0,
+   "ready": 56.38,
+   "line": "여전히 선두는 5번 미스터도르.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 59.304,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 59.133,
+   "race_time": 51.0,
+   "ready": 59.354,
+   "line": "5번 미스터도르, 계속 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.22,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 62.337,
+   "delay": 0.221
+  },
+  {
+   "kind": "point",
+   "video_time": 62.133,
+   "race_time": 54.0,
+   "ready": 62.387,
+   "line": "선두권에 5번 미스터도르가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 65.332,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 65.15,
+   "race_time": 57.02,
+   "ready": 65.382,
+   "line": "선두권에 3번 두손라이프, 5번 미스터도르. 5번 미스터도르가 3번 두손라이프보다 앞에 있습니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3514
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 68.507,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 68.15,
+   "race_time": 60.02,
+   "ready": 68.557,
+   "line": "3번 두손라이프, 5번 미스터도르, 계속 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3178
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.406,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 71.346,
+   "delay": 0.407
+  },
+  {
+   "kind": "point",
+   "video_time": 71.15,
+   "race_time": 63.02,
+   "ready": 71.396,
+   "line": "5번 미스터도르, 선두에 있습니다. 1번 클레어프리덤, 3번 두손라이프도 선두권입니다.",
+   "statements": [
+    1,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 3,
+     "gap": 0.6772
+    },
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.2788
+    },
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3984
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 74.317,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 74.133,
+   "race_time": 66.0,
+   "ready": 74.367,
+   "line": "5번 미스터도르가 선두입니다. 3번 두손라이프도 선두권입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.5213
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 77.306,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 77.133,
+   "race_time": 69.0,
+   "ready": 77.356,
+   "line": "선두는 5번 미스터도르. 1번 클레어프리덤, 3번 두손라이프도 선두권입니다.",
+   "statements": [
+    1,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.7581
+    },
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7752
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.221,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 80.54,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 80.133,
+   "race_time": 72.0,
+   "ready": 80.59,
+   "line": "5번 미스터도르, 선두에 있습니다. 1번 클레어프리덤도 선두권입니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.7463
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.455,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 83.798,
+   "delay": 0.457
+  },
+  {
+   "kind": "point",
+   "video_time": 83.133,
+   "race_time": 75.0,
+   "ready": 83.848,
+   "line": "여전히 선두는 5번 미스터도르. 선두권에 1번 클레어프리덤.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.5503
+    }
+   ],
+   "late_at_start": 0.15,
+   "work_seconds": 0.564,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 86.653,
+   "delay": 0.715
+  },
+  {
+   "kind": "point",
+   "video_time": 86.133,
+   "race_time": 78.0,
+   "ready": 86.703,
+   "line": "5번 미스터도르, 선두에 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.106,
+   "work_seconds": 0.464,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 89.683,
+   "delay": 0.57
+  },
+  {
+   "kind": "point",
+   "video_time": 89.133,
+   "race_time": 81.0,
+   "ready": 89.733,
+   "line": "여전히 선두는 5번 미스터도르.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.111,
+   "work_seconds": 0.488,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 92.648,
+   "delay": 0.6
+  },
+  {
+   "kind": "point",
+   "video_time": 92.133,
+   "race_time": 84.0,
+   "ready": 92.698,
+   "line": "5번 미스터도르, 계속 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.097,
+   "work_seconds": 0.467,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 95.824,
+   "delay": 0.565
+  },
+  {
+   "kind": "point",
+   "video_time": 95.133,
+   "race_time": 87.0,
+   "ready": 95.874,
+   "line": "여전히 선두는 5번 미스터도르.",
+   "statements": [],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.167,
+   "work_seconds": 0.572,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 95.973,
+   "delay": 0.741
+  },
+  {
+   "kind": "finish",
+   "video_time": 95.917,
+   "race_time": 87.78,
+   "ready": 96.023,
+   "line": "결승선 통과! 5번 미스터도르가 가장 먼저 들어옵니다!",
+   "winner": 5,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "5": 5,
+     "3": 1
+    },
+    "seen": 7,
+    "front": 7,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 94.7,
+   "seconds_after_the_finish": 1.32,
+   "work_seconds": 0.001,
+   "shown_until": 101.973,
+   "delay": 0.106
+  }
+ ]
+}

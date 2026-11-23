@@ -1,0 +1,717 @@
+{
+ "video": "otherday26/videos/R11_Ydtt-x6vmt0.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "토호마켓"
+   },
+   {
+    "number": 2,
+    "name": "라온피날레"
+   },
+   {
+    "number": 3,
+    "name": "남산벨트"
+   },
+   {
+    "number": 4,
+    "name": "마이티숀"
+   },
+   {
+    "number": 5,
+    "name": "러브인서울"
+   },
+   {
+    "number": 6,
+    "name": "골드캐처"
+   },
+   {
+    "number": 7,
+    "name": "메가스텝"
+   },
+   {
+    "number": 8,
+    "name": "클럽큐"
+   },
+   {
+    "number": 9,
+    "name": "힐링헤이븐"
+   },
+   {
+    "number": 10,
+    "name": "파인핑크"
+   },
+   {
+    "number": 11,
+    "name": "용비교"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.333333333333334,
+  "finish": 95.633,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5993,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.262,
+  "max": 0.649
+ },
+ "furthest_behind_seconds": 0.636,
+ "dense_pictures": {
+  "run": 58,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.35,
+   "race_time": 1.02,
+   "ready": 9.351,
+   "line": "서울 11경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.301,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.35,
+   "race_time": 9.02,
+   "ready": 17.669,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.317,
+   "shown_until": 20.842,
+   "delay": 0.319
+  },
+  {
+   "kind": "point",
+   "video_time": 20.35,
+   "race_time": 12.02,
+   "ready": 20.892,
+   "line": "서울 11경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.541,
+   "shown_until": 23.545,
+   "delay": 0.542
+  },
+  {
+   "kind": "point",
+   "video_time": 23.35,
+   "race_time": 15.02,
+   "ready": 23.595,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 26.578,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 26.333,
+   "race_time": 18.0,
+   "ready": 26.628,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.294,
+   "shown_until": 29.769,
+   "delay": 0.295
+  },
+  {
+   "kind": "point",
+   "video_time": 29.333,
+   "race_time": 21.0,
+   "ready": 29.819,
+   "line": "선두권에 3번 남산벨트, 6번 골드캐처. 3번 남산벨트가 6번 골드캐처보다 앞에 있습니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3041
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.485,
+   "shown_until": 32.577,
+   "delay": 0.486
+  },
+  {
+   "kind": "point",
+   "video_time": 32.333,
+   "race_time": 24.0,
+   "ready": 32.627,
+   "line": "3번 남산벨트, 6번 골드캐처, 계속 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2427
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.292,
+   "shown_until": 35.538,
+   "delay": 0.294
+  },
+  {
+   "kind": "point",
+   "video_time": 35.333,
+   "race_time": 27.0,
+   "ready": 35.588,
+   "line": "선두는 3번 남산벨트. 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4785
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "shown_until": 38.545,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 38.333,
+   "race_time": 30.0,
+   "ready": 38.595,
+   "line": "여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.5671
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "shown_until": 41.559,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 41.333,
+   "race_time": 33.0,
+   "ready": 41.609,
+   "line": "3번 남산벨트, 계속 선두입니다. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.6164
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "shown_until": 44.562,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 44.333,
+   "race_time": 36.0,
+   "ready": 44.612,
+   "line": "여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.7484
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.277,
+   "shown_until": 47.525,
+   "delay": 0.279
+  },
+  {
+   "kind": "point",
+   "video_time": 47.333,
+   "race_time": 39.0,
+   "ready": 47.575,
+   "line": "3번 남산벨트, 계속 선두입니다. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.5642
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 50.54,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 50.333,
+   "race_time": 42.0,
+   "ready": 50.59,
+   "line": "선두는 3번 남산벨트. 5번 러브인서울, 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5658
+    },
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3457
+    },
+    {
+     "ahead": 6,
+     "behind": 5,
+     "gap": 0.2201
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "shown_until": 53.544,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 53.333,
+   "race_time": 45.0,
+   "ready": 53.594,
+   "line": "3번 남산벨트, 선두에 있습니다. 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.517
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "shown_until": 56.542,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 56.333,
+   "race_time": 48.0,
+   "ready": 56.592,
+   "line": "여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.533
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "shown_until": 59.516,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 59.333,
+   "race_time": 51.0,
+   "ready": 59.566,
+   "line": "3번 남산벨트, 계속 선두입니다. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2172
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 62.525,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 62.333,
+   "race_time": 54.0,
+   "ready": 62.575,
+   "line": "선두는 3번 남산벨트. 5번 러브인서울, 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5729
+    },
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4408
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 65.537,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 65.35,
+   "race_time": 57.02,
+   "ready": 65.587,
+   "line": "6번 골드캐처, 선두에 있습니다. 3번 남산벨트도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.3703
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 68.543,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 68.35,
+   "race_time": 60.02,
+   "ready": 68.593,
+   "line": "선두권에 3번 남산벨트, 6번 골드캐처. 3번 남산벨트가 6번 골드캐처보다 앞에 있습니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2994
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 71.53,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 71.35,
+   "race_time": 63.02,
+   "ready": 71.58,
+   "line": "3번 남산벨트가 선두입니다. 5번 러브인서울, 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    5,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5943
+    },
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.5017
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 74.527,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 74.333,
+   "race_time": 66.0,
+   "ready": 74.577,
+   "line": "선두는 3번 남산벨트. 6번 골드캐처도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3438
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 77.523,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 77.333,
+   "race_time": 69.0,
+   "ready": 77.573,
+   "line": "여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3778
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "shown_until": 80.674,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 80.333,
+   "race_time": 72.0,
+   "ready": 80.724,
+   "line": "3번 남산벨트, 계속 선두입니다. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.5417
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.389,
+   "shown_until": 83.747,
+   "delay": 0.391
+  },
+  {
+   "kind": "point",
+   "video_time": 83.333,
+   "race_time": 75.0,
+   "ready": 83.797,
+   "line": "여전히 선두는 3번 남산벨트. 선두권에 6번 골드캐처.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2741
+    }
+   ],
+   "late_at_start": 0.015,
+   "work_seconds": 0.448,
+   "shown_until": 86.724,
+   "delay": 0.464
+  },
+  {
+   "kind": "point",
+   "video_time": 86.333,
+   "race_time": 78.0,
+   "ready": 86.774,
+   "line": "3번 남산벨트, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.151,
+   "work_seconds": 0.288,
+   "shown_until": 89.679,
+   "delay": 0.441
+  },
+  {
+   "kind": "point",
+   "video_time": 89.333,
+   "race_time": 81.0,
+   "ready": 89.729,
+   "line": "선두권은 그대로 3번 남산벨트.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.288,
+   "shown_until": 92.677,
+   "delay": 0.396
+  },
+  {
+   "kind": "point",
+   "video_time": 92.333,
+   "race_time": 84.0,
+   "ready": 92.727,
+   "line": "1400m 경주, 출발 후 84초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.101,
+   "work_seconds": 0.292,
+   "shown_until": 95.932,
+   "delay": 0.394
+  },
+  {
+   "kind": "point",
+   "video_time": 95.333,
+   "race_time": 87.0,
+   "ready": 95.982,
+   "line": "7번 메가스텝, 선두에 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.181,
+   "work_seconds": 0.467,
+   "shown_until": 96.88,
+   "delay": 0.649
+  },
+  {
+   "kind": "finish",
+   "video_time": 96.85,
+   "race_time": 88.52,
+   "ready": 96.93,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "11": 1,
+     "2": 1,
+     "4": 1,
+     "7": 1,
+     "1": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 27
+   },
+   "finish_video_time": 95.633,
+   "seconds_after_the_finish": 1.3,
+   "work_seconds": 0.0,
+   "shown_until": 102.88,
+   "delay": 0.08
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "video": "otherday25/videos/R10_UNoTqyEzkP0.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 10,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "마이티조이"
+   },
+   {
+    "number": 2,
+    "name": "라온플로렌스"
+   },
+   {
+    "number": 3,
+    "name": "원더풀제트"
+   },
+   {
+    "number": 4,
+    "name": "스타트렉"
+   },
+   {
+    "number": 5,
+    "name": "루프톱"
+   },
+   {
+    "number": 6,
+    "name": "엘도라도놀부"
+   },
+   {
+    "number": 7,
+    "name": "관악산스톰"
+   },
+   {
+    "number": 8,
+    "name": "선더드림"
+   },
+   {
+    "number": 9,
+    "name": "디아나"
+   },
+   {
+    "number": 10,
+    "name": "장비대운"
+   },
+   {
+    "number": 11,
+    "name": "스퍼트빗"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 5.933333333333334,
+  "finish": 79.35,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5016,
+ "lines": 24,
+ "delay_seconds": {
+  "median": 0.263,
+  "max": 0.635
+ },
+ "furthest_behind_seconds": 0.619,
+ "dense_pictures": {
+  "run": 60,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 6.967,
+   "race_time": 1.03,
+   "ready": 6.968,
+   "line": "서울 10경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 12.918,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 14.933,
+   "race_time": 9.0,
+   "ready": 15.209,
+   "line": "3번 원더풀제트, 4번 스타트렉, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "shown_until": 18.175,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 17.933,
+   "race_time": 12.0,
+   "ready": 18.225,
+   "line": "선두권에 4번 스타트렉이 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.291,
+   "shown_until": 21.155,
+   "delay": 0.292
+  },
+  {
+   "kind": "point",
+   "video_time": 20.933,
+   "race_time": 15.0,
+   "ready": 21.205,
+   "line": "4번 스타트렉, 계속 선두권입니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 24.122,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 23.933,
+   "race_time": 18.0,
+   "ready": 24.172,
+   "line": "선두권은 그대로 4번 스타트렉.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 27.169,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 26.933,
+   "race_time": 21.0,
+   "ready": 27.219,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰. 4번 스타트렉이 7번 관악산스톰보다 앞에 있습니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.2162
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.284,
+   "shown_until": 30.164,
+   "delay": 0.286
+  },
+  {
+   "kind": "point",
+   "video_time": 29.933,
+   "race_time": 24.0,
+   "ready": 30.214,
+   "line": "4번 스타트렉, 선두에 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.279,
+   "shown_until": 33.136,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 32.95,
+   "race_time": 27.02,
+   "ready": 33.186,
+   "line": "선두권에 4번 스타트렉, 5번 루프톱. 4번 스타트렉이 5번 루프톱보다 앞에 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.3248
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 36.163,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 35.95,
+   "race_time": 30.02,
+   "ready": 36.213,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰이 있습니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 39.177,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 38.933,
+   "race_time": 33.0,
+   "ready": 39.227,
+   "line": "4번 스타트렉, 7번 관악산스톰, 계속 선두권입니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 4,
+     "gap": 0.2016
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.293,
+   "shown_until": 42.12,
+   "delay": 0.294
+  },
+  {
+   "kind": "point",
+   "video_time": 41.933,
+   "race_time": 36.0,
+   "ready": 42.17,
+   "line": "4번 스타트렉, 선두에 있습니다. 7번 관악산스톰도 선두권입니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.3281
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 45.131,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 44.933,
+   "race_time": 39.0,
+   "ready": 45.181,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰이 있습니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 48.128,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 47.933,
+   "race_time": 42.0,
+   "ready": 48.178,
+   "line": "선두권에 1번 마이티조이, 4번 스타트렉, 7번 관악산스톰. 4번 스타트렉이 1번 마이티조이보다 앞에 있습니다.",
+   "statements": [
+    1,
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 1,
+     "gap": 0.3398
+    },
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.3733
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "shown_until": 51.153,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 50.933,
+   "race_time": 45.0,
+   "ready": 51.203,
+   "line": "4번 스타트렉, 선두에 있습니다. 선두권에 7번 관악산스톰.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.6916
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "shown_until": 54.125,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 53.933,
+   "race_time": 48.0,
+   "ready": 54.175,
+   "line": "4번 스타트렉이 선두입니다. 선두권에 1번 마이티조이, 7번 관악산스톰.",
+   "statements": [
+    1,
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 1,
+     "gap": 0.3455
+    },
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.33
+    },
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.6756
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "shown_until": 57.146,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 56.933,
+   "race_time": 51.0,
+   "ready": 57.196,
+   "line": "선두는 1번 마이티조이. 선두권에 4번 스타트렉.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "shown_until": 60.127,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 59.933,
+   "race_time": 54.0,
+   "ready": 60.177,
+   "line": "4번 스타트렉, 선두에 있습니다. 선두권에 1번 마이티조이.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "shown_until": 63.134,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 62.933,
+   "race_time": 57.0,
+   "ready": 63.184,
+   "line": "1번 마이티조이가 선두입니다. 선두권에 4번 스타트렉.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "shown_until": 66.118,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 65.933,
+   "race_time": 60.0,
+   "ready": 66.168,
+   "line": "1번 마이티조이, 4번 스타트렉, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 69.098,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 68.933,
+   "race_time": 63.0,
+   "ready": 69.148,
+   "line": "선두권에 1번 마이티조이, 5번 루프톱. 1번 마이티조이가 5번 루프톱보다 앞에 있습니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.2074
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.213,
+   "shown_until": 72.318,
+   "delay": 0.215
+  },
+  {
+   "kind": "point",
+   "video_time": 71.933,
+   "race_time": 66.0,
+   "ready": 72.368,
+   "line": "4번 스타트렉이 선두입니다. 1번 마이티조이도 선두권입니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 1,
+     "gap": 0.5984
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.433,
+   "shown_until": 75.518,
+   "delay": 0.435
+  },
+  {
+   "kind": "point",
+   "video_time": 74.933,
+   "race_time": 69.0,
+   "ready": 75.568,
+   "line": "선두권에 1번 마이티조이, 5번 루프톱이 있습니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.13,
+   "work_seconds": 0.504,
+   "shown_until": 78.479,
+   "delay": 0.635
+  },
+  {
+   "kind": "point",
+   "video_time": 77.933,
+   "race_time": 72.0,
+   "ready": 78.529,
+   "line": "5번 루프톱이 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.084,
+   "work_seconds": 0.512,
+   "shown_until": 80.519,
+   "delay": 0.596
+  },
+  {
+   "kind": "finish",
+   "video_time": 80.567,
+   "race_time": 74.63,
+   "ready": 80.569,
+   "line": "결승선 통과! 5번 루프톱이 가장 먼저 들어옵니다!",
+   "winner": 5,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "4": 5,
+     "5": 7,
+     "8": 1
+    },
+    "seen": 3,
+    "front": 3,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 79.35,
+   "seconds_after_the_finish": 1.22,
+   "work_seconds": 0.001,
+   "shown_until": 86.519,
+   "delay": 0.002
+  }
+ ]
+}

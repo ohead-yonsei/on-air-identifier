@@ -1,0 +1,5 @@
+{'lines': 24, 'lines with a number': 22, 'numbers': 42, 'numbers right': 41, 'numbers close': 0, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 10, 'leader right': 8, 'leader close': 1, 'leader wrong': 1}
+   20.35 numbers {1: 'right', 2: 'right', 8: 'right'} leader 1 wrong | official first four [8, 2, 1, 4] | 1번 브라보플레이, 선두에 있습니다. 2번 더선불사조, 8번 에브리타임도 선두권입니다.
+   29.33 numbers {6: 'wrong', 8: 'right'} leader None None | official first four [8, 2, 4, 1] | 선두권에 6번 크레이지망고, 8번 에브리타임이 있습니다.
+   32.33 numbers {2: 'right', 8: 'right'} leader 2 close | official first four [8, 2, 4, 7] | 2번 더선불사조가 선두입니다. 선두권에 8번 에브리타임.
+finish: 4 official 4 right

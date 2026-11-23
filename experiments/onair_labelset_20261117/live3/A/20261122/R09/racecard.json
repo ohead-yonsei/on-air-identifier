@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 9,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "레전드와우"
+  },
+  {
+   "number": 2,
+   "name": "빅토리삭스"
+  },
+  {
+   "number": 3,
+   "name": "콜긴"
+  },
+  {
+   "number": 4,
+   "name": "블랙시대"
+  },
+  {
+   "number": 5,
+   "name": "은빛돌풍"
+  },
+  {
+   "number": 6,
+   "name": "나이스위너"
+  },
+  {
+   "number": 7,
+   "name": "히어아이엠"
+  },
+  {
+   "number": 8,
+   "name": "샤이닝로드"
+  },
+  {
+   "number": 9,
+   "name": "관악산레오"
+  },
+  {
+   "number": 10,
+   "name": "파워에치드"
+  },
+  {
+   "number": 11,
+   "name": "브리도시리스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

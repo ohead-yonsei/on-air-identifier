@@ -1,0 +1,10 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 49, 'numbers right': 44, 'numbers close': 4, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 11, 'leader right': 7, 'leader close': 4, 'leader wrong': 0}
+   27.68 numbers {2: 'right', 3: 'right', 6: 'close'} leader None None | official first four [2, 4, 3, 6] | 2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라, 선두권에서 달립니다.
+   30.68 numbers {2: 'right', 3: 'right', 6: 'close'} leader None None | official first four [2, 3, 4, 6] | 선두권은 그대로 2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라.
+   33.70 numbers {2: 'right', 3: 'right', 6: 'close'} leader None None | official first four [3, 2, 4, 6] | 2번 카스텔라, 3번 빅토리라이프, 6번 타라우마라, 계속 선두권입니다.
+   39.70 numbers {2: 'right', 3: 'right', 6: 'close'} leader 2 close | official first four [3, 2, 4, 6] | 2번 카스텔라가 선두입니다. 선두권에 3번 빅토리라이프, 6번 타라우마라.
+   45.68 numbers {2: 'right', 11: 'wrong'} leader None None | official first four [3, 2, 1, 6] | 2번 카스텔라, 선두권에서 달립니다.
+   48.68 numbers {2: 'right', 3: 'right'} leader 2 close | official first four [3, 2, 1, 6] | 선두는 2번 카스텔라. 3번 빅토리라이프도 선두권입니다.
+   66.68 numbers {2: 'right', 3: 'right'} leader 3 close | official first four [2, 3, 1, 5] | 3번 빅토리라이프, 계속 선두입니다. 선두권에 2번 카스텔라.
+   69.68 numbers {1: 'right', 2: 'right', 3: 'right'} leader 3 close | official first four [2, 3, 1, 5] | 3번 빅토리라이프, 선두에 있습니다. 1번 나르샤글로리, 2번 카스텔라도 선두권입니다.
+finish: 2 official 2 right

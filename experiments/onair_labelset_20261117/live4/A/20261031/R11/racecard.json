@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "아르고리치"
+  },
+  {
+   "number": 2,
+   "name": "리멤버어게인"
+  },
+  {
+   "number": 3,
+   "name": "히어로삭스"
+  },
+  {
+   "number": 4,
+   "name": "드론킬러"
+  },
+  {
+   "number": 5,
+   "name": "한강퍼펙트"
+  },
+  {
+   "number": 6,
+   "name": "우승콩코드"
+  },
+  {
+   "number": 7,
+   "name": "블루레몬"
+  },
+  {
+   "number": 8,
+   "name": "마이티조이"
+  },
+  {
+   "number": 9,
+   "name": "마스터콰이곤"
+  },
+  {
+   "number": 11,
+   "name": "위즈러너"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

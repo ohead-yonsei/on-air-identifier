@@ -1,0 +1,20 @@
+{'lines': 39, 'lines with a number': 37, 'numbers': 61, 'numbers right': 43, 'numbers close': 2, 'numbers wrong': 16, 'lines with a wrong number': 14, 'leader lines': 11, 'leader right': 7, 'leader close': 3, 'leader wrong': 1}
+   29.90 numbers {2: 'right'} leader 2 close | official first four [7, 9, 2, 8] | 2번 큐피드커맨드, 선두에 있습니다.
+   47.90 numbers {5: 'wrong', 7: 'right'} leader 7 right | official first four [7, 10, 9, 2] | 7번 지존불패, 선두에 있습니다. 5번 금아포모스트도 선두권입니다.
+   53.90 numbers {5: 'wrong'} leader None None | official first four [7, 10, 9, 2] | 5번 금아포모스트, 선두권에서 달립니다.
+   56.90 numbers {5: 'wrong', 7: 'right'} leader None None | official first four [7, 10, 9, 2] | 선두권에 5번 금아포모스트, 7번 지존불패. 7번 지존불패가 5번 금아포모스트보다 앞에 있습니다.
+   59.90 numbers {5: 'wrong', 9: 'right'} leader None None | official first four [7, 10, 9, 2] | 선두권에 5번 금아포모스트, 9번 프리메로가 있습니다.
+   62.90 numbers {3: 'wrong'} leader None None | official first four [7, 10, 9, 2] | 3번 패션스타, 선두권에서 달립니다.
+   65.90 numbers {3: 'wrong'} leader None None | official first four [7, 10, 9, 2] | 선두권은 그대로 3번 패션스타.
+   68.90 numbers {8: 'wrong'} leader None None | official first four [7, 10, 9, 2] | 8번 포에버길, 선두권에서 달립니다.
+   71.90 numbers {2: 'wrong', 11: 'wrong'} leader None None | official first four [10, 7, 9, 2] | 선두권에 2번 큐피드커맨드, 11번 백룡이 있습니다.
+   74.90 numbers {2: 'wrong', 11: 'wrong'} leader None None | official first four [10, 7, 9, 2] | 2번 큐피드커맨드, 11번 백룡, 계속 선두권입니다.
+   77.90 numbers {2: 'wrong'} leader None None | official first four [10, 7, 9, 11] | 선두권에 2번 큐피드커맨드가 있습니다.
+   80.90 numbers {11: 'close'} leader 11 wrong | official first four [10, 7, 9, 11] | 11번 백룡이 선두입니다.
+   83.90 numbers {11: 'right'} leader 11 close | official first four [10, 11, 7, 9] | 여전히 선두는 11번 백룡.
+   89.90 numbers {5: 'wrong', 7: 'right', 11: 'right'} leader 11 right | official first four [11, 10, 7, 9] | 11번 백룡이 선두입니다. 5번 금아포모스트, 7번 지존불패도 선두권입니다.
+   92.90 numbers {5: 'wrong', 7: 'close'} leader None None | official first four [11, 10, 9, 7] | 선두권에 5번 금아포모스트, 7번 지존불패가 있습니다.
+   95.90 numbers {9: 'right', 10: 'right'} leader 10 close | official first four [11, 10, 9, 7] | 10번 스팅제트가 선두입니다. 선두권에 9번 프리메로.
+  131.90 numbers {5: 'wrong', 8: 'right', 9: 'right'} leader None None | official first four [8, 9, 10, 3] | 선두권에 5번 금아포모스트, 8번 포에버길, 9번 프리메로가 있습니다.
+  134.90 numbers {7: 'wrong'} leader None None | official first four [8, 9, 10, 3] | 7번 지존불패, 선두권에서 달립니다.
+finish: None official 8 no call

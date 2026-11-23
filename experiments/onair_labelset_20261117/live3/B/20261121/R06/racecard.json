@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 6,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "베스트프리덤"
+  },
+  {
+   "number": 2,
+   "name": "서브미션"
+  },
+  {
+   "number": 3,
+   "name": "어디든지"
+  },
+  {
+   "number": 4,
+   "name": "하남레이저"
+  },
+  {
+   "number": 5,
+   "name": "킹스파이시"
+  },
+  {
+   "number": 6,
+   "name": "에클레어"
+  },
+  {
+   "number": 7,
+   "name": "황금송"
+  },
+  {
+   "number": 8,
+   "name": "용비신성"
+  },
+  {
+   "number": 9,
+   "name": "하늘감동"
+  },
+  {
+   "number": 10,
+   "name": "베스트라지"
+  },
+  {
+   "number": 11,
+   "name": "위너남촌"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

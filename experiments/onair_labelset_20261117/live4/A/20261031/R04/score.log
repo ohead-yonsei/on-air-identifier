@@ -1,0 +1,5 @@
+{'lines': 21, 'lines with a number': 17, 'numbers': 30, 'numbers right': 28, 'numbers close': 0, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 9, 'leader right': 8, 'leader close': 1, 'leader wrong': 0}
+   21.42 numbers {10: 'wrong'} leader None None | official first four [1, 4, 7, 5] | 10번, 선두권에서 달립니다.
+   24.42 numbers {11: 'wrong'} leader None None | official first four [1, 4, 7, 5] | 서울 4경주 1000m, 출발 후 12초가 지났습니다.
+   57.42 numbers {1: 'right', 4: 'right'} leader 4 close | official first four [1, 4, 7, 3] | 4번 영원한보스가 선두입니다. 1번 골든벨스타도 선두권입니다.
+finish: None official 1 no call

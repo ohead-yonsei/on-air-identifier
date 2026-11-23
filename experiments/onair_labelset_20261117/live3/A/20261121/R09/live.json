@@ -1,0 +1,641 @@
+{
+ "video": "otherday25/videos/R09_AWRYbpHzIq0.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 9,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "그냥가라"
+   },
+   {
+    "number": 2,
+    "name": "대한의영웅"
+   },
+   {
+    "number": 3,
+    "name": "글로리앤아너"
+   },
+   {
+    "number": 4,
+    "name": "마이티아미"
+   },
+   {
+    "number": 5,
+    "name": "팡팡대로"
+   },
+   {
+    "number": 6,
+    "name": "크레이지챔프"
+   },
+   {
+    "number": 7,
+    "name": "싱싱모닝"
+   },
+   {
+    "number": 8,
+    "name": "라온더케이샤"
+   },
+   {
+    "number": 9,
+    "name": "브리도피닉스"
+   },
+   {
+    "number": 10,
+    "name": "바람의기억"
+   },
+   {
+    "number": 11,
+    "name": "세종비상"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.283333333333333,
+  "finish": 86.45,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5442,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.252,
+  "max": 0.61
+ },
+ "furthest_behind_seconds": 0.595,
+ "dense_pictures": {
+  "run": 63,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.283,
+   "race_time": 1.0,
+   "ready": 13.285,
+   "line": "서울 9경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 21.3,
+   "race_time": 9.02,
+   "ready": 21.68,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프. 3번 글로리앤아너가 6번 크레이지챔프보다 앞에 있습니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.558
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.379,
+   "shown_until": 24.535,
+   "delay": 0.38
+  },
+  {
+   "kind": "point",
+   "video_time": 24.3,
+   "race_time": 12.02,
+   "ready": 24.585,
+   "line": "3번 글로리앤아너, 5번 팡팡대로, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.284,
+   "shown_until": 27.498,
+   "delay": 0.285
+  },
+  {
+   "kind": "point",
+   "video_time": 27.3,
+   "race_time": 15.02,
+   "ready": 27.548,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프가 있습니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "shown_until": 30.513,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 30.283,
+   "race_time": 18.0,
+   "ready": 30.563,
+   "line": "선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "shown_until": 33.484,
+   "delay": 0.28
+  },
+  {
+   "kind": "point",
+   "video_time": 33.283,
+   "race_time": 21.0,
+   "ready": 33.534,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 36.491,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 36.283,
+   "race_time": 24.0,
+   "ready": 36.541,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 39.471,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 39.283,
+   "race_time": 27.0,
+   "ready": 39.521,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.7334
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 42.501,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 42.283,
+   "race_time": 30.0,
+   "ready": 42.551,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.292
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "shown_until": 45.49,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 45.283,
+   "race_time": 33.0,
+   "ready": 45.54,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.6533
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "shown_until": 48.474,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 48.283,
+   "race_time": 36.0,
+   "ready": 48.524,
+   "line": "6번 크레이지챔프가 선두입니다. 3번 글로리앤아너, 7번 싱싱모닝도 선두권입니다.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.5762
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.7598
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "shown_until": 51.474,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 51.283,
+   "race_time": 39.0,
+   "ready": 51.524,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너, 7번 싱싱모닝.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.7221
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.7204
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "shown_until": 54.471,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 54.283,
+   "race_time": 42.0,
+   "ready": 54.521,
+   "line": "6번 크레이지챔프, 계속 선두입니다. 선두권에 3번 글로리앤아너, 7번 싱싱모닝.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.5224
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.5589
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 57.47,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 57.283,
+   "race_time": 45.0,
+   "ready": 57.52,
+   "line": "6번 크레이지챔프, 선두에 있습니다. 3번 글로리앤아너도 선두권입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.5863
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 60.485,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 60.283,
+   "race_time": 48.0,
+   "ready": 60.535,
+   "line": "여전히 선두는 6번 크레이지챔프. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 63.485,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 63.283,
+   "race_time": 51.0,
+   "ready": 63.535,
+   "line": "3번 글로리앤아너, 선두에 있습니다. 선두권에 6번 크레이지챔프.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.412
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "shown_until": 66.479,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 66.283,
+   "race_time": 54.0,
+   "ready": 66.529,
+   "line": "선두권에 3번 글로리앤아너, 6번 크레이지챔프, 7번 싱싱모닝. 3번 글로리앤아너가 7번 싱싱모닝보다 앞에 있습니다.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2109
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.2126
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "shown_until": 69.478,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 69.283,
+   "race_time": 57.0,
+   "ready": 69.528,
+   "line": "3번 글로리앤아너가 선두입니다. 선두권에 6번 크레이지챔프, 7번 싱싱모닝.",
+   "statements": [
+    3,
+    6,
+    7
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3176
+    },
+    {
+     "ahead": 3,
+     "behind": 7,
+     "gap": 0.2895
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 72.477,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 72.283,
+   "race_time": 60.0,
+   "ready": 72.527,
+   "line": "선두는 3번 글로리앤아너. 선두권에 7번 싱싱모닝.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 75.47,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 75.283,
+   "race_time": 63.0,
+   "ready": 75.52,
+   "line": "7번 싱싱모닝, 선두에 있습니다. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.8268
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 78.549,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 78.283,
+   "race_time": 66.0,
+   "ready": 78.599,
+   "line": "7번 싱싱모닝, 계속 선두입니다. 선두권에 3번 글로리앤아너.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.7661
+    }
+   ],
+   "late_at_start": 0.103,
+   "work_seconds": 0.211,
+   "shown_until": 81.816,
+   "delay": 0.316
+  },
+  {
+   "kind": "point",
+   "video_time": 81.283,
+   "race_time": 69.0,
+   "ready": 81.866,
+   "line": "7번 싱싱모닝, 선두에 있습니다. 9번 브리도피닉스도 선두권입니다.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.7931
+    }
+   ],
+   "late_at_start": 0.082,
+   "work_seconds": 0.5,
+   "shown_until": 84.843,
+   "delay": 0.583
+  },
+  {
+   "kind": "point",
+   "video_time": 84.283,
+   "race_time": 72.0,
+   "ready": 84.893,
+   "line": "여전히 선두는 7번 싱싱모닝. 선두권에 9번 브리도피닉스.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.5509
+    }
+   ],
+   "late_at_start": 0.15,
+   "work_seconds": 0.459,
+   "shown_until": 87.63,
+   "delay": 0.61
+  },
+  {
+   "kind": "point",
+   "video_time": 87.283,
+   "race_time": 75.0,
+   "ready": 87.68,
+   "line": "9번 브리도피닉스, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.004,
+   "work_seconds": 0.393,
+   "shown_until": 87.679,
+   "delay": 0.397
+  },
+  {
+   "kind": "finish",
+   "video_time": 87.667,
+   "race_time": 75.38,
+   "ready": 87.729,
+   "line": "결승선 통과! 7번 싱싱모닝이 가장 먼저 들어옵니다!",
+   "winner": 7,
+   "winner_call": {
+    "candidate": 7,
+    "pictures_naming_each": {
+     "7": 11
+    },
+    "seen": 8,
+    "front": 8,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 86.45,
+   "seconds_after_the_finish": 1.28,
+   "work_seconds": 0.001,
+   "shown_until": 93.679,
+   "delay": 0.062
+  }
+ ]
+}

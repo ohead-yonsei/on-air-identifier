@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 2,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "히어로미톨"
+  },
+  {
+   "number": 2,
+   "name": "서래봉"
+  },
+  {
+   "number": 3,
+   "name": "파라오의딸"
+  },
+  {
+   "number": 4,
+   "name": "지비플래시"
+  },
+  {
+   "number": 5,
+   "name": "마이티로그"
+  },
+  {
+   "number": 6,
+   "name": "투잡스"
+  },
+  {
+   "number": 7,
+   "name": "미스터빅벨"
+  },
+  {
+   "number": 8,
+   "name": "모닝마루"
+  },
+  {
+   "number": 9,
+   "name": "풀하디"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

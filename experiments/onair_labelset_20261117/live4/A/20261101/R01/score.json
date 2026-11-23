@@ -1,0 +1,323 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 21,
+  "lines with a number": 16,
+  "numbers": 31,
+  "numbers right": 28,
+  "numbers close": 3,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 11,
+  "leader right": 10,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.269,
+  "max": 0.657
+ },
+ "rows": [
+  {
+   "video_time": 32.0,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    11
+   ]
+  },
+  {
+   "video_time": 35.0,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    11
+   ]
+  },
+  {
+   "video_time": 38.0,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    11
+   ]
+  },
+  {
+   "video_time": 41.0,
+   "line": "선두권에 5번 위너라이징이 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    4
+   ]
+  },
+  {
+   "video_time": 44.0,
+   "line": "선두권에 5번 위너라이징, 11번 와와삭스. 5번 위너라이징이 11번 와와삭스보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "11": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    4
+   ]
+  },
+  {
+   "video_time": 47.0,
+   "line": "4번 나우데이즈, 5번 위너라이징, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "close",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    10,
+    4
+   ]
+  },
+  {
+   "video_time": 50.0,
+   "line": "선두권은 그대로 4번 나우데이즈, 5번 위너라이징.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 53.0,
+   "line": "5번 위너라이징이 선두입니다. 선두권에 4번 나우데이즈, 10번 오섬모닝.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "10": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 56.0,
+   "line": "선두는 5번 위너라이징.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 59.0,
+   "line": "4번 나우데이즈가 선두입니다. 5번 위너라이징도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "wrong",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 62.0,
+   "line": "선두는 5번 위너라이징. 4번 나우데이즈, 6번 모닝벨도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 65.0,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 4번 나우데이즈, 6번 모닝벨.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 68.0,
+   "line": "선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 71.0,
+   "line": "5번 위너라이징, 계속 선두입니다. 선두권에 6번 모닝벨.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 74.0,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 77.0,
+   "line": "5번 위너라이징, 계속 선두입니다. 선두권에 6번 모닝벨.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 80.0,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 83.0,
+   "line": "선두는 5번 위너라이징.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 86.0,
+   "line": "선두권에 5번 위너라이징이 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    4,
+    10
+   ]
+  },
+  {
+   "video_time": 86.017,
+   "line": "결승선 통과! 5번 위너라이징이 가장 먼저 들어옵니다!",
+   "winner_call": 5,
+   "official_winner": 5,
+   "verdict": "right"
+  }
+ ]
+}

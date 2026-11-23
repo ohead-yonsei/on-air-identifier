@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "place": "서울",
+ "race": 6,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "내길의에이스"
+  },
+  {
+   "number": 2,
+   "name": "비케이데블"
+  },
+  {
+   "number": 3,
+   "name": "엑설런트한센"
+  },
+  {
+   "number": 4,
+   "name": "퀸즈플라잉"
+  },
+  {
+   "number": 5,
+   "name": "글로리삭스"
+  },
+  {
+   "number": 6,
+   "name": "글로벌최강"
+  },
+  {
+   "number": 7,
+   "name": "스톰체이서"
+  },
+  {
+   "number": 8,
+   "name": "스마트마루"
+  },
+  {
+   "number": 9,
+   "name": "게티즈버그"
+  },
+  {
+   "number": 10,
+   "name": "스마트신화"
+  },
+  {
+   "number": 11,
+   "name": "스터닝칼리버"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

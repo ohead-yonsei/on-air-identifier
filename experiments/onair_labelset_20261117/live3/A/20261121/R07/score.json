@@ -1,0 +1,573 @@
+{
+ "official_winner": 6,
+ "totals": {
+  "lines": 37,
+  "lines with a number": 34,
+  "numbers": 55,
+  "numbers right": 49,
+  "numbers close": 4,
+  "numbers wrong": 2,
+  "lines with a wrong number": 2,
+  "leader lines": 11,
+  "leader right": 10,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.245,
+  "max": 0.669
+ },
+ "rows": [
+  {
+   "video_time": 19.933,
+   "line": "4번 블랙러시안, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 22.933,
+   "line": "선두권은 그대로 4번 블랙러시안.",
+   "numbers": {
+    "4": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 25.933,
+   "line": "1700m 경주, 출발 후 15초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 28.933,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 31.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 34.95,
+   "line": "6번 신한에이스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 37.95,
+   "line": "선두권은 그대로 6번 신한에이스.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 40.95,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 43.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍, 11번 위너삭스. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right",
+    "11": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 46.933,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 49.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    6,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 52.933,
+   "line": "선두는 11번 위너삭스. 선두권에 6번 신한에이스.",
+   "numbers": {
+    "6": "right",
+    "11": "wrong"
+   },
+   "leader": 11,
+   "leader_verdict": "wrong",
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 55.933,
+   "line": "6번 신한에이스, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 58.933,
+   "line": "선두는 1번 마이티크리스. 9번 더선커밍도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 61.933,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 64.933,
+   "line": "선두는 1번 마이티크리스. 선두권에 9번 더선커밍.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 67.933,
+   "line": "1번 마이티크리스, 선두에 있습니다. 선두권에 4번 블랙러시안, 9번 더선커밍.",
+   "numbers": {
+    "1": "right",
+    "4": "close",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 70.933,
+   "line": "1번 마이티크리스가 선두입니다. 선두권에 9번 더선커밍.",
+   "numbers": {
+    "1": "right",
+    "9": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "right",
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 73.933,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 76.933,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 79.933,
+   "line": "9번 더선커밍, 계속 선두권입니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 82.933,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    1,
+    9,
+    6,
+    4
+   ]
+  },
+  {
+   "video_time": 85.933,
+   "line": "9번 더선커밍이 선두입니다. 선두권에 6번 신한에이스.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    1,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 88.933,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 91.933,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    1,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 94.933,
+   "line": "9번 더선커밍, 계속 선두권입니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    9,
+    1,
+    11
+   ]
+  },
+  {
+   "video_time": 97.933,
+   "line": "선두권에 4번 블랙러시안, 9번 더선커밍이 있습니다.",
+   "numbers": {
+    "4": "close",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    9,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 100.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 6번 신한에이스가 9번 더선커밍보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    9,
+    11,
+    4
+   ]
+  },
+  {
+   "video_time": 103.933,
+   "line": "6번 신한에이스가 선두입니다. 선두권에 9번 더선커밍.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    11,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 106.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 6번 신한에이스가 9번 더선커밍보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    11,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 109.933,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍, 11번 위너삭스. 6번 신한에이스가 9번 더선커밍보다 앞에 있습니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    11,
+    9,
+    4
+   ]
+  },
+  {
+   "video_time": 112.933,
+   "line": "선두는 6번 신한에이스. 선두권에 11번 위너삭스.",
+   "numbers": {
+    "6": "right",
+    "11": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    11,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 115.933,
+   "line": "6번 신한에이스, 계속 선두입니다. 선두권에 11번 위너삭스.",
+   "numbers": {
+    "6": "right",
+    "11": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    11,
+    4,
+    8
+   ]
+  },
+  {
+   "video_time": 118.933,
+   "line": "여전히 선두는 6번 신한에이스. 선두권에 11번 위너삭스.",
+   "numbers": {
+    "6": "right",
+    "11": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    11,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 121.933,
+   "line": "6번 신한에이스, 계속 선두입니다. 선두권에 11번 위너삭스.",
+   "numbers": {
+    "6": "right",
+    "11": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    11,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 124.633,
+   "line": "결승선을 통과했습니다. 서울 7경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 6,
+   "verdict": "no call"
+  }
+ ]
+}

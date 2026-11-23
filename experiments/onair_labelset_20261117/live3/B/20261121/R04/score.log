@@ -1,0 +1,8 @@
+{'lines': 28, 'lines with a number': 23, 'numbers': 43, 'numbers right': 38, 'numbers close': 3, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 12, 'leader right': 11, 'leader close': 0, 'leader wrong': 1}
+   28.97 numbers {3: 'right', 4: 'wrong', 5: 'right'} leader 5 right | official first four [5, 3, 7, 1] | 선두는 5번 세명하이디. 3번 피엔에스러너, 4번 푸른참도 선두권입니다.
+   40.97 numbers {5: 'right', 7: 'right'} leader 7 wrong | official first four [5, 3, 7, 2] | 선두는 7번 불패의여왕. 5번 세명하이디도 선두권입니다.
+   64.97 numbers {3: 'right', 5: 'right', 7: 'close'} leader None None | official first four [5, 3, 2, 7] | 선두권에 3번 피엔에스러너, 5번 세명하이디, 7번 불패의여왕. 3번 피엔에스러너가 7번 불패의여왕보다 앞에 있습니다.
+   67.97 numbers {3: 'right', 7: 'close'} leader None None | official first four [5, 3, 2, 7] | 3번 피엔에스러너, 7번 불패의여왕, 선두권에서 달립니다.
+   70.97 numbers {3: 'right', 7: 'close'} leader None None | official first four [5, 2, 3, 7] | 선두권은 그대로 3번 피엔에스러너, 7번 불패의여왕.
+   91.97 numbers {6: 'wrong'} leader None None | official first four [2, 1, 9, 4] | 6번 듀크삭스, 선두권에서 달립니다.
+finish: None official 2 no call

@@ -1,0 +1,9 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 40, 'numbers right': 34, 'numbers close': 4, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 17, 'leader right': 15, 'leader close': 1, 'leader wrong': 1}
+   47.52 numbers {1: 'right', 5: 'close', 10: 'right'} leader 1 right | official first four [1, 9, 10, 5] | 선두는 1번 어플리트런. 선두권에 5번 히어로퓨마, 10번 연동스타.
+   59.52 numbers {9: 'close'} leader None None | official first four [1, 10, 8, 9] | 9번 대한코코즈, 계속 선두권입니다.
+   62.52 numbers {1: 'right', 9: 'close'} leader 1 right | official first four [1, 8, 10, 9] | 1번 어플리트런이 선두입니다. 9번 대한코코즈도 선두권입니다.
+   65.52 numbers {1: 'right'} leader 1 close | official first four [8, 1, 10, 5] | 선두는 1번 어플리트런.
+   68.52 numbers {1: 'right', 5: 'close', 8: 'right'} leader 1 wrong | official first four [8, 1, 10, 5] | 1번 어플리트런이 선두입니다. 선두권에 5번 히어로퓨마, 8번 금아온포인트.
+   89.52 numbers {7: 'wrong', 8: 'right'} leader 8 right | official first four [8, 11, 6, 10] | 8번 금아온포인트가 선두입니다. 7번 그레이고도 선두권입니다.
+   92.52 numbers {7: 'wrong', 8: 'right'} leader 8 right | official first four [8, 11, 6, 10] | 여전히 선두는 8번 금아온포인트. 선두권에 7번 그레이고.
+finish: 8 official 8 right

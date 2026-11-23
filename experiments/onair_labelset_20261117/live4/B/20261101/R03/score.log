@@ -1,0 +1,4 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 41, 'numbers right': 40, 'numbers close': 0, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 17, 'leader right': 16, 'leader close': 1, 'leader wrong': 0}
+   33.95 numbers {2: 'right', 3: 'right'} leader 2 close | official first four [1, 2, 3, 10] | 선두는 2번 군주민수. 선두권에 3번 터치더스카이.
+   84.93 numbers {2: 'right', 5: 'wrong'} leader 2 right | official first four [2, 10, 4, 9] | 2번 군주민수, 선두에 있습니다. 선두권에 5번 라이즈파워.
+finish: 2 official 2 right

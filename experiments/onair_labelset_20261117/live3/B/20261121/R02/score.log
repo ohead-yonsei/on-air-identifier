@@ -1,0 +1,6 @@
+{'lines': 25, 'lines with a number': 22, 'numbers': 46, 'numbers right': 45, 'numbers close': 1, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 10, 'leader right': 7, 'leader close': 3, 'leader wrong': 0}
+   39.35 numbers {5: 'close', 9: 'right'} leader None None | official first four [7, 4, 9, 5] | 선두권에 5번 크레이지블루, 9번 가리라. 9번 가리라가 5번 크레이지블루보다 앞에 있습니다.
+   45.35 numbers {4: 'right', 7: 'right', 9: 'right'} leader 4 close | official first four [7, 4, 9, 5] | 선두는 4번 와와삭스. 7번 나르샤스톰, 9번 가리라도 선두권입니다.
+   51.35 numbers {4: 'right', 7: 'right'} leader 4 close | official first four [7, 4, 9, 5] | 선두는 4번 와와삭스. 선두권에 7번 나르샤스톰.
+   54.35 numbers {4: 'right', 7: 'right'} leader 4 close | official first four [7, 4, 9, 5] | 4번 와와삭스, 계속 선두입니다. 선두권에 7번 나르샤스톰.
+finish: 7 official 7 right

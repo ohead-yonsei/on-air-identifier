@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-31",
+ "place": "서울",
+ "race": 8,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "주링스카이"
+  },
+  {
+   "number": 2,
+   "name": "블루레인"
+  },
+  {
+   "number": 3,
+   "name": "플러터"
+  },
+  {
+   "number": 5,
+   "name": "브라운맘마"
+  },
+  {
+   "number": 6,
+   "name": "벌교그래미"
+  },
+  {
+   "number": 7,
+   "name": "참빠른말"
+  },
+  {
+   "number": 8,
+   "name": "퍼플코리아"
+  },
+  {
+   "number": 9,
+   "name": "우루스사비아"
+  },
+  {
+   "number": 10,
+   "name": "나올대왕"
+  },
+  {
+   "number": 11,
+   "name": "스톰트루퍼"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-21",
+ "place": "서울",
+ "race": 2,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "하트퀸"
+  },
+  {
+   "number": 2,
+   "name": "스마트여신"
+  },
+  {
+   "number": 3,
+   "name": "인페르노"
+  },
+  {
+   "number": 4,
+   "name": "와와삭스"
+  },
+  {
+   "number": 5,
+   "name": "크레이지블루"
+  },
+  {
+   "number": 6,
+   "name": "거센번개"
+  },
+  {
+   "number": 7,
+   "name": "나르샤스톰"
+  },
+  {
+   "number": 8,
+   "name": "이안러브"
+  },
+  {
+   "number": 9,
+   "name": "가리라"
+  },
+  {
+   "number": 10,
+   "name": "퍼펙트텐"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

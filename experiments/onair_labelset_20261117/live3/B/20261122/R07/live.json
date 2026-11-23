@@ -1,0 +1,831 @@
+{
+ "video": "otherday24/videos/R07_LwrS4PpOL9c.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 7,
+  "distance": 1600,
+  "runners": [
+   {
+    "number": 1,
+    "name": "태권브이"
+   },
+   {
+    "number": 2,
+    "name": "이스트위너"
+   },
+   {
+    "number": 3,
+    "name": "우승할결심"
+   },
+   {
+    "number": 4,
+    "name": "초콜릿"
+   },
+   {
+    "number": 5,
+    "name": "글로벌하트"
+   },
+   {
+    "number": 6,
+    "name": "사우디삭스"
+   },
+   {
+    "number": 7,
+    "name": "글로벌파로아"
+   },
+   {
+    "number": 8,
+    "name": "참빠른말"
+   },
+   {
+    "number": 9,
+    "name": "이센셜포스"
+   },
+   {
+    "number": 10,
+    "name": "세종파워"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 9.166666666666666,
+  "finish": 111.15,
+  "expected_seconds": 105.6
+ },
+ "frames_read": 6924,
+ "lines": 34,
+ "delay_seconds": {
+  "median": 0.257,
+  "max": 0.683
+ },
+ "furthest_behind_seconds": 0.669,
+ "dense_pictures": {
+  "run": 50,
+  "skipped_when_behind": 8
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 10.167,
+   "race_time": 1.0,
+   "ready": 10.168,
+   "line": "서울 7경주 1600m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 16.118,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 18.167,
+   "race_time": 9.0,
+   "ready": 18.474,
+   "line": "6번 사우디삭스, 9번 이센셜포스, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.306,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 21.438,
+   "delay": 0.307
+  },
+  {
+   "kind": "point",
+   "video_time": 21.167,
+   "race_time": 12.0,
+   "ready": 21.488,
+   "line": "선두권에 6번 사우디삭스가 있습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.32,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 24.349,
+   "delay": 0.321
+  },
+  {
+   "kind": "point",
+   "video_time": 24.167,
+   "race_time": 15.0,
+   "ready": 24.399,
+   "line": "9번 이센셜포스, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 27.683,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 27.167,
+   "race_time": 18.0,
+   "ready": 27.733,
+   "line": "선두권에 7번 글로벌파로아가 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.565,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 30.8,
+   "delay": 0.566
+  },
+  {
+   "kind": "point",
+   "video_time": 30.167,
+   "race_time": 21.0,
+   "ready": 30.85,
+   "line": "7번 글로벌파로아, 계속 선두권입니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.682,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 33.68,
+   "delay": 0.683
+  },
+  {
+   "kind": "point",
+   "video_time": 33.167,
+   "race_time": 24.0,
+   "ready": 33.73,
+   "line": "서울 7경주 1600m, 출발 후 24초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.562,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 36.724,
+   "delay": 0.563
+  },
+  {
+   "kind": "point",
+   "video_time": 36.167,
+   "race_time": 27.0,
+   "ready": 36.774,
+   "line": "7번 글로벌파로아, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.606,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 39.631,
+   "delay": 0.607
+  },
+  {
+   "kind": "point",
+   "video_time": 39.167,
+   "race_time": 30.0,
+   "ready": 39.681,
+   "line": "선두권은 그대로 7번 글로벌파로아.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.513,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 42.555,
+   "delay": 0.514
+  },
+  {
+   "kind": "point",
+   "video_time": 42.167,
+   "race_time": 33.0,
+   "ready": 42.605,
+   "line": "9번 이센셜포스, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.437,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 45.361,
+   "delay": 0.438
+  },
+  {
+   "kind": "point",
+   "video_time": 45.167,
+   "race_time": 36.0,
+   "ready": 45.411,
+   "line": "선두권에 2번 이스트위너, 6번 사우디삭스, 9번 이센셜포스. 9번 이센셜포스가 6번 사우디삭스보다 앞에 있습니다.",
+   "statements": [
+    2,
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.2098
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 48.372,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 48.167,
+   "race_time": 39.0,
+   "ready": 48.422,
+   "line": "9번 이센셜포스가 선두입니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 51.372,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 51.167,
+   "race_time": 42.0,
+   "ready": 51.422,
+   "line": "6번 사우디삭스, 9번 이센셜포스, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 54.373,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 54.167,
+   "race_time": 45.0,
+   "ready": 54.423,
+   "line": "선두권에 9번 이센셜포스가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 57.413,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 57.167,
+   "race_time": 48.0,
+   "ready": 57.463,
+   "line": "9번 이센셜포스, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.295,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.394,
+   "delay": 0.296
+  },
+  {
+   "kind": "point",
+   "video_time": 60.167,
+   "race_time": 51.0,
+   "ready": 60.444,
+   "line": "선두권에 2번 이스트위너, 9번 이센셜포스. 2번 이스트위너가 9번 이센셜포스보다 앞에 있습니다.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.3437
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 63.363,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 63.167,
+   "race_time": 54.0,
+   "ready": 63.413,
+   "line": "선두권에 6번 사우디삭스, 9번 이센셜포스. 9번 이센셜포스가 6번 사우디삭스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.4049
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 66.383,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 66.167,
+   "race_time": 57.0,
+   "ready": 66.433,
+   "line": "9번 이센셜포스, 선두에 있습니다. 6번 사우디삭스도 선두권입니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.4171
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 69.374,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 69.167,
+   "race_time": 60.0,
+   "ready": 69.424,
+   "line": "8번 참빠른말이 선두입니다. 6번 사우디삭스, 9번 이센셜포스도 선두권입니다.",
+   "statements": [
+    6,
+    8,
+    9
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.8535
+    },
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.3035
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.5499
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 72.361,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 72.167,
+   "race_time": 63.0,
+   "ready": 72.411,
+   "line": "선두는 9번 이센셜포스.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 75.391,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 75.167,
+   "race_time": 66.0,
+   "ready": 75.441,
+   "line": "6번 사우디삭스, 8번 참빠른말, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 78.363,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 78.167,
+   "race_time": 69.0,
+   "ready": 78.413,
+   "line": "선두권에 9번 이센셜포스가 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 81.357,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 81.167,
+   "race_time": 72.0,
+   "ready": 81.407,
+   "line": "선두권에 8번 참빠른말, 9번 이센셜포스. 8번 참빠른말이 9번 이센셜포스보다 앞에 있습니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.4134
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 84.356,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 84.167,
+   "race_time": 75.0,
+   "ready": 84.406,
+   "line": "8번 참빠른말, 9번 이센셜포스, 계속 선두권입니다.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.6073
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 87.359,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 87.167,
+   "race_time": 78.0,
+   "ready": 87.409,
+   "line": "선두권에 6번 사우디삭스, 8번 참빠른말, 9번 이센셜포스. 8번 참빠른말이 6번 사우디삭스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.6857
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.8746
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 90.358,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 90.167,
+   "race_time": 81.0,
+   "ready": 90.408,
+   "line": "8번 참빠른말이 선두입니다. 6번 사우디삭스도 선두권입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.7111
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 93.366,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 93.167,
+   "race_time": 84.0,
+   "ready": 93.416,
+   "line": "선두권에 6번 사우디삭스, 8번 참빠른말. 8번 참빠른말이 6번 사우디삭스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.207
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 96.357,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 96.167,
+   "race_time": 87.0,
+   "ready": 96.407,
+   "line": "선두권은 그대로 6번 사우디삭스, 8번 참빠른말.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 99.377,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 99.167,
+   "race_time": 90.0,
+   "ready": 99.427,
+   "line": "6번 사우디삭스가 선두입니다. 선두권에 4번 초콜릿, 8번 참빠른말.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.6684
+    },
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.4414
+    },
+    {
+     "ahead": 6,
+     "behind": 8,
+     "gap": 0.227
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 102.357,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 102.167,
+   "race_time": 93.0,
+   "ready": 102.407,
+   "line": "선두는 6번 사우디삭스. 선두권에 4번 초콜릿.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 4,
+     "gap": 0.2833
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 105.342,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 105.167,
+   "race_time": 96.0,
+   "ready": 105.392,
+   "line": "6번 사우디삭스, 계속 선두입니다. 선두권에 4번 초콜릿.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 108.741,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 108.167,
+   "race_time": 99.0,
+   "ready": 108.791,
+   "line": "선두는 4번 초콜릿. 6번 사우디삭스도 선두권입니다.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.06,
+   "work_seconds": 0.563,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 111.737,
+   "delay": 0.624
+  },
+  {
+   "kind": "point",
+   "video_time": 111.167,
+   "race_time": 102.0,
+   "ready": 111.787,
+   "line": "선두권에 6번 사우디삭스, 7번 글로벌파로아가 있습니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.144,
+   "work_seconds": 0.475,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 112.348,
+   "delay": 0.62
+  },
+  {
+   "kind": "finish",
+   "video_time": 112.367,
+   "race_time": 103.2,
+   "ready": 112.398,
+   "line": "결승선 통과! 6번 사우디삭스가 가장 먼저 들어옵니다!",
+   "winner": 6,
+   "winner_call": {
+    "candidate": 6,
+    "pictures_naming_each": {
+     "6": 7,
+     "4": 2
+    },
+    "seen": 7,
+    "front": 7,
+    "pictures_in_the_last_6s": 26
+   },
+   "finish_video_time": 111.15,
+   "seconds_after_the_finish": 1.25,
+   "work_seconds": 0.001,
+   "shown_until": 118.348,
+   "delay": 0.031
+  }
+ ]
+}

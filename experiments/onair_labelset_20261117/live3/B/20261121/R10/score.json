@@ -1,0 +1,378 @@
+{
+ "official_winner": 5,
+ "totals": {
+  "lines": 24,
+  "lines with a number": 22,
+  "numbers": 41,
+  "numbers right": 39,
+  "numbers close": 2,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 10,
+  "leader right": 10,
+  "leader close": 0,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.258,
+  "max": 0.64
+ },
+ "rows": [
+  {
+   "video_time": 14.933,
+   "line": "3번 원더풀제트, 4번 스타트렉, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "close",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 17.933,
+   "line": "선두권에 4번 스타트렉이 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 20.933,
+   "line": "4번 스타트렉, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 23.933,
+   "line": "선두권은 그대로 4번 스타트렉.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 26.933,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰. 4번 스타트렉이 7번 관악산스톰보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    5,
+    1
+   ]
+  },
+  {
+   "video_time": 29.933,
+   "line": "4번 스타트렉, 선두에 있습니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    5,
+    1
+   ]
+  },
+  {
+   "video_time": 32.95,
+   "line": "선두권에 4번 스타트렉, 5번 루프톱. 4번 스타트렉이 5번 루프톱보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 35.95,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰이 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 38.933,
+   "line": "4번 스타트렉, 7번 관악산스톰, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 41.933,
+   "line": "4번 스타트렉, 선두에 있습니다. 7번 관악산스톰도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    1,
+    5
+   ]
+  },
+  {
+   "video_time": 44.933,
+   "line": "선두권에 4번 스타트렉, 7번 관악산스톰이 있습니다.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 47.933,
+   "line": "선두권에 1번 마이티조이, 4번 스타트렉, 7번 관악산스톰. 4번 스타트렉이 1번 마이티조이보다 앞에 있습니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    7,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 50.933,
+   "line": "4번 스타트렉, 선두에 있습니다. 선두권에 7번 관악산스톰.",
+   "numbers": {
+    "4": "right",
+    "7": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    7,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 53.933,
+   "line": "선두권에 1번 마이티조이, 4번 스타트렉, 7번 관악산스톰. 4번 스타트렉이 1번 마이티조이보다 앞에 있습니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right",
+    "7": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    1,
+    7,
+    5
+   ]
+  },
+  {
+   "video_time": 56.933,
+   "line": "4번 스타트렉이 선두입니다. 선두권에 1번 마이티조이.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    5,
+    7
+   ]
+  },
+  {
+   "video_time": 59.933,
+   "line": "4번 스타트렉, 계속 선두입니다. 선두권에 1번 마이티조이.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 62.933,
+   "line": "여전히 선두는 4번 스타트렉. 선두권에 1번 마이티조이.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 65.933,
+   "line": "4번 스타트렉, 계속 선두입니다. 선두권에 1번 마이티조이.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    1,
+    5,
+    2
+   ]
+  },
+  {
+   "video_time": 68.933,
+   "line": "선두권에 1번 마이티조이, 5번 루프톱. 1번 마이티조이가 5번 루프톱보다 앞에 있습니다.",
+   "numbers": {
+    "1": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    5,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 71.933,
+   "line": "선두는 4번 스타트렉. 1번 마이티조이도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "4": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    5,
+    1,
+    2
+   ]
+  },
+  {
+   "video_time": 74.933,
+   "line": "5번 루프톱, 선두에 있습니다. 1번 마이티조이도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    1,
+    6
+   ]
+  },
+  {
+   "video_time": 77.933,
+   "line": "5번 루프톱이 선두입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    1,
+    6
+   ]
+  },
+  {
+   "video_time": 80.567,
+   "line": "결승선 통과! 5번 루프톱이 가장 먼저 들어옵니다!",
+   "winner_call": 5,
+   "official_winner": 5,
+   "verdict": "right"
+  }
+ ]
+}

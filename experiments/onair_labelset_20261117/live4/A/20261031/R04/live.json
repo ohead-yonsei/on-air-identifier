@@ -1,0 +1,479 @@
+{
+ "video": "otherday27/videos/R04_HeZxyNUGoDc.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 4,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "골든벨스타"
+   },
+   {
+    "number": 2,
+    "name": "다나은파워"
+   },
+   {
+    "number": 3,
+    "name": "미스터불스"
+   },
+   {
+    "number": 4,
+    "name": "영원한보스"
+   },
+   {
+    "number": 5,
+    "name": "다온헌터"
+   },
+   {
+    "number": 6,
+    "name": "매직터치"
+   },
+   {
+    "number": 7,
+    "name": "크레이지블루"
+   },
+   {
+    "number": 8,
+    "name": "카레이히어로"
+   },
+   {
+    "number": 9,
+    "name": "포인트윈드"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.416666666666666,
+  "finish": 74.8,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 4743,
+ "lines": 21,
+ "delay_seconds": {
+  "median": 0.243,
+  "max": 0.663
+ },
+ "furthest_behind_seconds": 0.649,
+ "dense_pictures": {
+  "run": 65,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.417,
+   "race_time": 1.0,
+   "ready": 13.418,
+   "line": "서울 4경주 1000m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.368,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 21.417,
+   "race_time": 9.0,
+   "ready": 21.72,
+   "line": "10번, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.302,
+   "shown_until": 24.595,
+   "delay": 0.303
+  },
+  {
+   "kind": "point",
+   "video_time": 24.417,
+   "race_time": 12.0,
+   "ready": 24.645,
+   "line": "서울 4경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "shown_until": 27.779,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 27.417,
+   "race_time": 15.0,
+   "ready": 27.829,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.411,
+   "shown_until": 30.769,
+   "delay": 0.412
+  },
+  {
+   "kind": "point",
+   "video_time": 30.417,
+   "race_time": 18.0,
+   "ready": 30.819,
+   "line": "서울 4경주 1000m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.401,
+   "shown_until": 33.581,
+   "delay": 0.402
+  },
+  {
+   "kind": "point",
+   "video_time": 33.417,
+   "race_time": 21.0,
+   "ready": 33.631,
+   "line": "4번 영원한보스, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.214,
+   "shown_until": 36.649,
+   "delay": 0.214
+  },
+  {
+   "kind": "point",
+   "video_time": 36.417,
+   "race_time": 24.0,
+   "ready": 36.699,
+   "line": "선두권은 그대로 4번 영원한보스.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "shown_until": 39.603,
+   "delay": 0.282
+  },
+  {
+   "kind": "point",
+   "video_time": 39.417,
+   "race_time": 27.0,
+   "ready": 39.653,
+   "line": "1번 골든벨스타, 7번 크레이지블루, 선두권에서 달립니다.",
+   "statements": [
+    1,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "shown_until": 42.625,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 42.417,
+   "race_time": 30.0,
+   "ready": 42.675,
+   "line": "4번 영원한보스, 선두에 있습니다. 7번 크레이지블루도 선두권입니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.5227
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "shown_until": 45.61,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 45.417,
+   "race_time": 33.0,
+   "ready": 45.66,
+   "line": "여전히 선두는 4번 영원한보스. 선두권에 7번 크레이지블루.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.5726
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "shown_until": 48.605,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 48.417,
+   "race_time": 36.0,
+   "ready": 48.655,
+   "line": "4번 영원한보스, 계속 선두입니다. 선두권에 7번 크레이지블루.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "shown_until": 51.604,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 51.417,
+   "race_time": 39.0,
+   "ready": 51.654,
+   "line": "선두는 4번 영원한보스. 1번 골든벨스타, 7번 크레이지블루도 선두권입니다.",
+   "statements": [
+    1,
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.3786
+    },
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.5738
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "shown_until": 54.6,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 54.417,
+   "race_time": 42.0,
+   "ready": 54.65,
+   "line": "4번 영원한보스, 선두에 있습니다. 7번 크레이지블루도 선두권입니다.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.4243
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "shown_until": 57.63,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 57.417,
+   "race_time": 45.0,
+   "ready": 57.68,
+   "line": "4번 영원한보스가 선두입니다. 1번 골든벨스타도 선두권입니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "shown_until": 60.602,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 60.417,
+   "race_time": 48.0,
+   "ready": 60.652,
+   "line": "선두권에 1번 골든벨스타, 4번 영원한보스가 있습니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 63.601,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 63.417,
+   "race_time": 51.0,
+   "ready": 63.651,
+   "line": "1번 골든벨스타, 4번 영원한보스, 계속 선두권입니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.2318
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "shown_until": 66.584,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 66.417,
+   "race_time": 54.0,
+   "ready": 66.634,
+   "line": "1번 골든벨스타, 선두에 있습니다. 4번 영원한보스도 선두권입니다.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.3203
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.216,
+   "shown_until": 70.03,
+   "delay": 0.217
+  },
+  {
+   "kind": "point",
+   "video_time": 69.417,
+   "race_time": 57.0,
+   "ready": 70.08,
+   "line": "여전히 선두는 1번 골든벨스타. 선두권에 4번 영원한보스.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.5235
+    }
+   ],
+   "late_at_start": 0.159,
+   "work_seconds": 0.503,
+   "shown_until": 73.019,
+   "delay": 0.663
+  },
+  {
+   "kind": "point",
+   "video_time": 72.417,
+   "race_time": 60.0,
+   "ready": 73.069,
+   "line": "1번 골든벨스타, 계속 선두입니다. 선두권에 4번 영원한보스.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.119,
+   "work_seconds": 0.532,
+   "shown_until": 76.019,
+   "delay": 0.652
+  },
+  {
+   "kind": "point",
+   "video_time": 75.417,
+   "race_time": 63.0,
+   "ready": 76.069,
+   "line": "선두권에 4번 영원한보스가 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.167,
+   "work_seconds": 0.484,
+   "shown_until": 76.094,
+   "delay": 0.652
+  },
+  {
+   "kind": "finish",
+   "video_time": 76.017,
+   "race_time": 63.6,
+   "ready": 76.144,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "1": 3
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 74.8,
+   "seconds_after_the_finish": 1.34,
+   "work_seconds": 0.001,
+   "shown_until": 82.094,
+   "delay": 0.127
+  }
+ ]
+}

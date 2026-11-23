@@ -1,0 +1,385 @@
+{
+ "official_winner": 9,
+ "totals": {
+  "lines": 25,
+  "lines with a number": 23,
+  "numbers": 34,
+  "numbers right": 30,
+  "numbers close": 0,
+  "numbers wrong": 4,
+  "lines with a wrong number": 4,
+  "leader lines": 11,
+  "leader right": 10,
+  "leader close": 0,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.275,
+  "max": 0.619
+ },
+ "rows": [
+  {
+   "video_time": 17.35,
+   "line": "3번 나르샤루시, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    1,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 20.35,
+   "line": "3번 나르샤루시, 선두에 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    1,
+    4,
+    9
+   ]
+  },
+  {
+   "video_time": 23.35,
+   "line": "선두는 11번 시티오브드림.",
+   "numbers": {
+    "11": "wrong"
+   },
+   "leader": 11,
+   "leader_verdict": "wrong",
+   "official_order": [
+    3,
+    1,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 26.333,
+   "line": "3번 나르샤루시가 선두입니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    1,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 29.333,
+   "line": "4번 러블리잭팟, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    1,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 32.333,
+   "line": "선두는 3번 나르샤루시.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    1,
+    4,
+    6
+   ]
+  },
+  {
+   "video_time": 35.333,
+   "line": "3번 나르샤루시가 선두입니다. 선두권에 7번 안양에이스.",
+   "numbers": {
+    "3": "right",
+    "7": "wrong"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    4,
+    1,
+    6
+   ]
+  },
+  {
+   "video_time": 38.333,
+   "line": "선두는 3번 나르샤루시. 선두권에 4번 러블리잭팟.",
+   "numbers": {
+    "3": "right",
+    "4": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    4,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 41.333,
+   "line": "3번 나르샤루시, 선두에 있습니다. 선두권에 6번 비트스타, 7번 안양에이스.",
+   "numbers": {
+    "3": "right",
+    "6": "right",
+    "7": "wrong"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    4,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 44.333,
+   "line": "3번 나르샤루시가 선두입니다. 선두권에 6번 비트스타.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    6,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 47.333,
+   "line": "3번 나르샤루시, 6번 비트스타, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    3,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 50.333,
+   "line": "6번 비트스타가 선두입니다. 3번 나르샤루시도 선두권입니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    4,
+    3,
+    1
+   ]
+  },
+  {
+   "video_time": 53.333,
+   "line": "선두권에 3번 나르샤루시, 6번 비트스타가 있습니다.",
+   "numbers": {
+    "3": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    3,
+    9
+   ]
+  },
+  {
+   "video_time": 56.333,
+   "line": "6번 비트스타, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 59.333,
+   "line": "6번 비트스타, 선두에 있습니다. 9번 레이스파티도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    9,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 62.333,
+   "line": "선두권에 3번 나르샤루시, 6번 비트스타가 있습니다.",
+   "numbers": {
+    "3": "wrong",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    1
+   ]
+  },
+  {
+   "video_time": 65.35,
+   "line": "6번 비트스타, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 68.35,
+   "line": "선두권은 그대로 6번 비트스타.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 71.35,
+   "line": "6번 비트스타, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 74.333,
+   "line": "9번 레이스파티, 선두에 있습니다. 6번 비트스타도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "9": "right"
+   },
+   "leader": 9,
+   "leader_verdict": "right",
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 77.333,
+   "line": "선두권에 9번 레이스파티가 있습니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 80.333,
+   "line": "9번 레이스파티, 계속 선두권입니다.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 83.333,
+   "line": "선두권은 그대로 9번 레이스파티.",
+   "numbers": {
+    "9": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    9,
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "video_time": 84.6,
+   "line": "결승선을 통과했습니다. 서울 3경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 9,
+   "verdict": "no call"
+  }
+ ]
+}

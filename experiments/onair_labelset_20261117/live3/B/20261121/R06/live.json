@@ -1,0 +1,730 @@
+{
+ "video": "otherday25/videos/R06_L5Zyye1PE5c.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 6,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "베스트프리덤"
+   },
+   {
+    "number": 2,
+    "name": "서브미션"
+   },
+   {
+    "number": 3,
+    "name": "어디든지"
+   },
+   {
+    "number": 4,
+    "name": "하남레이저"
+   },
+   {
+    "number": 5,
+    "name": "킹스파이시"
+   },
+   {
+    "number": 6,
+    "name": "에클레어"
+   },
+   {
+    "number": 7,
+    "name": "황금송"
+   },
+   {
+    "number": 8,
+    "name": "용비신성"
+   },
+   {
+    "number": 9,
+    "name": "하늘감동"
+   },
+   {
+    "number": 10,
+    "name": "베스트라지"
+   },
+   {
+    "number": 11,
+    "name": "위너남촌"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 19.35,
+  "finish": 108.9,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6789,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.268,
+  "max": 0.737
+ },
+ "furthest_behind_seconds": 0.722,
+ "dense_pictures": {
+  "run": 70,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 20.35,
+   "race_time": 1.0,
+   "ready": 20.351,
+   "line": "서울 6경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 26.301,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 28.367,
+   "race_time": 9.02,
+   "ready": 28.748,
+   "line": "11번 위너남촌, 선두권에서 달립니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.38,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 31.622,
+   "delay": 0.381
+  },
+  {
+   "kind": "point",
+   "video_time": 31.367,
+   "race_time": 12.02,
+   "ready": 31.672,
+   "line": "선두권에 4번 하남레이저가 있습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.305,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 34.734,
+   "delay": 0.305
+  },
+  {
+   "kind": "point",
+   "video_time": 34.35,
+   "race_time": 15.0,
+   "ready": 34.784,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.433,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.017,
+   "delay": 0.434
+  },
+  {
+   "kind": "point",
+   "video_time": 37.35,
+   "race_time": 18.0,
+   "ready": 38.067,
+   "line": "서울 6경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.716,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 40.719,
+   "delay": 0.717
+  },
+  {
+   "kind": "point",
+   "video_time": 40.35,
+   "race_time": 21.0,
+   "ready": 40.769,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.3712
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.418,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 43.554,
+   "delay": 0.419
+  },
+  {
+   "kind": "point",
+   "video_time": 43.35,
+   "race_time": 24.0,
+   "ready": 43.604,
+   "line": "4번 하남레이저, 선두에 있습니다. 선두권에 5번 킹스파이시.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.2431
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "shown_until": 46.549,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 46.35,
+   "race_time": 27.0,
+   "ready": 46.599,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.5545
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 49.549,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 49.35,
+   "race_time": 30.0,
+   "ready": 49.599,
+   "line": "4번 하남레이저가 선두입니다. 선두권에 5번 킹스파이시.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.5748
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "shown_until": 52.541,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 52.35,
+   "race_time": 33.0,
+   "ready": 52.591,
+   "line": "5번 킹스파이시, 7번 황금송, 선두권에서 달립니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 55.549,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 55.35,
+   "race_time": 36.0,
+   "ready": 55.599,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 58.542,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 58.35,
+   "race_time": 39.0,
+   "ready": 58.592,
+   "line": "선두권에 5번 킹스파이시, 7번 황금송. 5번 킹스파이시가 7번 황금송보다 앞에 있습니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.2423
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 61.549,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 61.35,
+   "race_time": 42.0,
+   "ready": 61.599,
+   "line": "선두권에 5번 킹스파이시, 6번 에클레어. 5번 킹스파이시가 6번 에클레어보다 앞에 있습니다.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.2212
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 64.585,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 64.367,
+   "race_time": 45.02,
+   "ready": 64.635,
+   "line": "5번 킹스파이시, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 67.569,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 67.367,
+   "race_time": 48.02,
+   "ready": 67.619,
+   "line": "선두는 5번 킹스파이시. 11번 위너남촌도 선두권입니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "shown_until": 70.582,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 70.367,
+   "race_time": 51.02,
+   "ready": 70.632,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.264,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 73.598,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 73.367,
+   "race_time": 54.02,
+   "ready": 73.648,
+   "line": "5번 킹스파이시, 계속 선두권입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 76.555,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 76.367,
+   "race_time": 57.02,
+   "ready": 76.605,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시가 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 79.592,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 79.367,
+   "race_time": 60.02,
+   "ready": 79.642,
+   "line": "5번 킹스파이시, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.274,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 82.561,
+   "delay": 0.275
+  },
+  {
+   "kind": "point",
+   "video_time": 82.367,
+   "race_time": 63.02,
+   "ready": 82.611,
+   "line": "선두권에 1번 베스트프리덤, 5번 킹스파이시. 5번 킹스파이시가 1번 베스트프리덤보다 앞에 있습니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 1,
+     "gap": 0.4256
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 85.541,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 85.35,
+   "race_time": 66.0,
+   "ready": 85.591,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 88.573,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 88.35,
+   "race_time": 69.0,
+   "ready": 88.623,
+   "line": "5번 킹스파이시, 계속 선두권입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 91.584,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 91.35,
+   "race_time": 72.0,
+   "ready": 91.634,
+   "line": "선두권에 4번 하남레이저, 5번 킹스파이시. 4번 하남레이저가 5번 킹스파이시보다 앞에 있습니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.4765
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.283,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 94.568,
+   "delay": 0.284
+  },
+  {
+   "kind": "point",
+   "video_time": 94.35,
+   "race_time": 75.0,
+   "ready": 94.618,
+   "line": "선두권은 그대로 4번 하남레이저, 5번 킹스파이시.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.3118
+    }
+   ],
+   "late_at_start": 0.011,
+   "work_seconds": 0.256,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 97.547,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 97.35,
+   "race_time": 78.0,
+   "ready": 97.597,
+   "line": "선두는 5번 킹스파이시. 선두권에 4번 하남레이저.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.2818
+    }
+   ],
+   "late_at_start": 0.024,
+   "work_seconds": 0.222,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 100.555,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 100.35,
+   "race_time": 81.0,
+   "ready": 100.605,
+   "line": "5번 킹스파이시, 선두에 있습니다. 선두권에 4번 하남레이저, 11번 위너남촌.",
+   "statements": [
+    4,
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.4013
+    },
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.3956
+    }
+   ],
+   "late_at_start": 0.021,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 103.637,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 103.35,
+   "race_time": 84.0,
+   "ready": 103.687,
+   "line": "5번 킹스파이시가 선두입니다. 선두권에 11번 위너남촌.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.3492
+    }
+   ],
+   "late_at_start": 0.013,
+   "work_seconds": 0.324,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 106.826,
+   "delay": 0.337
+  },
+  {
+   "kind": "point",
+   "video_time": 106.35,
+   "race_time": 87.0,
+   "ready": 106.876,
+   "line": "5번 킹스파이시, 계속 선두입니다. 선두권에 11번 위너남촌.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.102,
+   "work_seconds": 0.424,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 110.037,
+   "delay": 0.526
+  },
+  {
+   "kind": "point",
+   "video_time": 109.35,
+   "race_time": 90.0,
+   "ready": 110.087,
+   "line": "선두권에 5번 킹스파이시가 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.176,
+   "work_seconds": 0.561,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 110.365,
+   "delay": 0.737
+  },
+  {
+   "kind": "finish",
+   "video_time": 110.117,
+   "race_time": 90.77,
+   "ready": 110.415,
+   "line": "결승선을 통과했습니다. 서울 6경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "5": 7
+    },
+    "seen": 3,
+    "front": 1,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 108.9,
+   "seconds_after_the_finish": 1.52,
+   "work_seconds": 0.0,
+   "shown_until": 116.365,
+   "delay": 0.298
+  }
+ ]
+}

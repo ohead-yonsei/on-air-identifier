@@ -1,0 +1,6 @@
+{'lines': 21, 'lines with a number': 16, 'numbers': 31, 'numbers right': 28, 'numbers close': 3, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 11, 'leader right': 10, 'leader close': 0, 'leader wrong': 1}
+   44.00 numbers {5: 'right', 11: 'close'} leader None None | official first four [5, 6, 10, 4] | 선두권에 5번 위너라이징, 11번 와와삭스. 5번 위너라이징이 11번 와와삭스보다 앞에 있습니다.
+   47.00 numbers {4: 'close', 5: 'right'} leader None None | official first four [5, 6, 10, 4] | 4번 나우데이즈, 5번 위너라이징, 선두권에서 달립니다.
+   53.00 numbers {4: 'right', 5: 'right', 10: 'close'} leader 5 right | official first four [5, 6, 4, 10] | 5번 위너라이징이 선두입니다. 선두권에 4번 나우데이즈, 10번 오섬모닝.
+   59.00 numbers {4: 'right', 5: 'right'} leader 4 wrong | official first four [5, 6, 4, 10] | 4번 나우데이즈가 선두입니다. 5번 위너라이징도 선두권입니다.
+finish: 5 official 5 right

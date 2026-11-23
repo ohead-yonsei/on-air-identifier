@@ -1,0 +1,899 @@
+{
+ "video": "otherday25/videos/R07_QOXtc_gVcbw.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 7,
+  "distance": 1700,
+  "runners": [
+   {
+    "number": 1,
+    "name": "마이티크리스"
+   },
+   {
+    "number": 2,
+    "name": "러브스칼렛"
+   },
+   {
+    "number": 3,
+    "name": "내게로와줘"
+   },
+   {
+    "number": 4,
+    "name": "블랙러시안"
+   },
+   {
+    "number": 6,
+    "name": "신한에이스"
+   },
+   {
+    "number": 7,
+    "name": "파이널질주"
+   },
+   {
+    "number": 8,
+    "name": "클로버톱"
+   },
+   {
+    "number": 9,
+    "name": "더선커밍"
+   },
+   {
+    "number": 10,
+    "name": "클럽맨"
+   },
+   {
+    "number": 11,
+    "name": "위너삭스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 10.933333333333334,
+  "finish": 123.417,
+  "expected_seconds": 112.2
+ },
+ "frames_read": 7660,
+ "lines": 37,
+ "delay_seconds": {
+  "median": 0.25,
+  "max": 0.713
+ },
+ "furthest_behind_seconds": 0.698,
+ "dense_pictures": {
+  "run": 68,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 11.933,
+   "race_time": 1.0,
+   "ready": 11.935,
+   "line": "서울 7경주 1700m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 17.885,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 19.933,
+   "race_time": 9.0,
+   "ready": 20.267,
+   "line": "4번 블랙러시안, 선두권에서 달립니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.332,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.226,
+   "delay": 0.334
+  },
+  {
+   "kind": "point",
+   "video_time": 22.933,
+   "race_time": 12.0,
+   "ready": 23.276,
+   "line": "선두권은 그대로 4번 블랙러시안.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.342,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 26.261,
+   "delay": 0.343
+  },
+  {
+   "kind": "point",
+   "video_time": 25.933,
+   "race_time": 15.0,
+   "ready": 26.311,
+   "line": "1700m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.376,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 29.41,
+   "delay": 0.378
+  },
+  {
+   "kind": "point",
+   "video_time": 28.933,
+   "race_time": 18.0,
+   "ready": 29.46,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.525,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.138,
+   "delay": 0.527
+  },
+  {
+   "kind": "point",
+   "video_time": 31.933,
+   "race_time": 21.0,
+   "ready": 32.188,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.2387
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.164,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 34.95,
+   "race_time": 24.02,
+   "ready": 35.214,
+   "line": "6번 신한에이스, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.263,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.347,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 37.95,
+   "race_time": 27.02,
+   "ready": 38.397,
+   "line": "선두권은 그대로 6번 신한에이스.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.446,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.144,
+   "delay": 0.447
+  },
+  {
+   "kind": "point",
+   "video_time": 40.95,
+   "race_time": 30.02,
+   "ready": 41.194,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.129,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 43.933,
+   "race_time": 33.0,
+   "ready": 44.179,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍, 11번 위너삭스. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.5167
+    },
+    {
+     "ahead": 11,
+     "behind": 6,
+     "gap": 0.5646
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.106,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 46.933,
+   "race_time": 36.0,
+   "ready": 47.156,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.221,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.133,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 49.933,
+   "race_time": 39.0,
+   "ready": 50.183,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 9번 더선커밍이 6번 신한에이스보다 앞에 있습니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.41
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 53.55,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 52.933,
+   "race_time": 42.0,
+   "ready": 53.6,
+   "line": "선두는 11번 위너삭스. 선두권에 6번 신한에이스.",
+   "statements": [
+    6
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.666,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "shown_until": 56.334,
+   "delay": 0.667
+  },
+  {
+   "kind": "point",
+   "video_time": 55.933,
+   "race_time": 45.0,
+   "ready": 56.384,
+   "line": "6번 신한에이스, 선두권에서 달립니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.449,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 59.113,
+   "delay": 0.451
+  },
+  {
+   "kind": "point",
+   "video_time": 58.933,
+   "race_time": 48.0,
+   "ready": 59.163,
+   "line": "선두는 1번 마이티크리스. 9번 더선커밍도 선두권입니다.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.5428
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 62.128,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 61.933,
+   "race_time": 51.0,
+   "ready": 62.178,
+   "line": "선두권에 9번 더선커밍이 있습니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 65.135,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 64.933,
+   "race_time": 54.0,
+   "ready": 65.185,
+   "line": "선두는 1번 마이티크리스. 선두권에 9번 더선커밍.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.5101
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 68.14,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 67.933,
+   "race_time": 57.0,
+   "ready": 68.19,
+   "line": "1번 마이티크리스, 선두에 있습니다. 선두권에 4번 블랙러시안, 9번 더선커밍.",
+   "statements": [
+    1,
+    4,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.7869
+    },
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.7798
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 71.12,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 70.933,
+   "race_time": 60.0,
+   "ready": 71.17,
+   "line": "1번 마이티크리스가 선두입니다. 선두권에 9번 더선커밍.",
+   "statements": [
+    1,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.669
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "shown_until": 74.13,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 73.933,
+   "race_time": 63.0,
+   "ready": 74.18,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 77.117,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 76.933,
+   "race_time": 66.0,
+   "ready": 77.167,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 80.141,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 79.933,
+   "race_time": 69.0,
+   "ready": 80.191,
+   "line": "9번 더선커밍, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 83.127,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 82.933,
+   "race_time": 72.0,
+   "ready": 83.177,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 86.151,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 85.933,
+   "race_time": 75.0,
+   "ready": 86.201,
+   "line": "9번 더선커밍이 선두입니다. 선두권에 6번 신한에이스.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.6165
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": 9,
+   "shown_until": 89.128,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 88.933,
+   "race_time": 78.0,
+   "ready": 89.178,
+   "line": "9번 더선커밍, 선두권에서 달립니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 92.136,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 91.933,
+   "race_time": 81.0,
+   "ready": 92.186,
+   "line": "선두권은 그대로 9번 더선커밍.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 95.13,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 94.933,
+   "race_time": 84.0,
+   "ready": 95.18,
+   "line": "9번 더선커밍, 계속 선두권입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 98.128,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 97.933,
+   "race_time": 87.0,
+   "ready": 98.178,
+   "line": "선두권에 4번 블랙러시안, 9번 더선커밍이 있습니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 101.177,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 100.933,
+   "race_time": 90.0,
+   "ready": 101.227,
+   "line": "선두권에 6번 신한에이스, 9번 더선커밍. 6번 신한에이스가 9번 더선커밍보다 앞에 있습니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3455
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.291,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 104.131,
+   "delay": 0.294
+  },
+  {
+   "kind": "point",
+   "video_time": 103.933,
+   "race_time": 93.0,
+   "ready": 104.181,
+   "line": "6번 신한에이스, 9번 더선커밍, 계속 선두권입니다.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.5403
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 107.129,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 106.933,
+   "race_time": 96.0,
+   "ready": 107.179,
+   "line": "선두권은 그대로 6번 신한에이스, 9번 더선커밍.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3215
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 110.123,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 109.933,
+   "race_time": 99.0,
+   "ready": 110.173,
+   "line": "선두는 6번 신한에이스. 선두권에 9번 더선커밍, 11번 위너삭스.",
+   "statements": [
+    6,
+    9,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.4101
+    },
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.3672
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 113.126,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 112.933,
+   "race_time": 102.0,
+   "ready": 113.176,
+   "line": "6번 신한에이스, 선두에 있습니다. 선두권에 11번 위너삭스.",
+   "statements": [
+    6,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.4827
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 116.114,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 115.933,
+   "race_time": 105.0,
+   "ready": 116.164,
+   "line": "6번 신한에이스, 계속 선두입니다. 선두권에 11번 위너삭스.",
+   "statements": [
+    6,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.6111
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 119.216,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 118.933,
+   "race_time": 108.0,
+   "ready": 119.266,
+   "line": "여전히 선두는 6번 신한에이스. 선두권에 11번 위너삭스.",
+   "statements": [
+    6,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.5774
+    }
+   ],
+   "late_at_start": 0.008,
+   "work_seconds": 0.323,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 122.596,
+   "delay": 0.333
+  },
+  {
+   "kind": "point",
+   "video_time": 121.933,
+   "race_time": 111.0,
+   "ready": 122.646,
+   "line": "6번 신한에이스, 계속 선두입니다. 선두권에 11번 위너삭스.",
+   "statements": [
+    6,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 11,
+     "gap": 0.2485
+    }
+   ],
+   "late_at_start": 0.159,
+   "work_seconds": 0.552,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 124.689,
+   "delay": 0.713
+  },
+  {
+   "kind": "finish",
+   "video_time": 124.633,
+   "race_time": 113.7,
+   "ready": 124.739,
+   "line": "결승선을 통과했습니다. 서울 7경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "6": 3,
+     "3": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 123.417,
+   "seconds_after_the_finish": 1.32,
+   "work_seconds": 0.0,
+   "shown_until": 130.689,
+   "delay": 0.106
+  }
+ ]
+}

@@ -1,0 +1,518 @@
+{
+ "video": "otherday25/videos/R01_sJdH7AGA5Ks.mp4",
+ "racecard": {
+  "date": "2026-11-21",
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "금빛코드"
+   },
+   {
+    "number": 2,
+    "name": "이안패밀리"
+   },
+   {
+    "number": 3,
+    "name": "세븐이글"
+   },
+   {
+    "number": 4,
+    "name": "은빛공주"
+   },
+   {
+    "number": 5,
+    "name": "사이버타이거"
+   },
+   {
+    "number": 6,
+    "name": "비트에이스"
+   },
+   {
+    "number": 7,
+    "name": "고스트소닉"
+   },
+   {
+    "number": 8,
+    "name": "선더메이커"
+   },
+   {
+    "number": 9,
+    "name": "오거스트"
+   },
+   {
+    "number": 10,
+    "name": "새내부리도"
+   },
+   {
+    "number": 11,
+    "name": "오마이러브"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 20.316666666666666,
+  "finish": 83.133,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 5243,
+ "lines": 21,
+ "delay_seconds": {
+  "median": 0.385,
+  "max": 0.689
+ },
+ "furthest_behind_seconds": 0.674,
+ "dense_pictures": {
+  "run": 65,
+  "skipped_when_behind": 15
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 21.317,
+   "race_time": 1.0,
+   "ready": 21.318,
+   "line": "서울 1경주 1000m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 27.268,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 29.317,
+   "race_time": 9.0,
+   "ready": 30.006,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.688,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 32.875,
+   "delay": 0.689
+  },
+  {
+   "kind": "point",
+   "video_time": 32.333,
+   "race_time": 12.02,
+   "ready": 32.925,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.59,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.901,
+   "delay": 0.592
+  },
+  {
+   "kind": "point",
+   "video_time": 35.333,
+   "race_time": 15.02,
+   "ready": 35.951,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.617,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.715,
+   "delay": 0.618
+  },
+  {
+   "kind": "point",
+   "video_time": 38.333,
+   "race_time": 18.02,
+   "ready": 38.765,
+   "line": "서울 1경주 1000m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.43,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.854,
+   "delay": 0.432
+  },
+  {
+   "kind": "point",
+   "video_time": 41.333,
+   "race_time": 21.02,
+   "ready": 41.904,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.569,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.561,
+   "delay": 0.571
+  },
+  {
+   "kind": "point",
+   "video_time": 44.333,
+   "race_time": 24.02,
+   "ready": 44.611,
+   "line": "선두권에 11번 오마이러브가 있습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.573,
+   "delay": 0.278
+  },
+  {
+   "kind": "point",
+   "video_time": 47.333,
+   "race_time": 27.02,
+   "ready": 47.623,
+   "line": "5번 사이버타이거, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.288,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 50.524,
+   "delay": 0.29
+  },
+  {
+   "kind": "point",
+   "video_time": 50.333,
+   "race_time": 30.02,
+   "ready": 50.574,
+   "line": "선두권에 5번 사이버타이거, 7번 고스트소닉. 5번 사이버타이거가 7번 고스트소닉보다 앞에 있습니다.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.3516
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 53.505,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 53.317,
+   "race_time": 33.0,
+   "ready": 53.555,
+   "line": "1번 금빛코드, 선두에 있습니다. 5번 사이버타이거, 8번 선더메이커도 선두권입니다.",
+   "statements": [
+    1,
+    5,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.4304
+    },
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.8603
+    },
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.4298
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 56.522,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 56.317,
+   "race_time": 36.0,
+   "ready": 56.572,
+   "line": "선두권에 1번 금빛코드, 8번 선더메이커. 1번 금빛코드가 8번 선더메이커보다 앞에 있습니다.",
+   "statements": [
+    1,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.6644
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 59.502,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 59.317,
+   "race_time": 39.0,
+   "ready": 59.552,
+   "line": "1번 금빛코드가 선두입니다. 5번 사이버타이거도 선두권입니다.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.4283
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 62.51,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 62.317,
+   "race_time": 42.0,
+   "ready": 62.56,
+   "line": "선두는 1번 금빛코드.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 65.519,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 65.317,
+   "race_time": 45.0,
+   "ready": 65.569,
+   "line": "1번 금빛코드, 계속 선두입니다.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 68.49,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 68.317,
+   "race_time": 48.0,
+   "ready": 68.54,
+   "line": "11번 오마이러브, 선두에 있습니다. 5번 사이버타이거도 선두권입니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.4173
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.223,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "shown_until": 71.904,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 71.317,
+   "race_time": 51.0,
+   "ready": 71.954,
+   "line": "1번 금빛코드가 선두입니다.",
+   "statements": [
+    1
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.046,
+   "work_seconds": 0.591,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "shown_until": 74.888,
+   "delay": 0.637
+  },
+  {
+   "kind": "point",
+   "video_time": 74.317,
+   "race_time": 54.0,
+   "ready": 74.938,
+   "line": "11번 오마이러브, 선두에 있습니다. 선두권에 5번 사이버타이거.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.5432
+    }
+   ],
+   "late_at_start": 0.06,
+   "work_seconds": 0.56,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "shown_until": 77.815,
+   "delay": 0.621
+  },
+  {
+   "kind": "point",
+   "video_time": 77.317,
+   "race_time": 57.0,
+   "ready": 77.865,
+   "line": "1번 금빛코드가 선두입니다. 선두권에 5번 사이버타이거.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 5,
+     "gap": 0.4953
+    }
+   ],
+   "late_at_start": 0.056,
+   "work_seconds": 0.491,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 80.854,
+   "delay": 0.548
+  },
+  {
+   "kind": "point",
+   "video_time": 80.317,
+   "race_time": 60.0,
+   "ready": 80.904,
+   "line": "5번 사이버타이거, 선두권에서 달립니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.121,
+   "work_seconds": 0.466,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 83.652,
+   "delay": 0.587
+  },
+  {
+   "kind": "point",
+   "video_time": 83.317,
+   "race_time": 63.0,
+   "ready": 83.702,
+   "line": "서울 1경주 1000m, 출발 후 63초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.384,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 84.316,
+   "delay": 0.385
+  },
+  {
+   "kind": "finish",
+   "video_time": 84.35,
+   "race_time": 64.03,
+   "ready": 84.366,
+   "line": "결승선을 통과했습니다. 서울 1경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "5": 2,
+     "1": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 83.133,
+   "seconds_after_the_finish": 1.23,
+   "work_seconds": 0.0,
+   "shown_until": 90.316,
+   "delay": 0.016
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 24,
+  "lines with a number": 22,
+  "numbers": 42,
+  "numbers right": 41,
+  "numbers close": 0,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 10,
+  "leader right": 8,
+  "leader close": 1,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.248,
+  "max": 0.572
+ },
+ "rows": [
+  {
+   "video_time": 17.35,
+   "line": "1번 브라보플레이, 2번 더선불사조, 선두권에서 달립니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 20.35,
+   "line": "1번 브라보플레이, 선두에 있습니다. 2번 더선불사조, 8번 에브리타임도 선두권입니다.",
+   "numbers": {
+    "1": "right",
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 1,
+   "leader_verdict": "wrong",
+   "official_order": [
+    8,
+    2,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 23.35,
+   "line": "선두권에 2번 더선불사조, 8번 에브리타임이 있습니다.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    1,
+    4
+   ]
+  },
+  {
+   "video_time": 26.333,
+   "line": "2번 더선불사조, 8번 에브리타임, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 29.333,
+   "line": "선두권에 6번 크레이지망고, 8번 에브리타임이 있습니다.",
+   "numbers": {
+    "6": "wrong",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    4,
+    1
+   ]
+  },
+  {
+   "video_time": 32.333,
+   "line": "2번 더선불사조가 선두입니다. 선두권에 8번 에브리타임.",
+   "numbers": {
+    "2": "right",
+    "8": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 35.333,
+   "line": "선두는 8번 에브리타임.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 38.333,
+   "line": "선두권에 8번 에브리타임이 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 41.333,
+   "line": "8번 에브리타임, 선두에 있습니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 44.333,
+   "line": "선두권에 4번 디아나, 8번 에브리타임이 있습니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 47.333,
+   "line": "4번 디아나, 8번 에브리타임, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    2,
+    4,
+    7
+   ]
+  },
+  {
+   "video_time": 50.333,
+   "line": "선두권은 그대로 4번 디아나, 8번 에브리타임.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 53.333,
+   "line": "선두권에 2번 더선불사조, 4번 디아나, 8번 에브리타임. 8번 에브리타임이 2번 더선불사조보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 56.333,
+   "line": "선두권에 2번 더선불사조, 4번 디아나. 4번 디아나가 2번 더선불사조보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    2,
+    7
+   ]
+  },
+  {
+   "video_time": 59.333,
+   "line": "8번 에브리타임, 선두권에서 달립니다.",
+   "numbers": {
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    4,
+    7,
+    3
+   ]
+  },
+  {
+   "video_time": 62.333,
+   "line": "8번 에브리타임이 선두입니다. 4번 디아나도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 65.35,
+   "line": "여전히 선두는 8번 에브리타임. 선두권에 4번 디아나.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 68.35,
+   "line": "8번 에브리타임, 계속 선두입니다. 선두권에 4번 디아나.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    4,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 71.35,
+   "line": "4번 디아나, 선두에 있습니다. 8번 에브리타임도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 74.333,
+   "line": "선두권에 4번 디아나, 8번 에브리타임. 8번 에브리타임이 4번 디아나보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 77.333,
+   "line": "4번 디아나가 선두입니다. 8번 에브리타임도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 80.333,
+   "line": "여전히 선두는 4번 디아나. 선두권에 8번 에브리타임.",
+   "numbers": {
+    "4": "right",
+    "8": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "right",
+   "official_order": [
+    4,
+    8,
+    3,
+    7
+   ]
+  },
+  {
+   "video_time": 83.017,
+   "line": "결승선 통과! 4번 디아나가 가장 먼저 들어옵니다!",
+   "winner_call": 4,
+   "official_winner": 4,
+   "verdict": "right"
+  }
+ ]
+}

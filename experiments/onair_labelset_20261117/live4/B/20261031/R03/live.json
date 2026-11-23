@@ -1,0 +1,646 @@
+{
+ "video": "otherday27/videos/R03_Rn0oFgWh5bs.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 3,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "투혼의함성"
+   },
+   {
+    "number": 2,
+    "name": "베스트러브"
+   },
+   {
+    "number": 3,
+    "name": "하트퀸"
+   },
+   {
+    "number": 4,
+    "name": "타임투타임"
+   },
+   {
+    "number": 5,
+    "name": "플로터"
+   },
+   {
+    "number": 6,
+    "name": "원평캣"
+   },
+   {
+    "number": 7,
+    "name": "메니블리츠"
+   },
+   {
+    "number": 8,
+    "name": "고스트선더"
+   },
+   {
+    "number": 9,
+    "name": "루미너스"
+   },
+   {
+    "number": 10,
+    "name": "대한여전사"
+   },
+   {
+    "number": 11,
+    "name": "클러치키드"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 9.283333333333333,
+  "finish": 85.483,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5384,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.253,
+  "max": 0.585
+ },
+ "furthest_behind_seconds": 0.57,
+ "dense_pictures": {
+  "run": 73,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 10.283,
+   "race_time": 1.0,
+   "ready": 10.285,
+   "line": "서울 3경주 1200m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 16.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 18.3,
+   "race_time": 9.02,
+   "ready": 18.605,
+   "line": "1200m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.303,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 21.527,
+   "delay": 0.305
+  },
+  {
+   "kind": "point",
+   "video_time": 21.3,
+   "race_time": 12.02,
+   "ready": 21.577,
+   "line": "선두권에 8번 고스트선더가 있습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 24.499,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 24.3,
+   "race_time": 15.02,
+   "ready": 24.549,
+   "line": "8번 고스트선더, 계속 선두권입니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 27.493,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 27.283,
+   "race_time": 18.0,
+   "ready": 27.543,
+   "line": "8번 고스트선더가 선두입니다. 2번 베스트러브도 선두권입니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.2593
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 30.489,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 30.283,
+   "race_time": 21.0,
+   "ready": 30.539,
+   "line": "여전히 선두는 8번 고스트선더. 선두권에 2번 베스트러브.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.5995
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 33.482,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 33.283,
+   "race_time": 24.0,
+   "ready": 33.532,
+   "line": "8번 고스트선더가 선두입니다. 선두권에 2번 베스트러브, 10번 대한여전사.",
+   "statements": [
+    2,
+    8,
+    10
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.6917
+    },
+    {
+     "ahead": 8,
+     "behind": 10,
+     "gap": 0.6666
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 36.511,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 36.283,
+   "race_time": 27.0,
+   "ready": 36.561,
+   "line": "선두는 8번 고스트선더.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.277,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 39.479,
+   "delay": 0.278
+  },
+  {
+   "kind": "point",
+   "video_time": 39.283,
+   "race_time": 30.0,
+   "ready": 39.529,
+   "line": "8번 고스트선더가 선두입니다. 2번 베스트러브, 4번 타임투타임도 선두권입니다.",
+   "statements": [
+    2,
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.4292
+    },
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.3193
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 42.512,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 42.283,
+   "race_time": 33.0,
+   "ready": 42.562,
+   "line": "선두는 8번 고스트선더. 4번 타임투타임도 선두권입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.8061
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 45.473,
+   "delay": 0.279
+  },
+  {
+   "kind": "point",
+   "video_time": 45.283,
+   "race_time": 36.0,
+   "ready": 45.523,
+   "line": "여전히 선두는 8번 고스트선더. 선두권에 4번 타임투타임.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.7689
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "shown_until": 48.505,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 48.283,
+   "race_time": 39.0,
+   "ready": 48.555,
+   "line": "선두는 8번 고스트선더. 선두권에 2번 베스트러브.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.6532
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 51.514,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 51.283,
+   "race_time": 42.0,
+   "ready": 51.564,
+   "line": "선두권에 2번 베스트러브, 8번 고스트선더. 8번 고스트선더가 2번 베스트러브보다 앞에 있습니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.2836
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.279,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 54.486,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 54.283,
+   "race_time": 45.0,
+   "ready": 54.536,
+   "line": "2번 베스트러브, 8번 고스트선더, 계속 선두권입니다.",
+   "statements": [
+    2,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 2,
+     "gap": 0.5159
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 57.484,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 57.283,
+   "race_time": 48.0,
+   "ready": 57.534,
+   "line": "선두권에 4번 타임투타임, 8번 고스트선더. 8번 고스트선더가 4번 타임투타임보다 앞에 있습니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.7723
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 60.485,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 60.283,
+   "race_time": 51.0,
+   "ready": 60.535,
+   "line": "선두는 8번 고스트선더.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 63.486,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 63.283,
+   "race_time": 54.0,
+   "ready": 63.536,
+   "line": "8번 고스트선더, 계속 선두입니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 66.486,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 66.283,
+   "race_time": 57.0,
+   "ready": 66.536,
+   "line": "8번 고스트선더, 선두에 있습니다. 10번 대한여전사도 선두권입니다.",
+   "statements": [
+    8,
+    10
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 10,
+     "gap": 0.7598
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 69.485,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 69.283,
+   "race_time": 60.0,
+   "ready": 69.535,
+   "line": "8번 고스트선더가 선두입니다. 4번 타임투타임, 5번 플로터도 선두권입니다.",
+   "statements": [
+    4,
+    5,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.7123
+    },
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.5739
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 72.473,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 72.283,
+   "race_time": 63.0,
+   "ready": 72.523,
+   "line": "선두는 8번 고스트선더.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 75.463,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 75.283,
+   "race_time": 66.0,
+   "ready": 75.513,
+   "line": "8번 고스트선더, 계속 선두입니다.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 78.782,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 78.283,
+   "race_time": 69.0,
+   "ready": 78.832,
+   "line": "여전히 선두는 8번 고스트선더.",
+   "statements": [
+    8
+   ],
+   "leader": 8,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.071,
+   "work_seconds": 0.476,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "shown_until": 81.743,
+   "delay": 0.549
+  },
+  {
+   "kind": "point",
+   "video_time": 81.283,
+   "race_time": 72.0,
+   "ready": 81.793,
+   "line": "8번 고스트선더, 선두권에서 달립니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.028,
+   "work_seconds": 0.481,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 84.818,
+   "delay": 0.51
+  },
+  {
+   "kind": "point",
+   "video_time": 84.283,
+   "race_time": 75.0,
+   "ready": 84.868,
+   "line": "선두권은 그대로 8번 고스트선더.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.074,
+   "work_seconds": 0.51,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 86.671,
+   "delay": 0.585
+  },
+  {
+   "kind": "finish",
+   "video_time": 86.7,
+   "race_time": 77.42,
+   "ready": 86.721,
+   "line": "결승선을 통과했습니다. 서울 3경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "11": 1,
+     "8": 3
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 85.483,
+   "seconds_after_the_finish": 1.24,
+   "work_seconds": 0.0,
+   "shown_until": 92.671,
+   "delay": 0.021
+  }
+ ]
+}

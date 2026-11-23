@@ -1,0 +1,10 @@
+{'lines': 25, 'lines with a number': 20, 'numbers': 31, 'numbers right': 27, 'numbers close': 1, 'numbers wrong': 3, 'lines with a wrong number': 3, 'leader lines': 7, 'leader right': 3, 'leader close': 3, 'leader wrong': 1}
+   28.98 numbers {3: 'right', 4: 'right'} leader 3 close | official first four [11, 4, 3, 9] | 3번 호세가 선두입니다. 4번 성실대로도 선두권입니다.
+   31.97 numbers {3: 'right', 4: 'right'} leader 4 close | official first four [11, 4, 3, 9] | 선두는 4번 성실대로. 3번 호세도 선두권입니다.
+   34.97 numbers {3: 'right', 4: 'right'} leader 3 close | official first four [11, 4, 3, 9] | 3번 호세, 선두에 있습니다. 4번 성실대로도 선두권입니다.
+   43.97 numbers {8: 'wrong'} leader None None | official first four [11, 4, 3, 9] | 선두권에 8번 민트플레이가 있습니다.
+   46.97 numbers {3: 'right'} leader 3 wrong | official first four [11, 4, 3, 9] | 3번 호세가 선두입니다.
+   58.97 numbers {10: 'close'} leader None None | official first four [4, 11, 9, 10] | 10번 스터닝레이디, 선두권에서 달립니다.
+   70.97 numbers {1: 'wrong', 4: 'right'} leader None None | official first four [4, 11, 9, 10] | 1번 거센폭주, 4번 성실대로, 선두권에서 달립니다.
+   76.97 numbers {1: 'wrong', 4: 'right'} leader None None | official first four [4, 11, 9, 10] | 선두권에 1번 거센폭주, 4번 성실대로가 있습니다.
+finish: None official 4 no call

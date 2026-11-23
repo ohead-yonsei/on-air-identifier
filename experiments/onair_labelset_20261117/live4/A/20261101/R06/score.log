@@ -1,0 +1,6 @@
+{'lines': 37, 'lines with a number': 34, 'numbers': 69, 'numbers right': 66, 'numbers close': 2, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 21, 'leader right': 20, 'leader close': 0, 'leader wrong': 1}
+   31.55 numbers {7: 'wrong'} leader None None | official first four [4, 5, 11, 2] | 선두권에 7번 퍼펙트건맨이 있습니다.
+   37.55 numbers {2: 'close', 5: 'right'} leader None None | official first four [4, 5, 11, 2] | 선두권에 2번 럭키링맨, 5번 스카일러태하. 5번 스카일러태하가 2번 럭키링맨보다 앞에 있습니다.
+  118.55 numbers {8: 'close', 11: 'right'} leader 11 right | official first four [11, 4, 5, 8] | 11번 글로벌랜드, 선두에 있습니다. 선두권에 8번 파워풀아크틱.
+  121.55 numbers {4: 'right', 11: 'right'} leader 4 wrong | official first four [11, 8, 4, 5] | 4번 케이삭스가 선두입니다. 선두권에 11번 글로벌랜드.
+finish: 11 official 11 right

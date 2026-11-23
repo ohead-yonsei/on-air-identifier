@@ -1,0 +1,423 @@
+{
+ "official_winner": 3,
+ "totals": {
+  "lines": 27,
+  "lines with a number": 24,
+  "numbers": 45,
+  "numbers right": 43,
+  "numbers close": 2,
+  "numbers wrong": 0,
+  "lines with a wrong number": 0,
+  "leader lines": 13,
+  "leader right": 8,
+  "leader close": 5,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.257,
+  "max": 0.714
+ },
+ "rows": [
+  {
+   "video_time": 17.067,
+   "line": "6번 베스트에이원, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 20.067,
+   "line": "서울 4경주 1300m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 23.067,
+   "line": "선두는 4번 터보차지. 선두권에 5번 원모타임.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 26.067,
+   "line": "4번 터보차지, 계속 선두입니다. 선두권에 5번 원모타임.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 29.067,
+   "line": "선두는 4번 터보차지. 5번 원모타임, 6번 베스트에이원도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 4,
+   "leader_verdict": "close",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 32.083,
+   "line": "5번 원모타임, 선두에 있습니다. 6번 베스트에이원도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 35.083,
+   "line": "5번 원모타임이 선두입니다. 4번 터보차지, 6번 베스트에이원도 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 38.083,
+   "line": "여전히 선두는 5번 원모타임. 선두권에 4번 터보차지, 6번 베스트에이원.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 41.067,
+   "line": "5번 원모타임, 계속 선두입니다. 선두권에 4번 터보차지, 6번 베스트에이원.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 44.067,
+   "line": "선두권에 5번 원모타임, 6번 베스트에이원. 5번 원모타임이 6번 베스트에이원보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 47.067,
+   "line": "선두권은 그대로 5번 원모타임, 6번 베스트에이원.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 50.067,
+   "line": "선두는 5번 원모타임. 선두권에 6번 베스트에이원.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    4,
+    6,
+    8
+   ]
+  },
+  {
+   "video_time": 53.067,
+   "line": "선두권에 5번 원모타임, 6번 베스트에이원. 5번 원모타임이 6번 베스트에이원보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 56.067,
+   "line": "선두권에 4번 터보차지, 5번 원모타임. 5번 원모타임이 4번 터보차지보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 59.067,
+   "line": "선두권에 4번 터보차지, 5번 원모타임, 6번 베스트에이원. 4번 터보차지가 6번 베스트에이원보다 앞에 있습니다.",
+   "numbers": {
+    "4": "right",
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 62.067,
+   "line": "4번 터보차지, 6번 베스트에이원, 선두권에서 달립니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 65.067,
+   "line": "선두는 5번 원모타임. 6번 베스트에이원도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    4,
+    8
+   ]
+  },
+  {
+   "video_time": 68.067,
+   "line": "선두권에 5번 원모타임이 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    3,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 71.067,
+   "line": "선두는 5번 원모타임. 선두권에 3번 나이트선더.",
+   "numbers": {
+    "3": "right",
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    3,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 74.067,
+   "line": "5번 원모타임, 선두에 있습니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    5,
+    8,
+    4
+   ]
+  },
+  {
+   "video_time": 77.067,
+   "line": "여전히 선두는 5번 원모타임.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    3,
+    5,
+    8,
+    10
+   ]
+  },
+  {
+   "video_time": 80.067,
+   "line": "3번 나이트선더, 선두권에서 달립니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    8,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 83.067,
+   "line": "선두권에 10번 마이티캡이 있습니다.",
+   "numbers": {
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    8,
+    5,
+    10
+   ]
+  },
+  {
+   "video_time": 86.067,
+   "line": "선두는 3번 나이트선더.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": 3,
+   "leader_verdict": "right",
+   "official_order": [
+    3,
+    8,
+    10,
+    5
+   ]
+  },
+  {
+   "video_time": 89.067,
+   "line": "선두권에 3번 나이트선더가 있습니다.",
+   "numbers": {
+    "3": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    3,
+    10,
+    8,
+    5
+   ]
+  },
+  {
+   "video_time": 90.783,
+   "line": "결승선 통과! 3번 나이트선더가 가장 먼저 들어옵니다!",
+   "winner_call": 3,
+   "official_winner": 3,
+   "verdict": "right"
+  }
+ ]
+}

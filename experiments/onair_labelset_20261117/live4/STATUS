@@ -1,0 +1,49 @@
+waiting for live3 and downloads 2026-11-23T08:30:29+09:00
+downloads: 11 + 11 videos
+A 20261101 R01 2026-11-23T09:50:05+09:00 {'clock': {'start': 23.0, 'finish': 84.8, 'expected_seconds': 62.0}, 'lines': 21, 'delay_seconds': {'median': 0.269, 'ma
+B 20261101 R01 2026-11-23T09:51:41+09:00 {'clock': {'start': 23.0, 'finish': 84.8, 'expected_seconds': 62.0}, 'lines': 21, 'delay_seconds': {'median': 0.281, 'ma
+A 20261101 R02 2026-11-23T09:53:28+09:00 {'clock': {'start': 7.383333333333333, 'finish': 96.15, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'media
+B 20261101 R02 2026-11-23T09:55:15+09:00 {'clock': {'start': 7.383333333333333, 'finish': 96.15, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'media
+A 20261101 R03 2026-11-23T09:56:52+09:00 {'clock': {'start': 9.933333333333334, 'finish': 85.35, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'media
+B 20261101 R03 2026-11-23T09:58:28+09:00 {'clock': {'start': 9.933333333333334, 'finish': 85.35, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'media
+A 20261101 R04 2026-11-23T10:00:14+09:00 {'clock': {'start': 14.133333333333333, 'finish': 94.45, 'expected_seconds': 82.5}, 'lines': 27, 'delay_seconds': {'medi
+B 20261101 R04 2026-11-23T10:01:59+09:00 {'clock': {'start': 14.133333333333333, 'finish': 94.45, 'expected_seconds': 82.5}, 'lines': 27, 'delay_seconds': {'medi
+A 20261101 R05 2026-11-23T10:03:51+09:00 {'clock': {'start': 13.966666666666667, 'finish': 101.417, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'me
+B 20261101 R05 2026-11-23T10:05:43+09:00 {'clock': {'start': 13.966666666666667, 'finish': 101.417, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'me
+A 20261101 R06 2026-11-23T10:08:01+09:00 {'clock': {'start': 13.549999999999999, 'finish': 126.033, 'expected_seconds': 112.2}, 'lines': 37, 'delay_seconds': {'m
+B 20261101 R06 2026-11-23T10:10:18+09:00 {'clock': {'start': 13.549999999999999, 'finish': 126.033, 'expected_seconds': 112.2}, 'lines': 37, 'delay_seconds': {'m
+A 20261101 R07 2026-11-23T10:13:02+09:00 {'clock': {'start': 5.35, 'finish': 153.117, 'expected_seconds': 151.8}, 'lines': 49, 'delay_seconds': {'median': 0.256,
+B 20261101 R07 2026-11-23T10:15:46+09:00 {'clock': {'start': 5.35, 'finish': 153.117, 'expected_seconds': 151.8}, 'lines': 49, 'delay_seconds': {'median': 0.268,
+A 20261101 R08 2026-11-23T10:17:38+09:00 {'clock': {'start': 13.283333333333333, 'finish': 100.083, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'me
+B 20261101 R08 2026-11-23T10:19:29+09:00 {'clock': {'start': 13.283333333333333, 'finish': 100.083, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'me
+A 20261101 R09 2026-11-23T10:21:13+09:00 {'clock': {'start': 7.35, 'finish': 93.35, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'median': 0.263, 'm
+B 20261101 R09 2026-11-23T10:22:58+09:00 {'clock': {'start': 7.35, 'finish': 93.35, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'median': 0.263, 'm
+A 20261101 R10 2026-11-23T10:24:31+09:00 {'clock': {'start': 8.333333333333334, 'finish': 81.8, 'expected_seconds': 74.4}, 'lines': 24, 'delay_seconds': {'median
+B 20261101 R10 2026-11-23T10:26:04+09:00 {'clock': {'start': 8.333333333333334, 'finish': 81.8, 'expected_seconds': 74.4}, 'lines': 24, 'delay_seconds': {'median
+A 20261101 R11 2026-11-23T10:27:51+09:00 {'clock': {'start': 8.333333333333334, 'finish': 95.633, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'medi
+B 20261101 R11 2026-11-23T10:29:37+09:00 {'clock': {'start': 8.333333333333334, 'finish': 95.633, 'expected_seconds': 88.9}, 'lines': 29, 'delay_seconds': {'medi
+A 20261031 R01 2026-11-23T10:31:33+09:00 {'clock': {'start': 12.5, 'finish': 103.967, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'median': 0.263, 
+B 20261031 R01 2026-11-23T10:33:27+09:00 {'clock': {'start': 12.5, 'finish': 103.967, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'median': 0.266, 
+A 20261031 R02 2026-11-23T10:35:07+09:00 {'clock': {'start': 12.683333333333334, 'finish': 88.483, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'med
+B 20261031 R02 2026-11-23T10:36:46+09:00 {'clock': {'start': 12.683333333333334, 'finish': 88.483, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'med
+A 20261031 R03 2026-11-23T10:38:23+09:00 {'clock': {'start': 9.283333333333333, 'finish': 85.483, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'medi
+B 20261031 R03 2026-11-23T10:39:59+09:00 {'clock': {'start': 9.283333333333333, 'finish': 85.483, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'medi
+A 20261031 R04 2026-11-23T10:41:25+09:00 {'clock': {'start': 12.416666666666666, 'finish': 74.8, 'expected_seconds': 62.0}, 'lines': 21, 'delay_seconds': {'media
+B 20261031 R04 2026-11-23T10:42:51+09:00 {'clock': {'start': 12.416666666666666, 'finish': 74.8, 'expected_seconds': 62.0}, 'lines': 21, 'delay_seconds': {'media
+A 20261031 R05 2026-11-23T10:44:40+09:00 {'clock': {'start': 8.283333333333333, 'finish': 98.0, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'median
+B 20261031 R05 2026-11-23T10:46:28+09:00 {'clock': {'start': 8.283333333333333, 'finish': 98.0, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'median
+A 20261031 R06 2026-11-23T10:48:36+09:00 {'clock': {'start': 27.166666666666668, 'finish': 116.467, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'me
+B 20261031 R06 2026-11-23T10:50:44+09:00 {'clock': {'start': 27.166666666666668, 'finish': 116.467, 'expected_seconds': 88.9}, 'lines': 30, 'delay_seconds': {'me
+A 20261031 R07 2026-11-23T10:52:29+09:00 {'clock': {'start': 19.316666666666666, 'finish': 94.15, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'medi
+B 20261031 R07 2026-11-23T10:54:14+09:00 {'clock': {'start': 19.316666666666666, 'finish': 94.15, 'expected_seconds': 74.4}, 'lines': 25, 'delay_seconds': {'medi
+A 20261031 R08 2026-11-23T10:55:54+09:00 {'clock': {'start': 15.0, 'finish': 88.733, 'expected_seconds': 74.4}, 'lines': 24, 'delay_seconds': {'median': 0.258, '
+B 20261031 R08 2026-11-23T10:57:33+09:00 {'clock': {'start': 15.0, 'finish': 88.733, 'expected_seconds': 74.4}, 'lines': 24, 'delay_seconds': {'median': 0.256, '
+A 20261031 R09 2026-11-23T10:59:42+09:00 {'clock': {'start': 6.283333333333333, 'finish': 117.567, 'expected_seconds': 112.2}, 'lines': 37, 'delay_seconds': {'me
+B 20261031 R09 2026-11-23T11:01:51+09:00 {'clock': {'start': 6.283333333333333, 'finish': 117.567, 'expected_seconds': 112.2}, 'lines': 37, 'delay_seconds': {'me
+A 20261031 R10 2026-11-23T11:04:09+09:00 {'clock': {'start': 9.683333333333334, 'finish': 127.0, 'expected_seconds': 118.8}, 'lines': 39, 'delay_seconds': {'medi
+B 20261031 R10 2026-11-23T11:06:27+09:00 {'clock': {'start': 9.683333333333334, 'finish': 127.0, 'expected_seconds': 118.8}, 'lines': 39, 'delay_seconds': {'medi
+A 20261031 R11 2026-11-23T11:08:11+09:00 {'clock': {'start': 7.833333333333333, 'finish': 93.033, 'expected_seconds': 88.9}, 'lines': 28, 'delay_seconds': {'medi
+B 20261031 R11 2026-11-23T11:09:55+09:00 {'clock': {'start': 7.833333333333333, 'finish': 93.033, 'expected_seconds': 88.9}, 'lines': 28, 'delay_seconds': {'medi
+locked test pooled 2026-11-23T11:09:56+09:00
+DONE 2026-11-23T11:09:56+09:00
+CLOCK SCAN DONE 2026-11-23T11:37:49+09:00

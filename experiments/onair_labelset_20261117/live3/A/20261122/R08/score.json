@@ -1,0 +1,421 @@
+{
+ "official_winner": 8,
+ "totals": {
+  "lines": 27,
+  "lines with a number": 23,
+  "numbers": 44,
+  "numbers right": 38,
+  "numbers close": 3,
+  "numbers wrong": 3,
+  "lines with a wrong number": 3,
+  "leader lines": 12,
+  "leader right": 6,
+  "leader close": 5,
+  "leader wrong": 1
+ },
+ "delay_seconds": {
+  "median": 0.264,
+  "max": 0.734
+ },
+ "rows": [
+  {
+   "video_time": 23.767,
+   "line": "1300m 경주, 출발 후 9초입니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 26.767,
+   "line": "서울 8경주 1300m, 출발 후 12초가 지났습니다.",
+   "numbers": {},
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 29.767,
+   "line": "6번 타이거케이, 선두권에서 달립니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 32.767,
+   "line": "5번 퍼플코리아가 선두입니다.",
+   "numbers": {
+    "5": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 35.767,
+   "line": "선두권에 5번 퍼플코리아, 6번 타이거케이. 5번 퍼플코리아가 6번 타이거케이보다 앞에 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 38.767,
+   "line": "5번 퍼플코리아, 선두에 있습니다. 선두권에 6번 타이거케이.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    8,
+    1
+   ]
+  },
+  {
+   "video_time": 41.767,
+   "line": "5번 퍼플코리아, 계속 선두입니다. 선두권에 6번 타이거케이.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 44.767,
+   "line": "여전히 선두는 5번 퍼플코리아. 선두권에 6번 타이거케이.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "right",
+   "official_order": [
+    5,
+    6,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 47.767,
+   "line": "선두는 5번 퍼플코리아. 선두권에 6번 타이거케이, 7번 그레이스데이.",
+   "numbers": {
+    "5": "right",
+    "6": "right",
+    "7": "close"
+   },
+   "leader": 5,
+   "leader_verdict": "close",
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 50.767,
+   "line": "5번 퍼플코리아, 6번 타이거케이, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 53.767,
+   "line": "선두는 6번 타이거케이. 5번 퍼플코리아도 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "right",
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 56.767,
+   "line": "선두권에 5번 퍼플코리아, 6번 타이거케이가 있습니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 59.767,
+   "line": "5번 퍼플코리아, 6번 타이거케이, 계속 선두권입니다.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 62.767,
+   "line": "선두권은 그대로 5번 퍼플코리아, 6번 타이거케이.",
+   "numbers": {
+    "5": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    5,
+    8,
+    7
+   ]
+  },
+  {
+   "video_time": 65.767,
+   "line": "5번 퍼플코리아, 선두에 있습니다. 선두권에 6번 타이거케이.",
+   "numbers": {
+    "5": "close",
+    "6": "right"
+   },
+   "leader": 5,
+   "leader_verdict": "wrong",
+   "official_order": [
+    6,
+    8,
+    7,
+    5
+   ]
+  },
+  {
+   "video_time": 68.767,
+   "line": "선두권에 5번 퍼플코리아, 6번 타이거케이. 6번 타이거케이가 5번 퍼플코리아보다 앞에 있습니다.",
+   "numbers": {
+    "5": "wrong",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    8,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 71.767,
+   "line": "5번 퍼플코리아, 8번 거센펀치, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "wrong",
+    "8": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    8,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 74.767,
+   "line": "6번 타이거케이, 선두에 있습니다. 8번 거센펀치도 선두권입니다.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    6,
+    7,
+    2
+   ]
+  },
+  {
+   "video_time": 77.767,
+   "line": "여전히 선두는 6번 타이거케이. 선두권에 8번 거센펀치.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    6,
+    7,
+    11
+   ]
+  },
+  {
+   "video_time": 80.767,
+   "line": "6번 타이거케이, 계속 선두입니다. 선두권에 8번 거센펀치.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    6,
+    7,
+    11
+   ]
+  },
+  {
+   "video_time": 83.767,
+   "line": "여전히 선두는 6번 타이거케이. 선두권에 8번 거센펀치.",
+   "numbers": {
+    "6": "right",
+    "8": "right"
+   },
+   "leader": 6,
+   "leader_verdict": "close",
+   "official_order": [
+    8,
+    6,
+    7,
+    11
+   ]
+  },
+  {
+   "video_time": 86.767,
+   "line": "8번 거센펀치가 선두입니다. 선두권에 11번 라스트케이.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": 8,
+   "leader_verdict": "right",
+   "official_order": [
+    8,
+    6,
+    11,
+    7
+   ]
+  },
+  {
+   "video_time": 89.767,
+   "line": "선두권에 8번 거센펀치, 10번 남촌타운. 8번 거센펀치가 10번 남촌타운보다 앞에 있습니다.",
+   "numbers": {
+    "8": "right",
+    "10": "close"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    11,
+    9,
+    6
+   ]
+  },
+  {
+   "video_time": 92.767,
+   "line": "선두권에 8번 거센펀치, 11번 라스트케이. 8번 거센펀치가 11번 라스트케이보다 앞에 있습니다.",
+   "numbers": {
+    "8": "right",
+    "11": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    11,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 95.767,
+   "line": "5번 퍼플코리아, 선두권에서 달립니다.",
+   "numbers": {
+    "5": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    8,
+    11,
+    9,
+    3
+   ]
+  },
+  {
+   "video_time": 96.85,
+   "line": "결승선을 통과했습니다. 서울 8경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 8,
+   "verdict": "no call"
+  }
+ ]
+}

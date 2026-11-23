@@ -1,0 +1,554 @@
+{
+ "video": "otherday26/videos/R01_8gj1svKdNMI.mp4",
+ "racecard": {
+  "date": "2026-11-01",
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "보스턴하버"
+   },
+   {
+    "number": 2,
+    "name": "라이징스톰"
+   },
+   {
+    "number": 3,
+    "name": "러시퀸"
+   },
+   {
+    "number": 4,
+    "name": "나우데이즈"
+   },
+   {
+    "number": 5,
+    "name": "위너라이징"
+   },
+   {
+    "number": 6,
+    "name": "모닝벨"
+   },
+   {
+    "number": 7,
+    "name": "나루파크"
+   },
+   {
+    "number": 8,
+    "name": "카우보이스타"
+   },
+   {
+    "number": 9,
+    "name": "누리챔프"
+   },
+   {
+    "number": 10,
+    "name": "오섬모닝"
+   },
+   {
+    "number": 11,
+    "name": "와와삭스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 23.0,
+  "finish": 84.8,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 5343,
+ "lines": 21,
+ "delay_seconds": {
+  "median": 0.281,
+  "max": 0.712
+ },
+ "furthest_behind_seconds": 0.698,
+ "dense_pictures": {
+  "run": 63,
+  "skipped_when_behind": 12
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 24.0,
+   "race_time": 1.0,
+   "ready": 24.001,
+   "line": "서울 1경주 1000m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 29.951,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 32.0,
+   "race_time": 9.0,
+   "ready": 32.35,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.348,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.242,
+   "delay": 0.35
+  },
+  {
+   "kind": "point",
+   "video_time": 35.0,
+   "race_time": 12.0,
+   "ready": 35.292,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.29,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 38.217,
+   "delay": 0.292
+  },
+  {
+   "kind": "point",
+   "video_time": 38.0,
+   "race_time": 15.0,
+   "ready": 38.267,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 41.609,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 41.0,
+   "race_time": 18.0,
+   "ready": 41.659,
+   "line": "선두권에 5번 위너라이징이 있습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.657,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.459,
+   "delay": 0.659
+  },
+  {
+   "kind": "point",
+   "video_time": 44.0,
+   "race_time": 21.0,
+   "ready": 44.509,
+   "line": "선두권에 5번 위너라이징, 11번 와와삭스. 5번 위너라이징이 11번 와와삭스보다 앞에 있습니다.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.2756
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.508,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.249,
+   "delay": 0.509
+  },
+  {
+   "kind": "point",
+   "video_time": 47.0,
+   "race_time": 24.0,
+   "ready": 47.299,
+   "line": "4번 나우데이즈, 5번 위너라이징, 선두권에서 달립니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.298,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 50.217,
+   "delay": 0.299
+  },
+  {
+   "kind": "point",
+   "video_time": 50.0,
+   "race_time": 27.0,
+   "ready": 50.267,
+   "line": "선두권은 그대로 4번 나우데이즈, 5번 위너라이징.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 53.197,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 53.0,
+   "race_time": 30.0,
+   "ready": 53.247,
+   "line": "5번 위너라이징이 선두입니다. 선두권에 4번 나우데이즈, 10번 오섬모닝.",
+   "statements": [
+    4,
+    5,
+    10
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.4873
+    },
+    {
+     "ahead": 5,
+     "behind": 10,
+     "gap": 0.6024
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 56.195,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 56.0,
+   "race_time": 33.0,
+   "ready": 56.245,
+   "line": "선두는 5번 위너라이징.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 59.199,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 59.0,
+   "race_time": 36.0,
+   "ready": 59.249,
+   "line": "5번 위너라이징이 선두입니다. 4번 나우데이즈도 선두권입니다.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "shown_until": 62.224,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 62.0,
+   "race_time": 39.0,
+   "ready": 62.274,
+   "line": "선두는 5번 위너라이징. 4번 나우데이즈, 6번 모닝벨도 선두권입니다.",
+   "statements": [
+    4,
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.3
+    },
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.4038
+    },
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.7038
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 65.221,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 65.0,
+   "race_time": 42.0,
+   "ready": 65.271,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 4번 나우데이즈, 6번 모닝벨.",
+   "statements": [
+    4,
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 4,
+     "gap": 0.5617
+    },
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.6982
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 68.231,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 68.0,
+   "race_time": 45.0,
+   "ready": 68.281,
+   "line": "선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.5088
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.28,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 71.228,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 71.0,
+   "race_time": 48.0,
+   "ready": 71.278,
+   "line": "5번 위너라이징, 계속 선두입니다. 선두권에 6번 모닝벨.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.7475
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.277,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 74.174,
+   "delay": 0.278
+  },
+  {
+   "kind": "point",
+   "video_time": 74.0,
+   "race_time": 51.0,
+   "ready": 74.224,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.643
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.223,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 77.449,
+   "delay": 0.224
+  },
+  {
+   "kind": "point",
+   "video_time": 77.0,
+   "race_time": 54.0,
+   "ready": 77.499,
+   "line": "5번 위너라이징, 계속 선두입니다. 선두권에 6번 모닝벨.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.606
+    }
+   ],
+   "late_at_start": 0.093,
+   "work_seconds": 0.405,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 80.623,
+   "delay": 0.499
+  },
+  {
+   "kind": "point",
+   "video_time": 80.0,
+   "race_time": 57.0,
+   "ready": 80.673,
+   "line": "여전히 선두는 5번 위너라이징. 선두권에 6번 모닝벨.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.6439
+    }
+   ],
+   "late_at_start": 0.121,
+   "work_seconds": 0.551,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 83.662,
+   "delay": 0.673
+  },
+  {
+   "kind": "point",
+   "video_time": 83.0,
+   "race_time": 60.0,
+   "ready": 83.712,
+   "line": "선두는 5번 위너라이징.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.11,
+   "work_seconds": 0.601,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "shown_until": 86.483,
+   "delay": 0.712
+  },
+  {
+   "kind": "point",
+   "video_time": 86.0,
+   "race_time": 63.0,
+   "ready": 86.533,
+   "line": "여전히 선두는 5번 위너라이징.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.096,
+   "work_seconds": 0.437,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 86.489,
+   "delay": 0.533
+  },
+  {
+   "kind": "finish",
+   "video_time": 86.017,
+   "race_time": 63.02,
+   "ready": 86.539,
+   "line": "결승선 통과! 5번 위너라이징이 가장 먼저 들어옵니다!",
+   "winner": 5,
+   "winner_call": {
+    "candidate": 5,
+    "pictures_naming_each": {
+     "5": 13,
+     "6": 2,
+     "7": 1
+    },
+    "seen": 5,
+    "front": 3,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 84.8,
+   "seconds_after_the_finish": 1.74,
+   "work_seconds": 0.001,
+   "shown_until": 92.489,
+   "delay": 0.522
+  }
+ ]
+}

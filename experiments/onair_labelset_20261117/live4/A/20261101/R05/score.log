@@ -1,0 +1,13 @@
+{'lines': 29, 'lines with a number': 26, 'numbers': 47, 'numbers right': 40, 'numbers close': 5, 'numbers wrong': 2, 'lines with a wrong number': 2, 'leader lines': 11, 'leader right': 6, 'leader close': 4, 'leader wrong': 1}
+   22.98 numbers {3: 'close'} leader None None | official first four [10, 2, 11, 4] | 3번 무한아르고, 선두권에서 달립니다.
+   31.97 numbers {7: 'wrong'} leader None None | official first four [10, 2, 11, 4] | 선두권에 7번 학산헤니가 있습니다.
+   49.97 numbers {2: 'right', 10: 'right'} leader 2 close | official first four [10, 2, 11, 4] | 선두는 2번 내길의여정. 선두권에 10번 블레이징엔진.
+   52.97 numbers {2: 'right', 10: 'right'} leader 2 close | official first four [10, 2, 11, 8] | 2번 내길의여정, 계속 선두입니다. 선두권에 10번 블레이징엔진.
+   55.97 numbers {2: 'right', 10: 'right'} leader 2 close | official first four [10, 2, 11, 8] | 여전히 선두는 2번 내길의여정. 선두권에 10번 블레이징엔진.
+   61.97 numbers {2: 'right', 11: 'right'} leader 2 close | official first four [10, 2, 11, 8] | 선두는 2번 내길의여정. 선두권에 11번 글로리조이.
+   64.97 numbers {2: 'right', 8: 'close', 10: 'right'} leader None None | official first four [10, 2, 11, 8] | 선두권에 2번 내길의여정, 8번 원더풀치프, 10번 블레이징엔진. 2번 내길의여정이 8번 원더풀치프보다 앞에 있습니다.
+   70.97 numbers {8: 'close', 10: 'right'} leader None None | official first four [10, 11, 2, 8] | 선두권에 8번 원더풀치프, 10번 블레이징엔진. 10번 블레이징엔진이 8번 원더풀치프보다 앞에 있습니다.
+   76.97 numbers {8: 'close', 10: 'right'} leader 10 right | official first four [10, 11, 2, 4] | 10번 블레이징엔진이 선두입니다. 선두권에 8번 원더풀치프.
+   94.97 numbers {5: 'close', 10: 'right'} leader None None | official first four [10, 11, 4, 5] | 선두권에 5번 스마트해성, 10번 블레이징엔진. 10번 블레이징엔진이 5번 스마트해성보다 앞에 있습니다.
+  100.97 numbers {3: 'wrong', 10: 'right'} leader 3 wrong | official first four [10, 11, 5, 4] | 3번 무한아르고가 선두입니다. 10번 블레이징엔진도 선두권입니다.
+finish: 10 official 10 right

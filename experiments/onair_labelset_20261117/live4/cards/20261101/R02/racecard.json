@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 2,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "블루피니시"
+  },
+  {
+   "number": 2,
+   "name": "파워레이서"
+  },
+  {
+   "number": 3,
+   "name": "캔들스스타"
+  },
+  {
+   "number": 4,
+   "name": "백산레이스"
+  },
+  {
+   "number": 5,
+   "name": "시실리"
+  },
+  {
+   "number": 6,
+   "name": "명뷰티풀"
+  },
+  {
+   "number": 7,
+   "name": "오버앤오버"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

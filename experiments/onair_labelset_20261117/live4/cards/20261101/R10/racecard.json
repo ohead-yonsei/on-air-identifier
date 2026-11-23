@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 10,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "브라보플레이"
+  },
+  {
+   "number": 2,
+   "name": "더선불사조"
+  },
+  {
+   "number": 3,
+   "name": "글로벌서브"
+  },
+  {
+   "number": 4,
+   "name": "디아나"
+  },
+  {
+   "number": 5,
+   "name": "토호스카이"
+  },
+  {
+   "number": 6,
+   "name": "크레이지망고"
+  },
+  {
+   "number": 7,
+   "name": "미스윈스타"
+  },
+  {
+   "number": 8,
+   "name": "에브리타임"
+  },
+  {
+   "number": 9,
+   "name": "월드섀넌스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

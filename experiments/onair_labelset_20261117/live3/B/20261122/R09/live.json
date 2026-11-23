@@ -1,0 +1,973 @@
+{
+ "video": "otherday24/videos/R09_PNmNDqHKRlk.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 9,
+  "distance": 1800,
+  "runners": [
+   {
+    "number": 1,
+    "name": "레전드와우"
+   },
+   {
+    "number": 2,
+    "name": "빅토리삭스"
+   },
+   {
+    "number": 3,
+    "name": "콜긴"
+   },
+   {
+    "number": 4,
+    "name": "블랙시대"
+   },
+   {
+    "number": 5,
+    "name": "은빛돌풍"
+   },
+   {
+    "number": 6,
+    "name": "나이스위너"
+   },
+   {
+    "number": 7,
+    "name": "히어아이엠"
+   },
+   {
+    "number": 8,
+    "name": "샤이닝로드"
+   },
+   {
+    "number": 9,
+    "name": "관악산레오"
+   },
+   {
+    "number": 10,
+    "name": "파워에치드"
+   },
+   {
+    "number": 11,
+    "name": "브리도시리스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 8.716666666666667,
+  "finish": 126.833,
+  "expected_seconds": 118.8
+ },
+ "frames_read": 7865,
+ "lines": 39,
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.723
+ },
+ "furthest_behind_seconds": 0.709,
+ "dense_pictures": {
+  "run": 59,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 9.767,
+   "race_time": 1.05,
+   "ready": 9.768,
+   "line": "서울 9경주 1800m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 15.718,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 17.733,
+   "race_time": 9.02,
+   "ready": 18.048,
+   "line": "6번 나이스위너, 7번 히어아이엠, 선두권에서 달립니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.313,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 20.942,
+   "delay": 0.315
+  },
+  {
+   "kind": "point",
+   "video_time": 20.733,
+   "race_time": 12.02,
+   "ready": 20.992,
+   "line": "선두권은 그대로 6번 나이스위너, 7번 히어아이엠.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 23.979,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 23.733,
+   "race_time": 15.02,
+   "ready": 24.029,
+   "line": "선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.4924
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.295,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 26.955,
+   "delay": 0.296
+  },
+  {
+   "kind": "point",
+   "video_time": 26.717,
+   "race_time": 18.0,
+   "ready": 27.005,
+   "line": "7번 히어아이엠, 선두권에서 달립니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.287,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 30.075,
+   "delay": 0.288
+  },
+  {
+   "kind": "point",
+   "video_time": 29.717,
+   "race_time": 21.0,
+   "ready": 30.125,
+   "line": "서울 9경주 1800m, 출발 후 21초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.408,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 33.246,
+   "delay": 0.408
+  },
+  {
+   "kind": "point",
+   "video_time": 32.717,
+   "race_time": 24.0,
+   "ready": 33.296,
+   "line": "1800m 경주, 출발 후 24초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.578,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 35.921,
+   "delay": 0.579
+  },
+  {
+   "kind": "point",
+   "video_time": 35.717,
+   "race_time": 27.0,
+   "ready": 35.971,
+   "line": "7번 히어아이엠, 선두에 있습니다. 1번 레전드와우도 선두권입니다.",
+   "statements": [
+    1,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 1,
+     "gap": 0.3524
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 38.89,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 38.717,
+   "race_time": 30.0,
+   "ready": 38.94,
+   "line": "선두권에 7번 히어아이엠이 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.222,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 42.273,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 41.717,
+   "race_time": 33.0,
+   "ready": 42.323,
+   "line": "7번 히어아이엠, 계속 선두권입니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.605,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 44.911,
+   "delay": 0.606
+  },
+  {
+   "kind": "point",
+   "video_time": 44.717,
+   "race_time": 36.0,
+   "ready": 44.961,
+   "line": "선두권에 2번 빅토리삭스가 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 47.929,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 47.717,
+   "race_time": 39.0,
+   "ready": 47.979,
+   "line": "7번 히어아이엠이 선두입니다. 선두권에 11번 브리도시리스.",
+   "statements": [
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.434
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 50.896,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 50.717,
+   "race_time": 42.0,
+   "ready": 50.946,
+   "line": "11번 브리도시리스, 선두권에서 달립니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 54.247,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 53.717,
+   "race_time": 45.0,
+   "ready": 54.297,
+   "line": "7번 히어아이엠이 선두입니다. 11번 브리도시리스도 선두권입니다.",
+   "statements": [
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.3024
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.579,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 57.267,
+   "delay": 0.58
+  },
+  {
+   "kind": "point",
+   "video_time": 56.717,
+   "race_time": 48.0,
+   "ready": 57.317,
+   "line": "선두는 7번 히어아이엠. 10번 파워에치드, 11번 브리도시리스도 선두권입니다.",
+   "statements": [
+    7,
+    10,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 10,
+     "gap": 0.3581
+    },
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.6267
+    },
+    {
+     "ahead": 10,
+     "behind": 11,
+     "gap": 0.2685
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.599,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 59.916,
+   "delay": 0.6
+  },
+  {
+   "kind": "point",
+   "video_time": 59.717,
+   "race_time": 51.0,
+   "ready": 59.966,
+   "line": "7번 히어아이엠, 선두에 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 62.913,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 62.717,
+   "race_time": 54.0,
+   "ready": 62.963,
+   "line": "선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.7756
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 65.917,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 65.717,
+   "race_time": 57.0,
+   "ready": 65.967,
+   "line": "7번 히어아이엠, 계속 선두입니다. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.7892
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 68.911,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 68.717,
+   "race_time": 60.0,
+   "ready": 68.961,
+   "line": "선두는 7번 히어아이엠. 2번 빅토리삭스, 6번 나이스위너도 선두권입니다.",
+   "statements": [
+    2,
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 2,
+     "gap": 0.7846
+    },
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.9115
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 71.943,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 71.717,
+   "race_time": 63.0,
+   "ready": 71.993,
+   "line": "7번 히어아이엠, 선두에 있습니다. 6번 나이스위너도 선두권입니다.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.8038
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 74.909,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 74.717,
+   "race_time": 66.0,
+   "ready": 74.959,
+   "line": "여전히 선두는 7번 히어아이엠. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.827
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 77.904,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 77.717,
+   "race_time": 69.0,
+   "ready": 77.954,
+   "line": "7번 히어아이엠, 계속 선두입니다. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 6,
+     "gap": 0.7343
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 81.118,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 80.717,
+   "race_time": 72.0,
+   "ready": 81.168,
+   "line": "선두는 7번 히어아이엠. 11번 브리도시리스도 선두권입니다.",
+   "statements": [
+    7,
+    11
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 11,
+     "gap": 0.5569
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.45,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 83.906,
+   "delay": 0.451
+  },
+  {
+   "kind": "point",
+   "video_time": 83.717,
+   "race_time": 75.0,
+   "ready": 83.956,
+   "line": "7번 히어아이엠, 선두에 있습니다. 6번 나이스위너, 10번 파워에치드도 선두권입니다.",
+   "statements": [
+    6,
+    7,
+    10
+   ],
+   "leader": 7,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "shown_until": 86.907,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 86.717,
+   "race_time": 78.0,
+   "ready": 86.957,
+   "line": "선두권에 7번 히어아이엠이 있습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 89.903,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 89.717,
+   "race_time": 81.0,
+   "ready": 89.953,
+   "line": "7번 히어아이엠, 10번 파워에치드, 선두권에서 달립니다.",
+   "statements": [
+    7,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 92.916,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 92.717,
+   "race_time": 84.0,
+   "ready": 92.966,
+   "line": "선두권에 2번 빅토리삭스, 6번 나이스위너, 7번 히어아이엠, 10번 파워에치드. 6번 나이스위너가 2번 빅토리삭스보다 앞에 있습니다.",
+   "statements": [
+    2,
+    6,
+    7,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 2,
+     "gap": 0.2624
+    },
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.4049
+    },
+    {
+     "ahead": 6,
+     "behind": 10,
+     "gap": 0.405
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 95.911,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 95.717,
+   "race_time": 87.0,
+   "ready": 95.961,
+   "line": "선두권에 6번 나이스위너, 10번 파워에치드가 있습니다.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 98.906,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 98.717,
+   "race_time": 90.0,
+   "ready": 98.956,
+   "line": "6번 나이스위너가 선두입니다. 선두권에 3번 콜긴, 10번 파워에치드.",
+   "statements": [
+    3,
+    6,
+    10
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 3,
+     "gap": 0.8782
+    },
+    {
+     "ahead": 6,
+     "behind": 10,
+     "gap": 0.8152
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 101.911,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 101.717,
+   "race_time": 93.0,
+   "ready": 101.961,
+   "line": "선두는 6번 나이스위너.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 104.918,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 104.717,
+   "race_time": 96.0,
+   "ready": 104.968,
+   "line": "6번 나이스위너가 선두입니다. 2번 빅토리삭스, 10번 파워에치드도 선두권입니다.",
+   "statements": [
+    2,
+    6,
+    10
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "shown_until": 107.91,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 107.717,
+   "race_time": 99.0,
+   "ready": 107.96,
+   "line": "선두권에 3번 콜긴, 10번 파워에치드가 있습니다.",
+   "statements": [
+    3,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 110.91,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 110.717,
+   "race_time": 102.0,
+   "ready": 110.96,
+   "line": "10번 파워에치드가 선두입니다. 선두권에 6번 나이스위너.",
+   "statements": [
+    6,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 113.902,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 113.717,
+   "race_time": 105.0,
+   "ready": 113.952,
+   "line": "2번 빅토리삭스, 6번 나이스위너, 선두권에서 달립니다.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 116.894,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 116.717,
+   "race_time": 108.0,
+   "ready": 116.944,
+   "line": "선두권은 그대로 2번 빅토리삭스, 6번 나이스위너.",
+   "statements": [
+    2,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.226,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 120.207,
+   "delay": 0.227
+  },
+  {
+   "kind": "point",
+   "video_time": 119.717,
+   "race_time": 111.0,
+   "ready": 120.257,
+   "line": "3번 콜긴, 선두에 있습니다. 선두권에 2번 빅토리삭스.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3858
+    }
+   ],
+   "late_at_start": 0.059,
+   "work_seconds": 0.481,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 123.39,
+   "delay": 0.54
+  },
+  {
+   "kind": "point",
+   "video_time": 122.717,
+   "race_time": 114.0,
+   "ready": 123.44,
+   "line": "2번 빅토리삭스가 선두입니다. 선두권에 3번 콜긴.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3549
+    }
+   ],
+   "late_at_start": 0.164,
+   "work_seconds": 0.559,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "shown_until": 126.201,
+   "delay": 0.723
+  },
+  {
+   "kind": "point",
+   "video_time": 125.717,
+   "race_time": 117.0,
+   "ready": 126.251,
+   "line": "2번 빅토리삭스, 계속 선두입니다. 선두권에 3번 콜긴.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.4826
+    }
+   ],
+   "late_at_start": 0.021,
+   "work_seconds": 0.512,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 128.18,
+   "delay": 0.534
+  },
+  {
+   "kind": "finish",
+   "video_time": 128.05,
+   "race_time": 119.33,
+   "ready": 128.23,
+   "line": "결승선 통과! 2번 빅토리삭스가 가장 먼저 들어옵니다!",
+   "winner": 2,
+   "winner_call": {
+    "candidate": 2,
+    "pictures_naming_each": {
+     "2": 10
+    },
+    "seen": 7,
+    "front": 7,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 126.833,
+   "seconds_after_the_finish": 1.4,
+   "work_seconds": 0.001,
+   "shown_until": 134.18,
+   "delay": 0.18
+  }
+ ]
+}

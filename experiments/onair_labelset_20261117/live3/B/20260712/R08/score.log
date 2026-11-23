@@ -1,0 +1,13 @@
+{'lines': 34, 'lines with a number': 29, 'numbers': 52, 'numbers right': 43, 'numbers close': 3, 'numbers wrong': 6, 'lines with a wrong number': 6, 'leader lines': 6, 'leader right': 3, 'leader close': 2, 'leader wrong': 1}
+   26.52 numbers {11: 'wrong'} leader None None | official first four [1, 7, 8, 10] | 서울 8경주 1600m, 출발 후 18초가 지났습니다.
+   29.52 numbers {11: 'wrong'} leader None None | official first four [1, 7, 8, 10] | 1600m 경주, 출발 후 21초입니다.
+   32.52 numbers {11: 'wrong'} leader None None | official first four [1, 7, 10, 8] | 서울 8경주 1600m, 출발 후 24초가 지났습니다.
+   35.52 numbers {11: 'wrong'} leader None None | official first four [1, 10, 7, 8] | 1600m 경주, 출발 후 27초입니다.
+   56.52 numbers {1: 'right', 10: 'right'} leader 1 close | official first four [10, 1, 8, 7] | 1번 백룡이 선두입니다. 선두권에 10번 선더에이원.
+   65.52 numbers {1: 'right', 7: 'close', 10: 'right'} leader None None | official first four [10, 1, 8, 7] | 선두권에 1번 백룡, 7번 스마트뮤직, 10번 선더에이원이 있습니다.
+   68.52 numbers {1: 'right', 8: 'right'} leader 1 close | official first four [10, 1, 8, 7] | 1번 백룡이 선두입니다. 선두권에 8번 성실대로.
+   77.52 numbers {8: 'right', 11: 'wrong'} leader 11 wrong | official first four [10, 8, 7, 9] | 8번 성실대로, 선두권에서 달립니다.
+   92.52 numbers {8: 'close', 10: 'right'} leader None None | official first four [10, 7, 9, 8] | 선두권에 8번 성실대로, 10번 선더에이원. 10번 선더에이원이 8번 성실대로보다 앞에 있습니다.
+   95.52 numbers {8: 'close', 10: 'right'} leader None None | official first four [10, 7, 9, 8] | 선두권은 그대로 8번 성실대로, 10번 선더에이원.
+  107.52 numbers {8: 'wrong', 9: 'right', 10: 'right'} leader None None | official first four [10, 2, 9, 7] | 선두권에 8번 성실대로, 9번 러브오마인, 10번 선더에이원. 10번 선더에이원이 8번 성실대로보다 앞에 있습니다.
+finish: None official 10 no call

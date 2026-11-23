@@ -1,0 +1,8 @@
+{'lines': 25, 'lines with a number': 23, 'numbers': 50, 'numbers right': 46, 'numbers close': 4, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 18, 'leader right': 15, 'leader close': 0, 'leader wrong': 3}
+   24.30 numbers {3: 'right', 5: 'close'} leader None None | official first four [3, 6, 1, 5] | 3번 글로리앤아너, 5번 팡팡대로, 선두권에서 달립니다.
+   63.28 numbers {3: 'right', 6: 'right'} leader 3 wrong | official first four [7, 6, 3, 9] | 3번 글로리앤아너, 선두에 있습니다. 선두권에 6번 크레이지챔프.
+   69.28 numbers {3: 'right', 6: 'right', 7: 'right'} leader 3 wrong | official first four [7, 6, 3, 9] | 3번 글로리앤아너가 선두입니다. 선두권에 6번 크레이지챔프, 7번 싱싱모닝.
+   72.28 numbers {3: 'close', 7: 'right'} leader 3 wrong | official first four [7, 6, 9, 3] | 선두는 3번 글로리앤아너. 선두권에 7번 싱싱모닝.
+   75.28 numbers {3: 'close', 7: 'right'} leader 7 right | official first four [7, 6, 9, 3] | 7번 싱싱모닝, 선두에 있습니다. 선두권에 3번 글로리앤아너.
+   78.28 numbers {3: 'close', 7: 'right'} leader 7 right | official first four [7, 9, 6, 3] | 7번 싱싱모닝, 계속 선두입니다. 선두권에 3번 글로리앤아너.
+finish: 7 official 7 right

@@ -1,0 +1,897 @@
+{
+ "video": "otherday27/videos/R09_oqo5-tkp9ys.mp4",
+ "racecard": {
+  "date": "2026-10-31",
+  "place": "서울",
+  "race": 9,
+  "distance": 1700,
+  "runners": [
+   {
+    "number": 1,
+    "name": "레전드선"
+   },
+   {
+    "number": 2,
+    "name": "청산질주"
+   },
+   {
+    "number": 3,
+    "name": "브리도챔피언"
+   },
+   {
+    "number": 4,
+    "name": "마터호른케이"
+   },
+   {
+    "number": 5,
+    "name": "희망밴드"
+   },
+   {
+    "number": 6,
+    "name": "바람의기억"
+   },
+   {
+    "number": 7,
+    "name": "고스트크리솔"
+   },
+   {
+    "number": 8,
+    "name": "파사스파크"
+   },
+   {
+    "number": 9,
+    "name": "다나은스타"
+   },
+   {
+    "number": 10,
+    "name": "어퍼핸드"
+   },
+   {
+    "number": 11,
+    "name": "위버멘쉬"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 6.283333333333333,
+  "finish": 117.567,
+  "expected_seconds": 112.2
+ },
+ "frames_read": 7309,
+ "lines": 37,
+ "delay_seconds": {
+  "median": 0.27,
+  "max": 0.606
+ },
+ "furthest_behind_seconds": 0.59,
+ "dense_pictures": {
+  "run": 64,
+  "skipped_when_behind": 8
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 7.283,
+   "race_time": 1.0,
+   "ready": 7.285,
+   "line": "서울 9경주 1700m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 13.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 15.283,
+   "race_time": 9.0,
+   "ready": 15.605,
+   "line": "3번 브리도챔피언이 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.32,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 18.533,
+   "delay": 0.322
+  },
+  {
+   "kind": "point",
+   "video_time": 18.3,
+   "race_time": 12.02,
+   "ready": 18.583,
+   "line": "3번 브리도챔피언, 선두에 있습니다. 9번 다나은스타도 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.5219
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.282,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 21.776,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 21.3,
+   "race_time": 15.02,
+   "ready": 21.826,
+   "line": "3번 브리도챔피언이 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.525,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 24.835,
+   "delay": 0.526
+  },
+  {
+   "kind": "point",
+   "video_time": 24.283,
+   "race_time": 18.0,
+   "ready": 24.885,
+   "line": "3번 브리도챔피언, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.6,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 27.503,
+   "delay": 0.602
+  },
+  {
+   "kind": "point",
+   "video_time": 27.283,
+   "race_time": 21.0,
+   "ready": 27.553,
+   "line": "선두는 3번 브리도챔피언. 9번 다나은스타도 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.4527
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 30.463,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 30.283,
+   "race_time": 24.0,
+   "ready": 30.513,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.6857
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.228,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 33.83,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 33.283,
+   "race_time": 27.0,
+   "ready": 33.88,
+   "line": "선두는 3번 브리도챔피언. 선두권에 5번 희망밴드, 9번 다나은스타.",
+   "statements": [
+    3,
+    5,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.595,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 36.496,
+   "delay": 0.597
+  },
+  {
+   "kind": "point",
+   "video_time": 36.283,
+   "race_time": 30.0,
+   "ready": 36.546,
+   "line": "8번 파사스파크, 선두권에서 달립니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 39.484,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 39.283,
+   "race_time": 33.0,
+   "ready": 39.534,
+   "line": "선두는 3번 브리도챔피언. 9번 다나은스타도 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.2324
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 42.839,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 42.283,
+   "race_time": 36.0,
+   "ready": 42.889,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.3721
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.604,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 45.567,
+   "delay": 0.606
+  },
+  {
+   "kind": "point",
+   "video_time": 45.283,
+   "race_time": 39.0,
+   "ready": 45.617,
+   "line": "3번 브리도챔피언, 계속 선두입니다. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.333,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 48.81,
+   "delay": 0.334
+  },
+  {
+   "kind": "point",
+   "video_time": 48.283,
+   "race_time": 42.0,
+   "ready": 48.86,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.576,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 51.713,
+   "delay": 0.577
+  },
+  {
+   "kind": "point",
+   "video_time": 51.283,
+   "race_time": 45.0,
+   "ready": 51.763,
+   "line": "4번 마터호른케이, 9번 다나은스타, 선두권에서 달립니다.",
+   "statements": [
+    4,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.478,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 54.584,
+   "delay": 0.48
+  },
+  {
+   "kind": "point",
+   "video_time": 54.283,
+   "race_time": 48.0,
+   "ready": 54.634,
+   "line": "선두권에 5번 희망밴드, 9번 다나은스타가 있습니다.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.35,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 57.469,
+   "delay": 0.351
+  },
+  {
+   "kind": "point",
+   "video_time": 57.283,
+   "race_time": 51.0,
+   "ready": 57.519,
+   "line": "3번 브리도챔피언, 선두권에서 달립니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "shown_until": 60.463,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 60.283,
+   "race_time": 54.0,
+   "ready": 60.513,
+   "line": "3번 브리도챔피언, 선두에 있습니다. 9번 다나은스타도 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.8335
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 63.515,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 63.283,
+   "race_time": 57.0,
+   "ready": 63.565,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.6149
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.28,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 66.475,
+   "delay": 0.282
+  },
+  {
+   "kind": "point",
+   "video_time": 66.283,
+   "race_time": 60.0,
+   "ready": 66.525,
+   "line": "3번 브리도챔피언, 계속 선두입니다. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.645
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 69.488,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 69.283,
+   "race_time": 63.0,
+   "ready": 69.538,
+   "line": "여전히 선두는 3번 브리도챔피언. 선두권에 9번 다나은스타.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.5963
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 72.574,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 72.283,
+   "race_time": 66.0,
+   "ready": 72.624,
+   "line": "3번 브리도챔피언이 선두입니다. 선두권에 4번 마터호른케이, 9번 다나은스타.",
+   "statements": [
+    3,
+    4,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.4014
+    },
+    {
+     "ahead": 9,
+     "behind": 4,
+     "gap": 0.2872
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.34,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 75.557,
+   "delay": 0.341
+  },
+  {
+   "kind": "point",
+   "video_time": 75.283,
+   "race_time": 69.0,
+   "ready": 75.607,
+   "line": "선두는 3번 브리도챔피언. 선두권에 7번 고스트크리솔.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.323,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 78.482,
+   "delay": 0.324
+  },
+  {
+   "kind": "point",
+   "video_time": 78.283,
+   "race_time": 72.0,
+   "ready": 78.532,
+   "line": "3번 브리도챔피언, 선두에 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 81.726,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 81.283,
+   "race_time": 75.0,
+   "ready": 81.776,
+   "line": "선두는 3번 브리도챔피언. 4번 마터호른케이도 선두권입니다.",
+   "statements": [
+    3,
+    4
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 4,
+     "gap": 0.6513
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.491,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "shown_until": 84.719,
+   "delay": 0.493
+  },
+  {
+   "kind": "point",
+   "video_time": 84.283,
+   "race_time": 78.0,
+   "ready": 84.769,
+   "line": "선두권에 3번 브리도챔피언이 있습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.485,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 87.481,
+   "delay": 0.486
+  },
+  {
+   "kind": "point",
+   "video_time": 87.283,
+   "race_time": 81.0,
+   "ready": 87.531,
+   "line": "3번 브리도챔피언, 계속 선두권입니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 90.484,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 90.283,
+   "race_time": 84.0,
+   "ready": 90.534,
+   "line": "9번 다나은스타가 선두입니다. 3번 브리도챔피언도 선두권입니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 93.485,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 93.283,
+   "race_time": 87.0,
+   "ready": 93.535,
+   "line": "여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 96.481,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 96.283,
+   "race_time": 90.0,
+   "ready": 96.531,
+   "line": "9번 다나은스타, 계속 선두입니다. 선두권에 3번 브리도챔피언.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 99.478,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 99.283,
+   "race_time": 93.0,
+   "ready": 99.528,
+   "line": "여전히 선두는 9번 다나은스타. 선두권에 3번 브리도챔피언.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "shown_until": 102.482,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 102.283,
+   "race_time": 96.0,
+   "ready": 102.532,
+   "line": "3번 브리도챔피언, 9번 다나은스타, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 105.479,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 105.283,
+   "race_time": 99.0,
+   "ready": 105.529,
+   "line": "선두권에 2번 청산질주, 3번 브리도챔피언, 9번 다나은스타. 3번 브리도챔피언이 2번 청산질주보다 앞에 있습니다.",
+   "statements": [
+    2,
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.712
+    },
+    {
+     "ahead": 9,
+     "behind": 2,
+     "gap": 0.3445
+    },
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.3675
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 108.481,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 108.283,
+   "race_time": 102.0,
+   "ready": 108.531,
+   "line": "선두권에 3번 브리도챔피언, 9번 다나은스타, 10번 어퍼핸드가 있습니다.",
+   "statements": [
+    3,
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "shown_until": 111.45,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 111.283,
+   "race_time": 105.0,
+   "ready": 111.5,
+   "line": "3번 브리도챔피언, 10번 어퍼핸드, 선두권에서 달립니다.",
+   "statements": [
+    3,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.021,
+   "work_seconds": 0.195,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 114.75,
+   "delay": 0.217
+  },
+  {
+   "kind": "point",
+   "video_time": 114.283,
+   "race_time": 108.0,
+   "ready": 114.8,
+   "line": "선두권은 그대로 3번 브리도챔피언, 10번 어퍼핸드.",
+   "statements": [
+    3,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 10,
+     "gap": 0.2048
+    }
+   ],
+   "late_at_start": 0.023,
+   "work_seconds": 0.493,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 117.719,
+   "delay": 0.517
+  },
+  {
+   "kind": "point",
+   "video_time": 117.283,
+   "race_time": 111.0,
+   "ready": 117.769,
+   "line": "10번 어퍼핸드, 선두권에서 달립니다.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.005,
+   "work_seconds": 0.48,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "shown_until": 118.922,
+   "delay": 0.486
+  },
+  {
+   "kind": "finish",
+   "video_time": 118.783,
+   "race_time": 112.5,
+   "ready": 118.972,
+   "line": "결승선 통과! 3번 브리도챔피언이 가장 먼저 들어옵니다!",
+   "winner": 3,
+   "winner_call": {
+    "candidate": 3,
+    "pictures_naming_each": {
+     "3": 6,
+     "10": 1
+    },
+    "seen": 5,
+    "front": 4,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 117.567,
+   "seconds_after_the_finish": 1.41,
+   "work_seconds": 0.0,
+   "shown_until": 124.922,
+   "delay": 0.189
+  }
+ ]
+}

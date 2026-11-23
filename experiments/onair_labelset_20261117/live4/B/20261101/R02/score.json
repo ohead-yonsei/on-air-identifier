@@ -1,0 +1,450 @@
+{
+ "official_winner": 4,
+ "totals": {
+  "lines": 29,
+  "lines with a number": 27,
+  "numbers": 43,
+  "numbers right": 42,
+  "numbers close": 0,
+  "numbers wrong": 1,
+  "lines with a wrong number": 1,
+  "leader lines": 11,
+  "leader right": 11,
+  "leader close": 0,
+  "leader wrong": 0
+ },
+ "delay_seconds": {
+  "median": 0.244,
+  "max": 0.681
+ },
+ "rows": [
+  {
+   "video_time": 16.383,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "numbers": {
+    "11": "wrong"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 19.383,
+   "line": "선두권에 2번 파워레이서가 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 22.383,
+   "line": "2번 파워레이서, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 25.383,
+   "line": "선두권은 그대로 2번 파워레이서.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 28.383,
+   "line": "2번 파워레이서, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    5
+   ]
+  },
+  {
+   "video_time": 31.383,
+   "line": "선두는 2번 파워레이서. 4번 백산레이스도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 34.383,
+   "line": "여전히 선두는 2번 파워레이서. 선두권에 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 37.383,
+   "line": "2번 파워레이서, 계속 선두입니다. 선두권에 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 40.383,
+   "line": "2번 파워레이서가 선두입니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 43.383,
+   "line": "2번 파워레이서, 선두에 있습니다. 선두권에 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 46.383,
+   "line": "2번 파워레이서가 선두입니다. 선두권에 3번 캔들스스타.",
+   "numbers": {
+    "2": "right",
+    "3": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 49.383,
+   "line": "선두는 2번 파워레이서. 선두권에 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 52.383,
+   "line": "2번 파워레이서, 선두에 있습니다.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 55.383,
+   "line": "여전히 선두는 2번 파워레이서.",
+   "numbers": {
+    "2": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 58.383,
+   "line": "2번 파워레이서가 선두입니다. 선두권에 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 61.383,
+   "line": "선두권에 2번 파워레이서, 4번 백산레이스. 2번 파워레이서가 4번 백산레이스보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    3,
+    6
+   ]
+  },
+  {
+   "video_time": 64.4,
+   "line": "2번 파워레이서, 4번 백산레이스, 계속 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 67.4,
+   "line": "2번 파워레이서가 선두입니다. 4번 백산레이스도 선두권입니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": 2,
+   "leader_verdict": "right",
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 70.4,
+   "line": "선두권에 2번 파워레이서, 4번 백산레이스. 2번 파워레이서가 4번 백산레이스보다 앞에 있습니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 73.383,
+   "line": "선두권은 그대로 2번 파워레이서, 4번 백산레이스.",
+   "numbers": {
+    "2": "right",
+    "4": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    2,
+    4,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 76.383,
+   "line": "2번 파워레이서, 4번 백산레이스, 6번 명뷰티풀, 선두권에서 달립니다.",
+   "numbers": {
+    "2": "right",
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    2,
+    6,
+    3
+   ]
+  },
+  {
+   "video_time": 79.383,
+   "line": "선두권에 4번 백산레이스, 6번 명뷰티풀이 있습니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 82.383,
+   "line": "4번 백산레이스, 6번 명뷰티풀, 계속 선두권입니다.",
+   "numbers": {
+    "4": "right",
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 85.383,
+   "line": "선두권에 6번 명뷰티풀이 있습니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    6,
+    4,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 88.383,
+   "line": "6번 명뷰티풀, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 91.383,
+   "line": "선두권은 그대로 6번 명뷰티풀.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 94.383,
+   "line": "6번 명뷰티풀, 계속 선두권입니다.",
+   "numbers": {
+    "6": "right"
+   },
+   "leader": null,
+   "leader_verdict": null,
+   "official_order": [
+    4,
+    6,
+    2,
+    3
+   ]
+  },
+  {
+   "video_time": 97.367,
+   "line": "결승선을 통과했습니다. 서울 2경주가 끝났습니다.",
+   "winner_call": null,
+   "official_winner": 4,
+   "verdict": "no call"
+  }
+ ]
+}

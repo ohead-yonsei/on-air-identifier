@@ -1,0 +1,8 @@
+{'lines': 39, 'lines with a number': 37, 'numbers': 70, 'numbers right': 68, 'numbers close': 1, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 17, 'leader right': 13, 'leader close': 4, 'leader wrong': 0}
+   21.68 numbers {2: 'right', 8: 'close'} leader 2 right | official first four [2, 7, 9, 4] | 선두는 2번 케이파워풀. 선두권에 8번 비에스스톰.
+   45.68 numbers {6: 'wrong'} leader None None | official first four [2, 7, 9, 4] | 6번 월드블레임, 선두권에서 달립니다.
+   87.68 numbers {2: 'right', 7: 'right'} leader 2 close | official first four [7, 2, 9, 4] | 2번 케이파워풀이 선두입니다. 선두권에 7번 히어아이엠.
+   90.68 numbers {2: 'right', 7: 'right'} leader 2 close | official first four [7, 2, 9, 8] | 2번 케이파워풀, 계속 선두입니다. 선두권에 7번 히어아이엠.
+   93.68 numbers {2: 'right', 7: 'right'} leader 2 close | official first four [7, 2, 9, 8] | 여전히 선두는 2번 케이파워풀. 선두권에 7번 히어아이엠.
+  102.68 numbers {2: 'right', 7: 'right'} leader 2 close | official first four [7, 9, 2, 8] | 선두는 2번 케이파워풀. 7번 히어아이엠도 선두권입니다.
+finish: 8 official 8 right

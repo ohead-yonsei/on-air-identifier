@@ -1,0 +1,41 @@
+{
+ "date": "2026-07-12",
+ "place": "서울",
+ "race": 9,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "별콩"
+  },
+  {
+   "number": 2,
+   "name": "희망밴드"
+  },
+  {
+   "number": 3,
+   "name": "원평코드"
+  },
+  {
+   "number": 4,
+   "name": "하이폴리"
+  },
+  {
+   "number": 5,
+   "name": "큐피드커맨드"
+  },
+  {
+   "number": 6,
+   "name": "머스킷클리버"
+  },
+  {
+   "number": 7,
+   "name": "럭키붐"
+  },
+  {
+   "number": 8,
+   "name": "윈캐처"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

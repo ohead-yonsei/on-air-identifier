@@ -1,0 +1,7 @@
+{'lines': 29, 'lines with a number': 25, 'numbers': 46, 'numbers right': 45, 'numbers close': 0, 'numbers wrong': 1, 'lines with a wrong number': 1, 'leader lines': 16, 'leader right': 12, 'leader close': 3, 'leader wrong': 1}
+   46.17 numbers {2: 'right', 6: 'right', 9: 'right'} leader 6 wrong | official first four [2, 6, 9, 1] | 6번 무빙볼케이노가 선두입니다. 선두권에 2번 위즈파이터, 9번 짜릿한행복.
+   67.17 numbers {2: 'right', 6: 'right'} leader 2 close | official first four [6, 2, 9, 1] | 2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.
+   70.17 numbers {2: 'right', 6: 'right'} leader 2 close | official first four [6, 2, 9, 10] | 여전히 선두는 2번 위즈파이터. 선두권에 6번 무빙볼케이노.
+   73.17 numbers {2: 'right', 6: 'right'} leader 2 close | official first four [6, 2, 9, 10] | 2번 위즈파이터, 계속 선두입니다. 선두권에 6번 무빙볼케이노.
+   91.17 numbers {3: 'wrong'} leader None None | official first four [6, 9, 11, 10] | 3번 히어로삭스, 선두권에서 달립니다.
+finish: None official 6 no call

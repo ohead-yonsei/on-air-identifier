@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-01",
+ "place": "서울",
+ "race": 7,
+ "distance": 2300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "트라움킹"
+  },
+  {
+   "number": 2,
+   "name": "지모션"
+  },
+  {
+   "number": 3,
+   "name": "머스킷데이"
+  },
+  {
+   "number": 4,
+   "name": "어서말을해"
+  },
+  {
+   "number": 5,
+   "name": "제타마스터"
+  },
+  {
+   "number": 6,
+   "name": "이스트웨스트"
+  },
+  {
+   "number": 7,
+   "name": "글로벌삭스"
+  },
+  {
+   "number": 8,
+   "name": "블랙벨트"
+  },
+  {
+   "number": 9,
+   "name": "용암세상"
+  },
+  {
+   "number": 10,
+   "name": "페퍼엑스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

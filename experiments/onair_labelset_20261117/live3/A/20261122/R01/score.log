@@ -1,0 +1,7 @@
+{'lines': 20, 'lines with a number': 17, 'numbers': 32, 'numbers right': 32, 'numbers close': 0, 'numbers wrong': 0, 'lines with a wrong number': 0, 'leader lines': 11, 'leader right': 6, 'leader close': 2, 'leader wrong': 3}
+   66.00 numbers {2: 'right', 10: 'right'} leader 2 close | official first four [10, 2, 9, 5] | 2번 어플리트런던, 선두에 있습니다. 10번 벨로체도 선두권입니다.
+   69.00 numbers {2: 'right', 10: 'right'} leader 2 close | official first four [10, 2, 9, 5] | 여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.
+   72.00 numbers {2: 'right', 10: 'right'} leader 2 wrong | official first four [10, 2, 9, 8] | 2번 어플리트런던, 계속 선두입니다. 선두권에 10번 벨로체.
+   75.00 numbers {2: 'right', 10: 'right'} leader 2 wrong | official first four [10, 2, 9, 8] | 여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.
+   78.00 numbers {2: 'right', 9: 'right'} leader 2 wrong | official first four [10, 2, 9, 11] | 2번 어플리트런던이 선두입니다. 선두권에 9번 정성공주.
+finish: 10 official 10 right
