@@ -1,0 +1,1346 @@
+{
+ "video": "otherday29/videos/R03_Kf00OTxBK0I.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 3,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "캡마왕"
+   },
+   {
+    "number": 2,
+    "name": "컴퍼스포스"
+   },
+   {
+    "number": 3,
+    "name": "다르리여왕"
+   },
+   {
+    "number": 4,
+    "name": "천둥의불꽃"
+   },
+   {
+    "number": 5,
+    "name": "고산봉"
+   },
+   {
+    "number": 6,
+    "name": "플레이스테이"
+   },
+   {
+    "number": 7,
+    "name": "스터닝스피어"
+   },
+   {
+    "number": 8,
+    "name": "블루호라이즌"
+   },
+   {
+    "number": 9,
+    "name": "커맨딩리드"
+   },
+   {
+    "number": 10,
+    "name": "브라운슈거"
+   },
+   {
+    "number": 11,
+    "name": "마이티포인트"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 11.766666666666666,
+  "finish": 103.35,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6456,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.269,
+  "max": 0.782
+ },
+ "furthest_behind_seconds": 0.771,
+ "dense_pictures": {
+  "run": 75,
+  "skipped_when_behind": 15
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 12.833,
+   "race_time": 1.07,
+   "ready": 12.835,
+   "line": "서울 3경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 18.785,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 20.767,
+   "race_time": 9.0,
+   "ready": 21.134,
+   "line": "10번 브라운슈거가 선두입니다.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.366,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [],
+   "said_order": [
+    [
+     10
+    ]
+   ],
+   "shown_until": 24.138,
+   "delay": 0.367
+  },
+  {
+   "kind": "point",
+   "video_time": 23.767,
+   "race_time": 12.0,
+   "ready": 24.188,
+   "line": "서울 3경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.42,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 27.109,
+   "delay": 0.421
+  },
+  {
+   "kind": "point",
+   "video_time": 26.767,
+   "race_time": 15.0,
+   "ready": 27.159,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.391,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 30.145,
+   "delay": 0.392
+  },
+  {
+   "kind": "point",
+   "video_time": 29.767,
+   "race_time": 18.0,
+   "ready": 30.195,
+   "line": "서울 3경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.427,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 32.989,
+   "delay": 0.428
+  },
+  {
+   "kind": "point",
+   "video_time": 32.767,
+   "race_time": 21.0,
+   "ready": 33.039,
+   "line": "선두권은 앞에서부터 7번과 5번과 11번 나란히.",
+   "statements": [
+    5,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 5,
+     "gap": 0.4088
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 1.43,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 1.97,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 3.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     7,
+     5,
+     11
+    ]
+   ],
+   "shown_until": 35.969,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 35.767,
+   "race_time": 24.0,
+   "ready": 36.019,
+   "line": "앞에서부터 5번과 11번과 2번 나란히.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.3005
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.47,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 3.27,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     11,
+     2
+    ]
+   ],
+   "shown_until": 38.988,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 38.767,
+   "race_time": 27.0,
+   "ready": 39.038,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 11번.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.5428
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.22,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 2.44,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11
+    ]
+   ],
+   "shown_until": 41.968,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 41.767,
+   "race_time": 30.0,
+   "ready": 42.018,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 11번, 7번과 3번 나란히.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.2881
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.04,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.13,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.13,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.79,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11
+    ],
+    [
+     7,
+     3
+    ]
+   ],
+   "shown_until": 44.966,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 44.767,
+   "race_time": 33.0,
+   "ready": 45.016,
+   "line": "5번 고산봉, 계속 선두입니다. 그 뒤로 11번, 7번과 3번 나란히.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.2847
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.68,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 1.91,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.06,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.56,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11
+    ],
+    [
+     7,
+     3
+    ]
+   ],
+   "shown_until": 47.955,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 47.767,
+   "race_time": 36.0,
+   "ready": 48.005,
+   "line": "선두는 5번 고산봉. 이어서 11번, 3번, 7번.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.6268
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.2,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 2.21,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.94,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 9.59,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11
+    ],
+    [
+     3
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 51.283,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 50.767,
+   "race_time": 39.0,
+   "ready": 51.333,
+   "line": "선두는 5번 고산봉. 이어서 7번.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.565,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.54,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 10.37,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 53.963,
+   "delay": 0.566
+  },
+  {
+   "kind": "point",
+   "video_time": 53.767,
+   "race_time": 42.0,
+   "ready": 54.013,
+   "line": "앞에서부터 5번과 3번 나란히, 7번.",
+   "statements": [
+    3,
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.591
+    },
+    {
+     "ahead": 11,
+     "behind": 3,
+     "gap": 0.3752
+    },
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.2159
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.9,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.36,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 8.51,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     3
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 56.98,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 56.767,
+   "race_time": 45.0,
+   "ready": 57.03,
+   "line": "선두권은 앞에서부터 11번과 3번 나란히, 7번.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.43,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.65,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 7.56,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     3
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 59.964,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 59.767,
+   "race_time": 48.0,
+   "ready": 60.014,
+   "line": "선두는 5번 고산봉. 이어서 11번과 3번 나란히, 7번.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.6378
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.36,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 1.78,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.46,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 12.0,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11,
+     3
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 63.098,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 62.767,
+   "race_time": 51.0,
+   "ready": 63.148,
+   "line": "선두는 11번 마이티포인트.",
+   "statements": [
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.381,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.36,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ]
+   ],
+   "shown_until": 65.962,
+   "delay": 0.381
+  },
+  {
+   "kind": "point",
+   "video_time": 65.767,
+   "race_time": 54.0,
+   "ready": 66.012,
+   "line": "11번 마이티포인트가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 8,
+     "gap": 0.3884
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 3.91,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.23,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 68.968,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 68.767,
+   "race_time": 57.0,
+   "ready": 69.018,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 3번과 11번 나란히.",
+   "statements": [
+    3,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.33,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.35,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 2.87,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3,
+     11
+    ]
+   ],
+   "shown_until": 72.113,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 71.767,
+   "race_time": 60.0,
+   "ready": 72.163,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 11번과 3번 나란히.",
+   "statements": [
+    3,
+    5,
+    11
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.8425
+    },
+    {
+     "ahead": 5,
+     "behind": 11,
+     "gap": 0.8478
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.395,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 0.53,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 3.72,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     11,
+     3
+    ]
+   ],
+   "shown_until": 74.969,
+   "delay": 0.396
+  },
+  {
+   "kind": "point",
+   "video_time": 74.767,
+   "race_time": 63.0,
+   "ready": 75.019,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 7번과 3번과 8번과 11번 나란히.",
+   "statements": [
+    3,
+    5,
+    7
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 7,
+     "gap": 0.6889
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.02,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.07,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.65,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.09,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 5.85,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     7,
+     3,
+     8,
+     11
+    ]
+   ],
+   "shown_until": 77.961,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 77.767,
+   "race_time": 66.0,
+   "ready": 78.011,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 8번과 11번 나란히.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.29,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.53,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 6.39,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     8,
+     11
+    ]
+   ],
+   "shown_until": 80.971,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 80.767,
+   "race_time": 69.0,
+   "ready": 81.021,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 3번, 8번.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 0.87,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.09,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.1,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 83.96,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 83.767,
+   "race_time": 72.0,
+   "ready": 84.01,
+   "line": "5번 고산봉이 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.54,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 6.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 86.941,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 86.767,
+   "race_time": 75.0,
+   "ready": 86.991,
+   "line": "3번 다르리여왕이 선두입니다. 그 뒤로 5번과 8번 나란히.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 8,
+     "gap": 0.6542
+    }
+   ],
+   "late_at_start": 0.003,
+   "work_seconds": 0.221,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 3.0,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.74,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     8
+    ]
+   ],
+   "shown_until": 89.986,
+   "delay": 0.224
+  },
+  {
+   "kind": "point",
+   "video_time": 89.767,
+   "race_time": 78.0,
+   "ready": 90.036,
+   "line": "선두권은 앞에서부터 5번, 8번.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.07,
+   "work_seconds": 0.198,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 3.68,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 7.35,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 93.162,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 92.767,
+   "race_time": 81.0,
+   "ready": 93.212,
+   "line": "앞에서부터 8번, 5번.",
+   "statements": [
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.012,
+   "work_seconds": 0.433,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.32,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 5.23,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 96.499,
+   "delay": 0.445
+  },
+  {
+   "kind": "point",
+   "video_time": 95.767,
+   "race_time": 84.0,
+   "ready": 96.549,
+   "line": "선두권은 앞에서부터 5번.",
+   "statements": [
+    4,
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.184,
+   "work_seconds": 0.597,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 6.12,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ]
+   ],
+   "shown_until": 99.434,
+   "delay": 0.782
+  },
+  {
+   "kind": "point",
+   "video_time": 98.767,
+   "race_time": 87.0,
+   "ready": 99.484,
+   "line": "선두는 2번 컴퍼스포스. 이어서 8번, 5번.",
+   "statements": [
+    2,
+    5,
+    8
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.534
+    },
+    {
+     "ahead": 2,
+     "behind": 8,
+     "gap": 0.3043
+    },
+    {
+     "ahead": 8,
+     "behind": 5,
+     "gap": 0.2297
+    }
+   ],
+   "late_at_start": 0.146,
+   "work_seconds": 0.571,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.8,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 14.17,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     8
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 102.269,
+   "delay": 0.717
+  },
+  {
+   "kind": "point",
+   "video_time": 101.767,
+   "race_time": 90.0,
+   "ready": 102.319,
+   "line": "서울 3경주 1400m, 출발 후 90초가 지났습니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.087,
+   "work_seconds": 0.464,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 104.66,
+   "delay": 0.552
+  },
+  {
+   "kind": "finish",
+   "video_time": 104.567,
+   "race_time": 92.8,
+   "ready": 104.71,
+   "line": "결승선 통과! 2번 컴퍼스포스가 가장 먼저 들어옵니다!",
+   "winner": 2,
+   "winner_call": {
+    "candidate": 2,
+    "pictures_naming_each": {
+     "2": 9,
+     "3": 1
+    },
+    "seen": 6,
+    "front": 3,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 103.35,
+   "seconds_after_the_finish": 1.36,
+   "work_seconds": 0.0,
+   "shown_until": 110.66,
+   "delay": 0.143
+  }
+ ]
+}

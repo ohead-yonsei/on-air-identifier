@@ -18,6 +18,9 @@ What is said
     are run as they come.
   - no line speaks of a change ("moves up", "overtakes"): comparing two time points does not show real changes (top5/RESULT_KO.md).
   - a cap of 11 or above cannot be told apart: such a number is said only when the race card has exactly one runner of 11 or above.
+  - --v12 (added 2026-11-23, v12/DESIGN_KO.md): instead of "No. 2 and No. 4 are in the leading group", the horses named in the first
+    five, front to back ("선두는 5번. 그 뒤로 8번, 3번과 6번 나란히."), from two models learned on official passing times. The leader line is
+    unchanged; a stated leader is said first. The v11 statements are still written into each event, so both can be scored on the same points.
   - --finish-leader (added 2026-11-23, live3/DESIGN_KO.md): from 36 s before the finish expected from the distance, the leader comes from
     the finish-stretch model learned on official passing times (identify_l1.py --v10's leader part, finish2/models/fs_leader_all.joblib).
     The finish is not known while running, so the stretch starts at expected_seconds(distance) - 36 s of race time. Statements, order and
@@ -131,6 +134,46 @@ class Lines:
             return self.pick([f"선두권에 {gl}{josa(gl)} 있습니다.", f"{gl}, 선두권에서 달립니다."])
         return self.pick([f"{c['place']} {c['race']}경주 {c['distance']}m, 출발 후 {int(race_time)}초가 지났습니다.", f"{c['distance']}m 경주, 출발 후 {int(race_time)}초입니다."])
 
+    def said_order(self, res):
+        """v12: the first five as said, front to back, as groups of horses side by side (predicted gaps within delta metres).
+        A stated leader is said first, alone; the others keep the order of the gap model."""
+        lead = self.number(res["leader"]) if res.get("leader") else None
+        seen, rows = set(), []
+        for x in res.get("group5", []):
+            m = self.number(x["number"])
+            if m and m != lead and m not in seen:
+                seen.add(m)
+                rows.append((m, x["gap_m"]))
+        groups = []
+        for m, g in rows:
+            if groups and g - groups[-1][-1][1] < res.get("group5_delta_m", 0.0):
+                groups[-1].append((m, g))
+            else:
+                groups.append([(m, g)])
+        said = [[m for m, _ in grp] for grp in groups]
+        return ([[lead]] if lead else []) + said
+
+    def point5(self, res, race_time):
+        """v12 lines: the leader (as before) and the other named horses of the first five, front to back."""
+        c = self.card
+        said = self.said_order(res)
+        lead = self.number(res["leader"]) if res.get("leader") else None
+        rest = said[1:] if lead else said
+        key = tuple(tuple(g) for g in said)
+        same, self.last = key == self.last and bool(said), key
+        part = lambda grp: f"{grp[0]}번" if len(grp) == 1 else "과 ".join(f"{m}번" for m in grp[:-1]) + f"{josa(str(grp[-1]) + '번', '과', '와')} {grp[-1]}번 나란히"
+        tail = ", ".join(part(g) for g in rest)
+        if lead:
+            ll = self.label(lead)
+            if same:
+                return self.pick([f"여전히 선두는 {ll}.", f"{ll}, 계속 선두입니다."]) + (f" 그 뒤로 {tail}." if rest else "")
+            return self.pick([f"선두는 {ll}.", f"{ll}{josa(ll)} 선두입니다."]) + (" " + self.pick([f"그 뒤로 {tail}.", f"이어서 {tail}."]) if rest else "")
+        if rest:
+            if same:
+                return self.pick([f"순서는 그대로, 앞에서부터 {tail}.", f"앞에서부터 {tail}, 그대로입니다."])
+            return self.pick([f"앞에서부터 {tail}.", f"선두권은 앞에서부터 {tail}."])
+        return self.pick([f"{c['place']} {c['race']}경주 {c['distance']}m, 출발 후 {int(race_time)}초가 지났습니다.", f"{c['distance']}m 경주, 출발 후 {int(race_time)}초입니다."])
+
     def finish(self, winner):
         c = self.card
         w = self.number(winner) if winner else None
@@ -180,6 +223,7 @@ def main():
     ap.add_argument("--no-names", action="store_true", help="say numbers only")
     ap.add_argument("--no-video", action="store_true", help="do not write the subtitled video")
     ap.add_argument("--finish-leader", action="store_true", help="leader from the finish-stretch model in the last 36 s expected from the distance")
+    ap.add_argument("--v12", action="store_true", help="identifier v12: name the horses of the first five, front to back (v12/DESIGN_KO.md)")
     a = ap.parse_args()
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -187,13 +231,15 @@ def main():
     lines = Lines(card, not a.no_names)
     L.wait_gpu()
     ident = L.LeadingGroupIdentifier("sep06", fast=True, fallback=True, tau_leader=L.TAU_LEADER_V9, cap_weights=L.CNN_WEIGHTS_V11,
-                                    finish_leader=a.finish_leader)
+                                    finish_leader=a.finish_leader, v12=a.v12)
     cap = cv2.VideoCapture(a.video)
     assert (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))) == (1920, 1080), "the graphics positions assume a 1920x1080 broadcast"
     ok, first = cap.read()
     for _ in range(3):
         ident.picture(first)                   # warm the models up before the clock starts; the result is thrown away
     ident.history.clear()
+    ident.history5.clear()
+    ident.gap5.clear()
     cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
 
     clock, buf, events, dense = Clock(), deque(), [], []
@@ -246,9 +292,10 @@ def main():
             stretch = a.finish_leader and r >= expect - L.LATE_SECONDS
             res = ident.point(v, [bgr, near(v - 0.5), near(v - 1.0)], late=stretch)
             work = time.perf_counter() - w0
-            emit("point", v, lines.point(res, r), statements=res["statements"], leader=res.get("leader"), leader_source=res.get("leader_source"),
-                 order=res.get("order", []), late_at_start=round(late, 3), work_seconds=round(work, 3),
-                 **({"finish_stretch": stretch, "leader_strip_model": res.get("leader_strip_model", res.get("leader"))} if a.finish_leader else {}))
+            emit("point", v, lines.point5(res, r) if a.v12 else lines.point(res, r), statements=res["statements"], leader=res.get("leader"),
+                 leader_source=res.get("leader_source"), order=res.get("order", []), late_at_start=round(late, 3), work_seconds=round(work, 3),
+                 **({"finish_stretch": stretch, "leader_strip_model": res.get("leader_strip_model", res.get("leader"))} if a.finish_leader else {}),
+                 **({"group5": res["group5"], "said_order": lines.said_order(res)} if a.v12 else {}))
             next_point += a.step
             continue
         if r >= expect - DENSE_BEFORE:
@@ -267,7 +314,7 @@ def main():
         e["shown_until"] = round(min(events[k + 1]["ready"] if k + 1 < len(events) else e["ready"] + 6, e["ready"] + 6) - 0.05, 3)
         e["delay"] = round(e["ready"] - e["video_time"], 3)
     pts_delay = sorted(e["delay"] for e in events if e["kind"] == "point")
-    res = {"video": a.video, "racecard": card, "configuration": "v11 (F2+caps2)" + (" + finish-stretch leader" if a.finish_leader else "") + " + winner call, pattern lines", "waited_for_the_wall_clock": not a.no_wait,
+    res = {"video": a.video, "racecard": card, "configuration": ("v12 (F2+caps2+top5)" if a.v12 else "v11 (F2+caps2)") + (" + finish-stretch leader" if a.finish_leader else "") + " + winner call, pattern lines", "waited_for_the_wall_clock": not a.no_wait,
            "clock": {"start": clock.start, "finish": clock.finish, "expected_seconds": round(expect, 1)}, "frames_read": frames,
            "lines": len(events), "delay_seconds": {"median": pts_delay[len(pts_delay) // 2] if pts_delay else None, "max": pts_delay[-1] if pts_delay else None},
            "furthest_behind_seconds": round(late_max, 3), "dense_pictures": {"run": len(dense), "skipped_when_behind": dense_skipped}, "events": events}

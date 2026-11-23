@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 3,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "캡마왕"
+  },
+  {
+   "number": 2,
+   "name": "컴퍼스포스"
+  },
+  {
+   "number": 3,
+   "name": "다르리여왕"
+  },
+  {
+   "number": 4,
+   "name": "천둥의불꽃"
+  },
+  {
+   "number": 5,
+   "name": "고산봉"
+  },
+  {
+   "number": 6,
+   "name": "플레이스테이"
+  },
+  {
+   "number": 7,
+   "name": "스터닝스피어"
+  },
+  {
+   "number": 8,
+   "name": "블루호라이즌"
+  },
+  {
+   "number": 9,
+   "name": "커맨딩리드"
+  },
+  {
+   "number": 10,
+   "name": "브라운슈거"
+  },
+  {
+   "number": 11,
+   "name": "마이티포인트"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

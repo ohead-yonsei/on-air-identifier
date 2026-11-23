@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 1,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "인디미니스터"
+  },
+  {
+   "number": 2,
+   "name": "피엔에스건즈"
+  },
+  {
+   "number": 3,
+   "name": "루움축제"
+  },
+  {
+   "number": 4,
+   "name": "온리유"
+  },
+  {
+   "number": 5,
+   "name": "쾌걸춘향"
+  },
+  {
+   "number": 6,
+   "name": "백호의울림"
+  },
+  {
+   "number": 7,
+   "name": "메탈인베이더"
+  },
+  {
+   "number": 8,
+   "name": "이스트고고"
+  },
+  {
+   "number": 9,
+   "name": "해마루챗"
+  },
+  {
+   "number": 10,
+   "name": "걸작마루"
+  },
+  {
+   "number": 11,
+   "name": "다나은루비"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

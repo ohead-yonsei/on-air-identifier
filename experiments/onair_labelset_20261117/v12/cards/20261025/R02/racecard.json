@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 2,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "델타최강"
+  },
+  {
+   "number": 2,
+   "name": "글로벌하남"
+  },
+  {
+   "number": 3,
+   "name": "지산프리"
+  },
+  {
+   "number": 4,
+   "name": "골드엑스"
+  },
+  {
+   "number": 5,
+   "name": "선더런"
+  },
+  {
+   "number": 6,
+   "name": "사하라로즈"
+  },
+  {
+   "number": 7,
+   "name": "천마의함성"
+  },
+  {
+   "number": 8,
+   "name": "테이크참"
+  },
+  {
+   "number": 9,
+   "name": "피렌체골드"
+  },
+  {
+   "number": 10,
+   "name": "피엔에스리프"
+  },
+  {
+   "number": 11,
+   "name": "청강겨울"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 2,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "삼정퍼스트"
+  },
+  {
+   "number": 2,
+   "name": "고스트불릿"
+  },
+  {
+   "number": 3,
+   "name": "경아퀸"
+  },
+  {
+   "number": 4,
+   "name": "루나삭스"
+  },
+  {
+   "number": 5,
+   "name": "푸른돌풍"
+  },
+  {
+   "number": 6,
+   "name": "케이엔베스트"
+  },
+  {
+   "number": 7,
+   "name": "베스트프렌드"
+  },
+  {
+   "number": 8,
+   "name": "마이티레이스"
+  },
+  {
+   "number": 9,
+   "name": "레이스파티"
+  },
+  {
+   "number": 10,
+   "name": "시실리"
+  },
+  {
+   "number": 11,
+   "name": "거센기쁨"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

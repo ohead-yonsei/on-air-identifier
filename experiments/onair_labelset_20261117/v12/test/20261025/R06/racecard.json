@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 6,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "송당망치"
+  },
+  {
+   "number": 2,
+   "name": "럭키에이원"
+  },
+  {
+   "number": 3,
+   "name": "엑설런트한센"
+  },
+  {
+   "number": 4,
+   "name": "와달비"
+  },
+  {
+   "number": 5,
+   "name": "피엔에스오오"
+  },
+  {
+   "number": 6,
+   "name": "연동스타"
+  },
+  {
+   "number": 7,
+   "name": "하늘감동"
+  },
+  {
+   "number": 8,
+   "name": "남촌서브"
+  },
+  {
+   "number": 9,
+   "name": "용비신화"
+  },
+  {
+   "number": 10,
+   "name": "어플리트런"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 1,
+ "distance": 1000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "어플리트런던"
+  },
+  {
+   "number": 2,
+   "name": "레드호스"
+  },
+  {
+   "number": 3,
+   "name": "원더플렉스"
+  },
+  {
+   "number": 4,
+   "name": "걸작윤슬"
+  },
+  {
+   "number": 5,
+   "name": "학산스마티"
+  },
+  {
+   "number": 6,
+   "name": "클레어축제"
+  },
+  {
+   "number": 7,
+   "name": "타이거챔프"
+  },
+  {
+   "number": 8,
+   "name": "고스트소닉"
+  },
+  {
+   "number": 9,
+   "name": "이안러브"
+  },
+  {
+   "number": 10,
+   "name": "세이브퀸"
+  },
+  {
+   "number": 11,
+   "name": "플라잉파티"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 7,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "라스트케이"
+  },
+  {
+   "number": 2,
+   "name": "하남엘도라도"
+  },
+  {
+   "number": 3,
+   "name": "거센빅맨"
+  },
+  {
+   "number": 4,
+   "name": "브리도아쿠아"
+  },
+  {
+   "number": 5,
+   "name": "마이티세이버"
+  },
+  {
+   "number": 6,
+   "name": "라온더케이샤"
+  },
+  {
+   "number": 7,
+   "name": "컴플리트스텝"
+  },
+  {
+   "number": 8,
+   "name": "마이티베스트"
+  },
+  {
+   "number": 9,
+   "name": "거센폭주"
+  },
+  {
+   "number": 10,
+   "name": "팡팡대로"
+  },
+  {
+   "number": 11,
+   "name": "파이널고"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

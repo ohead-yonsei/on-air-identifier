@@ -1,0 +1,1213 @@
+{
+ "video": "otherday29/videos/R11_ezbtZRTlI0s.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "행복한승자"
+   },
+   {
+    "number": 2,
+    "name": "연희히어로"
+   },
+   {
+    "number": 3,
+    "name": "스피드원"
+   },
+   {
+    "number": 4,
+    "name": "원펀치드래곤"
+   },
+   {
+    "number": 5,
+    "name": "지구라트"
+   },
+   {
+    "number": 6,
+    "name": "슈퍼피니시"
+   },
+   {
+    "number": 7,
+    "name": "한센브레이싱"
+   },
+   {
+    "number": 8,
+    "name": "영광의월드"
+   },
+   {
+    "number": 9,
+    "name": "나이스포스"
+   },
+   {
+    "number": 10,
+    "name": "서클에이"
+   },
+   {
+    "number": 11,
+    "name": "킹아너"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 6.866666666666666,
+  "finish": 91.733,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5759,
+ "lines": 28,
+ "delay_seconds": {
+  "median": 0.258,
+  "max": 0.716
+ },
+ "furthest_behind_seconds": 0.701,
+ "dense_pictures": {
+  "run": 43,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 7.933,
+   "race_time": 1.07,
+   "ready": 7.935,
+   "line": "서울 11경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 13.885,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 15.867,
+   "race_time": 9.0,
+   "ready": 16.324,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.456,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 19.399,
+   "delay": 0.457
+  },
+  {
+   "kind": "point",
+   "video_time": 18.867,
+   "race_time": 12.0,
+   "ready": 19.449,
+   "line": "서울 11경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.581,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 22.337,
+   "delay": 0.582
+  },
+  {
+   "kind": "point",
+   "video_time": 21.867,
+   "race_time": 15.0,
+   "ready": 22.387,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.519,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 25.298,
+   "delay": 0.52
+  },
+  {
+   "kind": "point",
+   "video_time": 24.867,
+   "race_time": 18.0,
+   "ready": 25.348,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.48,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 28.076,
+   "delay": 0.481
+  },
+  {
+   "kind": "point",
+   "video_time": 27.867,
+   "race_time": 21.0,
+   "ready": 28.126,
+   "line": "선두권은 앞에서부터 9번, 8번과 7번 나란히.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.2219
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.03,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.64,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.77,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     8,
+     7
+    ]
+   ],
+   "shown_until": 31.083,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 30.867,
+   "race_time": 24.0,
+   "ready": 31.133,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번, 7번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.4658
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.29,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 6.21,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 34.07,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 33.867,
+   "race_time": 27.0,
+   "ready": 34.12,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번, 8번과 7번 나란히.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6006
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.1,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.23,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.54,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 6.21,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     8,
+     7
+    ]
+   ],
+   "shown_until": 37.057,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 36.867,
+   "race_time": 30.0,
+   "ready": 37.107,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번, 3번과 8번 나란히.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.5481
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.31,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.16,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.15,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 6.83,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     3,
+     8
+    ]
+   ],
+   "shown_until": 40.057,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 39.867,
+   "race_time": 33.0,
+   "ready": 40.107,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번, 8번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.7305
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.26,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.37,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.38,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 43.054,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 42.867,
+   "race_time": 36.0,
+   "ready": 43.104,
+   "line": "여전히 선두는 6번 슈퍼피니시. 그 뒤로 9번, 8번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.661
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 0.86,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.1,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 6.43,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 46.057,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 45.867,
+   "race_time": 39.0,
+   "ready": 46.107,
+   "line": "6번 슈퍼피니시, 계속 선두입니다. 그 뒤로 9번, 8번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6164
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 0.99,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.47,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.85,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 49.065,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 48.867,
+   "race_time": 42.0,
+   "ready": 49.115,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.517
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.5,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.86,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 52.06,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 51.867,
+   "race_time": 45.0,
+   "ready": 52.11,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번, 8번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6663
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.48,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.56,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 10.61,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 55.056,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 54.867,
+   "race_time": 48.0,
+   "ready": 55.106,
+   "line": "선두는 6번 슈퍼피니시. 이어서 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.3039
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 3.47,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 7.4,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 58.075,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 57.867,
+   "race_time": 51.0,
+   "ready": 58.125,
+   "line": "여전히 선두는 6번 슈퍼피니시. 그 뒤로 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.5018
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.34,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 6.08,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 61.219,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 60.867,
+   "race_time": 54.0,
+   "ready": 61.269,
+   "line": "6번 슈퍼피니시, 계속 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6148
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.402,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.15,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.32,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 64.05,
+   "delay": 0.402
+  },
+  {
+   "kind": "point",
+   "video_time": 63.867,
+   "race_time": 57.0,
+   "ready": 64.1,
+   "line": "앞에서부터 9번, 7번과 6번 나란히, 3번.",
+   "statements": [
+    6,
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 7,
+     "gap": 0.2727
+    },
+    {
+     "ahead": 9,
+     "behind": 6,
+     "gap": 0.2168
+    },
+    {
+     "ahead": 9,
+     "behind": 7,
+     "gap": 0.4896
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.1,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.85,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.37,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 7.22,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 67.076,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 66.883,
+   "race_time": 60.02,
+   "ready": 67.126,
+   "line": "6번 슈퍼피니시가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 0.39,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.94,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 70.079,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 69.883,
+   "race_time": 63.02,
+   "ready": 70.129,
+   "line": "6번 슈퍼피니시가 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6944
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.08,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.23,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 73.055,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 72.867,
+   "race_time": 66.0,
+   "ready": 73.105,
+   "line": "6번 슈퍼피니시, 계속 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 9,
+     "gap": 0.6915
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.09,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.57,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 76.051,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 75.867,
+   "race_time": 69.0,
+   "ready": 76.101,
+   "line": "여전히 선두는 6번 슈퍼피니시. 그 뒤로 9번.",
+   "statements": [
+    6,
+    9
+   ],
+   "leader": 6,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.09,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.57,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 79.075,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 78.867,
+   "race_time": 72.0,
+   "ready": 79.125,
+   "line": "선두권은 앞에서부터 9번.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 5.83,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 82.178,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 81.867,
+   "race_time": 75.0,
+   "ready": 82.228,
+   "line": "선두는 6번 슈퍼피니시.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.161,
+   "work_seconds": 0.199,
+   "finish_stretch": true,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.03,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 85.523,
+   "delay": 0.361
+  },
+  {
+   "kind": "point",
+   "video_time": 84.867,
+   "race_time": 78.0,
+   "ready": 85.573,
+   "line": "1400m 경주, 출발 후 78초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.111,
+   "work_seconds": 0.595,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 88.423,
+   "delay": 0.706
+  },
+  {
+   "kind": "point",
+   "video_time": 87.867,
+   "race_time": 81.0,
+   "ready": 88.473,
+   "line": "앞에서부터 8번.",
+   "statements": [
+    7,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.107,
+   "work_seconds": 0.499,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 4.99,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 91.533,
+   "delay": 0.606
+  },
+  {
+   "kind": "point",
+   "video_time": 90.867,
+   "race_time": 84.0,
+   "ready": 91.583,
+   "line": "4번 원펀치드래곤이 선두입니다. 그 뒤로 2번.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 2,
+     "gap": 0.2469
+    }
+   ],
+   "late_at_start": 0.225,
+   "work_seconds": 0.49,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.89,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 9.87,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 92.997,
+   "delay": 0.716
+  },
+  {
+   "kind": "finish",
+   "video_time": 92.95,
+   "race_time": 86.08,
+   "ready": 93.047,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "7": 1,
+     "4": 3,
+     "2": 1,
+     "10": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 91.733,
+   "seconds_after_the_finish": 1.31,
+   "work_seconds": 0.0,
+   "shown_until": 98.997,
+   "delay": 0.097
+  }
+ ]
+}

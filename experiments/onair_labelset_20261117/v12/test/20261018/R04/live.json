@@ -1,0 +1,1371 @@
+{
+ "video": "otherday29/videos/R04_aRlSTOD7Dz0.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 4,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "스터닝칼리버"
+   },
+   {
+    "number": 2,
+    "name": "눈이올까요"
+   },
+   {
+    "number": 3,
+    "name": "위너남촌"
+   },
+   {
+    "number": 4,
+    "name": "나스카불청객"
+   },
+   {
+    "number": 5,
+    "name": "베스트에이원"
+   },
+   {
+    "number": 6,
+    "name": "황금송"
+   },
+   {
+    "number": 7,
+    "name": "그래티튜드"
+   },
+   {
+    "number": 8,
+    "name": "한강판타스틱"
+   },
+   {
+    "number": 9,
+    "name": "안양레이저"
+   },
+   {
+    "number": 10,
+    "name": "로열호프케이"
+   },
+   {
+    "number": 11,
+    "name": "불국시대"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 6.2,
+  "finish": 95.317,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5974,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.264,
+  "max": 0.706
+ },
+ "furthest_behind_seconds": 0.69,
+ "dense_pictures": {
+  "run": 62,
+  "skipped_when_behind": 15
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 7.283,
+   "race_time": 1.08,
+   "ready": 7.285,
+   "line": "서울 4경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 13.235,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 15.2,
+   "race_time": 9.0,
+   "ready": 15.57,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.369,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 18.477,
+   "delay": 0.37
+  },
+  {
+   "kind": "point",
+   "video_time": 18.2,
+   "race_time": 12.0,
+   "ready": 18.527,
+   "line": "서울 4경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.326,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 21.438,
+   "delay": 0.327
+  },
+  {
+   "kind": "point",
+   "video_time": 21.2,
+   "race_time": 15.0,
+   "ready": 21.488,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.287,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 24.856,
+   "delay": 0.288
+  },
+  {
+   "kind": "point",
+   "video_time": 24.2,
+   "race_time": 18.0,
+   "ready": 24.906,
+   "line": "서울 4경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.704,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 27.436,
+   "delay": 0.706
+  },
+  {
+   "kind": "point",
+   "video_time": 27.2,
+   "race_time": 21.0,
+   "ready": 27.486,
+   "line": "선두권은 앞에서부터 10번, 1번과 9번 나란히.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.3951
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.285,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 0.79,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.82,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.37,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "shown_until": 30.414,
+   "delay": 0.286
+  },
+  {
+   "kind": "point",
+   "video_time": 30.2,
+   "race_time": 24.0,
+   "ready": 30.464,
+   "line": "선두는 10번 로열호프케이. 이어서 1번, 4번.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.3985
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 0.24,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 2.7,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 6.0,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 33.401,
+   "delay": 0.264
+  },
+  {
+   "kind": "point",
+   "video_time": 33.2,
+   "race_time": 27.0,
+   "ready": 33.451,
+   "line": "여전히 선두는 10번 로열호프케이. 그 뒤로 1번, 4번.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.56,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 1.7,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 5.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 36.409,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 36.2,
+   "race_time": 30.0,
+   "ready": 36.459,
+   "line": "10번 로열호프케이가 선두입니다. 그 뒤로 1번과 4번 나란히.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.21,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 2.25,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 4.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "shown_until": 39.429,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 39.2,
+   "race_time": 33.0,
+   "ready": 39.479,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 10번과 4번과 9번 나란히.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.6448
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.54,
+     "source": "carried"
+    },
+    {
+     "number": 10,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.59,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.8,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     10,
+     4,
+     9
+    ]
+   ],
+   "shown_until": 42.386,
+   "delay": 0.279
+  },
+  {
+   "kind": "point",
+   "video_time": 42.2,
+   "race_time": 36.0,
+   "ready": 42.436,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 7번과 10번 나란히, 4번과 9번 나란히.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.7169
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.36,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.91,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 3.91,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 6.08,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 7.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     4,
+     9
+    ]
+   ],
+   "shown_until": 45.395,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 45.2,
+   "race_time": 39.0,
+   "ready": 45.445,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 10번, 9번.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.3926
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 5.33,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.88,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     10
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 48.382,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 48.2,
+   "race_time": 42.0,
+   "ready": 48.432,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 10번과 4번 나란히.",
+   "statements": [
+    1,
+    4,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.4713
+    },
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.4469
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.23,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.77,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 3.63,
+     "source": "carried"
+    },
+    {
+     "number": 4,
+     "gap_m": 4.42,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     10,
+     4
+    ]
+   ],
+   "shown_until": 51.391,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 51.2,
+   "race_time": 45.0,
+   "ready": 51.441,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 10번과 4번 나란히, 9번.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.3553
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.28,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.72,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 7.54,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     10,
+     4
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 54.402,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 54.217,
+   "race_time": 48.02,
+   "ready": 54.452,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 4번과 10번 나란히.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.7768
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.2,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 4.05,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 5.1,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     4,
+     10
+    ]
+   ],
+   "shown_until": 57.418,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 57.217,
+   "race_time": 51.02,
+   "ready": 57.468,
+   "line": "1번 스터닝칼리버가 선두입니다. 그 뒤로 10번과 4번과 9번 나란히.",
+   "statements": [
+    10
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 5.37,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 7.3,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.96,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     10,
+     4,
+     9
+    ]
+   ],
+   "shown_until": 60.413,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 60.217,
+   "race_time": 54.02,
+   "ready": 60.463,
+   "line": "선두권은 앞에서부터 10번과 4번과 1번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.6,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.37,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.06,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10,
+     4,
+     1
+    ]
+   ],
+   "shown_until": 63.409,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 63.217,
+   "race_time": 57.02,
+   "ready": 63.459,
+   "line": "선두는 4번 나스카불청객. 이어서 10번과 1번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 10,
+     "gap": 0.2312
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.88,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 2.5,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.01,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     10,
+     1
+    ]
+   ],
+   "shown_until": 66.388,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 66.2,
+   "race_time": 60.0,
+   "ready": 66.438,
+   "line": "앞에서부터 1번과 4번과 10번 나란히.",
+   "statements": [
+    1,
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.5628
+    },
+    {
+     "ahead": 1,
+     "behind": 10,
+     "gap": 0.3959
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.49,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.66,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 3.06,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1,
+     4,
+     10
+    ]
+   ],
+   "shown_until": 69.405,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 69.2,
+   "race_time": 63.0,
+   "ready": 69.455,
+   "line": "10번 로열호프케이가 선두입니다. 그 뒤로 4번과 1번 나란히, 9번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.3732
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.7,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.86,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 2.69,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 9.36,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 72.408,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 72.2,
+   "race_time": 66.0,
+   "ready": 72.458,
+   "line": "4번 나스카불청객이 선두입니다. 그 뒤로 10번, 1번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.593
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.23,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 1.61,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.91,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     10
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 75.469,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 75.2,
+   "race_time": 69.0,
+   "ready": 75.519,
+   "line": "10번 로열호프케이가 선두입니다. 그 뒤로 4번, 1번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.6348
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.317,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.4,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.04,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.25,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 78.385,
+   "delay": 0.319
+  },
+  {
+   "kind": "point",
+   "video_time": 78.2,
+   "race_time": 72.0,
+   "ready": 78.435,
+   "line": "10번 로열호프케이, 계속 선두입니다. 그 뒤로 4번, 1번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.5296
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.13,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 4.5,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 7.33,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 81.46,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 81.2,
+   "race_time": 75.0,
+   "ready": 81.51,
+   "line": "선두는 10번 로열호프케이. 이어서 4번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.272
+    }
+   ],
+   "late_at_start": 0.114,
+   "work_seconds": 0.196,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.97,
+     "source": "carried"
+    },
+    {
+     "number": 4,
+     "gap_m": 7.76,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 84.699,
+   "delay": 0.31
+  },
+  {
+   "kind": "point",
+   "video_time": 84.2,
+   "race_time": 78.0,
+   "ready": 84.749,
+   "line": "앞에서부터 9번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.14,
+   "work_seconds": 0.408,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 7.67,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 87.802,
+   "delay": 0.549
+  },
+  {
+   "kind": "point",
+   "video_time": 87.2,
+   "race_time": 81.0,
+   "ready": 87.852,
+   "line": "10번 로열호프케이가 선두입니다. 그 뒤로 9번, 2번.",
+   "statements": [
+    9,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 9,
+     "gap": 0.5421
+    }
+   ],
+   "late_at_start": 0.141,
+   "work_seconds": 0.509,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.16,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.88,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.21,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     9
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 90.823,
+   "delay": 0.652
+  },
+  {
+   "kind": "point",
+   "video_time": 90.2,
+   "race_time": 84.0,
+   "ready": 90.873,
+   "line": "선두권은 앞에서부터 9번.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.19,
+   "work_seconds": 0.483,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 6.87,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 93.732,
+   "delay": 0.673
+  },
+  {
+   "kind": "point",
+   "video_time": 93.2,
+   "race_time": 87.0,
+   "ready": 93.782,
+   "line": "순서는 그대로, 앞에서부터 9번.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.114,
+   "work_seconds": 0.467,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 4.72,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 96.74,
+   "delay": 0.582
+  },
+  {
+   "kind": "point",
+   "video_time": 96.2,
+   "race_time": 90.0,
+   "ready": 96.79,
+   "line": "앞에서부터 9번, 그대로입니다.",
+   "statements": [
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.157,
+   "work_seconds": 0.433,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 4.72,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 96.783,
+   "delay": 0.59
+  },
+  {
+   "kind": "finish",
+   "video_time": 96.533,
+   "race_time": 90.33,
+   "ready": 96.833,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "10": 2,
+     "7": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 95.317,
+   "seconds_after_the_finish": 1.52,
+   "work_seconds": 0.0,
+   "shown_until": 102.783,
+   "delay": 0.3
+  }
+ ]
+}

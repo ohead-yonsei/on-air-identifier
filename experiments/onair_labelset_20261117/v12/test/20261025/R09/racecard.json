@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 9,
+ "distance": 2000,
+ "runners": [
+  {
+   "number": 1,
+   "name": "거센강호"
+  },
+  {
+   "number": 2,
+   "name": "머스탱파워"
+  },
+  {
+   "number": 3,
+   "name": "월드참"
+  },
+  {
+   "number": 4,
+   "name": "세광파이터"
+  },
+  {
+   "number": 5,
+   "name": "스톰브레이커"
+  },
+  {
+   "number": 6,
+   "name": "태평히어로"
+  },
+  {
+   "number": 7,
+   "name": "럭키파티"
+  },
+  {
+   "number": 8,
+   "name": "제이디강자"
+  },
+  {
+   "number": 9,
+   "name": "매글데이"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

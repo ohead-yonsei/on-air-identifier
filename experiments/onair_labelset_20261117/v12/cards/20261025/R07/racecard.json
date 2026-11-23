@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 7,
+ "distance": 1700,
+ "runners": [
+  {
+   "number": 2,
+   "name": "포에버길"
+  },
+  {
+   "number": 3,
+   "name": "큐피드커맨드"
+  },
+  {
+   "number": 4,
+   "name": "마이티비트"
+  },
+  {
+   "number": 5,
+   "name": "컴플리트리더"
+  },
+  {
+   "number": 6,
+   "name": "베스트조이"
+  },
+  {
+   "number": 7,
+   "name": "더엑설런트"
+  },
+  {
+   "number": 8,
+   "name": "새내파이터"
+  },
+  {
+   "number": 9,
+   "name": "비상벨"
+  },
+  {
+   "number": 10,
+   "name": "태기산킹"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

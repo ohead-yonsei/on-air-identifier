@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 8,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "삼정셰프"
+  },
+  {
+   "number": 2,
+   "name": "골든벤투스"
+  },
+  {
+   "number": 3,
+   "name": "송당퍼스트"
+  },
+  {
+   "number": 4,
+   "name": "클러치더비"
+  },
+  {
+   "number": 5,
+   "name": "메이저퓨리"
+  },
+  {
+   "number": 6,
+   "name": "관악산빅스텝"
+  },
+  {
+   "number": 7,
+   "name": "태평에스지"
+  },
+  {
+   "number": 8,
+   "name": "에이케이선"
+  },
+  {
+   "number": 9,
+   "name": "글로벌최강"
+  },
+  {
+   "number": 10,
+   "name": "영웅바로우즈"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

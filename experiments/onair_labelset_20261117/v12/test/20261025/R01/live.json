@@ -1,0 +1,1246 @@
+{
+ "video": "otherday28/videos/R01_e7ADTfLzDTY.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 1,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "인디미니스터"
+   },
+   {
+    "number": 2,
+    "name": "피엔에스건즈"
+   },
+   {
+    "number": 3,
+    "name": "루움축제"
+   },
+   {
+    "number": 4,
+    "name": "온리유"
+   },
+   {
+    "number": 5,
+    "name": "쾌걸춘향"
+   },
+   {
+    "number": 6,
+    "name": "백호의울림"
+   },
+   {
+    "number": 7,
+    "name": "메탈인베이더"
+   },
+   {
+    "number": 8,
+    "name": "이스트고고"
+   },
+   {
+    "number": 9,
+    "name": "해마루챗"
+   },
+   {
+    "number": 10,
+    "name": "걸작마루"
+   },
+   {
+    "number": 11,
+    "name": "다나은루비"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 15.066666666666666,
+  "finish": 104.633,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6533,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.26,
+  "max": 0.647
+ },
+ "furthest_behind_seconds": 0.633,
+ "dense_pictures": {
+  "run": 67,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 16.067,
+   "race_time": 1.0,
+   "ready": 16.068,
+   "line": "서울 1경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 22.018,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 24.067,
+   "race_time": 9.0,
+   "ready": 24.499,
+   "line": "선두권은 앞에서부터 6번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.3226
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.431,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.17,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 27.308,
+   "delay": 0.432
+  },
+  {
+   "kind": "point",
+   "video_time": 27.067,
+   "race_time": 12.0,
+   "ready": 27.358,
+   "line": "서울 1경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.29,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 30.279,
+   "delay": 0.291
+  },
+  {
+   "kind": "point",
+   "video_time": 30.067,
+   "race_time": 15.0,
+   "ready": 30.329,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 33.428,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 33.083,
+   "race_time": 18.02,
+   "ready": 33.478,
+   "line": "서울 1경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.393,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 36.442,
+   "delay": 0.395
+  },
+  {
+   "kind": "point",
+   "video_time": 36.083,
+   "race_time": 21.02,
+   "ready": 36.492,
+   "line": "선두권은 앞에서부터 3번, 7번.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.407,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.41,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.54,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 39.31,
+   "delay": 0.409
+  },
+  {
+   "kind": "point",
+   "video_time": 39.083,
+   "race_time": 24.02,
+   "ready": 39.36,
+   "line": "선두는 3번 루움축제. 이어서 6번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2749
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.27,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 1.1,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 42.285,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 42.083,
+   "race_time": 27.02,
+   "ready": 42.335,
+   "line": "선두는 3번 루움축제. 이어서 6번, 7번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3213
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.29,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.44,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.38,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 45.272,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 45.083,
+   "race_time": 30.02,
+   "ready": 45.322,
+   "line": "여전히 선두는 3번 루움축제. 그 뒤로 6번, 7번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4348
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.2,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.94,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 7.6,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 48.277,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 48.067,
+   "race_time": 33.0,
+   "ready": 48.327,
+   "line": "3번 루움축제가 선두입니다. 그 뒤로 6번, 2번과 7번 나란히.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.79,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.13,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.67,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 11.04,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ],
+    [
+     2,
+     7
+    ]
+   ],
+   "shown_until": 51.258,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 51.067,
+   "race_time": 36.0,
+   "ready": 51.308,
+   "line": "3번 루움축제가 선두입니다. 그 뒤로 6번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.256
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.74,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 54.263,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 54.067,
+   "race_time": 39.0,
+   "ready": 54.313,
+   "line": "선두권은 앞에서부터 6번, 3번.",
+   "statements": [
+    3,
+    6,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3375
+    },
+    {
+     "ahead": 10,
+     "behind": 6,
+     "gap": 0.2462
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.96,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.43,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 57.26,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 57.067,
+   "race_time": 42.0,
+   "ready": 57.31,
+   "line": "앞에서부터 6번, 2번.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.9,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.56,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 60.259,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 60.067,
+   "race_time": 45.0,
+   "ready": 60.309,
+   "line": "3번 루움축제가 선두입니다. 그 뒤로 6번, 2번과 7번 나란히.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4556
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.17,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.18,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.62,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 8.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ],
+    [
+     2,
+     7
+    ]
+   ],
+   "shown_until": 63.291,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 63.067,
+   "race_time": 48.0,
+   "ready": 63.341,
+   "line": "6번 백호의울림이 선두입니다. 그 뒤로 2번.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.274,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.41,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.91,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 66.29,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 66.067,
+   "race_time": 51.0,
+   "ready": 66.34,
+   "line": "앞에서부터 6번, 2번, 그대로입니다.",
+   "statements": [
+    2,
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.2475
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.41,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.39,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 69.264,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 69.067,
+   "race_time": 54.0,
+   "ready": 69.314,
+   "line": "앞에서부터 3번과 6번 나란히, 10번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.2273
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.73,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.1,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.87,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     6
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 72.264,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 72.067,
+   "race_time": 57.0,
+   "ready": 72.314,
+   "line": "앞에서부터 3번과 6번 나란히, 10번, 그대로입니다.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.27,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.4,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 7.43,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     6
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 75.257,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 75.067,
+   "race_time": 60.0,
+   "ready": 75.307,
+   "line": "선두는 3번 루움축제. 이어서 6번, 10번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.3426
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.21,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 1.64,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 7.43,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 78.277,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 78.067,
+   "race_time": 63.0,
+   "ready": 78.327,
+   "line": "앞에서부터 6번과 3번 나란히, 2번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4237
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.24,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.81,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 12.46,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6,
+     3
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 81.265,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 81.067,
+   "race_time": 66.0,
+   "ready": 81.315,
+   "line": "선두권은 앞에서부터 6번, 3번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.92,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.37,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 84.257,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 84.067,
+   "race_time": 69.0,
+   "ready": 84.307,
+   "line": "선두는 3번 루움축제. 이어서 6번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.4789
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.25,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.64,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 87.255,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 87.067,
+   "race_time": 72.0,
+   "ready": 87.305,
+   "line": "선두는 6번 백호의울림.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.84,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 90.231,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 90.067,
+   "race_time": 75.0,
+   "ready": 90.281,
+   "line": "앞에서부터 6번, 그대로입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.214,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.84,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 93.503,
+   "delay": 0.214
+  },
+  {
+   "kind": "point",
+   "video_time": 93.067,
+   "race_time": 78.0,
+   "ready": 93.553,
+   "line": "선두는 3번 루움축제. 이어서 6번.",
+   "statements": [
+    3,
+    6
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 6,
+     "gap": 0.6353
+    }
+   ],
+   "late_at_start": 0.106,
+   "work_seconds": 0.379,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 5.92,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 96.596,
+   "delay": 0.486
+  },
+  {
+   "kind": "point",
+   "video_time": 96.067,
+   "race_time": 81.0,
+   "ready": 96.646,
+   "line": "선두는 6번 백호의울림.",
+   "statements": [
+    6
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.095,
+   "work_seconds": 0.484,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 5.7,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 99.646,
+   "delay": 0.579
+  },
+  {
+   "kind": "point",
+   "video_time": 99.067,
+   "race_time": 84.0,
+   "ready": 99.696,
+   "line": "앞에서부터 6번, 그대로입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.153,
+   "work_seconds": 0.476,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 5.7,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 102.664,
+   "delay": 0.629
+  },
+  {
+   "kind": "point",
+   "video_time": 102.067,
+   "race_time": 87.0,
+   "ready": 102.714,
+   "line": "순서는 그대로, 앞에서부터 6번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.146,
+   "work_seconds": 0.501,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 7.81,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ]
+   ],
+   "shown_until": 105.617,
+   "delay": 0.647
+  },
+  {
+   "kind": "point",
+   "video_time": 105.067,
+   "race_time": 90.0,
+   "ready": 105.667,
+   "line": "1400m 경주, 출발 후 90초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.17,
+   "work_seconds": 0.43,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 105.949,
+   "delay": 0.6
+  },
+  {
+   "kind": "finish",
+   "video_time": 105.85,
+   "race_time": 90.78,
+   "ready": 105.999,
+   "line": "결승선을 통과했습니다. 서울 1경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "6": 4
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 104.633,
+   "seconds_after_the_finish": 1.37,
+   "work_seconds": 0.0,
+   "shown_until": 111.949,
+   "delay": 0.149
+  }
+ ]
+}

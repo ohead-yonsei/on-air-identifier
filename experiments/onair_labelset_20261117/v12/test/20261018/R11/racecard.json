@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "행복한승자"
+  },
+  {
+   "number": 2,
+   "name": "연희히어로"
+  },
+  {
+   "number": 3,
+   "name": "스피드원"
+  },
+  {
+   "number": 4,
+   "name": "원펀치드래곤"
+  },
+  {
+   "number": 5,
+   "name": "지구라트"
+  },
+  {
+   "number": 6,
+   "name": "슈퍼피니시"
+  },
+  {
+   "number": 7,
+   "name": "한센브레이싱"
+  },
+  {
+   "number": 8,
+   "name": "영광의월드"
+  },
+  {
+   "number": 9,
+   "name": "나이스포스"
+  },
+  {
+   "number": 10,
+   "name": "서클에이"
+  },
+  {
+   "number": 11,
+   "name": "킹아너"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

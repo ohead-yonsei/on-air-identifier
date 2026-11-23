@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 9,
+ "distance": 1700,
+ "runners": [
+  {
+   "number": 1,
+   "name": "글로벌하트"
+  },
+  {
+   "number": 2,
+   "name": "더선스토리"
+  },
+  {
+   "number": 3,
+   "name": "패션스타"
+  },
+  {
+   "number": 4,
+   "name": "빈체로큐"
+  },
+  {
+   "number": 5,
+   "name": "명진불패"
+  },
+  {
+   "number": 6,
+   "name": "아모스천하"
+  },
+  {
+   "number": 7,
+   "name": "엠제이클래스"
+  },
+  {
+   "number": 8,
+   "name": "이스트라코타"
+  },
+  {
+   "number": 9,
+   "name": "울트라선더"
+  },
+  {
+   "number": 10,
+   "name": "번개루이스"
+  },
+  {
+   "number": 11,
+   "name": "굿모닝컴"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

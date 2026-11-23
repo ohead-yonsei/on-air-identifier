@@ -1,0 +1,157 @@
+{
+ "days": [
+  "20261025",
+  "20261018"
+ ],
+ "races_in": 18,
+ "v11": {
+  "points": 518,
+  "named_per_point": 1.826,
+  "right_per_point": 1.753,
+  "named_right_%": 95.98,
+  "wrong_point_%": 6.37,
+  "wrong_point_lenient_%": 4.83,
+  "pairs_per_point": 0.0,
+  "pairs_right_%": null,
+  "pairs_right_lenient_%": null,
+  "side_by_side_per_point": 0.0,
+  "side_by_side_within_3m_%": null
+ },
+ "v12": {
+  "points": 518,
+  "named_per_point": 2.371,
+  "right_per_point": 2.324,
+  "named_right_%": 98.05,
+  "wrong_point_%": 4.25,
+  "wrong_point_lenient_%": 1.93,
+  "pairs_per_point": 1.66,
+  "pairs_right_%": 91.74,
+  "pairs_right_lenient_%": 97.21,
+  "side_by_side_per_point": 0.734,
+  "side_by_side_within_3m_%": 69.47
+ },
+ "by_part": {
+  "start": {
+   "v11": {
+    "points": 67,
+    "named_per_point": 1.328,
+    "right_per_point": 1.179,
+    "named_right_%": 88.76,
+    "wrong_point_%": 11.94,
+    "wrong_point_lenient_%": 11.94,
+    "pairs_per_point": 0.0,
+    "pairs_right_%": null,
+    "pairs_right_lenient_%": null,
+    "side_by_side_per_point": 0.0,
+    "side_by_side_within_3m_%": null
+   },
+   "v12": {
+    "points": 67,
+    "named_per_point": 1.358,
+    "right_per_point": 1.299,
+    "named_right_%": 95.6,
+    "wrong_point_%": 5.97,
+    "wrong_point_lenient_%": 1.49,
+    "pairs_per_point": 0.716,
+    "pairs_right_%": 83.33,
+    "pairs_right_lenient_%": 100.0,
+    "side_by_side_per_point": 0.552,
+    "side_by_side_within_3m_%": 86.49
+   }
+  },
+  "middle": {
+   "v11": {
+    "points": 226,
+    "named_per_point": 1.925,
+    "right_per_point": 1.881,
+    "named_right_%": 97.7,
+    "wrong_point_%": 3.98,
+    "wrong_point_lenient_%": 3.98,
+    "pairs_per_point": 0.0,
+    "pairs_right_%": null,
+    "pairs_right_lenient_%": null,
+    "side_by_side_per_point": 0.0,
+    "side_by_side_within_3m_%": null
+   },
+   "v12": {
+    "points": 226,
+    "named_per_point": 2.721,
+    "right_per_point": 2.681,
+    "named_right_%": 98.54,
+    "wrong_point_%": 3.54,
+    "wrong_point_lenient_%": 2.21,
+    "pairs_per_point": 2.159,
+    "pairs_right_%": 93.65,
+    "pairs_right_lenient_%": 98.16,
+    "side_by_side_per_point": 0.823,
+    "side_by_side_within_3m_%": 69.89
+   }
+  },
+  "finish": {
+   "v11": {
+    "points": 225,
+    "named_per_point": 1.876,
+    "right_per_point": 1.796,
+    "named_right_%": 95.73,
+    "wrong_point_%": 7.11,
+    "wrong_point_lenient_%": 3.56,
+    "pairs_per_point": 0.0,
+    "pairs_right_%": null,
+    "pairs_right_lenient_%": null,
+    "side_by_side_per_point": 0.0,
+    "side_by_side_within_3m_%": null
+   },
+   "v12": {
+    "points": 225,
+    "named_per_point": 2.32,
+    "right_per_point": 2.271,
+    "named_right_%": 97.89,
+    "wrong_point_%": 4.44,
+    "wrong_point_lenient_%": 1.78,
+    "pairs_per_point": 1.44,
+    "pairs_right_%": 90.12,
+    "pairs_right_lenient_%": 95.37,
+    "side_by_side_per_point": 0.698,
+    "side_by_side_within_3m_%": 64.97
+   }
+  }
+ },
+ "speed": {
+  "delay_median": 0.257,
+  "delay_max_per_race_ok": true,
+  "finish_line_ok": true
+ },
+ "v12_minus_v11_right_per_point_bootstrap_95": [
+  0.475,
+  0.666
+ ],
+ "verdicts": {
+  "V1 v12 points with a wrong number (first five, strict) <= 5.0%": true,
+  "V2 v12 right numbers per point >= v11 + 0.3 and bootstrap lower end > 0": true,
+  "V3 v12 pair orders right (strict) >= 85%": true,
+  "V4 speed (median <= 0.5 s, max per race <= 2.0 s, finish line <= 3.0 s)": true
+ },
+ "recommend v12 as live_run default": true
+}
+20261025 R01 clock agrees {'points': 28, 'named_per_point': 1.679, 'right_per_point': 1.607, 'named_right_%': 95.74, 'wrong_point_%': 7.14, 'wrong_point_lenient_%': 3.57, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 28, 'named_per_point': 1.857, 'right_per_point': 1.857, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.25, 'pairs_right_%': 68.57, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.179, 'side_by_side_within_3m_%': 100.0}
+20261025 R02 clock agrees {'points': 28, 'named_per_point': 1.893, 'right_per_point': 1.643, 'named_right_%': 86.79, 'wrong_point_%': 21.43, 'wrong_point_lenient_%': 10.71, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 28, 'named_per_point': 2.071, 'right_per_point': 1.929, 'named_right_%': 93.1, 'wrong_point_%': 10.71, 'wrong_point_lenient_%': 7.14, 'pairs_per_point': 1.5, 'pairs_right_%': 85.71, 'pairs_right_lenient_%': 90.48, 'side_by_side_per_point': 0.714, 'side_by_side_within_3m_%': 50.0}
+20261025 R03 clock agrees {'points': 25, 'named_per_point': 1.88, 'right_per_point': 1.84, 'named_right_%': 97.87, 'wrong_point_%': 4.0, 'wrong_point_lenient_%': 4.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 25, 'named_per_point': 2.36, 'right_per_point': 2.32, 'named_right_%': 98.31, 'wrong_point_%': 4.0, 'wrong_point_lenient_%': 4.0, 'pairs_per_point': 1.84, 'pairs_right_%': 95.65, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.36, 'side_by_side_within_3m_%': 44.44}
+20261025 R04 clock agrees {'points': 27, 'named_per_point': 1.815, 'right_per_point': 1.741, 'named_right_%': 95.92, 'wrong_point_%': 7.41, 'wrong_point_lenient_%': 7.41, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 27, 'named_per_point': 2.111, 'right_per_point': 2.111, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.259, 'pairs_right_%': 100.0, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.519, 'side_by_side_within_3m_%': 50.0}
+20261025 R05 clock agrees {'points': 27, 'named_per_point': 2.074, 'right_per_point': 2.037, 'named_right_%': 98.21, 'wrong_point_%': 3.7, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 27, 'named_per_point': 2.741, 'right_per_point': 2.741, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.815, 'pairs_right_%': 95.92, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 1.444, 'side_by_side_within_3m_%': 82.05}
+20261025 R06 clock agrees {'points': 22, 'named_per_point': 1.864, 'right_per_point': 1.864, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 22, 'named_per_point': 2.955, 'right_per_point': 2.955, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.5, 'pairs_right_%': 90.91, 'pairs_right_lenient_%': 93.94, 'side_by_side_per_point': 1.818, 'side_by_side_within_3m_%': 85.0}
+20261025 R07 clock agrees {'points': 35, 'named_per_point': 1.857, 'right_per_point': 1.857, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 35, 'named_per_point': 2.571, 'right_per_point': 2.543, 'named_right_%': 98.89, 'wrong_point_%': 2.86, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.857, 'pairs_right_%': 89.23, 'pairs_right_lenient_%': 96.92, 'side_by_side_per_point': 1.057, 'side_by_side_within_3m_%': 70.27}
+20261025 R08 clock agrees {'points': 38, 'named_per_point': 1.895, 'right_per_point': 1.868, 'named_right_%': 98.61, 'wrong_point_%': 2.63, 'wrong_point_lenient_%': 2.63, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 38, 'named_per_point': 2.868, 'right_per_point': 2.737, 'named_right_%': 95.41, 'wrong_point_%': 10.53, 'wrong_point_lenient_%': 2.63, 'pairs_per_point': 1.974, 'pairs_right_%': 89.33, 'pairs_right_lenient_%': 98.67, 'side_by_side_per_point': 1.132, 'side_by_side_within_3m_%': 67.44}
+20261025 R09 clock agrees {'points': 41, 'named_per_point': 1.634, 'right_per_point': 1.561, 'named_right_%': 95.52, 'wrong_point_%': 7.32, 'wrong_point_lenient_%': 7.32, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 41, 'named_per_point': 2.317, 'right_per_point': 2.317, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 2.122, 'pairs_right_%': 100.0, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.317, 'side_by_side_within_3m_%': 84.62}
+20261025 R10 clock disagrees {'points': 23, 'named_per_point': 1.87, 'right_per_point': 1.826, 'named_right_%': 97.67, 'wrong_point_%': 4.35, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 23, 'named_per_point': 2.826, 'right_per_point': 2.739, 'named_right_%': 96.92, 'wrong_point_%': 8.7, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 2.478, 'pairs_right_%': 78.95, 'pairs_right_lenient_%': 94.74, 'side_by_side_per_point': 0.696, 'side_by_side_within_3m_%': 68.75}
+20261025 R11 clock agrees {'points': 27, 'named_per_point': 2.111, 'right_per_point': 1.963, 'named_right_%': 92.98, 'wrong_point_%': 11.11, 'wrong_point_lenient_%': 7.41, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 27, 'named_per_point': 2.481, 'right_per_point': 2.407, 'named_right_%': 97.01, 'wrong_point_%': 7.41, 'wrong_point_lenient_%': 3.7, 'pairs_per_point': 1.63, 'pairs_right_%': 84.09, 'pairs_right_lenient_%': 88.64, 'side_by_side_per_point': 1.037, 'side_by_side_within_3m_%': 78.57}
+20261018 R01 clock disagrees {'points': 19, 'named_per_point': 1.263, 'right_per_point': 1.263, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 19, 'named_per_point': 1.789, 'right_per_point': 1.789, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.368, 'pairs_right_%': 92.31, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.789, 'side_by_side_within_3m_%': 66.67}
+20261018 R02 clock disagrees {'points': 24, 'named_per_point': 1.917, 'right_per_point': 1.875, 'named_right_%': 97.83, 'wrong_point_%': 4.17, 'wrong_point_lenient_%': 4.17, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 24, 'named_per_point': 2.583, 'right_per_point': 2.542, 'named_right_%': 98.39, 'wrong_point_%': 4.17, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.833, 'pairs_right_%': 97.73, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.75, 'side_by_side_within_3m_%': 94.44}
+20261018 R03 clock agrees {'points': 28, 'named_per_point': 1.786, 'right_per_point': 1.679, 'named_right_%': 94.0, 'wrong_point_%': 10.71, 'wrong_point_lenient_%': 7.14, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 28, 'named_per_point': 2.357, 'right_per_point': 2.25, 'named_right_%': 95.45, 'wrong_point_%': 10.71, 'wrong_point_lenient_%': 7.14, 'pairs_per_point': 1.75, 'pairs_right_%': 93.88, 'pairs_right_lenient_%': 95.92, 'side_by_side_per_point': 0.75, 'side_by_side_within_3m_%': 47.62}
+20261018 R04 clock agrees {'points': 28, 'named_per_point': 1.714, 'right_per_point': 1.643, 'named_right_%': 95.83, 'wrong_point_%': 7.14, 'wrong_point_lenient_%': 7.14, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 28, 'named_per_point': 2.464, 'right_per_point': 2.393, 'named_right_%': 97.1, 'wrong_point_%': 7.14, 'wrong_point_lenient_%': 3.57, 'pairs_per_point': 2.0, 'pairs_right_%': 85.71, 'pairs_right_lenient_%': 94.64, 'side_by_side_per_point': 0.75, 'side_by_side_within_3m_%': 52.38}
+20261018 R05 clock agrees {'points': 25, 'named_per_point': 1.88, 'right_per_point': 1.68, 'named_right_%': 89.36, 'wrong_point_%': 12.0, 'wrong_point_lenient_%': 12.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 25, 'named_per_point': 2.24, 'right_per_point': 2.24, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.72, 'pairs_right_%': 97.67, 'pairs_right_lenient_%': 97.67, 'side_by_side_per_point': 0.6, 'side_by_side_within_3m_%': 80.0}
+20261018 R06 clock agrees {'points': 35, 'named_per_point': 1.943, 'right_per_point': 1.829, 'named_right_%': 94.12, 'wrong_point_%': 8.57, 'wrong_point_lenient_%': 5.71, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 35, 'named_per_point': 2.229, 'right_per_point': 2.143, 'named_right_%': 96.15, 'wrong_point_%': 8.57, 'wrong_point_lenient_%': 2.86, 'pairs_per_point': 1.086, 'pairs_right_%': 84.21, 'pairs_right_lenient_%': 94.74, 'side_by_side_per_point': 0.657, 'side_by_side_within_3m_%': 73.91}
+20261018 R07 clock agrees {'points': 22, 'named_per_point': 1.545, 'right_per_point': 1.545, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 22, 'named_per_point': 2.273, 'right_per_point': 2.273, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.227, 'pairs_right_%': 96.3, 'pairs_right_lenient_%': 96.3, 'side_by_side_per_point': 0.636, 'side_by_side_within_3m_%': 78.57}
+20261018 R08 clock agrees {'points': 22, 'named_per_point': 1.591, 'right_per_point': 1.591, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 22, 'named_per_point': 2.045, 'right_per_point': 2.045, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.182, 'pairs_right_%': 84.62, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.364, 'side_by_side_within_3m_%': 75.0}
+20261018 R09 clock agrees {'points': 34, 'named_per_point': 2.0, 'right_per_point': 1.941, 'named_right_%': 97.06, 'wrong_point_%': 5.88, 'wrong_point_lenient_%': 5.88, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 34, 'named_per_point': 2.559, 'right_per_point': 2.5, 'named_right_%': 97.7, 'wrong_point_%': 5.88, 'wrong_point_lenient_%': 2.94, 'pairs_per_point': 2.059, 'pairs_right_%': 98.57, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.765, 'side_by_side_within_3m_%': 57.69}
+20261018 R10 clock disagrees {'points': 36, 'named_per_point': 1.722, 'right_per_point': 1.722, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 36, 'named_per_point': 2.472, 'right_per_point': 2.472, 'named_right_%': 100.0, 'wrong_point_%': 0.0, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.778, 'pairs_right_%': 98.44, 'pairs_right_lenient_%': 100.0, 'side_by_side_per_point': 0.611, 'side_by_side_within_3m_%': 63.64}
+20261018 R11 clock agrees {'points': 26, 'named_per_point': 1.615, 'right_per_point': 1.577, 'named_right_%': 97.62, 'wrong_point_%': 3.85, 'wrong_point_lenient_%': 3.85, 'pairs_per_point': 0.0, 'pairs_right_%': None, 'pairs_right_lenient_%': None, 'side_by_side_per_point': 0.0, 'side_by_side_within_3m_%': None} {'points': 26, 'named_per_point': 1.962, 'right_per_point': 1.923, 'named_right_%': 98.04, 'wrong_point_%': 3.85, 'wrong_point_lenient_%': 0.0, 'pairs_per_point': 1.577, 'pairs_right_%': 97.56, 'pairs_right_lenient_%': 97.56, 'side_by_side_per_point': 0.154, 'side_by_side_within_3m_%': 50.0}

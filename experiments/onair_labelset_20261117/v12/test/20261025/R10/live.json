@@ -1,0 +1,1218 @@
+{
+ "video": "otherday28/videos/R10_i2yImacCch4.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 10,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "엠파이어스타"
+   },
+   {
+    "number": 3,
+    "name": "마이티허쉬"
+   },
+   {
+    "number": 4,
+    "name": "싹다나은"
+   },
+   {
+    "number": 5,
+    "name": "펀치케이"
+   },
+   {
+    "number": 6,
+    "name": "마호"
+   },
+   {
+    "number": 7,
+    "name": "호세"
+   },
+   {
+    "number": 8,
+    "name": "이끌림"
+   },
+   {
+    "number": 9,
+    "name": "문학루퍼"
+   },
+   {
+    "number": 10,
+    "name": "히어로플레임"
+   },
+   {
+    "number": 11,
+    "name": "이클립스보스"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.316666666666666,
+  "finish": 87.3,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 5493,
+ "lines": 25,
+ "delay_seconds": {
+  "median": 0.271,
+  "max": 0.609
+ },
+ "furthest_behind_seconds": 0.594,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 13
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.317,
+   "race_time": 1.0,
+   "ready": 13.318,
+   "line": "서울 10경주 1200m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.268,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 21.317,
+   "race_time": 9.0,
+   "ready": 21.704,
+   "line": "선두권은 앞에서부터 6번과 4번과 8번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.386,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.24,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.81,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.16,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6,
+     4,
+     8
+    ]
+   ],
+   "shown_until": 24.577,
+   "delay": 0.387
+  },
+  {
+   "kind": "point",
+   "video_time": 24.317,
+   "race_time": 12.0,
+   "ready": 24.627,
+   "line": "앞에서부터 6번과 8번 나란히.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 8,
+     "gap": 0.2425
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.309,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.48,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6,
+     8
+    ]
+   ],
+   "shown_until": 27.547,
+   "delay": 0.31
+  },
+  {
+   "kind": "point",
+   "video_time": 27.317,
+   "race_time": 15.0,
+   "ready": 27.597,
+   "line": "6번 마호가 선두입니다. 그 뒤로 11번과 8번 나란히, 9번.",
+   "statements": [
+    6,
+    11
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.279,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.41,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.45,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.58,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.55,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     11,
+     8
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 30.543,
+   "delay": 0.28
+  },
+  {
+   "kind": "point",
+   "video_time": 30.317,
+   "race_time": 18.0,
+   "ready": 30.593,
+   "line": "6번 마호가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 6,
+     "behind": 8,
+     "gap": 0.5224
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.06,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.64,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 33.629,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 33.333,
+   "race_time": 21.02,
+   "ready": 33.679,
+   "line": "6번 마호가 선두입니다. 그 뒤로 8번과 11번 나란히, 9번.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.345,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.71,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 1.73,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.19,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 36.544,
+   "delay": 0.346
+  },
+  {
+   "kind": "point",
+   "video_time": 36.333,
+   "race_time": 24.02,
+   "ready": 36.594,
+   "line": "8번 이끌림이 선두입니다. 그 뒤로 6번.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.7043
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 39.673,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 39.333,
+   "race_time": 27.02,
+   "ready": 39.723,
+   "line": "앞에서부터 8번, 6번, 그대로입니다.",
+   "statements": [
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.8014
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.389,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 0.39,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.79,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 42.542,
+   "delay": 0.39
+  },
+  {
+   "kind": "point",
+   "video_time": 42.333,
+   "race_time": 30.02,
+   "ready": 42.592,
+   "line": "앞에서부터 8번과 11번 나란히, 6번.",
+   "statements": [
+    6,
+    8,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3469
+    },
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.2202
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.54,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 2.99,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 7.01,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     11
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 45.506,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 45.317,
+   "race_time": 33.0,
+   "ready": 45.556,
+   "line": "8번 이끌림이 선두입니다. 그 뒤로 11번과 6번 나란히.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.6177
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.48,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 2.67,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.25,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     11,
+     6
+    ]
+   ],
+   "shown_until": 48.554,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 48.317,
+   "race_time": 36.0,
+   "ready": 48.604,
+   "line": "8번 이끌림이 선두입니다. 그 뒤로 11번, 6번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.6107
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.286,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.17,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 1.86,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.68,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     11
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 51.532,
+   "delay": 0.287
+  },
+  {
+   "kind": "point",
+   "video_time": 51.317,
+   "race_time": 39.0,
+   "ready": 51.582,
+   "line": "선두권은 앞에서부터 8번과 6번 나란히, 11번.",
+   "statements": [
+    6,
+    8,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3825
+    },
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.4079
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.264,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 0.59,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.22,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 4.42,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     6
+    ],
+    [
+     11
+    ]
+   ],
+   "shown_until": 54.502,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 54.317,
+   "race_time": 42.0,
+   "ready": 54.552,
+   "line": "앞에서부터 8번, 6번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": -0.91,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.01,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 57.523,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 57.317,
+   "race_time": 45.0,
+   "ready": 57.573,
+   "line": "선두권은 앞에서부터 8번과 11번 나란히, 6번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.3619
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 0.86,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 0.87,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.25,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     11
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 60.526,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 60.317,
+   "race_time": 48.0,
+   "ready": 60.576,
+   "line": "앞에서부터 8번, 6번과 9번 나란히.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.12,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.68,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 6.17,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "shown_until": 63.538,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 63.317,
+   "race_time": 51.0,
+   "ready": 63.588,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번과 7번과 6번 나란히.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.27,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 0.89,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.95,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.43,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.82,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8,
+     7,
+     6
+    ]
+   ],
+   "shown_until": 66.53,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 66.317,
+   "race_time": 54.0,
+   "ready": 66.58,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번, 9번과 7번 나란히.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.262,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.97,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.54,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.08,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 8.14,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ],
+    [
+     9,
+     7
+    ]
+   ],
+   "shown_until": 69.536,
+   "delay": 0.263
+  },
+  {
+   "kind": "point",
+   "video_time": 69.317,
+   "race_time": 57.0,
+   "ready": 69.586,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번, 9번, 7번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.253
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.9,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.4,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.66,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 10.93,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 72.501,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 72.317,
+   "race_time": 60.0,
+   "ready": 72.551,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번, 9번, 7번과 6번 나란히.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.4863
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.59,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.48,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.82,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 10.93,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 12.82,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "shown_until": 75.5,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 75.317,
+   "race_time": 63.0,
+   "ready": 75.55,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번, 9번, 7번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.5302
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.7,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 10.44,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 13.97,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 78.73,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 78.317,
+   "race_time": 66.0,
+   "ready": 78.78,
+   "line": "11번 이클립스보스가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    8,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 11,
+     "gap": 0.2033
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.462,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 4.87,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 81.833,
+   "delay": 0.463
+  },
+  {
+   "kind": "point",
+   "video_time": 81.317,
+   "race_time": 69.0,
+   "ready": 81.883,
+   "line": "선두권은 앞에서부터 8번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.036,
+   "work_seconds": 0.531,
+   "finish_stretch": true,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 7.39,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 84.876,
+   "delay": 0.566
+  },
+  {
+   "kind": "point",
+   "video_time": 84.317,
+   "race_time": 72.0,
+   "ready": 84.926,
+   "line": "순서는 그대로, 앞에서부터 8번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.088,
+   "work_seconds": 0.521,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 8.66,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 87.787,
+   "delay": 0.609
+  },
+  {
+   "kind": "point",
+   "video_time": 87.317,
+   "race_time": 75.0,
+   "ready": 87.837,
+   "line": "앞에서부터 8번, 그대로입니다.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.006,
+   "work_seconds": 0.514,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 10.25,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 88.468,
+   "delay": 0.52
+  },
+  {
+   "kind": "finish",
+   "video_time": 88.517,
+   "race_time": 76.2,
+   "ready": 88.518,
+   "line": "결승선을 통과했습니다. 서울 10경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "8": 2
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 87.3,
+   "seconds_after_the_finish": 1.22,
+   "work_seconds": 0.0,
+   "shown_until": 94.468,
+   "delay": 0.001
+  }
+ ]
+}

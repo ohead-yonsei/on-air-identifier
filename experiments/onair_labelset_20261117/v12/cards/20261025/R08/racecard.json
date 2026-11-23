@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 8,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "별콩"
+  },
+  {
+   "number": 2,
+   "name": "글로리시티"
+  },
+  {
+   "number": 3,
+   "name": "홀리데이참"
+  },
+  {
+   "number": 4,
+   "name": "럭키붐"
+  },
+  {
+   "number": 5,
+   "name": "파워에치드"
+  },
+  {
+   "number": 6,
+   "name": "창조의아침"
+  },
+  {
+   "number": 7,
+   "name": "피프티나인킹"
+  },
+  {
+   "number": 8,
+   "name": "아모스골드"
+  },
+  {
+   "number": 9,
+   "name": "남산무적"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,1284 @@
+{
+ "video": "otherday28/videos/R04_IopVBIQrDco.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 4,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "파워밴드"
+   },
+   {
+    "number": 2,
+    "name": "굿해피"
+   },
+   {
+    "number": 3,
+    "name": "마음하나"
+   },
+   {
+    "number": 4,
+    "name": "더선파이터"
+   },
+   {
+    "number": 5,
+    "name": "드림아너"
+   },
+   {
+    "number": 6,
+    "name": "청룡의칼"
+   },
+   {
+    "number": 7,
+    "name": "에펠탑"
+   },
+   {
+    "number": 8,
+    "name": "럭키프랭크"
+   },
+   {
+    "number": 9,
+    "name": "위즈파이터"
+   },
+   {
+    "number": 10,
+    "name": "트리스탄왕자"
+   },
+   {
+    "number": 11,
+    "name": "라온니진스키"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 12.5,
+  "finish": 98.767,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6181,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.261,
+  "max": 0.779
+ },
+ "furthest_behind_seconds": 0.766,
+ "dense_pictures": {
+  "run": 47,
+  "skipped_when_behind": 16
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 13.517,
+   "race_time": 1.02,
+   "ready": 13.518,
+   "line": "서울 4경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 19.468,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 21.5,
+   "race_time": 9.0,
+   "ready": 21.842,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.341,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 24.869,
+   "delay": 0.342
+  },
+  {
+   "kind": "point",
+   "video_time": 24.5,
+   "race_time": 12.0,
+   "ready": 24.919,
+   "line": "서울 4경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.418,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 28.023,
+   "delay": 0.419
+  },
+  {
+   "kind": "point",
+   "video_time": 27.5,
+   "race_time": 15.0,
+   "ready": 28.073,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.572,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 31.167,
+   "delay": 0.573
+  },
+  {
+   "kind": "point",
+   "video_time": 30.5,
+   "race_time": 18.0,
+   "ready": 31.217,
+   "line": "서울 4경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.716,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 33.878,
+   "delay": 0.717
+  },
+  {
+   "kind": "point",
+   "video_time": 33.5,
+   "race_time": 21.0,
+   "ready": 33.928,
+   "line": "선두권은 앞에서부터 3번, 6번.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.427,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 3.81,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.88,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 36.696,
+   "delay": 0.428
+  },
+  {
+   "kind": "point",
+   "video_time": 36.5,
+   "race_time": 24.0,
+   "ready": 36.746,
+   "line": "선두는 3번 마음하나. 이어서 6번과 9번 나란히.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.652
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": -0.67,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.94,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.28,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "shown_until": 39.717,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 39.5,
+   "race_time": 27.0,
+   "ready": 39.767,
+   "line": "앞에서부터 3번, 9번, 6번.",
+   "statements": [
+    3,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.2813
+    },
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.519
+    },
+    {
+     "ahead": 8,
+     "behind": 9,
+     "gap": 0.2378
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.81,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.42,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.9,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 42.701,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 42.5,
+   "race_time": 30.0,
+   "ready": 42.751,
+   "line": "선두권은 앞에서부터 3번과 8번과 9번 나란히.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.256
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.29,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 1.77,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.74,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     8,
+     9
+    ]
+   ],
+   "shown_until": 45.7,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 45.5,
+   "race_time": 33.0,
+   "ready": 45.75,
+   "line": "선두는 3번 마음하나. 이어서 8번과 9번 나란히.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.7649
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.75,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.17,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.85,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "shown_until": 48.688,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 48.5,
+   "race_time": 36.0,
+   "ready": 48.738,
+   "line": "여전히 선두는 3번 마음하나. 그 뒤로 8번과 9번 나란히.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.7295
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.92,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.36,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.02,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "shown_until": 51.681,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 51.5,
+   "race_time": 39.0,
+   "ready": 51.731,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    3,
+    8,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.92,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.55,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 54.733,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 54.5,
+   "race_time": 42.0,
+   "ready": 54.783,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 8번, 9번.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.5838
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.282,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.37,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.45,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.33,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 57.695,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 57.5,
+   "race_time": 45.0,
+   "ready": 57.745,
+   "line": "선두권은 앞에서부터 8번과 9번 나란히.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.97,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.85,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     9
+    ]
+   ],
+   "shown_until": 60.702,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 60.5,
+   "race_time": 48.0,
+   "ready": 60.752,
+   "line": "선두는 3번 마음하나. 이어서 8번, 9번.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.7791
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.83,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 1.8,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.19,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 63.711,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 63.5,
+   "race_time": 51.0,
+   "ready": 63.761,
+   "line": "앞에서부터 8번과 9번 나란히.",
+   "statements": [
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 3.55,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.62,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     9
+    ]
+   ],
+   "shown_until": 66.703,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 66.5,
+   "race_time": 54.0,
+   "ready": 66.753,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 8번과 9번 나란히.",
+   "statements": [
+    3,
+    8
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.5503
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.12,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.45,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.46,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "shown_until": 69.701,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 69.5,
+   "race_time": 57.0,
+   "ready": 69.751,
+   "line": "선두권은 앞에서부터 9번과 8번 나란히.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.59,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.86,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     8
+    ]
+   ],
+   "shown_until": 72.709,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 72.5,
+   "race_time": 60.0,
+   "ready": 72.759,
+   "line": "앞에서부터 3번과 9번과 8번 나란히.",
+   "statements": [
+    3,
+    8,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 8,
+     "gap": 0.525
+    },
+    {
+     "ahead": 9,
+     "behind": 8,
+     "gap": 0.5139
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.61,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 1.84,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.77,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     9,
+     8
+    ]
+   ],
+   "shown_until": 75.701,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 75.5,
+   "race_time": 63.0,
+   "ready": 75.751,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 9번과 8번 나란히.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.6344
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.12,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.66,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.83,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9,
+     8
+    ]
+   ],
+   "shown_until": 78.701,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 78.5,
+   "race_time": 66.0,
+   "ready": 78.751,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 9번, 8번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.8224
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.88,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.73,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 6.51,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 81.709,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 81.5,
+   "race_time": 69.0,
+   "ready": 81.759,
+   "line": "3번 마음하나, 계속 선두입니다. 그 뒤로 9번, 8번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.8702
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.86,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 6.9,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 14.72,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 84.846,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 84.5,
+   "race_time": 72.0,
+   "ready": 84.896,
+   "line": "여전히 선두는 3번 마음하나. 그 뒤로 9번, 8번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.4509
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.394,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.17,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 8.55,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 12.41,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 87.928,
+   "delay": 0.396
+  },
+  {
+   "kind": "point",
+   "video_time": 87.5,
+   "race_time": 75.0,
+   "ready": 87.978,
+   "line": "3번 마음하나가 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.5992
+    }
+   ],
+   "late_at_start": 0.09,
+   "work_seconds": 0.388,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.62,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 10.09,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 91.168,
+   "delay": 0.478
+  },
+  {
+   "kind": "point",
+   "video_time": 90.5,
+   "race_time": 78.0,
+   "ready": 91.218,
+   "line": "3번 마음하나, 계속 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.3658
+    }
+   ],
+   "late_at_start": 0.197,
+   "work_seconds": 0.521,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 10.32,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 11.64,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 94.141,
+   "delay": 0.718
+  },
+  {
+   "kind": "point",
+   "video_time": 93.5,
+   "race_time": 81.0,
+   "ready": 94.191,
+   "line": "여전히 선두는 3번 마음하나. 그 뒤로 9번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.2238
+    }
+   ],
+   "late_at_start": 0.161,
+   "work_seconds": 0.529,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 14.07,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 15.36,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 97.229,
+   "delay": 0.691
+  },
+  {
+   "kind": "point",
+   "video_time": 96.5,
+   "race_time": 84.0,
+   "ready": 97.279,
+   "line": "3번 마음하나, 계속 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.306,
+   "work_seconds": 0.472,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 9.42,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 23.43,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 100.042,
+   "delay": 0.779
+  },
+  {
+   "kind": "point",
+   "video_time": 99.5,
+   "race_time": 87.0,
+   "ready": 100.092,
+   "line": "서울 4경주 1400m, 출발 후 87초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.138,
+   "work_seconds": 0.453,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 100.143,
+   "delay": 0.592
+  },
+  {
+   "kind": "finish",
+   "video_time": 99.983,
+   "race_time": 87.48,
+   "ready": 100.193,
+   "line": "결승선을 통과했습니다. 서울 4경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "3": 3,
+     "7": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 98.767,
+   "seconds_after_the_finish": 1.43,
+   "work_seconds": 0.001,
+   "shown_until": 106.143,
+   "delay": 0.21
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 3,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "걸작티아라"
+  },
+  {
+   "number": 2,
+   "name": "동백"
+  },
+  {
+   "number": 3,
+   "name": "피어나리"
+  },
+  {
+   "number": 4,
+   "name": "어디든지"
+  },
+  {
+   "number": 5,
+   "name": "마이티크리스"
+  },
+  {
+   "number": 6,
+   "name": "순간의파이터"
+  },
+  {
+   "number": 7,
+   "name": "퀸아비게일"
+  },
+  {
+   "number": 8,
+   "name": "블랙페페"
+  },
+  {
+   "number": 9,
+   "name": "핫피버"
+  },
+  {
+   "number": 10,
+   "name": "스톰크러시"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

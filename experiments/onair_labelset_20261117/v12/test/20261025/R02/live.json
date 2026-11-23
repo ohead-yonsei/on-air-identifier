@@ -1,0 +1,1307 @@
+{
+ "video": "otherday28/videos/R02__4rrFFSe9ZM.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 2,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "델타최강"
+   },
+   {
+    "number": 2,
+    "name": "글로벌하남"
+   },
+   {
+    "number": 3,
+    "name": "지산프리"
+   },
+   {
+    "number": 4,
+    "name": "골드엑스"
+   },
+   {
+    "number": 5,
+    "name": "선더런"
+   },
+   {
+    "number": 6,
+    "name": "사하라로즈"
+   },
+   {
+    "number": 7,
+    "name": "천마의함성"
+   },
+   {
+    "number": 8,
+    "name": "테이크참"
+   },
+   {
+    "number": 9,
+    "name": "피렌체골드"
+   },
+   {
+    "number": 10,
+    "name": "피엔에스리프"
+   },
+   {
+    "number": 11,
+    "name": "청강겨울"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 4.416666666666667,
+  "finish": 93.283,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5852,
+ "lines": 30,
+ "delay_seconds": {
+  "median": 0.26,
+  "max": 0.691
+ },
+ "furthest_behind_seconds": 0.676,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 10
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 5.417,
+   "race_time": 1.0,
+   "ready": 5.418,
+   "line": "서울 2경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 11.368,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 13.417,
+   "race_time": 9.0,
+   "ready": 13.737,
+   "line": "5번 선더런이 선두입니다.",
+   "statements": [
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.319,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.93,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ]
+   ],
+   "shown_until": 16.945,
+   "delay": 0.32
+  },
+  {
+   "kind": "point",
+   "video_time": 16.417,
+   "race_time": 12.0,
+   "ready": 16.995,
+   "line": "서울 2경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.577,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 19.986,
+   "delay": 0.578
+  },
+  {
+   "kind": "point",
+   "video_time": 19.417,
+   "race_time": 15.0,
+   "ready": 20.036,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.618,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 22.903,
+   "delay": 0.619
+  },
+  {
+   "kind": "point",
+   "video_time": 22.417,
+   "race_time": 18.0,
+   "ready": 22.953,
+   "line": "서울 2경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.536,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 25.797,
+   "delay": 0.536
+  },
+  {
+   "kind": "point",
+   "video_time": 25.417,
+   "race_time": 21.0,
+   "ready": 25.847,
+   "line": "1400m 경주, 출발 후 21초입니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.429,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 28.616,
+   "delay": 0.43
+  },
+  {
+   "kind": "point",
+   "video_time": 28.417,
+   "race_time": 24.0,
+   "ready": 28.666,
+   "line": "앞에서부터 9번과 7번 나란히, 5번.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.87,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.91,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 6.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     7
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 31.621,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 31.417,
+   "race_time": 27.0,
+   "ready": 31.671,
+   "line": "선두권은 앞에서부터 11번과 7번과 9번 나란히, 10번.",
+   "statements": [
+    7,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.17,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.12,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.64,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 5.69,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     7,
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 34.645,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 34.433,
+   "race_time": 30.02,
+   "ready": 34.695,
+   "line": "앞에서부터 9번과 7번 나란히, 5번.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.4085
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.27,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.41,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 6.83,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     7
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 37.618,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 37.417,
+   "race_time": 33.0,
+   "ready": 37.668,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 9번과 7번 나란히.",
+   "statements": [
+    7,
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 9,
+     "gap": 0.2792
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.3036
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.83,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.13,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9,
+     7
+    ]
+   ],
+   "shown_until": 40.629,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 40.417,
+   "race_time": 36.0,
+   "ready": 40.679,
+   "line": "1번 델타최강이 선두입니다. 그 뒤로 9번과 7번 나란히, 10번과 5번 나란히.",
+   "statements": [
+    1,
+    7,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.53
+    },
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.4486
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.261,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.4,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.4,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 8.71,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 9.39,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     9,
+     7
+    ],
+    [
+     10,
+     5
+    ]
+   ],
+   "shown_until": 43.601,
+   "delay": 0.262
+  },
+  {
+   "kind": "point",
+   "video_time": 43.417,
+   "race_time": 39.0,
+   "ready": 43.651,
+   "line": "선두권은 앞에서부터 9번, 7번.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 7,
+     "gap": 0.3288
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.08,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.77,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 46.616,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 46.417,
+   "race_time": 42.0,
+   "ready": 46.666,
+   "line": "앞에서부터 9번과 7번 나란히, 5번, 10번.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.04,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.03,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 8.62,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 11.44,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     7
+    ],
+    [
+     5
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 49.649,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 49.417,
+   "race_time": 45.0,
+   "ready": 49.699,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 9번과 7번 나란히.",
+   "statements": [
+    7,
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 7,
+     "gap": 0.2678
+    },
+    {
+     "ahead": 11,
+     "behind": 7,
+     "gap": 0.5662
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.2984
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.66,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 1.75,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.9,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9,
+     7
+    ]
+   ],
+   "shown_until": 52.613,
+   "delay": 0.282
+  },
+  {
+   "kind": "point",
+   "video_time": 52.417,
+   "race_time": 48.0,
+   "ready": 52.663,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 9번, 7번과 10번 나란히.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.3828
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.23,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 1.92,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.47,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.4,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "shown_until": 55.609,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 55.417,
+   "race_time": 51.0,
+   "ready": 55.659,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 9번, 7번.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.5373
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 3.58,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.5,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 7.77,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 58.627,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 58.417,
+   "race_time": 54.0,
+   "ready": 58.677,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 9번과 7번 나란히.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.5788
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.26,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.35,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.74,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.94,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9,
+     7
+    ]
+   ],
+   "shown_until": 61.618,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 61.417,
+   "race_time": 57.0,
+   "ready": 61.668,
+   "line": "선두권은 앞에서부터 11번과 9번과 7번 나란히.",
+   "statements": [
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.8,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.0,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.46,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     9,
+     7
+    ]
+   ],
+   "shown_until": 64.606,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 64.417,
+   "race_time": 60.0,
+   "ready": 64.656,
+   "line": "앞에서부터 11번과 7번과 9번 나란히.",
+   "statements": [
+    7,
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 7,
+     "gap": 0.5977
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.6952
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.32,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.5,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.88,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     7,
+     9
+    ]
+   ],
+   "shown_until": 67.622,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 67.417,
+   "race_time": 63.0,
+   "ready": 67.672,
+   "line": "11번 청강겨울이 선두입니다. 그 뒤로 7번과 9번 나란히.",
+   "statements": [
+    7,
+    9,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 7,
+     "gap": 0.6347
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.7026
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.25,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 1.77,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.76,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "shown_until": 70.612,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 70.417,
+   "race_time": 66.0,
+   "ready": 70.662,
+   "line": "선두권은 앞에서부터 11번과 9번 나란히, 10번.",
+   "statements": [
+    7,
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 7,
+     "gap": 0.5537
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.6542
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.76,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.21,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 7.16,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     9
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 73.608,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 73.417,
+   "race_time": 69.0,
+   "ready": 73.658,
+   "line": "앞에서부터 5번, 9번.",
+   "statements": [
+    5,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 9,
+     "gap": 0.3999
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.83,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 7.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 76.646,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 76.417,
+   "race_time": 72.0,
+   "ready": 76.696,
+   "line": "선두권은 앞에서부터 11번, 9번.",
+   "statements": [
+    4,
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.4117
+    },
+    {
+     "ahead": 11,
+     "behind": 5,
+     "gap": 0.213
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.58,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 10.51,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 79.61,
+   "delay": 0.279
+  },
+  {
+   "kind": "point",
+   "video_time": 79.417,
+   "race_time": 75.0,
+   "ready": 79.66,
+   "line": "앞에서부터 11번, 1번.",
+   "statements": [
+    5,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.02,
+   "work_seconds": 0.223,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.92,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 9.48,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 82.622,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 82.417,
+   "race_time": 78.0,
+   "ready": 82.672,
+   "line": "선두권은 앞에서부터 11번.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.056,
+   "work_seconds": 0.198,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 6.39,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ]
+   ],
+   "shown_until": 86.019,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 85.417,
+   "race_time": 81.0,
+   "ready": 86.069,
+   "line": "서울 2경주 1400m, 출발 후 81초가 지났습니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.164,
+   "work_seconds": 0.488,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 89.04,
+   "delay": 0.652
+  },
+  {
+   "kind": "point",
+   "video_time": 88.417,
+   "race_time": 84.0,
+   "ready": 89.09,
+   "line": "1400m 경주, 출발 후 84초입니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.177,
+   "work_seconds": 0.495,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 91.931,
+   "delay": 0.673
+  },
+  {
+   "kind": "point",
+   "video_time": 91.417,
+   "race_time": 87.0,
+   "ready": 91.981,
+   "line": "선두는 4번 골드엑스.",
+   "statements": [
+    4,
+    5
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 5,
+     "gap": 0.3864
+    }
+   ],
+   "late_at_start": 0.106,
+   "work_seconds": 0.458,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 95.058,
+   "delay": 0.564
+  },
+  {
+   "kind": "point",
+   "video_time": 94.417,
+   "race_time": 90.0,
+   "ready": 95.108,
+   "line": "1400m 경주, 출발 후 90초입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.155,
+   "work_seconds": 0.536,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 95.068,
+   "delay": 0.691
+  },
+  {
+   "kind": "finish",
+   "video_time": 94.5,
+   "race_time": 90.08,
+   "ready": 95.118,
+   "line": "결승선을 통과했습니다. 서울 2경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": 2,
+    "pictures_naming_each": {
+     "2": 5,
+     "4": 1,
+     "8": 2
+    },
+    "seen": 3,
+    "front": 1,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 93.283,
+   "seconds_after_the_finish": 1.83,
+   "work_seconds": 0.0,
+   "shown_until": 101.068,
+   "delay": 0.618
+  }
+ ]
+}

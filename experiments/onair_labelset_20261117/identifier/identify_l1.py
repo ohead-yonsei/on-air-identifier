@@ -110,11 +110,17 @@ FINISH_LEADER_MODEL = ROOT / "finish2" / "models" / "fs_leader_all.joblib"   # -
 LATE_SECONDS, WINNER_SPAN, WINNER_NEED = 36.0, 6.0, 5                        # --v10: the stretch; winner call from the last 6 s, 5 pictures or more
 WINNER_CHECK_SECONDS, WINNER_SEE, WINNER_AHEAD = 2.0, 0.5, 0.3                # --winner-call: the candidate must still be in front in the last 2 s
 FAST_ORDER_MODEL, FAST_LEADER_MODEL = ROOT / "night" / "l1_fast.joblib", ROOT / "night" / "leader_fast.joblib"   # --fast: no Qwen (night/DESIGN_KO.md)
+V12_TOP5_MODEL, V12_GAP_MODEL = ROOT / "v12" / "models" / "top5_all.joblib", ROOT / "v12" / "models" / "gap_all.joblib"   # v12/DESIGN_KO.md
+V12_TAU, V12_K, V12_CARRY, V12_DELTA = 0.92, 3, True, 2.0   # v12 rule, chosen on the development days (v12/DESIGN_KO.md, v12/dev_rule.json)
 
 
 class LeadingGroupIdentifier:
-    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False, leader_sure=None, cap_weights=None):
+    def __init__(self, masks="sep06", fast=False, fallback=False, tau_leader=TAU_LEADER, finish_leader=False, leader_sure=None, cap_weights=None,
+                 v12=False):
         self.cap_weights = Path(cap_weights) if cap_weights else CNN_WEIGHTS
+        assert fast or not v12, "the v12 models use the features of the fast configuration"
+        self.v12 = (joblib.load(V12_TOP5_MODEL), joblib.load(V12_GAP_MODEL)) if v12 else None
+        self.history5, self.gap5 = {}, {}     # v12: time -> numbers named from that time's own pictures; (key, number) -> last mean gap
         self.leader_sure = SURE if leader_sure is None else leader_sure      # bar for a rider's number, for the leader statement only
         assert fast or not finish_leader, "the finish-stretch leader model uses the features of the fast configuration"
         self.leader_fs = joblib.load(FINISH_LEADER_MODEL) if finish_leader else None
@@ -203,6 +209,14 @@ class LeadingGroupIdentifier:
             for i in np.argsort(-pl)[:K]:
                 if pl[i] >= TAU:
                     sure[i]["taken"] = True
+            if self.v12 is not None:          # v12: "in the first five" and metres behind the leader, learned on official times
+                F = np.array([r["features"] for r in sure])
+                p5, g = self.v12[0].predict_proba(F)[:, 1], self.v12[1].predict(F)
+                for r, v, gg in zip(sure, p5, g):
+                    r["p_top5"], r["gap_m"] = round(float(v), 4), round(float(gg), 2)
+                for i in np.argsort(-p5)[:V12_K]:
+                    if p5[i] >= V12_TAU:
+                        sure[i]["taken5"] = True
         first = {}             # number -> unrounded leader-model score, sure riders only
         cand = sure if self.leader_sure >= SURE else [r for r in out if r["_p"] >= self.leader_sure]     # riders the leader may be picked from
         if cand and self.leader is not None:
@@ -232,8 +246,14 @@ class LeadingGroupIdentifier:
         votes, best, per_picture, riders_now = Counter(), {}, [], None
         lead_votes, first_scores, top = Counter(), {}, {}
         lead_votes_fs = Counter()
+        votes5, gaps5 = Counter(), {}
         for bgr in pictures:
             riders, detection, first, lead3 = self.picture(bgr)
+            for r in riders:
+                if r.get("taken5"):
+                    votes5[r["number"]] += 1
+                if "gap_m" in r:
+                    gaps5.setdefault(r["number"], []).append(r["gap_m"])
             for num, v in lead3.items():
                 top[num] = max(top.get(num, 0.0), v)
             for num, v in first.items():
@@ -265,6 +285,15 @@ class LeadingGroupIdentifier:
         detail = [{"number": n, "source": "now", "votes": votes[n], **best[n]} for n in sorted(now)] + [{"number": n, "source": "carried"} for n in sorted(carried)] \
             + [{"number": n, "source": "fallback", "p_lead": round(top[n], 4)} for n in sorted(added)]
         res = {"t": round(float(t), 3), "statements": sorted(now | carried | added), "detail": detail, "pictures": per_picture, "riders_now": riders_now or []}
+        if self.v12 is not None:              # v12: the named horses of the first five, front to back (v12/DESIGN_KO.md)
+            now5 = {n for n, v in votes5.items() if v >= 2}
+            self.history5[(key, round(float(t), 3))] = now5
+            carried5 = ((self._near(key, t - 3.0, self.history5, set()) & self._near(key, t - 6.0, self.history5, set())) - now5) if V12_CARRY else set()
+            g = {n: (float(np.mean(gaps5[n])) if n in gaps5 else self.gap5.get((key, n), 99.0)) for n in now5 | carried5}
+            for n, v in g.items():
+                self.gap5[(key, n)] = v
+            res["group5"] = [{"number": n, "gap_m": round(g[n], 2), "source": "now" if n in now5 else "carried"} for n in sorted(g, key=g.get)]
+            res["group5_delta_m"] = V12_DELTA
         if self.leader is not None:
             picked = [n for n, v in lead_votes.items() if v >= 2]
             lead = picked[0] if picked else None
@@ -505,6 +534,7 @@ def main():
     ap.add_argument("--cap-weights", default=None, help="another cap classifier (default cnn/models/all_two_days.pt; cnn/models/caps2_a.pt is the one retrained with mined labels)")
     ap.add_argument("--v10", action="store_true", help="v9 + leader in the last 36 s from the model learned on official times + winner call (--video only)")
     ap.add_argument("--leader-tau", type=float, default=None, help="threshold for the leader (default 0.5; 0.6 with --v8)")
+    ap.add_argument("--v12", action="store_true", help="v11 + the first five in order: horses named in the first five, front to back, from models learned on official times (v12/DESIGN_KO.md)")
     ap.add_argument("--winner-call", action="store_true", help="call the winner at the finish (--video only, needs the race clock): the most-named leader of the last 6 s, kept only when it is still in front in the last 2 s")
     a = ap.parse_args()
     assert not (a.v8 and a.v9), "give at most one of --v8 and --v9"
@@ -517,10 +547,12 @@ def main():
     assert not a.v10 or (a.video and a.fast and a.fallback and a.leader_tau == TAU_LEADER_V9), "--v10 is v9 plus the finish parts: use it with --video and without --v8 / --no-fallback / --leader-tau"
     assert bool(a.video) != bool(a.day_dir), "give either --video or --day-dir"
     assert not a.winner_call or (a.video and a.fast), "--winner-call needs --video and the fast configuration (not --v8)"
+    assert not a.v12 or (a.fast and not (a.v8 or a.v9)), "--v12 is built on v11 (not --v8 or --v9)"
     wait_gpu()
     started = time.perf_counter()
     assert a.leader_sure is None or a.fast, "--leader-sure was tested with the fast configuration only (not with --v8)"
-    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure, cap_weights=a.cap_weights)
+    ident = LeadingGroupIdentifier(a.masks, a.fast, a.fallback, a.leader_tau, finish_leader=a.v10, leader_sure=a.leader_sure, cap_weights=a.cap_weights,
+                                  v12=a.v12)
     name = "F2" if (a.fast and a.fallback and a.leader_tau == 0.5) else ("F1" if a.fast else "L1") + ("+fallback" if a.fallback else "") + ("" if a.leader_tau == TAU_LEADER else f"+leader{a.leader_tau}")
     res = run_video(a, ident) if a.video else run_day_dir(a, ident)
     if Path(a.cap_weights).resolve() == CNN_WEIGHTS_V11.resolve():
@@ -529,9 +561,12 @@ def main():
         name += "+" + Path(a.cap_weights).stem
     if a.v10:
         name += "+finish"
-    res.update(configuration=name, version={"F2+caps2": "v11", "F2+caps2+finish": "v11 with the finish parts", "F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
+    if a.v12:
+        name += "+top5"
+    res.update(configuration=name, version={"F2+caps2": "v11", "F2+caps2+finish": "v11 with the finish parts", "F2+caps2+top5": "v12", "F2+caps2+finish+top5": "v12 with the finish parts", "F2": "v9", "L1": "v8", "F2+finish": "v10"}.get(name), settings={"sure": SURE, "tau": TAU, "k": K, "min_riders_for_usual_detection": MIN_RIDERS,
                                               "order_rules": ident.leader is not None, "tau_leader": a.leader_tau, "margin_order": MARGIN_ORDER,
-                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure, "cap_weights": ident.cap_weights.name},
+                                              "fast": a.fast, "fallback": a.fallback, "fallback_single": FALLBACK_SINGLE, "leader_sure": ident.leader_sure, "cap_weights": ident.cap_weights.name,
+                                              **({"v12": {"tau": V12_TAU, "k": V12_K, "carry": V12_CARRY, "delta_m": V12_DELTA}} if a.v12 else {})},
                qwen_failures=ident.qwen_failures, seconds=round(time.perf_counter() - started, 1))
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(res, indent=1))

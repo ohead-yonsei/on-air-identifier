@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 11,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "금빛천하"
+  },
+  {
+   "number": 2,
+   "name": "베스트피치"
+  },
+  {
+   "number": 3,
+   "name": "테마탄생"
+  },
+  {
+   "number": 4,
+   "name": "무빙볼케이노"
+  },
+  {
+   "number": 5,
+   "name": "캡틴타임"
+  },
+  {
+   "number": 6,
+   "name": "재즈퍼플"
+  },
+  {
+   "number": 7,
+   "name": "프리더원"
+  },
+  {
+   "number": 8,
+   "name": "용비히어로"
+  },
+  {
+   "number": 9,
+   "name": "슈퍼선더"
+  },
+  {
+   "number": 10,
+   "name": "원더풀제트"
+  },
+  {
+   "number": 11,
+   "name": "선더에이원"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

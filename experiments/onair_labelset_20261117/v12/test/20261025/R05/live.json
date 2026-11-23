@@ -1,0 +1,1413 @@
+{
+ "video": "otherday28/videos/R05_H9klUUvMbmI.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 5,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "이클립스서니"
+   },
+   {
+    "number": 2,
+    "name": "퀸즈플라잉"
+   },
+   {
+    "number": 3,
+    "name": "트리플에스"
+   },
+   {
+    "number": 4,
+    "name": "라온더토니"
+   },
+   {
+    "number": 5,
+    "name": "누리여왕"
+   },
+   {
+    "number": 6,
+    "name": "코스모찐"
+   },
+   {
+    "number": 7,
+    "name": "터보차지"
+   },
+   {
+    "number": 8,
+    "name": "그레이팬텀"
+   },
+   {
+    "number": 9,
+    "name": "실버문"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 9.383333333333333,
+  "finish": 97.9,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 6129,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.599
+ },
+ "furthest_behind_seconds": 0.584,
+ "dense_pictures": {
+  "run": 69,
+  "skipped_when_behind": 6
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 10.483,
+   "race_time": 1.1,
+   "ready": 10.485,
+   "line": "서울 5경주 1400m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 16.435,
+   "delay": 0.002
+  },
+  {
+   "kind": "point",
+   "video_time": 18.383,
+   "race_time": 9.0,
+   "ready": 18.677,
+   "line": "선두권은 앞에서부터 2번.",
+   "statements": [
+    2,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 2,
+     "gap": 0.3556
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.292,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.81,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ]
+   ],
+   "shown_until": 21.608,
+   "delay": 0.294
+  },
+  {
+   "kind": "point",
+   "video_time": 21.383,
+   "race_time": 12.0,
+   "ready": 21.658,
+   "line": "여전히 선두는 2번 퀸즈플라잉.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [],
+   "said_order": [
+    [
+     2
+    ]
+   ],
+   "shown_until": 24.839,
+   "delay": 0.275
+  },
+  {
+   "kind": "point",
+   "video_time": 24.383,
+   "race_time": 15.0,
+   "ready": 24.889,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.504,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 27.831,
+   "delay": 0.506
+  },
+  {
+   "kind": "point",
+   "video_time": 27.383,
+   "race_time": 18.0,
+   "ready": 27.881,
+   "line": "서울 5경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.496,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 30.606,
+   "delay": 0.498
+  },
+  {
+   "kind": "point",
+   "video_time": 30.383,
+   "race_time": 21.0,
+   "ready": 30.656,
+   "line": "선두권은 앞에서부터 2번과 4번 나란히, 7번과 1번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.2779
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.06,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.61,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.8,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.04,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     4
+    ],
+    [
+     7,
+     1
+    ]
+   ],
+   "shown_until": 33.579,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 33.383,
+   "race_time": 24.0,
+   "ready": 33.629,
+   "line": "앞에서부터 4번과 1번과 7번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.2221
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.75,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.34,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.74,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     1,
+     7
+    ]
+   ],
+   "shown_until": 36.58,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 36.383,
+   "race_time": 27.0,
+   "ready": 36.63,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 4번, 1번과 7번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.5874
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.03,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.3,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.5,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.13,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "shown_until": 39.579,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 39.383,
+   "race_time": 30.0,
+   "ready": 39.629,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 4번, 7번과 1번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.526
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.6,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.52,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     7,
+     1
+    ]
+   ],
+   "shown_until": 42.579,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 42.383,
+   "race_time": 33.0,
+   "ready": 42.629,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 4번, 1번과 7번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.5585
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.65,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.13,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.21,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.25,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "shown_until": 45.59,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 45.383,
+   "race_time": 36.0,
+   "ready": 45.64,
+   "line": "2번 퀸즈플라잉, 계속 선두입니다. 그 뒤로 4번, 1번과 7번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.7046
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.59,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.63,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.24,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 7.38,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "shown_until": 48.573,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 48.383,
+   "race_time": 39.0,
+   "ready": 48.623,
+   "line": "선두는 2번 퀸즈플라잉. 이어서 4번, 7번.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.7224
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.12,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.48,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.69,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 51.621,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 51.383,
+   "race_time": 42.0,
+   "ready": 51.671,
+   "line": "선두는 2번 퀸즈플라잉. 이어서 7번과 4번과 1번 나란히.",
+   "statements": [
+    1,
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.286,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.12,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.21,
+     "source": "carried"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.48,
+     "source": "carried"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.08,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     7,
+     4,
+     1
+    ]
+   ],
+   "shown_until": 54.587,
+   "delay": 0.288
+  },
+  {
+   "kind": "point",
+   "video_time": 54.383,
+   "race_time": 45.0,
+   "ready": 54.637,
+   "line": "선두는 2번 퀸즈플라잉. 이어서 4번, 7번.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 4,
+     "gap": 0.6485
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.57,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.13,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 57.601,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 57.383,
+   "race_time": 48.0,
+   "ready": 57.651,
+   "line": "앞에서부터 2번과 7번과 1번 나란히.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.7,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.69,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.37,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     7,
+     1
+    ]
+   ],
+   "shown_until": 60.573,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 60.383,
+   "race_time": 51.0,
+   "ready": 60.623,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 4번, 7번.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.7271
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 2.44,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.71,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.12,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     4
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 63.582,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 63.383,
+   "race_time": 54.0,
+   "ready": 63.632,
+   "line": "선두권은 앞에서부터 2번과 4번과 7번과 1번 나란히.",
+   "statements": [
+    2,
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.3383
+    },
+    {
+     "ahead": 4,
+     "behind": 7,
+     "gap": 0.2765
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.89,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.62,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.61,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.09,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     4,
+     7,
+     1
+    ]
+   ],
+   "shown_until": 66.587,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 66.4,
+   "race_time": 57.02,
+   "ready": 66.637,
+   "line": "앞에서부터 2번과 7번과 4번과 1번 나란히.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.6595
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.86,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.31,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.63,
+     "source": "carried"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.35,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     7,
+     4,
+     1
+    ]
+   ],
+   "shown_until": 69.591,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 69.4,
+   "race_time": 60.02,
+   "ready": 69.641,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 7번, 1번과 4번 나란히.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.5341
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 1.84,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.21,
+     "source": "carried"
+    },
+    {
+     "number": 4,
+     "gap_m": 4.53,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.83,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     7
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "shown_until": 72.618,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 72.4,
+   "race_time": 63.02,
+   "ready": 72.668,
+   "line": "선두권은 앞에서부터 2번과 7번 나란히, 1번.",
+   "statements": [
+    1,
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": true,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.61,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.31,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.53,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     7
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 75.575,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 75.383,
+   "race_time": 66.0,
+   "ready": 75.625,
+   "line": "순서는 그대로, 앞에서부터 2번과 7번 나란히, 1번.",
+   "statements": [
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.73,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.69,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.16,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     7
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 78.58,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 78.383,
+   "race_time": 69.0,
+   "ready": 78.63,
+   "line": "2번 퀸즈플라잉이 선두입니다. 그 뒤로 7번과 1번 나란히.",
+   "statements": [
+    1,
+    2,
+    7
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.3162
+    },
+    {
+     "ahead": 2,
+     "behind": 7,
+     "gap": 0.2377
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.92,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.0,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.7,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     7,
+     1
+    ]
+   ],
+   "shown_until": 81.574,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 81.383,
+   "race_time": 72.0,
+   "ready": 81.624,
+   "line": "선두권은 앞에서부터 2번과 7번과 1번 나란히.",
+   "statements": [
+    1,
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.3562
+    },
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.278
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 2.65,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.74,
+     "source": "carried"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.03,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     7,
+     1
+    ]
+   ],
+   "shown_until": 84.556,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 84.383,
+   "race_time": 75.0,
+   "ready": 84.606,
+   "line": "앞에서부터 7번과 2번과 1번 나란히.",
+   "statements": [
+    1,
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.4124
+    },
+    {
+     "ahead": 7,
+     "behind": 2,
+     "gap": 0.2697
+    }
+   ],
+   "late_at_start": 0.004,
+   "work_seconds": 0.218,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 3.08,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.64,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 4.8,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     7,
+     2,
+     1
+    ]
+   ],
+   "shown_until": 87.565,
+   "delay": 0.223
+  },
+  {
+   "kind": "point",
+   "video_time": 87.383,
+   "race_time": 78.0,
+   "ready": 87.615,
+   "line": "선두권은 앞에서부터 7번, 1번과 2번 나란히.",
+   "statements": [
+    1,
+    2,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.6968
+    },
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.3603
+    },
+    {
+     "ahead": 7,
+     "behind": 2,
+     "gap": 0.3365
+    }
+   ],
+   "late_at_start": 0.018,
+   "work_seconds": 0.213,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 2.98,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.44,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.91,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     7
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "shown_until": 90.658,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 90.383,
+   "race_time": 81.0,
+   "ready": 90.708,
+   "line": "앞에서부터 7번과 1번 나란히.",
+   "statements": [
+    1,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.015,
+   "work_seconds": 0.309,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 5.72,
+     "source": "carried"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.82,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     7,
+     1
+    ]
+   ],
+   "shown_until": 93.918,
+   "delay": 0.325
+  },
+  {
+   "kind": "point",
+   "video_time": 93.383,
+   "race_time": 84.0,
+   "ready": 93.968,
+   "line": "선두권은 앞에서부터 7번.",
+   "statements": [
+    1,
+    7,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 1,
+     "gap": 0.3607
+    },
+    {
+     "ahead": 7,
+     "behind": 8,
+     "gap": 0.3268
+    }
+   ],
+   "late_at_start": 0.098,
+   "work_seconds": 0.485,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 3.58,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     7
+    ]
+   ],
+   "shown_until": 96.932,
+   "delay": 0.585
+  },
+  {
+   "kind": "point",
+   "video_time": 96.383,
+   "race_time": 87.0,
+   "ready": 96.982,
+   "line": "서울 5경주 1400m, 출발 후 87초가 지났습니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.101,
+   "work_seconds": 0.497,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 99.393,
+   "delay": 0.599
+  },
+  {
+   "kind": "finish",
+   "video_time": 99.117,
+   "race_time": 89.73,
+   "ready": 99.443,
+   "line": "결승선을 통과했습니다. 서울 5경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": 7,
+    "pictures_naming_each": {
+     "7": 5
+    },
+    "seen": 5,
+    "front": 2,
+    "pictures_in_the_last_6s": 26
+   },
+   "finish_video_time": 97.9,
+   "seconds_after_the_finish": 1.54,
+   "work_seconds": 0.0,
+   "shown_until": 105.393,
+   "delay": 0.326
+  }
+ ]
+}

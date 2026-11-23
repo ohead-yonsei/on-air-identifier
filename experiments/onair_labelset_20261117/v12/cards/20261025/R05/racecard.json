@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 5,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "이클립스서니"
+  },
+  {
+   "number": 2,
+   "name": "퀸즈플라잉"
+  },
+  {
+   "number": 3,
+   "name": "트리플에스"
+  },
+  {
+   "number": 4,
+   "name": "라온더토니"
+  },
+  {
+   "number": 5,
+   "name": "누리여왕"
+  },
+  {
+   "number": 6,
+   "name": "코스모찐"
+  },
+  {
+   "number": 7,
+   "name": "터보차지"
+  },
+  {
+   "number": 8,
+   "name": "그레이팬텀"
+  },
+  {
+   "number": 9,
+   "name": "실버문"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

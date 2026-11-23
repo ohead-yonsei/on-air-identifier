@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 5,
+ "distance": 1300,
+ "runners": [
+  {
+   "number": 1,
+   "name": "운주클리어"
+  },
+  {
+   "number": 2,
+   "name": "금아온포인트"
+  },
+  {
+   "number": 3,
+   "name": "홀리카이저"
+  },
+  {
+   "number": 4,
+   "name": "분당쓰나미"
+  },
+  {
+   "number": 5,
+   "name": "블랙스펙터"
+  },
+  {
+   "number": 6,
+   "name": "라온카리스걸"
+  },
+  {
+   "number": 7,
+   "name": "유니콘에이스"
+  },
+  {
+   "number": 8,
+   "name": "아모스최강"
+  },
+  {
+   "number": 9,
+   "name": "명브레이싱"
+  },
+  {
+   "number": 10,
+   "name": "세명피크"
+  },
+  {
+   "number": 11,
+   "name": "포인트아이"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

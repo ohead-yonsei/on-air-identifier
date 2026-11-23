@@ -1,0 +1,1345 @@
+{
+ "video": "otherday28/videos/R11_ZKBRhRjIZf8.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 11,
+  "distance": 1400,
+  "runners": [
+   {
+    "number": 1,
+    "name": "금빛천하"
+   },
+   {
+    "number": 2,
+    "name": "베스트피치"
+   },
+   {
+    "number": 3,
+    "name": "테마탄생"
+   },
+   {
+    "number": 4,
+    "name": "무빙볼케이노"
+   },
+   {
+    "number": 5,
+    "name": "캡틴타임"
+   },
+   {
+    "number": 6,
+    "name": "재즈퍼플"
+   },
+   {
+    "number": 7,
+    "name": "프리더원"
+   },
+   {
+    "number": 8,
+    "name": "용비히어로"
+   },
+   {
+    "number": 9,
+    "name": "슈퍼선더"
+   },
+   {
+    "number": 10,
+    "name": "원더풀제트"
+   },
+   {
+    "number": 11,
+    "name": "선더에이원"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 6.35,
+  "finish": 92.8,
+  "expected_seconds": 88.9
+ },
+ "frames_read": 5823,
+ "lines": 29,
+ "delay_seconds": {
+  "median": 0.257,
+  "max": 0.691
+ },
+ "furthest_behind_seconds": 0.676,
+ "dense_pictures": {
+  "run": 53,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 7.35,
+   "race_time": 1.0,
+   "ready": 7.351,
+   "line": "서울 11경주 1400m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 13.301,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 15.35,
+   "race_time": 9.0,
+   "ready": 15.671,
+   "line": "1400m 경주, 출발 후 9초입니다.",
+   "statements": [
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.319,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 18.577,
+   "delay": 0.321
+  },
+  {
+   "kind": "point",
+   "video_time": 18.35,
+   "race_time": 12.0,
+   "ready": 18.627,
+   "line": "서울 11경주 1400m, 출발 후 12초가 지났습니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2446
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.276,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 21.567,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 21.35,
+   "race_time": 15.0,
+   "ready": 21.617,
+   "line": "1400m 경주, 출발 후 15초입니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 24.939,
+   "delay": 0.267
+  },
+  {
+   "kind": "point",
+   "video_time": 24.35,
+   "race_time": 18.0,
+   "ready": 24.989,
+   "line": "서울 11경주 1400m, 출발 후 18초가 지났습니다.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.638,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 27.554,
+   "delay": 0.639
+  },
+  {
+   "kind": "point",
+   "video_time": 27.35,
+   "race_time": 21.0,
+   "ready": 27.604,
+   "line": "선두권은 앞에서부터 6번과 4번과 8번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.2506
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.253,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.59,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.95,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.94,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     6,
+     4,
+     8
+    ]
+   ],
+   "shown_until": 30.61,
+   "delay": 0.254
+  },
+  {
+   "kind": "point",
+   "video_time": 30.35,
+   "race_time": 24.0,
+   "ready": 30.66,
+   "line": "앞에서부터 8번과 4번과 6번 나란히.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.3008
+    },
+    {
+     "ahead": 8,
+     "behind": 6,
+     "gap": 0.3013
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.309,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.65,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.54,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.93,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4,
+     6
+    ]
+   ],
+   "shown_until": 33.557,
+   "delay": 0.31
+  },
+  {
+   "kind": "point",
+   "video_time": 33.35,
+   "race_time": 27.0,
+   "ready": 33.607,
+   "line": "4번 무빙볼케이노가 선두입니다. 그 뒤로 6번과 8번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 1.61,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.75,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.02,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "shown_until": 36.576,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 36.35,
+   "race_time": 30.0,
+   "ready": 36.626,
+   "line": "선두권은 앞에서부터 4번과 8번과 6번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.3928
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.275,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 1.82,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.17,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8,
+     6
+    ]
+   ],
+   "shown_until": 39.588,
+   "delay": 0.276
+  },
+  {
+   "kind": "point",
+   "video_time": 39.35,
+   "race_time": 33.0,
+   "ready": 39.638,
+   "line": "선두는 4번 무빙볼케이노. 이어서 8번과 6번 나란히.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.7332
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.7398
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.286,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.38,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.34,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.32,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "shown_until": 42.548,
+   "delay": 0.288
+  },
+  {
+   "kind": "point",
+   "video_time": 42.35,
+   "race_time": 36.0,
+   "ready": 42.598,
+   "line": "여전히 선두는 4번 무빙볼케이노. 그 뒤로 8번과 6번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.654
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.88,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.2,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.92,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "shown_until": 45.549,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 45.35,
+   "race_time": 39.0,
+   "ready": 45.599,
+   "line": "4번 무빙볼케이노가 선두입니다. 그 뒤로 6번과 11번 나란히.",
+   "statements": [
+    4,
+    6
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.3188
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.7,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.78,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 5.62,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     6,
+     11
+    ]
+   ],
+   "shown_until": 48.547,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 48.35,
+   "race_time": 42.0,
+   "ready": 48.597,
+   "line": "4번 무빙볼케이노가 선두입니다. 그 뒤로 8번과 6번 나란히.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.3667
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2062
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.93,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.1,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.96,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "shown_until": 51.541,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 51.35,
+   "race_time": 45.0,
+   "ready": 51.591,
+   "line": "4번 무빙볼케이노가 선두입니다. 그 뒤로 8번과 6번과 11번 나란히.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.53,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.96,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.11,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 4.29,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8,
+     6,
+     11
+    ]
+   ],
+   "shown_until": 54.557,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 54.35,
+   "race_time": 48.0,
+   "ready": 54.607,
+   "line": "4번 무빙볼케이노가 선두입니다. 그 뒤로 6번과 8번 나란히.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 6,
+     "gap": 0.5284
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.8137
+    },
+    {
+     "ahead": 6,
+     "behind": 8,
+     "gap": 0.2852
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.52,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 1.7,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.91,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "shown_until": 57.547,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 57.35,
+   "race_time": 51.0,
+   "ready": 57.597,
+   "line": "8번 용비히어로가 선두입니다. 그 뒤로 4번, 6번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5185
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 3.94,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.39,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 60.549,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 60.35,
+   "race_time": 54.0,
+   "ready": 60.599,
+   "line": "선두권은 앞에서부터 8번과 4번과 6번 나란히, 11번.",
+   "statements": [
+    4,
+    6,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.04,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.42,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.14,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 8.29,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4,
+     6
+    ],
+    [
+     11
+    ]
+   ],
+   "shown_until": 63.566,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 63.35,
+   "race_time": 57.0,
+   "ready": 63.616,
+   "line": "선두는 4번 무빙볼케이노. 이어서 8번, 6번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.54
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.2,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.55,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.54,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 66.598,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 66.367,
+   "race_time": 60.02,
+   "ready": 66.648,
+   "line": "선두는 8번 용비히어로. 이어서 4번과 6번 나란히.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.28,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.69,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.89,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.58,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "shown_until": 69.565,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 69.367,
+   "race_time": 63.02,
+   "ready": 69.615,
+   "line": "앞에서부터 4번과 8번 나란히, 6번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.5775
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.12,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.79,
+     "source": "carried"
+    },
+    {
+     "number": 6,
+     "gap_m": 7.03,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 72.553,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 72.35,
+   "race_time": 66.0,
+   "ready": 72.603,
+   "line": "앞에서부터 4번과 8번 나란히, 6번, 그대로입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2658
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.15,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.15,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 7.51,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 75.544,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 75.35,
+   "race_time": 69.0,
+   "ready": 75.594,
+   "line": "선두는 8번 용비히어로. 이어서 4번, 6번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.14,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.85,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 10.66,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 78.548,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 78.35,
+   "race_time": 72.0,
+   "ready": 78.598,
+   "line": "앞에서부터 8번과 4번 나란히, 6번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.14,
+     "source": "carried"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.87,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 10.79,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 81.528,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 81.35,
+   "race_time": 75.0,
+   "ready": 81.578,
+   "line": "앞에서부터 8번과 4번 나란히, 6번, 그대로입니다.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.011,
+   "work_seconds": 0.216,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 6.37,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 7.43,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 16.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 84.535,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 84.35,
+   "race_time": 78.0,
+   "ready": 84.585,
+   "line": "선두는 1번 금빛천하. 이어서 8번과 4번 나란히, 6번.",
+   "statements": [
+    1,
+    4,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.2392
+    },
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.2129
+    }
+   ],
+   "late_at_start": 0.019,
+   "work_seconds": 0.215,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 7.15,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 9.09,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 11.91,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     8,
+     4
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 87.913,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 87.35,
+   "race_time": 81.0,
+   "ready": 87.963,
+   "line": "선두는 1번 금빛천하. 이어서 4번과 8번 나란히.",
+   "statements": [
+    1,
+    4,
+    8
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 8,
+     "gap": 0.3819
+    },
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2311
+    }
+   ],
+   "late_at_start": 0.019,
+   "work_seconds": 0.593,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 6.67,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 7.41,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     4,
+     8
+    ]
+   ],
+   "shown_until": 90.991,
+   "delay": 0.613
+  },
+  {
+   "kind": "point",
+   "video_time": 90.35,
+   "race_time": 84.0,
+   "ready": 91.041,
+   "line": "선두는 1번 금빛천하.",
+   "statements": [
+    1,
+    3
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.158,
+   "work_seconds": 0.532,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [
+    [
+     1
+    ]
+   ],
+   "shown_until": 93.946,
+   "delay": 0.691
+  },
+  {
+   "kind": "point",
+   "video_time": 93.35,
+   "race_time": 87.0,
+   "ready": 93.996,
+   "line": "1400m 경주, 출발 후 87초입니다.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.173,
+   "work_seconds": 0.473,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 94.04,
+   "delay": 0.646
+  },
+  {
+   "kind": "finish",
+   "video_time": 94.017,
+   "race_time": 87.67,
+   "ready": 94.09,
+   "line": "결승선을 통과했습니다. 서울 11경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "1": 1,
+     "11": 1,
+     "3": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 92.8,
+   "seconds_after_the_finish": 1.29,
+   "work_seconds": 0.0,
+   "shown_until": 100.04,
+   "delay": 0.073
+  }
+ ]
+}

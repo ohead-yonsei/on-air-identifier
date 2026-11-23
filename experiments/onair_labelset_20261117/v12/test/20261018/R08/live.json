@@ -1,0 +1,1041 @@
+{
+ "video": "otherday29/videos/R08_QYaXI6HpsKc.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 8,
+  "distance": 1200,
+  "runners": [
+   {
+    "number": 1,
+    "name": "삼정셰프"
+   },
+   {
+    "number": 2,
+    "name": "골든벤투스"
+   },
+   {
+    "number": 3,
+    "name": "송당퍼스트"
+   },
+   {
+    "number": 4,
+    "name": "클러치더비"
+   },
+   {
+    "number": 5,
+    "name": "메이저퓨리"
+   },
+   {
+    "number": 6,
+    "name": "관악산빅스텝"
+   },
+   {
+    "number": 7,
+    "name": "태평에스지"
+   },
+   {
+    "number": 8,
+    "name": "에이케이선"
+   },
+   {
+    "number": 9,
+    "name": "글로벌최강"
+   },
+   {
+    "number": 10,
+    "name": "영웅바로우즈"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 4.0,
+  "finish": 76.0,
+  "expected_seconds": 74.4
+ },
+ "frames_read": 4815,
+ "lines": 24,
+ "delay_seconds": {
+  "median": 0.258,
+  "max": 0.62
+ },
+ "furthest_behind_seconds": 0.605,
+ "dense_pictures": {
+  "run": 53,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 5.0,
+   "race_time": 1.0,
+   "ready": 5.001,
+   "line": "서울 8경주 1200m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 10.951,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 13.0,
+   "race_time": 9.0,
+   "ready": 13.311,
+   "line": "선두권은 앞에서부터 8번과 4번 나란히.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.31,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.98,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.02,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4
+    ]
+   ],
+   "shown_until": 16.209,
+   "delay": 0.311
+  },
+  {
+   "kind": "point",
+   "video_time": 16.0,
+   "race_time": 12.0,
+   "ready": 16.259,
+   "line": "앞에서부터 8번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.258,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 2.58,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 19.206,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 19.0,
+   "race_time": 15.0,
+   "ready": 19.256,
+   "line": "8번 에이케이선이 선두입니다. 그 뒤로 4번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.5722
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.9,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 22.22,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 22.0,
+   "race_time": 18.0,
+   "ready": 22.27,
+   "line": "8번 에이케이선이 선두입니다. 그 뒤로 4번, 3번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.3084
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 0.99,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 5.59,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 25.192,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 25.0,
+   "race_time": 21.0,
+   "ready": 25.242,
+   "line": "8번 에이케이선이 선두입니다. 그 뒤로 4번, 10번과 3번 나란히.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 8,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 8,
+     "behind": 4,
+     "gap": 0.4878
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 8,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 0.56,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.22,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 4.67,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.39,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     4
+    ],
+    [
+     10,
+     3
+    ]
+   ],
+   "shown_until": 28.21,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 28.0,
+   "race_time": 24.0,
+   "ready": 28.26,
+   "line": "4번 클러치더비가 선두입니다. 그 뒤로 8번, 10번, 3번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.3493
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.39,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 1.85,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.17,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 8.89,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ],
+    [
+     10
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 31.219,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 31.0,
+   "race_time": 27.0,
+   "ready": 31.269,
+   "line": "선두권은 앞에서부터 4번과 8번 나란히, 10번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.39,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.8,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.6,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 34.216,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 34.0,
+   "race_time": 30.0,
+   "ready": 34.266,
+   "line": "앞에서부터 8번, 10번.",
+   "statements": [
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.83,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 5.14,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 37.19,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 37.0,
+   "race_time": 33.0,
+   "ready": 37.24,
+   "line": "4번 클러치더비가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.5782
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.239,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.1,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 1.13,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 40.23,
+   "delay": 0.24
+  },
+  {
+   "kind": "point",
+   "video_time": 40.0,
+   "race_time": 36.0,
+   "ready": 40.28,
+   "line": "4번 클러치더비, 계속 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.5394
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.278,
+   "finish_stretch": false,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.25,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.18,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 43.199,
+   "delay": 0.28
+  },
+  {
+   "kind": "point",
+   "video_time": 43.0,
+   "race_time": 39.0,
+   "ready": 43.249,
+   "line": "앞에서부터 4번과 8번과 9번 나란히, 3번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.4238
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.67,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.72,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.32,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 7.79,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8,
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 46.203,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 46.0,
+   "race_time": 42.0,
+   "ready": 46.253,
+   "line": "선두권은 앞에서부터 8번과 4번 나란히.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.2474
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 1.46,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.62,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8,
+     4
+    ]
+   ],
+   "shown_until": 49.194,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 49.0,
+   "race_time": 45.0,
+   "ready": 49.244,
+   "line": "앞에서부터 4번과 8번 나란히.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.603
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 0.8,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.06,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     8
+    ]
+   ],
+   "shown_until": 52.208,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 52.0,
+   "race_time": 48.0,
+   "ready": 52.258,
+   "line": "4번 클러치더비가 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.886
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.257,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 0.01,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 2.68,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 55.201,
+   "delay": 0.258
+  },
+  {
+   "kind": "point",
+   "video_time": 55.0,
+   "race_time": 51.0,
+   "ready": 55.251,
+   "line": "4번 클러치더비, 계속 선두입니다. 그 뒤로 8번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.6492
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.46,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.68,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 58.201,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 58.0,
+   "race_time": 54.0,
+   "ready": 58.251,
+   "line": "여전히 선두는 4번 클러치더비. 그 뒤로 8번.",
+   "statements": [
+    4,
+    8
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 8,
+     "gap": 0.6495
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.6,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.94,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 61.192,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 61.0,
+   "race_time": 57.0,
+   "ready": 61.242,
+   "line": "4번 클러치더비가 선두입니다.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.23,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 64.186,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 64.0,
+   "race_time": 60.0,
+   "ready": 64.236,
+   "line": "여전히 선두는 4번 클러치더비.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.43,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 67.187,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 67.0,
+   "race_time": 63.0,
+   "ready": 67.237,
+   "line": "4번 클러치더비, 계속 선두입니다.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.72,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 70.516,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 70.0,
+   "race_time": 66.0,
+   "ready": 70.566,
+   "line": "여전히 선두는 4번 클러치더비.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.023,
+   "work_seconds": 0.542,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 73.57,
+   "delay": 0.566
+  },
+  {
+   "kind": "point",
+   "video_time": 73.0,
+   "race_time": 69.0,
+   "ready": 73.62,
+   "line": "4번 클러치더비, 계속 선두입니다.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.142,
+   "work_seconds": 0.478,
+   "finish_stretch": true,
+   "leader_strip_model": 4,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 3.74,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 76.461,
+   "delay": 0.62
+  },
+  {
+   "kind": "point",
+   "video_time": 76.0,
+   "race_time": 72.0,
+   "ready": 76.511,
+   "line": "여전히 선두는 4번 클러치더비.",
+   "statements": [
+    4
+   ],
+   "leader": 4,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.056,
+   "work_seconds": 0.455,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 7.52,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ]
+   ],
+   "shown_until": 77.232,
+   "delay": 0.511
+  },
+  {
+   "kind": "finish",
+   "video_time": 77.217,
+   "race_time": 73.22,
+   "ready": 77.282,
+   "line": "결승선 통과! 4번 클러치더비가 가장 먼저 들어옵니다!",
+   "winner": 4,
+   "winner_call": {
+    "candidate": 4,
+    "pictures_naming_each": {
+     "4": 11
+    },
+    "seen": 5,
+    "front": 5,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 76.0,
+   "seconds_after_the_finish": 1.28,
+   "work_seconds": 0.0,
+   "shown_until": 83.232,
+   "delay": 0.065
+  }
+ ]
+}

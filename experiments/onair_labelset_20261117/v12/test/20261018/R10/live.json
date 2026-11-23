@@ -1,0 +1,1753 @@
+{
+ "video": "otherday29/videos/R10_KV3rIE6wQ9M.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 10,
+  "distance": 1800,
+  "runners": [
+   {
+    "number": 1,
+    "name": "샤이닝로드"
+   },
+   {
+    "number": 2,
+    "name": "나이스위너"
+   },
+   {
+    "number": 3,
+    "name": "메이저크라운"
+   },
+   {
+    "number": 4,
+    "name": "블랙시대"
+   },
+   {
+    "number": 5,
+    "name": "비전파워"
+   },
+   {
+    "number": 6,
+    "name": "관악산레오"
+   },
+   {
+    "number": 7,
+    "name": "브리도시리스"
+   },
+   {
+    "number": 8,
+    "name": "이스트비치"
+   },
+   {
+    "number": 9,
+    "name": "서부챔프"
+   },
+   {
+    "number": 10,
+    "name": "정상히어로"
+   },
+   {
+    "number": 11,
+    "name": "슈퍼블루문"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 5.966666666666667,
+  "finish": 119.517,
+  "expected_seconds": 118.8
+ },
+ "frames_read": 7426,
+ "lines": 38,
+ "delay_seconds": {
+  "median": 0.298,
+  "max": 0.71
+ },
+ "furthest_behind_seconds": 0.695,
+ "dense_pictures": {
+  "run": 39,
+  "skipped_when_behind": 11
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 6.967,
+   "race_time": 1.0,
+   "ready": 6.968,
+   "line": "서울 10경주 1800m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 12.918,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 14.967,
+   "race_time": 9.0,
+   "ready": 15.279,
+   "line": "선두권은 앞에서부터 10번과 4번과 2번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.311,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.31,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.92,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.06,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10,
+     4,
+     2
+    ]
+   ],
+   "shown_until": 18.231,
+   "delay": 0.312
+  },
+  {
+   "kind": "point",
+   "video_time": 17.983,
+   "race_time": 12.02,
+   "ready": 18.281,
+   "line": "앞에서부터 10번과 4번 나란히, 2번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.2151
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.296,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.0,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.27,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10,
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 21.217,
+   "delay": 0.298
+  },
+  {
+   "kind": "point",
+   "video_time": 20.983,
+   "race_time": 15.02,
+   "ready": 21.267,
+   "line": "선두권은 앞에서부터 10번, 4번과 8번과 2번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.3998
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.282,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.18,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 6.17,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.04,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.88,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4,
+     8,
+     2
+    ]
+   ],
+   "shown_until": 24.17,
+   "delay": 0.284
+  },
+  {
+   "kind": "point",
+   "video_time": 23.967,
+   "race_time": 18.0,
+   "ready": 24.22,
+   "line": "선두는 10번 정상히어로. 이어서 4번과 8번과 7번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.715
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.06,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.29,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 3.67,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.62,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4,
+     8,
+     7
+    ]
+   ],
+   "shown_until": 27.627,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 26.967,
+   "race_time": 21.0,
+   "ready": 27.677,
+   "line": "앞에서부터 10번과 8번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.709,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.7,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 4.01,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10,
+     8
+    ]
+   ],
+   "shown_until": 30.316,
+   "delay": 0.71
+  },
+  {
+   "kind": "point",
+   "video_time": 29.967,
+   "race_time": 24.0,
+   "ready": 30.366,
+   "line": "선두권은 앞에서부터 8번.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.399,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 8,
+     "gap_m": 5.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     8
+    ]
+   ],
+   "shown_until": 33.161,
+   "delay": 0.399
+  },
+  {
+   "kind": "point",
+   "video_time": 32.967,
+   "race_time": 27.0,
+   "ready": 33.211,
+   "line": "선두는 10번 정상히어로. 이어서 7번과 4번 나란히, 2번과 8번 나란히.",
+   "statements": [
+    4,
+    7,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.319
+    },
+    {
+     "ahead": 10,
+     "behind": 7,
+     "gap": 0.4154
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 2.33,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.66,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.19,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.64,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     2,
+     8
+    ]
+   ],
+   "shown_until": 36.399,
+   "delay": 0.244
+  },
+  {
+   "kind": "point",
+   "video_time": 35.967,
+   "race_time": 30.0,
+   "ready": 36.449,
+   "line": "선두는 10번 정상히어로. 이어서 8번.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.481,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 6.41,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.36,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 39.45,
+   "delay": 0.482
+  },
+  {
+   "kind": "point",
+   "video_time": 38.967,
+   "race_time": 33.0,
+   "ready": 39.5,
+   "line": "선두는 10번 정상히어로.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.532,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [],
+   "said_order": [
+    [
+     10
+    ]
+   ],
+   "shown_until": 42.165,
+   "delay": 0.533
+  },
+  {
+   "kind": "point",
+   "video_time": 41.967,
+   "race_time": 36.0,
+   "ready": 42.215,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 4번, 7번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.7096
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.08,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.45,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.75,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 45.165,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 44.967,
+   "race_time": 39.0,
+   "ready": 45.215,
+   "line": "선두권은 앞에서부터 4번, 2번.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.76,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.95,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 48.31,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 47.967,
+   "race_time": 42.0,
+   "ready": 48.36,
+   "line": "선두는 10번 정상히어로. 이어서 4번, 2번.",
+   "statements": [
+    2,
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 4,
+     "behind": 2,
+     "gap": 0.2307
+    },
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.8599
+    },
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.6292
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.392,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 3.1,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.25,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 51.561,
+   "delay": 0.393
+  },
+  {
+   "kind": "point",
+   "video_time": 50.967,
+   "race_time": 45.0,
+   "ready": 51.611,
+   "line": "여전히 선두는 10번 정상히어로. 그 뒤로 4번, 2번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.4646
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.643,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.55,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.28,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 54.425,
+   "delay": 0.644
+  },
+  {
+   "kind": "point",
+   "video_time": 53.967,
+   "race_time": 48.0,
+   "ready": 54.475,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 2번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.507,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 6.26,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 57.177,
+   "delay": 0.508
+  },
+  {
+   "kind": "point",
+   "video_time": 56.967,
+   "race_time": 51.0,
+   "ready": 57.227,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 4번과 2번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.789
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.02,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.66,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4,
+     2
+    ]
+   ],
+   "shown_until": 60.173,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 59.967,
+   "race_time": 54.0,
+   "ready": 60.223,
+   "line": "선두권은 앞에서부터 2번.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 4.54,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ]
+   ],
+   "shown_until": 63.198,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 62.967,
+   "race_time": 57.0,
+   "ready": 63.248,
+   "line": "앞에서부터 4번과 2번 나란히.",
+   "statements": [
+    2,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.28,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.89,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.93,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     2
+    ]
+   ],
+   "shown_until": 66.173,
+   "delay": 0.281
+  },
+  {
+   "kind": "point",
+   "video_time": 65.967,
+   "race_time": 60.0,
+   "ready": 66.223,
+   "line": "선두권은 앞에서부터 4번과 7번과 2번 나란히.",
+   "statements": [
+    4,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.32,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.68,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.24,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     7,
+     2
+    ]
+   ],
+   "shown_until": 69.169,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 68.967,
+   "race_time": 63.0,
+   "ready": 69.219,
+   "line": "선두는 10번 정상히어로. 이어서 4번, 2번과 5번 나란히.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.5948
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.251,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.22,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.83,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.22,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 5.45,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "shown_until": 72.311,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 71.967,
+   "race_time": 66.0,
+   "ready": 72.361,
+   "line": "선두는 10번 정상히어로. 이어서 4번, 2번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.605
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.392,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.38,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.67,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.54,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 75.54,
+   "delay": 0.394
+  },
+  {
+   "kind": "point",
+   "video_time": 74.967,
+   "race_time": 69.0,
+   "ready": 75.59,
+   "line": "선두는 10번 정상히어로. 이어서 5번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.6874
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.622,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 0.81,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 5.59,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 78.484,
+   "delay": 0.623
+  },
+  {
+   "kind": "point",
+   "video_time": 77.967,
+   "race_time": 72.0,
+   "ready": 78.534,
+   "line": "서울 10경주 1800m, 출발 후 72초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.566,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 81.147,
+   "delay": 0.567
+  },
+  {
+   "kind": "point",
+   "video_time": 80.967,
+   "race_time": 75.0,
+   "ready": 81.197,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 4번, 2번.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.6036
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 0.98,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.16,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.18,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 84.382,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 83.967,
+   "race_time": 78.0,
+   "ready": 84.432,
+   "line": "1800m 경주, 출발 후 78초입니다.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 4,
+     "gap": 0.2945
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.464,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 87.152,
+   "delay": 0.465
+  },
+  {
+   "kind": "point",
+   "video_time": 86.967,
+   "race_time": 81.0,
+   "ready": 87.202,
+   "line": "앞에서부터 10번, 4번.",
+   "statements": [
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.44,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 7.07,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 90.172,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 89.967,
+   "race_time": 84.0,
+   "ready": 90.222,
+   "line": "선두권은 앞에서부터 4번, 2번.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 5.07,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 9.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 93.149,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 92.967,
+   "race_time": 87.0,
+   "ready": 93.199,
+   "line": "선두는 10번 정상히어로. 이어서 4번, 2번.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.25,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 3.62,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 12.5,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     4
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 96.163,
+   "delay": 0.232
+  },
+  {
+   "kind": "point",
+   "video_time": 95.967,
+   "race_time": 90.0,
+   "ready": 96.213,
+   "line": "선두는 10번 정상히어로. 이어서 2번, 1번.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.4373
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 3.87,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 4.61,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 8.95,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 99.159,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 98.967,
+   "race_time": 93.0,
+   "ready": 99.209,
+   "line": "여전히 선두는 10번 정상히어로. 그 뒤로 2번, 1번.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.6726
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.61,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.56,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.72,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 102.182,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 101.967,
+   "race_time": 96.0,
+   "ready": 102.232,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 2번과 1번 나란히.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.7021
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.264,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 0.94,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.44,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.31,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "shown_until": 105.151,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 104.967,
+   "race_time": 99.0,
+   "ready": 105.201,
+   "line": "10번 정상히어로가 선두입니다. 그 뒤로 1번과 2번 나란히.",
+   "statements": [
+    1,
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.5041
+    },
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.5089
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.55,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 7.05,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.0,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "shown_until": 108.517,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 107.967,
+   "race_time": 102.0,
+   "ready": 108.567,
+   "line": "10번 정상히어로, 계속 선두입니다. 그 뒤로 1번과 2번 나란히.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.6884
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.598,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.29,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 7.1,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.75,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "shown_until": 111.453,
+   "delay": 0.6
+  },
+  {
+   "kind": "point",
+   "video_time": 110.967,
+   "race_time": 105.0,
+   "ready": 111.503,
+   "line": "선두는 10번 정상히어로. 이어서 1번, 2번.",
+   "statements": [
+    1,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 1,
+     "gap": 0.5884
+    }
+   ],
+   "late_at_start": 0.026,
+   "work_seconds": 0.51,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.53,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.35,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 7.78,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 114.419,
+   "delay": 0.536
+  },
+  {
+   "kind": "point",
+   "video_time": 113.967,
+   "race_time": 108.0,
+   "ready": 114.469,
+   "line": "선두는 10번 정상히어로. 이어서 2번.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 10,
+     "behind": 2,
+     "gap": 0.6137
+    }
+   ],
+   "late_at_start": 0.02,
+   "work_seconds": 0.482,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 1.46,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.13,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 117.419,
+   "delay": 0.502
+  },
+  {
+   "kind": "point",
+   "video_time": 116.967,
+   "race_time": 111.0,
+   "ready": 117.469,
+   "line": "여전히 선두는 10번 정상히어로. 그 뒤로 2번.",
+   "statements": [
+    10
+   ],
+   "leader": 10,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.037,
+   "work_seconds": 0.465,
+   "finish_stretch": true,
+   "leader_strip_model": 10,
+   "group5": [
+    {
+     "number": 10,
+     "gap_m": 2.2,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.09,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     10
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 120.357,
+   "delay": 0.502
+  },
+  {
+   "kind": "point",
+   "video_time": 119.967,
+   "race_time": 114.0,
+   "ready": 120.407,
+   "line": "선두권은 앞에서부터 2번.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.439,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 6.39,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ]
+   ],
+   "shown_until": 120.755,
+   "delay": 0.44
+  },
+  {
+   "kind": "finish",
+   "video_time": 120.733,
+   "race_time": 114.77,
+   "ready": 120.805,
+   "line": "결승선 통과! 10번 정상히어로가 가장 먼저 들어옵니다!",
+   "winner": 10,
+   "winner_call": {
+    "candidate": 10,
+    "pictures_naming_each": {
+     "10": 7,
+     "1": 2,
+     "11": 1
+    },
+    "seen": 3,
+    "front": 3,
+    "pictures_in_the_last_6s": 24
+   },
+   "finish_video_time": 119.517,
+   "seconds_after_the_finish": 1.29,
+   "work_seconds": 0.0,
+   "shown_until": 126.755,
+   "delay": 0.072
+  }
+ ]
+}

@@ -1,0 +1,1256 @@
+{
+ "video": "otherday28/videos/R03_v_Nw1HUa92A.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 3,
+  "distance": 1300,
+  "runners": [
+   {
+    "number": 1,
+    "name": "걸작티아라"
+   },
+   {
+    "number": 2,
+    "name": "동백"
+   },
+   {
+    "number": 3,
+    "name": "피어나리"
+   },
+   {
+    "number": 4,
+    "name": "어디든지"
+   },
+   {
+    "number": 5,
+    "name": "마이티크리스"
+   },
+   {
+    "number": 6,
+    "name": "순간의파이터"
+   },
+   {
+    "number": 7,
+    "name": "퀸아비게일"
+   },
+   {
+    "number": 8,
+    "name": "블랙페페"
+   },
+   {
+    "number": 9,
+    "name": "핫피버"
+   },
+   {
+    "number": 10,
+    "name": "스톰크러시"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 16.383333333333333,
+  "finish": 97.417,
+  "expected_seconds": 82.5
+ },
+ "frames_read": 6100,
+ "lines": 27,
+ "delay_seconds": {
+  "median": 0.26,
+  "max": 0.663
+ },
+ "furthest_behind_seconds": 0.648,
+ "dense_pictures": {
+  "run": 61,
+  "skipped_when_behind": 8
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 17.417,
+   "race_time": 1.03,
+   "ready": 17.418,
+   "line": "서울 3경주 1300m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 23.368,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 25.383,
+   "race_time": 9.0,
+   "ready": 25.844,
+   "line": "1300m 경주, 출발 후 9초입니다.",
+   "statements": [
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.46,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 28.916,
+   "delay": 0.461
+  },
+  {
+   "kind": "point",
+   "video_time": 28.383,
+   "race_time": 12.0,
+   "ready": 28.966,
+   "line": "서울 3경주 1300m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.581,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 31.736,
+   "delay": 0.583
+  },
+  {
+   "kind": "point",
+   "video_time": 31.383,
+   "race_time": 15.0,
+   "ready": 31.786,
+   "line": "1번 걸작티아라가 선두입니다. 그 뒤로 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.5045
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.401,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 0.81,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.44,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 7.9,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 34.584,
+   "delay": 0.403
+  },
+  {
+   "kind": "point",
+   "video_time": 34.383,
+   "race_time": 18.0,
+   "ready": 34.634,
+   "line": "1번 걸작티아라, 계속 선두입니다. 그 뒤로 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.5319
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 0.37,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 0.61,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.43,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 37.593,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 37.383,
+   "race_time": 21.0,
+   "ready": 37.643,
+   "line": "여전히 선두는 1번 걸작티아라. 그 뒤로 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.589
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.34,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 1.81,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.99,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 40.606,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 40.383,
+   "race_time": 24.0,
+   "ready": 40.656,
+   "line": "1번 걸작티아라, 계속 선두입니다. 그 뒤로 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.729
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 0.92,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.17,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.48,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 43.586,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 43.383,
+   "race_time": 27.0,
+   "ready": 43.636,
+   "line": "선두는 1번 걸작티아라. 이어서 2번과 9번 나란히.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.5312
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.1,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 1.75,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.28,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 46.59,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 46.383,
+   "race_time": 30.0,
+   "ready": 46.64,
+   "line": "선두는 1번 걸작티아라. 이어서 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.3541
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.85,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 1.85,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.73,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 49.598,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 49.383,
+   "race_time": 33.0,
+   "ready": 49.648,
+   "line": "앞에서부터 2번, 9번.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.5939
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.264,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.33,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.49,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 52.607,
+   "delay": 0.265
+  },
+  {
+   "kind": "point",
+   "video_time": 52.383,
+   "race_time": 36.0,
+   "ready": 52.657,
+   "line": "선두권은 앞에서부터 2번과 9번 나란히.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.76,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.82,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 55.576,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 55.383,
+   "race_time": 39.0,
+   "ready": 55.626,
+   "line": "앞에서부터 2번과 9번 나란히, 6번과 3번 나란히.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.4896
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.41,
+     "source": "carried"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.71,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.8,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.42,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     9
+    ],
+    [
+     6,
+     3
+    ]
+   ],
+   "shown_until": 58.637,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 58.383,
+   "race_time": 42.0,
+   "ready": 58.687,
+   "line": "1번 걸작티아라가 선두입니다. 그 뒤로 2번과 9번 나란히.",
+   "statements": [
+    1,
+    2,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.3799
+    },
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.708
+    },
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.3281
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.302,
+   "finish_stretch": false,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.44,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 1.79,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.62,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 61.586,
+   "delay": 0.304
+  },
+  {
+   "kind": "point",
+   "video_time": 61.383,
+   "race_time": 45.0,
+   "ready": 61.636,
+   "line": "선두권은 앞에서부터 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 7.71,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 64.602,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 64.4,
+   "race_time": 48.02,
+   "ready": 64.652,
+   "line": "선두는 1번 걸작티아라. 이어서 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.4
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.86,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.51,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 67.598,
+   "delay": 0.252
+  },
+  {
+   "kind": "point",
+   "video_time": 67.4,
+   "race_time": 51.02,
+   "ready": 67.648,
+   "line": "앞에서부터 9번, 3번.",
+   "statements": [
+    1,
+    2,
+    9,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.6998
+    },
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.6946
+    },
+    {
+     "ahead": 11,
+     "behind": 2,
+     "gap": 0.6305
+    },
+    {
+     "ahead": 11,
+     "behind": 9,
+     "gap": 0.6253
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 1.35,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.19,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 8.91,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 70.596,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 70.4,
+   "race_time": 54.02,
+   "ready": 70.646,
+   "line": "선두권은 앞에서부터 2번과 9번 나란히.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 2.26,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.63,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 73.601,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 73.4,
+   "race_time": 57.02,
+   "ready": 73.651,
+   "line": "선두는 1번 걸작티아라. 이어서 2번과 9번 나란히.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.63,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.46,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 76.603,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 76.4,
+   "race_time": 60.02,
+   "ready": 76.653,
+   "line": "선두는 1번 걸작티아라. 이어서 2번, 9번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.6803
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.44,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 1.79,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.16,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 79.599,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 79.4,
+   "race_time": 63.02,
+   "ready": 79.649,
+   "line": "선두는 1번 걸작티아라. 이어서 2번과 9번 나란히, 6번.",
+   "statements": [
+    1,
+    2
+   ],
+   "leader": 1,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.742
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 1.98,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.68,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 9.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 82.579,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 82.383,
+   "race_time": 66.0,
+   "ready": 82.629,
+   "line": "선두는 1번 걸작티아라. 이어서 2번, 9번, 3번.",
+   "statements": [
+    1,
+    2,
+    9
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 2,
+     "gap": 0.8158
+    },
+    {
+     "ahead": 1,
+     "behind": 9,
+     "gap": 0.8278
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.245,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 2.78,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.01,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 12.12,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 85.616,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 85.383,
+   "race_time": 69.0,
+   "ready": 85.666,
+   "line": "앞에서부터 2번과 9번 나란히.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.065,
+   "work_seconds": 0.218,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 3.62,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 4.44,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     9
+    ]
+   ],
+   "shown_until": 88.61,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 88.383,
+   "race_time": 72.0,
+   "ready": 88.66,
+   "line": "선두권은 앞에서부터 9번, 2번.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.058,
+   "work_seconds": 0.218,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 4.04,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.3,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 91.816,
+   "delay": 0.277
+  },
+  {
+   "kind": "point",
+   "video_time": 91.383,
+   "race_time": 75.0,
+   "ready": 91.866,
+   "line": "앞에서부터 2번.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.274,
+   "work_seconds": 0.208,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 6.3,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ]
+   ],
+   "shown_until": 94.948,
+   "delay": 0.483
+  },
+  {
+   "kind": "point",
+   "video_time": 94.383,
+   "race_time": 78.0,
+   "ready": 94.998,
+   "line": "9번 핫피버가 선두입니다. 그 뒤로 7번.",
+   "statements": [
+    7,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 9,
+     "behind": 7,
+     "gap": 0.5687
+    }
+   ],
+   "late_at_start": 0.145,
+   "work_seconds": 0.469,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.71,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 12.45,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 97.996,
+   "delay": 0.615
+  },
+  {
+   "kind": "point",
+   "video_time": 97.383,
+   "race_time": 81.0,
+   "ready": 98.046,
+   "line": "9번 핫피버가 선두입니다.",
+   "statements": [
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.163,
+   "work_seconds": 0.499,
+   "finish_stretch": true,
+   "leader_strip_model": 9,
+   "group5": [],
+   "said_order": [
+    [
+     9
+    ]
+   ],
+   "shown_until": 98.816,
+   "delay": 0.663
+  },
+  {
+   "kind": "finish",
+   "video_time": 98.633,
+   "race_time": 82.25,
+   "ready": 98.866,
+   "line": "결승선 통과! 9번 핫피버가 가장 먼저 들어옵니다!",
+   "winner": 9,
+   "winner_call": {
+    "candidate": 9,
+    "pictures_naming_each": {
+     "9": 14,
+     "7": 1
+    },
+    "seen": 8,
+    "front": 8,
+    "pictures_in_the_last_6s": 25
+   },
+   "finish_video_time": 97.417,
+   "seconds_after_the_finish": 1.45,
+   "work_seconds": 0.001,
+   "shown_until": 104.816,
+   "delay": 0.233
+  }
+ ]
+}

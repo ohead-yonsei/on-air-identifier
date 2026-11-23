@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 6,
+ "distance": 1700,
+ "runners": [
+  {
+   "number": 1,
+   "name": "빅토리시크릿"
+  },
+  {
+   "number": 2,
+   "name": "클러치월드"
+  },
+  {
+   "number": 3,
+   "name": "투어킹"
+  },
+  {
+   "number": 4,
+   "name": "내게로와줘"
+  },
+  {
+   "number": 5,
+   "name": "스톰라이트"
+  },
+  {
+   "number": 6,
+   "name": "학산대세"
+  },
+  {
+   "number": 7,
+   "name": "내길의여정"
+  },
+  {
+   "number": 8,
+   "name": "위드디스쿠로"
+  },
+  {
+   "number": 9,
+   "name": "블랙러시안"
+  },
+  {
+   "number": 10,
+   "name": "화랑산정기"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

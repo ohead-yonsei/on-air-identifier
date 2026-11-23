@@ -1,0 +1,1981 @@
+{
+ "video": "otherday28/videos/R08_RoxUt3doYMk.mp4",
+ "racecard": {
+  "date": "2026-10-25",
+  "place": "서울",
+  "race": 8,
+  "distance": 1800,
+  "runners": [
+   {
+    "number": 1,
+    "name": "별콩"
+   },
+   {
+    "number": 2,
+    "name": "글로리시티"
+   },
+   {
+    "number": 3,
+    "name": "홀리데이참"
+   },
+   {
+    "number": 4,
+    "name": "럭키붐"
+   },
+   {
+    "number": 5,
+    "name": "파워에치드"
+   },
+   {
+    "number": 6,
+    "name": "창조의아침"
+   },
+   {
+    "number": 7,
+    "name": "피프티나인킹"
+   },
+   {
+    "number": 8,
+    "name": "아모스골드"
+   },
+   {
+    "number": 9,
+    "name": "남산무적"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 15.966666666666667,
+  "finish": 136.0,
+  "expected_seconds": 118.8
+ },
+ "frames_read": 8415,
+ "lines": 40,
+ "delay_seconds": {
+  "median": 0.249,
+  "max": 0.693
+ },
+ "furthest_behind_seconds": 0.679,
+ "dense_pictures": {
+  "run": 69,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 17.067,
+   "race_time": 1.1,
+   "ready": 17.068,
+   "line": "서울 8경주 1800m, 9두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 23.018,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 24.983,
+   "race_time": 9.02,
+   "ready": 25.303,
+   "line": "선두권은 앞에서부터 3번과 5번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.319,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.74,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.01,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 2.41,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5,
+     6
+    ]
+   ],
+   "shown_until": 28.201,
+   "delay": 0.32
+  },
+  {
+   "kind": "point",
+   "video_time": 27.983,
+   "race_time": 12.02,
+   "ready": 28.251,
+   "line": "앞에서부터 5번과 3번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3072
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.266,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.7,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.03,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.21,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     3,
+     6
+    ]
+   ],
+   "shown_until": 31.217,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 30.983,
+   "race_time": 15.02,
+   "ready": 31.267,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 2번, 6번.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.5322
+    },
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.2978
+    },
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.2344
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.282,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 0.82,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.15,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.48,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     2
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 34.155,
+   "delay": 0.284
+  },
+  {
+   "kind": "point",
+   "video_time": 33.967,
+   "race_time": 18.0,
+   "ready": 34.205,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 2번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.4096
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.82,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 1.85,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.14,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.1,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "shown_until": 37.159,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 36.967,
+   "race_time": 21.0,
+   "ready": 37.209,
+   "line": "3번 홀리데이참, 계속 선두입니다. 그 뒤로 5번, 2번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.2512
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.19,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.83,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.37,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.65,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "shown_until": 40.189,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 39.967,
+   "race_time": 24.0,
+   "ready": 40.239,
+   "line": "선두는 3번 홀리데이참. 이어서 5번과 2번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.4076
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 4.25,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.81,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.89,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "shown_until": 43.17,
+   "delay": 0.272
+  },
+  {
+   "kind": "point",
+   "video_time": 42.967,
+   "race_time": 27.0,
+   "ready": 43.22,
+   "line": "선두는 3번 홀리데이참. 이어서 5번과 2번과 6번 나란히.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 2,
+     "gap": 0.8055
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.252,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.18,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.76,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.91,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.39,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     2,
+     6
+    ]
+   ],
+   "shown_until": 46.152,
+   "delay": 0.253
+  },
+  {
+   "kind": "point",
+   "video_time": 45.967,
+   "race_time": 30.0,
+   "ready": 46.202,
+   "line": "선두는 3번 홀리데이참. 이어서 5번, 2번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6133
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.26,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.58,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.91,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 49.421,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 48.967,
+   "race_time": 33.0,
+   "ready": 49.471,
+   "line": "선두는 3번 홀리데이참. 이어서 5번과 2번 나란히.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.503,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 5.33,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.1,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.82,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "shown_until": 52.147,
+   "delay": 0.504
+  },
+  {
+   "kind": "point",
+   "video_time": 51.967,
+   "race_time": 36.0,
+   "ready": 52.197,
+   "line": "선두는 7번 피프티나인킹. 이어서 4번.",
+   "statements": [
+    7
+   ],
+   "leader": 7,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "finish_stretch": false,
+   "leader_strip_model": 7,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 3.5,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 8.18,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     7
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 55.177,
+   "delay": 0.23
+  },
+  {
+   "kind": "point",
+   "video_time": 54.967,
+   "race_time": 39.0,
+   "ready": 55.227,
+   "line": "선두는 3번 홀리데이참.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 7.42,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ]
+   ],
+   "shown_until": 58.154,
+   "delay": 0.26
+  },
+  {
+   "kind": "point",
+   "video_time": 57.967,
+   "race_time": 42.0,
+   "ready": 58.204,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6623
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.66,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.95,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "shown_until": 61.162,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 60.967,
+   "race_time": 45.0,
+   "ready": 61.212,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 2번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5208
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.55,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.94,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 6.28,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 64.156,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 63.967,
+   "race_time": 48.0,
+   "ready": 64.206,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6025
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.14,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.76,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 67.164,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 66.967,
+   "race_time": 51.0,
+   "ready": 67.214,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 6번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.4353
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 5.08,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 7.16,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 70.172,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 69.967,
+   "race_time": 54.0,
+   "ready": 70.222,
+   "line": "선두권은 앞에서부터 6번과 5번 나란히.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.254,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 4.0,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 5.91,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6,
+     5
+    ]
+   ],
+   "shown_until": 73.155,
+   "delay": 0.255
+  },
+  {
+   "kind": "point",
+   "video_time": 72.967,
+   "race_time": 57.0,
+   "ready": 73.205,
+   "line": "선두는 3번 홀리데이참. 이어서 6번.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 3.34,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.95,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 76.165,
+   "delay": 0.238
+  },
+  {
+   "kind": "point",
+   "video_time": 75.967,
+   "race_time": 60.0,
+   "ready": 76.215,
+   "line": "앞에서부터 3번과 5번과 7번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.75,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 1.17,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.81,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.75,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5,
+     7,
+     6
+    ]
+   ],
+   "shown_until": 79.166,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 78.967,
+   "race_time": 63.0,
+   "ready": 79.216,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 7번과 1번 나란히.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.57,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.91,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.04,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     7,
+     1
+    ]
+   ],
+   "shown_until": 82.166,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 81.967,
+   "race_time": 66.0,
+   "ready": 82.216,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 7번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.7767
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.54,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.59,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.59,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 85.16,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 84.967,
+   "race_time": 69.0,
+   "ready": 85.21,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번과 7번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6636
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.16,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.34,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.61,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   "shown_until": 88.183,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 87.967,
+   "race_time": 72.0,
+   "ready": 88.233,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번과 7번과 6번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.689
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.265,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.0,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.5,
+     "source": "carried"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.33,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.79,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     7,
+     6
+    ]
+   ],
+   "shown_until": 91.191,
+   "delay": 0.266
+  },
+  {
+   "kind": "point",
+   "video_time": 90.967,
+   "race_time": 75.0,
+   "ready": 91.241,
+   "line": "3번 홀리데이참이 선두입니다. 그 뒤로 5번, 7번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6289
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.273,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.44,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.13,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 5.33,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     7
+    ]
+   ],
+   "shown_until": 94.241,
+   "delay": 0.274
+  },
+  {
+   "kind": "point",
+   "video_time": 93.967,
+   "race_time": 78.0,
+   "ready": 94.291,
+   "line": "3번 홀리데이참이 선두입니다.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3133
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.323,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 4.8,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ]
+   ],
+   "shown_until": 97.158,
+   "delay": 0.324
+  },
+  {
+   "kind": "point",
+   "video_time": 96.967,
+   "race_time": 81.0,
+   "ready": 97.208,
+   "line": "선두는 3번 홀리데이참. 이어서 5번, 1번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.8582
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.24,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 0.48,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.18,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.55,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     1
+    ]
+   ],
+   "shown_until": 100.16,
+   "delay": 0.241
+  },
+  {
+   "kind": "point",
+   "video_time": 99.967,
+   "race_time": 84.0,
+   "ready": 100.21,
+   "line": "선두는 3번 홀리데이참. 이어서 5번, 6번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.5019
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.243,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.64,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.68,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 6.28,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 103.174,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 102.967,
+   "race_time": 87.0,
+   "ready": 103.224,
+   "line": "앞에서부터 3번과 5번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.2208
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 3.62,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 4.86,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5
+    ]
+   ],
+   "shown_until": 106.166,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 105.967,
+   "race_time": 90.0,
+   "ready": 106.216,
+   "line": "선두권은 앞에서부터 3번과 5번 나란히, 6번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.2606
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.06,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.31,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.27,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 109.162,
+   "delay": 0.249
+  },
+  {
+   "kind": "point",
+   "video_time": 108.967,
+   "race_time": 93.0,
+   "ready": 109.212,
+   "line": "앞에서부터 5번과 3번과 1번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.04,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.73,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     3,
+     1
+    ]
+   ],
+   "shown_until": 112.16,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 111.967,
+   "race_time": 96.0,
+   "ready": 112.21,
+   "line": "선두권은 앞에서부터 5번과 3번과 1번 나란히, 6번.",
+   "statements": [
+    1,
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.04,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.76,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.64,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 5.69,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     3,
+     1
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 115.16,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 114.967,
+   "race_time": 99.0,
+   "ready": 115.21,
+   "line": "앞에서부터 3번과 5번과 6번과 1번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.6963
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.13,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.23,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.44,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.38,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5,
+     6,
+     1
+    ]
+   ],
+   "shown_until": 118.154,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 117.967,
+   "race_time": 102.0,
+   "ready": 118.204,
+   "line": "선두권은 앞에서부터 5번, 6번과 3번과 1번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.236,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.2,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.99,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 5.03,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 5.97,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6,
+     3,
+     1
+    ]
+   ],
+   "shown_until": 121.19,
+   "delay": 0.237
+  },
+  {
+   "kind": "point",
+   "video_time": 120.967,
+   "race_time": 105.0,
+   "ready": 121.24,
+   "line": "선두는 5번 파워에치드. 이어서 6번, 3번.",
+   "statements": [
+    3,
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.3167
+    },
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.4586
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.272,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.47,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.38,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 6.78,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 124.156,
+   "delay": 0.273
+  },
+  {
+   "kind": "point",
+   "video_time": 123.967,
+   "race_time": 108.0,
+   "ready": 124.206,
+   "line": "여전히 선두는 5번 파워에치드. 그 뒤로 6번, 3번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.2292
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.238,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.67,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 4.43,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 11.17,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 127.145,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 126.967,
+   "race_time": 111.0,
+   "ready": 127.195,
+   "line": "5번 파워에치드, 계속 선두입니다. 그 뒤로 6번, 3번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.4142
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.227,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.73,
+     "source": "now"
+    },
+    {
+     "number": 6,
+     "gap_m": 3.42,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 15.38,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 130.61,
+   "delay": 0.228
+  },
+  {
+   "kind": "point",
+   "video_time": 129.967,
+   "race_time": 114.0,
+   "ready": 130.66,
+   "line": "선두는 5번 파워에치드. 이어서 6번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 6,
+     "gap": 0.2751
+    }
+   ],
+   "late_at_start": 0.149,
+   "work_seconds": 0.544,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.77,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.96,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 133.436,
+   "delay": 0.693
+  },
+  {
+   "kind": "point",
+   "video_time": 132.967,
+   "race_time": 117.0,
+   "ready": 133.486,
+   "line": "여전히 선두는 5번 파워에치드. 그 뒤로 6번.",
+   "statements": [
+    5,
+    6
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.029,
+   "work_seconds": 0.49,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 6,
+     "gap_m": 2.77,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 11.7,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "shown_until": 136.379,
+   "delay": 0.519
+  },
+  {
+   "kind": "point",
+   "video_time": 135.967,
+   "race_time": 120.0,
+   "ready": 136.429,
+   "line": "1800m 경주, 출발 후 120초입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.023,
+   "work_seconds": 0.44,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 137.261,
+   "delay": 0.462
+  },
+  {
+   "kind": "finish",
+   "video_time": 137.217,
+   "race_time": 121.25,
+   "ready": 137.311,
+   "line": "결승선을 통과했습니다. 서울 8경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "5": 2,
+     "3": 2,
+     "6": 3,
+     "7": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 22
+   },
+   "finish_video_time": 136.0,
+   "seconds_after_the_finish": 1.31,
+   "work_seconds": 0.0,
+   "shown_until": 143.261,
+   "delay": 0.094
+  }
+ ]
+}

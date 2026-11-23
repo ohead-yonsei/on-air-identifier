@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 4,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "파워밴드"
+  },
+  {
+   "number": 2,
+   "name": "굿해피"
+  },
+  {
+   "number": 3,
+   "name": "마음하나"
+  },
+  {
+   "number": 4,
+   "name": "더선파이터"
+  },
+  {
+   "number": 5,
+   "name": "드림아너"
+  },
+  {
+   "number": 6,
+   "name": "청룡의칼"
+  },
+  {
+   "number": 7,
+   "name": "에펠탑"
+  },
+  {
+   "number": 8,
+   "name": "럭키프랭크"
+  },
+  {
+   "number": 9,
+   "name": "위즈파이터"
+  },
+  {
+   "number": 10,
+   "name": "트리스탄왕자"
+  },
+  {
+   "number": 11,
+   "name": "라온니진스키"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 4,
+ "distance": 1400,
+ "runners": [
+  {
+   "number": 1,
+   "name": "스터닝칼리버"
+  },
+  {
+   "number": 2,
+   "name": "눈이올까요"
+  },
+  {
+   "number": 3,
+   "name": "위너남촌"
+  },
+  {
+   "number": 4,
+   "name": "나스카불청객"
+  },
+  {
+   "number": 5,
+   "name": "베스트에이원"
+  },
+  {
+   "number": 6,
+   "name": "황금송"
+  },
+  {
+   "number": 7,
+   "name": "그래티튜드"
+  },
+  {
+   "number": 8,
+   "name": "한강판타스틱"
+  },
+  {
+   "number": 9,
+   "name": "안양레이저"
+  },
+  {
+   "number": 10,
+   "name": "로열호프케이"
+  },
+  {
+   "number": 11,
+   "name": "불국시대"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

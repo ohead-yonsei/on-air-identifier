@@ -1,0 +1,1673 @@
+{
+ "video": "otherday29/videos/R06_L1RkJrYn0N0.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 6,
+  "distance": 1700,
+  "runners": [
+   {
+    "number": 1,
+    "name": "빅토리시크릿"
+   },
+   {
+    "number": 2,
+    "name": "클러치월드"
+   },
+   {
+    "number": 3,
+    "name": "투어킹"
+   },
+   {
+    "number": 4,
+    "name": "내게로와줘"
+   },
+   {
+    "number": 5,
+    "name": "스톰라이트"
+   },
+   {
+    "number": 6,
+    "name": "학산대세"
+   },
+   {
+    "number": 7,
+    "name": "내길의여정"
+   },
+   {
+    "number": 8,
+    "name": "위드디스쿠로"
+   },
+   {
+    "number": 9,
+    "name": "블랙러시안"
+   },
+   {
+    "number": 10,
+    "name": "화랑산정기"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 10.1,
+  "finish": 122.7,
+  "expected_seconds": 112.2
+ },
+ "frames_read": 7617,
+ "lines": 37,
+ "delay_seconds": {
+  "median": 0.269,
+  "max": 0.66
+ },
+ "furthest_behind_seconds": 0.646,
+ "dense_pictures": {
+  "run": 64,
+  "skipped_when_behind": 14
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 11.1,
+   "race_time": 1.0,
+   "ready": 11.101,
+   "line": "서울 6경주 1700m, 10두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 17.051,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 19.1,
+   "race_time": 9.0,
+   "ready": 19.441,
+   "line": "선두권은 앞에서부터 7번과 3번과 5번과 9번 나란히.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 7,
+     "behind": 3,
+     "gap": 0.3251
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.34,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 7,
+     "gap_m": 1.14,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.32,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 2.87,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.88,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     7,
+     3,
+     5,
+     9
+    ]
+   ],
+   "shown_until": 22.318,
+   "delay": 0.341
+  },
+  {
+   "kind": "point",
+   "video_time": 22.1,
+   "race_time": 12.0,
+   "ready": 22.368,
+   "line": "앞에서부터 5번.",
+   "statements": [
+    3,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.267,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 7.04,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ]
+   ],
+   "shown_until": 25.538,
+   "delay": 0.268
+  },
+  {
+   "kind": "point",
+   "video_time": 25.1,
+   "race_time": 15.0,
+   "ready": 25.588,
+   "line": "선두권은 앞에서부터 5번, 2번.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.487,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 3.38,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.08,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 28.683,
+   "delay": 0.488
+  },
+  {
+   "kind": "point",
+   "video_time": 28.1,
+   "race_time": 18.0,
+   "ready": 28.733,
+   "line": "앞에서부터 5번.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.631,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 3.38,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ]
+   ],
+   "shown_until": 31.333,
+   "delay": 0.633
+  },
+  {
+   "kind": "point",
+   "video_time": 31.1,
+   "race_time": 21.0,
+   "ready": 31.383,
+   "line": "선두권은 앞에서부터 5번과 3번과 2번 나란히.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.2164
+    },
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.3161
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.281,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.46,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.65,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.98,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5,
+     3,
+     2
+    ]
+   ],
+   "shown_until": 34.51,
+   "delay": 0.283
+  },
+  {
+   "kind": "point",
+   "video_time": 34.1,
+   "race_time": 24.0,
+   "ready": 34.56,
+   "line": "선두는 2번 클러치월드. 이어서 3번.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.4497
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.459,
+   "finish_stretch": false,
+   "leader_strip_model": 2,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 3.04,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.86,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 37.64,
+   "delay": 0.46
+  },
+  {
+   "kind": "point",
+   "video_time": 37.1,
+   "race_time": 27.0,
+   "ready": 37.69,
+   "line": "선두는 6번 학산대세. 이어서 3번과 2번 나란히.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": 6,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.588,
+   "finish_stretch": false,
+   "leader_strip_model": 6,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 10.18,
+     "source": "carried"
+    },
+    {
+     "number": 2,
+     "gap_m": 11.34,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     6
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "shown_until": 40.59,
+   "delay": 0.59
+  },
+  {
+   "kind": "point",
+   "video_time": 40.1,
+   "race_time": 30.0,
+   "ready": 40.64,
+   "line": "서울 6경주 1700m, 출발 후 30초가 지났습니다.",
+   "statements": [
+    4,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.539,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 43.292,
+   "delay": 0.54
+  },
+  {
+   "kind": "point",
+   "video_time": 43.1,
+   "race_time": 33.0,
+   "ready": 43.342,
+   "line": "선두권은 앞에서부터 3번과 2번 나란히.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3102
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.241,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.8,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 3.41,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     2
+    ]
+   ],
+   "shown_until": 46.311,
+   "delay": 0.242
+  },
+  {
+   "kind": "point",
+   "video_time": 46.1,
+   "race_time": 36.0,
+   "ready": 46.361,
+   "line": "선두는 5번 스톰라이트. 이어서 3번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7372
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.08,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.15,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 49.286,
+   "delay": 0.261
+  },
+  {
+   "kind": "point",
+   "video_time": 49.1,
+   "race_time": 39.0,
+   "ready": 49.336,
+   "line": "앞에서부터 2번과 3번 나란히.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 2,
+     "gap_m": 4.13,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.22,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     2,
+     3
+    ]
+   ],
+   "shown_until": 52.655,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 52.1,
+   "race_time": 42.0,
+   "ready": 52.705,
+   "line": "선두권은 앞에서부터 3번과 2번 나란히.",
+   "statements": [
+    2,
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.604,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.57,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.42,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     2
+    ]
+   ],
+   "shown_until": 55.3,
+   "delay": 0.605
+  },
+  {
+   "kind": "point",
+   "video_time": 55.1,
+   "race_time": 45.0,
+   "ready": 55.35,
+   "line": "선두는 5번 스톰라이트. 이어서 2번과 3번 나란히.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.3261
+    },
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.3761
+    },
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7022
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 0.93,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.58,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.59,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "shown_until": 58.307,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 58.1,
+   "race_time": 48.0,
+   "ready": 58.357,
+   "line": "여전히 선두는 5번 스톰라이트. 그 뒤로 2번과 3번 나란히.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 3,
+     "gap": 0.2909
+    },
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.2256
+    },
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.5165
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.256,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.01,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.62,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.23,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "shown_until": 61.306,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 61.1,
+   "race_time": 51.0,
+   "ready": 61.356,
+   "line": "5번 스톰라이트, 계속 선두입니다. 그 뒤로 2번과 3번 나란히.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.3129
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.07,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.82,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.34,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "shown_until": 64.466,
+   "delay": 0.256
+  },
+  {
+   "kind": "point",
+   "video_time": 64.117,
+   "race_time": 54.02,
+   "ready": 64.516,
+   "line": "선두는 5번 스톰라이트. 이어서 3번과 2번 나란히.",
+   "statements": [
+    2,
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 2,
+     "gap": 0.5461
+    },
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.7404
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.398,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 0.98,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.76,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 2.79,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "shown_until": 67.315,
+   "delay": 0.399
+  },
+  {
+   "kind": "point",
+   "video_time": 67.117,
+   "race_time": 57.02,
+   "ready": 67.365,
+   "line": "여전히 선두는 5번 스톰라이트. 그 뒤로 3번과 2번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.6447
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.42,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.28,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 4.03,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "shown_until": 70.31,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 70.117,
+   "race_time": 60.02,
+   "ready": 70.36,
+   "line": "5번 스톰라이트가 선두입니다. 그 뒤로 3번, 2번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.6106
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.44,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.09,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 5.15,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 73.441,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 73.117,
+   "race_time": 63.02,
+   "ready": 73.491,
+   "line": "5번 스톰라이트, 계속 선두입니다. 그 뒤로 3번, 2번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.4943
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.373,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 2.0,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.39,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 8.86,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 76.606,
+   "delay": 0.374
+  },
+  {
+   "kind": "point",
+   "video_time": 76.1,
+   "race_time": 66.0,
+   "ready": 76.656,
+   "line": "선두는 5번 스톰라이트. 이어서 3번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.2904
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.554,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.51,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 1.98,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 79.286,
+   "delay": 0.556
+  },
+  {
+   "kind": "point",
+   "video_time": 79.1,
+   "race_time": 69.0,
+   "ready": 79.336,
+   "line": "앞에서부터 3번, 9번.",
+   "statements": [
+    3
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.234,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 3.28,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 5.7,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 82.283,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 82.1,
+   "race_time": 72.0,
+   "ready": 82.333,
+   "line": "5번 스톰라이트가 선두입니다. 그 뒤로 3번, 2번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 5,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 5,
+     "behind": 3,
+     "gap": 0.4354
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": false,
+   "leader_strip_model": 5,
+   "group5": [
+    {
+     "number": 5,
+     "gap_m": 1.49,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 1.71,
+     "source": "now"
+    },
+    {
+     "number": 2,
+     "gap_m": 11.02,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     5
+    ],
+    [
+     3
+    ],
+    [
+     2
+    ]
+   ],
+   "shown_until": 85.466,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 85.1,
+   "race_time": 75.0,
+   "ready": 85.516,
+   "line": "3번 투어킹이 선두입니다.",
+   "statements": [
+    3
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.414,
+   "finish_stretch": false,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.85,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ]
+   ],
+   "shown_until": 88.307,
+   "delay": 0.416
+  },
+  {
+   "kind": "point",
+   "video_time": 88.1,
+   "race_time": 78.0,
+   "ready": 88.357,
+   "line": "앞에서부터 3번, 5번.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3396
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.255,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.58,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.92,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "shown_until": 91.298,
+   "delay": 0.257
+  },
+  {
+   "kind": "point",
+   "video_time": 91.1,
+   "race_time": 81.0,
+   "ready": 91.348,
+   "line": "3번 투어킹이 선두입니다. 그 뒤로 5번과 9번 나란히.",
+   "statements": [
+    3,
+    5
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 5,
+     "gap": 0.3597
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.68,
+     "source": "now"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.6,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 3.69,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     5,
+     9
+    ]
+   ],
+   "shown_until": 94.297,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 94.1,
+   "race_time": 84.0,
+   "ready": 94.347,
+   "line": "선두권은 앞에서부터 3번과 5번 나란히, 8번.",
+   "statements": [
+    3,
+    5,
+    8
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.246,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.9,
+     "source": "carried"
+    },
+    {
+     "number": 5,
+     "gap_m": 3.6,
+     "source": "carried"
+    },
+    {
+     "number": 8,
+     "gap_m": 8.14,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     5
+    ],
+    [
+     8
+    ]
+   ],
+   "shown_until": 97.284,
+   "delay": 0.247
+  },
+  {
+   "kind": "point",
+   "video_time": 97.1,
+   "race_time": 87.0,
+   "ready": 97.334,
+   "line": "앞에서부터 3번과 9번 나란히.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.232,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 2.2,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.64,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3,
+     9
+    ]
+   ],
+   "shown_until": 100.319,
+   "delay": 0.234
+  },
+  {
+   "kind": "point",
+   "video_time": 100.1,
+   "race_time": 90.0,
+   "ready": 100.369,
+   "line": "3번 투어킹이 선두입니다. 그 뒤로 9번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.2556
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.268,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.14,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 1.38,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 103.296,
+   "delay": 0.269
+  },
+  {
+   "kind": "point",
+   "video_time": 103.1,
+   "race_time": 93.0,
+   "ready": 103.346,
+   "line": "선두권은 앞에서부터 9번과 3번 나란히.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.3132
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.29,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 2.13,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     3
+    ]
+   ],
+   "shown_until": 106.285,
+   "delay": 0.246
+  },
+  {
+   "kind": "point",
+   "video_time": 106.1,
+   "race_time": 96.0,
+   "ready": 106.335,
+   "line": "선두는 9번 블랙러시안. 이어서 3번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.3133
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.48,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 1.89,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 109.416,
+   "delay": 0.235
+  },
+  {
+   "kind": "point",
+   "video_time": 109.1,
+   "race_time": 99.0,
+   "ready": 109.466,
+   "line": "여전히 선두는 9번 블랙러시안. 그 뒤로 3번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.2699
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.364,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 1.24,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 3.31,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 112.71,
+   "delay": 0.366
+  },
+  {
+   "kind": "point",
+   "video_time": 112.1,
+   "race_time": 102.0,
+   "ready": 112.76,
+   "line": "9번 블랙러시안, 계속 선두입니다. 그 뒤로 3번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 9,
+   "leader_source": "carried",
+   "order": [],
+   "late_at_start": 0.113,
+   "work_seconds": 0.546,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.2,
+     "source": "now"
+    },
+    {
+     "number": 3,
+     "gap_m": 8.82,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9
+    ],
+    [
+     3
+    ]
+   ],
+   "shown_until": 115.609,
+   "delay": 0.66
+  },
+  {
+   "kind": "point",
+   "video_time": 115.1,
+   "race_time": 105.0,
+   "ready": 115.659,
+   "line": "선두는 3번 투어킹. 이어서 9번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": 3,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 3,
+     "behind": 9,
+     "gap": 0.4967
+    }
+   ],
+   "late_at_start": 0.033,
+   "work_seconds": 0.526,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 3,
+     "gap_m": 1.73,
+     "source": "now"
+    },
+    {
+     "number": 9,
+     "gap_m": 2.8,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     3
+    ],
+    [
+     9
+    ]
+   ],
+   "shown_until": 118.562,
+   "delay": 0.559
+  },
+  {
+   "kind": "point",
+   "video_time": 118.1,
+   "race_time": 108.0,
+   "ready": 118.612,
+   "line": "앞에서부터 9번과 3번 나란히, 10번.",
+   "statements": [
+    3,
+    9
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.033,
+   "work_seconds": 0.478,
+   "finish_stretch": true,
+   "leader_strip_model": 3,
+   "group5": [
+    {
+     "number": 9,
+     "gap_m": 2.8,
+     "source": "carried"
+    },
+    {
+     "number": 3,
+     "gap_m": 4.21,
+     "source": "carried"
+    },
+    {
+     "number": 10,
+     "gap_m": 10.52,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     9,
+     3
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 121.508,
+   "delay": 0.512
+  },
+  {
+   "kind": "point",
+   "video_time": 121.1,
+   "race_time": 111.0,
+   "ready": 121.558,
+   "line": "1700m 경주, 출발 후 111초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.008,
+   "work_seconds": 0.449,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 124.01,
+   "delay": 0.458
+  },
+  {
+   "kind": "finish",
+   "video_time": 123.917,
+   "race_time": 113.82,
+   "ready": 124.06,
+   "line": "결승선 통과! 3번 투어킹이 가장 먼저 들어옵니다!",
+   "winner": 3,
+   "winner_call": {
+    "candidate": 3,
+    "pictures_naming_each": {
+     "3": 5,
+     "8": 1
+    },
+    "seen": 3,
+    "front": 2,
+    "pictures_in_the_last_6s": 27
+   },
+   "finish_video_time": 122.7,
+   "seconds_after_the_finish": 1.36,
+   "work_seconds": 0.0,
+   "shown_until": 130.01,
+   "delay": 0.143
+  }
+ ]
+}

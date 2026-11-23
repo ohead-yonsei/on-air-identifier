@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-18",
+ "place": "서울",
+ "race": 10,
+ "distance": 1800,
+ "runners": [
+  {
+   "number": 1,
+   "name": "샤이닝로드"
+  },
+  {
+   "number": 2,
+   "name": "나이스위너"
+  },
+  {
+   "number": 3,
+   "name": "메이저크라운"
+  },
+  {
+   "number": 4,
+   "name": "블랙시대"
+  },
+  {
+   "number": 5,
+   "name": "비전파워"
+  },
+  {
+   "number": 6,
+   "name": "관악산레오"
+  },
+  {
+   "number": 7,
+   "name": "브리도시리스"
+  },
+  {
+   "number": 8,
+   "name": "이스트비치"
+  },
+  {
+   "number": 9,
+   "name": "서부챔프"
+  },
+  {
+   "number": 10,
+   "name": "정상히어로"
+  },
+  {
+   "number": 11,
+   "name": "슈퍼블루문"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

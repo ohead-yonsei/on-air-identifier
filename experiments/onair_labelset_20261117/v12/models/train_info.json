@@ -1,0 +1,42 @@
+{
+ "days": [
+  "otherday",
+  "otherday2",
+  "otherday3",
+  "otherday4",
+  "otherday5",
+  "20261115"
+ ],
+ "per_day": {
+  "otherday": {
+   "top5_samples": 9952,
+   "top5_positive": 5861,
+   "gap_samples": 11509
+  },
+  "otherday2": {
+   "top5_samples": 8339,
+   "top5_positive": 5709,
+   "gap_samples": 9607
+  },
+  "otherday3": {
+   "top5_samples": 5549,
+   "top5_positive": 3556,
+   "gap_samples": 6569
+  },
+  "otherday4": {
+   "top5_samples": 9075,
+   "top5_positive": 5477,
+   "gap_samples": 10642
+  },
+  "otherday5": {
+   "top5_samples": 9672,
+   "top5_positive": 5778,
+   "gap_samples": 11004
+  },
+  "20261115": {
+   "top5_samples": 9331,
+   "top5_positive": 5774,
+   "gap_samples": 10632
+  }
+ }
+}

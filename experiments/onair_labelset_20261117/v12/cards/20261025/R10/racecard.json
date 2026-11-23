@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-25",
+ "place": "서울",
+ "race": 10,
+ "distance": 1200,
+ "runners": [
+  {
+   "number": 1,
+   "name": "엠파이어스타"
+  },
+  {
+   "number": 3,
+   "name": "마이티허쉬"
+  },
+  {
+   "number": 4,
+   "name": "싹다나은"
+  },
+  {
+   "number": 5,
+   "name": "펀치케이"
+  },
+  {
+   "number": 6,
+   "name": "마호"
+  },
+  {
+   "number": 7,
+   "name": "호세"
+  },
+  {
+   "number": 8,
+   "name": "이끌림"
+  },
+  {
+   "number": 9,
+   "name": "문학루퍼"
+  },
+  {
+   "number": 10,
+   "name": "히어로플레임"
+  },
+  {
+   "number": 11,
+   "name": "이클립스보스"
+  }
+ ],
+ "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+}

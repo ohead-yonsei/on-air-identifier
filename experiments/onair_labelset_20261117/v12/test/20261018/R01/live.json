@@ -1,0 +1,827 @@
+{
+ "video": "otherday29/videos/R01_q4moUx0Ct1Q.mp4",
+ "racecard": {
+  "date": "2026-10-18",
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "어플리트런던"
+   },
+   {
+    "number": 2,
+    "name": "레드호스"
+   },
+   {
+    "number": 3,
+    "name": "원더플렉스"
+   },
+   {
+    "number": 4,
+    "name": "걸작윤슬"
+   },
+   {
+    "number": 5,
+    "name": "학산스마티"
+   },
+   {
+    "number": 6,
+    "name": "클레어축제"
+   },
+   {
+    "number": 7,
+    "name": "타이거챔프"
+   },
+   {
+    "number": 8,
+    "name": "고스트소닉"
+   },
+   {
+    "number": 9,
+    "name": "이안러브"
+   },
+   {
+    "number": 10,
+    "name": "세이브퀸"
+   },
+   {
+    "number": 11,
+    "name": "플라잉파티"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v12 (F2+caps2+top5) + finish-stretch leader + winner call, pattern lines",
+ "waited_for_the_wall_clock": true,
+ "clock": {
+  "start": 7.6499999999999995,
+  "finish": 70.633,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 4493,
+ "lines": 21,
+ "delay_seconds": {
+  "median": 0.27,
+  "max": 0.641
+ },
+ "furthest_behind_seconds": 0.626,
+ "dense_pictures": {
+  "run": 66,
+  "skipped_when_behind": 15
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 8.65,
+   "race_time": 1.0,
+   "ready": 8.651,
+   "line": "서울 1경주 1000m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 14.601,
+   "delay": 0.001
+  },
+  {
+   "kind": "point",
+   "video_time": 16.65,
+   "race_time": 9.0,
+   "ready": 16.967,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.315,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 20.133,
+   "delay": 0.317
+  },
+  {
+   "kind": "point",
+   "video_time": 19.65,
+   "race_time": 12.0,
+   "ready": 20.183,
+   "line": "서울 1경주 1000m, 출발 후 12초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.532,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 23.158,
+   "delay": 0.533
+  },
+  {
+   "kind": "point",
+   "video_time": 22.65,
+   "race_time": 15.0,
+   "ready": 23.208,
+   "line": "1000m 경주, 출발 후 15초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.557,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 26.216,
+   "delay": 0.558
+  },
+  {
+   "kind": "point",
+   "video_time": 25.65,
+   "race_time": 18.0,
+   "ready": 26.266,
+   "line": "서울 1경주 1000m, 출발 후 18초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.615,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 29.171,
+   "delay": 0.616
+  },
+  {
+   "kind": "point",
+   "video_time": 28.65,
+   "race_time": 21.0,
+   "ready": 29.221,
+   "line": "1000m 경주, 출발 후 21초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.57,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 31.836,
+   "delay": 0.571
+  },
+  {
+   "kind": "point",
+   "video_time": 31.65,
+   "race_time": 24.0,
+   "ready": 31.886,
+   "line": "앞에서부터 11번.",
+   "statements": [
+    1
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.235,
+   "finish_stretch": false,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 6.93,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ]
+   ],
+   "shown_until": 34.87,
+   "delay": 0.236
+  },
+  {
+   "kind": "point",
+   "video_time": 34.65,
+   "race_time": 27.0,
+   "ready": 34.92,
+   "line": "선두권은 앞에서부터 4번, 11번.",
+   "statements": [
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.269,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 2.93,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 6.26,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4
+    ],
+    [
+     11
+    ]
+   ],
+   "shown_until": 37.85,
+   "delay": 0.27
+  },
+  {
+   "kind": "point",
+   "video_time": 37.65,
+   "race_time": 30.0,
+   "ready": 37.9,
+   "line": "앞에서부터 1번, 7번과 8번과 11번 나란히.",
+   "statements": [
+    1,
+    7
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 7,
+     "gap": 0.7255
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.249,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.9,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.39,
+     "source": "now"
+    },
+    {
+     "number": 8,
+     "gap_m": 5.66,
+     "source": "now"
+    },
+    {
+     "number": 11,
+     "gap_m": 6.68,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     7,
+     8,
+     11
+    ]
+   ],
+   "shown_until": 40.851,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 40.65,
+   "race_time": 33.0,
+   "ready": 40.901,
+   "line": "1번 어플리트런던이 선두입니다. 그 뒤로 4번과 7번 나란히, 10번.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.4588
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.12,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 1.97,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 3.38,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.05,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 43.851,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 43.65,
+   "race_time": 36.0,
+   "ready": 43.901,
+   "line": "선두권은 앞에서부터 4번과 1번과 7번과 10번 나란히.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.25,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 1.32,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 1.78,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 2.99,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 4.63,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     1,
+     7,
+     10
+    ]
+   ],
+   "shown_until": 46.85,
+   "delay": 0.251
+  },
+  {
+   "kind": "point",
+   "video_time": 46.65,
+   "race_time": 39.0,
+   "ready": 46.9,
+   "line": "선두는 1번 어플리트런던. 이어서 4번과 7번 나란히, 10번.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.6794
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.248,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.44,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.84,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.11,
+     "source": "now"
+    },
+    {
+     "number": 10,
+     "gap_m": 7.17,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 49.848,
+   "delay": 0.25
+  },
+  {
+   "kind": "point",
+   "video_time": 49.65,
+   "race_time": 42.0,
+   "ready": 49.898,
+   "line": "여전히 선두는 1번 어플리트런던. 그 뒤로 4번과 7번 나란히, 10번.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": 1,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.4055
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.247,
+   "finish_stretch": true,
+   "leader_strip_model": 1,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 1.77,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 2.79,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 4.54,
+     "source": "carried"
+    },
+    {
+     "number": 10,
+     "gap_m": 6.61,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     10
+    ]
+   ],
+   "shown_until": 52.843,
+   "delay": 0.248
+  },
+  {
+   "kind": "point",
+   "video_time": 52.65,
+   "race_time": 45.0,
+   "ready": 52.893,
+   "line": "11번 플라잉파티가 선두입니다. 그 뒤로 1번, 4번과 7번 나란히.",
+   "statements": [
+    1,
+    4,
+    11
+   ],
+   "leader": 11,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 1,
+     "behind": 4,
+     "gap": 0.3239
+    },
+    {
+     "ahead": 11,
+     "behind": 1,
+     "gap": 0.4197
+    },
+    {
+     "ahead": 11,
+     "behind": 4,
+     "gap": 0.7436
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.242,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 3.07,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 5.27,
+     "source": "now"
+    },
+    {
+     "number": 7,
+     "gap_m": 6.2,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     11
+    ],
+    [
+     1
+    ],
+    [
+     4,
+     7
+    ]
+   ],
+   "shown_until": 55.845,
+   "delay": 0.243
+  },
+  {
+   "kind": "point",
+   "video_time": 55.65,
+   "race_time": 48.0,
+   "ready": 55.895,
+   "line": "선두권은 앞에서부터 11번과 1번 나란히, 4번.",
+   "statements": [
+    1,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 1,
+     "gap": 0.5836
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.244,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 11,
+     "gap_m": 2.0,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 3.63,
+     "source": "now"
+    },
+    {
+     "number": 4,
+     "gap_m": 6.03,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     11,
+     1
+    ],
+    [
+     4
+    ]
+   ],
+   "shown_until": 58.839,
+   "delay": 0.245
+  },
+  {
+   "kind": "point",
+   "video_time": 58.65,
+   "race_time": 51.0,
+   "ready": 58.889,
+   "line": "앞에서부터 1번.",
+   "statements": [
+    1,
+    11
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [
+    {
+     "ahead": 11,
+     "behind": 1,
+     "gap": 0.2238
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.237,
+   "finish_stretch": true,
+   "leader_strip_model": 11,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 7.33,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ]
+   ],
+   "shown_until": 62.077,
+   "delay": 0.239
+  },
+  {
+   "kind": "point",
+   "video_time": 61.65,
+   "race_time": 54.0,
+   "ready": 62.127,
+   "line": "선두권은 앞에서부터 4번과 1번 나란히.",
+   "statements": [
+    1,
+    4
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.023,
+   "work_seconds": 0.453,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 4,
+     "gap_m": 5.87,
+     "source": "now"
+    },
+    {
+     "number": 1,
+     "gap_m": 6.8,
+     "source": "now"
+    }
+   ],
+   "said_order": [
+    [
+     4,
+     1
+    ]
+   ],
+   "shown_until": 65.241,
+   "delay": 0.477
+  },
+  {
+   "kind": "point",
+   "video_time": 64.65,
+   "race_time": 57.0,
+   "ready": 65.291,
+   "line": "앞에서부터 1번.",
+   "statements": [
+    1,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.133,
+   "work_seconds": 0.508,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [
+    {
+     "number": 1,
+     "gap_m": 10.23,
+     "source": "carried"
+    }
+   ],
+   "said_order": [
+    [
+     1
+    ]
+   ],
+   "shown_until": 68.18,
+   "delay": 0.641
+  },
+  {
+   "kind": "point",
+   "video_time": 67.65,
+   "race_time": 60.0,
+   "ready": 68.23,
+   "line": "1000m 경주, 출발 후 60초입니다.",
+   "statements": [
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.092,
+   "work_seconds": 0.488,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 71.159,
+   "delay": 0.58
+  },
+  {
+   "kind": "point",
+   "video_time": 70.65,
+   "race_time": 63.0,
+   "ready": 71.209,
+   "line": "서울 1경주 1000m, 출발 후 63초가 지났습니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.557,
+   "finish_stretch": true,
+   "leader_strip_model": null,
+   "group5": [],
+   "said_order": [],
+   "shown_until": 71.802,
+   "delay": 0.559
+  },
+  {
+   "kind": "finish",
+   "video_time": 71.85,
+   "race_time": 64.2,
+   "ready": 71.852,
+   "line": "결승선을 통과했습니다. 서울 1경주가 끝났습니다.",
+   "winner": null,
+   "winner_call": {
+    "candidate": null,
+    "pictures_naming_each": {
+     "4": 1
+    },
+    "seen": 0,
+    "front": 0,
+    "pictures_in_the_last_6s": 23
+   },
+   "finish_video_time": 70.633,
+   "seconds_after_the_finish": 1.22,
+   "work_seconds": 0.0,
+   "shown_until": 77.802,
+   "delay": 0.002
+  }
+ ]
+}

@@ -52,3 +52,12 @@ experiments/onair_labelset_20261117/winner/explore/look_A.json
 experiments/onair_labelset_20261117/live2/raw/
 experiments/onair_labelset_20261117/live3/raw/
 experiments/onair_labelset_20261117/live4/raw/
+experiments/onair_labelset_20261117/v12/raw/
+
+# v12 dense pictures and frame times (large, rebuilt by code/v12_dense.py on the server)
+experiments/onair_labelset_20261117/v12/dense/
+experiments/onair_labelset_20261117/v12/pts/
+
+# broadcast commentary audio and its transcripts (stt1, 2026-11-23): kept out until the user decides what goes public
+experiments/onair_labelset_20261117/stt1/audio/
+experiments/onair_labelset_20261117/stt1/out/
