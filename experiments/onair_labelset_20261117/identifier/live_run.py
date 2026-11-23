@@ -1,5 +1,5 @@
 """ON-AIR live run: read a race video at its own speed and put out one line of commentary every few seconds, as a live system would.
-usage (on the server): python live_run.py --video RACE.mp4 --racecard racecard.json --out-dir OUT [--no-wait] [--no-names] [--step 3]
+usage (on the server): python live_run.py --video RACE.mp4 --racecard racecard.json --out-dir OUT [--no-wait] [--no-names] [--step 3] [--no-v12] [--no-finish-leader]
 
 What "live" means here
   - Frames are read in order and a frame of video time v is not touched before wall time T0 + v (--no-wait drops the waiting, for tests;
@@ -11,6 +11,9 @@ What "live" means here
     home straight are skipped first (counted in the output).
 
 What is said
+  - DEFAULT SINCE 2026-11-24 (the user's decision after live4/RESULT_KO.md and v12/RESULT_KO.md): identifier v12 with the finish-stretch
+    leader. --no-v12 and --no-finish-leader give the earlier default (v11 lines, strip-trained leader all the way). Scripts written before
+    2026-11-24 (live1-live4 chain.sh) assume the earlier default: their runs without --finish-leader were runs without it.
   - identifier v11 (identify_l1.py's default: fast flow, fallback, leader threshold 0.5, cap classifier caps2_a) every --step seconds
     from 9 s after the start; the lines come from fixed patterns (no language model), so writing a line takes no time.
   - at the finish: the winner call of --winner-call (most-named leader of the last 6 s, kept only when still in front in the last 2 s).
@@ -18,13 +21,13 @@ What is said
     are run as they come.
   - no line speaks of a change ("moves up", "overtakes"): comparing two time points does not show real changes (top5/RESULT_KO.md).
   - a cap of 11 or above cannot be told apart: such a number is said only when the race card has exactly one runner of 11 or above.
-  - --v12 (added 2026-11-23, v12/DESIGN_KO.md): instead of "No. 2 and No. 4 are in the leading group", the horses named in the first
+  - v12 (added 2026-11-23 as --v12, default since 2026-11-24, v12/DESIGN_KO.md): instead of "No. 2 and No. 4 are in the leading group", the horses named in the first
     five, front to back ("선두는 5번. 그 뒤로 8번, 3번과 6번 나란히."), from two models learned on official passing times. The leader line is
     unchanged; a stated leader is said first. The v11 statements are still written into each event, so both can be scored on the same points.
-  - --finish-leader (added 2026-11-23, live3/DESIGN_KO.md): from 36 s before the finish expected from the distance, the leader comes from
+  - finish-stretch leader (added 2026-11-23 as --finish-leader, default since 2026-11-24, live3/DESIGN_KO.md): from 36 s before the finish expected from the distance, the leader comes from
     the finish-stretch model learned on official passing times (identify_l1.py --v10's leader part, finish2/models/fs_leader_all.joblib).
     The finish is not known while running, so the stretch starts at expected_seconds(distance) - 36 s of race time. Statements, order and
-    the winner call are unchanged. Off by default (live2/RESULT_KO.md: leader lines 58.7 %, mostly wrong 36-12 s before the finish).
+    the winner call are unchanged. Four unused days: leader lines 79.5 % -> 84.6 %, wrong 32 -> 12 (live4/RESULT_KO.md).
 Never read: the running-order strip, the official result, the sound, the distance-to-go band.
 
 Writes OUT/live.json (every line with its times, what the identifier gave, how late the system was), OUT/live.srt and, with ffmpeg,
@@ -222,9 +225,12 @@ def main():
     ap.add_argument("--no-wait", action="store_true", help="do not wait for the wall clock (a test of the code, not a live run)")
     ap.add_argument("--no-names", action="store_true", help="say numbers only")
     ap.add_argument("--no-video", action="store_true", help="do not write the subtitled video")
-    ap.add_argument("--finish-leader", action="store_true", help="leader from the finish-stretch model in the last 36 s expected from the distance")
-    ap.add_argument("--v12", action="store_true", help="identifier v12: name the horses of the first five, front to back (v12/DESIGN_KO.md)")
+    ap.add_argument("--finish-leader", action="store_true", help="accepted for old command lines; on by default since 2026-11-24")
+    ap.add_argument("--no-finish-leader", action="store_true", help="leader from the strip-trained model all the way (the default before 2026-11-24)")
+    ap.add_argument("--v12", action="store_true", help="accepted for old command lines; on by default since 2026-11-24")
+    ap.add_argument("--no-v12", action="store_true", help="v11's leading-group lines instead of v12's first five in order (the default before 2026-11-24)")
     a = ap.parse_args()
+    a.finish_leader, a.v12 = not a.no_finish_leader, not a.no_v12     # defaults since 2026-11-24 (live4/RESULT_KO.md, v12/RESULT_KO.md; the user's decision)
     out = Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     card = json.loads(Path(a.racecard).read_text())
@@ -328,8 +334,9 @@ def main():
     if a.no_video:
         return
     d = res["delay_seconds"]["median"]
-    label = (f"화면만 보고 실시간으로 낸 자막 · 식별기 v11 + 문장 틀 · 문장마다 약 {d:.1f}초 뒤에 표시" if not a.no_wait
-             else "화면만 보고 낸 자막 · 식별기 v11 + 문장 틀 · 기다리지 않고 돌린 시험")
+    ver = "v12" if a.v12 else "v11"
+    label = (f"화면만 보고 실시간으로 낸 자막 · 식별기 {ver} + 문장 틀 · 문장마다 약 {d:.1f}초 뒤에 표시" if not a.no_wait
+             else f"화면만 보고 낸 자막 · 식별기 {ver} + 문장 틀 · 기다리지 않고 돌린 시험")
     style = "FontName=Noto Sans CJK KR,FontSize=22,PrimaryColour=&H00FFFFFF,BackColour=&H90000000,BorderStyle=4,Outline=0,Shadow=0,MarginV=28"
     vf = (f"scale=1280:-2,subtitles={out / 'live.srt'}:force_style='{style}',"
           f"drawtext=fontfile=/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc:text='{label}':x=16:y=14:fontsize=20:fontcolor=white:box=1:boxcolor=black@0.55:boxborderw=8")

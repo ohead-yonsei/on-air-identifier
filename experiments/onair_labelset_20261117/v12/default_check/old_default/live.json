@@ -1,0 +1,492 @@
+{
+ "video": "otherday24/videos/R01_QfnD4MDiB_M.mp4",
+ "racecard": {
+  "date": "2026-11-22",
+  "place": "서울",
+  "race": 1,
+  "distance": 1000,
+  "runners": [
+   {
+    "number": 1,
+    "name": "원더플렉스"
+   },
+   {
+    "number": 2,
+    "name": "어플리트런던"
+   },
+   {
+    "number": 3,
+    "name": "로드투홀인원"
+   },
+   {
+    "number": 4,
+    "name": "트라움매직"
+   },
+   {
+    "number": 5,
+    "name": "리드블루"
+   },
+   {
+    "number": 6,
+    "name": "플라잉매직"
+   },
+   {
+    "number": 7,
+    "name": "원더하트"
+   },
+   {
+    "number": 8,
+    "name": "케이피골드"
+   },
+   {
+    "number": 9,
+    "name": "정성공주"
+   },
+   {
+    "number": 10,
+    "name": "벨로체"
+   },
+   {
+    "number": 11,
+    "name": "런던플라워"
+   }
+  ],
+  "note": "number, horse name and distance as on the race card; taken from the public result sheet"
+ },
+ "configuration": "v11 (F2+caps2) + winner call, pattern lines",
+ "waited_for_the_wall_clock": false,
+ "clock": {
+  "start": 24.0,
+  "finish": 85.383,
+  "expected_seconds": 62.0
+ },
+ "frames_read": 5378,
+ "lines": 20,
+ "delay_seconds": {
+  "median": 0.233,
+  "max": 0.668
+ },
+ "furthest_behind_seconds": 0.0,
+ "dense_pictures": {
+  "run": 73,
+  "skipped_when_behind": 0
+ },
+ "events": [
+  {
+   "kind": "start",
+   "video_time": 25.0,
+   "race_time": 1.0,
+   "ready": 25.0,
+   "line": "서울 1경주 1000m, 11두가 출발했습니다.",
+   "late_at_start": 0.0,
+   "shown_until": 30.95,
+   "delay": 0.0
+  },
+  {
+   "kind": "point",
+   "video_time": 33.0,
+   "race_time": 9.0,
+   "ready": 33.668,
+   "line": "1000m 경주, 출발 후 9초입니다.",
+   "statements": [],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.668,
+   "shown_until": 36.343,
+   "delay": 0.668
+  },
+  {
+   "kind": "point",
+   "video_time": 36.0,
+   "race_time": 12.0,
+   "ready": 36.393,
+   "line": "선두권에 2번 어플리트런던이 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.393,
+   "shown_until": 39.181,
+   "delay": 0.393
+  },
+  {
+   "kind": "point",
+   "video_time": 39.0,
+   "race_time": 15.0,
+   "ready": 39.231,
+   "line": "2번 어플리트런던, 계속 선두권입니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.231,
+   "shown_until": 42.272,
+   "delay": 0.231
+  },
+  {
+   "kind": "point",
+   "video_time": 42.0,
+   "race_time": 18.0,
+   "ready": 42.322,
+   "line": "선두권은 그대로 2번 어플리트런던.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.322,
+   "shown_until": 45.221,
+   "delay": 0.322
+  },
+  {
+   "kind": "point",
+   "video_time": 45.0,
+   "race_time": 21.0,
+   "ready": 45.271,
+   "line": "2번 어플리트런던, 선두에 있습니다.",
+   "statements": [
+    2
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.271,
+   "shown_until": 48.209,
+   "delay": 0.271
+  },
+  {
+   "kind": "point",
+   "video_time": 48.0,
+   "race_time": 24.0,
+   "ready": 48.259,
+   "line": "선두권에 2번 어플리트런던, 5번 리드블루가 있습니다.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.259,
+   "shown_until": 51.183,
+   "delay": 0.259
+  },
+  {
+   "kind": "point",
+   "video_time": 51.0,
+   "race_time": 27.0,
+   "ready": 51.233,
+   "line": "2번 어플리트런던, 선두권에서 달립니다.",
+   "statements": [
+    2
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 54.175,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 54.0,
+   "race_time": 30.0,
+   "ready": 54.225,
+   "line": "2번 어플리트런던, 선두에 있습니다. 5번 리드블루도 선두권입니다.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.3061
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.225,
+   "shown_until": 57.168,
+   "delay": 0.225
+  },
+  {
+   "kind": "point",
+   "video_time": 57.0,
+   "race_time": 33.0,
+   "ready": 57.218,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 5번 리드블루.",
+   "statements": [
+    2,
+    5
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.6405
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.218,
+   "shown_until": 60.174,
+   "delay": 0.218
+  },
+  {
+   "kind": "point",
+   "video_time": 60.0,
+   "race_time": 36.0,
+   "ready": 60.224,
+   "line": "2번 어플리트런던, 선두에 있습니다. 선두권에 5번 리드블루, 10번 벨로체.",
+   "statements": [
+    2,
+    5,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.8006
+    },
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.802
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 63.183,
+   "delay": 0.224
+  },
+  {
+   "kind": "point",
+   "video_time": 63.0,
+   "race_time": 39.0,
+   "ready": 63.233,
+   "line": "2번 어플리트런던, 계속 선두입니다. 선두권에 5번 리드블루, 10번 벨로체.",
+   "statements": [
+    2,
+    5,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 5,
+     "gap": 0.4472
+    },
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.4059
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.233,
+   "shown_until": 66.174,
+   "delay": 0.233
+  },
+  {
+   "kind": "point",
+   "video_time": 66.0,
+   "race_time": 42.0,
+   "ready": 66.224,
+   "line": "2번 어플리트런던, 선두에 있습니다. 10번 벨로체도 선두권입니다.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.3813
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.224,
+   "shown_until": 69.169,
+   "delay": 0.224
+  },
+  {
+   "kind": "point",
+   "video_time": 69.0,
+   "race_time": 45.0,
+   "ready": 69.219,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "carried",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.2385
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.219,
+   "shown_until": 72.179,
+   "delay": 0.219
+  },
+  {
+   "kind": "point",
+   "video_time": 72.0,
+   "race_time": 48.0,
+   "ready": 72.229,
+   "line": "2번 어플리트런던, 계속 선두입니다. 선두권에 10번 벨로체.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.3667
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.229,
+   "shown_until": 75.149,
+   "delay": 0.229
+  },
+  {
+   "kind": "point",
+   "video_time": 75.0,
+   "race_time": 51.0,
+   "ready": 75.199,
+   "line": "여전히 선두는 2번 어플리트런던. 선두권에 10번 벨로체.",
+   "statements": [
+    2,
+    10
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 10,
+     "gap": 0.2718
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.199,
+   "shown_until": 78.515,
+   "delay": 0.199
+  },
+  {
+   "kind": "point",
+   "video_time": 78.0,
+   "race_time": 54.0,
+   "ready": 78.565,
+   "line": "2번 어플리트런던이 선두입니다. 선두권에 9번 정성공주.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 2,
+   "leader_source": "now",
+   "order": [
+    {
+     "ahead": 2,
+     "behind": 9,
+     "gap": 0.4461
+    }
+   ],
+   "late_at_start": 0.0,
+   "work_seconds": 0.565,
+   "shown_until": 81.476,
+   "delay": 0.565
+  },
+  {
+   "kind": "point",
+   "video_time": 81.0,
+   "race_time": 57.0,
+   "ready": 81.526,
+   "line": "선두는 10번 벨로체. 선두권에 2번 어플리트런던, 9번 정성공주.",
+   "statements": [
+    2,
+    9
+   ],
+   "leader": 10,
+   "leader_source": "now",
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.526,
+   "shown_until": 84.4,
+   "delay": 0.526
+  },
+  {
+   "kind": "point",
+   "video_time": 84.0,
+   "race_time": 60.0,
+   "ready": 84.45,
+   "line": "9번 정성공주, 10번 벨로체, 선두권에서 달립니다.",
+   "statements": [
+    9,
+    10
+   ],
+   "leader": null,
+   "leader_source": null,
+   "order": [],
+   "late_at_start": 0.0,
+   "work_seconds": 0.45,
+   "shown_until": 86.55,
+   "delay": 0.45
+  },
+  {
+   "kind": "finish",
+   "video_time": 86.6,
+   "race_time": 62.6,
+   "ready": 86.6,
+   "line": "결승선 통과! 10번 벨로체가 가장 먼저 들어옵니다!",
+   "winner": 10,
+   "winner_call": {
+    "candidate": 10,
+    "pictures_naming_each": {
+     "10": 7,
+     "7": 1,
+     "1": 1
+    },
+    "seen": 2,
+    "front": 2,
+    "pictures_in_the_last_6s": 30
+   },
+   "finish_video_time": 85.383,
+   "seconds_after_the_finish": 1.22,
+   "work_seconds": 0.0,
+   "shown_until": 92.55,
+   "delay": 0.0
+  }
+ ]
+}
